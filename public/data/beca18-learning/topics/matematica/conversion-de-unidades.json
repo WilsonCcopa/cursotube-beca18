@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/conversion-de-unidades",
+  "course": "matematica",
+  "slug": "conversion-de-unidades",
+  "title": "Longitud y tiempo: conversión de unidades",
+  "description": "Conecta prefijos, duraciones y escalas para resolver situaciones sin perder las unidades.",
+  "version": 1,
+  "order": 26,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Convertir longitudes y tiempos con factores equivalentes.",
+    "Distinguir tiempo decimal de horas y minutos.",
+    "Resolver escalas y conversiones encadenadas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una cantidad, distintas unidades",
+      "body": [
+        "Medir es comparar con una unidad. Un metro y cien centímetros representan la misma longitud: 1 m = 100 cm. El número cambia porque cambia el tamaño de la unidad.",
+        "En longitud: 1 km = 1000 m; 1 m = 10 dm = 100 cm = 1000 mm. Ir a una unidad menor aumenta el número; ir a una unidad mayor lo reduce.",
+        "Escribe la unidad en cada paso: 2,4 m × (100 cm/1 m) = 240 cm. Los metros se cancelan porque el factor vale uno."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-01"
+    },
+    {
+      "type": "example",
+      "title": "De kilómetros a metros",
+      "body": [
+        "Una ruta mide 3,65 km. Como cada kilómetro tiene 1000 m: 3,65 × 1000 = 3650.",
+        "La ruta mide 3650 m. El valor numérico aumentó porque un metro es más pequeño que un kilómetro; la longitud física no cambió."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-02"
+    },
+    {
+      "type": "learn",
+      "title": "Prefijos y orden decimal",
+      "body": [
+        "kilo significa mil unidades; centi, una centésima; mili, una milésima. No necesitas memorizar movimientos de coma sin entender la equivalencia.",
+        "Para pasar 750 mm a metros divides entre 1000: 0,75 m. Para pasar 0,75 m a centímetros multiplicas por 100: 75 cm."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-03"
+    },
+    {
+      "type": "question",
+      "title": "Una cinta",
+      "body": [],
+      "prompt": "¿Cuántos centímetros hay en 2,8 m?",
+      "choices": [
+        {
+          "text": "28 cm",
+          "explanation": "Eso correspondería a multiplicar por 10; cada metro tiene 100 cm."
+        },
+        {
+          "text": "280 cm",
+          "explanation": "2,8 × 100 = 280."
+        },
+        {
+          "text": "2800 cm",
+          "explanation": "Multiplicar por 1000 convertiría metros a milímetros."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa 1 m = 100 cm.",
+      "solution": [
+        "2,8 m × 100 cm/m = 280 cm."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-04"
+    },
+    {
+      "type": "question",
+      "title": "Un tornillo",
+      "body": [],
+      "prompt": "Una pieza mide 45 mm. ¿Cuánto mide en centímetros?",
+      "choices": [
+        {
+          "text": "4,5 cm",
+          "explanation": "Cada centímetro contiene 10 mm; 45/10 = 4,5."
+        },
+        {
+          "text": "450 cm",
+          "explanation": "Cambiar a una unidad mayor debe reducir el número."
+        },
+        {
+          "text": "0,045 cm",
+          "explanation": "Ese valor corresponde a 45 mm expresados en metros, no en centímetros."
+        }
+      ],
+      "correct": 0,
+      "hint": "Un centímetro equivale a diez milímetros.",
+      "solution": [
+        "45 mm ÷ 10 = 4,5 cm."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-05"
+    },
+    {
+      "type": "question",
+      "title": "Un recorrido",
+      "body": [],
+      "prompt": "¿Cuál longitud equivale a 0,72 km?",
+      "choices": [
+        {
+          "text": "72 m",
+          "explanation": "Un kilómetro tiene 1000 m, no 100."
+        },
+        {
+          "text": "7200 m",
+          "explanation": "El factor es 1000, no 10 000."
+        },
+        {
+          "text": "720 m",
+          "explanation": "0,72 × 1000 = 720."
+        }
+      ],
+      "correct": 2,
+      "hint": "La ruta mide menos de un kilómetro, así que debe ser menor que mil metros.",
+      "solution": [
+        "0,72 km = 720 m."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-06"
+    },
+    {
+      "type": "question",
+      "title": "Compara sin mezclar unidades",
+      "body": [],
+      "prompt": "¿Cuál es mayor: 1,2 m o 115 cm?",
+      "choices": [
+        {
+          "text": "1,2 m",
+          "explanation": "1,2 m = 120 cm y 120 > 115."
+        },
+        {
+          "text": "115 cm",
+          "explanation": "El número 115 es mayor, pero su unidad es cien veces menor que el metro."
+        },
+        {
+          "text": "Son iguales",
+          "explanation": "120 cm y 115 cm difieren en 5 cm."
+        }
+      ],
+      "correct": 0,
+      "hint": "Expresa ambas medidas en centímetros.",
+      "solution": [
+        "1,2 × 100 = 120 cm.",
+        "120 cm supera a 115 cm."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-07"
+    },
+    {
+      "type": "review",
+      "title": "El número solo no basta",
+      "body": [
+        "Siempre escribe la unidad. Comparar 2 y 150 sin unidades puede inducir un error: 2 m son más que 150 cm.",
+        "Verifica la dirección: una unidad de destino más pequeña exige más unidades. El factor de conversión debe cancelar la unidad inicial y dejar la pedida."
+      ],
+      "level": 1,
+      "id": "conversion-de-unidades-08"
+    },
+    {
+      "type": "learn",
+      "title": "El tiempo no usa solo base diez",
+      "body": [
+        "1 hora = 60 minutos y 1 minuto = 60 segundos. Un día tiene 24 horas. Aquí no se convierte usando 100.",
+        "Media hora equivale a 30 minutos, así que 1,5 h significa 1 h 30 min. En cambio, 1 h 50 min equivale a 1 + 50/60 horas, no a 1,50 h."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-09"
+    },
+    {
+      "type": "example",
+      "title": "Descompón una duración",
+      "body": [
+        "Una actividad dura 135 minutos. Divide entre 60: 135 = 2 × 60 + 15.",
+        "Son 2 horas y 15 minutos. En horas decimales, 135/60 = 2,25 h. Los 0,25 h representan 15 min, no 25 min."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-10"
+    },
+    {
+      "type": "learn",
+      "title": "Duraciones y reloj",
+      "body": [
+        "Para restar horarios, puedes pasar todo a minutos desde el inicio del día. De 8:45 a 10:20: 620 − 525 = 95 min.",
+        "Si el periodo cruza medianoche, suma las horas hasta las 24:00 y luego las que siguen desde las 00:00. No restes las cifras del reloj como si fueran decimales."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-11"
+    },
+    {
+      "type": "question",
+      "title": "Horas decimales",
+      "body": [],
+      "prompt": "¿Cuántos minutos son 2,4 horas?",
+      "choices": [
+        {
+          "text": "124",
+          "explanation": "Interpreta 0,4 h como 4 min; en realidad son 24 min."
+        },
+        {
+          "text": "144",
+          "explanation": "2,4 × 60 = 144 min."
+        },
+        {
+          "text": "240",
+          "explanation": "Se usó base 100 en lugar de 60."
+        }
+      ],
+      "correct": 1,
+      "hint": "Multiplica el total de horas por 60.",
+      "solution": [
+        "2 h son 120 min.",
+        "0,4 h son 24 min; total 144 min."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-12"
+    },
+    {
+      "type": "question",
+      "title": "Minutos y segundos",
+      "body": [],
+      "prompt": "¿Cuántos segundos hay en 3 minutos y 20 segundos?",
+      "choices": [
+        {
+          "text": "320",
+          "explanation": "Minutos y segundos no se concatenan."
+        },
+        {
+          "text": "180",
+          "explanation": "Falta añadir los 20 segundos."
+        },
+        {
+          "text": "200",
+          "explanation": "3 × 60 + 20 = 200."
+        }
+      ],
+      "correct": 2,
+      "hint": "Convierte primero los tres minutos.",
+      "solution": [
+        "3 min = 180 s.",
+        "180 + 20 = 200 s."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-13"
+    },
+    {
+      "type": "question",
+      "title": "Una sesión de estudio",
+      "body": [],
+      "prompt": "Una sesión empieza a las 9:35 y termina a las 11:10. ¿Cuánto dura?",
+      "choices": [
+        {
+          "text": "1 h 35 min",
+          "explanation": "De 9:35 a 10:35 hay una hora, y luego 35 minutos."
+        },
+        {
+          "text": "1 h 75 min",
+          "explanation": "Esa resta trata el reloj como si fuera decimal; además 75 min supera una hora."
+        },
+        {
+          "text": "2 h 25 min",
+          "explanation": "El final está menos de dos horas después del inicio."
+        }
+      ],
+      "correct": 0,
+      "hint": "Puedes sumar hasta las 10:00 y después hasta las 11:10.",
+      "solution": [
+        "De 9:35 a 10:00: 25 min.",
+        "De 10:00 a 11:10: 70 min.",
+        "Total 95 min = 1 h 35 min."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-14"
+    },
+    {
+      "type": "question",
+      "title": "Cruza la medianoche",
+      "body": [],
+      "prompt": "Un traslado comienza a las 23:40 y termina a las 00:25 del día siguiente. ¿Cuánto dura?",
+      "choices": [
+        {
+          "text": "85 min",
+          "explanation": "Se interpretaron las cifras sin considerar el cambio de día."
+        },
+        {
+          "text": "45 min",
+          "explanation": "Faltan 20 min para medianoche y después pasan 25 min."
+        },
+        {
+          "text": "−23 h 15 min",
+          "explanation": "Una duración no es negativa; falta considerar el día siguiente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Separa el recorrido en dos tramos: antes y después de las 00:00.",
+      "solution": [
+        "23:40 a 24:00: 20 min.",
+        "00:00 a 00:25: 25 min.",
+        "Duración: 45 min."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-15"
+    },
+    {
+      "type": "review",
+      "title": "La parte decimal es una fracción de hora",
+      "body": [
+        "Para convertir 2 h 18 min a horas decimales calcula 2 + 18/60 = 2,3 h. Para hacer el camino inverso, multiplica la parte decimal por 60.",
+        "En una duración que atraviesa medianoche identifica explícitamente el día siguiente. Usa minutos totales para evitar préstamos de cifras confusos."
+      ],
+      "level": 2,
+      "id": "conversion-de-unidades-16"
+    },
+    {
+      "type": "learn",
+      "title": "Una escala conserva proporciones",
+      "body": [
+        "En un plano 1:500, cada unidad del dibujo corresponde a 500 unidades reales de la misma clase. Si mides 3 cm en el plano, la longitud real es 1500 cm = 15 m.",
+        "No mezcles centímetros del plano y metros reales sin convertir. La escala es una razón entre longitudes expresadas en unidades iguales."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-17"
+    },
+    {
+      "type": "example",
+      "title": "Combina distancia y duración",
+      "body": [
+        "Una persona recorre 1,8 km en 15 min a rapidez constante. En metros por minuto: 1800/15 = 120 m/min.",
+        "Como 60 min = 1 h, recorre 120 × 60 = 7200 m/h = 7,2 km/h. La unidad de tiempo y la de longitud deben convertirse ambas."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-18"
+    },
+    {
+      "type": "learn",
+      "title": "Unidades cuadradas y cúbicas",
+      "body": [
+        "Las conversiones de longitud se elevan al cuadrado para áreas y al cubo para volúmenes. Como 1 m = 100 cm, 1 m² = 10 000 cm² y 1 m³ = 1 000 000 cm³.",
+        "No uses el factor 100 para convertir metros cuadrados a centímetros cuadrados. Piensa en una cuadrícula de 100 por 100 o en un cubo de 100 por 100 por 100."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-19"
+    },
+    {
+      "type": "question",
+      "title": "Del plano al terreno",
+      "body": [],
+      "prompt": "En una escala 1:200, un pasillo mide 4,5 cm en el dibujo. ¿Cuál es su longitud real?",
+      "choices": [
+        {
+          "text": "9 m",
+          "explanation": "4,5 × 200 = 900 cm = 9 m."
+        },
+        {
+          "text": "900 m",
+          "explanation": "Falta convertir los 900 cm resultantes a metros."
+        },
+        {
+          "text": "0,0225 m",
+          "explanation": "Dividir daría la medida del dibujo a partir de la real, no este caso."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica por la escala sin cambiar la unidad hasta el final.",
+      "solution": [
+        "4,5 cm × 200 = 900 cm.",
+        "900 cm = 9 m."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-20"
+    },
+    {
+      "type": "question",
+      "title": "Rapidez en otra unidad",
+      "body": [],
+      "prompt": "¿A cuántos metros por segundo equivalen 36 km/h?",
+      "choices": [
+        {
+          "text": "129,6 m/s",
+          "explanation": "Se multiplicó por 3,6; para km/h a m/s se divide."
+        },
+        {
+          "text": "10 m/s",
+          "explanation": "36 000 m / 3600 s = 10 m/s."
+        },
+        {
+          "text": "0,01 m/s",
+          "explanation": "Se cambió el tiempo sin convertir kilómetros a metros."
+        }
+      ],
+      "correct": 1,
+      "hint": "Una hora tiene 3600 segundos.",
+      "solution": [
+        "36 km = 36 000 m.",
+        "36 000/3600 = 10 m/s."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-21"
+    },
+    {
+      "type": "question",
+      "title": "Área y factor cuadrado",
+      "body": [],
+      "prompt": "¿Cuántos centímetros cuadrados son 0,3 m²?",
+      "choices": [
+        {
+          "text": "30 cm²",
+          "explanation": "El factor 100 corresponde a longitud, no a área."
+        },
+        {
+          "text": "300 cm²",
+          "explanation": "Un metro cuadrado no tiene solo 1000 cm²."
+        },
+        {
+          "text": "3000 cm²",
+          "explanation": "0,3 × 10 000 = 3000."
+        }
+      ],
+      "correct": 2,
+      "hint": "Un cuadrado de 1 m de lado tiene 100 cm por cada lado.",
+      "solution": [
+        "1 m² = 100 × 100 = 10 000 cm².",
+        "0,3 m² = 3000 cm²."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-22"
+    },
+    {
+      "type": "question",
+      "title": "Compara duraciones equivalentes",
+      "body": [],
+      "prompt": "Un taller dura 1,75 h y otro 100 min. ¿Qué diferencia hay?",
+      "choices": [
+        {
+          "text": "5 min",
+          "explanation": "1,75 h = 105 min; supera al otro por 5 min."
+        },
+        {
+          "text": "25 min",
+          "explanation": "25 min exigiría que el primer taller durara 125 min, pero 1,75 h son 105 min; la diferencia correcta es 5 min."
+        },
+        {
+          "text": "Son iguales",
+          "explanation": "105 min y 100 min no coinciden."
+        }
+      ],
+      "correct": 0,
+      "hint": "Convierte 1,75 h a minutos.",
+      "solution": [
+        "1,75 × 60 = 105 min.",
+        "105 − 100 = 5 min."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-23"
+    },
+    {
+      "type": "review",
+      "title": "Comprueba dimensiones y tamaño",
+      "body": [
+        "Antes de operar decide si comparas longitud, área, volumen, tiempo o rapidez. No sumes ni compares cantidades de clases distintas sin un modelo que las relacione.",
+        "En escalas expresa primero las dos longitudes en la misma unidad. En rapidez convierte numerador y denominador, y verifica si el resultado tiene un tamaño razonable."
+      ],
+      "level": 3,
+      "id": "conversion-de-unidades-24"
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/razones-y-proporciones",
+  "course": "matematica",
+  "slug": "razones-y-proporciones",
+  "title": "Razones y proporciones",
+  "description": "Compara por diferencia o cociente, enlaza razones y encuentra términos proporcionales.",
+  "version": 1,
+  "order": 6,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Distinguir razón aritmética de razón geométrica.",
+    "Resolver proporciones discretas y continuas con sus condiciones.",
+    "Modelar razones enlazadas, escalas y cambios en cantidades."
+  ],
+  "steps": [
+    {
+      "id": "razones-y-proporciones-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Dos maneras de comparar",
+      "body": [
+        "Si una cuerda mide 18 m y otra 12 m, la primera excede a la segunda en 6 m. La razón aritmética, en ese orden, es 18 − 12 = 6.",
+        "La razón geométrica es 18/12 = 3/2: por cada 3 unidades de la primera hay 2 de la segunda. En a/b, a es antecedente y b consecuente; b no puede ser cero.",
+        "El orden importa: 18 − 12 no es 12 − 18, y 18/12 no es 12/18. Antes de operar, identifica qué cantidad se compara con cuál."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-02",
+      "level": 1,
+      "type": "example",
+      "title": "Una receta a escala",
+      "body": [
+        "Para una mezcla de semillas se usan 6 cucharadas de avena y 4 de quinua. La razón avena:quinua es 6:4 = 3:2.",
+        "Si preparas una porción de 25 cucharadas con esa misma composición, hay 3 + 2 = 5 partes. Cada parte vale 25/5 = 5 cucharadas.",
+        "La avena ocupa 3 × 5 = 15 y la quinua 2 × 5 = 10. La diferencia es 5, mientras que el cociente sigue siendo 3/2."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Igualdad de razones",
+      "body": [
+        "Una proporción aritmética es a − b = c − d. Al reorganizar, a + d = b + c: suma de extremos igual a suma de medios.",
+        "Una proporción geométrica es a/b = c/d, con b y d no nulos. Multiplicando por bd resulta ad = bc. Los extremos son a y d; los medios, b y c.",
+        "Si los medios difieren, la proporción es discreta. En la continua, ambos medios son iguales. Son nombres de su estructura, no métodos distintos de multiplicación."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-04",
+      "level": 1,
+      "type": "question",
+      "title": "Comparación por diferencia",
+      "body": [],
+      "prompt": "Una cinta mide 23 cm y otra 15 cm. ¿Cuál es la razón aritmética de la primera respecto de la segunda?",
+      "choices": [
+        {
+          "text": "8 cm",
+          "explanation": "23 − 15 = 8 cm expresa en cuánto excede la primera."
+        },
+        {
+          "text": "23/15",
+          "explanation": "Es la razón geométrica, no la diferencia solicitada."
+        },
+        {
+          "text": "−8 cm",
+          "explanation": "Se invirtió el orden: 15 − 23 = −8."
+        }
+      ],
+      "correct": 0,
+      "hint": "Resta la segunda longitud a la primera.",
+      "solution": [
+        "Razón aritmética = 23 − 15.",
+        "El exceso es 8 cm."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-05",
+      "level": 1,
+      "type": "question",
+      "title": "Compara con un cociente",
+      "body": [],
+      "prompt": "En un grupo hay 21 participantes de mañana y 14 de tarde. ¿Cuál es la razón mañana:tarde simplificada?",
+      "choices": [
+        {
+          "text": "3:5",
+          "explanation": "Compara mañana con el total, no con tarde."
+        },
+        {
+          "text": "3:2",
+          "explanation": "Dividir ambos términos entre 7 conserva el cociente 21/14."
+        },
+        {
+          "text": "2:3",
+          "explanation": "Invierte el orden de los turnos solicitado."
+        }
+      ],
+      "correct": 1,
+      "hint": "El consecuente representa a quienes van de tarde.",
+      "solution": [
+        "Mañana:tarde = 21:14.",
+        "21/7 = 3 y 14/7 = 2: razón 3:2."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-06",
+      "level": 1,
+      "type": "question",
+      "title": "Completa una proporción aritmética",
+      "body": [],
+      "prompt": "Si 19 − 7 = 16 − d, ¿cuánto vale d?",
+      "choices": [
+        {
+          "text": "12",
+          "explanation": "12 es la diferencia común, no el término d."
+        },
+        {
+          "text": "28",
+          "explanation": "28 surge de sumar 12 a 16; no cumple la igualdad."
+        },
+        {
+          "text": "4",
+          "explanation": "La diferencia debe ser 12, por lo que 16 − d = 12."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula primero la diferencia del primer miembro.",
+      "solution": [
+        "19 − 7 = 12.",
+        "16 − d = 12; d = 4.",
+        "Verificación: 16 − 4 = 12."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-07",
+      "level": 1,
+      "type": "question",
+      "title": "Cuarta proporcional",
+      "body": [],
+      "prompt": "Encuentra d en 3/5 = 12/d.",
+      "choices": [
+        {
+          "text": "20",
+          "explanation": "3d = 5 × 12 = 60, por lo que d = 20."
+        },
+        {
+          "text": "7,2",
+          "explanation": "7,2 resulta de multiplicar 12 por 3/5, pero aquí se busca un denominador."
+        },
+        {
+          "text": "15",
+          "explanation": "Sumar 12 y 3 no mantiene el cociente dado."
+        }
+      ],
+      "correct": 0,
+      "hint": "El numerador pasó de 3 a 12: se multiplicó por 4.",
+      "solution": [
+        "3d = 60.",
+        "d = 20; también 5 × 4 = 20.",
+        "3/5 y 12/20 valen 0,6."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-08",
+      "level": 1,
+      "type": "review",
+      "title": "Conserva el tipo y el orden",
+      "body": [
+        "Razón aritmética pide una resta; geométrica pide un cociente. La razón 3:2 no indica que la primera cantidad sea 3: puede ser 15 frente a 10 o 30 frente a 20.",
+        "Para comprobar una proporción, usa diferencias iguales o productos cruzados iguales según corresponda. En cocientes, conserva las restricciones de denominador distinto de cero."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Cuando los medios coinciden",
+      "body": [
+        "En a − b = b − c, b es la media diferencial de a y c: 2b = a + c. El término c es la tercera diferencial de a y b: c = 2b − a.",
+        "En a/b = b/c, con denominadores no nulos, b² = ac. Si trabajamos con cantidades positivas, la media proporcional es b = √(ac). El término c es la tercera proporcional: c = b²/a, con a ≠ 0.",
+        "No confundas estas medias. Entre 4 y 16, la media diferencial es 10 y la proporcional positiva es 8."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-10",
+      "level": 2,
+      "type": "example",
+      "title": "La misma terna, dos estructuras",
+      "body": [
+        "Entre 5 y 17, la media diferencial es (5 + 17)/2 = 11. Se comprueba: 5 − 11 = −6 y 11 − 17 = −6.",
+        "Entre 9 y 25, la media proporcional positiva es √(9 × 25) = 15. Se comprueba: 9/15 = 15/25 = 3/5.",
+        "El adjetivo positiva resuelve la elección del signo de la raíz. Algebraicamente b² = 225 también admite −15, pero no representa una longitud positiva."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Revisa los términos antes de despejar",
+      "body": [
+        "En una proporción discreta 7 − 2 = 14 − d, d es cuarta diferencial: d = 9. En 7/2 = 14/d, d es cuarta proporcional: d = 4.",
+        "En una continua, hay tres valores escritos pero cuatro posiciones: a, b, b y c. Si calculas un producto de los cuatro términos, b aparece dos veces.",
+        "Una proporción geométrica continua positiva puede escribirse a, ar y ar². Esta forma ayuda a reconocer el vínculo entre sus extremos y su medio."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-12",
+      "level": 2,
+      "type": "question",
+      "title": "Media por diferencia",
+      "body": [],
+      "prompt": "¿Cuál es la media diferencial de 10 y 26?",
+      "choices": [
+        {
+          "text": "16",
+          "explanation": "16 es la diferencia entre los extremos, no su media."
+        },
+        {
+          "text": "√260",
+          "explanation": "Corresponde a la media proporcional positiva, otra comparación."
+        },
+        {
+          "text": "18",
+          "explanation": "El promedio 18 produce diferencias iguales: 10 − 18 = 18 − 26."
+        }
+      ],
+      "correct": 2,
+      "hint": "La media diferencial está a la misma distancia de ambos extremos.",
+      "solution": [
+        "2b = 10 + 26 = 36.",
+        "b = 18.",
+        "10 − 18 = −8 y 18 − 26 = −8."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-13",
+      "level": 2,
+      "type": "question",
+      "title": "Media por cociente",
+      "body": [],
+      "prompt": "¿Cuál es la media proporcional positiva de 8 y 18?",
+      "choices": [
+        {
+          "text": "12",
+          "explanation": "12² = 8 × 18 = 144 y ambos cocientes valen 2/3."
+        },
+        {
+          "text": "13",
+          "explanation": "13 es la media diferencial: (8 + 18)/2."
+        },
+        {
+          "text": "10",
+          "explanation": "10² = 100, distinto del producto 144."
+        }
+      ],
+      "correct": 0,
+      "hint": "Plantea b² = 8 × 18 y toma la raíz positiva.",
+      "solution": [
+        "b² = 144.",
+        "b = 12 porque se exige una cantidad positiva.",
+        "8/12 = 12/18 = 2/3."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-14",
+      "level": 2,
+      "type": "question",
+      "title": "Tercera diferencial",
+      "body": [],
+      "prompt": "Si 6 − 10 = 10 − c, ¿cuánto vale la tercera diferencial c?",
+      "choices": [
+        {
+          "text": "50/3",
+          "explanation": "50/3 sería 10²/6, la tercera proporcional geométrica."
+        },
+        {
+          "text": "14",
+          "explanation": "Para repetir la diferencia −4, necesitamos 10 − 14 = −4."
+        },
+        {
+          "text": "4",
+          "explanation": "4 es la distancia entre 6 y 10, no el tercer término."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa c = 2b − a.",
+      "solution": [
+        "c = 2 × 10 − 6.",
+        "c = 14.",
+        "6 − 10 = 10 − 14 = −4."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-15",
+      "level": 2,
+      "type": "question",
+      "title": "Tercera proporcional",
+      "body": [],
+      "prompt": "Si 5/15 = 15/c y c es positivo, ¿cuánto vale c?",
+      "choices": [
+        {
+          "text": "25",
+          "explanation": "25 es la tercera diferencial de 5 y 15, no la proporcional."
+        },
+        {
+          "text": "3",
+          "explanation": "3 es el factor que lleva de 5 a 15; falta aplicarlo a 15."
+        },
+        {
+          "text": "45",
+          "explanation": "5c = 15² = 225, así que c = 45."
+        }
+      ],
+      "correct": 2,
+      "hint": "El mismo cociente debe repetirse entre términos consecutivos.",
+      "solution": [
+        "5c = 225.",
+        "c = 45.",
+        "5/15 = 15/45 = 1/3."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-16",
+      "level": 2,
+      "type": "review",
+      "title": "No todas las medias son promedios",
+      "body": [
+        "La media diferencial suma extremos y divide entre dos. La proporcional positiva multiplica extremos y extrae raíz cuadrada.",
+        "Una tercera diferencial sigue una diferencia; una tercera proporcional sigue un cociente. Sustituir el valor final en la igualdad evita mezclar fórmulas parecidas."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Enlaza razones con una cantidad común",
+      "body": [
+        "Si a:b = 2:3 y b:c = 4:5, el término b tiene dos representaciones. Hazlo coincidir: multiplica la primera razón por 4 y la segunda por 3.",
+        "Resulta a:b:c = 8:12:15. No se pueden juntar 2:3:5 porque el 3 y el 4 representan a la misma cantidad b con escalas distintas.",
+        "Si las edades están en razón 3:2, puedes escribir 3k y 2k. Después de h años serán 3k + h y 2k + h; la razón no suele permanecer igual."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-18",
+      "level": 3,
+      "type": "example",
+      "title": "Una razón cambia con el tiempo",
+      "body": [
+        "Dos hermanos tienen edades en razón 3:2. Dentro de 8 años estarán en razón 5:4. Sus edades actuales son 3k y 2k.",
+        "Planteamos (3k + 8)/(2k + 8) = 5/4. Entonces 12k + 32 = 10k + 40, de donde k = 4.",
+        "Hoy tienen 12 y 8 años; dentro de ocho, 20 y 16. Las razones 12:8 = 3:2 y 20:16 = 5:4 comprueban ambos momentos."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Suma cantidades y conserva su referencia",
+      "body": [
+        "Para escalar una receta completa, multiplica cada ingrediente por el mismo factor. Si duplicas solo el total de agua, cambias la razón de la mezcla.",
+        "Si juntas mezclas distintas, suma primero la cantidad de cada componente. Una mezcla 2:3 de 10 L contiene 4 L y 6 L; otra 1:4 de 15 L contiene 3 L y 12 L. La mezcla conjunta es 7:18.",
+        "Las razones de las mezclas no se promedian sin considerar sus cantidades. Una razón resume composición, pero no indica por sí sola cuánto líquido hay."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-20",
+      "level": 3,
+      "type": "question",
+      "title": "Razones enlazadas",
+      "body": [],
+      "prompt": "Si a:b = 2:3, b:c = 4:5 y a + b + c = 140, ¿cuánto vale c?",
+      "choices": [
+        {
+          "text": "48",
+          "explanation": "48 es el valor de b en la razón correcta, no el de c."
+        },
+        {
+          "text": "60",
+          "explanation": "La razón conjunta es 8:12:15; 35 partes valen 140 y c ocupa 15."
+        },
+        {
+          "text": "70",
+          "explanation": "Usar 2:3:5 sin homogeneizar el término b da una razón incompatible."
+        }
+      ],
+      "correct": 1,
+      "hint": "Haz coincidir b antes de sumar las partes.",
+      "solution": [
+        "a:b = 8:12 y b:c = 12:15.",
+        "8 + 12 + 15 = 35; k = 140/35 = 4.",
+        "c = 15 × 4 = 60."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-21",
+      "level": 3,
+      "type": "question",
+      "title": "Escala toda la receta",
+      "body": [],
+      "prompt": "Una receta usa 120 g de avena y 80 g de quinua para 5 porciones. Manteniendo la composición, ¿cuánta quinua necesitas para 15 porciones?",
+      "choices": [
+        {
+          "text": "360 g",
+          "explanation": "360 g es la avena necesaria, no la quinua."
+        },
+        {
+          "text": "160 g",
+          "explanation": "Duplicar la quinua solo alcanza para 10 porciones."
+        },
+        {
+          "text": "240 g",
+          "explanation": "El número de porciones se triplica y cada ingrediente también."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula el factor 15/5 y aplícalo al ingrediente pedido.",
+      "solution": [
+        "Factor de escala = 3.",
+        "Quinua = 80 × 3 = 240 g."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-22",
+      "level": 3,
+      "type": "question",
+      "title": "Edades en dos momentos",
+      "body": [],
+      "prompt": "Dos edades están en razón 4:3. Dentro de 6 años estarán en razón 6:5. ¿Cuál es hoy la mayor edad?",
+      "choices": [
+        {
+          "text": "12 años",
+          "explanation": "Con edades 4k y 3k, 5(4k + 6) = 6(3k + 6) da k = 3."
+        },
+        {
+          "text": "18 años",
+          "explanation": "18 es la edad mayor dentro de 6 años, no la actual."
+        },
+        {
+          "text": "9 años",
+          "explanation": "9 es la edad menor actual."
+        }
+      ],
+      "correct": 0,
+      "hint": "Suma 6 a ambas edades, no a los términos de la razón sin escala.",
+      "solution": [
+        "20k + 30 = 18k + 36.",
+        "2k = 6; k = 3.",
+        "La mayor edad actual es 4 × 3 = 12 años."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-23",
+      "level": 3,
+      "type": "question",
+      "title": "Combina componentes",
+      "body": [],
+      "prompt": "Mezclas 10 L con razón agua:concentrado 2:3 y 15 L con razón 1:4. Suponiendo volúmenes aditivos, ¿cuál es la razón final agua:concentrado?",
+      "choices": [
+        {
+          "text": "18:7",
+          "explanation": "Invierte el orden agua:concentrado pedido."
+        },
+        {
+          "text": "7:18",
+          "explanation": "La primera aporta 4 y 6 L; la segunda 3 y 12 L. Se reúnen 7 y 18 L."
+        },
+        {
+          "text": "3:7",
+          "explanation": "Sumar términos de razones sin sus cantidades asigna el mismo peso a mezclas de distinto volumen."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula litros de cada componente antes de formar una nueva razón.",
+      "solution": [
+        "Primera: agua 10 × 2/5 = 4; concentrado 6.",
+        "Segunda: agua 15 × 1/5 = 3; concentrado 12.",
+        "Totales 7 y 18; razón 7:18."
+      ]
+    },
+    {
+      "id": "razones-y-proporciones-24",
+      "level": 3,
+      "type": "review",
+      "title": "Cada razón necesita cantidades",
+      "body": [
+        "Enlaza razones homogeneizando el término compartido. Para edades, conserva la misma incógnita de escala y suma el tiempo a cada edad real.",
+        "Al juntar recetas o líquidos, calcula aportes concretos antes de comparar. Comprueba sumas totales y el orden de los componentes: una proporción correcta al revés responde otra pregunta."
+      ]
+    }
+  ]
+}

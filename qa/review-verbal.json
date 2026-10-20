@@ -1,0 +1,2351 @@
+{
+  "reviewer": "Independent cross-review by math-b author; no verbal files modified.",
+  "method": "Read each delivered passage and every alternative; selected answer independently, checked scope, semantic relation, uniqueness and numerical statements where present. Per-question reasons summarize the passage evidence.",
+  "requiredOrders": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "requiredQuestions": 252,
+  "reviewedQuestions": 252,
+  "missingOrders": [],
+  "unreviewedAvailableTopics": [],
+  "passCount": 252,
+  "issues": [],
+  "results": [
+    {
+      "id": "conectores-fundamentos-04",
+      "order": 6,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Además",
+      "status": "pass",
+      "independentReason": "Ofrece una segunda ventaja; corresponde adición con además."
+    },
+    {
+      "id": "conectores-fundamentos-05",
+      "order": 6,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Es decir",
+      "status": "pass",
+      "independentReason": "La segunda proposición reformula aforo limitado; es decir explica."
+    },
+    {
+      "id": "conectores-fundamentos-06",
+      "order": 6,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Sin embargo",
+      "status": "pass",
+      "independentReason": "Capacidad real contrasta con apariencia pequeña; sin embargo."
+    },
+    {
+      "id": "conectores-fundamentos-07",
+      "order": 6,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "En otras palabras",
+      "status": "pass",
+      "independentReason": "Acudir personalmente reformula entrega presencial; en otras palabras."
+    },
+    {
+      "id": "conectores-fundamentos-12",
+      "order": 6,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Mientras",
+      "status": "pass",
+      "independentReason": "Ambas tareas ocurren al mismo tiempo; mientras expresa simultaneidad."
+    },
+    {
+      "id": "conectores-fundamentos-13",
+      "order": 6,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Luego",
+      "status": "pass",
+      "independentReason": "Reunir, ordenar, etiquetar son etapas sucesivas; luego ocupa la intermedia."
+    },
+    {
+      "id": "conectores-fundamentos-14",
+      "order": 6,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Para que",
+      "status": "pass",
+      "independentReason": "Publicar temprano busca que las familias se organicen; finalidad para que."
+    },
+    {
+      "id": "conectores-fundamentos-15",
+      "order": 6,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La lluvia comenzó en un momento posterior a la visita",
+      "status": "pass",
+      "independentReason": "Después de solo establece posterioridad; el pasaje niega explicar la causa."
+    },
+    {
+      "id": "conectores-fundamentos-20",
+      "order": 6,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Sin embargo / para que",
+      "status": "pass",
+      "independentReason": "Antigüedad versus legibilidad es concesión; fotografiar para consultar es finalidad."
+    },
+    {
+      "id": "conectores-fundamentos-21",
+      "order": 6,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "En otras palabras",
+      "status": "pass",
+      "independentReason": "La oración explica accesible; en otras palabras conserva aclaración."
+    },
+    {
+      "id": "conectores-fundamentos-22",
+      "order": 6,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Introduce una condición que limita la facilidad de acceso esperada",
+      "status": "pass",
+      "independentReason": "Pero contrapone gratuidad con un requisito que limita acceso esperado."
+    },
+    {
+      "id": "conectores-fundamentos-23",
+      "order": 6,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Se buscó ampliar la participación, pero el registro inicial no mostró ese aumento",
+      "status": "pass",
+      "independentReason": "La finalidad era ampliar asistencia y el registro inicial no mostró aumento."
+    },
+    {
+      "id": "conectores-avanzados-04",
+      "order": 7,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Puesto que",
+      "status": "pass",
+      "independentReason": "Dos fechas incompatibles son la razón de pedir revisión; puesto que."
+    },
+    {
+      "id": "conectores-avanzados-05",
+      "order": 7,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "En consecuencia",
+      "status": "pass",
+      "independentReason": "Reservar más tiempo y terminar después se enlazan como consecuencia."
+    },
+    {
+      "id": "conectores-avanzados-06",
+      "order": 7,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Dar una señal para sostener una hipótesis provisional",
+      "status": "pass",
+      "independentReason": "La puerta entreabierta es evidencia provisional, no causa física ni identificación."
+    },
+    {
+      "id": "conectores-avanzados-07",
+      "order": 7,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La biblioteca abrió una lista de espera porque no quedaban ejemplares disponibles",
+      "status": "pass",
+      "independentReason": "No quedaban ejemplares explica abrir lista; la reescritura mantiene esa dirección."
+    },
+    {
+      "id": "conectores-avanzados-12",
+      "order": 7,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Si bien",
+      "status": "pass",
+      "independentReason": "Presupuesto limitado es dificultad superada; si bien introduce concesión."
+    },
+    {
+      "id": "conectores-avanzados-13",
+      "order": 7,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "A continuación",
+      "status": "pass",
+      "independentReason": "Se pasa del registro al procedimiento ante retrasos; a continuación organiza."
+    },
+    {
+      "id": "conectores-avanzados-14",
+      "order": 7,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La mejora de acceso coexistió con un límite en algunos documentos",
+      "status": "pass",
+      "independentReason": "El acceso mejoró aunque persistió deterioro anterior; no hay negación total."
+    },
+    {
+      "id": "conectores-avanzados-15",
+      "order": 7,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La secuencia de presentación de las partes del informe",
+      "status": "pass",
+      "independentReason": "Los conectores ordenan exposición, aunque los hechos tratados no sean cronológicos."
+    },
+    {
+      "id": "conectores-avanzados-20",
+      "order": 7,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "En resumen",
+      "status": "pass",
+      "independentReason": "El cierre reúne tres condiciones bajo el objetivo de accesibilidad; resumen."
+    },
+    {
+      "id": "conectores-avanzados-21",
+      "order": 7,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "En estas pruebas hubo menos omisiones; no puede atribuirse el cambio solo al esquema",
+      "status": "pass",
+      "independentReason": "Dos pruebas sin aislar práctica no atribuyen toda mejora al esquema."
+    },
+    {
+      "id": "conectores-avanzados-22",
+      "order": 7,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Si bien / Por ello",
+      "status": "pass",
+      "independentReason": "Si bien introduce dificultad y por ello enlaza reorganización con completar productos."
+    },
+    {
+      "id": "conectores-avanzados-23",
+      "order": 7,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Que las razones favorables no eliminan la necesidad de comprobar el resultado",
+      "status": "pass",
+      "independentReason": "Aun así reconoce que razones favorables no garantizan comprensión."
+    },
+    {
+      "id": "propiedades-del-texto-04",
+      "order": 8,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Señora responsable: solicito una cita para consultar fotografías sobre la historia del barrio",
+      "status": "pass",
+      "independentReason": "Primera solicitud institucional requiere identificar petición y trato respetuoso."
+    },
+    {
+      "id": "propiedades-del-texto-05",
+      "order": 8,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Añadir fecha, hora y dirección concretas",
+      "status": "pass",
+      "independentReason": "Personas nuevas no comparten referencias; fecha, hora y dirección concretas resuelven."
+    },
+    {
+      "id": "propiedades-del-texto-06",
+      "order": 8,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Emplear un trato respetuoso e indicar fecha, lugar y requisitos con palabras claras",
+      "status": "pass",
+      "independentReason": "El objetivo es permitir asistir; claridad y requisitos son pertinentes."
+    },
+    {
+      "id": "propiedades-del-texto-07",
+      "order": 8,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El cartel destaca el aula nueva; el informe puede explicar también las razones del cambio",
+      "status": "pass",
+      "independentReason": "Cartel destaca cambio inmediato; informe puede desarrollar razones según medio."
+    },
+    {
+      "id": "propiedades-del-texto-12",
+      "order": 8,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Las montañas pueden tener cumbres nevadas",
+      "status": "pass",
+      "independentReason": "Montañas nevadas es la única oración ajena a préstamo y renovación."
+    },
+    {
+      "id": "propiedades-del-texto-13",
+      "order": 8,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Cuando Rosa llegó al depósito, Clara habló con ella",
+      "status": "pass",
+      "independentReason": "Rosa como sujeto explícito de llegó elimina ambigüedad de ella."
+    },
+    {
+      "id": "propiedades-del-texto-14",
+      "order": 8,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Cambiar además por por eso",
+      "status": "pass",
+      "independentReason": "El cierre fue motivo del traslado; por eso explicita consecuencia."
+    },
+    {
+      "id": "propiedades-del-texto-15",
+      "order": 8,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Una contradicción que afecta la coherencia",
+      "status": "pass",
+      "independentReason": "Todas abiertas y dos mismas cerradas todo el día son incompatibles."
+    },
+    {
+      "id": "propiedades-del-texto-20",
+      "order": 8,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La colección de fotografías muestra los cambios del barrio",
+      "status": "pass",
+      "independentReason": "El núcleo colección singular exige muestra, no muestran."
+    },
+    {
+      "id": "propiedades-del-texto-21",
+      "order": 8,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Separar fecha y lugar y presentar los materiales en una lista breve",
+      "status": "pass",
+      "independentReason": "Una lista facilita localizar materiales sin suprimir información."
+    },
+    {
+      "id": "propiedades-del-texto-22",
+      "order": 8,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Verificar la fecha y unificar el dato antes de difundir",
+      "status": "pass",
+      "independentReason": "Una fecha contradictoria se verifica antes de difundir; diseño no resuelve verdad."
+    },
+    {
+      "id": "propiedades-del-texto-23",
+      "order": 8,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Explicar las siglas y nombrar a la persona que recibirá los documentos",
+      "status": "pass",
+      "independentReason": "Siglas requieren explicación y referente ambiguo requiere nombre explícito."
+    },
+    {
+      "id": "fases-comprension-lectora-04",
+      "order": 9,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Encontrar y verificar la fecha de inicio del nuevo horario",
+      "status": "pass",
+      "independentReason": "La tarea pide desde cuándo; meta inicial es verificar fecha de inicio."
+    },
+    {
+      "id": "fases-comprension-lectora-05",
+      "order": 9,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Como una predicción que puede confirmarse o corregirse",
+      "status": "pass",
+      "independentReason": "El título sugiere una hipótesis revisable, sin demostrar el contenido."
+    },
+    {
+      "id": "fases-comprension-lectora-06",
+      "order": 9,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Usar su experiencia para comprender y verificar la regla de la nueva biblioteca",
+      "status": "pass",
+      "independentReason": "Otra biblioteca puede tener otra norma; verificar su regla evita transferencia indebida."
+    },
+    {
+      "id": "fases-comprension-lectora-07",
+      "order": 9,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "¿Qué paraderos cambian y desde cuándo se aplica la ruta?",
+      "status": "pass",
+      "independentReason": "Paraderos y fecha de aplicación permiten organizar el viaje pedido."
+    },
+    {
+      "id": "fases-comprension-lectora-12",
+      "order": 9,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Releer las oraciones anteriores para localizar el antecedente",
+      "status": "pass",
+      "independentReason": "Esa decisión necesita antecedente; relectura cercana lo recupera."
+    },
+    {
+      "id": "fases-comprension-lectora-13",
+      "order": 9,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Que permite el paso del agua",
+      "status": "pass",
+      "independentReason": "Agua atravesando poros respalda permitir paso, no sequedad ni ausencia de poros."
+    },
+    {
+      "id": "fases-comprension-lectora-14",
+      "order": 9,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "¿Qué protege el cierre y qué límite tiene esa protección?",
+      "status": "pass",
+      "independentReason": "Los párrafos presentan protección y límite; integrarlos responde ambos."
+    },
+    {
+      "id": "fases-comprension-lectora-15",
+      "order": 9,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Ajustar su interpretación de banco al sentido definido por el pasaje",
+      "status": "pass",
+      "independentReason": "El cuerpo define banco de semillas y corrige expectativa financiera."
+    },
+    {
+      "id": "fases-comprension-lectora-20",
+      "order": 9,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Las señales ayudaron, pero un acceso sin orientación visible requería mejorar",
+      "status": "pass",
+      "independentReason": "Las señales ayudaron con un límite localizado en acceso lateral."
+    },
+    {
+      "id": "fases-comprension-lectora-21",
+      "order": 9,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Reconstruir la propuesta y su razón antes de añadir su objeción",
+      "status": "pass",
+      "independentReason": "Evaluar exige reconstruir propuesta y razón antes de añadir objeción externa."
+    },
+    {
+      "id": "fases-comprension-lectora-22",
+      "order": 9,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Precisar el alcance de dos servicios mediante relectura",
+      "status": "pass",
+      "independentReason": "Relectura distinguió consulta y préstamo; no fue diccionario ni título."
+    },
+    {
+      "id": "fases-comprension-lectora-23",
+      "order": 9,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Volver a las secciones de requisitos y plazo y verificar los datos",
+      "status": "pass",
+      "independentReason": "La meta exigía documentos y plazo, aún desconocidos; corresponde volver y verificar."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-04",
+      "order": 10,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Regla, balanza, termómetro",
+      "status": "pass",
+      "independentReason": "Regla, balanza y termómetro son sustantivos que designan instrumentos de medida."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-05",
+      "order": 10,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Semilla, sembrar, húmedo",
+      "status": "pass",
+      "independentReason": "Huerto admite asociación de distintas categorías: semilla, sembrar, húmedo."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-06",
+      "order": 10,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Una valoración de entusiasmo limitado",
+      "status": "pass",
+      "independentReason": "El pasaje descarta temperatura y define recepción poco entusiasta."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-07",
+      "order": 10,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El objeto material colocado en el recipiente",
+      "status": "pass",
+      "independentReason": "El objeto se coloca en agua; piedra conserva sentido material literal."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-12",
+      "order": 10,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Obra literaria",
+      "status": "pass",
+      "independentReason": "Obra literaria incluye novela, cuento y poema en un nivel superior."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-13",
+      "order": 10,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Parte y todo",
+      "status": "pass",
+      "independentReason": "La tapa integra el cuaderno: relación parte–todo, no tipo–clase."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-14",
+      "order": 10,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Infusión y jugo",
+      "status": "pass",
+      "independentReason": "Infusión y jugo son clases del mismo hiperónimo bebida."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-15",
+      "order": 10,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Ave es un hiperónimo compatible con el mismo referente",
+      "status": "pass",
+      "independentReason": "Ave retoma la golondrina por inclusión de clase y continuidad referencial."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-20",
+      "order": 10,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Polisemia",
+      "status": "pass",
+      "independentReason": "Cabeza corporal y dirigente son sentidos relacionados de una palabra: polisemia."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-21",
+      "order": 10,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Homonimia homófona",
+      "status": "pass",
+      "independentReason": "Honda y onda tienen sonido igual, grafía y significados distintos: homófonas."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-22",
+      "order": 10,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Aptitud",
+      "status": "pass",
+      "independentReason": "Se pregunta capacidad, por lo que aptitud; actitud sería disposición."
+    },
+    {
+      "id": "relaciones-lexico-semanticas-23",
+      "order": 10,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Homonimia homógrafa",
+      "status": "pass",
+      "independentReason": "Vino sustantivo y vino verbal comparten escritura y son unidades distintas: homógrafas."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-04",
+      "order": 11,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Buscar encuadernación y verificar su horario en la entrada correspondiente",
+      "status": "pass",
+      "independentReason": "Buscar nombre y horario es lectura focalizada congruente con la tarea."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-05",
+      "order": 11,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Explorar títulos, subtítulos y partes representativas de cada informe",
+      "status": "pass",
+      "independentReason": "Exploración de títulos y partes representativas permite seleccionar informe."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-06",
+      "order": 11,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Analizar la regla junto con la excepción y su alcance",
+      "status": "pass",
+      "independentReason": "La excepción salvo modifica el alcance; debe leerse con la regla."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-07",
+      "order": 11,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Combinó lectura global, focalizada e intensiva",
+      "status": "pass",
+      "independentReason": "Explora estructura, localiza dato y analiza nota: global, focalizada e intensiva."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-12",
+      "order": 11,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Actualizar el catálogo permite que la disponibilidad registrada corresponda a la situación de los libros",
+      "status": "pass",
+      "independentReason": "La selección integra actualización y correspondencia de disponibilidad, no palabras aisladas."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-13",
+      "order": 11,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Revisión del original antes de copiar",
+      "status": "pass",
+      "independentReason": "El párrafo trata revisar original para distinguir defectos antes de copiar."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-14",
+      "order": 11,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Por qué se eligió la fecha: no se informa",
+      "status": "pass",
+      "independentReason": "El texto no explica elección del sábado; no se debe inventar motivo."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-15",
+      "order": 11,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Anotar una fecha → garantiza → devolución",
+      "status": "pass",
+      "independentReason": "Registrar datos ayuda a rastrear, no garantiza devolución; esa flecha es excesiva."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-20",
+      "order": 11,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La primera reconstruye el argumento y la segunda lo evalúa",
+      "status": "pass",
+      "independentReason": "Primera frase reconstruye argumento; a mi juicio introduce valoración propia."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-21",
+      "order": 11,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La lectura extensiva se complementa con momentos intensivos",
+      "status": "pass",
+      "independentReason": "Leer libro completo es extensivo y releer un pasaje es intensivo; compatibles."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-22",
+      "order": 11,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El sistema ayudó, pero dos categorías aún necesitaron aclaración",
+      "status": "pass",
+      "independentReason": "El sistema redujo consultas, con dos categorías aún por aclarar."
+    },
+    {
+      "id": "tecnicas-comprension-lectora-23",
+      "order": 11,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Formular la idea que integra los ejemplos y conservar solo los necesarios",
+      "status": "pass",
+      "independentReason": "El resumen necesita una idea integradora, no acumulación de ejemplos."
+    },
+    {
+      "id": "referentes-textuales-04",
+      "order": 12,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "A Hugo",
+      "status": "pass",
+      "independentReason": "Él masculino personal retoma a Hugo, quien recibe y registra."
+    },
+    {
+      "id": "referentes-textuales-05",
+      "order": 12,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El vivero",
+      "status": "pass",
+      "independentReason": "Allí designa el vivero, lugar explícito de la reunión."
+    },
+    {
+      "id": "referentes-textuales-06",
+      "order": 12,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El plano",
+      "status": "pass",
+      "independentReason": "Lo y ese documento retoman plano; carpeta es el contenedor."
+    },
+    {
+      "id": "referentes-textuales-07",
+      "order": 12,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Las tijeras",
+      "status": "pass",
+      "independentReason": "Las concuerda con tijeras, femenino plural; marcadores es masculino."
+    },
+    {
+      "id": "referentes-textuales-12",
+      "order": 12,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Anticipa los materiales enumerados después",
+      "status": "pass",
+      "independentReason": "Esto anticipa una enumeración posterior: catáfora."
+    },
+    {
+      "id": "referentes-textuales-13",
+      "order": 12,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Retomar la mariposa mediante una clase más general",
+      "status": "pass",
+      "independentReason": "Insecto es hiperónimo que retoma mariposa sin introducir otro animal."
+    },
+    {
+      "id": "referentes-textuales-14",
+      "order": 12,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Revisó",
+      "status": "pass",
+      "independentReason": "El paralelismo elide revisó tras Omar; cambia solo el objeto revisado."
+    },
+    {
+      "id": "referentes-textuales-15",
+      "order": 12,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El gorrión",
+      "status": "pass",
+      "independentReason": "Gorrión introduce otra especie, incompatible con retomar la única paloma."
+    },
+    {
+      "id": "referentes-textuales-20",
+      "order": 12,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El miércoles 9",
+      "status": "pass",
+      "independentReason": "Mañana depende de la emisión martes8; es miércoles9, no de cada lectura."
+    },
+    {
+      "id": "referentes-textuales-21",
+      "order": 12,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El traslado de la reunión a una sala más amplia",
+      "status": "pass",
+      "independentReason": "Esa decisión retoma trasladar reunión, no sillas o puerta mencionadas después."
+    },
+    {
+      "id": "referentes-textuales-22",
+      "order": 12,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Su puede referirse al informe de Elena o al de Marta; hace falta precisar",
+      "status": "pass",
+      "independentReason": "Su tiene al menos las lecturas Elena/Marta y el contexto no elige una."
+    },
+    {
+      "id": "referentes-textuales-23",
+      "order": 12,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Añadir dirección, fecha y hora explícitas",
+      "status": "pass",
+      "independentReason": "Reenvío sin contexto necesita ubicación, fecha y hora explícitas."
+    },
+    {
+      "id": "textos-argumentativos-04",
+      "order": 13,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Conviene instalar un techo ligero en una parte del patio",
+      "status": "pass",
+      "independentReason": "La tesis prescribe techo parcial; las otras opciones son hecho o exageración."
+    },
+    {
+      "id": "textos-argumentativos-05",
+      "order": 13,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El catálogo permitirá reconocer registros existentes y evitar duplicaciones",
+      "status": "pass",
+      "independentReason": "Detectar registros y evitar duplicados respalda priorizar catálogo."
+    },
+    {
+      "id": "textos-argumentativos-06",
+      "order": 13,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El uso compartido de herramientas",
+      "status": "pass",
+      "independentReason": "Tema nombra uso compartido sin formular todavía una propuesta."
+    },
+    {
+      "id": "textos-argumentativos-07",
+      "order": 13,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Permitirían identificar las categorías desde la entrada sin abrir cada caja",
+      "status": "pass",
+      "independentReason": "Identificar categorías desde entrada explica para qué servirían etiquetas."
+    },
+    {
+      "id": "textos-argumentativos-12",
+      "order": 13,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Clasificar todas las entregas tomaría demasiado tiempo",
+      "status": "pass",
+      "independentReason": "El costo de clasificar objeta intercambio; categorías amplias es la respuesta."
+    },
+    {
+      "id": "textos-argumentativos-13",
+      "order": 13,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "La copia no conserva todas las características materiales del original",
+      "status": "pass",
+      "independentReason": "La autora concede límite material de copias sin negar su utilidad."
+    },
+    {
+      "id": "textos-argumentativos-14",
+      "order": 13,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Hay al menos dos personas con la necesidad descrita",
+      "status": "pass",
+      "independentReason": "Dos casos prueban al menos dos necesidades, no una universal."
+    },
+    {
+      "id": "textos-argumentativos-15",
+      "order": 13,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La archivista, por su especialidad y su revisión del depósito",
+      "status": "pass",
+      "independentReason": "Especialidad y examen del depósito hacen pertinente a la archivista."
+    },
+    {
+      "id": "textos-argumentativos-20",
+      "order": 13,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Conviene compartir ciertas herramientas con registro y responsable definidos",
+      "status": "pass",
+      "independentReason": "La tesis tiene alcance y condiciones: ciertas herramientas, registro y responsable."
+    },
+    {
+      "id": "textos-argumentativos-21",
+      "order": 13,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Reconoce la dificultad y plantea una prueba del beneficio esperado",
+      "status": "pass",
+      "independentReason": "La autora reconoce carga inicial y propone ensayo en dos grupos."
+    },
+    {
+      "id": "textos-argumentativos-22",
+      "order": 13,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Ataca una característica personal sin responder la razón sobre lluvia y libros",
+      "status": "pass",
+      "independentReason": "La réplica sobre carpetas ataca a la persona sin contestar daño por lluvia."
+    },
+    {
+      "id": "textos-argumentativos-23",
+      "order": 13,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Se eligió una secuencia parcial que atiende inventario y fragilidad dentro del tiempo disponible",
+      "status": "pass",
+      "independentReason": "El acuerdo secuencia inventario mínimo y fragilidad dentro de una semana limitada."
+    },
+    {
+      "id": "termino-excluido-04",
+      "order": 14,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Paciencia",
+      "status": "pass",
+      "independentReason": "Paciencia no es recipiente; botella y jarra sí."
+    },
+    {
+      "id": "termino-excluido-05",
+      "order": 14,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Recordar",
+      "status": "pass",
+      "independentReason": "Recordar no expresa desplazamiento; caminar y viajar sí."
+    },
+    {
+      "id": "termino-excluido-06",
+      "order": 14,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Veloz",
+      "status": "pass",
+      "independentReason": "Veloz expresa velocidad, no temperatura como frío y tibio."
+    },
+    {
+      "id": "termino-excluido-07",
+      "order": 14,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Cosecha",
+      "status": "pass",
+      "independentReason": "Cosecha se asocia al huerto pero no es herramienta como pala y rastrillo."
+    },
+    {
+      "id": "termino-excluido-12",
+      "order": 14,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Interminable",
+      "status": "pass",
+      "independentReason": "Interminable contradice poca extensión; corta y concisa son compatibles con una línea."
+    },
+    {
+      "id": "termino-excluido-13",
+      "order": 14,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Observable",
+      "status": "pass",
+      "independentReason": "Observable conserva visible en vez de oponerse como las otras dos expresiones."
+    },
+    {
+      "id": "termino-excluido-14",
+      "order": 14,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Vértice",
+      "status": "pass",
+      "independentReason": "Vértice es elemento de un polígono, no clase de polígono."
+    },
+    {
+      "id": "termino-excluido-15",
+      "order": 14,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Ciclista",
+      "status": "pass",
+      "independentReason": "Ciclista usa bicicleta sin ser parte estructural; pedal y manillar sí."
+    },
+    {
+      "id": "termino-excluido-20",
+      "order": 14,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Asiento",
+      "status": "pass",
+      "independentReason": "Asiento es encabezado hiperónimo y la consigna pide clases particulares en filas."
+    },
+    {
+      "id": "termino-excluido-21",
+      "order": 14,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Estante, porque nombra un objeto y no una etapa del proceso",
+      "status": "pass",
+      "independentReason": "Estante es objeto, no una etapa de observar–medir–registrar."
+    },
+    {
+      "id": "termino-excluido-22",
+      "order": 14,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Hostil",
+      "status": "pass",
+      "independentReason": "Hostil se opone al trato amable; cordial y acogedor conservan ese sentido. Sustituye correctamente el anterior distractor ambiguo ardiente."
+    },
+    {
+      "id": "termino-excluido-23",
+      "order": 14,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Es pertinente porque aplica una regla común y señala el incumplimiento",
+      "status": "pass",
+      "independentReason": "La explicación aplica el criterio narrativo común y reconoce martillo como ajeno."
+    },
+    {
+      "id": "oraciones-eliminadas-04",
+      "order": 15,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "III",
+      "status": "pass",
+      "independentReason": "El sonido viaja cambia de asunto frente a etiquetas del semillero."
+    },
+    {
+      "id": "oraciones-eliminadas-05",
+      "order": 15,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "III",
+      "status": "pass",
+      "independentReason": "Cometas es ajeno a ordenar y guardar hojas por curso."
+    },
+    {
+      "id": "oraciones-eliminadas-06",
+      "order": 15,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "IV",
+      "status": "pass",
+      "independentReason": "Cantidad de letras de bicicleta no informa condiciones de préstamo."
+    },
+    {
+      "id": "oraciones-eliminadas-07",
+      "order": 15,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Se elimina III porque no informa condiciones de visita",
+      "status": "pass",
+      "independentReason": "Números pares es ajeno a condiciones de visita; las restricciones sí pertenecen."
+    },
+    {
+      "id": "oraciones-eliminadas-12",
+      "order": 15,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "III",
+      "status": "pass",
+      "independentReason": "III repite unicidad del código y la consigna obliga conservar primera presentación."
+    },
+    {
+      "id": "oraciones-eliminadas-13",
+      "order": 15,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "III",
+      "status": "pass",
+      "independentReason": "III repite aforo de veinte ya dicho en I; otras oraciones añaden condiciones."
+    },
+    {
+      "id": "oraciones-eliminadas-14",
+      "order": 15,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "IV",
+      "status": "pass",
+      "independentReason": "IV repite ubicación del desvío ya presentada en I; no desarrolla el recorrido."
+    },
+    {
+      "id": "oraciones-eliminadas-15",
+      "order": 15,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "IV, porque cambia de asunto",
+      "status": "pass",
+      "independentReason": "Nubes cambia de asunto; II y III sostienen contraste declarado."
+    },
+    {
+      "id": "oraciones-eliminadas-20",
+      "order": 15,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "III",
+      "status": "pass",
+      "independentReason": "III niega toda silla en el mismo momento del inventario confirmado de doce."
+    },
+    {
+      "id": "oraciones-eliminadas-21",
+      "order": 15,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "IV",
+      "status": "pass",
+      "independentReason": "Número de letras de mensual es ajeno; objeción y respuesta sí desarrollan propuesta."
+    },
+    {
+      "id": "oraciones-eliminadas-22",
+      "order": 15,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Eliminar III, porque parafrasea la consulta interna de los sábados",
+      "status": "pass",
+      "independentReason": "III parafrasea consulta interna sabatina y la regla pide eliminar paráfrasis posterior."
+    },
+    {
+      "id": "oraciones-eliminadas-23",
+      "order": 15,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Eliminar IV porque no contribuye a la comparación ni a la elección",
+      "status": "pass",
+      "independentReason": "Palomas es ajeno; ventajas relativas de ambos papeles y conclusión sí son pertinentes."
+    },
+    {
+      "id": "analogias-04",
+      "order": 16,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Termómetro : medir temperatura",
+      "status": "pass",
+      "independentReason": "Instrumento seguido por función de medida exige termómetro:medir temperatura."
+    },
+    {
+      "id": "analogias-05",
+      "order": 16,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Tecla : teclado",
+      "status": "pass",
+      "independentReason": "Página integra libro como tecla integra teclado; otras opciones cambian relación."
+    },
+    {
+      "id": "analogias-06",
+      "order": 16,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Colibrí : ave",
+      "status": "pass",
+      "independentReason": "Triángulo es tipo de polígono como colibrí es tipo de ave, mismo orden."
+    },
+    {
+      "id": "analogias-07",
+      "order": 16,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Acercar : alejar",
+      "status": "pass",
+      "independentReason": "Acercar y alejar son acciones contrarias como aumentar y disminuir."
+    },
+    {
+      "id": "analogias-12",
+      "order": 16,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Vasija",
+      "status": "pass",
+      "independentReason": "Persona productora y producto elaborado exige ceramista:vasija."
+    },
+    {
+      "id": "analogias-13",
+      "order": 16,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Coser",
+      "status": "pass",
+      "independentReason": "Encuadernar une libro como coser une prenda; vestir sería uso y armario lugar."
+    },
+    {
+      "id": "analogias-14",
+      "order": 16,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Inquietud : pánico",
+      "status": "pass",
+      "independentReason": "Inquietud a pánico conserva dirección de menor a mayor intensidad."
+    },
+    {
+      "id": "analogias-15",
+      "order": 16,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Cerrar válvula : detener agua :: abrir interruptor : detener corriente",
+      "status": "pass",
+      "independentReason": "La relación es acción–efecto observado en cada circuito; el enunciado lo define."
+    },
+    {
+      "id": "analogias-20",
+      "order": 16,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Ave : pez",
+      "status": "pass",
+      "independentReason": "Cada columna debe ir particular→general:colibrí→ave,sardina→pez."
+    },
+    {
+      "id": "analogias-21",
+      "order": 16,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Acto : obra teatral",
+      "status": "pass",
+      "independentReason": "Acto es sección organizada de obra teatral como capítulo de libro."
+    },
+    {
+      "id": "analogias-22",
+      "order": 16,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Huevo : eclosión",
+      "status": "pass",
+      "independentReason": "Huevo:eclosión conserva estructura biológica y proceso de inicio definido."
+    },
+    {
+      "id": "analogias-23",
+      "order": 16,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Porque tener objetos no equivale a que esos objetos constituyan la colección ofrecida al público",
+      "status": "pass",
+      "independentReason": "Herramientas de limpieza no constituyen necesariamente colección pública de museo."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-04",
+      "order": 17,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Narrativa",
+      "status": "pass",
+      "independentReason": "Narrativa16 supera historia12 y ciencia9; datos y barras coinciden."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-05",
+      "order": 17,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "7 cajas",
+      "status": "pass",
+      "independentReason": "24−17=7 cajas; unidad es cajas distintas terminadas."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-06",
+      "order": 17,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Que la práctica duró 35 minutos",
+      "status": "pass",
+      "independentReason": "La unidad de la barra es minutos;35 no cuenta personas ni sesiones."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-07",
+      "order": 17,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "12 personas",
+      "status": "pass",
+      "independentReason": "Bus7 y bicicleta5 son categorías exclusivas:sumar da12."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-12",
+      "order": 17,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Que los 12 mapas representan veinte de cada cien partes del total",
+      "status": "pass",
+      "independentReason": "12/60=20%; el porcentaje describe fracción del total, no20 objetos."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-13",
+      "order": 17,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Aumentaron de enero a febrero y disminuyeron de febrero a marzo",
+      "status": "pass",
+      "independentReason": "20→28 aumenta y28→24 disminuye; los meses no son acumulados."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-14",
+      "order": 17,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Un punto de agua",
+      "status": "pass",
+      "independentReason": "La leyenda define círculo como punto de agua y el símbolo es círculo."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-15",
+      "order": 17,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El viernes se registraron seis plantas más que el lunes",
+      "status": "pass",
+      "independentReason": "20−14=6; no hay registros intermedios para interpolar hechos."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-20",
+      "order": 17,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Se registraron 40 consultas en los tres días",
+      "status": "pass",
+      "independentReason": "10+16+14=40 consultas, sin inferir40 personas distintas."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-21",
+      "order": 17,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "A registró diez asistentes más que B; no se conoce la causa de la diferencia",
+      "status": "pass",
+      "independentReason": "30−20=10 asistentes; calidad y causa no fueron medidas."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-22",
+      "order": 17,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Fecha, horario, lugar y material solicitado",
+      "status": "pass",
+      "independentReason": "Fecha, horario, lugar y material permiten planificar asistencia; lema no basta."
+    },
+    {
+      "id": "textos-con-graficos-fundamentos-23",
+      "order": 17,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Cambiarla por Registro actualizado → ayuda a seguir → entregas",
+      "status": "pass",
+      "independentReason": "El registro actualizado ayuda a rastrear entregas; elimina siempre exagera."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-04",
+      "order": 18,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "B tuvo mayor proporción: 60 %, frente al 30 % de A",
+      "status": "pass",
+      "independentReason": "24/80=30% y18/30=60%; B supera en proporción aunque A en número."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-05",
+      "order": 18,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El promedio semanal de A es 30 y el registro semanal de B es 45",
+      "status": "pass",
+      "independentReason": "120/4=30 es promedio semanal; no obliga cada semana igual30."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-06",
+      "order": 18,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La diferencia es 10 y 60 equivale a 1,2 veces 50",
+      "status": "pass",
+      "independentReason": "60−50=10 y60/50=1,2; truncar eje no cambia datos."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-07",
+      "order": 18,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "A utilizó 500 mililitros más que B",
+      "status": "pass",
+      "independentReason": "2 L=2000 mL;2000−1500=500 mL a favor de A."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-12",
+      "order": 18,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "15 puntos porcentuales",
+      "status": "pass",
+      "independentReason": "40−25=15 puntos porcentuales, distinto de aumento relativo60%."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-13",
+      "order": 18,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "50 %: (30 − 20)/20 × 100",
+      "status": "pass",
+      "independentReason": "(30−20)/20=0,5=50% de aumento relativo."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-14",
+      "order": 18,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La suma de marcas es 110, pero no equivale a 110 personas distintas",
+      "status": "pass",
+      "independentReason": "Respuestas múltiples suman110 marcas, no110 personas distintas."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-15",
+      "order": 18,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Subió la cantidad de participantes y bajó su proporción dentro del total",
+      "status": "pass",
+      "independentReason": "Participantes20→30 suben; proporciones50%→30% bajan."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-20",
+      "order": 18,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Las consultas aumentaron, pero no se puede atribuir todo el cambio únicamente al cartel",
+      "status": "pass",
+      "independentReason": "Cartel, horario y grupos cambiaron juntos; no se aísla causa del aumento."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-21",
+      "order": 18,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Como una proyección bajo un supuesto explícito, no como dato observado",
+      "status": "pass",
+      "independentReason": "25 es proyección condicional, no observación ni garantía."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-22",
+      "order": 18,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El total subió, aunque dentro de cada turno bajó la proporción de asistencia",
+      "status": "pass",
+      "independentReason": "Temprano90%→80%,tardío60%→50%;ponderación permite total66%→74%."
+    },
+    {
+      "id": "textos-con-graficos-avanzados-23",
+      "order": 18,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Usar 200 como total de las tres sedes y aclarar que 80 corresponden a la central",
+      "status": "pass",
+      "independentReason": "200 ya incluye80; sumarlos duplicaría la central."
+    },
+    {
+      "id": "textos-informativos-04",
+      "order": 19,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Estudiantes presentan un catálogo de fotografías del barrio",
+      "status": "pass",
+      "independentReason": "El hecho informado es presentar un catálogo local; los otros titulares exageran alcance."
+    },
+    {
+      "id": "textos-informativos-05",
+      "order": 19,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El lugar fue la sala del centro juvenil",
+      "status": "pass",
+      "independentReason": "La sala está explícita; duración ausente y reparto por persona no determinado."
+    },
+    {
+      "id": "textos-informativos-06",
+      "order": 19,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La franja de los domingos funcionará durante un mes de prueba",
+      "status": "pass",
+      "independentReason": "La bajada conserva domingo y mes de prueba sin prometer permanencia."
+    },
+    {
+      "id": "textos-informativos-07",
+      "order": 19,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La causa no está informada en el texto",
+      "status": "pass",
+      "independentReason": "El texto omite causa de traslado; no autoriza lluvia ni rechazo."
+    },
+    {
+      "id": "textos-informativos-12",
+      "order": 19,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Solicitar autorización para usar un aula en una actividad delimitada",
+      "status": "pass",
+      "independentReason": "La carta solicita autorización para actividad delimitada, no relata un hecho terminado."
+    },
+    {
+      "id": "textos-informativos-13",
+      "order": 19,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Revisar y actualizar el estado de los préstamos antes del plazo",
+      "status": "pass",
+      "independentReason": "La instrucción pide revisar vigencia antes de jueves y no simular devoluciones."
+    },
+    {
+      "id": "textos-informativos-14",
+      "order": 19,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Se recomienda revisar los daños antes de la próxima sesión",
+      "status": "pass",
+      "independentReason": "Se recomienda marca acción futura;24 y18 son resultados registrados."
+    },
+    {
+      "id": "textos-informativos-15",
+      "order": 19,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "La fecha y el intervalo de uso solicitado",
+      "status": "pass",
+      "independentReason": "Para verificar disponibilidad faltan fecha y franja, no preferencias o longitud."
+    },
+    {
+      "id": "textos-informativos-20",
+      "order": 19,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La organizadora considera posible una influencia de la difusión escolar; la causa no fue medida",
+      "status": "pass",
+      "independentReason": "La organizadora plantea causa posible sin medirla y hubo otra vía de difusión."
+    },
+    {
+      "id": "textos-informativos-21",
+      "order": 19,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "25 personas inscritas tras depurar tres registros duplicados",
+      "status": "pass",
+      "independentReason": "La revisión depura duplicados y deja25; avisos no son grupos para sumar."
+    },
+    {
+      "id": "textos-informativos-22",
+      "order": 19,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "La apertura de una sala con diez mesas el lunes",
+      "status": "pass",
+      "independentReason": "Diez mesas y apertura constan; mejor distrito es opinión sin comparación."
+    },
+    {
+      "id": "textos-informativos-23",
+      "order": 19,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Hay 30 reparados y ocho pendientes que se prevé atender en la próxima jornada",
+      "status": "pass",
+      "independentReason": "Anunciar atención de pendientes no los convierte en reparados:30 y8 siguen distintos."
+    },
+    {
+      "id": "redaccion-de-textos-04",
+      "order": 20,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Planificación",
+      "status": "pass",
+      "independentReason": "Identificar destinatario, datos y objetivo antes de escribir es planificación."
+    },
+    {
+      "id": "redaccion-de-textos-05",
+      "order": 20,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Añadir la ubicación confirmada",
+      "status": "pass",
+      "independentReason": "El aviso necesita lugar confirmado para destinatarios sin referencia compartida."
+    },
+    {
+      "id": "redaccion-de-textos-06",
+      "order": 20,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Es una revisión del plan para mejorar contenido y organización",
+      "status": "pass",
+      "independentReason": "La escritura es recursiva; reorganizar plan ante omisión y redundancia es pertinente."
+    },
+    {
+      "id": "redaccion-de-textos-07",
+      "order": 20,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El préstamo será el viernes 18, de 14:00 a 16:00, en el depósito 1, con registro previo",
+      "status": "pass",
+      "independentReason": "La versión conserva día18,franja14–16,depósito1yregistroprevio."
+    },
+    {
+      "id": "redaccion-de-textos-12",
+      "order": 20,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Camión",
+      "status": "pass",
+      "independentReason": "Camión es aguda terminada en n; lleva tilde en última sílaba."
+    },
+    {
+      "id": "redaccion-de-textos-13",
+      "order": 20,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Fácil",
+      "status": "pass",
+      "independentReason": "Fácil es llana terminada en l, no n/s/vocal; lleva tilde en primera."
+    },
+    {
+      "id": "redaccion-de-textos-14",
+      "order": 20,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La música comienza a las diez",
+      "status": "pass",
+      "independentReason": "Música es esdrújula; tilde aguda española sobre u, no acento grave."
+    },
+    {
+      "id": "redaccion-de-textos-15",
+      "order": 20,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Él / el",
+      "status": "pass",
+      "independentReason": "Él pronombre personal lleva tilde; el artículo de registro no."
+    },
+    {
+      "id": "redaccion-de-textos-20",
+      "order": 20,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Elena, revisa el registro",
+      "status": "pass",
+      "independentReason": "Elena es vocativo en orden directa y se separa con coma."
+    },
+    {
+      "id": "redaccion-de-textos-21",
+      "order": 20,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Las cajas del estante superior contienen las fichas antiguas",
+      "status": "pass",
+      "independentReason": "No se separa sujeto de verbo con coma si no hay inciso."
+    },
+    {
+      "id": "redaccion-de-textos-22",
+      "order": 20,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Cartón, papel y cuerda",
+      "status": "pass",
+      "independentReason": "La enumeración simple separa cartón,papel y cuerda con comas entre miembros y sin coma antes de y."
+    },
+    {
+      "id": "redaccion-de-textos-23",
+      "order": 20,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El taller de música será el sábado en el aula 2",
+      "status": "pass",
+      "independentReason": "Una sola actividad exige será y tildes música/sábado; quitar coma sin alterar día."
+    },
+    {
+      "id": "textos-instructivos-04",
+      "order": 21,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Crear una ficha de repaso con respuesta oculta en el interior",
+      "status": "pass",
+      "independentReason": "El procedimiento construye ficha con concepto fuera y explicación oculta dentro."
+    },
+    {
+      "id": "textos-instructivos-05",
+      "order": 21,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Una regla",
+      "status": "pass",
+      "independentReason": "Se pide marcar divisiones con regla; pegamento y termómetro no intervienen."
+    },
+    {
+      "id": "textos-instructivos-06",
+      "order": 21,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Comprobar que el nombre sea legible",
+      "status": "pass",
+      "independentReason": "El orden explícito exige comprobar legibilidad inmediatamente antes de colocar etiqueta."
+    },
+    {
+      "id": "textos-instructivos-07",
+      "order": 21,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Guarda las fichas ordenadas en el sobre azul",
+      "status": "pass",
+      "independentReason": "Guarda las fichas es instrucción ejecutable; otras opciones describen o suponen."
+    },
+    {
+      "id": "textos-instructivos-12",
+      "order": 21,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Llevarla a revisión y anotar la página ausente",
+      "status": "pass",
+      "independentReason": "Falta página aunque haya título; corresponde revisión y anotar ausencia."
+    },
+    {
+      "id": "textos-instructivos-13",
+      "order": 21,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Registrar el código del objeto",
+      "status": "pass",
+      "independentReason": "Joel está en lista pero falta segundo requisito: registrar código antes de retirar."
+    },
+    {
+      "id": "textos-instructivos-14",
+      "order": 21,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Cuando todas las fichas fueron revisadas y cada falta quedó marcada",
+      "status": "pass",
+      "independentReason": "La terminación exige revisar todas y marcar faltas, no eliminar todo pendiente."
+    },
+    {
+      "id": "textos-instructivos-15",
+      "order": 21,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "A revisión, por los restos de pegamento",
+      "status": "pass",
+      "independentReason": "Pegamento obliga revisión aunque tamaño sea correcto; condición específica prevalece."
+    },
+    {
+      "id": "textos-instructivos-20",
+      "order": 21,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Introduce las hojas ordenadas y numeradas en la carpeta",
+      "status": "pass",
+      "independentReason": "Entre hojas ordenadas y carpeta completa falta introducirlas; pasaje excluye que esté implícito."
+    },
+    {
+      "id": "textos-instructivos-21",
+      "order": 21,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Nombrar el objeto, la caja de destino y el siguiente paso",
+      "status": "pass",
+      "independentReason": "Objeto, destino y siguiente acción ausentes hacen inejecutable Ponlo allí."
+    },
+    {
+      "id": "textos-instructivos-22",
+      "order": 21,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Lee el nombre de cada sobre y revisa que todas sus tarjetas correspondan a ese tema",
+      "status": "pass",
+      "independentReason": "Leer rótulos y verificar tema de tarjetas concreta ambos controles observables."
+    },
+    {
+      "id": "textos-instructivos-23",
+      "order": 21,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Colocar la verificación del código antes de escribirlo en la carpeta",
+      "status": "pass",
+      "independentReason": "La verificación debe preceder una marca difícil de borrar para prevenir error."
+    },
+    {
+      "id": "plan-de-redaccion-04",
+      "order": 22,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "III - II - I",
+      "status": "pass",
+      "independentReason": "Asiento es general, silla es tipo y silla del aula es caso particular:III–II–I."
+    },
+    {
+      "id": "plan-de-redaccion-05",
+      "order": 22,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "II",
+      "status": "pass",
+      "independentReason": "II introduce catálogo; I y III tienen referencias que dependen de presentarlo."
+    },
+    {
+      "id": "plan-de-redaccion-06",
+      "order": 22,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "II - III - I",
+      "status": "pass",
+      "independentReason": "Definición de clasificación, criterio del borde y ejemplo:II–III–I."
+    },
+    {
+      "id": "plan-de-redaccion-07",
+      "order": 22,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Su pertinencia respecto del tema del plan",
+      "status": "pass",
+      "independentReason": "Una oración ajena debe revisarse por pertinencia antes de darle posición."
+    },
+    {
+      "id": "plan-de-redaccion-12",
+      "order": 22,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "II - III - I",
+      "status": "pass",
+      "independentReason": "Cronología8:00,9:00,11:00exigeII–III–I."
+    },
+    {
+      "id": "plan-de-redaccion-13",
+      "order": 22,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "II - III - I",
+      "status": "pass",
+      "independentReason": "Causa agua,efecto tinta corrida,resultado ilegibilidad:II–III–I."
+    },
+    {
+      "id": "plan-de-redaccion-14",
+      "order": 22,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "II - III - I",
+      "status": "pass",
+      "independentReason": "Consultar,confirmar reserva,invitar respeta dependencia:II–III–I."
+    },
+    {
+      "id": "plan-de-redaccion-15",
+      "order": 22,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Ubicar la llegada antes del cambio sin afirmar que lo causó",
+      "status": "pass",
+      "independentReason": "El orden temporal no demuestra relación causal entre carta y cambio de mesa."
+    },
+    {
+      "id": "plan-de-redaccion-20",
+      "order": 22,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "II - IV - I - III",
+      "status": "pass",
+      "independentReason": "ProblemaII,medidaIV,difusiónI,resultadoIII conserva referencias."
+    },
+    {
+      "id": "plan-de-redaccion-21",
+      "order": 22,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "II - IV - V - I - III",
+      "status": "pass",
+      "independentReason": "DatosII,borradorIV,pruebaV,revisiónI,entregaIII es única secuencia ofrecida sin anticipaciones."
+    },
+    {
+      "id": "plan-de-redaccion-22",
+      "order": 22,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Mover III antes de II",
+      "status": "pass",
+      "independentReason": "Esa prueba enII requiere primeroIII que introduce reemplazo y prueba."
+    },
+    {
+      "id": "plan-de-redaccion-23",
+      "order": 22,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "II - I - IV - V - III",
+      "status": "pass",
+      "independentReason": "GeneralII,aplicaciónI,criterioIV,resultadoV,uso del resultadoIII respeta referentes."
+    },
+    {
+      "id": "textos-narrativos-04",
+      "order": 23,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La cometa pasa de no volar a elevarse después de un ajuste",
+      "status": "pass",
+      "independentReason": "La transformación central es cometa que no vuela, ajuste de varilla y elevación posterior.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-05",
+      "order": 23,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Devolverla a Lía",
+      "status": "pass",
+      "independentReason": "Devolver libreta a dueña identificada resuelve pérdida; mesa es acción descartada.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-06",
+      "order": 23,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Es la voz narradora participante de la historia",
+      "status": "pass",
+      "independentReason": "Yo realiza acciones y narra como personaje; no identifica automáticamente al autor real.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-07",
+      "order": 23,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La sala tenía tres filas y una puerta al fondo",
+      "status": "pass",
+      "independentReason": "Tres filas y puerta describen disposición espacial; llegar y sentarse son acciones.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-12",
+      "order": 23,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Vincula un lugar de la historia con un acontecimiento extraordinario transmitido",
+      "status": "pass",
+      "independentReason": "Lugar identificable dentro de ficción más campana extraordinaria transmitida imita leyenda.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-13",
+      "order": 23,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El recorrido temporal de una jornada",
+      "status": "pass",
+      "independentReason": "Ocho,media hora,mañana ymediodía ordenan desarrollo de jornada como crónica.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-14",
+      "order": 23,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Conoce pensamientos de más de un personaje",
+      "status": "pass",
+      "independentReason": "El narrador accede al temor de Elena y a la certeza de Luis sin que los pronuncien.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-15",
+      "order": 23,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Relato biográfico",
+      "status": "pass",
+      "independentReason": "Nacimiento,juventud,taller yformación constituyen recorrido vital, no manual.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-20",
+      "order": 23,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Introducir un recuerdo que da contexto al reconocimiento actual",
+      "status": "pass",
+      "independentReason": "El salto a diez años antes explica reconocimiento; no anticipa futuro.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-21",
+      "order": 23,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Quería devolver a Lía el dibujo que necesitaba antes del cierre",
+      "status": "pass",
+      "independentReason": "Reloj,búsqueda recordada,cuidado ydevolución apoyan intención de ayudar antes del cierre.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-22",
+      "order": 23,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Si Sol abrirá la carta y cómo responderá a su contenido",
+      "status": "pass",
+      "independentReason": "Carta y aula vacía constan; abrirla y responder siguen sin mostrarse.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "textos-narrativos-23",
+      "order": 23,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La primera impresión de Tomás se corrige al conocer lo que hacía Lara",
+      "status": "pass",
+      "independentReason": "La ayuda de Lara en patio corrige sospecha de abandono basada en mesa vacía.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-04",
+      "order": 24,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Busco un ayudante con experiencia para una tienda",
+      "status": "pass",
+      "independentReason": "Con experiencia debe modificar ayudante y la reescritura lo aproxima sin cambiar solicitud.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-05",
+      "order": 24,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El equipo diseñó una tabla para registrar los préstamos",
+      "status": "pass",
+      "independentReason": "Diseñó una tabla sustituye cosa/hizo por producto y acción confirmados.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-06",
+      "order": 24,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El plazo termina el viernes",
+      "status": "pass",
+      "independentReason": "Termina ya aporta final; eliminar al final conserva fecha sin énfasis declarado.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-07",
+      "order": 24,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Su admite más de una interpretación y debe aclararse con el nombre",
+      "status": "pass",
+      "independentReason": "Su no fija dueña entre Alma y Eva; nombrar autoría confirmada resuelve ambigüedad.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-12",
+      "order": 24,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Prever",
+      "status": "pass",
+      "independentReason": "Prever es infinitivo normativo de anticipar; proveer cambia sentido y preveher no existe.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-13",
+      "order": 24,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El techo y la puerta quedaron dañados",
+      "status": "pass",
+      "independentReason": "Sujeto coordinado techo y puerta exige plural y adjetivo masculino plural.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-14",
+      "order": 24,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Pienso que el horario debe revisarse",
+      "status": "pass",
+      "independentReason": "Pienso eso no requiere de; pienso que evita dequeísmo en esa construcción.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-15",
+      "order": 24,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Me acuerdo de que dejé el cuaderno en el aula",
+      "status": "pass",
+      "independentReason": "Acordarse de eso exige de; oración subordinada requiere de que.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-20",
+      "order": 24,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "En el depósito había cinco cajas",
+      "status": "pass",
+      "independentReason": "Haber existencial es impersonal singular; cinco cajas no fuerza habían.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-21",
+      "order": 24,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "El agua está fría",
+      "status": "pass",
+      "independentReason": "Agua femenino con a tónica admite el inmediato; fría sigue en femenino.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-22",
+      "order": 24,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "La repetición cumple una función de énfasis y no debe eliminarse automáticamente",
+      "status": "pass",
+      "independentReason": "Repetición deliberada de tiempo estructura tres necesidades y funciona como énfasis.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "vicios-de-diccion-23",
+      "order": 24,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "No rechazar chatear por su origen; evaluar si el término se adecua al destinatario",
+      "status": "pass",
+      "independentReason": "Chatear aceptado no se rechaza por origen; habían llegado es auxiliar plural válido.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-04",
+      "order": 25,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Los participantes pudieron advertir que el acceso habitual no estaba disponible",
+      "status": "pass",
+      "independentReason": "Cartel y puerta lateral permiten deducir indisponibilidad temporal del acceso usual.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-05",
+      "order": 25,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El retraso se debió a que la conductora olvidó el paquete",
+      "status": "pass",
+      "independentReason": "El texto omite motivo; atribuir olvido de conductora inventa causa.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-06",
+      "order": 25,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "En ese ensayo, las macetas con mezcla mostraron mayor crecimiento promedio",
+      "status": "pass",
+      "independentReason": "Seis macetas durante cuatro semanas solo sustentan resultado local comparativo.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-07",
+      "order": 25,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Las devoluciones pueden realizarse hasta las seis de la tarde por el buzón",
+      "status": "pass",
+      "independentReason": "Buzón hasta18permite devolución tras cierre16sin prolongar mostrador.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-12",
+      "order": 25,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El calor de la sala era muy intenso",
+      "status": "pass",
+      "independentReason": "Horno expresa calor intenso en sala, apoyado por sol,ventanastrabadasyabanicos.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-13",
+      "order": 25,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Presenta el inicio de actividad como si el barrio fuera una persona",
+      "status": "pass",
+      "independentReason": "Despertar personifica el inicio de actividad barrial sin afirmar sueño literal.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-14",
+      "order": 25,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Critica indirectamente la demora",
+      "status": "pass",
+      "independentReason": "Espera de tres horas y suspiro hacen mejor lectura irónica de rápido.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-15",
+      "order": 25,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "La capacidad de una explicación y una lámpara para orientar",
+      "status": "pass",
+      "independentReason": "Lámpara orienta en oscuridad como explicación orienta decisiones confusas.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-20",
+      "order": 25,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "El acceso al agua del patio necesita una mejora",
+      "status": "pass",
+      "independentReason": "Ambos textos identifican acceso insuficiente y necesidad de mejora; no fijan causa.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-21",
+      "order": 25,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Los informes describen grupos y franjas horarias diferentes",
+      "status": "pass",
+      "independentReason": "Las franjas y visitantes son distintos, por lo que60%y40%no se contradicen.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-22",
+      "order": 25,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Los datos sugieren revisar el ruido, pero no aíslan todas las causas",
+      "status": "pass",
+      "independentReason": "Ruido, dificultad y tiempo variaron; integración conserva hipótesis sin causalidad exclusiva.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "inferencias-y-sentido-figurado-23",
+      "order": 25,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "En otra sala se colocan señales legibles en los cruces y se registra si disminuyen consultas",
+      "status": "pass",
+      "independentReason": "Señales legibles en cruces con nueva medición conserva mecanismo y comprobación.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-04",
+      "order": 26,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El registro muestra solicitudes que llegan después del cierre",
+      "status": "pass",
+      "independentReason": "Solicitudes tras cierre son evidencia directamente pertinente a revisar horario.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-05",
+      "order": 26,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Conviene aumentar la cantidad de fichas disponibles para una prueba",
+      "status": "pass",
+      "independentReason": "La recomendación de aumentar fichas es conclusión; agotamiento y anexo son apoyo.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-06",
+      "order": 26,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "La participante percibió que el material le resultó útil",
+      "status": "pass",
+      "independentReason": "El testimonio acredita percepción personal; estudio y consultas también variaron.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-07",
+      "order": 26,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Explica por qué el tamaño de letra importa para la propuesta",
+      "status": "pass",
+      "independentReason": "La última oración explica por qué legibilidad a distancia respalda aumentar letra.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-12",
+      "order": 26,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "El comunicado actual del servicio, fechado y publicado en su canal oficial",
+      "status": "pass",
+      "independentReason": "Comunicado actual,fechado,oficialydelamismasedees fuente inicial pertinente.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-13",
+      "order": 26,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Todas remiten al mismo mensaje sin presentar una comprobación propia",
+      "status": "pass",
+      "independentReason": "Doce copias de un mensaje sin autor no son verificaciones independientes.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-14",
+      "order": 26,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Conviene revisar el método, la declaración de intereses y estudios independientes",
+      "status": "pass",
+      "independentReason": "Financiamiento requiere examinar método e intereses sin probar falsedad automática.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-15",
+      "order": 26,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Añadir fecha, unidad, fuente y explicación de cómo se midió",
+      "status": "pass",
+      "independentReason": "Unidad,periodo,fuente ymétodohacen interpretable y verificable240.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-20",
+      "order": 26,
+      "expectedCorrect": 1,
+      "actualCorrect": 1,
+      "expectedText": "Todos los estudiantes de la ciudad prefieren la tarde",
+      "status": "pass",
+      "independentReason": "Muestra voluntaria de18enunlocalno sustenta universal ciudadana.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-21",
+      "order": 26,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Durante esa semana también se añadió personal y se habilitó otra ventanilla",
+      "status": "pass",
+      "independentReason": "Personal y ventanilla son explicaciones alternativas contemporáneas al afiche.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-22",
+      "order": 26,
+      "expectedCorrect": 0,
+      "actualCorrect": 0,
+      "expectedText": "Un ejemplar de esa especie se desarrolló con luz indirecta y las demás condiciones necesarias",
+      "status": "pass",
+      "independentReason": "Un caso verificado de misma especie sin luz directa refuta necesidad universal.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    },
+    {
+      "id": "evaluacion-de-fuentes-y-argumentos-23",
+      "order": 26,
+      "expectedCorrect": 2,
+      "actualCorrect": 2,
+      "expectedText": "Adaptar la captura para funcionar sin conexión y ensayar si conserva la reducción de errores",
+      "status": "pass",
+      "independentReason": "Adaptar para cortes de internet y probar conserva objetivo sin garantizar transferencia.",
+      "allAlternativeExplanationsAndSolutionReviewed": true
+    }
+  ]
+}

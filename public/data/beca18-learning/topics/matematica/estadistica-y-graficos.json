@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/estadistica-y-graficos",
+  "course": "matematica",
+  "slug": "estadistica-y-graficos",
+  "title": "Estadística, tablas y gráficos",
+  "description": "Organiza datos, interpreta frecuencias y evalúa qué puede concluirse de un gráfico.",
+  "version": 1,
+  "order": 36,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Leer tablas simples y de intervalos.",
+    "Calcular y comparar media, mediana y moda.",
+    "Detectar escalas y conclusiones engañosas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Dato, variable y frecuencia",
+      "body": [
+        "Una variable es una característica observada. El número de hermanos es cuantitativa discreta porque se cuenta; la estatura es cuantitativa continua porque se mide y puede tomar valores entre dos medidas.",
+        "La frecuencia absoluta cuenta observaciones de un valor o categoría. La frecuencia relativa divide ese conteo entre el total; al multiplicar por 100 obtienes porcentaje.",
+        "Las frecuencias absolutas suman el total de observaciones. Las relativas suman 1, salvo pequeñas diferencias por redondeo."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-01"
+    },
+    {
+      "type": "example",
+      "title": "De una lista a una tabla",
+      "body": [
+        "Los libros leídos por cinco estudiantes son 0, 1, 1, 2 y 1. Las frecuencias son: 0 libros → 1 estudiante; 1 libro → 3 estudiantes; 2 libros → 1 estudiante.",
+        "El valor 1 tiene frecuencia relativa 3/5 = 0,6 = 60%. El total es cinco estudiantes, no la suma de sus libros, que es 5 por coincidencia en este ejemplo."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-02"
+    },
+    {
+      "type": "explore",
+      "title": "Lee la altura y la unidad",
+      "body": [
+        "El gráfico muestra cómo se trasladaron 30 estudiantes: a pie 12, bicicleta 6 y bus 12. Toca cada categoría para consultar frecuencia y porcentaje.",
+        "El número debajo de cada barra corresponde al orden de los botones. La tabla accesible incluye los nombres completos y todos los datos."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "title": "Traslado de 30 estudiantes",
+        "labels": [
+          "A pie",
+          "Bicicleta",
+          "Bus"
+        ],
+        "values": [
+          12,
+          6,
+          12
+        ],
+        "unit": "estudiantes",
+        "partOfWhole": true
+      },
+      "level": 1,
+      "id": "estadistica-y-graficos-03"
+    },
+    {
+      "type": "question",
+      "title": "Discreta o continua",
+      "body": [],
+      "prompt": "¿Cuál es una variable cuantitativa continua?",
+      "choices": [
+        {
+          "text": "Número de cuadernos",
+          "explanation": "Es un conteo entero: variable discreta."
+        },
+        {
+          "text": "Duración de un recorrido",
+          "explanation": "Es una medida que puede tomar valores intermedios, por ejemplo 12,4 minutos."
+        },
+        {
+          "text": "Medio de transporte",
+          "explanation": "Es una categoría, no una cantidad medida."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue medir de contar.",
+      "solution": [
+        "La duración se mide.",
+        "Entre dos duraciones pueden existir otras medidas."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-04"
+    },
+    {
+      "type": "question",
+      "title": "Total de frecuencias",
+      "body": [],
+      "prompt": "Una tabla de mascotas por hogar tiene frecuencias 3, 5 y 2 hogares. ¿Cuántos hogares se observaron?",
+      "choices": [
+        {
+          "text": "10",
+          "explanation": "3 + 5 + 2 = 10 hogares."
+        },
+        {
+          "text": "3",
+          "explanation": "Tres es el número de categorías, no de hogares."
+        },
+        {
+          "text": "30",
+          "explanation": "No hay razón para multiplicar las frecuencias entre sí."
+        }
+      ],
+      "correct": 0,
+      "hint": "Cada hogar aparece una vez en alguna categoría.",
+      "solution": [
+        "Suma las frecuencias: 3 + 5 + 2.",
+        "Total: 10 hogares."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-05"
+    },
+    {
+      "type": "question",
+      "title": "Frecuencia relativa",
+      "body": [],
+      "prompt": "En 40 estudiantes, 14 eligieron ajedrez. ¿Qué porcentaje representa?",
+      "choices": [
+        {
+          "text": "14%",
+          "explanation": "14 es la frecuencia absoluta; falta dividir entre el total."
+        },
+        {
+          "text": "28%",
+          "explanation": "Duplicar 14 no equivale a convertir 14/40 a porcentaje."
+        },
+        {
+          "text": "35%",
+          "explanation": "14/40 = 0,35, equivalente a 35%."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide favorables entre total y multiplica por cien.",
+      "solution": [
+        "14 ÷ 40 = 0,35.",
+        "0,35 × 100 = 35%."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-06"
+    },
+    {
+      "type": "question",
+      "title": "Una tabla coherente",
+      "body": [],
+      "prompt": "Si 25 personas respondieron una única preferencia, ¿qué conjunto puede ser la lista completa de frecuencias?",
+      "choices": [
+        {
+          "text": "8, 9, 8",
+          "explanation": "Suma 25 y cada persona se cuenta una vez."
+        },
+        {
+          "text": "10, 10, 10",
+          "explanation": "Suma 30, más que las personas observadas."
+        },
+        {
+          "text": "5, 7, 8",
+          "explanation": "Suma 20: faltan cinco respuestas."
+        }
+      ],
+      "correct": 0,
+      "hint": "La lista completa debe sumar 25.",
+      "solution": [
+        "8 + 9 + 8 = 25.",
+        "Las otras listas no coinciden con el total."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-07"
+    },
+    {
+      "type": "review",
+      "title": "Revisa la unidad del dato",
+      "body": [
+        "Una barra puede representar personas, soles o porcentajes. No supongas que altura significa cantidad de observaciones sin leer la etiqueta.",
+        "No confundas valor de la variable con frecuencia: dos libros es una cantidad de libros; ocho estudiantes que leyeron dos libros es una frecuencia."
+      ],
+      "level": 1,
+      "id": "estadistica-y-graficos-08"
+    },
+    {
+      "type": "learn",
+      "title": "Centro no significa siempre lo mismo",
+      "body": [
+        "La media aritmética suma los valores y divide entre cuántos son. La mediana ocupa el centro de los datos ordenados; si hay cantidad par se promedian los dos centrales. La moda es el valor con mayor frecuencia.",
+        "Un valor extremo puede mover mucho la media sin mover la mediana de forma semejante. No existe una medida mejor en todo contexto: debes decidir qué información necesitas resumir."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-09"
+    },
+    {
+      "type": "example",
+      "title": "Una lista con un extremo",
+      "body": [
+        "Datos: 2, 3, 3, 4 y 18. Suma 30, así que la media es 30/5 = 6. La mediana es el tercer valor ordenado: 3. La moda también es 3.",
+        "La media 6 no significa que la mayoría haya obtenido 6. El 18 la eleva; la mediana 3 deja dos datos a cada lado."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-10"
+    },
+    {
+      "type": "learn",
+      "title": "Agrupa sin contar dos veces un límite",
+      "body": [
+        "En intervalos [0, 10), [10, 20) y [20, 30), el 10 va solo en el segundo y el 20 solo en el tercero. Las clases deben evitar superposición.",
+        "Para estimar la media con datos agrupados usa marcas de clase: puntos medios 5, 15 y 25. Multiplica cada marca por su frecuencia, suma y divide por el total. Es una estimación porque no conoces cada dato individual."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-11"
+    },
+    {
+      "type": "question",
+      "title": "Mediana con cantidad par",
+      "body": [],
+      "prompt": "¿Cuál es la mediana de 2, 7, 4 y 9?",
+      "choices": [
+        {
+          "text": "5,5",
+          "explanation": "Ordenados 2, 4, 7, 9; promedio de centrales: (4 + 7)/2 = 5,5."
+        },
+        {
+          "text": "4",
+          "explanation": "Es uno de los centrales, pero con cuatro datos se promedian los dos."
+        },
+        {
+          "text": "7",
+          "explanation": "Es el otro central; falta promediarlo con 4."
+        }
+      ],
+      "correct": 0,
+      "hint": "Ordena primero y localiza los dos datos centrales.",
+      "solution": [
+        "Lista ordenada: 2, 4, 7, 9.",
+        "Mediana = 11/2 = 5,5."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-12"
+    },
+    {
+      "type": "question",
+      "title": "Media con frecuencias",
+      "body": [],
+      "prompt": "Una tabla registra valor 2 con frecuencia 3 y valor 5 con frecuencia 2. ¿Cuál es la media?",
+      "choices": [
+        {
+          "text": "3,5",
+          "explanation": "Promedia dos valores sin ponderar por sus frecuencias."
+        },
+        {
+          "text": "3,2",
+          "explanation": "(2 × 3 + 5 × 2)/(3 + 2) = 16/5 = 3,2."
+        },
+        {
+          "text": "8",
+          "explanation": "Divide la suma ponderada por dos categorías en vez de por cinco observaciones."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cada valor se repite tantas veces como indica la frecuencia.",
+      "solution": [
+        "Suma de datos: 6 + 10 = 16.",
+        "Cantidad de datos: 3 + 2 = 5.",
+        "Media = 3,2."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-13"
+    },
+    {
+      "type": "question",
+      "title": "Clasifica un límite",
+      "body": [],
+      "prompt": "Las clases son [10, 20), [20, 30) y [30, 40]. ¿Dónde se registra el valor 30?",
+      "choices": [
+        {
+          "text": "En [20, 30)",
+          "explanation": "Ese intervalo excluye su extremo derecho, 30."
+        },
+        {
+          "text": "En ambas últimas clases",
+          "explanation": "Las clases definidas no se superponen."
+        },
+        {
+          "text": "Solo en [30, 40]",
+          "explanation": "La última clase incluye el extremo izquierdo 30."
+        }
+      ],
+      "correct": 2,
+      "hint": "Mira los símbolos de ambos extremos.",
+      "solution": [
+        "[20, 30) exige valor menor que 30.",
+        "[30, 40] sí incluye 30."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-14"
+    },
+    {
+      "type": "question",
+      "title": "Media agrupada estimada",
+      "body": [],
+      "prompt": "Dos clases [0, 10) y [10, 20) tienen frecuencias 2 y 3. Usando marcas de clase, ¿cuál es la media estimada?",
+      "choices": [
+        {
+          "text": "10",
+          "explanation": "Promedia las marcas sin ponderarlas por 2 y 3."
+        },
+        {
+          "text": "11",
+          "explanation": "(5 × 2 + 15 × 3)/5 = 55/5 = 11."
+        },
+        {
+          "text": "15",
+          "explanation": "Es solo la marca de la clase más frecuente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa las marcas 5 y 15.",
+      "solution": [
+        "Suma ponderada: 10 + 45 = 55.",
+        "Total: 5.",
+        "Estimación: 55/5 = 11."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-15"
+    },
+    {
+      "type": "review",
+      "title": "Ordena antes de elegir el centro",
+      "body": [
+        "La mediana exige ordenar; la media con tabla exige ponderar; la moda exige comparar frecuencias. No confundas las tres recetas.",
+        "En datos agrupados distingue media estimada de media exacta. Una marca de clase representa a un grupo para calcular, no demuestra que todos sus integrantes tengan ese valor."
+      ],
+      "level": 2,
+      "id": "estadistica-y-graficos-16"
+    },
+    {
+      "type": "learn",
+      "title": "El tipo de gráfico debe corresponder al dato",
+      "body": [
+        "Barras separadas comparan categorías o valores discretos; un histograma representa frecuencias en intervalos de una variable continua. Con clases de diferente ancho, la altura debe considerar densidad para que el área represente frecuencia.",
+        "Un gráfico de líneas destaca cambios a lo largo de un orden, como el tiempo. Un gráfico circular reparte un total: sus porcentajes deben sumar 100% y sus ángulos 360°.",
+        "Si el eje de barras no comienza en cero, las diferencias visuales pueden exagerarse. Lee valores y escala antes de afirmar que una cantidad duplica a otra."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-17"
+    },
+    {
+      "type": "example",
+      "title": "Una comparación exagerada",
+      "body": [
+        "Dos grupos registran 48 y 50 asistentes. La diferencia real es 2; la razón es 50/48 ≈ 1,042, es decir, cerca de 4,2% más.",
+        "Si un gráfico recorta el eje y lo inicia en 47, las alturas visibles son 1 y 3 unidades. Parecen triplicarse, pero la asistencia no se triplicó: el recorte cambió el origen visual."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-18"
+    },
+    {
+      "type": "learn",
+      "title": "Un resumen no demuestra una causa",
+      "body": [
+        "Que dos series aumenten al mismo tiempo no prueba que una produzca la otra. Podría existir una tercera condición o una coincidencia.",
+        "Una muestra puede no representar a toda la población si fue elegida de forma sesgada. Las conclusiones deben mantenerse dentro de lo que permiten la selección y los datos."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-19"
+    },
+    {
+      "type": "question",
+      "title": "Parte de un círculo",
+      "body": [],
+      "prompt": "En un gráfico circular una categoría representa 25% del total. ¿Cuánto debe medir su ángulo central?",
+      "choices": [
+        {
+          "text": "25°",
+          "explanation": "Porcentaje y grados usan totales distintos: 100 y 360."
+        },
+        {
+          "text": "90°",
+          "explanation": "0,25 × 360° = 90°."
+        },
+        {
+          "text": "180°",
+          "explanation": "Ese ángulo corresponde a 50%."
+        }
+      ],
+      "correct": 1,
+      "hint": "Un cuarto del total es un cuarto de 360 grados.",
+      "solution": [
+        "25% = 1/4.",
+        "360°/4 = 90°."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-20"
+    },
+    {
+      "type": "question",
+      "title": "Una escala recortada",
+      "body": [],
+      "prompt": "Dos barras de 80 y 100 se dibujan desde un eje que empieza en 60. ¿Qué afirmación es válida?",
+      "choices": [
+        {
+          "text": "100 es el doble de 80",
+          "explanation": "Las alturas visibles 40 y 20 no son las cantidades reales."
+        },
+        {
+          "text": "La diferencia real es 40",
+          "explanation": "100 − 80 = 20, no 40."
+        },
+        {
+          "text": "100 es 25% mayor que 80",
+          "explanation": "La diferencia 20 representa 20/80 = 25% de la base 80."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa los valores rotulados, no solo la altura desde el eje recortado.",
+      "solution": [
+        "100 − 80 = 20.",
+        "20/80 = 0,25 = 25%."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-21"
+    },
+    {
+      "type": "question",
+      "title": "Frecuencias acumuladas",
+      "body": [],
+      "prompt": "Tres clases ordenadas tienen frecuencias 4, 7 y 5. ¿Cuántas observaciones hay acumuladas hasta la segunda clase inclusive?",
+      "choices": [
+        {
+          "text": "11",
+          "explanation": "Se suman la primera y la segunda: 4 + 7 = 11."
+        },
+        {
+          "text": "7",
+          "explanation": "Es solo la frecuencia de la segunda clase."
+        },
+        {
+          "text": "16",
+          "explanation": "Incluye la tercera clase, que queda fuera del límite pedido."
+        }
+      ],
+      "correct": 0,
+      "hint": "Acumular hasta una clase incluye todas las anteriores.",
+      "solution": [
+        "Primera: 4.",
+        "Hasta segunda: 4 + 7 = 11."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-22"
+    },
+    {
+      "type": "question",
+      "title": "Una conclusión que respeta los datos",
+      "body": [],
+      "prompt": "Una encuesta voluntaria en un club de lectura encuentra 80% de preferencia por novelas. ¿Qué conclusión está justificada?",
+      "choices": [
+        {
+          "text": "80% de toda la ciudad prefiere novelas",
+          "explanation": "No se obtuvo una muestra representativa de la ciudad."
+        },
+        {
+          "text": "80% de quienes respondieron en ese club prefirió novelas",
+          "explanation": "La afirmación se limita al grupo efectivamente observado."
+        },
+        {
+          "text": "El club causa que las personas prefieran novelas",
+          "explanation": "La encuesta de preferencias no prueba causalidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "Mantén la población de la conclusión igual al grupo observado.",
+      "solution": [
+        "Los datos describen respuestas voluntarias del club.",
+        "No justifican generalizar a la ciudad ni atribuir una causa."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-23"
+    },
+    {
+      "type": "review",
+      "title": "Separa dato, representación y conclusión",
+      "body": [
+        "Comprueba sumas de frecuencias, unidades, ejes y clases. Después revisa si la frase final se refiere a la misma población y al mismo periodo.",
+        "Un gráfico atractivo no añade evidencia. Exige que la escala respete la comparación, los porcentajes compartan una base y la conclusión no afirme causalidad sin un diseño que la sostenga."
+      ],
+      "level": 3,
+      "id": "estadistica-y-graficos-24"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/cuadrilateros",
+  "course": "matematica",
+  "slug": "cuadrilateros",
+  "title": "Cuadriláteros",
+  "description": "Clasifica figuras por sus propiedades y calcula ángulos, diagonales y áreas con alturas correctas.",
+  "version": 1,
+  "order": 30,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Reconocer cuadriláteros y la inclusión entre sus clases.",
+    "Calcular áreas y diagonales de figuras con datos suficientes.",
+    "Combinar propiedades y evaluar afirmaciones geométricas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Cuatro lados y una suma de ángulos",
+      "body": [
+        "Un cuadrilátero simple tiene cuatro lados y sus ángulos interiores suman 360°. Una diagonal une vértices no consecutivos; hay dos.",
+        "Un paralelogramo tiene dos pares de lados opuestos paralelos. Un rectángulo es un paralelogramo con cuatro ángulos rectos; un rombo tiene cuatro lados iguales. Un cuadrado cumple ambas propiedades, así que también es rectángulo y rombo.",
+        "En este tema llamamos trapecio al que tiene exactamente un par de lados opuestos paralelos. Usaremos base mayor B y base menor b para ese par. Declarar la convención evita confusiones entre clasificaciones.",
+        "Un cuadrilátero sin pares de lados opuestos paralelos se denomina trapezoide bajo esta convención. Un deltoide convexo tiene dos pares de lados contiguos iguales; una de sus diagonales es eje de simetría y biseca perpendicularmente a la otra."
+      ],
+      "id": "cuadrilateros-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un ángulo que cierra la figura",
+      "body": [
+        "Tres ángulos de un cuadrilátero miden 80°, 95° y 110°. Halla el cuarto."
+      ],
+      "solution": [
+        "La suma conocida es 80 + 95 + 110 = 285°.",
+        "El cuarto es 360 − 285 = 75°.",
+        "Puedes justificar 360° al dividir el cuadrilátero en dos triángulos: 2 × 180°."
+      ],
+      "id": "cuadrilateros-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora un rectángulo",
+      "body": [
+        "La figura tiene lados perpendiculares de longitudes a y b. Su perímetro es 2(a + b), su área es ab y cada diagonal mide √(a² + b²). Cambia un lado y observa que área y perímetro reaccionan de forma distinta."
+      ],
+      "diagram": {
+        "kind": "geometry",
+        "mode": "quadrilateral",
+        "a": 6,
+        "b": 4,
+        "n": 4
+      },
+      "id": "cuadrilateros-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Ángulo faltante",
+      "body": [],
+      "prompt": "Tres ángulos de un cuadrilátero son 90°, 120° y 70°. ¿Cuánto mide el cuarto?",
+      "choices": [
+        {
+          "text": "80°",
+          "explanation": "360 − (90 + 120 + 70) = 80."
+        },
+        {
+          "text": "100°",
+          "explanation": "100 haría una suma de 380°, que excede 360°."
+        },
+        {
+          "text": "20°",
+          "explanation": "20 resulta de usar una suma total equivocada de 300°."
+        }
+      ],
+      "correct": 0,
+      "hint": "Los cuatro ángulos suman 360°, no 180°.",
+      "solution": [
+        "90 + 120 + 70 = 280.",
+        "El cuarto es 360 − 280 = 80°."
+      ],
+      "id": "cuadrilateros-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Clasificación con inclusión",
+      "body": [],
+      "prompt": "¿Qué afirmación siempre es verdadera?",
+      "choices": [
+        {
+          "text": "Todo rectángulo es cuadrado",
+          "explanation": "Un rectángulo puede tener lados adyacentes distintos, por ejemplo 3 y 5."
+        },
+        {
+          "text": "Todo rombo es rectángulo",
+          "explanation": "Un rombo puede tener ángulos de 60° y 120°; sus lados iguales no obligan ángulos rectos."
+        },
+        {
+          "text": "Todo cuadrado es rectángulo y rombo",
+          "explanation": "Tiene cuatro ángulos rectos y cuatro lados iguales, cumpliendo ambas definiciones."
+        }
+      ],
+      "correct": 2,
+      "hint": "Compara las propiedades necesarias de cada clase.",
+      "solution": [
+        "El cuadrado tiene la propiedad angular del rectángulo y la igualdad de lados del rombo.",
+        "La inclusión funciona desde cuadrado hacia ambas clases; las implicaciones inversas no siempre valen."
+      ],
+      "id": "cuadrilateros-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Perímetro de un rectángulo",
+      "body": [],
+      "prompt": "Un rectángulo tiene lados de 7 y 4 cm. ¿Cuál es su perímetro?",
+      "choices": [
+        {
+          "text": "11 cm",
+          "explanation": "11 suma solo dos lados; cada longitud aparece dos veces."
+        },
+        {
+          "text": "22 cm",
+          "explanation": "2(7 + 4) = 22."
+        },
+        {
+          "text": "28 cm",
+          "explanation": "28 es su área en cm²; no el perímetro."
+        }
+      ],
+      "correct": 1,
+      "hint": "Suma los cuatro lados o duplica la suma de los adyacentes.",
+      "solution": [
+        "P = 7 + 4 + 7 + 4.",
+        "P = 22 cm."
+      ],
+      "id": "cuadrilateros-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Área y unidades",
+      "body": [],
+      "prompt": "Un rectángulo mide 9 m por 5 m. ¿Cuál es su área?",
+      "choices": [
+        {
+          "text": "45 m²",
+          "explanation": "Área = largo × ancho = 9 × 5."
+        },
+        {
+          "text": "28 m²",
+          "explanation": "28 es el perímetro numérico; su unidad correcta sería metros."
+        },
+        {
+          "text": "14 m²",
+          "explanation": "14 suma dos lados, no cuenta superficie."
+        }
+      ],
+      "correct": 0,
+      "hint": "El área cuenta unidades cuadradas.",
+      "solution": [
+        "A = 9 m × 5 m.",
+        "A = 45 m²."
+      ],
+      "id": "cuadrilateros-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Una clase puede estar dentro de otra",
+      "body": [
+        "Las etiquetas no siempre son excluyentes. Un cuadrado puede pertenecer a tres clases: paralelogramo, rectángulo y rombo.",
+        "No intercambies perímetro y área: uno suma longitudes y el otro mide superficie. Sus unidades son diferentes."
+      ],
+      "id": "cuadrilateros-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Alturas y diagonales adecuadas",
+      "body": [
+        "El área de un paralelogramo es base × altura perpendicular. Un lado oblicuo no sustituye a la altura salvo que sea perpendicular a la base.",
+        "El área de un trapecio es (B + b)h/2. Es el promedio de sus bases paralelas multiplicado por la distancia perpendicular entre ellas.",
+        "En un rombo, las diagonales son perpendiculares y se parten por la mitad; el área es Dd/2. Cada lado forma con las semidiagonales un triángulo rectángulo. Las diagonales de un rectángulo son iguales y se bisecan, pero no suelen ser perpendiculares."
+      ],
+      "id": "cuadrilateros-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "De las diagonales del rombo al lado",
+      "body": [
+        "Un rombo tiene diagonales de 10 y 24 cm. Halla su área y su lado."
+      ],
+      "solution": [
+        "Área = 10 × 24/2 = 120 cm².",
+        "Las semidiagonales miden 5 y 12 cm y forman un ángulo recto.",
+        "Lado = √(5² + 12²) = 13 cm; perímetro = 4 × 13 = 52 cm."
+      ],
+      "id": "cuadrilateros-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Qué propiedades sí se comparten",
+      "body": [
+        "En todo paralelogramo los lados y ángulos opuestos son iguales, los ángulos adyacentes suman 180° y las diagonales se bisecan.",
+        "Diagonales iguales no es una propiedad de todos los paralelogramos; corresponde, por ejemplo, al rectángulo. Diagonales perpendiculares corresponden al rombo, pero también a otras figuras; una sola propiedad aislada puede no identificar una clase."
+      ],
+      "id": "cuadrilateros-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Altura de un paralelogramo",
+      "body": [],
+      "prompt": "Un paralelogramo tiene base 12 cm, lado oblicuo 7 cm y altura a esa base 5 cm. ¿Cuál es el área?",
+      "choices": [
+        {
+          "text": "30 cm²",
+          "explanation": "30 divide entre dos como si fuera un triángulo; el paralelogramo no requiere esa mitad."
+        },
+        {
+          "text": "60 cm²",
+          "explanation": "La altura perpendicular es 5: 12 × 5 = 60."
+        },
+        {
+          "text": "84 cm²",
+          "explanation": "84 multiplica la base por el lado oblicuo en lugar de la altura."
+        }
+      ],
+      "correct": 1,
+      "hint": "Elige la distancia perpendicular entre las rectas que contienen base y lado opuesto.",
+      "solution": [
+        "A = bh = 12 × 5.",
+        "A = 60 cm²."
+      ],
+      "id": "cuadrilateros-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Área del trapecio",
+      "body": [],
+      "prompt": "Las bases paralelas de un trapecio miden 8 y 14 cm; su altura mide 6 cm. ¿Cuál es el área?",
+      "choices": [
+        {
+          "text": "66 cm²",
+          "explanation": "(8 + 14) × 6/2 = 66."
+        },
+        {
+          "text": "132 cm²",
+          "explanation": "132 omite dividir entre dos la suma de las bases."
+        },
+        {
+          "text": "48 cm²",
+          "explanation": "48 usa solo la base menor y omite la mayor."
+        }
+      ],
+      "correct": 0,
+      "hint": "Promedia las dos bases y multiplica por la altura.",
+      "solution": [
+        "Base media = (8 + 14)/2 = 11.",
+        "A = 11 × 6 = 66 cm²."
+      ],
+      "id": "cuadrilateros-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Área del rombo",
+      "body": [],
+      "prompt": "Un rombo tiene diagonales de 12 y 16 cm. ¿Cuál es su área?",
+      "choices": [
+        {
+          "text": "192 cm²",
+          "explanation": "192 es el doble del área; falta dividir entre dos."
+        },
+        {
+          "text": "28 cm²",
+          "explanation": "28 suma longitudes y no representa superficie."
+        },
+        {
+          "text": "96 cm²",
+          "explanation": "12 × 16/2 = 96."
+        }
+      ],
+      "correct": 2,
+      "hint": "Las cuatro mitades de diagonal forman cuatro triángulos rectángulos.",
+      "solution": [
+        "A = Dd/2.",
+        "A = 12 × 16/2 = 96 cm²."
+      ],
+      "id": "cuadrilateros-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Ángulos de un paralelogramo",
+      "body": [],
+      "prompt": "Un ángulo interior de un paralelogramo mide 65°. ¿Cuánto mide uno de sus ángulos adyacentes?",
+      "choices": [
+        {
+          "text": "295°",
+          "explanation": "Restar de 360° no determina un solo ángulo adyacente."
+        },
+        {
+          "text": "115°",
+          "explanation": "Los ángulos consecutivos entre lados paralelos son suplementarios: 180 − 65."
+        },
+        {
+          "text": "65°",
+          "explanation": "65 corresponde al ángulo opuesto, no al adyacente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue ángulo opuesto y ángulo vecino.",
+      "solution": [
+        "65° + α = 180°.",
+        "α = 115°."
+      ],
+      "id": "cuadrilateros-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Una diagonal no tiene todas las propiedades a la vez",
+      "body": [
+        "En un rectángulo las diagonales se bisecan y son iguales; en un rombo se bisecan y son perpendiculares. El cuadrado reúne todas esas propiedades.",
+        "En trapecios y paralelogramos, la altura es perpendicular a las bases. Comprueba que no elegiste un lado inclinado solo porque el dibujo muestra su medida."
+      ],
+      "id": "cuadrilateros-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Combina propiedades sin inventar datos",
+      "body": [
+        "La diagonal de un rectángulo se obtiene con Pitágoras: d² = a² + b². En un cuadrado, d = l√2 y A = d²/2.",
+        "Si un cuadrilátero convexo tiene diagonales perpendiculares, su área es Dd/2, aunque no sea rombo. Para diagonales que no son perpendiculares, esa fórmula no se aplica directamente.",
+        "En un cuadrilátero inscrito en una circunferencia, los ángulos opuestos suman 180°. Esta propiedad requiere que los cuatro vértices estén sobre la misma circunferencia."
+      ],
+      "id": "cuadrilateros-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un marco rectangular a partir de la diagonal",
+      "body": [
+        "Una pantalla rectangular tiene diagonal de 15 cm y un lado de 9 cm. ¿Cuánto mide el otro lado y cuál es su área?"
+      ],
+      "solution": [
+        "b² + 9² = 15², así que b² = 225 − 81 = 144.",
+        "b = 12 cm, tomando la raíz positiva.",
+        "Área = 9 × 12 = 108 cm². La diagonal es mayor que cada lado, como corresponde."
+      ],
+      "id": "cuadrilateros-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Áreas compuestas y unidades comparables",
+      "body": [
+        "Para unir dos regiones sin superposición, suma sus áreas. Para quitar un hueco, resta su área. Antes de operar, expresa todas las longitudes en la misma unidad.",
+        "La igualdad de áreas no obliga igual forma ni igual perímetro. Tampoco iguales perímetros obligan igual área: un rectángulo 2 × 8 y otro 5 × 5 comparten perímetro 20, pero sus áreas son 16 y 25."
+      ],
+      "id": "cuadrilateros-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Diagonal de un rectángulo",
+      "body": [],
+      "prompt": "Un rectángulo mide 5 por 12 cm. ¿Cuánto mide cada diagonal?",
+      "choices": [
+        {
+          "text": "17 cm",
+          "explanation": "17 suma los lados; la diagonal es menor que esa suma."
+        },
+        {
+          "text": "60 cm",
+          "explanation": "60 es el área numérica en cm², no una diagonal."
+        },
+        {
+          "text": "13 cm",
+          "explanation": "√(5² + 12²) = √169 = 13."
+        }
+      ],
+      "correct": 2,
+      "hint": "Una diagonal y los dos lados forman un triángulo rectángulo.",
+      "solution": [
+        "d² = 25 + 144 = 169.",
+        "d = 13 cm."
+      ],
+      "id": "cuadrilateros-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cuadrado dado por su diagonal",
+      "body": [],
+      "prompt": "La diagonal de un cuadrado mide 10 cm. ¿Cuál es su área?",
+      "choices": [
+        {
+          "text": "25 cm²",
+          "explanation": "25 usa la mitad de la diagonal como lado; ese no es el lado del cuadrado."
+        },
+        {
+          "text": "50 cm²",
+          "explanation": "A = d²/2 = 100/2 = 50."
+        },
+        {
+          "text": "100 cm²",
+          "explanation": "100 toma la diagonal como lado y duplica el área correcta."
+        }
+      ],
+      "correct": 1,
+      "hint": "En un cuadrado, d² = 2 l² y el área es l².",
+      "solution": [
+        "10² = 2 A.",
+        "A = 100/2 = 50 cm²."
+      ],
+      "id": "cuadrilateros-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cuadrilátero inscrito",
+      "body": [],
+      "prompt": "Un cuadrilátero está inscrito en una circunferencia. Un ángulo interior mide 112°. ¿Cuánto mide el opuesto?",
+      "choices": [
+        {
+          "text": "68°",
+          "explanation": "Los opuestos de un cuadrilátero cíclico suman 180°: 180 − 112."
+        },
+        {
+          "text": "112°",
+          "explanation": "Los ángulos opuestos iguales no es la propiedad general de un cuadrilátero inscrito."
+        },
+        {
+          "text": "248°",
+          "explanation": "248 es el resto hasta 360° e incluye los otros tres ángulos, no solo el opuesto."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa la propiedad adicional que aporta estar inscrito.",
+      "solution": [
+        "112° + β = 180°.",
+        "β = 68°."
+      ],
+      "id": "cuadrilateros-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Recorta un hueco rectangular",
+      "body": [],
+      "prompt": "Una placa rectangular de 12 × 8 cm tiene un hueco cuadrado de lado 3 cm totalmente interior. ¿Qué área de material queda?",
+      "choices": [
+        {
+          "text": "93 cm²",
+          "explanation": "93 resta una longitud de 3 a un área de 96, mezclando unidades."
+        },
+        {
+          "text": "105 cm²",
+          "explanation": "105 suma el área del hueco, aunque se retira material."
+        },
+        {
+          "text": "87 cm²",
+          "explanation": "Placa 96 menos hueco 9 = 87."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula ambas áreas antes de restarlas.",
+      "solution": [
+        "A exterior = 12 × 8 = 96; A hueco = 3² = 9.",
+        "A restante = 96 − 9 = 87 cm²."
+      ],
+      "id": "cuadrilateros-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "El dato adicional habilita el teorema",
+      "body": [
+        "Ángulos opuestos suplementarios requieren la condición de cuadrilátero inscrito. Una fórmula con Dd/2 requiere diagonales perpendiculares.",
+        "Al recortar, resta áreas completas en la misma unidad cuadrada. Restar una longitud directamente de un área es un error de significado, aunque la cuenta se pueda ejecutar."
+      ],
+      "id": "cuadrilateros-24",
+      "level": 3
+    }
+  ]
+}

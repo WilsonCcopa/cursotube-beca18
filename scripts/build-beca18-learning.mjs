@@ -4,8 +4,8 @@ import { join } from 'node:path';
 import { readTopics, dataRoot } from './validate-beca18-learning.mjs';
 
 const definitions = {
-  matematica: { title: 'Matemática', shortTitle: 'Matemática', description: 'De los números al álgebra: entiende las bases y úsalas para resolver problemas.' },
-  lectura: { title: 'Competencia lectora y razonamiento verbal', shortTitle: 'Lectura y verbal', description: 'Lee con intención, interpreta el contexto y descubre las relaciones entre ideas.' }
+  matematica: { title: 'Matemática', shortTitle: 'Matemática', description: 'Construye bases de aritmética y álgebra, explora geometría y aprende a interpretar datos.' },
+  lectura: { title: 'Competencia lectora y razonamiento verbal', shortTitle: 'Lectura y verbal', description: 'Comprende textos, conecta ideas y evalúa lo que lees con evidencia.' }
 };
 try {
   const topics = await readTopics();

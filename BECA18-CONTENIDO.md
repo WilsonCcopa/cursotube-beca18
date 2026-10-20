@@ -1,14 +1,14 @@
 # Minilecciones Beca 18 · CursoTube
 
-Paquete estático integrable en `/beca18/aprende/`. Incluye 10 temas originales, 240 pasos y 120 preguntas explicadas. Cada tema tiene 3 niveles de 8 pasos, 12 preguntas, base conceptual, ejemplos resueltos y repaso de errores. No requiere cuenta, pago, backend, dependencias de npm ni servicios externos para aprender.
+Paquete estático integrable en `/beca18/aprende/`: **64 temas originales (38 de Matemática y 26 de Lectura), 1536 pasos y 768 preguntas explicadas**. Amplía los diez publicados con 54 nuevos. Cada tema tiene 3 niveles de 8 pasos, 12 preguntas, base conceptual, ejemplos resueltos y repaso de errores. No requiere cuenta, pago, backend, dependencias de npm ni servicios externos para aprender.
 
 ## Integración
 
-1. Copiar **el contenido** de `public/` dentro del `public/` del sitio, conservando sus rutas. Copiar `scripts/` junto al resto de scripts del proyecto (los nombres son exclusivos).
+1. Copiar **el contenido** de `public/` dentro del `public/` del sitio, conservando sus rutas. Copiar `scripts/` junto al resto de scripts del proyecto (los nombres son exclusivos). Para actualizar una integración existente, revisar `BECA18-INTEGRACION.md`: los nuevos diagramas añaden un archivo y una llamada al motor; no sobrescribir ajustes externos sin compararlos.
 2. Ejecutar `node scripts/build-beca18-learning.mjs` desde el proyecto. Añadirlo al build/predeploy existente. Descubre recursivamente todos los JSON en `public/data/beca18-learning/topics/`, los valida y regenera el catálogo completo; **no se edita HTML, JS ni manifest al agregar otro tema**.
-3. Mantener las versiones existentes del sitio de `/js/shared.js`, `/js/ad-slots.js` y `/js/analytics.js`. No se incluyen sus copias ni configuraciones: las aporta el proyecto principal de CursoTube. El HTML ya carga estos tres archivos. En un servidor aislado pueden omitirse; el aprendizaje funciona sin ellos.
-4. Ya se prevén los slots manuales `beca18-learning-top` y `beca18-learning-bottom`. El sitio asigna sus IDs reales en `CT_AD_SLOTS` y mantiene `/beca18` y sus rutas excluidos de anuncios automáticos. Los slots permanecen ocultos sin ID y `shared.js` existente solo carga anuncios en los dominios reales; no hay anuncios locales ni intersticiales.
-5. Servir por HTTP(S), no como `file://`, porque los temas se leen con fetch. El alojamiento debe servir `/beca18/aprende/index.html` al visitar `/beca18/aprende/`. El Service Worker de CursoTube usa red primero para `/data/`, `/css/` y `/js/`, compatible con este paquete. Las solicitudes locales usan URL estable y `cache: no-store`, por lo que no crean entradas nuevas por cada enfoque. Es recomendable `Cache-Control: no-cache` para `manifest.json`.
+3. Mantener las versiones existentes del sitio de `/js/shared.js`, `/js/ad-slots.js` y `/js/analytics.js`. No se incluyen copias para evitar sobrescribir cambios del sitio. El HTML ya carga estos tres archivos. En un servidor aislado pueden omitirse; el aprendizaje funciona sin ellos.
+4. Ya se prevén los slots manuales `beca18-learning-top` y `beca18-learning-bottom`. El sitio asigna los IDs reales en `CT_AD_SLOTS` y mantiene `/beca18/**` excluido de Auto Ads. Los slots permanecen ocultos sin ID y `shared.js` existente solo carga anuncios en los dominios reales; no hay anuncios locales ni intersticiales.
+5. Servir por HTTP(S), no como `file://`, porque los temas se leen con fetch. Firebase Hosting sirve `/beca18/aprende/index.html` al visitar `/beca18/aprende/`. El Service Worker existente del sitio usa red primero para `/data/`, `/css/` y `/js/`, compatible con este paquete. Las solicitudes locales usan URL estable y `cache: no-store`, por lo que no crean entradas nuevas por cada enfoque. Es recomendable `Cache-Control: no-cache` para `manifest.json`.
 
 Comprobaciones sin instalar paquetes:
 
@@ -16,9 +16,11 @@ Comprobaciones sin instalar paquetes:
 node scripts/validate-beca18-learning.mjs
 node scripts/build-beca18-learning.mjs --check
 node scripts/test-beca18-learning.mjs
+node scripts/check-beca18-coverage.mjs
+node scripts/check-beca18-reviews.mjs
 ```
 
-El generador falla con la ruta y el motivo de cualquier contenido inválido; no genera un catálogo parcial silenciosamente. Node 18+ es suficiente. No requiere dependencias de npm. Generar el catálogo prepara los archivos; publicar los cambios en el sitio es un paso separado.
+El generador falla con la ruta y el motivo de cualquier contenido inválido; no genera un catálogo parcial silenciosamente. Node 18+ es suficiente y no se requieren dependencias de npm. Generar el catálogo prepara los archivos; publicar los cambios en el sitio es un paso separado.
 
 ## Contrato de contenido
 
@@ -52,8 +54,12 @@ Diagramas soportados:
 - `balance`: `offset` (−10 a 10), `total` (−20 a 20); modelo `x + offset = total`, misma resta en ambos lados.
 - `textmap`: `nodes:[{label,text}]`, ideas desplegables.
 - `highlight`: `fragments:[{text,role}]`, fragmentos que revelan su función al tocarlos.
+- `function`: `mode` (`linear`, `quadratic`, `exponential`, `sine`), `a`, `b`, `c`, `min`, `max`. Gráfica con controles de coeficientes y evaluación de puntos; seno en radianes. La escala vertical se ajusta y se muestra explícitamente.
+- `interval`: `a`, `b`, `leftClosed`, `rightClosed`. Extremos y pertenencia ajustables; reconoce intervalo vacío o un solo punto.
+- `bars`: `title`, `labels`, `values`, `unit`; tabla accesible y selección de categorías. Con unidad `%`, el dominio llega al menos a 100. Solo añadir `partOfWhole:true` si los valores forman partes exclusivas de un total; entonces se muestra porcentaje derivado. Las respuestas múltiples no suman personas.
+- `geometry`: `mode` (`triangle`, `quadrilateral`, `circle`, `polygon`, `solid`), `a`, `b`, `n`. `a` es cateto/lado horizontal o radio; `b`, cateto/lado vertical o altura; `n`, lados del polígono. Esquemas y medidas de triángulo rectángulo, rectángulo, círculo, polígono regular, cilindro, cono y esfera.
 
-El catálogo también contiene una pequeña demo de círculo con triángulo/cuadrado/hexágono y radio/apotema/diagonal. Se identifica como muestra futura, no como un undécimo tema. El triángulo explica correctamente por qué no tiene diagonales.
+El catálogo también contiene una exploración de círculo con triángulo/cuadrado/hexágono y radio/apotema/diagonal. No cuenta como tema adicional ni cambia el progreso. El triángulo explica correctamente por qué no tiene diagonales. El buscador filtra títulos, descripciones y objetivos sin diferenciar tildes.
 
 ## Actualizaciones y fallback
 
@@ -67,7 +73,7 @@ window.CT_LEARNING_CONFIG = {
 </script>
 ```
 
-Es solo un ejemplo de configuración; el módulo no activa una fuente remota por defecto. El manifest se vuelve a pedir al abrir, al recuperar foco y al volver visible la pestaña, con `cache: no-store`; en una base remota el manifest añade además un parámetro de actualización. Los temas nuevos aparecen automáticamente en el catálogo después de publicar los archivos actualizados. Una lección abierta conserva su contenido hasta salir, evitando cambiar una pregunta a mitad del intento. Si falla la base remota, se usa la copia local; si falla la red local se intenta la última copia válida guardada. El fallback no garantiza primera carga sin conexión.
+La fuente remota es opcional y no está activada. El módulo se conserva en [WilsonCcopa/cursotube-beca18](https://github.com/WilsonCcopa/cursotube-beca18) y el sitio se publica mediante Firebase Hosting, sin un despliegue automático desde este repositorio. El manifest se vuelve a pedir al abrir, al recuperar foco y al volver visible la pestaña, con `cache: no-store`; en una base remota el manifest añade además un parámetro de actualización. Los temas nuevos aparecen automáticamente en el catálogo después de publicar los archivos actualizados. Una lección abierta conserva su contenido hasta salir, evitando cambiar una pregunta a mitad del intento. Si falla la base remota, se usa la copia local; si falla la red local se intenta la última copia válida guardada. El fallback no garantiza primera carga sin conexión.
 
 ## Progreso y enlaces
 
@@ -80,18 +86,16 @@ Se otorgan 10 XP una única vez por pregunta resuelta y 50 XP una única vez por
 
 El enlace de resultado no contiene nombre, respuestas ni puntaje. En otro dispositivo abre el tema para aprender; no finge que el visitante lo completó. Copiar enlace y WhatsApp pueden repetirse. WhatsApp usa exactamente el protocolo nativo mediante `window.location.href`, sin ventanas nuevas ni diálogos nativos.
 
-Eventos: `window.dispatchEvent(new CustomEvent('ct:analytics', {detail:{name,params}}))`. Nombres `beca18_learning_start`, `beca18_learning_complete`, `beca18_learning_share`. `params` incluye `course_slug`, `topic_id` (slug, sin `/`, compatible con el saneador del sitio), `total` (preguntas del tema), `score` (aciertos al primer intento), `method` (`lesson`, `copy`, `whatsapp`). El sitio principal administra la lista de campos permitidos; los demás se descartan. Este repositorio no contiene la configuración de medición.
+Eventos: `window.dispatchEvent(new CustomEvent('ct:analytics', {detail:{name,params}}))`. Nombres `beca18_learning_start`, `beca18_learning_complete`, `beca18_learning_share`. `params` incluye `course_slug`, `topic_id` (slug, sin `/`, compatible con el saneador del sitio), `total` (preguntas del tema), `score` (aciertos al primer intento), `method` (`lesson`, `copy`, `whatsapp`). El sitio ya administra la allowlist; los campos no permitidos simplemente se descartan.
 
 ## Criterio pedagógico y fuentes de orientación
 
-Matemática reorganiza las bases en números y operaciones, fracciones, divisibilidad, MCM/MCD, ecuaciones e inecuaciones lineales para dar una progresión de prerrequisitos. Lectura sigue los cinco primeros capítulos del mapa suministrado: tipos de texto, textos expositivos, sinonimia contextual, antonimia contextual y relaciones lógicas. Es un primer tramo de preparación, no todo el temario ENP.
+`COVERAGE.md` y `coverage-matrix.json` trazan **los 24 capítulos de cada libro y los 43 indicadores del ENP consultado** a temas y pasos concretos. La ampliación conserva los capítulos, suma los contenidos oficiales de geometría, datos y lectura crítica, y añade suplementos para huecos de aritmética de los cinco temas iniciales. No se modificó ninguno de los diez JSON publicados: se comprueba su SHA-256 contra `qa/published-baseline.json`.
 
-Los libros `Prepárate` suministrados se usaron como mapa, sin reproducir sus ejercicios, textos ni dibujos. Textos, contextos, alternativas y diagramas de este paquete son originales. Competencias de referencia: [temario oficial del ENP de Pronabec](https://www.pronabec.gob.pe/temario-examen-preseleccion/) y [portal oficial de preparación](https://www.gob.pe/institucion/pronabec/noticias/1200855-pronabec-lanza-portal-con-ultimos-examenes-nacionales-para-prepararse-y-postular-a-beca-18-2026). Consulta de orientación: 20/10/2026. La selección matemática desarrolla bases para operaciones racionales y ecuaciones; lectura desarrolla propósito, información, contexto y relaciones lógicas.
+Los libros `Prepárate` suministrados se usaron como mapa, sin reproducir sus ejercicios, textos ni dibujos. Textos, contextos, alternativas y diagramas son originales. Fuente de alcance: [temario oficial del ENP de Pronabec](https://www.pronabec.gob.pe/temario-examen-preseleccion/), consultado el 20/10/2026. La matriz describe la cobertura del mapa consultado; cambios futuros del temario requieren revisarla.
 
-## Verificación y publicación
+## QA
 
-Las herramientas incluidas verifican estructura, alternativas, explicaciones, límites de diagramas, correspondencia entre JSON y manifest, hashes y restricciones de interacción. Las comprobaciones numéricas independientes cubren casos relevantes del contenido inicial. Revisar también la exactitud pedagógica y el comportamiento móvil antes de publicar.
-
-Solo `public/` se sirve en el sitio. `scripts/` y la documentación son herramientas de mantenimiento y no necesitan publicarse como contenido web. La integración final en CursoTube se comprobó a 320, 390 y 430 px; las capturas y reportes de esa revisión no forman parte de este módulo.
+`qa/browser-report.json` registra el recorrido móvil completo; `qa/diagrams-report.json` contrasta los nuevos diagramas y `qa/edge-report.json` cubre fallos de red, versiones, silencio y WhatsApp. La ampliación tuvo revisión cruzada de las 648 preguntas nuevas, sus 1944 alternativas explicadas y todas sus soluciones; `check-beca18-reviews.mjs` verifica los registros y las huellas del contenido final revisado. `qa/editorial-report.json` comprueba originalidad textual y duplicados. Los informes se incluyen como evidencia; las capturas a 320, 390 y 430 px no forman parte de este repositorio. Solo `public/` se sirve; el resto del paquete corresponde a documentación y pruebas.
 
 © 2026 CursoTube. Contenido original; todos los derechos reservados. Este repositorio no concede una licencia de uso o distribución.

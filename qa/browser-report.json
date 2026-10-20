@@ -1,0 +1,47 @@
+{
+  "topics": 64,
+  "steps": 1536,
+  "questions": 768,
+  "widths": [
+    320,
+    390,
+    430
+  ],
+  "checks": [
+    "Catalog tabs, keyboard navigation and topic search",
+    "Wrong answer, retry, first-answer scoring, error review, reload resume, copy repeatable, restart retains XP and achievement",
+    "WebAudio starts after gesture; mute persists after reload; no autoplay",
+    "Focus refresh discovers a simulated topic without publishing files; existing progress remains byte-identical",
+    "Polygon controls, triangle has no diagonal, square apothem 2cos(pi/4)",
+    "Remote content failure falls back to local; shared result link reveals no private score",
+    "64 complete analytics events with params; repeatable share events; no native dialogs, page errors or local ads"
+  ],
+  "screenshots": [
+    "catalog-320.png",
+    "catalog-390.png",
+    "catalog-430.png",
+    "explorer-numeros-y-operaciones-2.png",
+    "feedback-390.png",
+    "result-390.png",
+    "explorer-fracciones-2.png",
+    "explorer-divisibilidad-2.png",
+    "explorer-ecuaciones-e-inecuaciones-2.png",
+    "explorer-ecuaciones-cuadraticas-2.png",
+    "explorer-magnitudes-proporcionales-2.png",
+    "explorer-sistemas-lineales-aplicaciones-2.png",
+    "explorer-interes-compuesto-2.png",
+    "explorer-funciones-trigonometricas-10.png",
+    "explorer-intervalos-y-conjuntos-2.png",
+    "explorer-triangulos-y-relaciones-metricas-2.png",
+    "explorer-cuadrilateros-2.png",
+    "explorer-circunferencia-y-circulo-2.png",
+    "explorer-poligonos-regulares-2.png",
+    "explorer-cuerpos-de-revolucion-2.png",
+    "explorer-estadistica-y-graficos-2.png",
+    "explorer-textos-expositivos-10.png",
+    "geometry-390.png"
+  ],
+  "errors": [],
+  "analyticsEvents": 132,
+  "finishedAt": "2026-10-20T19:39:14.494Z"
+}

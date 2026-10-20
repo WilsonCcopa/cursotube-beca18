@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/porcentajes-sucesivos",
+  "course": "matematica",
+  "slug": "porcentajes-sucesivos",
+  "title": "Porcentajes sucesivos",
+  "description": "Multiplica factores para comparar ofertas, recuperar precios y entender cadenas de aumentos.",
+  "version": 1,
+  "order": 11,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Aplicar aumentos y descuentos sobre bases sucesivas.",
+    "Calcular una variación equivalente y revertir cambios.",
+    "Distinguir ganancia sobre costo de margen sobre precio de venta."
+  ],
+  "steps": [
+    {
+      "id": "porcentajes-sucesivos-01",
+      "level": 1,
+      "type": "learn",
+      "title": "El factor conserva o añade una parte",
+      "body": [
+        "Aumentar p % equivale a multiplicar por 1 + p/100. Descontar d % equivale a multiplicar por 1 − d/100.",
+        "Después de cada cambio, el siguiente porcentaje se aplica al nuevo monto, salvo que el enunciado establezca otra base.",
+        "Un descuento de 20 % conserva 80 %: factor 0,80. Un aumento de 20 % produce 120 %: factor 1,20. Escribe el factor antes de hacer cuentas."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-02",
+      "level": 1,
+      "type": "example",
+      "title": "Dos descuentos tienen dos bases",
+      "body": [
+        "Un artículo de 300 soles recibe descuento de 10 % y luego de 20 %. Primero queda 300 × 0,90 = 270.",
+        "El segundo descuento es 20 % de 270, es decir, 54. El precio final es 216 soles.",
+        "El factor total es 0,90 × 0,80 = 0,72: se conserva 72 % y se descuenta 28 % del precio inicial. No se descuenta 30 %."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Un aumento seguido de otro",
+      "body": [
+        "Una cantidad de 100 aumenta 10 % y después 20 %. Los valores son 100 → 110 → 132. El aumento total es 32 %.",
+        "Si las tasas se aplican sucesivamente a todo el monto, el orden de los factores no cambia el resultado exacto: 1,10 × 1,20 = 1,20 × 1,10.",
+        "Esto no autoriza a intercambiar condiciones diferentes. Un cupón de monto fijo, un tope o redondeos intermedios puede hacer relevante el orden."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-04",
+      "level": 1,
+      "type": "question",
+      "title": "Factor de un aumento",
+      "body": [],
+      "prompt": "Un precio de 200 soles aumenta 15 %. ¿Cuál es el nuevo precio?",
+      "choices": [
+        {
+          "text": "30 soles",
+          "explanation": "30 es el aumento, pero falta sumarlo al precio inicial."
+        },
+        {
+          "text": "215 soles",
+          "explanation": "Se sumaron 15 soles en lugar de 15 % de 200."
+        },
+        {
+          "text": "230 soles",
+          "explanation": "200 × 1,15 = 230."
+        }
+      ],
+      "correct": 2,
+      "hint": "El nuevo precio equivale al 115 % del anterior.",
+      "solution": [
+        "Aumento = 200 × 0,15 = 30.",
+        "Precio final = 200 + 30 = 230 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-05",
+      "level": 1,
+      "type": "question",
+      "title": "Factor de un descuento",
+      "body": [],
+      "prompt": "Un libro cuesta 80 soles y tiene descuento de 25 %. ¿Cuánto se paga?",
+      "choices": [
+        {
+          "text": "60 soles",
+          "explanation": "Se conserva 75 % de 80: 80 × 0,75 = 60."
+        },
+        {
+          "text": "20 soles",
+          "explanation": "20 es la rebaja y no el monto pagado."
+        },
+        {
+          "text": "55 soles",
+          "explanation": "Se restaron 25 soles sin calcular el porcentaje."
+        }
+      ],
+      "correct": 0,
+      "hint": "Después del descuento se paga el 75 %.",
+      "solution": [
+        "Rebaja = 0,25 × 80 = 20.",
+        "Pago = 80 − 20 = 60 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-06",
+      "level": 1,
+      "type": "question",
+      "title": "Dos aumentos sucesivos",
+      "body": [],
+      "prompt": "Una cantidad de 100 aumenta 10 % y después 20 %. ¿Cuál es el valor final?",
+      "choices": [
+        {
+          "text": "120",
+          "explanation": "Se ignoró el primer aumento."
+        },
+        {
+          "text": "132",
+          "explanation": "100 × 1,10 × 1,20 = 132."
+        },
+        {
+          "text": "130",
+          "explanation": "Se sumaron las tasas como si ambas usaran la base inicial."
+        }
+      ],
+      "correct": 1,
+      "hint": "Actualiza la base después del primer aumento.",
+      "solution": [
+        "100 × 1,10 = 110.",
+        "110 × 1,20 = 132."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-07",
+      "level": 1,
+      "type": "question",
+      "title": "Dos descuentos sucesivos",
+      "body": [],
+      "prompt": "Un artículo cuesta 200 soles. Recibe descuentos sucesivos de 20 % y 10 %. ¿Cuál es su precio final?",
+      "choices": [
+        {
+          "text": "140 soles",
+          "explanation": "Sumar 20 % + 10 % como descuento único omite la segunda base."
+        },
+        {
+          "text": "160 soles",
+          "explanation": "160 es el precio después del primer descuento únicamente."
+        },
+        {
+          "text": "144 soles",
+          "explanation": "200 × 0,80 × 0,90 = 144."
+        }
+      ],
+      "correct": 2,
+      "hint": "El segundo descuento se calcula sobre 160.",
+      "solution": [
+        "Primer precio: 200 × 0,80 = 160.",
+        "Segundo precio: 160 × 0,90 = 144 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-08",
+      "level": 1,
+      "type": "review",
+      "title": "La segunda base ya cambió",
+      "body": [
+        "Un porcentaje aislado puede sumarse o restarse como cantidad después de calcularlo. En cambios sucesivos, primero debes actualizar la base.",
+        "Separa monto descontado de monto pagado. Si descuentas 25 %, pagas 75 %, y ambos porcentajes se refieren a la misma base de esa etapa."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Un solo cambio equivalente",
+      "body": [
+        "Para aumentos a % y b %, el factor (1 + a/100)(1 + b/100) da un aumento único de a + b + ab/100 por ciento.",
+        "Para descuentos d % y e %, el factor (1 − d/100)(1 − e/100) da un descuento único de d + e − de/100 por ciento. Aquí el término del producto se resta.",
+        "La manera más segura es multiplicar los factores y comparar el resultado con 1. Así también resuelves una combinación de aumentos y descuentos sin memorizar más fórmulas."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-10",
+      "level": 2,
+      "type": "example",
+      "title": "Iguales tasas no se cancelan",
+      "body": [
+        "Partiendo de 100, un aumento de 20 % lleva a 120. Un descuento posterior de 20 % quita 24 y deja 96.",
+        "El factor 1,20 × 0,80 = 0,96 indica disminución global de 4 %.",
+        "En general, subir p % y bajar p % produce factor 1 − (p/100)². El segundo cambio usa una base diferente, por eso no regresas al inicio."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Revertir requiere el recíproco",
+      "body": [
+        "Si un descuento de 20 % multiplica por 0,80, volver al valor inicial exige multiplicar por 1/0,80 = 1,25: un aumento de 25 %.",
+        "Si un aumento de 25 % multiplica por 1,25, se revierte con factor 0,80: un descuento de 20 %.",
+        "Una variación total cero ocurre cuando el producto de factores es exactamente 1. No basta con que las tasas escritas tengan el mismo número."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-12",
+      "level": 2,
+      "type": "question",
+      "title": "Descuento único",
+      "body": [],
+      "prompt": "¿A qué descuento único equivalen descuentos sucesivos de 20 % y 30 %?",
+      "choices": [
+        {
+          "text": "56 %",
+          "explanation": "56 % es lo conservado, no lo descontado."
+        },
+        {
+          "text": "44 %",
+          "explanation": "0,80 × 0,70 = 0,56; se ha descontado 44 %."
+        },
+        {
+          "text": "50 %",
+          "explanation": "Suma las tasas sin considerar las bases distintas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Multiplica las partes conservadas y resta el resultado de 100 %.",
+      "solution": [
+        "Factor total = 0,56.",
+        "Descuento = 1 − 0,56 = 0,44 = 44 %."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-13",
+      "level": 2,
+      "type": "question",
+      "title": "Aumento único",
+      "body": [],
+      "prompt": "¿Cuál es el aumento único equivalente a subir 25 % y después 20 %?",
+      "choices": [
+        {
+          "text": "45 %",
+          "explanation": "Se omitió el efecto del segundo porcentaje sobre el primer aumento."
+        },
+        {
+          "text": "150 %",
+          "explanation": "150 % es el monto final expresado como proporción del inicial; el aumento es 50 %."
+        },
+        {
+          "text": "50 %",
+          "explanation": "1,25 × 1,20 = 1,50: el exceso respecto de 1 es 50 %."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue porcentaje final y porcentaje de aumento.",
+      "solution": [
+        "Factor = 1,25 × 1,20 = 1,50.",
+        "1,50 − 1 = 0,50: aumento de 50 %."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-14",
+      "level": 2,
+      "type": "question",
+      "title": "Cambios que sí se compensan",
+      "body": [],
+      "prompt": "Una cantidad aumenta 25 % y luego disminuye 20 %. ¿Cuál es la variación total?",
+      "choices": [
+        {
+          "text": "0 %",
+          "explanation": "1,25 × 0,80 = 1: se recupera exactamente el inicio."
+        },
+        {
+          "text": "Aumenta 5 %",
+          "explanation": "Restar 25 − 20 ignora la base del descuento."
+        },
+        {
+          "text": "Disminuye 5 %",
+          "explanation": "No basta con comparar números de tasas; el factor total es 1."
+        }
+      ],
+      "correct": 0,
+      "hint": "Trabaja con factores 1,25 y 0,80.",
+      "solution": [
+        "Si comienzas en 100, sube a 125.",
+        "20 % de 125 son 25; vuelve a 100.",
+        "No hay variación global."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-15",
+      "level": 2,
+      "type": "question",
+      "title": "Misma tasa en sentidos contrarios",
+      "body": [],
+      "prompt": "Una cantidad sube 20 % y después baja 20 %. ¿Qué cambio global experimenta?",
+      "choices": [
+        {
+          "text": "Aumenta 4 %",
+          "explanation": "0,96 es menor que 1, así que el signo del cambio es una disminución."
+        },
+        {
+          "text": "Disminuye 4 %",
+          "explanation": "El factor total es 0,96."
+        },
+        {
+          "text": "Ningún cambio",
+          "explanation": "Las tasas iguales no usan la misma base."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula 1,20 × 0,80 antes de interpretar.",
+      "solution": [
+        "1,20 × 0,80 = 0,96.",
+        "0,96 − 1 = −0,04: disminución de 4 %."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-16",
+      "level": 2,
+      "type": "review",
+      "title": "El signo del producto cruzado importa",
+      "body": [
+        "En descuento único, d + e − de/100 evita contar dos veces una parte que ya fue retirada. En aumento único, el término de interacción se suma.",
+        "Si el resultado del factor es 0,72, se conserva 72 % y se pierde 28 %. Si es 1,32, se alcanza 132 % y se aumenta 32 %."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Deshaz la cadena completa",
+      "body": [
+        "Si un precio final F resulta de aplicar factores f₁ y f₂ al precio P, entonces F = Pf₁f₂ y P = F/(f₁f₂). No sumes las rebajas para reconstruirlo.",
+        "Para comparar ofertas, utiliza el mismo precio base y todos sus factores. Un descuento de 20 % seguido de 10 % deja 72 %; uno de 25 % deja 75 %. La primera oferta cobra menos.",
+        "A lo largo de una cadena comercial, cada vendedor puede recargar sobre su propio costo. Multiplica los factores de cada etapa para conocer el precio final."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-18",
+      "level": 3,
+      "type": "example",
+      "title": "Compara ofertas sin depender del precio",
+      "body": [
+        "Oferta A descuenta 25 %. Oferta B descuenta 20 % y luego 10 %. Para una base de 400 soles, A cobra 400 × 0,75 = 300; B cobra 400 × 0,72 = 288.",
+        "B ahorra 12 soles adicionales, equivalentes al 3 % del precio original. Respecto del precio de A, el ahorro es 12/300 = 4 %.",
+        "Son dos comparaciones correctas con bases distintas. Al comunicar una tasa, indica cuál usaste."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Ganancia y margen usan bases diferentes",
+      "body": [
+        "Si el costo es C y la venta V, la ganancia es G = V − C. Una ganancia de 25 % sobre costo significa V = 1,25C.",
+        "Un margen de 25 % sobre venta significa G = 0,25V y por tanto C = 0,75V. No equivale al mismo recargo sobre costo.",
+        "Vender dos objetos al mismo precio, ganando p % sobre costo en uno y perdiendo p % en otro, exige recuperar cada costo por separado. Los costos iniciales no son iguales, así que sus porcentajes no se cancelan."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-20",
+      "level": 3,
+      "type": "question",
+      "title": "Recupera el precio original",
+      "body": [],
+      "prompt": "Después de descuentos sucesivos de 15 % y 10 %, se pagan 153 soles. ¿Cuál era el precio inicial?",
+      "choices": [
+        {
+          "text": "200 soles",
+          "explanation": "El factor es 0,85 × 0,90 = 0,765; 153/0,765 = 200."
+        },
+        {
+          "text": "191,25 soles",
+          "explanation": "Aumentar el precio final 25 % no revierte dos descuentos de bases diferentes."
+        },
+        {
+          "text": "204 soles",
+          "explanation": "204 correspondería a un descuento único de 25 %, que no es la rebaja equivalente."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide el precio final entre el producto de las partes conservadas.",
+      "solution": [
+        "153 = P × 0,85 × 0,90.",
+        "P = 153/0,765 = 200 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-21",
+      "level": 3,
+      "type": "question",
+      "title": "Cadena de recargos",
+      "body": [],
+      "prompt": "Un producto cuesta 100 soles al primer vendedor. Este recarga 20 % sobre costo y el siguiente recarga 25 % sobre lo que pagó. ¿Cuál es el precio final?",
+      "choices": [
+        {
+          "text": "125 soles",
+          "explanation": "Omite el recargo de la primera etapa."
+        },
+        {
+          "text": "150 soles",
+          "explanation": "100 × 1,20 × 1,25 = 150."
+        },
+        {
+          "text": "145 soles",
+          "explanation": "Suma 20 % y 25 % sobre una base común que el problema no establece."
+        }
+      ],
+      "correct": 1,
+      "hint": "El costo de la segunda etapa es la venta de la primera.",
+      "solution": [
+        "Primera venta = 100 × 1,20 = 120.",
+        "Segunda venta = 120 × 1,25 = 150 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-22",
+      "level": 3,
+      "type": "question",
+      "title": "Margen sobre venta",
+      "body": [],
+      "prompt": "Un artículo cuesta 180 soles. Se desea que la ganancia sea el 25 % del precio de venta. ¿A cuánto debe venderse?",
+      "choices": [
+        {
+          "text": "225 soles",
+          "explanation": "225 representa una ganancia de 25 % sobre costo, no sobre venta."
+        },
+        {
+          "text": "135 soles",
+          "explanation": "135 es 75 % del costo, pero se necesita dividir el costo entre la proporción que ocupa en la venta."
+        },
+        {
+          "text": "240 soles",
+          "explanation": "Si la ganancia es 25 % de V, el costo es 75 % de V; 180/0,75 = 240."
+        }
+      ],
+      "correct": 2,
+      "hint": "Expresa costo = venta − ganancia.",
+      "solution": [
+        "180 = V − 0,25V = 0,75V.",
+        "V = 180/0,75 = 240 soles.",
+        "Ganancia 60; 60/240 = 25 %."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-23",
+      "level": 3,
+      "type": "question",
+      "title": "Ganancia y pérdida no se cancelan",
+      "body": [],
+      "prompt": "Dos objetos se venden a 120 soles cada uno. En el primero se gana 20 % sobre su costo y en el segundo se pierde 20 % sobre su costo. ¿Qué ocurre en conjunto?",
+      "choices": [
+        {
+          "text": "Se pierden 10 soles",
+          "explanation": "Los costos son 120/1,20 = 100 y 120/0,80 = 150. Se gastó 250 y se cobró 240."
+        },
+        {
+          "text": "No hay ganancia ni pérdida",
+          "explanation": "Las tasas se aplican a costos diferentes y sus montos no se cancelan."
+        },
+        {
+          "text": "Se ganan 10 soles",
+          "explanation": "El ingreso total es menor que el costo total, por lo que hay pérdida."
+        }
+      ],
+      "correct": 0,
+      "hint": "Recupera por separado el costo de cada objeto.",
+      "solution": [
+        "Costo 1 = 100; costo 2 = 150.",
+        "Ingreso = 120 + 120 = 240.",
+        "Resultado = 240 − 250 = −10 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-sucesivos-24",
+      "level": 3,
+      "type": "review",
+      "title": "Mismo porcentaje no significa mismo monto",
+      "body": [
+        "Revertir una cadena exige dividir entre su factor total. Comparar ofertas exige la misma base. Juntar ventas exige sumar costos e ingresos concretos.",
+        "Especifica si una ganancia se expresa sobre costo o venta. Esta diferencia explica por qué un recargo de 25 % sobre costo equivale a un margen de 20 % sobre venta."
+      ]
+    }
+  ]
+}

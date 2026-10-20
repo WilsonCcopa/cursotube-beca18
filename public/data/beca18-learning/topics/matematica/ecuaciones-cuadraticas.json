@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/ecuaciones-cuadraticas",
+  "course": "matematica",
+  "slug": "ecuaciones-cuadraticas",
+  "title": "Ecuaciones cuadráticas",
+  "description": "Resuelve cuadráticas reales y decide qué raíces son válidas en un problema.",
+  "version": 1,
+  "order": 7,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Reconocer formas completas e incompletas.",
+    "Resolver por factores, cuadrados y fórmula general.",
+    "Comprobar raíces y restricciones de áreas, edades y reparto de costos."
+  ],
+  "steps": [
+    {
+      "id": "ecuaciones-cuadraticas-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Reconoce el segundo grado",
+      "body": [
+        "La forma general es ax² + bx + c = 0, con números reales y a ≠ 0. Primero desarrolla y reúne términos: una x² aparente puede cancelarse.",
+        "Es completa cuando b y c son distintos de cero. Es incompleta cuando falta el término lineal, el independiente o ambos. El coeficiente de x² sigue siendo no nulo.",
+        "Una raíz es un valor que hace cero la expresión. x² = 16 tiene dos raíces reales, 4 y −4: elevar cualquiera al cuadrado produce 16."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-02",
+      "level": 1,
+      "type": "example",
+      "title": "No pierdas una raíz",
+      "body": [
+        "Resuelve x² − 6x = 0. Saca el factor común x: x(x − 6) = 0.",
+        "Un producto es cero si alguno de sus factores es cero. Por tanto, x = 0 o x − 6 = 0, de donde x = 6.",
+        "Dividir al inicio entre x perdería la raíz 0 porque esa división solo sería válida suponiendo x ≠ 0. La factorización conserva ambos casos."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Raíces como cruces con cero",
+      "body": [
+        "El gráfico representa y = x² − 4. Las raíces de x² − 4 = 0 son los valores de x donde la curva llega a y = 0.",
+        "Observa los cruces x = −2 y x = 2. Si cambias la función con los controles, considera la nueva ecuación; el dibujo ayuda a interpretar, pero la comprobación algebraica confirma los valores."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "quadratic",
+        "a": 1,
+        "b": 0,
+        "c": -4,
+        "min": -4,
+        "max": 4
+      }
+    },
+    {
+      "id": "ecuaciones-cuadraticas-04",
+      "level": 1,
+      "type": "question",
+      "title": "Clasifica después de ordenar",
+      "body": [],
+      "prompt": "¿Cuál de estas ecuaciones es cuadrática completa en su forma escrita?",
+      "choices": [
+        {
+          "text": "3x² − 12 = 0",
+          "explanation": "Es cuadrática, pero incompleta porque falta el término lineal."
+        },
+        {
+          "text": "2x² − 3x + 1 = 0",
+          "explanation": "Tiene coeficiente cuadrático no nulo y también términos lineal e independiente."
+        },
+        {
+          "text": "4x − 7 = 0",
+          "explanation": "Es de primer grado: no aparece x²."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba si están presentes x², x y el término independiente.",
+      "solution": [
+        "En 2x² − 3x + 1 = 0, a = 2, b = −3 y c = 1.",
+        "Los tres coeficientes son distintos de cero."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-05",
+      "level": 1,
+      "type": "question",
+      "title": "Dos signos posibles",
+      "body": [],
+      "prompt": "¿Cuál es el conjunto de soluciones reales de x² = 49?",
+      "choices": [
+        {
+          "text": "{7}",
+          "explanation": "Omite la raíz negativa, que también satisface la ecuación."
+        },
+        {
+          "text": "{−49; 49}",
+          "explanation": "Se necesitan números cuyo cuadrado sea 49, no los signos del propio 49."
+        },
+        {
+          "text": "{−7; 7}",
+          "explanation": "Ambos cuadrados valen 49."
+        }
+      ],
+      "correct": 2,
+      "hint": "√49 es la raíz principal, pero la ecuación busca todos los valores.",
+      "solution": [
+        "x² − 49 = (x − 7)(x + 7) = 0.",
+        "x = 7 o x = −7."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-06",
+      "level": 1,
+      "type": "question",
+      "title": "Incluye el cero",
+      "body": [],
+      "prompt": "Resuelve x² + 5x = 0.",
+      "choices": [
+        {
+          "text": "{−5; 0}",
+          "explanation": "x(x + 5) = 0 permite x = 0 o x = −5."
+        },
+        {
+          "text": "{−5}",
+          "explanation": "Dividir entre x pierde la raíz cero."
+        },
+        {
+          "text": "{0; 5}",
+          "explanation": "El segundo factor se anula con −5, no con 5."
+        }
+      ],
+      "correct": 0,
+      "hint": "Extrae x como factor común.",
+      "solution": [
+        "x(x + 5) = 0.",
+        "x = 0 o x + 5 = 0.",
+        "Soluciones: 0 y −5."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-07",
+      "level": 1,
+      "type": "question",
+      "title": "Soluciones en los reales",
+      "body": [],
+      "prompt": "¿Cuántas soluciones reales tiene x² + 9 = 0?",
+      "choices": [
+        {
+          "text": "Dos: x = −3 y x = 3",
+          "explanation": "Ambos cuadrados dan 9, no −9."
+        },
+        {
+          "text": "Ninguna",
+          "explanation": "Todo cuadrado real es no negativo, así que no puede valer −9."
+        },
+        {
+          "text": "Una: x = 3",
+          "explanation": "3² + 9 = 18 y no 0."
+        }
+      ],
+      "correct": 1,
+      "hint": "Despeja x² y piensa si puede tener ese signo.",
+      "solution": [
+        "x² = −9.",
+        "No existe un número real con cuadrado negativo."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-08",
+      "level": 1,
+      "type": "review",
+      "title": "Ordena y conserva las posibilidades",
+      "body": [
+        "Comprueba el grado después de simplificar. En (x + 1)² = x² + 5, las x² se cancelan y queda una ecuación lineal.",
+        "Cuando extraes raíz de x² = k con k > 0, incluye ambos signos. Cuando factorizas x, conserva la posibilidad x = 0. No todas las cuadráticas tienen raíces reales."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Factoriza y aplica producto nulo",
+      "body": [
+        "Para x² + bx + c, busca números u y v con u + v = b y uv = c: el producto (x + u)(x + v) reproduce el trinomio.",
+        "Si a ≠ 1, verifica también el término central al multiplicar. Por ejemplo, (2x − 1)(x + 3) = 2x² + 5x − 3.",
+        "La suma de raíces es −b/a y su producto c/a. Estos controles ayudan a detectar un signo incorrecto sin sustituir todos los valores."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-10",
+      "level": 2,
+      "type": "example",
+      "title": "Dos factores, dos raíces",
+      "body": [
+        "Resuelve 2x² + x − 6 = 0. Factorizamos: (2x − 3)(x + 2) = 0.",
+        "2x − 3 = 0 da x = 3/2; x + 2 = 0 da x = −2. La expansión verifica el término central: 4x − 3x = x.",
+        "Suma: 3/2 − 2 = −1/2 = −b/a. Producto: (3/2)(−2) = −3 = c/a."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Un método general",
+      "body": [
+        "Completar cuadrados transforma x² + 6x + 5 = 0 en (x + 3)² = 4: sumamos 9 a x² + 6x y compensamos la diferencia. Así x + 3 = ±2 y las raíces son −1 y −5.",
+        "La fórmula general es x = [−b ± √(b² − 4ac)]/(2a). Todo el numerador se divide entre 2a.",
+        "El discriminante Δ = b² − 4ac decide las raíces reales: Δ > 0 da dos distintas; Δ = 0 da una raíz doble; Δ < 0 no da raíces reales. Una raíz doble es un solo valor repetido en los factores."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-12",
+      "level": 2,
+      "type": "question",
+      "title": "Factoriza un trinomio",
+      "body": [],
+      "prompt": "¿Qué conjunto resuelve x² − 7x + 10 = 0?",
+      "choices": [
+        {
+          "text": "{2; 5}",
+          "explanation": "(x − 2)(x − 5) produce suma de raíces 7 y producto 10."
+        },
+        {
+          "text": "{−5; −2}",
+          "explanation": "Esas raíces darían x² + 7x + 10."
+        },
+        {
+          "text": "{1; 10}",
+          "explanation": "Su producto es 10, pero su suma es 11, no 7."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca dos números que sumen 7 y multipliquen 10.",
+      "solution": [
+        "x² − 7x + 10 = (x − 2)(x − 5).",
+        "Cada factor debe anularse: x = 2 o x = 5."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-13",
+      "level": 2,
+      "type": "question",
+      "title": "Una raíz repetida",
+      "body": [],
+      "prompt": "¿Cuál es la raíz real de x² − 8x + 16 = 0?",
+      "choices": [
+        {
+          "text": "4 y −4",
+          "explanation": "x = −4 da 16 + 32 + 16 = 64, no cero."
+        },
+        {
+          "text": "4, raíz doble",
+          "explanation": "La expresión es (x − 4)²; Δ = 64 − 64 = 0."
+        },
+        {
+          "text": "−4, raíz doble",
+          "explanation": "(x + 4)² produciría un término lineal +8x."
+        }
+      ],
+      "correct": 1,
+      "hint": "Reconoce el cuadrado de un binomio.",
+      "solution": [
+        "x² − 8x + 16 = (x − 4)².",
+        "x − 4 = 0; el único valor es x = 4."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-14",
+      "level": 2,
+      "type": "question",
+      "title": "Completa el cuadrado",
+      "body": [],
+      "prompt": "Si x² + 4x − 5 = 0, ¿qué igualdad equivalente permite extraer la raíz?",
+      "choices": [
+        {
+          "text": "(x + 2)² = 5",
+          "explanation": "Se añadió 4 al lado izquierdo sin añadirlo al derecho."
+        },
+        {
+          "text": "(x + 4)² = 21",
+          "explanation": "(x + 4)² contiene 8x, no 4x."
+        },
+        {
+          "text": "(x + 2)² = 9",
+          "explanation": "x² + 4x = 5; al sumar 4 a ambos lados queda (x + 2)² = 9."
+        }
+      ],
+      "correct": 2,
+      "hint": "La mitad del coeficiente lineal es 2; su cuadrado es 4.",
+      "solution": [
+        "x² + 4x = 5.",
+        "x² + 4x + 4 = 9.",
+        "(x + 2)² = 9, de donde x = 1 o x = −5."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-15",
+      "level": 2,
+      "type": "question",
+      "title": "Fórmula con raíces irracionales",
+      "body": [],
+      "prompt": "Resuelve x² − 2x − 1 = 0 en los reales.",
+      "choices": [
+        {
+          "text": "{1 − √2; 1 + √2}",
+          "explanation": "La fórmula da [2 ± √8]/2 = 1 ± √2."
+        },
+        {
+          "text": "{−1 − √2; −1 + √2}",
+          "explanation": "Se cambió el signo de −b: aquí −b = 2."
+        },
+        {
+          "text": "{1 − √8; 1 + √8}",
+          "explanation": "Faltó dividir también el radical entre 2."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula Δ y divide todo el numerador entre 2a.",
+      "solution": [
+        "Δ = (−2)² − 4(1)(−1) = 8.",
+        "x = (2 ± √8)/2.",
+        "√8 = 2√2, así que x = 1 ± √2."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-16",
+      "level": 2,
+      "type": "review",
+      "title": "Usa tres controles",
+      "body": [
+        "Expande la factorización, revisa suma y producto de raíces, y sustituye en la ecuación original si queda una duda.",
+        "El discriminante no es una raíz de la ecuación: es el número bajo el radical de la fórmula. Un Δ negativo excluye soluciones reales; no autoriza a quitarle el signo negativo."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-17",
+      "level": 3,
+      "type": "learn",
+      "title": "La ecuación y el contexto",
+      "body": [
+        "Un rectángulo con ancho x y largo x + 3 tiene área x(x + 3). Si una raíz es negativa, puede resolver la ecuación sin representar una longitud admisible.",
+        "Si aparece 1/x o 1/(x − 2), registra x ≠ 0 y x ≠ 2 antes de multiplicar denominadores. La ecuación obtenida debe comprobarse en las expresiones iniciales.",
+        "Para construir una ecuación a partir de raíces r y s, usa (x − r)(x − s) = 0. La suma y el producto permiten hallar parámetros sin desarrollar cálculos innecesarios."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-18",
+      "level": 3,
+      "type": "example",
+      "title": "Un costo repartido entre menos personas",
+      "body": [
+        "Un grupo planea reunir 720 soles en aportes iguales. Si dos personas se retiran, cada una de las restantes debe aportar 30 soles más. Sea n el número inicial, entero mayor que 2.",
+        "720/(n − 2) − 720/n = 30. Multiplicando por n(n − 2): 1 440 = 30n(n − 2), de donde n² − 2n − 48 = 0.",
+        "(n − 8)(n + 6) = 0. Solo n = 8 es admisible. Antes aportaban 90 soles y después 120: el aumento es 30."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Modela sin adivinar la raíz útil",
+      "body": [
+        "Si dos edades positivas suman S y su producto es P, pueden representarse como raíces de t² − St + P = 0. El enunciado debe indicar quién es mayor para asignar nombres.",
+        "En un marco interior de ancho x, las dimensiones útiles de un rectángulo L por A son L − 2x y A − 2x. Además de x > 0, exige 2x < min(L,A).",
+        "No basta con rechazar una raíz por parecer grande: comprueba la restricción geométrica o económica exacta."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-20",
+      "level": 3,
+      "type": "question",
+      "title": "Área con dos dimensiones",
+      "body": [],
+      "prompt": "Un rectángulo tiene ancho x y largo x + 4, en metros. Su área es 60 m². ¿Cuál es el ancho?",
+      "choices": [
+        {
+          "text": "10 m",
+          "explanation": "10 es la longitud del rectángulo, no su ancho."
+        },
+        {
+          "text": "−10 m",
+          "explanation": "Es raíz algebraica, pero una longitud no puede ser negativa."
+        },
+        {
+          "text": "6 m",
+          "explanation": "x² + 4x − 60 = (x + 10)(x − 6); la longitud positiva es 6."
+        }
+      ],
+      "correct": 2,
+      "hint": "Plantea producto de dimensiones igual a área.",
+      "solution": [
+        "x(x + 4) = 60.",
+        "(x + 10)(x − 6) = 0.",
+        "x = 6 o x = −10; solo 6 m es admisible."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-21",
+      "level": 3,
+      "type": "question",
+      "title": "Suma de raíces y parámetro",
+      "body": [],
+      "prompt": "Las raíces de x² − kx + 12 = 0 son 3 y 4. ¿Cuánto vale k?",
+      "choices": [
+        {
+          "text": "7",
+          "explanation": "La suma es −b/a = k = 3 + 4."
+        },
+        {
+          "text": "12",
+          "explanation": "12 es el producto de las raíces y ya aparece como término independiente."
+        },
+        {
+          "text": "−7",
+          "explanation": "El coeficiente lineal es −k; k tiene signo contrario al coeficiente."
+        }
+      ],
+      "correct": 0,
+      "hint": "Expande (x − 3)(x − 4).",
+      "solution": [
+        "(x − 3)(x − 4) = x² − 7x + 12.",
+        "Comparando coeficientes, k = 7."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-22",
+      "level": 3,
+      "type": "question",
+      "title": "Asigna las edades",
+      "body": [],
+      "prompt": "Dos hermanas tienen edades positivas que suman 26 años y cuyo producto es 165. Eva es mayor que Luz. ¿Cuántos años tiene Eva?",
+      "choices": [
+        {
+          "text": "13 años",
+          "explanation": "13 es el promedio, pero 13 × 13 = 169, no 165."
+        },
+        {
+          "text": "15 años",
+          "explanation": "Las raíces de t² − 26t + 165 son 11 y 15; Eva ocupa la mayor."
+        },
+        {
+          "text": "11 años",
+          "explanation": "11 es la edad de Luz porque se indica que Eva es mayor."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca dos números con suma 26 y producto 165; luego usa el orden.",
+      "solution": [
+        "t² − 26t + 165 = (t − 11)(t − 15).",
+        "Las edades son 11 y 15.",
+        "Eva tiene 15 años."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-23",
+      "level": 3,
+      "type": "question",
+      "title": "Restricción de un borde interior",
+      "body": [],
+      "prompt": "Un rectángulo de 10 m por 14 m deja un área interior de 60 m² tras reservar un borde de ancho uniforme x. ¿Cuánto mide el borde?",
+      "choices": [
+        {
+          "text": "10 m",
+          "explanation": "La otra raíz algebraica vuelve negativas las dimensiones interiores."
+        },
+        {
+          "text": "4 m",
+          "explanation": "Con x = 4, el interior mide 2 por 6 y su área es 12 m²."
+        },
+        {
+          "text": "2 m",
+          "explanation": "(10 − 2x)(14 − 2x) = 60 produce raíces 2 y 10; solo 2 cumple 0 < x < 5."
+        }
+      ],
+      "correct": 2,
+      "hint": "Descuenta el borde a ambos lados de cada dimensión.",
+      "solution": [
+        "140 − 48x + 4x² = 60.",
+        "x² − 12x + 20 = (x − 2)(x − 10) = 0.",
+        "La restricción x < 5 deja únicamente x = 2 m."
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas-24",
+      "level": 3,
+      "type": "review",
+      "title": "Dos validaciones diferentes",
+      "body": [
+        "Primero confirma que las raíces hacen verdadera la ecuación. Después verifica las condiciones del enunciado: dimensiones positivas, personas enteras y denominadores no nulos.",
+        "El método general evita depender de una factorización evidente. La interpretación final decide qué raíz responde al problema y qué unidad debe llevar."
+      ]
+    }
+  ]
+}

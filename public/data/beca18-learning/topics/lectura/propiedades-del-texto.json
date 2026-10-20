@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/propiedades-del-texto",
+  "course": "lectura",
+  "slug": "propiedades-del-texto",
+  "title": "Propiedades del texto",
+  "description": "Revisa adecuación, coherencia, cohesión, corrección y disposición visual.",
+  "version": 1,
+  "order": 8,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Reconocer situación comunicativa y adecuación",
+    "Distinguir coherencia y mecanismos de cohesión",
+    "Revisar gramática y presentación sin perder el propósito"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Un texto se adapta a una situación",
+      "body": [
+        "Un mensaje tiene emisor, destinatario, propósito y contexto. La adecuación consiste en elegir un registro, una información y una forma apropiados para esa situación.",
+        "Formal no significa oscuro. Una solicitud institucional puede ser respetuosa, directa y comprensible. Tampoco todo mensaje informal es incorrecto: la elección depende de la relación y el propósito."
+      ],
+      "id": "propiedades-del-texto-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "La misma petición, otro destinatario",
+      "body": [
+        "A una amiga puedes escribir: ¿Me pasas los apuntes cuando puedas? En una solicitud a una biblioteca conviene identificar el material, explicar la necesidad y formular la petición con cortesía.",
+        "Resolución: Solicito consultar el registro de préstamos de septiembre para completar el informe del taller. La precisión y el registro responden al destinatario; añadir palabras grandilocuentes no mejora por sí mismo la adecuación."
+      ],
+      "passage": {
+        "title": "Una solicitud",
+        "paragraphs": [
+          "La coordinadora del taller necesita consultar un registro que administra una institución. No conoce personalmente a la persona encargada y debe explicar qué documento requiere y para qué."
+        ]
+      },
+      "id": "propiedades-del-texto-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Pregunta por la situación",
+      "body": [
+        "Toca cada aspecto y observa cómo guía la redacción."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Destinatario",
+            "text": "Un grupo nuevo requiere información que el equipo habitual ya conoce."
+          },
+          {
+            "label": "Propósito",
+            "text": "Informar de un cambio exige decir qué cambió; pedir autorización requiere formular una petición."
+          },
+          {
+            "label": "Relación",
+            "text": "Un mensaje a una autoridad puede mantener trato formal sin dejar de ser claro."
+          },
+          {
+            "label": "Medio",
+            "text": "Un cartel necesita información localizable de un vistazo; una carta puede desarrollarla en párrafos."
+          }
+        ]
+      },
+      "id": "propiedades-del-texto-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Elige el registro pertinente",
+      "body": [],
+      "prompt": "¿Qué inicio se adecua mejor?",
+      "choices": [
+        {
+          "text": "Oye, abre el archivo mañana, ya sabes para qué",
+          "explanation": "Supone confianza y conocimiento previo que la situación excluye."
+        },
+        {
+          "text": "Señora responsable: solicito una cita para consultar fotografías sobre la historia del barrio",
+          "explanation": "Identifica una petición y un propósito con trato respetuoso."
+        },
+        {
+          "text": "Las fotografías son cosas bonitas y ayer hubo sol",
+          "explanation": "No presenta la solicitud ni información pertinente para obtener la cita."
+        }
+      ],
+      "correct": 1,
+      "hint": "Relaciona trato, información necesaria y propósito de la consulta.",
+      "solution": [
+        "No existe confianza previa ni conocimiento compartido del proyecto.",
+        "El inicio formal y explícito responde a esas condiciones."
+      ],
+      "passage": {
+        "title": "La consulta",
+        "paragraphs": [
+          "Una estudiante escribe por primera vez a la responsable de un archivo para pedir acceso a fotografías. Necesita identificar su proyecto y solicitar una cita."
+        ]
+      },
+      "id": "propiedades-del-texto-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Adecua el contenido a lectores nuevos",
+      "body": [],
+      "prompt": "¿Qué cambio mejora principalmente la adecuación?",
+      "choices": [
+        {
+          "text": "Añadir fecha, hora y dirección concretas",
+          "explanation": "Proporciona la información que los nuevos destinatarios no comparten."
+        },
+        {
+          "text": "Repetir lugar de siempre tres veces",
+          "explanation": "La repetición no resuelve la falta de un referente conocido."
+        },
+        {
+          "text": "Usar más abreviaturas internas",
+          "explanation": "Aumenta la dependencia de conocimientos que los nuevos lectores no tienen."
+        }
+      ],
+      "correct": 0,
+      "hint": "La información compartida varía según el destinatario.",
+      "solution": [
+        "El aviso depende de antecedentes desconocidos por los nuevos integrantes.",
+        "Especificar los datos lo adapta a esos lectores."
+      ],
+      "passage": {
+        "title": "El aviso",
+        "paragraphs": [
+          "Un aviso de reunión dice: Nos vemos en el lugar de siempre a la hora habitual. Se enviará a personas que acaban de incorporarse al taller y no conocen esas referencias."
+        ]
+      },
+      "id": "propiedades-del-texto-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Formalidad y claridad",
+      "body": [],
+      "prompt": "¿Qué opción responde mejor a ese objetivo?",
+      "choices": [
+        {
+          "text": "Usar términos técnicos sin explicar para demostrar seriedad",
+          "explanation": "La dificultad innecesaria impide localizar y comprender la información."
+        },
+        {
+          "text": "Omitir los requisitos para que el aviso sea elegante",
+          "explanation": "Borra información imprescindible para asistir adecuadamente."
+        },
+        {
+          "text": "Emplear un trato respetuoso e indicar fecha, lugar y requisitos con palabras claras",
+          "explanation": "Combina registro pertinente y comprensión para los destinatarios."
+        }
+      ],
+      "correct": 2,
+      "hint": "La formalidad debe ayudar a cumplir el propósito, no ocultarlo.",
+      "solution": [
+        "Las familias necesitan datos prácticos comprensibles.",
+        "El trato respetuoso y la información clara son compatibles."
+      ],
+      "passage": {
+        "title": "La invitación",
+        "paragraphs": [
+          "La institución desea invitar a familias de distintos niveles de familiaridad con sus trámites. El aviso debe permitir que sepan cuándo asistir y qué llevar."
+        ]
+      },
+      "id": "propiedades-del-texto-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El mismo hecho, distinto medio",
+      "body": [],
+      "prompt": "¿Qué diferencia es pertinente?",
+      "choices": [
+        {
+          "text": "El cartel debe esconder el número del aula",
+          "explanation": "Es el dato que su lector necesita localizar de inmediato."
+        },
+        {
+          "text": "El cartel destaca el aula nueva; el informe puede explicar también las razones del cambio",
+          "explanation": "La selección y extensión responden al medio y al propósito."
+        },
+        {
+          "text": "El informe no necesita coherencia porque es más largo",
+          "explanation": "La extensión no elimina ninguna propiedad textual."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara qué busca cada lector y en cuánto tiempo lo busca.",
+      "solution": [
+        "El cartel orienta una acción inmediata.",
+        "El informe desarrolla decisiones: puede incluir razones y contexto."
+      ],
+      "passage": {
+        "title": "Dos versiones",
+        "paragraphs": [
+          "El comité debe comunicar el cambio de aula en un cartel del pasillo y en un informe de gestión. El cartel se lee caminando; el informe explica las decisiones del mes."
+        ]
+      },
+      "id": "propiedades-del-texto-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Adecuación no es una etiqueta de prestigio",
+      "body": [
+        "Si elegiste palabras difíciles solo por parecer formales, vuelve al propósito. Un mensaje adecuado permite que sus lectores comprendan y actúen según la situación.",
+        "Si omitiste fecha, lugar o requisitos, revisa qué información no comparten los destinatarios. La cortesía no reemplaza los datos necesarios.",
+        "Un cambio de registro debe preservar el contenido; no autoriza a exagerar, ocultar ni inventar hechos."
+      ],
+      "id": "propiedades-del-texto-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Coherencia y cohesión trabajan juntas",
+      "body": [
+        "La coherencia es la unidad y organización del significado: ideas pertinentes, compatibles y ordenadas según un propósito. La cohesión conecta esas ideas mediante referencias, repeticiones controladas, sustituciones, conectores y puntuación.",
+        "Un texto puede tener muchos conectores y seguir siendo incoherente si sus ideas no se relacionan. También puede tratar un mismo tema y resultar difícil de seguir si sus referentes son ambiguos."
+      ],
+      "id": "propiedades-del-texto-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Muchos enlaces, poco sentido",
+      "body": [
+        "El texto enlaza formalmente sus oraciones, pero cambia de asunto sin explicar relación alguna. Además y por eso no vuelven pertinente la mención de un planeta dentro de una instrucción para devolver libros.",
+        "Revisión resuelta: conserva la devolución, agrega el lugar y elimina la oración ajena. El problema principal es de coherencia temática."
+      ],
+      "passage": {
+        "title": "Un aviso que falla",
+        "paragraphs": [
+          "Devuelve los libros en la caja junto a la entrada. Además, un planeta gira alrededor de una estrella. Por eso, escribe tu código en la ficha de devolución."
+        ]
+      },
+      "id": "propiedades-del-texto-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Los hilos que mantienen un asunto",
+      "body": [
+        "Toca los fragmentos para reconocer cómo retoman y desarrollan la información."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "El equipo reunió las fotografías del barrio.",
+            "role": "Presenta el referente central"
+          },
+          {
+            "text": "Las imágenes se ordenaron por fecha.",
+            "role": "Sustitución léxica que retoma fotografías"
+          },
+          {
+            "text": "Después, se anotaron sus lugares de procedencia.",
+            "role": "Conector temporal y posesivo que mantienen continuidad"
+          },
+          {
+            "text": "Así, la colección quedó lista para compararla con planos antiguos.",
+            "role": "Resultado coherente con la organización descrita"
+          }
+        ]
+      },
+      "id": "propiedades-del-texto-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una ruptura temática",
+      "body": [],
+      "prompt": "¿Qué oración rompe la coherencia temática?",
+      "choices": [
+        {
+          "text": "El préstamo dura siete días",
+          "explanation": "Presenta una condición necesaria para entender el procedimiento."
+        },
+        {
+          "text": "La renovación se confirma cuando el encargado registra la nueva fecha",
+          "explanation": "Completa el proceso anunciado por las oraciones anteriores."
+        },
+        {
+          "text": "Las montañas pueden tener cumbres nevadas",
+          "explanation": "Introduce un asunto sin relación con el préstamo ni su renovación."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca la idea que no contribuye al mismo propósito.",
+      "solution": [
+        "El pasaje explica duración y renovación de préstamos.",
+        "La oración sobre montañas no desarrolla ese asunto."
+      ],
+      "passage": {
+        "title": "El préstamo",
+        "paragraphs": [
+          "El préstamo dura siete días. Para renovarlo, es necesario acudir al mostrador antes del vencimiento. Las montañas pueden tener cumbres nevadas. La renovación se confirma cuando el encargado registra la nueva fecha."
+        ]
+      },
+      "id": "propiedades-del-texto-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un referente ambiguo",
+      "body": [],
+      "prompt": "¿Qué reescritura elimina la ambigüedad?",
+      "choices": [
+        {
+          "text": "Cuando Rosa llegó al depósito, Clara habló con ella",
+          "explanation": "Nombra a la persona que llegó y deja un referente inequívoco para ella."
+        },
+        {
+          "text": "Ella habló con ella cuando ella llegó",
+          "explanation": "Multiplica pronombres sin antecedentes claros."
+        },
+        {
+          "text": "Clara y Rosa conversaron sobre llegar",
+          "explanation": "Cambia la acción y no conserva que Rosa llegó al depósito."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sustituye el pronombre ambiguo por el nombre que corresponda.",
+      "solution": [
+        "Ella puede referirse inicialmente a dos personas.",
+        "Nombrar a Rosa como sujeto de llegó conserva la intención y aclara el referente."
+      ],
+      "passage": {
+        "title": "La entrega",
+        "paragraphs": [
+          "Clara habló con Rosa cuando ella llegó al depósito. El redactor quiere que quede claro que quien llegó fue Rosa."
+        ]
+      },
+      "id": "propiedades-del-texto-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una relación mal enlazada",
+      "body": [],
+      "prompt": "¿Qué cambio expresa mejor la cohesión lógica?",
+      "choices": [
+        {
+          "text": "Cambiar además por sin embargo",
+          "explanation": "Presentaría el traslado como inesperado frente al cierre, cuando responde a él."
+        },
+        {
+          "text": "Cambiar además por por eso",
+          "explanation": "Hace explícita la relación causal establecida entre cierre y traslado."
+        },
+        {
+          "text": "Añadir más veces la palabra sala",
+          "explanation": "La repetición no corrige el tipo de relación entre las ideas."
+        }
+      ],
+      "correct": 1,
+      "hint": "La mejora debe mostrar el vínculo que el contexto ya establece.",
+      "solution": [
+        "El cierre explica la necesidad de otro lugar.",
+        "Por eso introduce el traslado como consecuencia o respuesta."
+      ],
+      "passage": {
+        "title": "La decisión",
+        "paragraphs": [
+          "La sala estaba cerrada por reparación; además, la reunión se trasladó al patio. El contexto establece que el cierre fue el motivo del traslado."
+        ]
+      },
+      "id": "propiedades-del-texto-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Contradicción dentro del mismo marco",
+      "body": [],
+      "prompt": "¿Qué problema requiere resolver el redactor?",
+      "choices": [
+        {
+          "text": "Falta de variedad de sinónimos",
+          "explanation": "Cambiar palabras no vuelve compatibles las afirmaciones."
+        },
+        {
+          "text": "Ausencia de un título decorativo",
+          "explanation": "Un título no resuelve los hechos incompatibles."
+        },
+        {
+          "text": "Una contradicción que afecta la coherencia",
+          "explanation": "Todas abiertas y dos cerradas todo el día no pueden mantenerse en el mismo marco."
+        }
+      ],
+      "correct": 2,
+      "hint": "Conserva el mismo lugar y el mismo periodo al comparar las afirmaciones.",
+      "solution": [
+        "El texto fija un único depósito y el lunes completo.",
+        "Las dos afirmaciones son incompatibles y deben verificarse."
+      ],
+      "passage": {
+        "title": "El inventario",
+        "paragraphs": [
+          "El informe afirma que todas las cajas del depósito fueron abiertas y revisadas el lunes. Más adelante dice que dos de esas mismas cajas permanecieron cerradas todo ese día. No se refiere a momentos ni depósitos distintos."
+        ]
+      },
+      "id": "propiedades-del-texto-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Corrige la propiedad que realmente falla",
+      "body": [
+        "Si elegiste cohesión ante una contradicción, revisa si el problema persiste aunque añadas conectores: las afirmaciones incompatibles siguen sin poder sostenerse juntas.",
+        "Si elegiste coherencia cuando no sabías a quién remitía ella, localiza primero el referente. Un problema de cohesión referencial puede resolverse nombrándolo.",
+        "No uses sinónimos de manera mecánica: deben retomar el mismo objeto, no introducir uno nuevo por accidente."
+      ],
+      "id": "propiedades-del-texto-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Corrección y presentación permiten leer",
+      "body": [
+        "La corrección revisa concordancia, construcción, ortografía y puntuación. La disposición gráfica organiza títulos, párrafos, listas, tamaños y espacios para orientar la lectura.",
+        "Estas propiedades no reemplazan la coherencia ni la adecuación. Un texto sin faltas puede comunicar datos inútiles para su destinatario; un texto pertinente puede necesitar una revisión gramatical."
+      ],
+      "id": "propiedades-del-texto-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Revisar de lo global a lo puntual",
+      "body": [
+        "Primero confirma el propósito: informar dónde se realizará la reunión. Después comprueba el dato y ordénalo. Finalmente corrige la concordancia.",
+        "Versión resuelta: La reunión de los grupos será en el aula 4 a las 10:00. Añadir márgenes mejora la lectura, pero no cambia que reunión exige será."
+      ],
+      "passage": {
+        "title": "Un borrador",
+        "paragraphs": [
+          "La reunión de los grupos serán en el aula 4 a las 10:00. El comité ya confirmó el aula y el horario; el error está en la relación entre el sujeto y el verbo."
+        ]
+      },
+      "id": "propiedades-del-texto-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Una revisión puede tener prioridades",
+      "body": [
+        "Cuando el dato central es incorrecto, la primera tarea es verificarlo. Cuando falta información indispensable, hay que completarla. Luego se afina el orden y la expresión.",
+        "No hay una receta que impida volver atrás: al corregir una oración puedes descubrir un vacío de sentido y necesitar otra comprobación. Revisar es un proceso iterativo."
+      ],
+      "id": "propiedades-del-texto-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Sujeto y verbo",
+      "body": [],
+      "prompt": "¿Qué corrección corresponde?",
+      "choices": [
+        {
+          "text": "Las colección de fotografías muestran los cambios",
+          "explanation": "El artículo y el sustantivo quedarían en discordancia."
+        },
+        {
+          "text": "La colección de fotografías muestra los cambios del barrio",
+          "explanation": "El verbo singular concuerda con colección, núcleo del sujeto."
+        },
+        {
+          "text": "La colección de fotografías mostrar los cambios",
+          "explanation": "El infinitivo deja la oración sin un verbo conjugado adecuado."
+        }
+      ],
+      "correct": 1,
+      "hint": "No elijas el verbo por el sustantivo más cercano.",
+      "solution": [
+        "De fotografías complementa a colección.",
+        "La colección exige muestra, en singular."
+      ],
+      "passage": {
+        "title": "El borrador del informe",
+        "paragraphs": [
+          "La colección de fotografías muestran los cambios del barrio. El redactor quiere conservar colección como núcleo del sujeto."
+        ]
+      },
+      "id": "propiedades-del-texto-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Presentación que orienta",
+      "body": [],
+      "prompt": "¿Qué ajuste mejora directamente la disposición visual?",
+      "choices": [
+        {
+          "text": "Eliminar la lista de materiales",
+          "explanation": "Borra la información que las personas necesitan."
+        },
+        {
+          "text": "Cambiar todos los datos sin verificarlos",
+          "explanation": "No resuelve el acceso visual y puede introducir errores."
+        },
+        {
+          "text": "Separar fecha y lugar y presentar los materiales en una lista breve",
+          "explanation": "Organiza los datos según su función y permite localizarlos rápidamente."
+        }
+      ],
+      "correct": 2,
+      "hint": "Mejora cómo se encuentra la información sin alterar sus datos.",
+      "solution": [
+        "El problema es localizar categorías dentro de un bloque extenso.",
+        "Separar y listar crea una jerarquía visual útil."
+      ],
+      "passage": {
+        "title": "El aviso comprimido",
+        "paragraphs": [
+          "Un cartel coloca en un solo párrafo largo la fecha, el lugar, los materiales y una explicación secundaria. Varias personas no logran localizar qué deben llevar."
+        ]
+      },
+      "id": "propiedades-del-texto-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Prioriza una revisión",
+      "body": [],
+      "prompt": "¿Qué acción debe priorizarse?",
+      "choices": [
+        {
+          "text": "Verificar la fecha y unificar el dato antes de difundir",
+          "explanation": "La inconsistencia afecta la información necesaria para asistir."
+        },
+        {
+          "text": "Elegir una tipografía más atractiva",
+          "explanation": "La presentación no determina cuál fecha es correcta."
+        },
+        {
+          "text": "Borrar el cuerpo y asumir que el título siempre tiene razón",
+          "explanation": "La posición de un dato no garantiza su exactitud."
+        }
+      ],
+      "correct": 0,
+      "hint": "El texto necesita un dato central consistente y comprobado.",
+      "solution": [
+        "Las dos fechas no pueden guiar de manera inequívoca la asistencia.",
+        "Primero se verifica y después se corrige la versión completa."
+      ],
+      "passage": {
+        "title": "Dos fechas",
+        "paragraphs": [
+          "Un aviso presenta el sábado 12 como día de la reunión en el título y el domingo 13 en el cuerpo. El comité aún no ha confirmado cuál es la fecha correcta."
+        ]
+      },
+      "id": "propiedades-del-texto-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un diagnóstico integrado",
+      "body": [],
+      "prompt": "¿Qué revisión atiende los dos problemas descritos?",
+      "choices": [
+        {
+          "text": "Cambiar la fecha y añadir imágenes",
+          "explanation": "Los datos ya están confirmados y las imágenes no aclaran siglas ni referentes."
+        },
+        {
+          "text": "Explicar las siglas y nombrar a la persona que recibirá los documentos",
+          "explanation": "Mejora adecuación a lectores nuevos y cohesión referencial."
+        },
+        {
+          "text": "Eliminar todos los pronombres y todos los términos institucionales",
+          "explanation": "Es una supresión indiscriminada; basta explicar y precisar los casos problemáticos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Relaciona cada falla con una intervención concreta.",
+      "solution": [
+        "Los nuevos lectores requieren comprender las siglas.",
+        "Nombrar al destinatario resuelve la ambigüedad de ella sin reescribir datos correctos."
+      ],
+      "passage": {
+        "title": "La circular",
+        "paragraphs": [
+          "Una circular dirigida a familias nuevas usa siglas internas sin explicar. Además, llama ella tanto a una coordinadora como a una docente, de modo que no se sabe quién recibirá los documentos. Los datos de fecha y lugar ya fueron confirmados."
+        ]
+      },
+      "id": "propiedades-del-texto-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Revisa con propósito y evidencia",
+      "body": [
+        "Comprueba que el mensaje sea apropiado para sus lectores, que las ideas formen un conjunto compatible, que los referentes sean claros, que la construcción sea correcta y que los datos se localicen.",
+        "Si una corrección solo embellece el texto, pregunta si resolvió la falla que detectaste. Un buen diagnóstico permite cambiar lo necesario y conservar la información ya comprobada."
+      ],
+      "id": "propiedades-del-texto-24",
+      "level": 3
+    }
+  ]
+}

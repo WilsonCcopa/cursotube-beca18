@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/promedios",
+  "course": "matematica",
+  "slug": "promedios",
+  "title": "Promedios: aritmético, ponderado, geométrico y armónico",
+  "description": "Elige una media según qué se suma, multiplica o mantiene constante en el problema.",
+  "version": 1,
+  "order": 20,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Calcular medias aritméticas y reconstruir sumas o datos faltantes.",
+    "Usar pesos correctos al combinar grupos o evaluaciones.",
+    "Interpretar medias geométricas y armónicas en situaciones adecuadas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "La media aritmética reparte una suma",
+      "body": [
+        "La media aritmética de n datos es su suma dividida entre n. Puede representar cuánto recibiría cada dato si el total se repartiera por igual.",
+        "Si la media es A, la suma es nA. La media no tiene que ser uno de los datos y conserva su unidad. Con datos reales queda entre el menor y el mayor.",
+        "La media cambia si se agrega un dato extremo. No confundas media con mediana, que es un valor central al ordenar los datos, ni con moda, que es el valor más frecuente."
+      ],
+      "id": "promedios-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Reconstruir una nota faltante",
+      "body": [
+        "Cuatro notas tienen media 14. Tres son 12, 15 y 13. ¿Cuál falta?"
+      ],
+      "solution": [
+        "La suma de las cuatro debe ser 4 × 14 = 56.",
+        "Las conocidas suman 12 + 15 + 13 = 40.",
+        "La nota faltante es 56 − 40 = 16. Verifica: (12 + 15 + 13 + 16)/4 = 14."
+      ],
+      "id": "promedios-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Una media necesita su cantidad de datos",
+      "body": [
+        "Abre cada situación para ver por qué conviene volver a la suma antes de combinar o cambiar datos."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Suma conocida",
+            "text": "Si 5 datos tienen media 8, su suma es 5 × 8 = 40."
+          },
+          {
+            "label": "Agregar un dato",
+            "text": "Al agregar 16 a esos cinco datos, la nueva suma es 56 y la cantidad es 6; la media es 56/6, no 12."
+          },
+          {
+            "label": "Cambiar todos los datos",
+            "text": "Si a cada dato se le suma 3, la media también aumenta en 3; la suma total aumenta 3 por cada dato."
+          }
+        ]
+      },
+      "id": "promedios-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Calcula la media",
+      "body": [],
+      "prompt": "¿Cuál es la media aritmética de 6, 8, 11 y 15?",
+      "choices": [
+        {
+          "text": "40",
+          "explanation": "40 es la suma, todavía falta dividir entre el número de datos."
+        },
+        {
+          "text": "10",
+          "explanation": "La suma es 40 y hay cuatro datos: 40/4 = 10."
+        },
+        {
+          "text": "9,5",
+          "explanation": "9,5 es la mediana de estos datos: (8 + 11)/2; no la media aritmética."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cuenta los cuatro datos, suma y divide.",
+      "solution": [
+        "6 + 8 + 11 + 15 = 40.",
+        "Media = 40/4 = 10."
+      ],
+      "id": "promedios-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "De la media al total",
+      "body": [],
+      "prompt": "Siete grupos entregan una media de 12 cuadernos cada uno. ¿Cuántos cuadernos entregan en total?",
+      "choices": [
+        {
+          "text": "84",
+          "explanation": "Suma = cantidad × media = 7 × 12."
+        },
+        {
+          "text": "19",
+          "explanation": "Sumar 7 y 12 no reconstruye el total."
+        },
+        {
+          "text": "12",
+          "explanation": "12 es la cantidad media por grupo; faltan los siete grupos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica la media por la cantidad de grupos.",
+      "solution": [
+        "S = nA = 7 × 12.",
+        "S = 84 cuadernos."
+      ],
+      "id": "promedios-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Agrega un dato",
+      "body": [],
+      "prompt": "La media de 5 datos es 10. Si agregas el dato 16, ¿cuál es la nueva media?",
+      "choices": [
+        {
+          "text": "13",
+          "explanation": "Promediar 10 y 16 da igual peso a cinco datos y a uno; no corresponde."
+        },
+        {
+          "text": "13,2",
+          "explanation": "13,2 divide la nueva suma 66 entre los cinco datos antiguos, olvidando el nuevo."
+        },
+        {
+          "text": "11",
+          "explanation": "La suma pasa de 50 a 66 y ahora hay seis datos: 66/6 = 11."
+        }
+      ],
+      "correct": 2,
+      "hint": "Primero reconstruye la suma de los cinco datos.",
+      "solution": [
+        "S original = 5 × 10 = 50; S nueva = 66.",
+        "Cantidad nueva = 6; media = 66/6 = 11."
+      ],
+      "id": "promedios-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Desplaza todos los valores",
+      "body": [],
+      "prompt": "Si a cada uno de 9 datos de media 17 le restas 4, ¿cuál es la nueva media?",
+      "choices": [
+        {
+          "text": "−19",
+          "explanation": "Restar 9 × 4 directamente a la media confunde el cambio de la suma con el de la media."
+        },
+        {
+          "text": "13",
+          "explanation": "Restar lo mismo a cada dato resta esa misma cantidad a la media."
+        },
+        {
+          "text": "17",
+          "explanation": "La media cambia porque se modificaron todos los datos."
+        }
+      ],
+      "correct": 1,
+      "hint": "La suma disminuye 9 × 4 y luego se divide entre nueve.",
+      "solution": [
+        "Nueva suma = 9 × 17 − 9 × 4 = 9(17 − 4).",
+        "Nueva media = 17 − 4 = 13."
+      ],
+      "id": "promedios-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Vuelve a suma y cantidad",
+      "body": [
+        "Una media sin el número de datos no permite reconstruir un total. Antes de añadir o retirar valores, anota S = nA.",
+        "Si todas las cantidades son positivas, una media aritmética negativa revela un error. Aun cuando el resultado sea positivo, debe quedar entre el mínimo y el máximo."
+      ],
+      "id": "promedios-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "No todos los datos tienen el mismo peso",
+      "body": [
+        "La media ponderada es (w₁x₁ + w₂x₂ + …)/(w₁ + w₂ + …), con pesos positivos. Un peso indica cuántas veces cuenta un valor o qué importancia declarada tiene.",
+        "Para combinar grupos, los pesos son sus cantidades de personas o elementos. Promediar directamente las medias de dos grupos solo funciona cuando tienen el mismo tamaño.",
+        "Si los pesos son porcentajes que suman 100%, puedes usar decimales: 30% y 70% se vuelven 0,3 y 0,7, cuya suma es uno."
+      ],
+      "id": "promedios-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Dos grupos de tamaños diferentes",
+      "body": [
+        "Un grupo de 8 estudiantes tiene media 13 y otro de 12 tiene media 18. ¿Cuál es la media conjunta?"
+      ],
+      "solution": [
+        "La suma del primero es 8 × 13 = 104; la del segundo es 12 × 18 = 216.",
+        "La suma conjunta es 320 y hay 20 estudiantes.",
+        "Media conjunta = 320/20 = 16. Dar 15,5 a partir de (13 + 18)/2 usaría pesos incorrectos."
+      ],
+      "id": "promedios-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Pesos en evaluaciones y mezclas",
+      "body": [
+        "En una nota final, los pesos los indica el sistema de evaluación. En un precio medio de una mezcla, cada precio por kilogramo se pondera por los kilogramos correspondientes.",
+        "Antes de dividir, revisa que el denominador sea la suma de todos los pesos. Si faltan pesos o porcentajes, la media final puede no estar determinada."
+      ],
+      "id": "promedios-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una nota con dos pesos",
+      "body": [],
+      "prompt": "Una evaluación de 12 vale 40% y otra de 17 vale 60%. ¿Cuál es la nota final ponderada?",
+      "choices": [
+        {
+          "text": "14,5",
+          "explanation": "14,5 es la media simple; los pesos son distintos."
+        },
+        {
+          "text": "29",
+          "explanation": "29 es la suma de las notas, sin usar los pesos ni dividir."
+        },
+        {
+          "text": "15",
+          "explanation": "12 × 0,4 + 17 × 0,6 = 4,8 + 10,2 = 15."
+        }
+      ],
+      "correct": 2,
+      "hint": "Multiplica cada nota por su peso decimal y suma.",
+      "solution": [
+        "0,4 + 0,6 = 1.",
+        "Nota = 4,8 + 10,2 = 15."
+      ],
+      "id": "promedios-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Combina aulas",
+      "body": [],
+      "prompt": "Diez estudiantes tienen media 11 y veinte tienen media 14. ¿Cuál es la media conjunta?",
+      "choices": [
+        {
+          "text": "25",
+          "explanation": "25 suma las dos medias sin considerar las cantidades."
+        },
+        {
+          "text": "13",
+          "explanation": "Las sumas son 110 y 280; 390/30 = 13."
+        },
+        {
+          "text": "12,5",
+          "explanation": "12,5 da el mismo peso a aulas de tamaños diferentes."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula primero la suma de cada grupo.",
+      "solution": [
+        "S = 10 × 11 + 20 × 14 = 390.",
+        "n = 30; media = 390/30 = 13."
+      ],
+      "id": "promedios-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Qué nota necesitas",
+      "body": [],
+      "prompt": "Dos pruebas pesan 30% y 70%. En la primera obtuviste 10. ¿Qué nota debes sacar en la segunda para que la media sea exactamente 17?",
+      "choices": [
+        {
+          "text": "20",
+          "explanation": "0,3(10) + 0,7 x = 17 da 0,7 x = 14 y x = 20."
+        },
+        {
+          "text": "24",
+          "explanation": "24 saldría de tratar las dos pruebas como si pesaran lo mismo."
+        },
+        {
+          "text": "17",
+          "explanation": "Con 17 en la segunda la media es 14,9, menor que la meta."
+        }
+      ],
+      "correct": 0,
+      "hint": "Construye una ecuación con los pesos y la meta.",
+      "solution": [
+        "3 + 0,7 x = 17.",
+        "x = 14/0,7 = 20. Comprobación: 3 + 14 = 17."
+      ],
+      "id": "promedios-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Precio medio por kilogramo",
+      "body": [],
+      "prompt": "Se mezclan 2 kg a S/ 9 por kg y 3 kg a S/ 14 por kg. ¿Cuál es el costo medio por kg?",
+      "choices": [
+        {
+          "text": "S/ 11,50",
+          "explanation": "11,50 promedia los precios sin ponderar los kilogramos."
+        },
+        {
+          "text": "S/ 60",
+          "explanation": "60 es el costo de los cinco kilogramos, no el costo por uno."
+        },
+        {
+          "text": "S/ 12",
+          "explanation": "El costo total es 18 + 42 = 60; la masa total es 5 kg: 60/5 = 12."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide el costo total entre la masa total.",
+      "solution": [
+        "Costo total = 2 × 9 + 3 × 14 = 60 soles.",
+        "Costo medio = 60/(2 + 3) = 12 soles por kg."
+      ],
+      "id": "promedios-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "El denominador cuenta los pesos",
+      "body": [
+        "Dos grupos con medias 10 y 20 no obligan una media conjunta de 15. Si el segundo grupo es mayor, la media conjunta queda más cerca de 20.",
+        "En una mezcla, sumar precios por kg no produce el precio medio. Reconstruye costo total, reconstruye masa total y divide."
+      ],
+      "id": "promedios-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Geométrica para productos; armónica para recíprocos",
+      "body": [
+        "Para n datos positivos, la media geométrica G es la raíz n-ésima de su producto. Para dos: G = √(ab). Es útil al resumir factores de crecimiento multiplicativos.",
+        "La media armónica H = n/(1/x₁ + … + 1/xₙ), con datos positivos. Para dos: H = 2 ab/(a + b). Aparece al promediar velocidades de tramos de igual distancia.",
+        "Para datos positivos, H ≤ G ≤ A; las tres coinciden solo si todos los datos son iguales. Estas condiciones de positividad importan, especialmente al usar raíces y recíprocos."
+      ],
+      "id": "promedios-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "La misma distancia, dos velocidades",
+      "body": [
+        "Un recorrido tiene dos tramos de 60 km. Se recorren a 30 km/h y 60 km/h. Halla la velocidad media total."
+      ],
+      "solution": [
+        "Tiempo del primero = 60/30 = 2 h; del segundo = 60/60 = 1 h.",
+        "Distancia total = 120 km; tiempo total = 3 h. Velocidad media = 120/3 = 40 km/h.",
+        "La media armónica coincide: 2(30)(60)/(30 + 60) = 40. La aritmética 45 serviría para dos tiempos iguales, que aquí no existen."
+      ],
+      "id": "promedios-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Crecimientos sucesivos se multiplican",
+      "body": [
+        "Si un valor crece 20% un año y 80% el siguiente, el factor total es 1,2 × 1,8 = 2,16. El factor anual constante equivalente es √2,16; su tasa es ese factor menos uno.",
+        "No apliques la media geométrica a las tasas porcentuales desnudas: usa factores 1 + tasa. Una subida de 50% y una bajada de 50% dan 1,5 × 0,5 = 0,75, una disminución total de 25%."
+      ],
+      "id": "promedios-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Media geométrica de dos números",
+      "body": [],
+      "prompt": "¿Cuál es la media geométrica de 4 y 25?",
+      "choices": [
+        {
+          "text": "10",
+          "explanation": "√(4 × 25) = √100 = 10."
+        },
+        {
+          "text": "14,5",
+          "explanation": "14,5 es la media aritmética de 4 y 25."
+        },
+        {
+          "text": "100",
+          "explanation": "100 es el producto; falta sacar la raíz cuadrada."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica ambos datos y toma la raíz cuadrada positiva.",
+      "solution": [
+        "4 × 25 = 100.",
+        "G = √100 = 10."
+      ],
+      "id": "promedios-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un factor anual equivalente",
+      "body": [],
+      "prompt": "Un valor se duplica un año y se multiplica por 8 el siguiente. ¿Qué factor anual constante produce el mismo resultado en dos años?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "5 es la media aritmética de 2 y 8; su cuadrado 25 no coincide con 16."
+        },
+        {
+          "text": "16",
+          "explanation": "16 es el factor de ambos años juntos, no el factor por año."
+        },
+        {
+          "text": "4",
+          "explanation": "El factor total es 2 × 8 = 16; un factor constante f satisface f² = 16 y f = 4."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca la media geométrica de los dos factores positivos.",
+      "solution": [
+        "Factor total = 16.",
+        "Factor anual equivalente = √16 = 4."
+      ],
+      "id": "promedios-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Media armónica con fracciones",
+      "body": [],
+      "prompt": "¿Cuál es la media armónica de 6 y 12?",
+      "choices": [
+        {
+          "text": "√72",
+          "explanation": "√72 es su media geométrica, no la armónica."
+        },
+        {
+          "text": "8",
+          "explanation": "H = 2/(1/6 + 1/12) = 2/(1/4) = 8."
+        },
+        {
+          "text": "9",
+          "explanation": "9 es la media aritmética de los dos datos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Suma los recíprocos antes de dividir dos entre esa suma.",
+      "solution": [
+        "1/6 + 1/12 = 3/12 = 1/4.",
+        "H = 2 ÷ 1/4 = 8."
+      ],
+      "id": "promedios-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Velocidad con distancias iguales",
+      "body": [],
+      "prompt": "Se recorren 120 km a 40 km/h y otros 120 km a 60 km/h. ¿Cuál es la velocidad media total?",
+      "choices": [
+        {
+          "text": "48 km/h",
+          "explanation": "Los tiempos son 3 h y 2 h; 240/5 = 48."
+        },
+        {
+          "text": "50 km/h",
+          "explanation": "50 es la media simple, válida aquí solo si los tiempos fueran iguales."
+        },
+        {
+          "text": "100 km/h",
+          "explanation": "Sumar velocidades no representa distancia total entre tiempo total."
+        }
+      ],
+      "correct": 0,
+      "hint": "La velocidad media total es distancia total dividida entre tiempo total.",
+      "solution": [
+        "t total = 120/40 + 120/60 = 3 + 2 = 5 horas.",
+        "v media = 240/5 = 48 km/h. Es menor que la media aritmética de 50."
+      ],
+      "id": "promedios-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Elige la media por la estructura",
+      "body": [
+        "Si conservas una suma y repartes igual, usa aritmética. Si los datos cuentan distinto, usa ponderada. Si conservas un producto de factores positivos, considera geométrica.",
+        "En trayectos, calcula siempre distancia total/tiempo total: esta definición evita memorizar una fórmula fuera de sus condiciones. Con distancias iguales conduce a la armónica; con tiempos iguales, a la aritmética."
+      ],
+      "id": "promedios-24",
+      "level": 3
+    }
+  ]
+}

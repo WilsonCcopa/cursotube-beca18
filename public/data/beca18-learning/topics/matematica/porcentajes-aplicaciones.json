@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/porcentajes-aplicaciones",
+  "course": "matematica",
+  "slug": "porcentajes-aplicaciones",
+  "title": "Porcentajes: aplicaciones",
+  "description": "Relaciona precios y aplica promedios ponderados a mezclas, concentración y aleaciones.",
+  "version": 1,
+  "order": 12,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Distinguir costo, lista, venta, descuento y resultado.",
+    "Calcular promedios ponderados y cantidad de componente puro.",
+    "Resolver diluciones, mezclas objetivo y reemplazos con conservación."
+  ],
+  "steps": [
+    {
+      "id": "porcentajes-aplicaciones-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Los precios tienen funciones distintas",
+      "body": [
+        "El costo C es lo que paga quien adquiere el producto; el precio de lista L es el anunciado antes de una rebaja; el precio de venta V es lo cobrado finalmente.",
+        "Ganancia G = V − C cuando V > C. Pérdida P = C − V cuando V < C. Un descuento D se resta a la lista: V = L − D.",
+        "En estos problemas, el porcentaje de ganancia o pérdida se toma sobre el costo cuando así se declara; el descuento se toma sobre la lista. Escribe cada base: no la supongas si el enunciado usa otra."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-02",
+      "level": 1,
+      "type": "example",
+      "title": "Lista con un descuento previsto",
+      "body": [
+        "Un artículo cuesta 120 soles. Se quiere ganar 25 % sobre costo después de ofrecer descuento de 20 % sobre lista.",
+        "Venta deseada: V = 120 × 1,25 = 150. Como el descuento conserva 80 % de la lista, 0,80L = 150 y L = 187,50.",
+        "Comprobamos: rebaja 37,50; venta 150; ganancia 30, que es 25 % de 120. Sumar 25 % y 20 % al costo no cumple ambos objetivos."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Expresa la relación antes del cálculo",
+      "body": [
+        "En ausencia de otros gastos, L − D = C + G o L = C + G + D. Son cantidades monetarias; sus porcentajes pueden tener bases distintas.",
+        "Si V = C(1 + g) y V = L(1 − d), entonces L = C(1 + g)/(1 − d), con g y d como tasas decimales y d ≠ 1.",
+        "Si un problema incluye transporte, comisiones o empaques como costo, incorpóralos antes de calcular la ganancia sobre costo total. No confundas facturación con ganancia."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-04",
+      "level": 1,
+      "type": "question",
+      "title": "Ganancia sobre costo",
+      "body": [],
+      "prompt": "Un artículo cuesta 120 soles y se vende a 150. ¿Cuál es la ganancia porcentual sobre costo?",
+      "choices": [
+        {
+          "text": "25 %",
+          "explanation": "La ganancia es 30 y 30/120 = 25 %."
+        },
+        {
+          "text": "20 %",
+          "explanation": "30/150 expresa margen sobre venta, no ganancia sobre costo."
+        },
+        {
+          "text": "30 %",
+          "explanation": "30 es la ganancia en soles; aún falta compararla con el costo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide venta menos costo entre el costo.",
+      "solution": [
+        "G = 150 − 120 = 30.",
+        "G/C = 30/120 = 0,25 = 25 %."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-05",
+      "level": 1,
+      "type": "question",
+      "title": "Lista y cobro efectivo",
+      "body": [],
+      "prompt": "La lista marca 200 soles y se descuenta 10 %. El costo fue 150. ¿Cuántos soles se ganan?",
+      "choices": [
+        {
+          "text": "20 soles",
+          "explanation": "20 es el descuento, no la ganancia de la venta."
+        },
+        {
+          "text": "30 soles",
+          "explanation": "Se cobran 180 y se restan 150 de costo."
+        },
+        {
+          "text": "50 soles",
+          "explanation": "50 sería la ganancia sin aplicar la rebaja anunciada."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula la venta después de la rebaja.",
+      "solution": [
+        "V = 200 × 0,90 = 180.",
+        "G = 180 − 150 = 30 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-06",
+      "level": 1,
+      "type": "question",
+      "title": "Pérdida relativa",
+      "body": [],
+      "prompt": "Un producto cuesta 200 soles y se vende a 170. ¿Qué porcentaje del costo se pierde?",
+      "choices": [
+        {
+          "text": "30 %",
+          "explanation": "30 es el monto perdido, no su tasa sobre 200."
+        },
+        {
+          "text": "17,65 % aproximadamente",
+          "explanation": "30/170 usa como base la venta, distinta del costo pedido."
+        },
+        {
+          "text": "15 %",
+          "explanation": "La pérdida es 30; 30/200 = 0,15."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa costo menos venta y conserva la base costo.",
+      "solution": [
+        "P = 200 − 170 = 30.",
+        "P/C = 30/200 = 15 %."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-07",
+      "level": 1,
+      "type": "question",
+      "title": "Fija la lista",
+      "body": [],
+      "prompt": "El costo es 160 soles. Se busca ganar 25 % sobre costo luego de descontar 20 % de la lista. ¿Qué precio de lista corresponde?",
+      "choices": [
+        {
+          "text": "250 soles",
+          "explanation": "La venta debe ser 200 y equivale a 80 % de lista: 200/0,80 = 250."
+        },
+        {
+          "text": "232 soles",
+          "explanation": "Sumar 25 % y 20 % al costo ignora que la rebaja se calcula sobre la lista."
+        },
+        {
+          "text": "200 soles",
+          "explanation": "200 es la venta deseada; si fuera la lista, la rebaja la reduciría a 160."
+        }
+      ],
+      "correct": 0,
+      "hint": "Determina primero la venta necesaria y después recupera la lista.",
+      "solution": [
+        "V = 160 × 1,25 = 200.",
+        "0,80L = 200.",
+        "L = 250 soles."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-08",
+      "level": 1,
+      "type": "review",
+      "title": "Conecta cantidades con bases",
+      "body": [
+        "Una rebaja no garantiza una pérdida: compara el cobro final con el costo. Tampoco una lista alta garantiza ganancia si el descuento es grande.",
+        "Para revisar una lista calculada, aplica el descuento y después calcula la ganancia sobre costo. Los dos controles deben funcionar en el mismo precio."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-09",
+      "level": 2,
+      "type": "learn",
+      "title": "El promedio depende de las cantidades",
+      "body": [
+        "Si mezclas cantidades q₁ y q₂ con precios por unidad p₁ y p₂, el costo unitario de la mezcla es (q₁p₁ + q₂p₂)/(q₁ + q₂).",
+        "Los productos del numerador son costos totales; el denominador es cantidad total. No promedies solo los precios cuando los pesos son diferentes.",
+        "Con cantidades positivas, el promedio queda entre el menor y el mayor precio. Si sale fuera de ese intervalo, hay un error de unidades o de cálculo."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-10",
+      "level": 2,
+      "type": "example",
+      "title": "Dos cafés con pesos diferentes",
+      "body": [
+        "Mezclas 2 kg de café de 18 soles/kg con 4 kg de café de 27 soles/kg. Los costos son 36 y 108 soles.",
+        "Costo conjunto 144 soles; masa total 6 kg. El costo medio es 144/6 = 24 soles/kg.",
+        "La media simple (18 + 27)/2 = 22,50 solo serviría si los dos pesos fueran iguales. La mezcla contiene más cantidad del café de 27, por eso el promedio está más cerca de 27."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Concentración es parte entre total",
+      "body": [
+        "Una solución de 500 g al 12 % en masa contiene 500 × 0,12 = 60 g de componente disuelto y 440 g de los demás componentes.",
+        "Para mezclar soluciones sin pérdidas, conserva la masa del componente: concentración final = suma de masas de componente / masa total.",
+        "Si se trabajan volúmenes, el enunciado debe suponer que son aditivos y que los porcentajes usan la misma referencia. No mezcles porcentajes en masa con porcentajes en volumen. Aquí las mezclas de práctica usarán masa para evitar esa diferencia."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-12",
+      "level": 2,
+      "type": "question",
+      "title": "Costo medio ponderado",
+      "body": [],
+      "prompt": "Mezclas 2 kg de un producto de 20 soles/kg con 3 kg de otro de 30 soles/kg. ¿Cuál es el costo medio por kg?",
+      "choices": [
+        {
+          "text": "25 soles/kg",
+          "explanation": "Es la media simple de precios y supone pesos iguales."
+        },
+        {
+          "text": "50 soles/kg",
+          "explanation": "Sumar precios no reparte el costo entre la cantidad total."
+        },
+        {
+          "text": "26 soles/kg",
+          "explanation": "El costo es 40 + 90 = 130 soles para 5 kg."
+        }
+      ],
+      "correct": 2,
+      "hint": "Suma costos y divide entre kilos totales.",
+      "solution": [
+        "Costo = 2 × 20 + 3 × 30 = 130.",
+        "Cantidad = 2 + 3 = 5 kg.",
+        "Promedio = 130/5 = 26 soles/kg."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-13",
+      "level": 2,
+      "type": "question",
+      "title": "Control de un promedio",
+      "body": [],
+      "prompt": "Se mezclan cantidades positivas de un material de 12 soles/kg y otro de 20 soles/kg, sin otros costos. ¿Qué valor no puede ser su costo medio?",
+      "choices": [
+        {
+          "text": "22 soles/kg",
+          "explanation": "Supera ambos precios; una media ponderada positiva no puede hacerlo."
+        },
+        {
+          "text": "14 soles/kg",
+          "explanation": "Está entre 12 y 20 y es posible con más cantidad del material barato."
+        },
+        {
+          "text": "18 soles/kg",
+          "explanation": "Está entre 12 y 20 y es posible con más cantidad del material caro."
+        }
+      ],
+      "correct": 0,
+      "hint": "Un promedio ponderado de dos precios queda entre ellos.",
+      "solution": [
+        "Ambos precios están entre 12 y 20.",
+        "Una combinación con pesos positivos permanece dentro de ese intervalo.",
+        "22 queda fuera y es imposible bajo los supuestos."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-14",
+      "level": 2,
+      "type": "question",
+      "title": "Conserva el componente",
+      "body": [],
+      "prompt": "Mezclas 3 kg de solución al 20 % en masa con 2 kg al 50 %. Sin pérdidas, ¿qué concentración tiene la mezcla?",
+      "choices": [
+        {
+          "text": "70 %",
+          "explanation": "Sumar concentraciones no toma en cuenta las cantidades totales."
+        },
+        {
+          "text": "32 %",
+          "explanation": "El componente suma 0,6 + 1 = 1,6 kg en 5 kg totales."
+        },
+        {
+          "text": "35 %",
+          "explanation": "Es la media simple de 20 y 50 y omite los pesos diferentes."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula kilogramos de componente puro en cada solución.",
+      "solution": [
+        "Componente = 3 × 0,20 + 2 × 0,50 = 1,6 kg.",
+        "Masa total = 5 kg.",
+        "1,6/5 = 0,32 = 32 %."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-15",
+      "level": 2,
+      "type": "question",
+      "title": "Cantidad de soluto",
+      "body": [],
+      "prompt": "Una solución de 300 g tiene 12 % de sal en masa. ¿Cuántos gramos de sal contiene?",
+      "choices": [
+        {
+          "text": "264 g",
+          "explanation": "264 g es la masa de los demás componentes: 300 − 36."
+        },
+        {
+          "text": "25 g",
+          "explanation": "300/12 no aplica el porcentaje; divide entre 12 como número entero."
+        },
+        {
+          "text": "36 g",
+          "explanation": "300 × 0,12 = 36 g."
+        }
+      ],
+      "correct": 2,
+      "hint": "La sal ocupa 12 de cada 100 gramos de solución.",
+      "solution": [
+        "Sal = 12/100 × 300.",
+        "Sal = 36 g."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-16",
+      "level": 2,
+      "type": "review",
+      "title": "Conservación antes de promedio",
+      "body": [
+        "En mezclas de precios, conserva el costo total; en concentraciones, conserva la cantidad del componente. Después divide entre la cantidad total compatible.",
+        "Comprueba unidades y límites: una mezcla de 20 % y 50 %, con cantidades positivas y sin pérdidas, debe quedar entre 20 % y 50 %."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Diluir y concentrar no son la misma operación",
+      "body": [
+        "Añadir agua pura a una solución conserva la masa de soluto y aumenta el total, por lo que baja la concentración. Si hay M kg al c %, el soluto es M × c/100.",
+        "Para llegar a concentración objetivo t, plantea soluto conservado = t decimal × nuevo total. Una concentración menor que la inicial exige aumentar el total si solo agregas agua.",
+        "En una aleación, sumar metal puro aumenta tanto el componente buscado como el total: (componente inicial + x)/(masa inicial + x). No dejes fijo el denominador."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-18",
+      "level": 3,
+      "type": "example",
+      "title": "Añade agua con una ecuación",
+      "body": [
+        "Tenemos 8 kg de solución al 30 % en masa y deseamos 20 % agregando solo agua. El soluto permanece en 8 × 0,30 = 2,4 kg.",
+        "Si agregamos x kg de agua, 2,4/(8 + x) = 0,20. Así 8 + x = 12 y x = 4 kg.",
+        "Comprobación: 2,4 kg de soluto en 12 kg de solución representan 20 %. No se elimina soluto al diluir."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Retirar una mezcla uniforme",
+      "body": [
+        "Si una mezcla está homogénea, retirar una fracción de su masa retira esa misma fracción de cada componente. Después de retirar, actualiza tanto soluto como masa total.",
+        "Si repones con agua, el soluto retirado no regresa. Reponer la misma masa devuelve el total inicial, pero con menor concentración.",
+        "Para hallar proporciones de dos mezclas hacia un objetivo, resuelve c₁x + c₂y = t(x + y). La razón x:y debe ser positiva y el objetivo estar entre las concentraciones iniciales."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-20",
+      "level": 3,
+      "type": "question",
+      "title": "Dilución",
+      "body": [],
+      "prompt": "Tienes 10 kg de solución al 30 % en masa. ¿Cuánta agua pura debes agregar para llegar al 20 %?",
+      "choices": [
+        {
+          "text": "1 kg",
+          "explanation": "Con 11 kg totales la concentración sería aproximadamente 27,27 %, no 20 %."
+        },
+        {
+          "text": "5 kg",
+          "explanation": "Hay 3 kg de soluto; el total final debe ser 3/0,20 = 15 kg."
+        },
+        {
+          "text": "10 kg",
+          "explanation": "Con 20 kg totales la concentración sería 3/20 = 15 %."
+        }
+      ],
+      "correct": 1,
+      "hint": "Conserva los 3 kg de soluto y encuentra el total objetivo.",
+      "solution": [
+        "Soluto = 10 × 0,30 = 3 kg.",
+        "Total final = 3/0,20 = 15 kg.",
+        "Agua añadida = 15 − 10 = 5 kg."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-21",
+      "level": 3,
+      "type": "question",
+      "title": "Una mezcla objetivo",
+      "body": [],
+      "prompt": "¿En qué razón de masas debes mezclar soluciones al 20 % y al 50 % para obtener 30 %, en ese orden?",
+      "choices": [
+        {
+          "text": "1:2",
+          "explanation": "Con una parte al 20 % y dos al 50 %, el resultado es 40 %."
+        },
+        {
+          "text": "3:2",
+          "explanation": "Esa razón produce (3 × 20 + 2 × 50)/5 = 32 %."
+        },
+        {
+          "text": "2:1",
+          "explanation": "0,20x + 0,50y = 0,30(x + y) da 0,10x = 0,20y."
+        }
+      ],
+      "correct": 2,
+      "hint": "El objetivo está más cerca de 20 %, así que necesitas más de la solución diluida.",
+      "solution": [
+        "0,20x + 0,50y = 0,30x + 0,30y.",
+        "0,20y = 0,10x.",
+        "x = 2y: razón 2:1."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-22",
+      "level": 3,
+      "type": "question",
+      "title": "Retiro y reposición",
+      "body": [],
+      "prompt": "De 20 kg de solución homogénea al 25 %, retiras 5 kg y repones 5 kg de agua. ¿Cuál es la concentración final?",
+      "choices": [
+        {
+          "text": "18,75 %",
+          "explanation": "Inicialmente hay 5 kg de soluto; retiras 1,25 y quedan 3,75 kg en 20 kg finales."
+        },
+        {
+          "text": "25 %",
+          "explanation": "Reponer agua devuelve la masa total, pero no el soluto retirado."
+        },
+        {
+          "text": "20 %",
+          "explanation": "Restar 5 puntos a 25 confunde los kg retirados con una tasa."
+        }
+      ],
+      "correct": 0,
+      "hint": "El retiro contiene también 25 % de soluto.",
+      "solution": [
+        "Soluto retirado = 5 × 0,25 = 1,25 kg.",
+        "Soluto restante = 5 − 1,25 = 3,75 kg.",
+        "3,75/20 = 0,1875 = 18,75 %."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-23",
+      "level": 3,
+      "type": "question",
+      "title": "Aleación con metal puro",
+      "body": [],
+      "prompt": "Una aleación de 3 kg contiene 80 % de cobre en masa. ¿Cuánto cobre puro se agrega para obtener 90 %?",
+      "choices": [
+        {
+          "text": "1 kg",
+          "explanation": "Con 1 kg añadido habría 3,4/4 = 85 % de cobre."
+        },
+        {
+          "text": "3 kg",
+          "explanation": "(2,4 + x)/(3 + x) = 0,90 da 0,10x = 0,30."
+        },
+        {
+          "text": "0,3 kg",
+          "explanation": "0,3 es el déficit calculado sobre la masa inicial, pero agregar cobre también aumenta el total."
+        }
+      ],
+      "correct": 1,
+      "hint": "El cobre añadido aumenta numerador y denominador.",
+      "solution": [
+        "Cobre inicial = 3 × 0,80 = 2,4 kg.",
+        "2,4 + x = 0,90(3 + x).",
+        "0,10x = 0,30; x = 3 kg."
+      ]
+    },
+    {
+      "id": "porcentajes-aplicaciones-24",
+      "level": 3,
+      "type": "review",
+      "title": "Dibuja una contabilidad de componentes",
+      "body": [
+        "Anota masa total y masa del componente antes y después de cada acción. En un retiro homogéneo salen ambos en la misma proporción; al agregar agua solo aumenta el total.",
+        "En aleaciones o concentrados puros, aumenta también el numerador. Verifica el porcentaje final sustituyendo todas las cantidades y usa la misma clase de porcentaje en la mezcla completa."
+      ]
+    }
+  ]
+}

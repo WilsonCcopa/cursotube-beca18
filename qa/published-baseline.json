@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "topics": [
+    {
+      "id": "lectura/antonimia-contextual",
+      "file": "topics/lectura/antonimia-contextual.json",
+      "sha256": "5c926e883334d59176c4c8c67a5e92757f02276f804413cf8ed45f43db3f0c05",
+      "normalizedSha256": "3089a7501e4607cc0d138f1035173b208544603fa3a5154fe5505e84571816eb"
+    },
+    {
+      "id": "lectura/relaciones-logicas",
+      "file": "topics/lectura/relaciones-logicas.json",
+      "sha256": "16115ed3d02649aebada2744fafd1bf02766af23aa6230ab855e6092d67b9e89",
+      "normalizedSha256": "6b9552710756e20c22211efc64cc40a532fdba94baca9e0cb978e7018017ba29"
+    },
+    {
+      "id": "lectura/sinonimia-contextual",
+      "file": "topics/lectura/sinonimia-contextual.json",
+      "sha256": "a6816cb5196de670a7ac4dcb5db77d73febb87717f5e4994040ebc4268fbcf92",
+      "normalizedSha256": "c898e9cf284271b03186f2ea50108e6235ef5a3fabc205974fc61dd444e4b351"
+    },
+    {
+      "id": "lectura/textos-expositivos",
+      "file": "topics/lectura/textos-expositivos.json",
+      "sha256": "d3698d7397a1823d2bfcdc1f751cfe082aac04a0e9e14086126ab1c0bf516553",
+      "normalizedSha256": "acd02fff2fa5749310ec578b01bf64940a5141567b13e8b9f95188c7ea031f74"
+    },
+    {
+      "id": "lectura/tipos-de-texto",
+      "file": "topics/lectura/tipos-de-texto.json",
+      "sha256": "09273fb5becdd9ecda5475f67aef427ead5b3cd69b9013d6592cd61ae92bcbed",
+      "normalizedSha256": "bf1d4afb928eab1103a331a7e537a66f3fa409b94314b57b100edbcdfc3dbea1"
+    },
+    {
+      "id": "matematica/divisibilidad",
+      "file": "topics/matematica/divisibilidad.json",
+      "sha256": "72d442614cdcf9a825518b1f3e1635250315ecacc1afa740133cbea270bc5640",
+      "normalizedSha256": "aea61affd7704cf1045e916cdb7ad8a17c6a3c84907c363da7f8eb15e9e3df66"
+    },
+    {
+      "id": "matematica/ecuaciones-e-inecuaciones",
+      "file": "topics/matematica/ecuaciones-e-inecuaciones.json",
+      "sha256": "69f97ebbf315b51f1e9acba5dc6eb75f3bb142f87fdfef0cc9755afc9782e744",
+      "normalizedSha256": "091063d5a90e0ec26a89fa959ab4e2e998520a6ef212b2de8e7a1eab6f414f6d"
+    },
+    {
+      "id": "matematica/fracciones",
+      "file": "topics/matematica/fracciones.json",
+      "sha256": "f73aeea3154b70cc7e32cc08fbcb89272f855db9e11e58afd8a1019ed1fbff29",
+      "normalizedSha256": "af11224bd281e997b0d3ef17c8190486acbda97554f385ab98abfebd3f6164d4"
+    },
+    {
+      "id": "matematica/mcm-y-mcd",
+      "file": "topics/matematica/mcm-y-mcd.json",
+      "sha256": "635caec9f7663ead608f4a9df065a2faf27d2403190451fb30633c2444f4652b",
+      "normalizedSha256": "11adaf9983d83817293cbba38e78ec899c373c632d1a734b97b2adb2a2b2a6dd"
+    },
+    {
+      "id": "matematica/numeros-y-operaciones",
+      "file": "topics/matematica/numeros-y-operaciones.json",
+      "sha256": "467e8a419d81968cd3e63364c531231148d5329fbc1b186e8e5cbfbc952d3d07",
+      "normalizedSha256": "6a7113e6ea7bce05c634c6069a7fe134a101db572bc6e1dabd764c89d290e568"
+    }
+  ],
+  "comparison": "UTF-8 text with CRLF normalized to LF; IDs, versions and all content preserved"
+}

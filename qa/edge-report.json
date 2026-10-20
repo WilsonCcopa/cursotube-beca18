@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "Muted correct-answer sound produces no oscillators after user interaction",
+    "Version 2 creates separate progress while preserving version 1 answers, XP and awards",
+    "Manifest and topic network failure reuse locally saved valid content and progress",
+    "Malformed remote numeric fields rejected; no content HTML executed",
+    "Blocked localStorage shows inline notice and learning continues in memory",
+    "Fraction explorer: 1/3 uses approximation sign and 1/2 uses exact equality",
+    "WhatsApp button requests native whatsapp://send navigation with encoded link"
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-20T19:40:15.651Z"
+}

@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/termino-excluido",
+  "course": "lectura",
+  "slug": "termino-excluido",
+  "title": "Término excluido",
+  "description": "Descubre el criterio común y excluye por significado, clase o relación precisa.",
+  "version": 1,
+  "order": 14,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Excluir según un rasgo semántico explícito",
+    "Distinguir sinonimia, antonimia, clase y parte",
+    "Controlar el nivel de clasificación y evitar criterios arbitrarios"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Excluir exige una regla compartida",
+      "body": [
+        "En una serie, el término excluido no es el que menos te gusta ni el menos conocido. Es el que incumple la relación que organiza a los demás.",
+        "Primero formula el rasgo común con precisión. Después prueba cada palabra bajo la misma regla. En estas actividades se proporciona un criterio o un contexto para evitar exclusiones arbitrarias."
+      ],
+      "id": "termino-excluido-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Asociado no significa incluido",
+      "body": [
+        "Violín y flauta son instrumentos; melodía se relaciona con la música, pero no es un instrumento.",
+        "Resolución: si la consigna exige nombres de instrumentos musicales, se excluye melodía. No corresponde cambiar después el criterio a palabras relacionadas con música para hacer que todas entren."
+      ],
+      "passage": {
+        "title": "La serie musical",
+        "paragraphs": [
+          "Serie: violín, flauta, melodía. Criterio: objetos que funcionan como instrumentos musicales."
+        ]
+      },
+      "id": "termino-excluido-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Haz explícita la regla",
+      "body": [
+        "Toca cada serie y compara pertenencia y asociación."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Frutas",
+            "text": "Pera, mango y llave: llave no nombra una fruta."
+          },
+          {
+            "label": "Herramientas para cortar",
+            "text": "Tijeras, serrucho y regla: regla sirve para medir o trazar, no es una herramienta de corte en el uso escolar considerado."
+          },
+          {
+            "label": "Medios de transporte",
+            "text": "Tren, bicicleta y viaje: viaje es una actividad o recorrido, no un medio."
+          },
+          {
+            "label": "No inventes otra regla",
+            "text": "Que una palabra sea más corta no justifica excluirla cuando la consigna pide una clase de significado."
+          }
+        ]
+      },
+      "id": "termino-excluido-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una categoría de objetos",
+      "body": [],
+      "prompt": "¿Qué se excluye?",
+      "choices": [
+        {
+          "text": "Botella",
+          "explanation": "Nombra un recipiente y cumple el criterio."
+        },
+        {
+          "text": "Paciencia",
+          "explanation": "Nombra una disposición, no un recipiente."
+        },
+        {
+          "text": "Jarra",
+          "explanation": "Es un recipiente y pertenece a la categoría."
+        }
+      ],
+      "correct": 1,
+      "hint": "Aplica la misma pregunta: ¿sirve como recipiente?",
+      "solution": [
+        "Botella y jarra nombran objetos que contienen sustancias.",
+        "Paciencia pertenece a otro tipo de significado."
+      ],
+      "passage": {
+        "title": "La consigna",
+        "paragraphs": [
+          "Selecciona el término que no nombra un recipiente. Serie: botella, jarra, paciencia."
+        ]
+      },
+      "id": "termino-excluido-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Acciones de desplazamiento",
+      "body": [],
+      "prompt": "¿Qué término se excluye?",
+      "choices": [
+        {
+          "text": "Recordar",
+          "explanation": "Expresa una actividad mental, no desplazamiento espacial."
+        },
+        {
+          "text": "Caminar",
+          "explanation": "Es una forma de desplazarse y cumple el criterio."
+        },
+        {
+          "text": "Viajar",
+          "explanation": "Implica desplazarse entre lugares y cumple el criterio."
+        }
+      ],
+      "correct": 0,
+      "hint": "No basta con que todas sean acciones: importa qué clase de acción.",
+      "solution": [
+        "Las tres palabras son verbos.",
+        "El rasgo específico es desplazamiento, que recordar no comparte."
+      ],
+      "passage": {
+        "title": "La serie",
+        "paragraphs": [
+          "Criterio: verbos que expresan desplazamiento de un lugar a otro. Serie: caminar, viajar, recordar."
+        ]
+      },
+      "id": "termino-excluido-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un grupo gramatical y semántico",
+      "body": [],
+      "prompt": "¿Qué palabra no pertenece?",
+      "choices": [
+        {
+          "text": "Frío",
+          "explanation": "Expresa temperatura y cumple los dos requisitos."
+        },
+        {
+          "text": "Tibio",
+          "explanation": "Es un adjetivo de temperatura, aunque señale un grado intermedio."
+        },
+        {
+          "text": "Veloz",
+          "explanation": "Es un adjetivo, pero expresa velocidad y no temperatura."
+        }
+      ],
+      "correct": 2,
+      "hint": "La categoría gramatical no es el único requisito.",
+      "solution": [
+        "Veloz comparte ser adjetivo.",
+        "No comparte el campo de temperatura y se excluye por ese rasgo."
+      ],
+      "passage": {
+        "title": "La clasificación",
+        "paragraphs": [
+          "Se buscan adjetivos que expresen temperatura. Serie: frío, tibio, veloz."
+        ]
+      },
+      "id": "termino-excluido-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Tema relacionado, clase distinta",
+      "body": [],
+      "prompt": "¿Qué término se excluye?",
+      "choices": [
+        {
+          "text": "Pala",
+          "explanation": "Nombra una herramienta del trabajo del suelo."
+        },
+        {
+          "text": "Cosecha",
+          "explanation": "Nombra una actividad o su producto, no una herramienta."
+        },
+        {
+          "text": "Rastrillo",
+          "explanation": "Es una herramienta y cumple el criterio."
+        }
+      ],
+      "correct": 1,
+      "hint": "No confundas asociación con pertenencia a una clase.",
+      "solution": [
+        "Compartir el contexto del huerto no basta.",
+        "Cosecha incumple la condición específica de nombrar una herramienta."
+      ],
+      "passage": {
+        "title": "El huerto",
+        "paragraphs": [
+          "El grupo debe registrar solo nombres de herramientas. Serie: pala, rastrillo, cosecha. Todas pueden relacionarse con un huerto."
+        ]
+      },
+      "id": "termino-excluido-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "La regla no cambia a mitad de la serie",
+      "body": [
+        "Si escogiste una palabra por su longitud o por ser menos familiar, vuelve a la consigna. El criterio puede ser semántico, gramatical o relacional, pero debe aplicarse de modo uniforme.",
+        "Si todas las palabras se relacionan con un tema, pregunta si la consigna exige una clase más estrecha. Un huerto incluye herramientas, acciones y productos; no son categorías equivalentes."
+      ],
+      "id": "termino-excluido-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "La relación puede depender de una palabra base",
+      "body": [
+        "Una serie puede pedir sinónimos de una base, antónimos de ella, miembros de una clase o componentes de un todo. La relación debe expresarse antes de excluir.",
+        "En sinonimia y antonimia, fija el sentido contextual. En género y especie, prueba es un tipo de. En parte y todo, prueba forma parte de. No uses una prueba distinta para salvar cada palabra."
+      ],
+      "id": "termino-excluido-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Dos reglas producen preguntas diferentes",
+      "body": [
+        "Con base tranquilo y sentido de ausencia de agitación, calmado y sereno se aproximan como sinónimos; nervioso contrasta.",
+        "Si la consigna fuera buscar antónimos de tranquilo, la pertenencia cambiaría. La exclusión depende de la relación solicitada y no de una lista fija de parejas."
+      ],
+      "passage": {
+        "title": "La espera",
+        "paragraphs": [
+          "Durante la espera, Joel permaneció tranquilo: hablaba sin prisa y no mostraba agitación. La actividad pide equivalentes de tranquilo en ese contexto."
+        ]
+      },
+      "id": "termino-excluido-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Prueba cada relación",
+      "body": [
+        "Toca los enlaces y observa qué pregunta verifican."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Sereno se aproxima a tranquilo en la ausencia de agitación.",
+            "role": "Sinonimia contextual"
+          },
+          {
+            "text": "Nervioso contrasta con tranquilo en ese mismo estado.",
+            "role": "Antonimia contextual"
+          },
+          {
+            "text": "Un colibrí es un tipo de ave.",
+            "role": "Hiponimia: inclusión de una clase"
+          },
+          {
+            "text": "Un ala forma parte de un ave.",
+            "role": "Relación parte-todo, distinta de la inclusión de clase"
+          }
+        ]
+      },
+      "id": "termino-excluido-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Excluye por sinonimia",
+      "body": [],
+      "prompt": "¿Qué término se excluye?",
+      "choices": [
+        {
+          "text": "Corta",
+          "explanation": "Mantiene la poca extensión en este contexto."
+        },
+        {
+          "text": "Concisa",
+          "explanation": "Expresa brevedad en la formulación y es compatible con la respuesta."
+        },
+        {
+          "text": "Interminable",
+          "explanation": "Se opone al carácter breve y no puede sustituirlo en esa descripción."
+        }
+      ],
+      "correct": 2,
+      "hint": "La base no habla de rapidez al responder, sino de extensión.",
+      "solution": [
+        "Una sola línea fija el sentido de breve.",
+        "Interminable contradice ese rasgo."
+      ],
+      "passage": {
+        "title": "El texto",
+        "paragraphs": [
+          "La respuesta fue breve: ocupó solo una línea. Se buscan expresiones que conserven breve en el sentido de poca extensión. Serie: corta, concisa, interminable."
+        ]
+      },
+      "id": "termino-excluido-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Excluye por antonimia",
+      "body": [],
+      "prompt": "¿Qué expresión se excluye?",
+      "choices": [
+        {
+          "text": "Observable",
+          "explanation": "Se aproxima a visible en vez de oponerse a ella."
+        },
+        {
+          "text": "Oculto a la mirada",
+          "explanation": "Expresa que no queda accesible a la vista y cumple la oposición."
+        },
+        {
+          "text": "Imperceptible a la vista",
+          "explanation": "Niega la posibilidad de verlo y cumple el criterio."
+        }
+      ],
+      "correct": 0,
+      "hint": "La serie debe oponerse a la base, no equivaler a ella.",
+      "solution": [
+        "Las dos primeras expresiones dificultan o niegan la visión.",
+        "Observable mantiene la posibilidad de ver y se excluye."
+      ],
+      "passage": {
+        "title": "La búsqueda",
+        "paragraphs": [
+          "La consigna pide expresiones opuestas a visible, en el sentido de que puede ser visto. Serie: imperceptible a la vista, oculto a la mirada, observable."
+        ]
+      },
+      "id": "termino-excluido-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Clase frente a componente",
+      "body": [],
+      "prompt": "¿Qué término no cumple esa relación?",
+      "choices": [
+        {
+          "text": "Triángulo",
+          "explanation": "Es una clase de polígono de tres lados."
+        },
+        {
+          "text": "Vértice",
+          "explanation": "Es un componente de un polígono, no una clase de polígono."
+        },
+        {
+          "text": "Pentágono",
+          "explanation": "Es una clase de polígono de cinco lados."
+        }
+      ],
+      "correct": 1,
+      "hint": "Prueba es un tipo de, no solo se relaciona con.",
+      "solution": [
+        "Triángulo y pentágono clasifican polígonos.",
+        "Vértice corresponde a composición y no a especie."
+      ],
+      "passage": {
+        "title": "Las figuras",
+        "paragraphs": [
+          "Se buscan tipos de polígono. Serie: triángulo, pentágono, vértice."
+        ]
+      },
+      "id": "termino-excluido-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Componentes de un objeto",
+      "body": [],
+      "prompt": "¿Qué se excluye?",
+      "choices": [
+        {
+          "text": "Pedal",
+          "explanation": "Forma parte de la bicicleta y transmite el movimiento en su uso habitual."
+        },
+        {
+          "text": "Manillar",
+          "explanation": "Es una pieza con la que se orienta la bicicleta."
+        },
+        {
+          "text": "Ciclista",
+          "explanation": "Es la persona que la usa, no una pieza del vehículo."
+        }
+      ],
+      "correct": 2,
+      "hint": "La asociación de uso no convierte al usuario en componente del objeto.",
+      "solution": [
+        "Pedal y manillar forman parte del vehículo.",
+        "Ciclista nombra a un participante externo."
+      ],
+      "passage": {
+        "title": "La bicicleta",
+        "paragraphs": [
+          "La consigna pide partes de una bicicleta en funcionamiento. Serie: pedal, manillar, ciclista. No se pregunta por personas u objetos asociados a su uso."
+        ]
+      },
+      "id": "termino-excluido-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Parte, miembro y usuario no son lo mismo",
+      "body": [
+        "Si confundiste vértice con pentágono, vuelve a es una clase de. Si confundiste ciclista con pedal, aplica forma parte del objeto. Un usuario puede relacionarse con un instrumento sin integrarlo materialmente.",
+        "Cuando la base tiene varios sentidos, fija el que el pasaje desarrolla. Visible no se evalúa aquí como famoso, ni breve como un periodo de tiempo."
+      ],
+      "id": "termino-excluido-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Controla el nivel de clasificación",
+      "body": [
+        "Un criterio demasiado amplio puede incluir todo y no resolver la pregunta. Uno demasiado estrecho puede excluir varios términos. La regla correcta debe corresponder al contexto y dejar un único incumplimiento entre las opciones.",
+        "En ejercicios abiertos podría haber más de un criterio posible. Aquí se explicita la regla para evaluar la coherencia semántica, no tu capacidad de adivinar una intención oculta."
+      ],
+      "id": "termino-excluido-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "La misma categoría, distinto nivel",
+      "body": [
+        "Si se buscan especies de árboles, árbol es demasiado general, mientras que cedro y sauce ocupan el nivel particular solicitado.",
+        "Resolución: se excluye árbol por el nivel de clasificación. No se excluye sauce por crecer en ciertos lugares: ese criterio no aparece en la consigna."
+      ],
+      "passage": {
+        "title": "Un catálogo por tipos",
+        "paragraphs": [
+          "El catálogo debe listar tipos particulares de árbol. Se proponen cedro, sauce y árbol. El encabezado general ya dice árboles y no debe repetirse como una entrada al mismo nivel."
+        ]
+      },
+      "id": "termino-excluido-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Justifica la exclusión con una prueba",
+      "body": [
+        "Una buena explicación dice qué comparten los incluidos y por qué el excluido no lo comparte. No basta es diferente, porque todas las palabras lo son en algún aspecto.",
+        "Después de elegir, formula el criterio sin mencionar la respuesta. Si solo pudiste crear una regla para apartar una palabra y no para agrupar las otras, revisa el razonamiento."
+      ],
+      "id": "termino-excluido-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Controla el nivel general",
+      "body": [],
+      "prompt": "¿Qué término se excluye de las filas según esa regla?",
+      "choices": [
+        {
+          "text": "Sillón",
+          "explanation": "Nombra una clase particular y mantiene el nivel solicitado."
+        },
+        {
+          "text": "Asiento",
+          "explanation": "Repite el nivel general del encabezado en vez de una clase particular."
+        },
+        {
+          "text": "Silla",
+          "explanation": "Es una clase incluida bajo asientos y cumple la consigna."
+        }
+      ],
+      "correct": 1,
+      "hint": "No se pregunta cuál es un objeto físico, sino cuál ocupa otro nivel.",
+      "solution": [
+        "Silla y sillón son tipos de asiento.",
+        "Asiento es la categoría que los incluye y no debe ocupar una fila de tipos."
+      ],
+      "passage": {
+        "title": "El inventario",
+        "paragraphs": [
+          "Se necesitan nombres de clases particulares de asiento para las filas de una tabla. El encabezado ya indica Asientos. Serie: silla, sillón, asiento."
+        ]
+      },
+      "id": "termino-excluido-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una regla uniforme",
+      "body": [],
+      "prompt": "¿Qué se excluye y por qué?",
+      "choices": [
+        {
+          "text": "Observación, porque es una palabra más larga",
+          "explanation": "La longitud no es el criterio y la observación sí es una etapa."
+        },
+        {
+          "text": "Medición, porque puede hacerse con una regla",
+          "explanation": "Ese instrumento no altera su función de etapa del proceso."
+        },
+        {
+          "text": "Estante, porque nombra un objeto y no una etapa del proceso",
+          "explanation": "Incumple el criterio que cumplen observación y medición."
+        }
+      ],
+      "correct": 2,
+      "hint": "La explicación debe corresponder a la regla, no a un rasgo accidental.",
+      "solution": [
+        "El pasaje fija acciones del proceso como criterio.",
+        "Estante es un soporte material, no una de esas acciones."
+      ],
+      "passage": {
+        "title": "La colección",
+        "paragraphs": [
+          "Una actividad pide excluir el término que no nombra una etapa del proceso descrito: primero observar el objeto, luego medirlo y finalmente registrarlo. Serie propuesta: observación, medición, estante."
+        ]
+      },
+      "id": "termino-excluido-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "El contexto selecciona un sentido",
+      "body": [],
+      "prompt": "¿Qué término se excluye con ese criterio?",
+      "choices": [
+        {
+          "text": "Hostil",
+          "explanation": "Expresa una disposición adversa o enemistosa y se opone al trato amable definido."
+        },
+        {
+          "text": "Cordial",
+          "explanation": "Conserva la amabilidad en la relación social."
+        },
+        {
+          "text": "Acogedor",
+          "explanation": "Se aproxima a una recepción amable y cercana."
+        }
+      ],
+      "correct": 0,
+      "hint": "Mantén el sentido social que el texto explicita.",
+      "solution": [
+        "Cálido alude al trato amable y cercano.",
+        "Hostil expresa una actitud contraria y no pertenece a los equivalentes."
+      ],
+      "passage": {
+        "title": "Un trato cordial",
+        "paragraphs": [
+          "En este texto, cálido describe una bienvenida amable y cercana. Se buscan expresiones equivalentes a ese trato: cordial, acogedor, hostil."
+        ]
+      },
+      "id": "termino-excluido-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Evalúa una justificación",
+      "body": [],
+      "prompt": "¿Cómo se evalúa esa explicación?",
+      "choices": [
+        {
+          "text": "Es inválida porque todas las palabras son sustantivos",
+          "explanation": "La clase gramatical compartida no elimina el criterio semántico más específico."
+        },
+        {
+          "text": "Es pertinente porque aplica una regla común y señala el incumplimiento",
+          "explanation": "Novela y cuento pertenecen a formas narrativas; martillo es una herramienta."
+        },
+        {
+          "text": "Solo sería válida si martillo fuera la palabra más larga",
+          "explanation": "La longitud no tiene relación con el criterio solicitado."
+        }
+      ],
+      "correct": 1,
+      "hint": "La justificación debe explicar pertenencia y exclusión bajo la misma regla.",
+      "solution": [
+        "La estudiante identifica el rasgo compartido por novela y cuento.",
+        "Martillo no pertenece a esa clase: la explicación es suficiente."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "La serie es novela, cuento, martillo, bajo el criterio de géneros narrativos. Una estudiante excluye martillo y explica: es la única palabra que no nombra una forma de narración."
+        ]
+      },
+      "id": "termino-excluido-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Explica por qué quedan los demás",
+      "body": [
+        "La comprobación final no termina al encontrar una palabra extraña. Debes confirmar que todas las restantes cumplen la misma relación y el mismo nivel.",
+        "Si te equivocas, registra qué mezclaste: tema y clase, parte y especie, equivalencia y oposición, o categoría general y tipo particular. Esa distinción será útil también al organizar un texto."
+      ],
+      "id": "termino-excluido-24",
+      "level": 3
+    }
+  ]
+}

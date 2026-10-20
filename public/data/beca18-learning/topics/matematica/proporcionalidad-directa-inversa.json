@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/proporcionalidad-directa-inversa",
+  "course": "matematica",
+  "slug": "proporcionalidad-directa-inversa",
+  "title": "Proporcionalidad directa e inversa",
+  "description": "Identifica qué permanece constante y combina razones para resolver repartos, trabajo y movimiento.",
+  "version": 1,
+  "order": 19,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Distinguir razón, proporción y constante de proporcionalidad.",
+    "Resolver situaciones directas, inversas y compuestas con unidades.",
+    "Construir repartos proporcionales y comprobar sus totales."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una razón compara dos cantidades",
+      "body": [
+        "La razón a/b compara a con b mediante una división; b debe ser distinto de cero. Si ambas cantidades tienen la misma unidad, esta se cancela. Si son distintas, la razón puede ser una tasa: soles por kilogramo, por ejemplo.",
+        "Una proporción a/b = c/d afirma igualdad de razones. Con denominadores no nulos, equivale a ad = bc. La diferencia a − b es otra comparación y no se intercambia con el cociente.",
+        "En proporcionalidad directa y = kx, el cociente y/x es constante para x ≠ 0. Duplicar x duplica y; además, el modelo pasa por el origen."
+      ],
+      "id": "proporcionalidad-directa-inversa-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Encuentra primero el valor de una unidad",
+      "body": [
+        "Cuatro cuadernos iguales cuestan S/ 18, sin cargos fijos ni descuentos. ¿Cuánto cuestan diez?"
+      ],
+      "solution": [
+        "La constante es 18/4 = 4,5 soles por cuaderno.",
+        "Diez cuestan 10 × 4,5 = 45 soles.",
+        "También 18/4 = P/10, por lo que 4 P = 180 y P = 45."
+      ],
+      "id": "proporcionalidad-directa-inversa-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Distingue los dos invariantes",
+      "body": [
+        "Toca cada modelo para reconocer lo que no cambia. Que dos cantidades aumenten no basta para probar proporcionalidad directa: una tarifa fija más consumo aumenta sin tener cociente constante."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Directa: cociente fijo",
+            "text": "Si 2 kg cuestan 12 soles y 5 kg cuestan 30, precio/kg = 6 en ambos casos."
+          },
+          {
+            "label": "Inversa: producto fijo",
+            "text": "Para recorrer 120 km a velocidad constante, 40 km/h toman 3 h y 60 km/h toman 2 h: velocidad × tiempo = 120."
+          },
+          {
+            "label": "No proporcional",
+            "text": "Con una tarifa de 5 soles más 2 por unidad, comprar 1 cuesta 7 y comprar 2 cuesta 9; duplicar unidades no duplica el total."
+          }
+        ]
+      },
+      "id": "proporcionalidad-directa-inversa-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una razón sin unidades",
+      "body": [],
+      "prompt": "Una cinta roja mide 12 cm y una azul 18 cm. ¿Cuál es la razón roja/azul simplificada?",
+      "choices": [
+        {
+          "text": "3/2",
+          "explanation": "3/2 invierte el orden y compara azul con roja."
+        },
+        {
+          "text": "6",
+          "explanation": "6 cm es la diferencia de longitudes, no su razón."
+        },
+        {
+          "text": "2/3",
+          "explanation": "12/18 se simplifica dividiendo numerador y denominador entre 6."
+        }
+      ],
+      "correct": 2,
+      "hint": "Respeta el orden de los colores y divide ambos términos entre su MCD.",
+      "solution": [
+        "Roja/azul = 12/18.",
+        "12/18 = 2/3; las unidades cm se cancelan."
+      ],
+      "id": "proporcionalidad-directa-inversa-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Completa una proporción",
+      "body": [],
+      "prompt": "Si 3/5 = x/20, ¿cuánto vale x?",
+      "choices": [
+        {
+          "text": "60",
+          "explanation": "60 es el producto cruzado; todavía falta dividir entre 5."
+        },
+        {
+          "text": "12",
+          "explanation": "3 × 20 = 5 x: x = 60/5 = 12."
+        },
+        {
+          "text": "18",
+          "explanation": "Sumar 15 al numerador porque se sumó 15 al denominador no conserva la razón."
+        }
+      ],
+      "correct": 1,
+      "hint": "El denominador 5 se multiplicó por 4 para llegar a 20.",
+      "solution": [
+        "x = 3 × 4.",
+        "x = 12; verifica 12/20 = 3/5."
+      ],
+      "id": "proporcionalidad-directa-inversa-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Precio directamente proporcional",
+      "body": [],
+      "prompt": "Tres kilogramos de avena cuestan S/ 21 a precio constante. ¿Cuánto cuestan 8 kg?",
+      "choices": [
+        {
+          "text": "S/ 56",
+          "explanation": "21/3 = 7 soles por kg; 8 × 7 = 56."
+        },
+        {
+          "text": "S/ 26",
+          "explanation": "Agregar cinco soles confunde el aumento de kilos con el de precio."
+        },
+        {
+          "text": "S/ 168",
+          "explanation": "168 multiplica 21 por 8 sin dividir primero entre los tres kilos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula el precio de un kilogramo.",
+      "solution": [
+        "Precio unitario = 21/3 = 7.",
+        "Precio de 8 kg = 7 × 8 = 56 soles."
+      ],
+      "id": "proporcionalidad-directa-inversa-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Comprueba el modelo",
+      "body": [],
+      "prompt": "¿Qué tabla describe proporcionalidad directa entre x e y?",
+      "choices": [
+        {
+          "text": "x: 2, 4, 6; y: 5, 7, 9",
+          "explanation": "Ambas aumentan, pero los cocientes 2,5; 1,75 y 1,5 no son iguales."
+        },
+        {
+          "text": "x: 2, 4, 6; y: 12, 6, 4",
+          "explanation": "Los productos son 24; esta tabla es inversamente proporcional."
+        },
+        {
+          "text": "x: 2, 4, 6; y: 5, 10, 15",
+          "explanation": "Los tres cocientes y/x son 2,5."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide cada y entre su correspondiente x.",
+      "solution": [
+        "5/2 = 10/4 = 15/6 = 2,5.",
+        "La constante k = 2,5 genera y = 2,5 x."
+      ],
+      "id": "proporcionalidad-directa-inversa-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "La dirección del cambio no es suficiente",
+      "body": [
+        "En una relación directa se mantiene el cociente, no la diferencia. Un aumento constante puede ser una función afín sin ser proporcional.",
+        "Al simplificar una razón, divide ambos términos por el mismo número distinto de cero. Cambiar solo uno altera la comparación."
+      ],
+      "id": "proporcionalidad-directa-inversa-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Una tarea fija mantiene el producto",
+      "body": [
+        "En proporcionalidad inversa y = k/x, el producto xy es constante; x no puede ser cero. Si duplicas una magnitud, la otra se divide entre dos.",
+        "Para una distancia fija, velocidad × tiempo = distancia. Para un trabajo fijo con trabajadores de igual rendimiento, trabajadores × días es constante, siempre que mantengan las mismas horas diarias y condiciones."
+      ],
+      "id": "proporcionalidad-directa-inversa-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Más trabajadores para la misma tarea",
+      "body": [
+        "Seis personas completan una tarea en 15 días. Al mismo rendimiento y horario, ¿cuánto tardan diez personas?"
+      ],
+      "solution": [
+        "El trabajo equivale a 6 × 15 = 90 jornadas de una persona.",
+        "Con diez personas: 10 t = 90.",
+        "t = 9 días. Aumentó la cantidad de personas y disminuyó el tiempo, como debía ocurrir."
+      ],
+      "id": "proporcionalidad-directa-inversa-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Relaciona una magnitud cada vez",
+      "body": [
+        "En una proporción compuesta, decide por separado cómo cambia el resultado con cada factor. Para una producción a rendimiento constante: producción = k × personas × horas por día × días.",
+        "Si la producción se mantiene fija, duplicar personas reduce días a la mitad. Si la producción también se duplica, ese segundo cambio vuelve a multiplicar días por dos. Explica los efectos antes de operar."
+      ],
+      "id": "proporcionalidad-directa-inversa-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "El mismo recorrido",
+      "body": [],
+      "prompt": "Un vehículo recorre una ruta en 6 horas a 50 km/h constantes. ¿Cuánto demora a 75 km/h, sin paradas?",
+      "choices": [
+        {
+          "text": "4 horas",
+          "explanation": "La ruta mide 50 × 6 = 300 km; 300/75 = 4 h."
+        },
+        {
+          "text": "9 horas",
+          "explanation": "9 surge de multiplicar el tiempo por 75/50, cuando debe disminuir."
+        },
+        {
+          "text": "5 horas",
+          "explanation": "Restar una hora no sigue la relación distancia = velocidad × tiempo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Mantén fija la distancia, no el cociente tiempo/velocidad.",
+      "solution": [
+        "Distancia = 50 × 6 = 300 km.",
+        "t = 300/75 = 4 horas."
+      ],
+      "id": "proporcionalidad-directa-inversa-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una producción con más manos",
+      "body": [],
+      "prompt": "Ocho personas tardan 12 días en una labor. ¿Cuánto tardan 6, con igual rendimiento y horario?",
+      "choices": [
+        {
+          "text": "9 días",
+          "explanation": "9 usa proporcionalidad directa; menos personas requieren más tiempo."
+        },
+        {
+          "text": "18 días",
+          "explanation": "18 no conserva el producto: 6 × 18 = 108, distinto de 96."
+        },
+        {
+          "text": "16 días",
+          "explanation": "El total es 96 jornadas; 96/6 = 16."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula las jornadas totales de la tarea.",
+      "solution": [
+        "8 × 12 = 96.",
+        "6 t = 96, así que t = 16 días."
+      ],
+      "id": "proporcionalidad-directa-inversa-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Dos cambios de forma explícita",
+      "body": [],
+      "prompt": "Cuatro máquinas producen 600 piezas en 5 horas. ¿Cuántas producen 6 máquinas iguales en 8 horas al mismo ritmo?",
+      "choices": [
+        {
+          "text": "960 piezas",
+          "explanation": "960 incorpora ocho horas, pero mantiene solo cuatro máquinas."
+        },
+        {
+          "text": "1440 piezas",
+          "explanation": "Cada máquina produce 30 piezas por hora; 6 × 8 × 30 = 1440."
+        },
+        {
+          "text": "900 piezas",
+          "explanation": "900 incorpora las seis máquinas, pero mantiene solo cinco horas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide la producción entre máquinas y horas para obtener el rendimiento.",
+      "solution": [
+        "Rendimiento = 600/(4 × 5) = 30 piezas por máquina y hora.",
+        "Producción = 30 × 6 × 8 = 1440 piezas."
+      ],
+      "id": "proporcionalidad-directa-inversa-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cambian personas y horario",
+      "body": [],
+      "prompt": "Cinco personas hacen un trabajo en 12 días trabajando 6 horas diarias. ¿Cuántos días requieren 6 personas a 5 horas diarias, con el mismo rendimiento?",
+      "choices": [
+        {
+          "text": "12 días",
+          "explanation": "Ambos equipos aportan 30 horas de persona por día; el tiempo no cambia."
+        },
+        {
+          "text": "10 días",
+          "explanation": "10 solo considera las seis personas e ignora la reducción del horario."
+        },
+        {
+          "text": "14,4 días",
+          "explanation": "14,4 solo considera las cinco horas e ignora que hay una persona más."
+        }
+      ],
+      "correct": 0,
+      "hint": "Compara personas × horas por día en cada equipo.",
+      "solution": [
+        "Trabajo = 5 × 12 × 6 = 360 horas de persona.",
+        "El nuevo equipo aporta 6 × 5 = 30 por día; 360/30 = 12 días."
+      ],
+      "id": "proporcionalidad-directa-inversa-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Declara lo que estás manteniendo fijo",
+      "body": [
+        "Personas y días son inversos solo para una misma tarea y rendimiento. Si cambian la producción o las horas, inclúyelas.",
+        "Comprueba el sentido del resultado: para la misma ruta, una velocidad mayor exige menos tiempo. Si tu cuenta dice lo contrario, probablemente invertiste la razón."
+      ],
+      "id": "proporcionalidad-directa-inversa-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Repartir según una razón",
+      "body": [
+        "En un reparto directo según pesos 2, 3 y 5, representa las partes como 2 k, 3 k y 5 k. Si el total es T, entonces k = T/(2 + 3 + 5).",
+        "En un reparto inverso según 2, 3 y 6, los pesos son 1/2, 1/3 y 1/6. Multiplicarlos todos por 6 da los pesos enteros equivalentes 3, 2 y 1.",
+        "Una serie de razones iguales conserva el cociente al sumar antecedentes y consecuentes, si el denominador total no es cero: a/b = c/d = k implica (a + c)/(b + d) = k."
+      ],
+      "id": "proporcionalidad-directa-inversa-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un reparto inverso con pesos enteros",
+      "body": [
+        "Se distribuyen S/ 660 en forma inversamente proporcional a 2, 3 y 6."
+      ],
+      "solution": [
+        "Los pesos son 1/2, 1/3 y 1/6. Multiplica todos por 6: 3, 2, 1.",
+        "Cada unidad de peso vale 660/(3 + 2 + 1) = 110 soles.",
+        "Las partes son 330, 220 y 110. Comprobación: cada parte por su número original da 660."
+      ],
+      "id": "proporcionalidad-directa-inversa-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "De la razón a una ecuación",
+      "body": [
+        "Si a/b = 3/4, puedes escribir a = 3 k y b = 4 k. Si además b − a = 5, entonces k = 5 y los valores son 15 y 20.",
+        "Para evitar errores, usa la misma constante en todas las cantidades de una misma razón. En contextos de escala, convierte primero a unidades comparables."
+      ],
+      "id": "proporcionalidad-directa-inversa-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Reparto directo",
+      "body": [],
+      "prompt": "Se reparten S/ 840 en razón 2:3:7. ¿Cuál es la parte mayor?",
+      "choices": [
+        {
+          "text": "S/ 420",
+          "explanation": "420 usa la mitad del total, que no corresponde al peso 7 de un total de 12."
+        },
+        {
+          "text": "S/ 490",
+          "explanation": "Los pesos suman 12; cada unidad vale 70 y la mayor tiene 7 unidades."
+        },
+        {
+          "text": "S/ 280",
+          "explanation": "280 sería un tercio del total, pero el reparto no es en partes iguales."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide el total entre la suma de los pesos.",
+      "solution": [
+        "k = 840/12 = 70.",
+        "La parte mayor = 7 × 70 = 490 soles."
+      ],
+      "id": "proporcionalidad-directa-inversa-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Reparto inverso",
+      "body": [],
+      "prompt": "Se reparten S/ 720 inversamente a 2, 3 y 6. ¿Qué parte recibe quien corresponde al número 3?",
+      "choices": [
+        {
+          "text": "S/ 240",
+          "explanation": "Los pesos equivalentes son 3:2:1; al número 3 le corresponde el peso 2, que vale 240."
+        },
+        {
+          "text": "S/ 360",
+          "explanation": "360 corresponde al número 2, cuyo peso inverso es mayor."
+        },
+        {
+          "text": "S/ 120",
+          "explanation": "120 corresponde al número 6, cuyo peso inverso es menor."
+        }
+      ],
+      "correct": 0,
+      "hint": "Transforma los recíprocos en la razón entera 3:2:1.",
+      "solution": [
+        "Cada unidad pesa 720/6 = 120 soles.",
+        "Para el número 3: 2 × 120 = 240 soles."
+      ],
+      "id": "proporcionalidad-directa-inversa-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Razón y diferencia juntas",
+      "body": [],
+      "prompt": "Dos cantidades están en razón 5:8 y la mayor supera a la menor en 27. ¿Cuál es la menor?",
+      "choices": [
+        {
+          "text": "72",
+          "explanation": "72 es la mayor, que corresponde a 8 k."
+        },
+        {
+          "text": "15",
+          "explanation": "15 resulta de dividir 27 entre una diferencia equivocada; la diferencia de pesos es 3."
+        },
+        {
+          "text": "45",
+          "explanation": "Las cantidades son 5 k y 8 k; 3 k = 27, por lo que 5 k = 45."
+        }
+      ],
+      "correct": 2,
+      "hint": "La diferencia de las cantidades corresponde a la diferencia de los pesos.",
+      "solution": [
+        "8 k − 5 k = 27; k = 9.",
+        "La menor es 5 × 9 = 45."
+      ],
+      "id": "proporcionalidad-directa-inversa-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Escala con cambio de unidad",
+      "body": [],
+      "prompt": "Un plano usa escala 1:250. Una pared mide 3,6 cm en el plano. ¿Cuál es su longitud real en metros?",
+      "choices": [
+        {
+          "text": "0,9 m",
+          "explanation": "0,9 m sería 90 cm; convertir 900 cm requiere dividir entre 100, no entre 1000."
+        },
+        {
+          "text": "9 m",
+          "explanation": "3,6 × 250 = 900 cm; 900/100 = 9 m."
+        },
+        {
+          "text": "900 m",
+          "explanation": "900 es el resultado en centímetros; falta convertir a metros."
+        }
+      ],
+      "correct": 1,
+      "hint": "La escala compara longitudes expresadas en la misma unidad.",
+      "solution": [
+        "Longitud real = 3,6 × 250 = 900 cm.",
+        "Como 100 cm = 1 m, la pared mide 9 m."
+      ],
+      "id": "proporcionalidad-directa-inversa-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "El reparto debe cerrar",
+      "body": [
+        "Las partes de un reparto siempre deben sumar el total. En uno directo, mayor peso recibe más; en uno inverso, mayor número original recibe menos.",
+        "En escala, no mezcles centímetros del plano con metros reales dentro de la proporción sin convertirlos. La unidad final debe coincidir con la pregunta."
+      ],
+      "id": "proporcionalidad-directa-inversa-24",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,3246 @@
+{
+  "schemaVersion": 1,
+  "method": "Independent answer, distractor and solution reviews completed; hashes bind the reviewed final content. Canonical object keys, original array order, UTF-8.",
+  "questions": [
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-04",
+      "sha256": "0bb7af509c4cf63922b46cb512d2a3cb17f904e49489cbb4713c4d2147ea3d47"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-05",
+      "sha256": "e4dc75025c3ffd877d2082e8c5d0fd00766a28f3bde0680792585f4cbd8ae3f9"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-06",
+      "sha256": "528cc8bbb0992b8b327731f0721f9db27b03a9e10d7604756763c8a4212d2a35"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-07",
+      "sha256": "245afa36fff0c65b7ee8d06466bdb39502e99c46d8ae85177e7ecd762f8a08c0"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-12",
+      "sha256": "22affdb43df66a9248c2bf47ceff86fae2b4bbcb7b38cb176d12417b2bd042ae"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-13",
+      "sha256": "2bdaf52a857dc6a69bfe1ea52617c7cbfb4179d3c4b34cd76a8a0a8238cbf2e6"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-14",
+      "sha256": "683a166b41e47263f8877041f1e100f8d93d45e63f5724c437df461d0619098b"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-15",
+      "sha256": "997953e62ffc8aec19891ea34241d5b394ef0291d806c651c4f7001b0fdf47ec"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-20",
+      "sha256": "2c5fd5ca4dc241e4758ee477445af6e1f598b05091e8b8c4adbde1d8f2bc1f95"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-21",
+      "sha256": "344ff3a1996d394af0edb505e03af15b853d146e4219376dd3dc44e3fcf38ad5"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-22",
+      "sha256": "718bc8b4859ac21ddeec2549356da64840372b21ece074dc7740e54bb629dc1c"
+    },
+    {
+      "topicId": "lectura/analogias",
+      "id": "analogias-23",
+      "sha256": "09058e391bd76f2bcfc1c0108c4587bc828902ede03ed7aaae60ddabf5812b33"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-04",
+      "sha256": "e174b6105d163cf39c4add04d212e465bd2ffb42d6d622d5f96c72c2d6ab7964"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-05",
+      "sha256": "ba9903128d3a8571dede069344ca83a69495281983bae3cb9409262576a3c00d"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-06",
+      "sha256": "ae8dd45c139792c6eb3e746a09e220a6f00f7ef73fe588ec4b3548f8c3ed621e"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-07",
+      "sha256": "c7d16af1c7d6007f7479903af272ccb1b51185a66bf4e4b04e94d19badabbc1c"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-12",
+      "sha256": "e9326ecda14568f7d1c03f62060564844c9e28fc137eb263993bde6c93562a8c"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-13",
+      "sha256": "4ed33ff41bca9c6e3ab3a77f7a396f707ee6b8394fb89b19fd4907ddcb534a85"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-14",
+      "sha256": "d0f391a5117c41fd8bd37a11a560a4bf136aa6573be159cf263cbd331a90d134"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-15",
+      "sha256": "76a48e5932dd52fcb8d2afa21795abd08fd004d477a7e0e03df82e4f7166bcba"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-20",
+      "sha256": "407ad9eb31029b207dafb3ef816a26b30589f1a107bb611f5cd9458632980923"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-21",
+      "sha256": "bd625ca8ee62a2456c32804f5bf1ea591f591160039a27a3088ab436d18475c4"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-22",
+      "sha256": "a6334a49ab8828645330f81fa92557b37216977ca43d856fd066e305e2324082"
+    },
+    {
+      "topicId": "lectura/conectores-avanzados",
+      "id": "conectores-avanzados-23",
+      "sha256": "30c6d0a27e8b3ddbf6a3f30ad2c18c2a173257171d2b59056a729830b47980f9"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-04",
+      "sha256": "f3a0f9cc1ea4838c72b2834d0298b1346b5cf1afe9d7591135f607c36e01576d"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-05",
+      "sha256": "e6e9d846964e5d6379fa9bc3ed9a86688ff684d7b42ed8edd09a59b1ea84e2ce"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-06",
+      "sha256": "57f90c6cf4f692680d1d10378d873b5c2a692326c6467006db4859c4751b6a76"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-07",
+      "sha256": "37f1ee216fa5d26726d8a11db564c94722046f6d00704dce084ea84b541ba63c"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-12",
+      "sha256": "60839c328ce04cce0de685739dcf105b407fb63437b403afee8fddeecd95e289"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-13",
+      "sha256": "7db183154c2508403e846b1cae0499578f34cb0c7e16dda6c83eaf238fb664f3"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-14",
+      "sha256": "afcdc4b084114a1235192d70de2db708ca3a41ff4a7b280d650aa904504ca169"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-15",
+      "sha256": "192f749226d96d6b358fc16717772eb389c46dc6bfea13f52a131c277e636dc2"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-20",
+      "sha256": "07cb2da3e891ac7f88a46cacf66850814a86e7f3fc4e9c901acf46af7e13cf68"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-21",
+      "sha256": "0f6d56e5da86c9b43d33e7d5b36e7e9be8594d7dd84a7fe493a06160c6f3245a"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-22",
+      "sha256": "5d5394b9de2fabb2ece6a151efd99a2b1db80ffa4721f4227978a1b1c812e363"
+    },
+    {
+      "topicId": "lectura/conectores-fundamentos",
+      "id": "conectores-fundamentos-23",
+      "sha256": "72c0dfcbd075d32decaa10ddf592b1d3f438fb9725148c81700b435541e7892a"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-04",
+      "sha256": "70e6a9d2af2db9b7678a34830d259be9e799d15cee6d3720f366d2d6536ced54"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-05",
+      "sha256": "06c089693b4d1bb836a19999e8e008a4c47f15457051ae6456cb020664c83f6f"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-06",
+      "sha256": "c852fe6420433e50a01ecf57b62b77fc27a17f5e370fe759ea097f4e7b18b37c"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-07",
+      "sha256": "742c69885dc4896462c2f21b91a1ae0fd6d5de4746f5ddb713df4e73dafab819"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-12",
+      "sha256": "5f5ac6b2b319bf5f0a6db429b427f98d5bf3100def234e9cab37b87123a2ae21"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-13",
+      "sha256": "be7ad18560937e3c5e2c1dde8da74f45da78fa808937ccf99d690f272fd34252"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-14",
+      "sha256": "5693a50379089b3c1be7da6b0d92a4f62bd84720b946dc2ae9bdbdae9c043384"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-15",
+      "sha256": "736d5a22e56c2a360e4243c98ecd45caadd8bfbdf411c739de43fa89d8dff326"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-20",
+      "sha256": "04f6d307c56d822572ca4ff0106c00dd3849b1f8dd844f98c19db78b9295553d"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-21",
+      "sha256": "b55c7f1c7082f506ecb8734f5ecd18e5a097a968ce0eef2697058c5364281725"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-22",
+      "sha256": "295d36c76e7b0181d4f90576dd7efa7222602778dbb261ed6638c013a13281cd"
+    },
+    {
+      "topicId": "lectura/evaluacion-de-fuentes-y-argumentos",
+      "id": "evaluacion-de-fuentes-y-argumentos-23",
+      "sha256": "df4125d126de634413a5bb2df474b3830f9644cdd47dee42cf2e2ee157734fc4"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-04",
+      "sha256": "3d4ef1d4c262ca7fb0605d2ee36a4a6e61af3f0721917d1d7e6c444f48cecd0f"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-05",
+      "sha256": "25a883604a947e112139bdfbfd3a47eeff9ec95d1ffd5d3f2875e35cc2a514eb"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-06",
+      "sha256": "ae7f9ccdd460665544f623a278603cf1af9b0658048ca7f6ac1fe2846898144b"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-07",
+      "sha256": "18a794ee0b3c915f828a12036f9513a04aefd7ee9b4b6e8922ad17fe98e64e04"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-12",
+      "sha256": "6d2ff1916f278b0009b445e51988515fb93a7d9c05b94a112d37276c1df478ac"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-13",
+      "sha256": "4e1cf1d2230abb93421bc4a79cea16ab3cdf0126b0d1b6a1404fc44114c4295a"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-14",
+      "sha256": "201c5407034ec6a2b97297792bc5f0645d3b6e5bc13e6c56711a8badf69c8b16"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-15",
+      "sha256": "9ee8cc1517724f459a53bf9c62e6b611c3e3b75789c1051cf49d76dd213a284a"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-20",
+      "sha256": "7961dad508221aa3e6c18b2e311c12d7333fc806d2ffc770edfdfad7929da3b7"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-21",
+      "sha256": "862c1e908109ff2d2510f7faad8a1f7a2ef28223a6b6674606c262903cf3a3a6"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-22",
+      "sha256": "36850ea31509c9fecb1b0ab9eaf1026a4345776526aa13eeae7463641a9db669"
+    },
+    {
+      "topicId": "lectura/fases-comprension-lectora",
+      "id": "fases-comprension-lectora-23",
+      "sha256": "08321590455149ac0a54127551b028ed5f2834d821c762be84af2319baccfb4f"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-04",
+      "sha256": "804941c5cb0bc3ab296ae740a7f79e93e42d37ba8a09eaf6d8b487033ef8c39a"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-05",
+      "sha256": "939a58544c862e16d9531430ad6fd48d54d050e8fff01a09a42702f3295f8c5e"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-06",
+      "sha256": "e0fdc48c4c316f33b962f45e2113ffb180ff43a97c322ea86e0cca2f4e1d1f0d"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-07",
+      "sha256": "5a28ebec4cdabfdc3ff3ea2d70d1bc83b39fc08d957c4fe129d9431940079d54"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-12",
+      "sha256": "0ae1c768ae9e899e06aba5365a32fa9c5b4b5afeb82a1b9be639c81b9441e137"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-13",
+      "sha256": "e8b97808b7e74db985f4a5ebae8d3349404bcc67fa702f4c0d3dcbc7d8042681"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-14",
+      "sha256": "9f2b2653b8fb83a7b471a13da2d3118accf1f27b1e718eca5a939524fa58e6f8"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-15",
+      "sha256": "8c911c2951aa6a0e491b1321f91efbcfb3fcb803522316d81c8fff4d6449d86e"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-20",
+      "sha256": "6c1289b2515803ea5f2e3ff247694640784ebf4af64b299333c470ab31ebdb50"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-21",
+      "sha256": "6843172414972c51d93ca7b5d4c32d92c5de6a069f1697a36bc8538eeb514fe4"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-22",
+      "sha256": "e2769c844b7d7651858e8ffcc4dbf62db506d365c4afa38728bd2136e173dea7"
+    },
+    {
+      "topicId": "lectura/inferencias-y-sentido-figurado",
+      "id": "inferencias-y-sentido-figurado-23",
+      "sha256": "2bebf4e12e6a19845ecd68fa961cfbae9b3778840e801914e7f014be28f2a251"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-04",
+      "sha256": "5de4886f3726b0aba06520a23e372bce58a3fb41f9b75be1f35a13a3ea99a841"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-05",
+      "sha256": "87a76336d1d86237ce05776b5ab84911544c7f3a9ac085cde0df11cb71805a04"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-06",
+      "sha256": "446c3f848691978655d83fe54e2ab8e83cc8b3439b03d774f259d1136014687c"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-07",
+      "sha256": "8fd7999a43f9bdbd0dc6f86e13d5483b3bfcf21c9a331cb66c8f61ac8ebd034e"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-12",
+      "sha256": "1ed513f0cd12975c763c42dde742f1824891bfcc1b823e9995c94deaf8b94b12"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-13",
+      "sha256": "31d451b2cec0a189f550b93c7d3e796a097e5293aecf906bf9501fc126f7b7b7"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-14",
+      "sha256": "3858f837324be5081aad4f2f6aa9338e2b7808d6c5f8c3ceb42c694725a6272b"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-15",
+      "sha256": "3d388fb4491c46d46dd77eb0994813d08a7aae2f84d867cb1f9e2abaa7ce0366"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-20",
+      "sha256": "9a1bb1da94041712e67445bbca68e1fc576585885cbe2c682f518133ccc80839"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-21",
+      "sha256": "b9d42c00fd8bc8b2b82e1599688907caf27891f37aa7cae95f99c5d931b96ddf"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-22",
+      "sha256": "d20de553a011b178c2a58bdc40ad7e9772c7b1e518e544b80e6e6edf5e23e3e9"
+    },
+    {
+      "topicId": "lectura/oraciones-eliminadas",
+      "id": "oraciones-eliminadas-23",
+      "sha256": "01af087b21526e2c54209c98bdd783ccf2801c9d77cb203a8850e74015272fc2"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-04",
+      "sha256": "637b02e0bd53b0fc27a43f512f15f95892a0e181d650a205707bf642b2b12fbb"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-05",
+      "sha256": "90cb8922dd2052171fab4b7d3833531f04a5d00c2902e5acf4d0da52b499bc12"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-06",
+      "sha256": "894004f05e96ebf0cf7ea1d37862b4763cb33a08d57e1b686a78975137c6fbca"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-07",
+      "sha256": "aa7d032baaa0d32ac5894a02c1857fab39730946352cf27586169e11b19dcc4b"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-12",
+      "sha256": "ec0a1522535fcf09cf2896b7f9d24d025138064e7b5ab5d6db1cc0cdb196ae7e"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-13",
+      "sha256": "bfbab7b1c80f617d76bd119a37bc93ac0eae2d8f35c54ec374eac0cb6d6869a4"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-14",
+      "sha256": "de266d234dadd817b27f92df6c3c76429bc33fb9566e0758dee753ea88177fa8"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-15",
+      "sha256": "067c933146dc746605d4cda59f96ab8f0e76749b2f6969e97e3711166dad7f04"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-20",
+      "sha256": "45cdacd60784b3fab1f01940cf2b57b6c1312eb162bffd4d54521998e9e1694e"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-21",
+      "sha256": "d9cfbcc0295a569916ff790e9d6c86d1fbcfd202bd6111212ac79c1a866b4b86"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-22",
+      "sha256": "6c2ded18f667c896f870d870f6a4c4f760d47c45c0392f8765c267b93b3e1236"
+    },
+    {
+      "topicId": "lectura/plan-de-redaccion",
+      "id": "plan-de-redaccion-23",
+      "sha256": "2670436cefa23bfe53d5f4bbc652e44139e9f23152ef5f3465f95bbf198d98a1"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-04",
+      "sha256": "c99ea733a283f9dc1fcafa2e9788376e610f215a59601eb5103564770ea9550e"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-05",
+      "sha256": "3623121a752d1e9976b3e3dd70bbfb9aad4d8bcc85df0e18e69f72455af7bd9c"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-06",
+      "sha256": "c97916f665ab29eb9187e54217cd986f39823306b4783932edf433bafe0fa0a4"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-07",
+      "sha256": "d769cd85a7360abe9998a1ec6000569f20b215adebe960ca8cb25b8eb2d6f97f"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-12",
+      "sha256": "23c4508f930bfa591c93a613d7f73512d463065da8336ff510f01cf7d79e9b41"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-13",
+      "sha256": "1a72c5baad808e606a30e4157e0071b9b27bdfe81214250267949997de69fc44"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-14",
+      "sha256": "a6b7d2e103a54fc6edb3d054dbae87dcdcd19ab69c5291b870d99762013ce7f7"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-15",
+      "sha256": "fd2368363c70fe439fd946e963e7a30cf27c73148aa1a8127cb034f66b0cbedb"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-20",
+      "sha256": "c791ffe2068f775898c14668cc3e68715c1bd2b4ac23761463725e5f78d5443d"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-21",
+      "sha256": "1be4891417587fb84bd2580ad3c822ac60502ab3e482f5660d403c7c0c5e25a0"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-22",
+      "sha256": "43529c0aa164afac4de2985ba4bd0cffb6aa77dd768404de4dcbdb70b8328bcf"
+    },
+    {
+      "topicId": "lectura/propiedades-del-texto",
+      "id": "propiedades-del-texto-23",
+      "sha256": "10427464a4fcf5b29510e6c4b10e3c072fe68827217b0a9e209eed5e633d7b45"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-04",
+      "sha256": "124505a81ff70cd5aa162dcc37f2b68e5d74de605e02e59775c6564c1c683a4b"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-05",
+      "sha256": "0da80622412bb7511e1432dc91c03ce79ab1801cf0f54f21277e672ef4a3c1e1"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-06",
+      "sha256": "0338046f617878aa675515f9f2a4734f2d20644e06c9d292f7d35e25e09bd932"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-07",
+      "sha256": "e152fab83aba66982b59ba52b658d10f29b575e8c173361f2eadff99c776fe8f"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-12",
+      "sha256": "62c7caee3f3244bbf5f1ae1ebdfbcbb1d48c97b62881eea29643a5dd9d74f383"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-13",
+      "sha256": "1bf8b6fd9abe93a8921bd9397257b682d78b626ed758493be8bdec85c0de6b12"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-14",
+      "sha256": "4afdc7d20186e2f25b51e01608ae31c3862717a9c833e2e9926f8ac991dd3c37"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-15",
+      "sha256": "20cedd40a0d96db2caa71af5ce8c81dc68dea3dd2343356205880018d47ffc4a"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-20",
+      "sha256": "55108d4394fb943686b1096e6cbf84a8162ad30643c1a982030cef50048964e3"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-21",
+      "sha256": "a6b7a5db6a3e721fe9526b57db557164ab56d90ce7349954b9a9cbeabffde9c0"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-22",
+      "sha256": "f33776436f64ed8ae1fd9596672eb1f68c7320432b16c6ddbfb4190bbf548d8b"
+    },
+    {
+      "topicId": "lectura/redaccion-de-textos",
+      "id": "redaccion-de-textos-23",
+      "sha256": "ee719bd21c44ee7987a67349a92bedcc74158f6345b47d37ed376327c7db212c"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-04",
+      "sha256": "915b7aaefa25d2b2ed94244b1f2468124f3597d9d2d4dcb5836e139415f48dd1"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-05",
+      "sha256": "a018ffd0b4ea2628b17f379dabd70a3103c57c5f2fb1f81336d4e940e3d9ab19"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-06",
+      "sha256": "5e251e2ea5788d1ed4eda9718f7deabfebb8745b40b9f0df316f970f9b9ede33"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-07",
+      "sha256": "b1a52dc515cb03944262ba037c5335a978b4534c9537b118d2697adcaf3ee87e"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-12",
+      "sha256": "3e0f3b88a12e5e041aac4d4cc2e4f0b7d50eb38a5e1cdfd02c1c3170153baea3"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-13",
+      "sha256": "af7e2df7506b46735274fbf453f340e2a6a033c4bc2296a63e156d4104551272"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-14",
+      "sha256": "656f7336adeeae1f1850b91c267b1a4e62e00383b0a37076f87165503fe83942"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-15",
+      "sha256": "ed89cf888de34093a27c3b8939028ca120081e787dd11c21c8be28d3a3eae5b3"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-20",
+      "sha256": "d438f8308a90d05940a3b6d68d852654974b0e87703ba7f049d402adca33a164"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-21",
+      "sha256": "b2566a5a22bf8c9a813997deb7d793c40984c331b6fa12b59f6d47e5263ef2c3"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-22",
+      "sha256": "51c850e3993bd9ce67ccc18e0e859c109faa12d4349aeff9071676a2be9d0367"
+    },
+    {
+      "topicId": "lectura/referentes-textuales",
+      "id": "referentes-textuales-23",
+      "sha256": "c4f02cca7982f2455995847f88633c05c8e71b2d2677bff0f4699fcb9568a7f7"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-04",
+      "sha256": "584e81fea2c28dc399cc150327112671952708197013b96b1238341e0b989612"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-05",
+      "sha256": "be423e68813e2dac3d2c87cc0093dab659a0100cbced7208b1a016c95ce5d6e5"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-06",
+      "sha256": "4d35b63a994d4a238f9c6a4e7f3530bd50aa7696b88e8aade29d09e4317d4a67"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-07",
+      "sha256": "908272ef5fa30021fc7778e1c0ad3c25d37cd94d8a1cfee5382aa5c99121075d"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-12",
+      "sha256": "bca514aa165dc8ea98a0f4088905f8196ca939f37d449a986592b8e27b37dc03"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-13",
+      "sha256": "2735d15db123d08ac2c5a4511804971110858365f8de13eeac581cfc695accfa"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-14",
+      "sha256": "a2161efed9766cbcc41f9e2f21e3370c7554ed1216489bd33de8d23bf352b0a8"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-15",
+      "sha256": "64698077bea19339c614b9c5ff9f6a831437c4c4decfccce3439afafd12b7ed6"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-20",
+      "sha256": "490a63d1dc7ca5e58567f63f4d0f9023791c15bc14789a32f9d4ae94f41b3ff6"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-21",
+      "sha256": "2453ee5cddec62d0c32a6647c37e54c52ca52e615673ab7aafe273808230ec59"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-22",
+      "sha256": "4e4ccedd1cd4d8bf6c6159e143339c5d185cbfc947f36acad6a37daafa10e5b3"
+    },
+    {
+      "topicId": "lectura/relaciones-lexico-semanticas",
+      "id": "relaciones-lexico-semanticas-23",
+      "sha256": "fb49098df0b4c4af70f2af063e72e0e878d2c360f772d39cf5bbcf717896ac01"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-04",
+      "sha256": "904aa03a5f3a710c967d7bb7ed163c0d06727e47749e4aa8db624fcc7fabc40f"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-05",
+      "sha256": "614a9c78e251fd22827cd4928422e09139eccb5177a1784495163dc74bcce0c5"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-06",
+      "sha256": "545a4c291d9b7c06c2211ea3a275e59482b6fc7b6caa184bf0341b447f542aaa"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-07",
+      "sha256": "1e7e82e58ec78f74eb7fd0779276cc0e21a9dbc6387c84e1521390dc135ba0a6"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-12",
+      "sha256": "e5eec0edbc2db7b34a0cfa74b792b27cf708afd6ef09716eb1f88d3c4fedf1f3"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-13",
+      "sha256": "13cc415faa3ff0a13e385685535f30096fd4d6fc3492578e94e03dbee12c82a7"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-14",
+      "sha256": "a842d1c36db25c466d2c3dd65f0a40c7a3f6e4d1c490117f652e80e0607a90ae"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-15",
+      "sha256": "10d8303568a13b9b569d59b66a4d0529604f8440740bd378fc312bed8cb2f3c2"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-20",
+      "sha256": "130e591da731ad22e73d75cc861f90c54893260ba8d6118b051c414ff5308c64"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-21",
+      "sha256": "1b58c83b0ecd0ec083208a75ac8e417a6c2676099910603ca3258082d9a9a3f4"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-22",
+      "sha256": "a2e4f8642ffc117475ab515b748b26ced1aabe581e1a99f3f2e3398b318b8c31"
+    },
+    {
+      "topicId": "lectura/tecnicas-comprension-lectora",
+      "id": "tecnicas-comprension-lectora-23",
+      "sha256": "22a8a0ad806f3838aaea9e8dfa3ce90c1ca8a609dcdc0b436b28fe7f28d3e3b4"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-04",
+      "sha256": "49d69b65347d2ddd0de911145fae207cb5deafaa93a9d325b7166aa080623076"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-05",
+      "sha256": "44b720dad6807eb263c9dead74165c9d9c0d7dff7912bd09c95d0c47a36b3292"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-06",
+      "sha256": "f3f113f6235bbd1dd92a568164709efb40012b0368ad91b7831ee5d62f1fbd04"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-07",
+      "sha256": "09814dc5eabdf8e9a3701b40464eea70d75cc7ed9420628db89c3f8223146de8"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-12",
+      "sha256": "4d1ad5b03f84c0bbe3c1f2897059bd1b8520e9c09fc4805f96ed4c407cd68a06"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-13",
+      "sha256": "85cf8619800acf256d29f15e0e0b848e85f7b8e2bc8f0094ad618518cfa35052"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-14",
+      "sha256": "1aa028a98c48fc89f3acaaac0df2625581291ff165e65e1c60371dcc6b4d7b50"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-15",
+      "sha256": "2218dc32af8d4b07fc2ddee4a32f4514498fdd78540d05a812c4c7e83ef946f6"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-20",
+      "sha256": "fe29606ac55a88951098ad16da4de690e32f5998ab2fa9272c813d5c40cb4841"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-21",
+      "sha256": "a44e8770b2f6d57cbe139a593e63bf163827370889080762dc9b8c6ee915ccac"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-22",
+      "sha256": "031869bac0d3118487a72cb6dae9376e4d78c9174972c2f74dd7b77b948f4fed"
+    },
+    {
+      "topicId": "lectura/termino-excluido",
+      "id": "termino-excluido-23",
+      "sha256": "94b0d95dc5c930c18feeb31a66270ac0df1fcd8cd990d06b705a863b12348ede"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-04",
+      "sha256": "2bfbf87d674be2ef14d4c15bb636c0079c151dd92340009f36231f4e90d91529"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-05",
+      "sha256": "0f241ebf075fa0e594998e850ef0b6d7eb971f2e2c1ccc5f6f493e2220e14f55"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-06",
+      "sha256": "22a6f7add75010be201635c113d1377670c4f6d0d3b1bfb67e20a144cb77f8a4"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-07",
+      "sha256": "12a57a4c1803d69f06b4c6c67a71e334771fbfb643a84543faf11c0a68d9dbb1"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-12",
+      "sha256": "0d0599996ac49e6920e259e3635f6365f2eba9b5939b0eca669c6e80de32b1be"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-13",
+      "sha256": "7fd2119dd017f973ff4d6b7d82972280575822168a91dc42b80ee266d3f178ae"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-14",
+      "sha256": "f3a553571b5d81cbc449502e70a6a1b360580aaf343291c5317ecc6b36c17f5c"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-15",
+      "sha256": "939cf676f4fabc8bb74f75dcbc4808ba6f51fe260c19f16992fe762326146b36"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-20",
+      "sha256": "038fc069c0128403d0a25d65e0ff284caf44b5acd6b06fd39cf1b496c7057951"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-21",
+      "sha256": "b4e51ce0ca893938a3f866b98a20b6b648c071b08dbf88ba7128b6988b3ad7c8"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-22",
+      "sha256": "6707f1129206733a5fdd23c863059d5a09d902d007d7d9343290a1884234b06d"
+    },
+    {
+      "topicId": "lectura/textos-argumentativos",
+      "id": "textos-argumentativos-23",
+      "sha256": "224a1e8bb0c7eec3bdd437d7347208c33e757c44ab50eda80ad6d53f8b7a93ae"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-04",
+      "sha256": "1824424be5e7a6f11576473519f270ea83e9f0fcdd5e546e852acb2b699657ec"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-05",
+      "sha256": "4fe22e207eba8d068a6e9202f649972703f4e33e0ed688392fb531aad2dfde4e"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-06",
+      "sha256": "b9a916deea17ee8a4312d72c15d04be6dd933c35b80a29dc03393f4318ec79d3"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-07",
+      "sha256": "ac6d244480a913b016bf22436256eabe0e2469a177189de9acb3aaa27b0d297f"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-12",
+      "sha256": "f50300bcdd7caf521a3b374175f97100471a67701fef4ffd04c648dd49783d9f"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-13",
+      "sha256": "28d11f8577fef5cddb71d71fe79907adb507f135c30afadec96ae5d08d0b4a50"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-14",
+      "sha256": "a48fcaf153798f7ab44c1ef32c3ccebef4e4659159d1a7dcb801c983f7c2b0ed"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-15",
+      "sha256": "852dc29016fd71faabdb397ea757a0a92ececdf140ee0ae3cb66127af3f684ad"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-20",
+      "sha256": "6eb57989f5008c9fbbaa045d467ea779e776cdf8577fcd36a54177fef8bde409"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-21",
+      "sha256": "a2ac8ef66e42987e66a637c00afb68f93a90e5850dffa55eef20d04df00a1265"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-22",
+      "sha256": "75e979a8e038d204932da86a7051d485130b6b586866b436ecc688d20234fc52"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-avanzados",
+      "id": "textos-con-graficos-avanzados-23",
+      "sha256": "9f62e5aaaee15ca72b8793df8019d43f53c21d014a59a97176b5b67d87ed54ad"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-04",
+      "sha256": "d40cc40de31a26a9bfe66ab615b862b66a7a6610659f681b95d07e01ddce75f3"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-05",
+      "sha256": "741fb59337db837fa2314c74f5a70f3d27969418d41533bd8c2cd6e75d141e6c"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-06",
+      "sha256": "17c74ca5e2ce92c38cbe40475078c8487725029e08066528042b33b34a7b2305"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-07",
+      "sha256": "a97dfbce7220abfb796b5172d0ab46cc198c10de10ee3355059dfe6ddfe89790"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-12",
+      "sha256": "b6df64504eec3472345ebed6d7032850d62cfe94502834282c396dca1d515eeb"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-13",
+      "sha256": "bb68c8159c31e2084921557a93ceb612cee3f8b084c07cb0f7dcf7880544809d"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-14",
+      "sha256": "6e48932e5cf213b856dc633bca1203aa2c7e655019a9f0ec5961223ba9d78970"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-15",
+      "sha256": "9c1474ede46e91ae7b2434ebfbe831ee3c5225f9bea8e2165cbaa6d887110d3c"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-20",
+      "sha256": "22df7689478a20267ba4215983f36468da316f1a672deb643b57338704d0e472"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-21",
+      "sha256": "80a08f31624c1f39a1be5110b71bb28bc077484d39646fcf41740d1ce2fe63eb"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-22",
+      "sha256": "c613216ad3bc160509e53aee5d1a0e9b5c4f7e4b59b05952e014540c772852e8"
+    },
+    {
+      "topicId": "lectura/textos-con-graficos-fundamentos",
+      "id": "textos-con-graficos-fundamentos-23",
+      "sha256": "683bf5703aa57f3c67dd3e1c8e3c4025ba3f4eee2666e0544a83b5fd57826992"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-04",
+      "sha256": "c50324854f1c654c2cb7651f66581e803524ea27c8ef36bab76fecd6a05af2d1"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-05",
+      "sha256": "bfe50c0e14635946dc8510859a11ad99751226653c42f33a3e4f24fa5fea10a8"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-06",
+      "sha256": "befa76243cc75f21951253e9131d2d39d279a6c6644bbac945ed0fb555c54e25"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-07",
+      "sha256": "4a86ac33987841a9eefa5452a79dafe0ee83efd3d3124c95a1d602e7fc5585b7"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-12",
+      "sha256": "ff925083de0cd15f8dc03dc35710455e391b3e4dbe53e367fecb5f0957797eac"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-13",
+      "sha256": "de5602408031a15dcb21f41f2045a6b41c0b7dcd72fcd907b9164fddd5fac267"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-14",
+      "sha256": "95e4ad525cb419135a247452fed1f32a47e696b131bc7e92e06f4eeb77dfb0f7"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-15",
+      "sha256": "6b877a22d9740e3173fc41c755e9d2f87ac9724a68c8f426518bd12176417ed6"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-20",
+      "sha256": "d77feb625a2dc5f9d6c3158ac5cbd96cd8cf641841c71ee5c8c27dc03ae5bde6"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-21",
+      "sha256": "2016fffd09963ea6c1a7aef47f19e085e839defc1a3c4c1bac721a9fb182ac7f"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-22",
+      "sha256": "beeef979b4193b3d2a617afaf3991071781efc5907bbb6d66acb5fcb63445d48"
+    },
+    {
+      "topicId": "lectura/textos-informativos",
+      "id": "textos-informativos-23",
+      "sha256": "b233c8efdd01a18404144f18bfc3fed39e475349aae0f48074309cfbfb81b1f2"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-04",
+      "sha256": "45f61463da90f0fa6a1eb328769a4e8a918e8f9282a55a4a866f3290d053bc7a"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-05",
+      "sha256": "9bb1819754775a6ae3d789e896db5d2b5590ca1aa899b25f0184399e53920a86"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-06",
+      "sha256": "13761e7ad4154cafe69d494b1c1733ef47fd19fa9eafebf52f5c51c43e7d4106"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-07",
+      "sha256": "be37a6eb1b6e085812f9a38392533a459a11c8d8f50d3492ddbeee1c0dfa0633"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-12",
+      "sha256": "694fe8021a0e1b7ab7adddbd2508afd819555c6f20b150ddc473f7f423b0d81b"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-13",
+      "sha256": "e419a4ad1279b5351eb2df45a04cc587ddde8c60e268d606e359e87e6285489a"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-14",
+      "sha256": "2ef8586851277cb9ce8514768b4f2b0a781dc266c2cb2197fce15daef9b4e56c"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-15",
+      "sha256": "cab95a04f45a5b6ed3ae9639cded7e868393ea6a13668c742876f6159605ff37"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-20",
+      "sha256": "2cee4a873a56d9236293e7194078e16df7119761ff7dbfbe13c231f2cc61fe67"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-21",
+      "sha256": "97ff5bcfbf72a9e9cdf89c7ab7a65aecbad64fa4b30f3da7cd40c511bf39beb6"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-22",
+      "sha256": "34734c7534c770eb38b75c747523b8f10cfa7a60eb3fc4f49d001d1ace928d84"
+    },
+    {
+      "topicId": "lectura/textos-instructivos",
+      "id": "textos-instructivos-23",
+      "sha256": "72178fe326454c76c0d4f5bfe8d2a645924669939a6df21107091da8112751e3"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-04",
+      "sha256": "4487d6715b056b99ea3288eb1e8213c02bc881ec5be2a63b2d89a3e7bfdccd71"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-05",
+      "sha256": "aa5551954191fc9efc23661eec72f29e789ff7e811a30e0d01207d0f3389524a"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-06",
+      "sha256": "41f1e18605506ce788f64a25ebf7c40b181074333a4cdd7d08a08fb290704b7f"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-07",
+      "sha256": "b73673a65f675ac130ec33194e872bdd7cb4277606da3285d1bfb4a0bd87bbd8"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-12",
+      "sha256": "3d4c21498f0355fa40d1c88a86750ca8ee093827aaf2f6dfccfd11b708fd1de2"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-13",
+      "sha256": "b04143f39a9725d83cc10390c7222706af98da35238eddf12ace6468f0fac689"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-14",
+      "sha256": "1ca4b70778f003ac79b0fb16d70fd282929434127c38746da9d5119c99385d4a"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-15",
+      "sha256": "ea22116b2b296d27d1b65d4e79a10ca419afe24e01a6eaffb251e9c6833ddebf"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-20",
+      "sha256": "f6e730250c71f6a7d1d127e7d4864abf5d1e06959d0a68e3ba549e1075d872a9"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-21",
+      "sha256": "092bf9ac1af84cbe6aa3fb122db325997a652ea71e97d38ffdb3080f63c34e91"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-22",
+      "sha256": "c72dc15ef0a3ace44647a0fc5c8b62cbe31b42c72e3960efe5df200b49074122"
+    },
+    {
+      "topicId": "lectura/textos-narrativos",
+      "id": "textos-narrativos-23",
+      "sha256": "c1cfdeaeb0ac51a1b4d47674e70095291367c70c459ffb17cdc3d4ad42696835"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-04",
+      "sha256": "c1ba7e1b966229cbc53dcf5496a5f7c6f20168ab6092d7b43ad43caaf0dff2d7"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-05",
+      "sha256": "4b3f3b6a83eb27bb32f657518dd2fcca007677d9469b1b59a365430b0f3f6fa7"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-06",
+      "sha256": "96fe031e4d12c9ebc2a2328bfd43e2a989f18d541fd35f32bb1ba7dcafa92cbe"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-07",
+      "sha256": "d901bef89f4866f20c4187273cb2b7d344ec09f882e69bb0bf9c2edad6aadf8d"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-12",
+      "sha256": "265599d50de38989d07bce27b5fb4fad0a50edecd8df8148a083357feb8745c0"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-13",
+      "sha256": "5d67fe4c23c401ad0bd1098a1d3e71e6d69ade45722300defafcdc15be50e0c4"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-14",
+      "sha256": "30961b9cc275b8e4e4f68d347f97c7ceb6cb41ce9a172626ad1852c3a6194332"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-15",
+      "sha256": "3e533cc600bfedc3b9570db0b507c3e79d591a957a9491978c003fb0b9ee6815"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-20",
+      "sha256": "a9d9fa9bf70e1360a9b8b36c6910ba12ad6cbaa5270968fdfa37fd5f1fbf773b"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-21",
+      "sha256": "ca57bdf8790221393fb6562ac0f51064e2ad469fc57bb0af45c2e55e2cee9ec1"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-22",
+      "sha256": "831b1da4dd1dbca058a26653dc16abdac1211210f7eb6b9f955e25d2a7c4f5b5"
+    },
+    {
+      "topicId": "lectura/vicios-de-diccion",
+      "id": "vicios-de-diccion-23",
+      "sha256": "beca27365026278397df6deeafa616794c85e1a64392c2646b3701d47a0d4991"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-04",
+      "sha256": "ae6306a33d78e0bedf0d33ea348ba9c666517a3877b98269af710e532f2cdc19"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-05",
+      "sha256": "e0e9325a9c973bd365e575b756edf14fa8bbddcb42d2c42fe5f09929d6b15dd4"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-06",
+      "sha256": "db504ba025e76daf8fc851035b2548e3732381c32a030fd3847cc5ae64e2ada1"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-07",
+      "sha256": "527b15da79e24806fcd1bb4d6ea1bdab1c3a41652dc602c0ded5e76773e1ce6b"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-12",
+      "sha256": "e5268e4be55e8ace64cc2d9a3506d27ca6a7ebbcf919528a7ca94e5e1dfc257a"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-13",
+      "sha256": "455998d1b49d61539a188c80ae3eaf2cf7e809d60b34f1bd23ebcf351d8b76f0"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-14",
+      "sha256": "20882018a4ae0a588a48cb63f5dd0425ccaecd72fdbe3e8f3665452662bd2e6c"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-15",
+      "sha256": "949526d2b9558f6f577169b4b5899a793ad2621ddcc229ae8a5f9c1830ac6749"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-20",
+      "sha256": "7dcf99938a52e2aedaaa4aefc83fa166f210ecc16ba63df5b0ce314f572b04ed"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-21",
+      "sha256": "420c11fd32b493e9179d2104b0701e6951e1f91c6ee64908f26bda6b424d38f1"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-22",
+      "sha256": "4135714e7b16c159629a00795adac90dbd69926d699074a427ae2bc5a68fc8d2"
+    },
+    {
+      "topicId": "matematica/aritmetica-complementaria",
+      "id": "aritmetica-complementaria-23",
+      "sha256": "6d0d3f053a488da5011beab38f37baf7d4afebe7409ead015cb57742b97e7b62"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-04",
+      "sha256": "76cc2c4a2ef3a99967b5fe903c10b928001427095b429b9e7e0acb5b87a1e300"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-05",
+      "sha256": "a25444faf8e3126d9f95fb1c747716210ade56374c824c28729594adf6b026f9"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-06",
+      "sha256": "e46c79bfcea774833e9aaeae00db0a723044a821d31993d7721d97b6579d8046"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-07",
+      "sha256": "651ebcfc41e760953d44b8e2b0bf2353884797f7ddb1df9b3f51713337e58d1d"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-12",
+      "sha256": "68beaa036337e9fdd4c23473632468d537acf7b5da573ad3f1cf9aa6a75468a9"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-13",
+      "sha256": "4c6b71e1ffa19512ce7121414ba935b19944dacdbe4aa4f2b5c874072f2726df"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-14",
+      "sha256": "9197896d49ff7d20fb5c9ceaca52019fb48ebd6aeef5fd5bec8d796c836df7ee"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-15",
+      "sha256": "a70869c8c971cf2c504db0e8413092e514366e0d2563e879d3a79b8e316041cc"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-20",
+      "sha256": "06481498bfc1908aa320ffb296cba6d4b50440c803c836d2f2c8012a53cd5f58"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-21",
+      "sha256": "6cd7174db5a0b966f16bf13aa66a2d2d925ba8ca5df0597ccfda4d6cf409f6bd"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-22",
+      "sha256": "d90ba7eb2e535f63b3af34d54d9aa7b5525b8997d92867dcbc16c728f76c7a16"
+    },
+    {
+      "topicId": "matematica/circunferencia-y-circulo",
+      "id": "circunferencia-y-circulo-23",
+      "sha256": "da5def2671b4a9b3bc00b89249f91d7e1a423c888bd2561455d754b86c6fa5de"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-04",
+      "sha256": "4564ece58f2db75b55300d156ac0b36b6a1d42c433af0775bdffe063375139e2"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-05",
+      "sha256": "576df2a6cef32b9e51bcb0cc624f0ccc23f866f7fa528da5e1167bf236af0c65"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-06",
+      "sha256": "9900b1829e5711c15393fde849ec1c986367e0e18c253b59a34cedce877c0008"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-07",
+      "sha256": "60c4253d57bdc70a0ef607d6eb5f126da7b88b5333d8c8739ed924c25d97da27"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-12",
+      "sha256": "80bb0448bc766b8931582fc21724f8439d18ac6ed344dc1c341eb16237fd5b2e"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-13",
+      "sha256": "4316ecc47ff42e20fcee6dd043b5e947150f534a130ce02ea1bd287d94561f5c"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-14",
+      "sha256": "f67b09cafad92c62e99066cccc2aa26502e05fbca4822021f7565da83ad2f537"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-15",
+      "sha256": "59b872a81366a688ec645f620a70cd73778d665476c5f0e0b4eaba68c34a8bc3"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-20",
+      "sha256": "001efd02bf839ccebb7dcc9c56a1b7d2f388bd15f33ec224a60a5cfb196a2b3b"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-21",
+      "sha256": "f184563dce58cde5f3944a48234a64d77d2a318b3b83920d393b07726fa6e65f"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-22",
+      "sha256": "fbd09957b7f37f2d8fc596c507fb87588706e5d7ffaccb7204c652384bdd1c60"
+    },
+    {
+      "topicId": "matematica/conversion-de-unidades",
+      "id": "conversion-de-unidades-23",
+      "sha256": "dff1484a766f7b49eff784427ace4e826d9f2655571bf8b784600ea101f095dd"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-04",
+      "sha256": "92074e3e26b50b777a1834b0709d351e2525c46cd2c56ce4eab52b79936a2620"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-05",
+      "sha256": "d1466b5a0b21aa5d0b417b56436b04b18b14cba36199047cf86c0b0b70d16c56"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-06",
+      "sha256": "84441672d2b0a5e9624a5811b96d4b5e2f385abb25e2f81248043d7295e0be52"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-07",
+      "sha256": "2cf1a1bf2387408d64b5885ac773196bcdfbd137e19d55f0ddbd948cd7ca03d1"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-12",
+      "sha256": "f3b197f5cd310c874ed17cb9319be217f1c48ebf9f97b06950c788a03353e665"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-13",
+      "sha256": "4afc34dbf447c505d584334fcbde5ccc7ed328264a65b4e3ff234bd656ce0ba6"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-14",
+      "sha256": "588b41a76c2a9a0bffa69515f6a6fa6c3a8b328e8ae93b586794b08ef66aec51"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-15",
+      "sha256": "61260d6e17ab21dd67c8521bc7940b8887be6568be03f206184621e4cd046c36"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-20",
+      "sha256": "dbd71bc8a888c7c0fdaeeab7fa44d8f11e297a5af76322489261f727a072e070"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-21",
+      "sha256": "78a113316c71dfd9f289c9a8d1a4785ae06c3756fcbdf27dcf01656025a2fa62"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-22",
+      "sha256": "18eeb0cd14e7ea3b38f584a27e3c58e805cfc5b4c6b2c5dc0350e39af570f62d"
+    },
+    {
+      "topicId": "matematica/cuadrilateros",
+      "id": "cuadrilateros-23",
+      "sha256": "1c9b6e9931a1fbb2e227d370294ecc860b21f04bcde0221b38d65f7297cbf19f"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-04",
+      "sha256": "64844bfd1ab2d223eb9a3eb4d2abc8a96b65e8f866c80fbe269d4c6f45b7c0ba"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-05",
+      "sha256": "df93135b6d81ed8ecd7ac9d00efceecf803c3610537c9a63d7a6cdda9bdbcf89"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-06",
+      "sha256": "2c03f14631776fd5a9fe043c4fe6ebe9f99a352f0e07eeb74d115739f9e80155"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-07",
+      "sha256": "781080da07f83d48e9172645be5e394c7279e77e66ca6969447b9a0175606311"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-12",
+      "sha256": "1a2abc75983c5021ef95339db86d8916206ea1aeb39e8838497d99398356146b"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-13",
+      "sha256": "dd6c66da8c349b34dac098fdb39e355aabd589e0d5470ce61ce07843d999b88e"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-14",
+      "sha256": "0eaba73f4d014d43a2a5ee16b3fd0d9f383fc1b63ae1de5794f5fa7465aa4985"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-15",
+      "sha256": "4b786d1a4c6a25f15dbbf782535fcdae75b0df7630127b96f43acfd1aa9b5f06"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-20",
+      "sha256": "6efd32852a2a93ab56a721f35e66fab2ac89c3a3c297ac4fd2b11134ad2af1d7"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-21",
+      "sha256": "1cea013a57059b39c68b41b2116deb522de3b12245665eecfc6bd8bdab6ddfc5"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-22",
+      "sha256": "9eeab074c17d71a5a75a0cae4f158ebcbcc0e5daaf6a9cc63d9e1f4af8590bc3"
+    },
+    {
+      "topicId": "matematica/cuerpos-de-revolucion",
+      "id": "cuerpos-de-revolucion-23",
+      "sha256": "07d201e8344fd017a14357f1cac61dbbaa5ffd61306c1d15b84e810a861956b3"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-04",
+      "sha256": "6e5837ea5b39ca75847764a8fd1f1b25d6e12af5b5b88c0b715142d1fa09a285"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-05",
+      "sha256": "6b356dfaf4c6776864a62a86820e661e2b562e3e4be5feb63cdddf7f465becde"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-06",
+      "sha256": "10a881263a2b69ab0b0d2d3130895e50fa975aa2b8805fffa118fb73d7d19175"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-07",
+      "sha256": "147eb69bafaae965fd097630293b397a34843fb6434ab669ffc6cab0fac4d4a6"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-12",
+      "sha256": "ee77370ef4cc01f01372a8b0d3738d58b51a30187746bfd76249e00c871abd0b"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-13",
+      "sha256": "fb117305c5e7a7202356074baf79d4d69a2c83acb8638b839b1cacb239bd86f9"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-14",
+      "sha256": "b335c5af2d7108bdc291f9760514c3edd4c123091f906db37509ac8eb9b35cb4"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-15",
+      "sha256": "c18a319e6a72b6eb7f6e99a08bfac0c79abdec4a7436bcd05ce8def204b19b7a"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-20",
+      "sha256": "41f8ad5a1f7367c21574366fddb0b053f1b33739ae85dc7ae07e20b7c2963275"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-21",
+      "sha256": "e53b3f7881f15ff6bd68e4cfe0985b6d89de6da1b22b59143f681bc4681ec277"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-22",
+      "sha256": "2a14080ec56a73b1392a52749e02c8257d7fb655c4921eaefa9e53dd800dbb8a"
+    },
+    {
+      "topicId": "matematica/ecuaciones-cuadraticas",
+      "id": "ecuaciones-cuadraticas-23",
+      "sha256": "79d95949f32a9c4d1d22a693ef53183827505c1f753bcdff6cb78fa5f13c46e8"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-04",
+      "sha256": "1997348f4b87de684426da3abbf5994c909c115bcf3f3d1282795ed3e4f15380"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-05",
+      "sha256": "ee96a95faf44a7bc4b3d5fdb303dbc324364a97fe58911ba11737ae08838e83d"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-06",
+      "sha256": "fff780a528ed969e42eeb2eeb471ef165f4fbda5c6ca636f2b261f64f52b28a9"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-07",
+      "sha256": "7a6bd548b4e83c45813859d4cef0b0daa9eeb0a4f0237f85a502c1eda3cd7308"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-12",
+      "sha256": "96685872052b444fdd4a98f034f2fdd7b93a472f7904e81d19794463bee46c97"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-13",
+      "sha256": "f318d9fb458627f145d5a2b737b2dfb0fbc9277c61d967959cbb537cbf4f1ce7"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-14",
+      "sha256": "0ec37895bcf21173e132254f444ebfaba9b84fab169e69fa5e9113f721c3e223"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-15",
+      "sha256": "71d126162f00059024233ecb3506313164598a9d8a20b676099963edb440842f"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-20",
+      "sha256": "9ba5c6e307ee4851dd44b7c918df1a5215d7c55da0191421c1a993a89aafe956"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-21",
+      "sha256": "903f5608260305ab9f37eb28be647d09daf2ee7f0b5166bccf20715af9848a4e"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-22",
+      "sha256": "9b16651a0d4af3f01fba298494d8b40f810b729dab9a6b6883aaab08a63cc057"
+    },
+    {
+      "topicId": "matematica/estadistica-y-graficos",
+      "id": "estadistica-y-graficos-23",
+      "sha256": "d6f3eceacb5edc388b6f60e545478372ccd84c8abfc118fa75cfd0ebe778b2e9"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-04",
+      "sha256": "1d303d3d396579baf65b794f02109167bce1fb243905a3e225c43fd0c97b5ac8"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-05",
+      "sha256": "d2f6928755d69da37254bf5e111a246c3c7f6635e7c8e6673abae7f266d56cd3"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-06",
+      "sha256": "05a71283c699101e70310fa5585fee6396ff6176cdf77f1dd1818a30939dcb52"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-07",
+      "sha256": "2df611bf4e37db926abeb29a81f77344dcfa328040fffa3cfaf68578db7a4f60"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-12",
+      "sha256": "849b34c1051427d6845e2edfc46d50d3a08f10311e62bf7978fd3fa9d294cf25"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-13",
+      "sha256": "64960ac5cbf4ebd9e7530f243b3417dab1411c505feb8607127a2bfed40caf1e"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-14",
+      "sha256": "27d368418ae992504affb1855c5998b89a100058b52b536a6f74361f651e8e25"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-15",
+      "sha256": "064f4c880df53bda18ab1a172ef95231f6f715fc3b2d3b9b19f8cc703927daa1"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-20",
+      "sha256": "9d92bf337b4dc16d5d3a3e33b3b4588dec100f7c99d2acb9c019fdcc3c70cb33"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-21",
+      "sha256": "93dceb94ad38d81eeebbe6036a2c08b7861eaa05269536010846caba27ae2a34"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-22",
+      "sha256": "b5aebd848b4c1bebe9b9b8f865c5ea01311fe4f9d0e29975aa6c9eced56a4328"
+    },
+    {
+      "topicId": "matematica/expresiones-algebraicas",
+      "id": "expresiones-algebraicas-23",
+      "sha256": "de25f5544e361f8e1628ebe611f44f7f29806fa744f0c7c39fc82ac82003e379"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-04",
+      "sha256": "460af01088ceaf72119f5e43453105b07bf029a64f8b49586072ef964fc4ddf1"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-05",
+      "sha256": "736c05761443631574228d036cb8b717e24f5b4d9b50cbba10c9ac44d62fb3d3"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-06",
+      "sha256": "c016a50982b7e9a28ec6df03d9eea8794da211a021e8e268c6fbe28f4881dc83"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-07",
+      "sha256": "bd9e92cc02b1e478a7dd3c5fa9c3998222fdb2d3172152e45ca8fe33ab732eb5"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-12",
+      "sha256": "d84d026ddc078517c3337a96cecc475719b27d13ad95f53ca30f2f8a46610680"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-13",
+      "sha256": "324179c588de9ccc955a194716c370dca2e72a86b5842ccc76353618f443bbd7"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-14",
+      "sha256": "91b39c1ba4e9ef7df3a46ea3ecb1d57d6f2ecfc477c43ff5dea1613787dba14c"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-15",
+      "sha256": "f4cfc4203153d1a5f31767fb72cd3f74f01a2eea38f74e91de106366c624e9d1"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-20",
+      "sha256": "bdd1d427b86f4869a70bb98c626687e138ba2bb6f3ccf9cda4d197ea0af91605"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-21",
+      "sha256": "a8b656d223368fea6412c2c56ade29ec40440825203d1c79006061a6bb037cac"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-22",
+      "sha256": "23c4ecfab627444426d57729e40b572b6621efe74524087762de7d133026f102"
+    },
+    {
+      "topicId": "matematica/funciones-cuadraticas",
+      "id": "funciones-cuadraticas-23",
+      "sha256": "851c245ac59cf9006ce81fb268d2f61521a82579c144e34fe1929cde0e1844a8"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-04",
+      "sha256": "7a00c559946a5f123ccc0b0b3c2b9811bc7e00576e4aed0ee7580941461c4af0"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-05",
+      "sha256": "8a1deab3c3ffd31da8f1b7efb75647a643ccb0d9399e70bedf7504800b197bad"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-06",
+      "sha256": "637ba6edb75b6676b3f5f08d55b032064e3df5c3a6e58a72375a81fed0b4e9eb"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-07",
+      "sha256": "a040b5c8c5ae0818ea8c5aa1c59ce57e2a628c749e192ca51e81ce60adf87631"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-12",
+      "sha256": "11272b060a1b15865e9497e5bf7305e975fb1b9e7f7dbeec94c7ca83171370d0"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-13",
+      "sha256": "23e7d1bd7925bed58bee07899f650ebf27233dc544958d6d58f5cd72e4926180"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-14",
+      "sha256": "042b9d968979966345358f5ca519932f6b6544b358f1521492f89abdb6c85dbd"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-15",
+      "sha256": "67e639e95fee9f5013c291adb4a0186b6a6d398eb4c144c175872a5797ab6b89"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-20",
+      "sha256": "a6a7b41679b2abc9071ee3cfab48d7bfa1f7beb3baf7af962c315769eaf28f09"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-21",
+      "sha256": "13120d3d048ecb7ce148c4fa22464f0a610f048353670567bf0729c3ae962612"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-22",
+      "sha256": "999271a114d86f0361f69d9e982eb9193e63353e8ab989c74b6a0b566844a1a8"
+    },
+    {
+      "topicId": "matematica/funciones-exponenciales",
+      "id": "funciones-exponenciales-23",
+      "sha256": "a6aba446bc959d4d174084365e163e1fe87d002b17a74048e526227c3c9abac1"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-04",
+      "sha256": "d64047ecec1ef50566313d7e9da95c1410aff4d7842f2097118982ceea3ec5a7"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-05",
+      "sha256": "7d96c46ca9d53d0879981403ae88133578f6e6c5b516fb2e13263eab694e84e2"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-06",
+      "sha256": "1b6e7780bb9a06b1f3ce976326b4311353445c4b2b6faca0f99a7aa2e886cdc2"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-07",
+      "sha256": "f1b36b3e042c99d85abc6e5ea4c635c359106c8a891c120a3f54fad25842b896"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-12",
+      "sha256": "bc1cfa3b1a1776ede7a3db39d9d6c2655b7622dacf69c6caa2792902021ce4f6"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-13",
+      "sha256": "0400f551374331cb9fc9869898dc8426e75390616d633f025d4a83ef465c795b"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-14",
+      "sha256": "72898f97bb7495339e6e152cd2fd40456b1549a63ea36c08c181da0685b75722"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-15",
+      "sha256": "790ada23a391a48010dc97e71aae989a0a7c3c407507ab5f756d940522b8469f"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-20",
+      "sha256": "8c99496fdb5af16c3e006b262f4a5a69d1535cf626a110684f938c0ea408534b"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-21",
+      "sha256": "a8cc2d0d11dce5c6b9adb197ccf83b7cf423388098ce6514fd5336b44ceda9d5"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-22",
+      "sha256": "baed48b0aac10a2ac1085ce9eee87952ab372ba9f54d58150b04486b8e793718"
+    },
+    {
+      "topicId": "matematica/funciones-lineales",
+      "id": "funciones-lineales-23",
+      "sha256": "2332fbb1dfaeda48920b68dbab4b737c1ee9371257dd59602bc047c15f091ebb"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-04",
+      "sha256": "5e65762b73122ebf7052bc055971bca75d8739c4ef6801028614f652bef7823f"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-05",
+      "sha256": "3228b44a3beffc5a6cbc62a73e7d045295ff776d6e5122442c0e602cedf430e2"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-06",
+      "sha256": "a626d7dc54e061f958af7a31e60a4b98311a49466a53dc8d77dea4eec0f3a82a"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-07",
+      "sha256": "261c767e9af5c4b6bba9078569410924c838258d529d1fc99c5aa38d47d7eff6"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-12",
+      "sha256": "b153bf6c83bf3d57bf192502e405da168b6148457677761a1c57b27e858195ca"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-13",
+      "sha256": "15e87d3ad6748d798f2d8c4d7ac40ef03beca82ce4d6568f67b1113f913af23f"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-14",
+      "sha256": "f8e7f4776f9fe6dbadc6829664fcb64c88ca07d1cd109648a4c2051afdcb3b1d"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-15",
+      "sha256": "434feb750453464458128053d9a7b6b258cbc4b3586f534745c1a464c1fe188d"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-20",
+      "sha256": "f433b5dd93c693f805fcef5e8a3b83469b37c0fb903bde6a254a9ef872db6ec2"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-21",
+      "sha256": "2779d482f9adfa27887ba63052ee660185b0016dbf19caaff88713d41f160efc"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-22",
+      "sha256": "2cb956dd0474758b3595d8892fd4691d0cfa962856e85765ebaaf947f9553949"
+    },
+    {
+      "topicId": "matematica/funciones-trigonometricas",
+      "id": "funciones-trigonometricas-23",
+      "sha256": "6f4f993597b96ba44463ee4d442a01298913b599f35dbc4915e15b9fabd27aab"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-04",
+      "sha256": "e235ec7ce36c38949add5fecebb302bef1c9b4b2a413081102c96c002dfb8e2c"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-05",
+      "sha256": "b4024c43ef76236e3b6e666be70ea86cabb3fd790ce1b9048b061f86aba8aa02"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-06",
+      "sha256": "ec7578cb5d063db25cb5953f9d4a80d9b5d7f4d8fc521414ad85973ce306dbfc"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-07",
+      "sha256": "405a32803b15aba62c0f270f0c83d69baba19757dd4abf469724af0f0c15bade"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-12",
+      "sha256": "44f0b9ee01af23cc281c20dfee3229761746b8970adc7f33993139b48f408adf"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-13",
+      "sha256": "fabbe5ad040602483b94ba09f9652c55e4ccaa16df58df18f3761c1ca4bfcbd4"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-14",
+      "sha256": "d1dbd581d589dd444b6b699e389acb08677466bd0dedc53000630451ea518d6c"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-15",
+      "sha256": "a41600710d0cdaa9d90099cbeeaeb944a3a0085988c84ffceb3855aff5982edb"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-20",
+      "sha256": "7c75019b8a00fff49c7539e0f7a02caf9f6bc4723f1fe8e81bc612028b1c0503"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-21",
+      "sha256": "9fe3ccadbd22ab10b33feef2a294100648935f01c154d1b2d84ae30814126781"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-22",
+      "sha256": "3bd36e77444ec36c8e136885ec88912158d4459da1c3c8ecda1c50599e66d90e"
+    },
+    {
+      "topicId": "matematica/interes-compuesto",
+      "id": "interes-compuesto-23",
+      "sha256": "046aedaaf66643ac73cc6b6d4b667ee4f556cf4ba57dca00c3a3e56970b1bf58"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-04",
+      "sha256": "594ef2cd0f60d3021ec52d9228a15ab37baf2f6160c5f0ed96640d46c70c7515"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-05",
+      "sha256": "5848ab936c3432ddddac8538551d873183a0fdd6f04331ec2805dee26865c5aa"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-06",
+      "sha256": "fe035140219141b22b1ecab7832cd6fd03b545280a86141fddf6f73e9254719d"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-07",
+      "sha256": "3edcd1c78b21e5c8e3367f1a82a3cbf6a90d4800d2bd72f668647959433541d0"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-12",
+      "sha256": "93e79d18e77d456e57a434d894d118d44d89b40cc03a02bcf7a7e780e6e6b8b5"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-13",
+      "sha256": "0ba007ff6892e9e0b3e72e91f58d33ede823f13473985019859b58f9be8523cc"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-14",
+      "sha256": "e811a6a369bbfb641018cac33a602b6fc2a90b93453fa3224ed8533e03e81550"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-15",
+      "sha256": "d5828a316cdd95de5f4c82af2ffabb62c6144b4fc6b4020a7a58f5f196f3227e"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-20",
+      "sha256": "57c041035bd7a83ba97e72e4f69582c737b31b7b5ea5fdf524ec985d0a6d0850"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-21",
+      "sha256": "5ee80419a6a05dab4badf83f091207fbcfb495897a07aac8c39f5fb3d90ef340"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-22",
+      "sha256": "f53249b0f22ecf41ce1ef054e72b56e05183c3eaef4e469135a1957e4ef6dc12"
+    },
+    {
+      "topicId": "matematica/interes-simple",
+      "id": "interes-simple-23",
+      "sha256": "c18fa6acde44d3e9951e3afdd8f70e287b8f6eed9d99d774a5ecae013f5b75c4"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-04",
+      "sha256": "596061845b915b3a5c760c4214b9bbd51be18b2dffad8bcc5c26fdfa379a98bd"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-05",
+      "sha256": "5400ce841e52feac49ba211203d869b6ff8aafe5208289d1b30446a65811300d"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-06",
+      "sha256": "d8bbe1fa3ee2df8a511e135b4a1d9832082aacc8c51952c63f094f67a7f76443"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-07",
+      "sha256": "d5cde91e66a5f36ba6a01f0794afee7d39c0a958a67b7a4d06512bb65d7065e1"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-12",
+      "sha256": "a29ce2972aa1d41dbdd8ca0ec0b7a9ec628691decc4773efa5cb196155f7d077"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-13",
+      "sha256": "e3566683a971ae4a993a61935359576013b117278a83e8eb16957eb1fafd86bd"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-14",
+      "sha256": "add496ee05e206af67e8a773566691e45939e16b205fd5458b9d31a5cfe01ebe"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-15",
+      "sha256": "b2c5b5d953be8a850e17c547ffe9e48998231759f8e225d7bf570ede0a783ffb"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-20",
+      "sha256": "71b3c9d03d05d8e8a2e44989f98e922b9cc7648c8a1e3ca19a54e6000647b03c"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-21",
+      "sha256": "5c18f6b4f6591d33495efebb8d25ed3632184a0b06f6d72476de3e5ad14c7c5f"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-22",
+      "sha256": "d2ffad5338aea2c1d6f5f1083a63b5dbbb026e21350135f98bb0137c9ea31929"
+    },
+    {
+      "topicId": "matematica/intervalos-y-conjuntos",
+      "id": "intervalos-y-conjuntos-23",
+      "sha256": "52a7ef22b45c344b3a4c90398a70a5758ad853d1d89216dc48aab5f93ee37c36"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-04",
+      "sha256": "7cb9bdb03ef1698ea7d5ce34b92945e6738ba92249733579ffb0893e2182e3ab"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-05",
+      "sha256": "6b371981d5f7b594d52ec2fad188be6f365bbf16ccb3bf2f2ed6ba51f24d9adf"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-06",
+      "sha256": "c559cc6894fc66684cb75f2fdae744bb2ebeac77560e031e622f3ef890c21776"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-07",
+      "sha256": "cf4609752a303fdba1096f3f691d9877558219b04aeb6751e738bdc0166996f8"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-12",
+      "sha256": "6e6b6b3fb5cafad4ef48cf50002d7cd13e4e9c5933d50c1201e90434261624f5"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-13",
+      "sha256": "06582ef606418aed872cf6cccd9cabe635fdd7121ab0225300919d20baa4e32e"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-14",
+      "sha256": "7601029d9c4145f33459f244ebd28ebb8a06b61f3c527d0dcfbd44504429651c"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-15",
+      "sha256": "6e0ccec706001a9cb197be7a3f656dc220a09f1dd444a97d902c9128708d511f"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-20",
+      "sha256": "b575aea5ed89a46c2bc57a95de90dc581575ed906014fd11828976ef7f0180bd"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-21",
+      "sha256": "9bd5af91f5eb43b4b40dc0a1b35e3106f40ab912362accbc0dee9338982cd805"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-22",
+      "sha256": "34752cd2e5930403386ff032a3d06e4005a8214bf29b2adce737d776e3cbe3d5"
+    },
+    {
+      "topicId": "matematica/magnitudes-proporcionales",
+      "id": "magnitudes-proporcionales-23",
+      "sha256": "a5316cc9c7c8021e75946629ea89e7eb7116ac76f46348120b0fba5803917411"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-04",
+      "sha256": "258a0748f183fcb6e2dd7138f356e454208e821690929d5483bf63f69a2b7ad4"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-05",
+      "sha256": "5be63bb2a0f43ab1f3eafd1becbb7c28307eb46d231375d7f16cb107d56a0a3a"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-06",
+      "sha256": "e2fb35a5f272f65812f426d71b602f060eda44390f3ee6b95d9e726eaa4e0c15"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-07",
+      "sha256": "767cb6ec43e5b7b0fff2e13a41a1bfc51679dcc7f946a592499911b6941cb49d"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-12",
+      "sha256": "7465e90b3a68f7d5ca00e15ea4585eb9b11c2a63366f7b697cc108ba43fd0966"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-13",
+      "sha256": "7ab92f47c1c65329366b9b65f067195fa71095ce5d8285f092728fc27e85f026"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-14",
+      "sha256": "12836e2b6046fa795a77dd5756e6532e5a384559e2e36cbf840d4b29381461c9"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-15",
+      "sha256": "8a351b085e46e5d41332236721f7e00f9e6b4b5bcee0df5c71a57f42b5490b65"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-20",
+      "sha256": "c24239c9b9a9af96c326adb40d5dfa2c53b72d584c04a234223adbc6456d2383"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-21",
+      "sha256": "f292edbcec84456eea60a1a39aa993990a26e66c21991844e9d92cea2843a4cf"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-22",
+      "sha256": "78d639c402320c2ad6a3f36863799badc5ebc4a78c96967fdd8d6a3e4c383c93"
+    },
+    {
+      "topicId": "matematica/operadores-y-razonamiento-numerico",
+      "id": "operadores-y-razonamiento-numerico-23",
+      "sha256": "37b072968dd117adc4ca5759754b9147f76ee255dc9de7ecb38b7daafda68d78"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-04",
+      "sha256": "c3668d77e1c2b6bd250970e84541d3f8d93cc4c6cfdb6d5a932ea3f42befd561"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-05",
+      "sha256": "4c0af498ce378f5a33642d1f16dd65c2518b0c8949f2f1b80cbebc2c848b1ee4"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-06",
+      "sha256": "44f4dab5fbb8e45e8a8b23753af2d3683ac1b4d7feec43dba2f232d8abd14e75"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-07",
+      "sha256": "a0a1c095b79b129b28ec2b5c711e3bc1eec83ff0d0e8d5357a0ed0c6db42f1ca"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-12",
+      "sha256": "ef06acac5e59e15ca2298f71dcbe6a156a6dcad92d8fbdee42ad7329b3b46907"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-13",
+      "sha256": "524fcd790726414435ce9a17c4569d03c5e1c10adf87bd6acd8f39996497c5dd"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-14",
+      "sha256": "3a62a2b889bb7701d39692a2849697cc83f6e71d29f39e4a0afffd87d0eef68f"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-15",
+      "sha256": "cafcec9d436410d0ae08b065398fca2483beb5733f6dcda4bb302394dafff5c4"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-20",
+      "sha256": "56aea9d64ae47044fbe245c7de1731ca73a149b733dbeed33b57df15e49cc814"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-21",
+      "sha256": "b6eac293b267c8009586b0ba31b6430796a545e66f03d545577faacbd60457b9"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-22",
+      "sha256": "0bab79692183447ca4780b1c23fdec40646962f86390a3e5faa3cadf88f84e15"
+    },
+    {
+      "topicId": "matematica/patrones-geometricos",
+      "id": "patrones-geometricos-23",
+      "sha256": "25ea7f0348df1ad3de69f0a3b9102267ed84d7db8dffdb47c2d83709889c65f9"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-04",
+      "sha256": "fe188bd557968919aacd6a8903ea3157c04f4c46552f6c4bb0f3f78abd826c30"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-05",
+      "sha256": "f0eb225409d53375ca6084c4a6cec3d554111113fb2b18b3a6ae14d3e53ec3b5"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-06",
+      "sha256": "dca1d5e9990d35b71454a5d5305e3eaca02c20ea20605e870b80f0ce858e831c"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-07",
+      "sha256": "d68a6d257ca7ac77320a50f80fd7ea890506598d13f91941d7afa4e196288dc5"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-12",
+      "sha256": "a98acf2eeaaa5e5b09bb9038b920860dfa1f77e152b4270654b91f6cbc20599b"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-13",
+      "sha256": "323b06aa8c6b87d5e989311d19018144cd581b152651d4b6f2265a10807ce7c2"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-14",
+      "sha256": "09c3366ca9b378eab4c6ea0304fcb4bfc65955af8b56f52dae9cf04db26c4cae"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-15",
+      "sha256": "66c52442726e22abb0df53feac33cc0452fa91b1491bfc6ec4a613eac70f8d41"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-20",
+      "sha256": "978e4700df2b383ad29d4ac0b7556a10aca23527503710f61bdbe908536816a4"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-21",
+      "sha256": "fc810ae8dbbdbdf652d883435503fed73e8f819131f564a7e78fb8d5eb8e0f9f"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-22",
+      "sha256": "ca996c7484a0dc28ac8b1493d4f810da00d2c7e9431beea750b85aa569abb5ff"
+    },
+    {
+      "topicId": "matematica/poligonos-regulares",
+      "id": "poligonos-regulares-23",
+      "sha256": "c16c3eed4a09a6009ae995f684de344d8c30a72f5f9662b49ce5c20d0c010bcb"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-04",
+      "sha256": "1bb08fe6e53b614e89b5dba09e580b7be2a75fc76035080e8f840288ce5cdb7e"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-05",
+      "sha256": "ff65d667b84d2e0c6f1fc6b514f831a1cfc2bcb5979eef9867563092ed8de85b"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-06",
+      "sha256": "7bac988736f1e02a6256d742e912d4ff3ceab10e18056758497f03d6392ef8a3"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-07",
+      "sha256": "9419c35119b0bdf338ccc18a40bfdc3bb3fee483c0c64d15655cb2f930533312"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-12",
+      "sha256": "3054a909f01282f79fe65fbb6d3ff72198d331e5aedcda8555464a83d45b755c"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-13",
+      "sha256": "aa43c17203a3eb9080fffbc2906168284427bd7f9635ca11fbd07886c9416b56"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-14",
+      "sha256": "c2ff9bb8f09f9ef93eab2b9cfc5222b2b413a4134490b3272b617e168bcd4165"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-15",
+      "sha256": "73e1bfbf53c19bc60c328ec6db995c9624968bcbad41beb68fd4088953e71682"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-20",
+      "sha256": "2486f2cce956a95ec219938ff81c6543bb07307774475a3ef1794aa6c79c542a"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-21",
+      "sha256": "558a12b268d7c907c2578feafc5219b40f02aae772230e78646fd6072dc8e020"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-22",
+      "sha256": "7c06403d228ccfd44e495437958fa3fbfce6342e9dc3af5fe4a08de2b71a11a0"
+    },
+    {
+      "topicId": "matematica/porcentajes-aplicaciones",
+      "id": "porcentajes-aplicaciones-23",
+      "sha256": "2bd042b653def1cd1da78cf1504b02ccdd24389174f0cde63a49ab19b0d05141"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-04",
+      "sha256": "123ff6220b5103468050ed6c93e73625aaacd4e52838e3cc62d36d84aba1bf95"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-05",
+      "sha256": "2e7f7cf60b73dd362a77485544f1f51e3a3b78edf8a94ede0a468969b6d009de"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-06",
+      "sha256": "7c10ed043eb10337426ec3545a7f775299f0d4fd9c9ddf8e5a67d7b240e53a78"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-07",
+      "sha256": "0ef8d95fc6a3f23fdd172cfd07122811b0447bddb00604f93a7f1679b8ae8e9d"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-12",
+      "sha256": "03dc32b0093137519691cc9bc3de92603f19336470c0ad2e508ff81b083e10c1"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-13",
+      "sha256": "146ddf604ee8254f5f696cd91f9946c73a17684d0a5771f9523bed22f05b58c7"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-14",
+      "sha256": "62f55302e21f7d54a1335559bdcab017f582ec6db1b07c4671f9cd82096de845"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-15",
+      "sha256": "cdeafcaea64a498001e3f8c88ddda2ec91d98e4655d35657fd58bdc11823838e"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-20",
+      "sha256": "2756a6f4f51f0d910d45cbecfa56c67ac0febb6710dc70b5aad45e53c0d0fc43"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-21",
+      "sha256": "d477f306d1f46b6c8b65f12f39fea828b8dbbe9b3d2c804f324d0d472b01fbd5"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-22",
+      "sha256": "c81de0f306de6a62fc700c511d8c17005c5d8ab56b3d5a41b62ac18f75dc0a2d"
+    },
+    {
+      "topicId": "matematica/porcentajes-fundamentos",
+      "id": "porcentajes-fundamentos-23",
+      "sha256": "7b4762e613d1e51e1b2f573fdc51e5be678b433f0d8d6afd488d230b03322863"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-04",
+      "sha256": "0a921c0df0a4bb22dbc820d3ef722a4d4db20f4ee4884b1d2fc64b34d0d6b113"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-05",
+      "sha256": "bb55b9f83ecdeb82d9aa7b8f7f6b13558f60e00c0e341826a5da903d5fd2711b"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-06",
+      "sha256": "994e391e833bf65ffcee2ba280149750d68a8bf009e2b8aef1df9bf5f4706b88"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-07",
+      "sha256": "0582c2cf62b7d8dc6f3798242ca12d93509e5a0d6c9ddfb20c175e204dc60bec"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-12",
+      "sha256": "3499a4e1b32014bb869f102617f186164336490241b9fb7a0f9208f3dfc6fe51"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-13",
+      "sha256": "19d548c16508ad27eda7c26901bab23621ce126ad99982dec23eca8f721f8154"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-14",
+      "sha256": "7f1546e39c1605414791cbed2a1a64388243e0b72098c712d7fbb4ebfe4d27e1"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-15",
+      "sha256": "93b7a35a8c2b7f3f048695a8fcfabedb246af50a2f057f8294c38cd76736aeff"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-20",
+      "sha256": "fa4e18a42b9689da0b34f4623ab191b865986a8442e9aae272f6a545073a7f58"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-21",
+      "sha256": "a009ac040ce4784d14b53aca0c9b25d524d282fdeedcf76afad521b73491b11e"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-22",
+      "sha256": "656c9145464ecf9feb83bcd0342ba6c20953c53eb0d629895497d3f7001be310"
+    },
+    {
+      "topicId": "matematica/porcentajes-sucesivos",
+      "id": "porcentajes-sucesivos-23",
+      "sha256": "a4095ff62b61d922760c1695dc4c2bfedaf0f7394df5d1f0b2bdd626943c316b"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-04",
+      "sha256": "7b4819eae854c5ba5c835ff95bc292a7c38f193d45556e9409763112f644ae23"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-05",
+      "sha256": "f2a2866a6833f8b34b80bbacd37ca51597033ebdeac9a9d4a9bea1e76690b52b"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-06",
+      "sha256": "6d4c69862a6a50b3a882df0ca1b9f125babf803e22b7ae40c46f53801114b8ce"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-07",
+      "sha256": "e93aafaddc28a590fd38b6d831be1b5b4df04923466634871304082ac99a544e"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-12",
+      "sha256": "89ae6c3af2cbb932f8dcdffdd82624defd3d2c8090dd40c36b64e0404f78a80f"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-13",
+      "sha256": "bd914651f753425ee2656ede11df921439810b10480dc983a8d23797e61f7675"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-14",
+      "sha256": "6cc4de961fc278e2af2d089c30d855dd8e3145827747e99688fc09f09644011c"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-15",
+      "sha256": "130b9fa855413d084d04e810c3c07c56f17efc2f3b4a9197bb680e960cc14199"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-20",
+      "sha256": "92c3f06f0e200e895d55acdcb1c310e67228a9167c96b2990f12df8573efc05f"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-21",
+      "sha256": "02df0d741cae9a2b86c8f5e37c22ed3087a1515af74797bad102bc8b69b56a57"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-22",
+      "sha256": "45c05d9f67f5a0990f4ba71fa9746c0470719e3defd0ea363e5ce4a713be86a6"
+    },
+    {
+      "topicId": "matematica/potencias-raices-y-notacion-cientifica",
+      "id": "potencias-raices-y-notacion-cientifica-23",
+      "sha256": "043933a5a50b16804fb8ee372cbbc85fa3f337141ddceb1fdd4e3936670da3cb"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-04",
+      "sha256": "17bf3055d4d92d309609d0d763fc843e90078c3a75d93a9dc484683d649a183c"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-05",
+      "sha256": "f429714839f75a57cedf98e29c9cafc44b685bbbf01dc8c044b01afa63fdc1b1"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-06",
+      "sha256": "71804af9953778c625d68cfcf607236fb14812438f64a46ba18489ff8a3d6b32"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-07",
+      "sha256": "f9e2cb71586c50cb88d8e3b0840b61982d038357a482b75bcbdb097c469e6c20"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-12",
+      "sha256": "fe59f284b559445cc905fccb98452f27fd06ace26aabcbd238eee99ad13b9802"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-13",
+      "sha256": "b3c0b6a04159bea5848932411e9cd56951f10fde6ab44d725a4c616a56d403d0"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-14",
+      "sha256": "a4728f6953ce34338cc8bbfb7ea4d760177fc371a180576facbe5bad082d151e"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-15",
+      "sha256": "7721f3b98dbb9213433fbe9a2fb18930415a3f445406de1599054f0ce32765ad"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-20",
+      "sha256": "d90c9c92e82c5298af3b33d9e5cfd89ccaa9b13eb847c8c4758a2656ceec5f41"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-21",
+      "sha256": "f44a2d76ab2a18807912e6ec12604a2a687eb3a649e0205bc2a193ebf70184ce"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-22",
+      "sha256": "f4aed9af451becaea28e3ed3583072eb238dff3d8eaab41483501c25e0648718"
+    },
+    {
+      "topicId": "matematica/probabilidad",
+      "id": "probabilidad-23",
+      "sha256": "a3fa1d4e32624d434b2b1382d2a0081d6fcf00d3fd6a7eee1928a8840dfe5d5c"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-04",
+      "sha256": "d0f026ad0dd4707e2a9382fbee0b3c352401631a99e8d28c253c7e45f88a4fc2"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-05",
+      "sha256": "9b2582aef8e7cad5745eee9ba24c948f2fb02c7dd621337f2b6f95eed4bbd1c4"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-06",
+      "sha256": "1722c4bd62b9ce9af1f042f311a076958fc5ca82f913aaa1cefd28d4b9ad0ea0"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-07",
+      "sha256": "b901f2ace57df2b8256eb5a5b7cea7674f6a102dae163c5cd8b9d7c09e6f9399"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-12",
+      "sha256": "58eb3b09cc91a2d335df29bf5266170ca4e98f8a0d959d902155414748330950"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-13",
+      "sha256": "0c2ccd99bc17ba798e1a38f14224ba6cd490fc7613943779f6f3cf59620a5af3"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-14",
+      "sha256": "86cb83e8e1d133c0eb4e0d8bcf925c17634bf35ec6ef489c8c95523daab5df3a"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-15",
+      "sha256": "5ba5be82dded25fe93009ac32f065b457cd9bdf3c4ec7f46e9b7892442ebcdf6"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-20",
+      "sha256": "6b65fc903aa902647826174440d2bea20dc0c730920e0ca210236fea391a0267"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-21",
+      "sha256": "9b54c6a7a64464bf09bd711aef15e52c0d13bc9417c47d42bd19db043a120a69"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-22",
+      "sha256": "5b611277222f55029b772488c42c46518d07273099eaad6407cec29ed3f0a48e"
+    },
+    {
+      "topicId": "matematica/progresiones",
+      "id": "progresiones-23",
+      "sha256": "560294b427697d140e5dd1d91ed711c6bd07adc901bcf007762bc4def7838f23"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-04",
+      "sha256": "e9b7457415a9a374ce53f731ccb49bbe522b4da8797e9196e3f68ed28a002570"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-05",
+      "sha256": "3d12207986504f89dc19ffb22d5e2cddfde351448e7912bcc17fe9348b0a01c5"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-06",
+      "sha256": "293fa1473949805fe8f73c5cb4295444df20990d140e1e432d0d24f526ce1531"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-07",
+      "sha256": "11ec01a888bbc7e4a53e1052e566c3eca6c860b246653ad10a3e7b36048bbf74"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-12",
+      "sha256": "f7c7a424cf7a542d4ebdbf445f935ddbd2857e37903dca059187239bca316476"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-13",
+      "sha256": "ba8d11c0301a11f8ca8775c783b413e2e1a30b09ea85e1410d349a973b94ca61"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-14",
+      "sha256": "c60b8d20abade783b7b920bdf4e5ea145616e18746851b0944a28a41cd346be2"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-15",
+      "sha256": "27b53204567d25d87e8d2426ead0eec3bf655efcf9ac28e2be7bb042664e465b"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-20",
+      "sha256": "b7b75e2baa2bfb115a61f5e76cb9018473f0f275b2802a45969a9a21dd8e3721"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-21",
+      "sha256": "42fbc5f354608ed8211aa0c6aa9a4c8111df44e784fab2207054d4fc9a1bd371"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-22",
+      "sha256": "11001f43221b1f92d0c86e8e04339f2d61535a0948c513a4210a94f6f1396358"
+    },
+    {
+      "topicId": "matematica/promedios",
+      "id": "promedios-23",
+      "sha256": "63333d62bfcbf167a80c8c7dbf11dab74b19802fec1cd46f0ba51ba23207d24c"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-04",
+      "sha256": "89515f32f7b33719089a48e07be067e6edb1eed6ce2c1aed0db70f7c9eeed43c"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-05",
+      "sha256": "2f111167bb6f4b735cb03db801684c3b2d59c4aa5060e43430c08f7bb4e13721"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-06",
+      "sha256": "1d74cc909b20ab39ed9b067c2466add63011a3fdf7aa8e553dca2991cee0e091"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-07",
+      "sha256": "17fb78581202b243f1dbdbd651a36273e2821c1b37a7203b8de207cf05bd458f"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-12",
+      "sha256": "66cf6ba2bf41431e60f73bfcc017a58051370abf0e806ace75348571719a19d4"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-13",
+      "sha256": "75edd498cfb6525e0cfe173d94d0a8fe2e90d532cf92b25d28806990e6e1178b"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-14",
+      "sha256": "14315d61d5b2e695ce2d68bc09eb4296474395a0d2f3e880ac0ed8bab7aff9d8"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-15",
+      "sha256": "7ec2ef147278d26d00e71bc71be6590660b93dd7bca677cc4f2eec3f0b2ce180"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-20",
+      "sha256": "b8690260fb77458d79c07e5da794c6b45217a7dd24818b72548a4138072fdf9c"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-21",
+      "sha256": "72843bb0f06f3e4efcc32322d21e9073abcc907f70c3a1eebfa4e50ed34d28c1"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-22",
+      "sha256": "cf7dfc3059b0dba4f526b1f0b678f09c20cab697345d767eb4728dafcf70b18e"
+    },
+    {
+      "topicId": "matematica/proporcionalidad-directa-inversa",
+      "id": "proporcionalidad-directa-inversa-23",
+      "sha256": "10be14548ca96b3fb0099d7fb82e0505910a1bd89889f3b4366271ccc4586897"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-04",
+      "sha256": "16203040bdc3fb5d4b967bcd380a0eb52e1890a7220cb112928108b28eff386b"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-05",
+      "sha256": "5fa8b90c75c7d1d597e359c79cbee1bc89d152ab0e4b1d9425ca9f05cafa0609"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-06",
+      "sha256": "50da2cf1f1193b1acad24de393a39f0ae30118318f3c6f24efb27eada429553a"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-07",
+      "sha256": "d30978e9584049177301bdd2c47e1b61778da99a91cfe0020a91d76dbef26827"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-12",
+      "sha256": "3e274eee316186a470f26c91c7fd363095e5a7f19572ec346cb261a242615787"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-13",
+      "sha256": "95cad4d491275d832f809b0e61d15706f84eeff3ad440bea27234feb4f181bce"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-14",
+      "sha256": "63b8924ab80121a7ab8d3f48788e0a9acbfbc55e61fa564519556b63f4177fae"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-15",
+      "sha256": "82b561fafba819170fef19531c7e532a532ad51ddfdf737b7e1aa5563e0e11a6"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-20",
+      "sha256": "7518ede55c75aba296c9a97fc2299d82587369447f7474714a9e65c2694c718e"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-21",
+      "sha256": "25698ab9ef8705e72632265c81c28cc8f48cebe2d39c78b7258326c9f6e050e5"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-22",
+      "sha256": "088a075340a41cd9b79a50b1636cadc5a85a8f32462246dac818e75e0ac5770f"
+    },
+    {
+      "topicId": "matematica/razones-trigonometricas",
+      "id": "razones-trigonometricas-23",
+      "sha256": "d3f24dcee17d917e229a5c1be8ac97fbcf10407b95e91c2c4148cc30d8575a7e"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-04",
+      "sha256": "bf82bb55a04ee9e1bc4d5331eb9ecd95a3f577ffbaf86a721d0ef03ba6bb98b8"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-05",
+      "sha256": "7e268f76a866cda5b5de7846ab8dd845b39955896ef886a87b1d4e53c3fcd3c3"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-06",
+      "sha256": "59908f79871890c8e2a8864372080612fb7ec507f351d97f62ac6c4d3bf80388"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-07",
+      "sha256": "722e74ce78fda92ba869422061c36214d7c75816d6ee629244c996738b83b407"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-12",
+      "sha256": "b306539278c7d4eb57be8086c09c7d62b1fecd63efa3286dc19ca11cf5bba0c6"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-13",
+      "sha256": "9c7f7246728ef9f69d934a95154a485931cd5d778e481a7cb805cc43b714c963"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-14",
+      "sha256": "a32c9d2fcb170721f1b4dd2259ef8acab3bba7b8984ef09beee7fd543693d53d"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-15",
+      "sha256": "d44dce6982f3e351cf8865ac2f94d36dd496360af9648cc6cf2b08645b06450d"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-20",
+      "sha256": "561712aae58ace738f1a17f74581d2808ebe6374a5d37e5f83e3cf8618cc84d0"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-21",
+      "sha256": "1d4e3282a49fa0995fb56e38e8e0ee6178ab2e59fd2958b20f0bc7940ea55539"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-22",
+      "sha256": "5e642023c2954ac324388cbe6cde0845586591d9272b7121bc2638bd88ad6caa"
+    },
+    {
+      "topicId": "matematica/razones-y-proporciones",
+      "id": "razones-y-proporciones-23",
+      "sha256": "76af8deda6bf2771751018aff98d078d368d6a6dcff7f376cb50d468e7945ef7"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-04",
+      "sha256": "98f4564435556a581ecd17091cd1a27ee596a987fc9a24d4fc2584cc2dbb5cdc"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-05",
+      "sha256": "75f73ca1ad8985c46c089216278e236158936a9a9796ccfa4a8429757911cb28"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-06",
+      "sha256": "c76ebb141eae678da2dc147d28c21a2894b2bac1a68c45b2ca2090bceafdd6f9"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-07",
+      "sha256": "6ef8762f916bdef036f090033530cd3764ca259b1833cb0b734b5d6c0788fa88"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-12",
+      "sha256": "e749a278791c7890b1a02273ba7f65eca70fc49d4b4d98c2365613612a4b0267"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-13",
+      "sha256": "08307834663558a0f4aacb417d35448efe4302fe61ef21f2c01dc0f484cabda7"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-14",
+      "sha256": "5d8b595afccd01e7b8ca3999535965f34be45e4a7a9209e24cf9020fcc76271a"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-15",
+      "sha256": "406958d2da4962ea1f5e296e7d1a27cc7d0dad8ea7146c9c661c5061dabad61f"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-20",
+      "sha256": "b47a70cee272c392af424a8c776638f473f637b940515c0b6bd22d7db33873ed"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-21",
+      "sha256": "c77c5a7cd97d3bfdba9e00b53c5b6d47f36c48a83c640d674ab7d5c0bb5f964e"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-22",
+      "sha256": "c19e0942730293e580b877ba5a915d6b141f066393f923517be1ba3d96a9ce29"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-aplicaciones",
+      "id": "sistemas-lineales-aplicaciones-23",
+      "sha256": "726cbdf62824197b9e2f6bfc5c330bbc12c1fe1e32a14237c7fb9da447e6cc68"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-04",
+      "sha256": "9c532c0512e46f072ffe4838715dbd5c5f954c826dab8582327458dba5187510"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-05",
+      "sha256": "c155bf462a0d8c6396b4ffa415c587b966031d16c5cfa10dcf95e566063cfa50"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-06",
+      "sha256": "a23d46620bcacf47dbd8040e147bcc4fe18d49e52f976bd6975955ab3a0db379"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-07",
+      "sha256": "80668aa620115fe8f9c28463b39df1d5afce4a1225ca00a7c8375e7c63b22345"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-12",
+      "sha256": "f479db262620d11be6ef93bf7cb07d9b9584e8578fcaa818bf458af3b17a0329"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-13",
+      "sha256": "e400aaac9816246e1df30ce8035e7672aa085743a071c66da699df1714778984"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-14",
+      "sha256": "de63fecd579e6524045d53791748e82bdc6ff29bd494491be292e7d455cab2f1"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-15",
+      "sha256": "5748dc5b45ac64247a8bbd933b4dbcb8fbd6195538974bb2ec7dc3a904bc52ee"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-20",
+      "sha256": "e7b3402f3ac92936e95f46a6193965b22b15424db857e97f47a9bfcf5b6ff572"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-21",
+      "sha256": "91a7962a47761cfaaeadb53bf10f3826d53c9585497af96f58fc1f81a2e0a327"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-22",
+      "sha256": "1b88dd4cce737a886a3bed8e93ab1cfccd0c3827a4bf21c622c01fb4e0715562"
+    },
+    {
+      "topicId": "matematica/sistemas-lineales-fundamentos",
+      "id": "sistemas-lineales-fundamentos-23",
+      "sha256": "78e96340a9094d2d59c9d3c3a9b449b3324490de2e2d34bcf53fd5cb3239b1c4"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-04",
+      "sha256": "71a84e8b280a6597cce53dfa4f8b5cedf2d02f6ffbd3d57e9fbf35d48cc5fbfd"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-05",
+      "sha256": "274ce6f798794eca7a826281b706a3dc9a643e03177ded1c1c959b9aaef8b95b"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-06",
+      "sha256": "4c8e44cd6971484ac1ccee713de5e6b1f02eeec28a01cb4c659c3d46dff114a8"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-07",
+      "sha256": "540fff255d3a6777d193b4d4c0bf0fa81734df9dd922c5351e137bad1cfaf85b"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-12",
+      "sha256": "f05fa937c7d69999fa2435e31341c736db32cb5faf4966e5008fb1020fe11e45"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-13",
+      "sha256": "ca70c7739869db6baf1f0b598df094e9371f860c4f16963334ec41fa5b820b7a"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-14",
+      "sha256": "905bed19a89430031813671d943bec95558e5b17f776ff515f7aff0ab514b318"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-15",
+      "sha256": "5b17adf584dac4c729208344de0b06139fc835ca9c43ef9f532e7c567d70b7f7"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-20",
+      "sha256": "8205f3024c1a49421e5a06ef1b8ef67e5d6b3a64f0169a00ecfa2d4fecc2d1f3"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-21",
+      "sha256": "5569f00d53def14a8f1db71765f841478e3557c1cc1f0187e58b648c91ba4e4c"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-22",
+      "sha256": "f22b8bffb72235e60ff844158d455fe8cfba9b8961628d12398d3a7be07b8f33"
+    },
+    {
+      "topicId": "matematica/sucesiones",
+      "id": "sucesiones-23",
+      "sha256": "bb483d150de989ba768744a06d05406e4de8c528343ec9f5ad2b7ca6519453bd"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-04",
+      "sha256": "fe39de8b05ea7e0812fdf4a877fdf2baf46da965ee5e48260d9e0d4348d66f07"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-05",
+      "sha256": "e79491bd986a37be571b581d684aa3791ce160af3d1ed3415077181eec288569"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-06",
+      "sha256": "6b10b5615396038e0ff055e1d269dda845935493157e0eb7eb531405903c2285"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-07",
+      "sha256": "9a26b057767bdd692d2d88b77e2cc4acfbfd82f9c85c5b4f9930739c20c3e4f5"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-12",
+      "sha256": "1cbf58e5cfcd8d6687c9699603aeff66060242c786d5d7925bfbeb6aa9fd7d66"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-13",
+      "sha256": "446abaf5300cc2afcec04e4490a8f797224c2cedc46b59b64bee8836e3b171ef"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-14",
+      "sha256": "758aa20708bc2ee530f2282cecba96b12dd71ce7ba05822894125c06fcbc1064"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-15",
+      "sha256": "a40f4ac4dec9b54ce39c7ac8c327817391745ca24946cefeb809d53647fc5a07"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-20",
+      "sha256": "a3495303bb0d7c270ffce46430f616a9938ad5384d2dc77094b6805e853a88cf"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-21",
+      "sha256": "8c7b1c446818403c1eef46a37c8f28d62cf889ebcf80de23cf442062188386ef"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-22",
+      "sha256": "da7a8a9629945d7cdc95c7e1607c0dff4b66441aa5976fd6cbb3f86799ff1816"
+    },
+    {
+      "topicId": "matematica/triangulos-y-relaciones-metricas",
+      "id": "triangulos-y-relaciones-metricas-23",
+      "sha256": "0174e75c26e89cdeb239be98ec112135c05c1db9d08d2c8386538e9dfbcd8a5b"
+    }
+  ]
+}

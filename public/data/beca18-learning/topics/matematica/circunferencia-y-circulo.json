@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/circunferencia-y-circulo",
+  "course": "matematica",
+  "slug": "circunferencia-y-circulo",
+  "title": "Circunferencia y círculo",
+  "description": "Conecta radios, cuerdas, arcos y ángulos para calcular longitudes y superficies con π exacto.",
+  "version": 1,
+  "order": 31,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Distinguir circunferencia, círculo, radio, diámetro y cuerda.",
+    "Relacionar ángulos centrales e inscritos con arcos y sectores.",
+    "Usar tangencia, cuerdas y áreas compuestas con condiciones claras."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "El borde y la región interior",
+      "body": [
+        "La circunferencia es el conjunto de puntos a distancia r de un centro. El círculo incluye la región interior y su borde. Un radio une centro y borde; un diámetro atraviesa el centro y mide 2 r.",
+        "Una cuerda une dos puntos de la circunferencia. El diámetro es la cuerda más larga. Un arco es una parte del borde; un sector es la región limitada por dos radios y su arco.",
+        "Longitud de la circunferencia L = 2πr = πd. Área del círculo A = πr². Deja π exacto salvo que el ejercicio pida aproximar; π es un número, no una unidad."
+      ],
+      "id": "circunferencia-y-circulo-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un mismo radio, dos medidas distintas",
+      "body": [
+        "Un círculo tiene radio de 6 cm. Calcula diámetro, longitud del borde y área."
+      ],
+      "solution": [
+        "Diámetro d = 2 × 6 = 12 cm.",
+        "Longitud L = 2π × 6 = 12π cm.",
+        "Área A = π × 6² = 36π cm². El cuadrado se aplica al radio, no a π."
+      ],
+      "id": "circunferencia-y-circulo-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora el radio",
+      "body": [
+        "Desliza el control del radio del círculo. Observa que duplicar el radio duplica el diámetro y la longitud del borde, pero multiplica por cuatro el área."
+      ],
+      "diagram": {
+        "kind": "geometry",
+        "mode": "circle",
+        "a": 3,
+        "b": 4,
+        "n": 6
+      },
+      "id": "circunferencia-y-circulo-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Del diámetro al radio",
+      "body": [],
+      "prompt": "Una circunferencia tiene diámetro de 18 cm. ¿Cuál es su radio?",
+      "choices": [
+        {
+          "text": "36 cm",
+          "explanation": "36 duplica el diámetro en vez de dividirlo entre dos."
+        },
+        {
+          "text": "18 cm",
+          "explanation": "18 es la longitud del diámetro, que contiene dos radios."
+        },
+        {
+          "text": "9 cm",
+          "explanation": "El radio es la mitad del diámetro: 18/2."
+        }
+      ],
+      "correct": 2,
+      "hint": "El diámetro atraviesa el centro y contiene dos radios alineados.",
+      "solution": [
+        "r = d/2.",
+        "r = 18/2 = 9 cm."
+      ],
+      "id": "circunferencia-y-circulo-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Longitud de una circunferencia",
+      "body": [],
+      "prompt": "Si el radio mide 5 m, ¿cuál es la longitud exacta de la circunferencia?",
+      "choices": [
+        {
+          "text": "5π m",
+          "explanation": "5π omite el factor dos al usar el radio."
+        },
+        {
+          "text": "10π m",
+          "explanation": "L = 2πr = 2π × 5."
+        },
+        {
+          "text": "25π m",
+          "explanation": "25π es el área numérica; su unidad sería m²."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa 2πr, porque el dato es radio.",
+      "solution": [
+        "L = 2π × 5.",
+        "L = 10π m."
+      ],
+      "id": "circunferencia-y-circulo-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Área de un círculo",
+      "body": [],
+      "prompt": "Un círculo tiene diámetro de 14 cm. ¿Cuál es su área exacta?",
+      "choices": [
+        {
+          "text": "49π cm²",
+          "explanation": "El radio es 7; π × 7² = 49π."
+        },
+        {
+          "text": "196π cm²",
+          "explanation": "196π usa el diámetro como si fuera radio y cuadruplica el área."
+        },
+        {
+          "text": "14π cm²",
+          "explanation": "14π es la longitud de la circunferencia numéricamente, pero en cm, no cm²."
+        }
+      ],
+      "correct": 0,
+      "hint": "Obtén primero el radio a partir del diámetro.",
+      "solution": [
+        "r = 14/2 = 7 cm.",
+        "A = πr² = 49π cm²."
+      ],
+      "id": "circunferencia-y-circulo-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Qué pasa al triplicar el radio",
+      "body": [],
+      "prompt": "Se triplica el radio de un círculo. ¿Por qué factor se multiplica su área?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "3 es el factor de la longitud del borde, no el del área."
+        },
+        {
+          "text": "6",
+          "explanation": "El factor dos de la circunferencia no decide cómo cambia el área."
+        },
+        {
+          "text": "9",
+          "explanation": "A nueva = π(3 r)² = 9πr²."
+        }
+      ],
+      "correct": 2,
+      "hint": "La fórmula del área contiene el cuadrado del radio.",
+      "solution": [
+        "(3 r)² = 9 r².",
+        "El área queda multiplicada por 9."
+      ],
+      "id": "circunferencia-y-circulo-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Identifica qué mide el enunciado",
+      "body": [
+        "Si te dan diámetro, divide entre dos antes de elevar al cuadrado para el área. No confundas una longitud en cm con una superficie en cm².",
+        "Una cuerda no tiene que pasar por el centro. Solo el diámetro lo hace y es la de mayor longitud."
+      ],
+      "id": "circunferencia-y-circulo-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Arcos y sectores son fracciones de la vuelta",
+      "body": [
+        "Un ángulo central tiene vértice en el centro y su medida en grados coincide con la medida angular del arco que intercepta. Un arco de θ° tiene longitud (θ/360)2πr.",
+        "El área de un sector de θ° es (θ/360)πr². Estas fórmulas requieren grados. Con ángulo θ en radianes, longitud de arco s = rθ y área de sector = r²θ/2.",
+        "Un ángulo inscrito tiene vértice en la circunferencia y mide la mitad del arco que intercepta, es decir, el arco entre sus lados que no contiene al vértice. Un ángulo inscrito que abarca un diámetro mide 90°."
+      ],
+      "id": "circunferencia-y-circulo-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Arco y sector de un cuarto de vuelta",
+      "body": [
+        "En un círculo de radio 8 cm, un ángulo central mide 90°. Calcula arco y sector."
+      ],
+      "solution": [
+        "La fracción de vuelta es 90/360 = 1/4.",
+        "Arco = (1/4)(2π × 8) = 4π cm.",
+        "Sector = (1/4)(π × 8²) = 16π cm². Arco es longitud; sector es área."
+      ],
+      "id": "circunferencia-y-circulo-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Tangente y cuerda frente al radio",
+      "body": [
+        "Una tangente toca la circunferencia en un punto y es perpendicular al radio allí. Desde un punto exterior, los dos segmentos tangentes a la misma circunferencia tienen igual longitud.",
+        "La perpendicular trazada desde el centro a una cuerda la divide en mitades. Así se forma un triángulo rectángulo con radio, distancia del centro a la cuerda y semicuerda: (media cuerda)² + distancia² = r²."
+      ],
+      "id": "circunferencia-y-circulo-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Longitud de un arco",
+      "body": [],
+      "prompt": "En un círculo de radio 6 cm, ¿cuánto mide el arco de un ángulo central de 120°?",
+      "choices": [
+        {
+          "text": "4π cm",
+          "explanation": "120/360 = 1/3; un tercio de 12π es 4π."
+        },
+        {
+          "text": "12π cm",
+          "explanation": "12π corresponde a la vuelta completa, no a 120°."
+        },
+        {
+          "text": "12π cm²",
+          "explanation": "Además de usar la vuelta completa, cm² es unidad de área, no de arco."
+        }
+      ],
+      "correct": 0,
+      "hint": "120° representa un tercio de la vuelta completa.",
+      "solution": [
+        "L total = 2π × 6 = 12π cm.",
+        "Arco = 12π/3 = 4π cm."
+      ],
+      "id": "circunferencia-y-circulo-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Área de un sector",
+      "body": [],
+      "prompt": "En un círculo de radio 10 cm, ¿qué área tiene un sector de 72°?",
+      "choices": [
+        {
+          "text": "4π cm²",
+          "explanation": "4π es la longitud del arco en cm, no el área del sector."
+        },
+        {
+          "text": "72π cm²",
+          "explanation": "72 es el ángulo; no sustituye al porcentaje de vuelta en la fórmula."
+        },
+        {
+          "text": "20π cm²",
+          "explanation": "72/360 = 1/5; la quinta parte de 100π es 20π."
+        }
+      ],
+      "correct": 2,
+      "hint": "Multiplica el área total por 72/360.",
+      "solution": [
+        "A total = π(10²) = 100π.",
+        "A sector = (1/5)(100π) = 20π cm²."
+      ],
+      "id": "circunferencia-y-circulo-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Ángulo inscrito",
+      "body": [],
+      "prompt": "Un ángulo inscrito intercepta un arco de 130° que no contiene a su vértice. ¿Cuánto mide ese ángulo?",
+      "choices": [
+        {
+          "text": "260°",
+          "explanation": "Multiplicar por dos invierte la relación entre arco y ángulo inscrito."
+        },
+        {
+          "text": "65°",
+          "explanation": "Un ángulo inscrito mide la mitad del arco interceptado."
+        },
+        {
+          "text": "130°",
+          "explanation": "130° sería el ángulo central correspondiente a ese arco."
+        }
+      ],
+      "correct": 1,
+      "hint": "El vértice está en la circunferencia, no en el centro.",
+      "solution": [
+        "Ángulo inscrito = 130°/2.",
+        "Mide 65°."
+      ],
+      "id": "circunferencia-y-circulo-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cuerda a distancia conocida",
+      "body": [],
+      "prompt": "Una cuerda está a 5 cm del centro de un círculo de radio 13 cm. ¿Cuánto mide la cuerda?",
+      "choices": [
+        {
+          "text": "24 cm",
+          "explanation": "La media cuerda es √(13² − 5²) = 12; la cuerda completa mide 24."
+        },
+        {
+          "text": "12 cm",
+          "explanation": "12 es la mitad que aparece en el triángulo rectángulo."
+        },
+        {
+          "text": "26 cm",
+          "explanation": "26 es el diámetro; esta cuerda no pasa por el centro."
+        }
+      ],
+      "correct": 0,
+      "hint": "La perpendicular desde el centro biseca la cuerda.",
+      "solution": [
+        "Mitad² = 169 − 25 = 144, así que mitad = 12 cm.",
+        "Cuerda = 2 × 12 = 24 cm."
+      ],
+      "id": "circunferencia-y-circulo-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Identifica el vértice del ángulo",
+      "body": [
+        "Un ángulo central mide el arco; uno inscrito, la mitad. Ubicar su vértice evita aplicar una fórmula por la apariencia del dibujo.",
+        "La distancia de un centro a una cuerda se mide perpendicularmente. La cuenta con Pitágoras da media cuerda; recuerda duplicarla al responder por la cuerda completa."
+      ],
+      "id": "circunferencia-y-circulo-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Productos de segmentos y áreas que se restan",
+      "body": [
+        "Si dos cuerdas AB y CD se cortan en P dentro del círculo, se cumple PA × PB = PC × PD. Cada producto toma las dos partes de una misma cuerda.",
+        "Para un punto exterior P, una tangente PT y una secante que cruza primero A y luego B cumplen PT² = PA × PB. PB es el segmento completo desde P hasta el punto más lejano, no solo el tramo interior AB.",
+        "Una corona circular entre radios R > r tiene área π(R² − r²). Un semicírculo incluye la mitad del área; el perímetro de su región suma arco semicircular y diámetro."
+      ],
+      "id": "circunferencia-y-circulo-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un semicírculo necesita incluir el diámetro",
+      "body": [
+        "Una lámina semicircular tiene radio 4 cm. Halla su área y perímetro."
+      ],
+      "solution": [
+        "Área = π × 4²/2 = 8π cm².",
+        "El arco semicircular mide la mitad de 2πr: 4π cm.",
+        "El perímetro completo añade el diámetro de 8 cm: P = 4π + 8 cm."
+      ],
+      "id": "circunferencia-y-circulo-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Cada producto debe usar segmentos correctos",
+      "body": [
+        "Antes de sustituir en una igualdad de productos, identifica si P está dentro o fuera. En cuerdas interiores, las dos partes nacen en P y terminan en extremos opuestos de la misma cuerda.",
+        "En secantes exteriores, usa distancia exterior × distancia total. Una comprobación útil es dibujar los segmentos uno tras otro y sumar para encontrar la distancia total."
+      ],
+      "id": "circunferencia-y-circulo-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cuerdas que se cruzan",
+      "body": [],
+      "prompt": "Dos cuerdas se cruzan en P dentro de una circunferencia. Una tiene partes de 3 y 8 cm. La otra tiene una parte de 4 cm. ¿Cuánto mide su otra parte?",
+      "choices": [
+        {
+          "text": "24 cm",
+          "explanation": "24 es el producto de la primera cuerda; falta dividir entre 4."
+        },
+        {
+          "text": "6 cm",
+          "explanation": "3 × 8 = 4 x da x = 6."
+        },
+        {
+          "text": "7 cm",
+          "explanation": "7 solo iguala las sumas 3 + 8 = 4 + 7; el teorema exige productos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Iguala el producto de las partes de cada cuerda.",
+      "solution": [
+        "24 = 4 x.",
+        "x = 6 cm."
+      ],
+      "id": "circunferencia-y-circulo-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Tangente y secante exterior",
+      "body": [],
+      "prompt": "Desde un punto P exterior, una secante tiene tramo exterior PA = 4 cm y tramo interior AB = 5 cm. ¿Cuánto mide una tangente PT?",
+      "choices": [
+        {
+          "text": "6 cm",
+          "explanation": "PB total = 4 + 5 = 9; PT² = 4 × 9 = 36 y PT = 6."
+        },
+        {
+          "text": "√20 cm",
+          "explanation": "√20 usa exterior × interior; el segundo factor debe ser la longitud total PB."
+        },
+        {
+          "text": "9 cm",
+          "explanation": "9 es la secante completa, no la tangente."
+        }
+      ],
+      "correct": 0,
+      "hint": "Primero calcula la secante completa desde el punto exterior.",
+      "solution": [
+        "PB = PA + AB = 4 + 5 = 9 cm.",
+        "PT² = 4 × 9 = 36; PT = 6 cm."
+      ],
+      "id": "circunferencia-y-circulo-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Área de una corona",
+      "body": [],
+      "prompt": "Una corona circular tiene radio exterior 7 cm e interior 3 cm. ¿Cuál es su área exacta?",
+      "choices": [
+        {
+          "text": "16π cm²",
+          "explanation": "16π eleva al cuadrado la diferencia de radios; eso no es diferencia de áreas."
+        },
+        {
+          "text": "58π cm²",
+          "explanation": "58π suma las áreas, aunque el círculo interior se retira."
+        },
+        {
+          "text": "40π cm²",
+          "explanation": "π(7² − 3²) = π(49 − 9) = 40π."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resta las dos áreas, no los radios antes de elevarlos al cuadrado.",
+      "solution": [
+        "A = 49π − 9π.",
+        "A = 40π cm²."
+      ],
+      "id": "circunferencia-y-circulo-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Perímetro de una región semicircular",
+      "body": [],
+      "prompt": "Una región semicircular tiene radio 5 m. ¿Cuál es su perímetro exacto?",
+      "choices": [
+        {
+          "text": "10π m",
+          "explanation": "10π es la circunferencia completa, distinta del contorno semicircular."
+        },
+        {
+          "text": "5π + 10 m",
+          "explanation": "El arco mide 5π y el diámetro que cierra la región mide 10."
+        },
+        {
+          "text": "5π m",
+          "explanation": "5π cuenta únicamente el arco curvo; falta el lado recto."
+        }
+      ],
+      "correct": 1,
+      "hint": "El contorno incluye arco y diámetro.",
+      "solution": [
+        "Arco semicircular = (2π × 5)/2 = 5π m.",
+        "Perímetro = 5π + 2 × 5 = 5π + 10 m."
+      ],
+      "id": "circunferencia-y-circulo-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Un contorno incluye todos sus bordes",
+      "body": [
+        "En una región semicircular, el diámetro forma parte del perímetro. En una corona, el área se resta; si pidieran longitud total de sus bordes, se sumarían ambas circunferencias.",
+        "No uses una longitud interior en lugar de una secante total. Marca el punto exterior, los dos cruces y cada tramo antes de aplicar el producto."
+      ],
+      "id": "circunferencia-y-circulo-24",
+      "level": 3
+    }
+  ]
+}

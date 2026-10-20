@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-argumentativos",
+  "course": "lectura",
+  "slug": "textos-argumentativos",
+  "title": "Textos argumentativos",
+  "description": "Identifica tesis, razones, concesiones y contraargumentos en posturas completas.",
+  "version": 1,
+  "order": 13,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Distinguir tema, tesis y razones",
+    "Reconocer recursos y contraargumentación",
+    "Integrar una postura matizada y comprobar su alcance"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Argumentar es sostener una postura",
+      "body": [
+        "Una tesis es una afirmación discutible que el autor busca defender. El tema solo nombra el asunto: horarios de biblioteca es tema; la biblioteca debería abrir temprano los domingos es tesis.",
+        "Los argumentos son razones que apoyan esa postura. Un ejemplo puede ilustrarlas, pero repetir la tesis con otras palabras no añade por sí mismo una razón."
+      ],
+      "id": "textos-argumentativos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Separa la propuesta y su apoyo",
+      "body": [
+        "Tesis: conviene mantener una hora de consulta temprana. Razón: atiende a quienes no pueden usar el servicio por la tarde. El ejemplo de dos estudiantes concreta esa disponibilidad.",
+        "El texto no defiende abrir todo el día ni asegura que todas las personas usarán el servicio. La tesis debe formularse con su alcance real."
+      ],
+      "passage": {
+        "title": "Una hora distinta",
+        "paragraphs": [
+          "La biblioteca debería mantener una hora de consulta temprana los domingos. Algunas personas trabajan por la tarde y solo pueden estudiar antes del mediodía. Elena y Joel, por ejemplo, dejan de acudir cuando el servicio abre después de almuerzo. No se requiere ampliar toda la jornada: basta probar una franja que responda a esa necesidad."
+        ]
+      },
+      "id": "textos-argumentativos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Construye el argumento",
+      "body": [
+        "Toca cada componente para ver cómo cumple una función diferente."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Tema",
+            "text": "La distribución de horarios de una biblioteca."
+          },
+          {
+            "label": "Tesis",
+            "text": "Conviene probar una franja de consulta temprana."
+          },
+          {
+            "label": "Razón",
+            "text": "Podría atender a personas con disponibilidad solo por la mañana."
+          },
+          {
+            "label": "Ejemplo",
+            "text": "Dos integrantes explican que no pueden asistir por la tarde."
+          },
+          {
+            "label": "Límite",
+            "text": "Probar una franja no equivale a prometer apertura permanente durante todo el día."
+          }
+        ]
+      },
+      "id": "textos-argumentativos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Identifica la tesis",
+      "body": [],
+      "prompt": "¿Cuál es la tesis?",
+      "choices": [
+        {
+          "text": "El colegio tiene un patio",
+          "explanation": "Es un antecedente implícito, no la postura que se defiende."
+        },
+        {
+          "text": "Conviene instalar un techo ligero en una parte del patio",
+          "explanation": "Recoge la propuesta concreta, sin ampliar su alcance."
+        },
+        {
+          "text": "Deben cubrirse todas las áreas de juego",
+          "explanation": "Contradice el límite expreso de la propuesta."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca la afirmación que las demás razones intentan justificar.",
+      "solution": [
+        "El primer enunciado formula la propuesta.",
+        "El resto desarrolla utilidad y condiciones de esa instalación parcial."
+      ],
+      "passage": {
+        "title": "El patio",
+        "paragraphs": [
+          "El colegio debería instalar un techo ligero en una parte del patio. Así podría conservar un espacio de reunión durante lluvias breves sin cubrir todas las áreas de juego. La propuesta requiere elegir un sector y revisar el presupuesto."
+        ]
+      },
+      "id": "textos-argumentativos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Encuentra una razón",
+      "body": [],
+      "prompt": "¿Qué razón apoya la prioridad propuesta?",
+      "choices": [
+        {
+          "text": "El catálogo permitirá reconocer registros existentes y evitar duplicaciones",
+          "explanation": "Explica por qué esa tarea debe preceder a la descripción de nuevas cajas."
+        },
+        {
+          "text": "Todas las cajas desaparecerán al digitalizar",
+          "explanation": "No se afirma y no corresponde al efecto de un catálogo."
+        },
+        {
+          "text": "Digitalizar es conveniente porque es bueno digitalizar",
+          "explanation": "Repite la valoración sin una razón independiente."
+        }
+      ],
+      "correct": 0,
+      "hint": "Una razón debe aportar algo más que repetir conviene.",
+      "solution": [
+        "Detectar registros previos evita trabajo duplicado.",
+        "Ese efecto justifica la prioridad del catálogo."
+      ],
+      "passage": {
+        "title": "El archivo",
+        "paragraphs": [
+          "Conviene digitalizar el catálogo antes de ordenar nuevas cajas, porque permitirá detectar qué documentos ya están registrados y evitar duplicar su descripción. Digitalizar cada documento completo puede esperar a otra etapa."
+        ]
+      },
+      "id": "textos-argumentativos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Tema frente a tesis",
+      "body": [],
+      "prompt": "¿Qué opción nombra solo el tema?",
+      "choices": [
+        {
+          "text": "Debe organizarse un préstamo con registro",
+          "explanation": "Expresa una propuesta y, por tanto, funciona como tesis."
+        },
+        {
+          "text": "El registro mejorará toda actividad sin excepción",
+          "explanation": "Es una afirmación exagerada que el texto no sostiene."
+        },
+        {
+          "text": "El uso compartido de herramientas",
+          "explanation": "Nombra el asunto sin tomar todavía una postura sobre cómo organizarlo."
+        }
+      ],
+      "correct": 2,
+      "hint": "El tema puede expresarse sin afirmar qué debería hacerse.",
+      "solution": [
+        "El uso compartido es el asunto general.",
+        "La tesis añade una solución concreta: préstamo con registro."
+      ],
+      "passage": {
+        "title": "El taller",
+        "paragraphs": [
+          "Un texto se titula Herramientas compartidas y defiende que el colegio organice un sistema de préstamo con registro. Su razón central es que varios grupos necesitan los mismos instrumentos en horarios diferentes."
+        ]
+      },
+      "id": "textos-argumentativos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una razón y no una repetición",
+      "body": [],
+      "prompt": "¿Qué oración aporta esa razón?",
+      "choices": [
+        {
+          "text": "Las etiquetas grandes son una medida que debería aplicarse",
+          "explanation": "Repite la propuesta sin explicar su utilidad."
+        },
+        {
+          "text": "Permitirían identificar las categorías desde la entrada sin abrir cada caja",
+          "explanation": "Relaciona la medida con un beneficio específico para los usuarios."
+        },
+        {
+          "text": "A la autora le gustan mucho los estantes",
+          "explanation": "Una preferencia personal no justifica la función de las etiquetas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca el vínculo entre la medida y un efecto pertinente.",
+      "solution": [
+        "El objetivo es facilitar la localización de materiales.",
+        "Identificar categorías desde la entrada desarrolla ese beneficio."
+      ],
+      "passage": {
+        "title": "La propuesta",
+        "paragraphs": [
+          "La sala debería tener etiquetas grandes para sus estantes. La autora busca añadir una razón que explique por qué esa medida facilitaría el uso del lugar."
+        ]
+      },
+      "id": "textos-argumentativos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No amplíes la postura del autor",
+      "body": [
+        "Si elegiste cubrir todo el patio o abrir todo el día, revisa las restricciones. Una tesis debe conservar cantidad, condiciones y alcance.",
+        "Si confundiste razón y repetición, formula por qué. La respuesta debe explicar una utilidad, una consecuencia, un principio o una evidencia pertinente; volver a decir conviene no basta."
+      ],
+      "id": "textos-argumentativos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Recursos que pueden apoyar una postura",
+      "body": [
+        "Un argumento puede recurrir a datos, ejemplos, experiencias o voces especializadas. Su fuerza depende de su relación con la tesis y del alcance que permite, no solo de que suene impresionante.",
+        "Un contraargumento presenta una objeción. La respuesta puede refutarla, admitir una parte o ajustar la propuesta. Una concesión reconoce un punto atendible sin abandonar necesariamente la tesis."
+      ],
+      "id": "textos-argumentativos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Reconoce la objeción y la respuesta",
+      "body": [
+        "Objeción: el taller de reparación demandaría tiempo. Concesión: esa demanda existe. Respuesta: empezar con una jornada mensual y objetos sencillos limita el costo.",
+        "La autora no promete reparar cualquier objeto. Ajusta la propuesta para atender una dificultad concreta."
+      ],
+      "passage": {
+        "title": "Reparar con límites",
+        "paragraphs": [
+          "Organizar una jornada de reparación puede prolongar el uso de algunos materiales escolares. Se objeta que exigiría tiempo que el equipo no tiene. Esa preocupación es atendible; por ello, propongo comenzar con una sesión mensual y solo con daños sencillos, como tapas despegadas o cierres reemplazables. Si la demanda supera la capacidad del grupo, habrá que limitar los cupos, no prometer arreglos imposibles."
+        ]
+      },
+      "id": "textos-argumentativos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Escucha las distintas voces",
+      "body": [
+        "Toca cada fragmento para identificar su función argumentativa."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Conviene conservar el taller de consulta.",
+            "role": "Tesis del autor"
+          },
+          {
+            "text": "Algunas personas sostienen que basta con publicar un manual.",
+            "role": "Objeción atribuida a otra postura"
+          },
+          {
+            "text": "El manual resuelve dudas frecuentes, pero no todos interpretan del mismo modo una excepción.",
+            "role": "Concesión y límite de la alternativa"
+          },
+          {
+            "text": "Por ello, propongo mantener consultas para casos que el manual no aclara.",
+            "role": "Respuesta ajustada que sostiene la tesis"
+          }
+        ]
+      },
+      "id": "textos-argumentativos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Identifica la objeción",
+      "body": [],
+      "prompt": "¿Qué enunciado funciona como contraargumento?",
+      "choices": [
+        {
+          "text": "El comité propone un intercambio",
+          "explanation": "Es la propuesta sometida a discusión."
+        },
+        {
+          "text": "Se usarían categorías amplias",
+          "explanation": "Es parte de la respuesta para reducir la dificultad."
+        },
+        {
+          "text": "Clasificar todas las entregas tomaría demasiado tiempo",
+          "explanation": "Presenta una dificultad contra la viabilidad de la propuesta inicial."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa propuesta, objeción y respuesta.",
+      "solution": [
+        "La objeción cuestiona el tiempo necesario.",
+        "El límite de libros y las categorías amplias responden a ella."
+      ],
+      "passage": {
+        "title": "La campaña",
+        "paragraphs": [
+          "El comité propone un intercambio de libros. Algunos integrantes señalan que clasificar todas las entregas tomaría demasiado tiempo. La autora responde que se aceptaría un número limitado de libros y se usarían categorías amplias."
+        ]
+      },
+      "id": "textos-argumentativos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una concesión auténtica",
+      "body": [],
+      "prompt": "¿Qué punto concede?",
+      "choices": [
+        {
+          "text": "La copia no conserva todas las características materiales del original",
+          "explanation": "Reconoce un límite real sin abandonar la utilidad propuesta."
+        },
+        {
+          "text": "No sirve ninguna copia para consultar",
+          "explanation": "La autora afirma una utilidad concreta y no la niega."
+        },
+        {
+          "text": "Los originales deben destruirse",
+          "explanation": "No hay tal propuesta en el texto."
+        }
+      ],
+      "correct": 0,
+      "hint": "La concesión admite una parte de la dificultad, no una negación total.",
+      "solution": [
+        "La autora reconoce una diferencia entre copia y original.",
+        "Luego sostiene el beneficio de reducir la manipulación."
+      ],
+      "passage": {
+        "title": "Las copias",
+        "paragraphs": [
+          "La autora defiende conservar copias de consulta de documentos frágiles. Admite que una copia no muestra todas las características materiales del original, pero sostiene que evita manipularlo en búsquedas frecuentes."
+        ]
+      },
+      "id": "textos-argumentativos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un ejemplo con alcance limitado",
+      "body": [],
+      "prompt": "¿Qué permite afirmar el ejemplo?",
+      "choices": [
+        {
+          "text": "Todas las personas necesitan la misma franja",
+          "explanation": "Dos casos no prueban la distribución de toda la comunidad."
+        },
+        {
+          "text": "Hay al menos dos personas con la necesidad descrita",
+          "explanation": "Respeta lo observado sin convertirlo en una proporción general."
+        },
+        {
+          "text": "Nadie usa el servicio de tarde",
+          "explanation": "El texto solo habla de la disponibilidad de dos estudiantes."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue existencia de un caso y frecuencia en la población.",
+      "solution": [
+        "El ejemplo demuestra una necesidad concreta entre dos personas.",
+        "No permite calcular cuántas más tienen esa misma condición."
+      ],
+      "passage": {
+        "title": "El servicio",
+        "paragraphs": [
+          "Para defender una franja temprana, la autora cuenta que dos estudiantes de su grupo no pueden asistir de tarde. Ese caso muestra que existe una necesidad, aunque todavía no se sabe cuántas personas comparten la misma disponibilidad."
+        ]
+      },
+      "id": "textos-argumentativos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Voz especializada y pertinencia",
+      "body": [],
+      "prompt": "¿Qué apoyo es más pertinente para la conservación?",
+      "choices": [
+        {
+          "text": "La cantante, solo por tener mayor fama",
+          "explanation": "La fama no demuestra conocimiento sobre conservación documental."
+        },
+        {
+          "text": "Ambos tienen exactamente el mismo valor técnico",
+          "explanation": "Sus conocimientos y observaciones no se relacionan igual con la cuestión."
+        },
+        {
+          "text": "La archivista, por su especialidad y su revisión del depósito",
+          "explanation": "Su competencia y observación son relevantes para el problema concreto."
+        }
+      ],
+      "correct": 2,
+      "hint": "Relaciona el conocimiento de la fuente con la afirmación que debe apoyar.",
+      "solution": [
+        "El problema exige criterios de conservación de papel.",
+        "La especialidad y la revisión concreta hacen pertinente la primera fuente."
+      ],
+      "passage": {
+        "title": "Dos apoyos",
+        "paragraphs": [
+          "La propuesta trata sobre conservar documentos de papel. Una opción cita a una archivista sobre las condiciones de almacenamiento que revisó en ese depósito. Otra cita a una cantante famosa sobre su color favorito para las carpetas."
+        ]
+      },
+      "id": "textos-argumentativos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Reconocer una objeción no equivale a aceptarla entera",
+      "body": [
+        "Si atribuiste al autor una idea introducida por algunos sostienen, revisa qué voz la expresa y cómo responde el texto. Una postura citada puede ser la que se cuestiona.",
+        "Si una concesión te hizo negar toda utilidad, conserva las dos partes: qué límite admite el autor y qué beneficio sigue defendiendo. El matiz puede formar parte de una argumentación más precisa."
+      ],
+      "id": "textos-argumentativos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Una postura puede ser condicional",
+      "body": [
+        "Una tesis puede defender una prueba temporal, una medida parcial o una acción sujeta a recursos. Resumirla como una obligación universal borra las condiciones que la hacen defendible.",
+        "Para reconstruir el argumento, conecta tesis, razones, objeciones y respuesta. Después distingue qué se afirma y qué información todavía sería necesaria para tomar una decisión."
+      ],
+      "id": "textos-argumentativos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una propuesta ajustada a la incertidumbre",
+      "body": [
+        "Tesis: probar un turno temprano durante un mes. Razón: atender una necesidad detectada. Condiciones: registrar asistencia y revisar costos. Límite: no convertir la prueba en una apertura permanente antes de evaluarla.",
+        "Resumen resuelto: la autora propone un ensayo acotado cuyo resultado permitirá decidir la continuidad. No pide abrir indefinidamente a cualquier costo."
+      ],
+      "passage": {
+        "title": "Antes de ampliar",
+        "paragraphs": [
+          "El colegio debería probar una hora de biblioteca los domingos por la mañana durante un mes. La propuesta responde a quienes trabajan de tarde, pero todavía no sabemos cuántas personas usarían esa franja ni qué costo tendría sostenerla. Registrar la asistencia y los gastos permitiría decidir con información. Si el uso fuera bajo, se ajustaría o retiraría el turno; si fuera suficiente y sostenible, podría mantenerse. Una prueba limitada evita tanto rechazar la necesidad sin escucharla como prometer un servicio permanente sin recursos."
+        ]
+      },
+      "id": "textos-argumentativos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "La conclusión debe seguir a las razones",
+      "body": [
+        "Un argumento débil puede repetir una conclusión, apelar a popularidad o atacar a una persona sin responder sus razones. Para evaluar, pregunta qué evidencia cambiaría la plausibilidad de la postura.",
+        "No necesitas estar de acuerdo con la tesis para comprenderla. Una reconstrucción fiel representa también sus límites y la respuesta a las objeciones."
+      ],
+      "id": "textos-argumentativos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una tesis con condiciones",
+      "body": [],
+      "prompt": "¿Qué formulación conserva mejor su tesis?",
+      "choices": [
+        {
+          "text": "Toda herramienta debe circular sin control entre cualquier grupo",
+          "explanation": "Borra registro, responsabilidad y excepción de materiales delicados."
+        },
+        {
+          "text": "Conviene compartir ciertas herramientas con registro y responsable definidos",
+          "explanation": "Conserva la propuesta y sus condiciones centrales."
+        },
+        {
+          "text": "Es mejor prohibir cualquier uso compartido",
+          "explanation": "Niega la propuesta que el texto defiende."
+        }
+      ],
+      "correct": 1,
+      "hint": "Incluye la medida, los requisitos y el alcance de los objetos.",
+      "solution": [
+        "La autora valora compartir para evitar compras repetidas.",
+        "Lo condiciona a seguimiento y responsabilidad, con una excepción explícita."
+      ],
+      "passage": {
+        "title": "La circulación de materiales",
+        "paragraphs": [
+          "La coordinadora defiende prestar herramientas entre talleres solo cuando se registre la entrega y exista una persona responsable de recibirlas. El uso compartido evitaría compras repetidas, pero sin esas condiciones sería difícil saber dónde está cada objeto. No propone prestar materiales delicados que requieren supervisión especial; para ellos plantea un sistema distinto."
+        ]
+      },
+      "id": "textos-argumentativos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Respuesta a una objeción",
+      "body": [],
+      "prompt": "¿Cómo responde la autora?",
+      "choices": [
+        {
+          "text": "Ignora por completo el costo de actualización",
+          "explanation": "Reconoce una carga inicial y propone comprobar el efecto."
+        },
+        {
+          "text": "Demuestra sin ensayo que cualquier catálogo funciona",
+          "explanation": "El texto mantiene la necesidad de una prueba limitada."
+        },
+        {
+          "text": "Reconoce la dificultad y plantea una prueba del beneficio esperado",
+          "explanation": "Combina concesión, explicación del posible ahorro y evaluación antes de ampliar."
+        }
+      ],
+      "correct": 2,
+      "hint": "Observa qué admite y qué propone verificar.",
+      "solution": [
+        "La carga inicial se concede, no se niega.",
+        "La prueba busca establecer si el ahorro posterior compensa ese costo."
+      ],
+      "passage": {
+        "title": "El catálogo común",
+        "paragraphs": [
+          "Algunos integrantes rechazan un catálogo compartido porque creen que actualizarlo duplicará el trabajo. La autora admite que habrá una carga inicial, pero explica que después cada préstamo se registrará una sola vez y podrá consultarse desde los demás talleres. Propone empezar con dos grupos para comprobar si esa reducción se cumple antes de extender el sistema."
+        ]
+      },
+      "id": "textos-argumentativos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una razón ajena a la tesis",
+      "body": [],
+      "prompt": "¿Qué problema tiene la segunda respuesta?",
+      "choices": [
+        {
+          "text": "Ataca una característica personal sin responder la razón sobre lluvia y libros",
+          "explanation": "Desvía la discusión del vínculo que sostiene la propuesta."
+        },
+        {
+          "text": "Refuta directamente que el agua pueda entrar por la ventana rota",
+          "explanation": "No ofrece información sobre la ventana ni sobre la lluvia."
+        },
+        {
+          "text": "Aporta un costo verificable de reparar el vidrio",
+          "explanation": "No presenta ningún dato presupuestario."
+        }
+      ],
+      "correct": 0,
+      "hint": "Una respuesta pertinente debe enfrentar la razón discutida.",
+      "solution": [
+        "La primera razón relaciona daño de ventanas y riesgo para libros.",
+        "El comentario personal no examina esa relación."
+      ],
+      "passage": {
+        "title": "La discusión",
+        "paragraphs": [
+          "El tema es si conviene reparar las ventanas para mejorar la lectura en la sala. Una integrante argumenta que el vidrio roto deja entrar lluvia y puede dañar los libros. Otra responde que esa integrante nunca organiza bien sus carpetas personales."
+        ]
+      },
+      "id": "textos-argumentativos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Conclusión fiel de un debate",
+      "body": [],
+      "prompt": "¿Qué conclusión expresa mejor el acuerdo?",
+      "choices": [
+        {
+          "text": "Se rechazaron ambas necesidades como inútiles",
+          "explanation": "El equipo las considera relevantes e integra parte de cada una."
+        },
+        {
+          "text": "Se eligió una secuencia parcial que atiende inventario y fragilidad dentro del tiempo disponible",
+          "explanation": "Resume el acuerdo concreto y su límite temporal."
+        },
+        {
+          "text": "Se completará todo el archivo en una semana con seguridad",
+          "explanation": "El texto niega que se haya resuelto la digitalización completa."
+        }
+      ],
+      "correct": 1,
+      "hint": "Conserva la combinación de prioridades y lo que quedó pendiente.",
+      "solution": [
+        "El registro mínimo permite identificar y la copia atiende fragilidad.",
+        "La decisión es una secuencia acotada, no una solución completa garantizada."
+      ],
+      "passage": {
+        "title": "La decisión del archivo",
+        "paragraphs": [
+          "Una postura propone digitalizar primero el catálogo porque así se sabrá qué documentos existen. Otra pide comenzar por las hojas más frágiles para reducir su manipulación. El equipo acepta que ambas necesidades son relevantes, pero dispone de una sola semana. Acuerda registrar de manera mínima las cajas y copiar después los documentos frágiles ya identificados. No resuelve todavía la digitalización completa."
+        ]
+      },
+      "id": "textos-argumentativos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Reconstruye antes de evaluar",
+      "body": [
+        "Resume la tesis con sus condiciones, identifica razones independientes y distingue las voces que objetan. Comprueba si la respuesta atiende de verdad la dificultad planteada.",
+        "Al repasar errores, busca qué palabra de alcance omitiste: solo, algunas, durante un mes o antes de ampliar. Esos límites son parte del argumento, no detalles prescindibles."
+      ],
+      "id": "textos-argumentativos-24",
+      "level": 3
+    }
+  ]
+}

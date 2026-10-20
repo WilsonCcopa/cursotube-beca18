@@ -14,6 +14,7 @@
   let selectedCourse = 'matematica', stepIndex = 0, selectedChoice = null, routeToken = 0;
   let reviewQueue = null, reviewAnswers = {}, transientRetry = false, newCount = 0;
   let manifestPromise = null, audioContext = null, noticeTimer = 0;
+  const searches = new Map();
   const memory = new Map();
   function read(key, fallback) {
     try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { storageOK = false; return memory.get(key) ?? fallback; }
@@ -184,10 +185,28 @@
         return `<article class="topic-card"><div class="topic-top"><span class="topic-num">${String(i + 1).padStart(2, '0')}</span><span class="topic-tag">${progress.done ? '✓ Logro guardado' : progress.count ? `${percent}% recorrido` : '3 niveles'}</span></div><h3>${esc(topic.title)}</h3><p>${esc(topic.description)}</p><div class="topic-meta"><span>${topic.steps} pasos</span><span>${topic.questionCount} preguntas</span><span>≈ ${topic.estimatedMinutes} min</span></div>${progress.count ? `<div class="mini-progress" aria-label="${percent}% recorrido"><span style="width:${percent}%"></span></div>` : ''}<button type="button" class="primary" data-action="open" data-id="${esc(topic.id)}">${progress.version?.completedAt ? 'Ver mi resultado' : progress.count ? 'Continuar' : 'Empezar tema'} <span aria-hidden="true">→</span></button></article>`;
       }).join('') || '<p class="empty-state">Pronto aparecerán nuevos temas aquí.</p>'}</div></div></section>
       <p class="catalog-note">Avanza en tres niveles: <strong>desde cero, aplicación y reto</strong>. Puedes equivocarte, consultar pistas y repetir sin límites. Tu progreso y tus logros se guardan en este dispositivo.</p>
-      <details class="demo"><summary>Laboratorio visual · un vistazo a geometría</summary><p class="explainer">Esta exploración es una muestra para futuros temas de geometría. No cuenta como tema ni otorga progreso.</p><div class="explorer" id="geometry-demo"></div></details>
+      <details class="demo"><summary>Laboratorio visual · un vistazo a geometría</summary><p class="explainer">Prueba radios, apotemas y diagonales. Esta exploración complementa los temas de geometría; no cuenta como un tema adicional ni cambia tu progreso.</p><div class="explorer" id="geometry-demo"></div></details>
       <div class="next-links"><a class="secondary" href="/beca18/reto/">Ir al reto diario →</a><a class="text-button" href="/beca18/">Practicar un simulacro</a></div>`;
+    mountCatalogSearch(course);
     mountGeometry($('#geometry-demo'));
     window.CT?.ads?.sync();
+  }
+  function mountCatalogSearch(course) {
+    const description = $('.course-description');
+    const region = document.createElement('div'); region.className = 'catalog-search';
+    region.innerHTML = `<label for="topic-search">Buscar en ${esc(course.shortTitle || course.title)}</label><input id="topic-search" type="search" autocomplete="off" placeholder="Escribe un tema o una idea…"><p class="search-count" aria-live="polite"></p>`;
+    description.after(region);
+    const empty = document.createElement('p'); empty.className = 'empty-state'; empty.hidden = true; empty.textContent = 'No encontramos temas con esas palabras. Prueba una palabra más corta o borra la búsqueda.';
+    $('.topic-grid').after(empty);
+    const normalize = text => String(text).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const input = $('input', region); input.value = searches.get(course.slug) || '';
+    const cards = [...document.querySelectorAll('.topic-card')];
+    const filter = () => {
+      const words = normalize(input.value).trim().split(/\s+/).filter(Boolean); let count = 0;
+      cards.forEach((card, index) => { const topic = course.topics[index]; const haystack = normalize([topic.title,topic.description,...(topic.objectives || [])].join(' ')); const show = words.every(word => haystack.includes(word)); card.hidden = !show; if (show) count++; });
+      searches.set(course.slug, input.value); $('.search-count',region).textContent = `${count} de ${cards.length} temas`; empty.hidden = count > 0;
+    };
+    input.addEventListener('input', filter); filter();
   }
   function renderError(title, description, topicId = '') {
     currentTopic = null; currentProgress = null; reviewQueue = null;
@@ -370,6 +389,7 @@
     else if (diagram.kind === 'balance') mountBalance(host, diagram);
     else if (diagram.kind === 'textmap') mountTextmap(host, diagram);
     else if (diagram.kind === 'highlight') mountHighlight(host, diagram);
+    else window.CTLearningDiagrams?.mount(host, diagram);
   }
   function mountFraction(host, config) {
     let denominator = Math.round(number(config.denominator, 4, 2, 12)), numerator = Math.round(number(config.numerator, 3, 0, denominator));
@@ -379,7 +399,7 @@
       const width = 304 / denominator;
       $('[data-graphic]', host).innerHTML = svg(Array.from({ length: denominator }, (_, i) => `<rect x="${28 + i * width}" y="42" width="${width}" height="70" fill="${i < numerator ? '#7462df' : '#fff'}" stroke="#5147a9" stroke-width="2"/>`).join('') + `<text x="180" y="155" text-anchor="middle" fill="#17223b" font-size="25" font-weight="800">${numerator} / ${denominator}</text>`, `${numerator} de ${denominator} partes iguales coloreadas`);
       const decimal = numerator / denominator;
-      const sign = Math.abs(decimal - Math.round(decimal * 1000) / 1000) > 1e-12 ? '≈' : '=';
+      const sign = (numerator * 1000) % denominator === 0 ? '=' : '≈';
       $('output', host).textContent = `${numerator}/${denominator} ${sign} ${decimal.toLocaleString('es-PE', { maximumFractionDigits: 3 })} del entero`;
     };
     $('[data-den]', host).addEventListener('input', (e) => { denominator = Number(e.target.value); numerator = Math.min(numerator, denominator); draw(); });

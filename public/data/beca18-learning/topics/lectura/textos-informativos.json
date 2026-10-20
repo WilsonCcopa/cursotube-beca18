@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-informativos",
+  "course": "lectura",
+  "slug": "textos-informativos",
+  "title": "Textos informativos",
+  "description": "Reconoce noticia, carta, memorando e informe y distingue hechos de atribuciones.",
+  "version": 1,
+  "order": 19,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Leer hechos y estructura de una noticia",
+    "Interpretar cartas formales, memorandos e informes",
+    "Integrar información, atribuciones y alcance sin inventar datos"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Informar exige precisar qué se sabe",
+      "body": [
+        "Un texto informativo comunica hechos o datos para que el lector conozca una situación. Una noticia suele responder qué ocurrió, quiénes participaron, cuándo y dónde; cómo y por qué se incluyen cuando la información está disponible.",
+        "El titular anuncia el hecho central. La bajada lo amplía. La entradilla o lead resume información principal y el cuerpo desarrolla detalles. No todas las noticias usan todas esas partes de la misma forma."
+      ],
+      "id": "textos-informativos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Del titular a los datos centrales",
+      "body": [
+        "Titular posible: El taller comunal abre una mesa de intercambio de cuadernos. Entradilla: el primer párrafo informa apertura, participantes, lugar y fecha.",
+        "No sería fiel un titular que prometiera cuadernos gratis para toda la ciudad: la actividad es un intercambio acotado y aún no se informa de su continuidad."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: una mesa de intercambio",
+        "paragraphs": [
+          "El sábado 12, el taller del centro comunal abrió una mesa de intercambio de cuadernos entre veinte participantes. La actividad se realizó en el patio y permitió cambiar cuadernos sin usar por otros materiales de utilidad para cada persona.",
+          "La coordinación informó que registraría las propuestas recibidas antes de decidir una nueva fecha. El documento de la jornada no presenta un calendario de continuidad."
+        ]
+      },
+      "id": "textos-informativos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Ubica la función de cada parte",
+      "body": [
+        "Toca cada componente de una noticia y distingue jerarquía de información."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Titular",
+            "text": "Enuncia el hecho central de manera precisa; no debe inventar un alcance mayor."
+          },
+          {
+            "label": "Bajada",
+            "text": "Añade una precisión relevante que complementa el titular."
+          },
+          {
+            "label": "Entradilla",
+            "text": "Reúne los datos principales del hecho para orientar la lectura."
+          },
+          {
+            "label": "Cuerpo",
+            "text": "Desarrolla antecedentes, detalles y declaraciones con sus atribuciones."
+          }
+        ]
+      },
+      "id": "textos-informativos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El hecho principal",
+      "body": [],
+      "prompt": "¿Qué hecho debe priorizar un titular fiel?",
+      "choices": [
+        {
+          "text": "Se resolvió definitivamente toda la historia del barrio",
+          "explanation": "El catálogo es una primera versión y aún requiere revisar datos."
+        },
+        {
+          "text": "Estudiantes presentan un catálogo de fotografías del barrio",
+          "explanation": "Recoge el acontecimiento central sin exagerarlo."
+        },
+        {
+          "text": "Todas las fotografías del mundo ya pueden consultarse",
+          "explanation": "Añade un alcance universal inexistente en la noticia."
+        }
+      ],
+      "correct": 1,
+      "hint": "El titular debe corresponder al acontecimiento principal y su escala.",
+      "solution": [
+        "La presentación del catálogo reúne qué, quiénes y tema central.",
+        "Las correcciones son detalles del desarrollo y no una resolución total."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: un catálogo",
+        "paragraphs": [
+          "El lunes 5, un equipo de estudiantes presentó un catálogo de fotografías del barrio en el aula comunal. La primera versión permite buscar imágenes por calle y año aproximado. Durante la presentación se recibieron correcciones de nombres que serán revisadas antes de actualizar el archivo."
+        ]
+      },
+      "id": "textos-informativos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un dato explícito",
+      "body": [],
+      "prompt": "¿Qué dato sí está informado?",
+      "choices": [
+        {
+          "text": "El lugar fue la sala del centro juvenil",
+          "explanation": "Aparece expresamente en la primera oración."
+        },
+        {
+          "text": "La actividad duró tres horas",
+          "explanation": "La nota no informa su duración."
+        },
+        {
+          "text": "Cada persona reparó exactamente dos cuadernos",
+          "explanation": "La razón total no demuestra que el reparto individual fuera uniforme."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue dato expreso de una distribución que podrías suponer.",
+      "solution": [
+        "El lugar está nombrado directamente.",
+        "La duración y la distribución por persona no se establecen."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: la reparación",
+        "paragraphs": [
+          "El viernes 9, quince integrantes del taller repararon las tapas de treinta cuadernos en la sala del centro juvenil. La coordinación llevó cartón limpio y adhesivo de uso escolar. La nota no indica cuánto duró la actividad."
+        ]
+      },
+      "id": "textos-informativos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una bajada pertinente",
+      "body": [],
+      "prompt": "¿Qué bajada amplía el titular sin deformarlo?",
+      "choices": [
+        {
+          "text": "Abrirá permanentemente a cualquier hora",
+          "explanation": "Borra la prueba mensual y amplía el horario sin base."
+        },
+        {
+          "text": "El proyecto garantiza que todas las personas leerán más",
+          "explanation": "No se midió ni se promete ese resultado."
+        },
+        {
+          "text": "La franja de los domingos funcionará durante un mes de prueba",
+          "explanation": "Añade una precisión central del cuerpo y conserva su alcance."
+        }
+      ],
+      "correct": 2,
+      "hint": "La bajada debe desarrollar un dato confirmado del acontecimiento.",
+      "solution": [
+        "El cuerpo delimita día y duración experimental.",
+        "La bajada fiel conserva esas condiciones."
+      ],
+      "passage": {
+        "title": "El titular",
+        "paragraphs": [
+          "Titular de una noticia de práctica: Biblioteca incorpora un turno temprano. El cuerpo informa que será los domingos, de 8:00 a 9:00, durante un mes de prueba."
+        ]
+      },
+      "id": "textos-informativos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "La pregunta sin dato",
+      "body": [],
+      "prompt": "¿Qué respuesta debe registrarse al preguntar por qué se trasladó?",
+      "choices": [
+        {
+          "text": "Porque llovió intensamente",
+          "explanation": "Es una causa posible, pero no aparece en el aviso."
+        },
+        {
+          "text": "La causa no está informada en el texto",
+          "explanation": "Reconoce el límite de lo que se conoce."
+        },
+        {
+          "text": "Porque todos rechazaron el patio",
+          "explanation": "Introduce una opinión colectiva sin evidencia."
+        }
+      ],
+      "correct": 1,
+      "hint": "Una noticia puede dejar una pregunta sin respuesta explícita.",
+      "solution": [
+        "El aviso presenta qué cambió, cuándo y dónde.",
+        "No permite elegir una causa concreta."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: un traslado",
+        "paragraphs": [
+          "La exposición de maquetas se trasladó al aula 3 el martes 16. Participaron cuatro grupos de secundaria. El aviso informa el cambio y el lugar nuevo, pero no explica la causa del traslado."
+        ]
+      },
+      "id": "textos-informativos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Un texto informativo no autoriza completar huecos con imaginación",
+      "body": [
+        "Si calculaste un reparto igual por persona, comprueba si el texto lo establece o solo da totales. Si inventaste una causa, anota que el dato falta.",
+        "Un titular y una bajada deben conservar escala, periodo y condición. Primera versión no es versión definitiva; mes de prueba no es apertura permanente."
+      ],
+      "id": "textos-informativos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Los documentos informan para acciones distintas",
+      "body": [
+        "Una carta formal puede comunicar, solicitar o responder con destinatario y trato explícitos. Un memorando suele comunicar de manera breve un asunto interno, con emisor, destinatario, fecha y tema identificables.",
+        "Un informe organiza antecedentes, acciones, hallazgos y, cuando corresponde, conclusiones o recomendaciones. El formato por sí solo no fija todo el propósito: una carta también puede argumentar y un informe puede proponer medidas."
+      ],
+      "id": "textos-informativos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Una solicitud necesita un objeto claro",
+      "body": [
+        "La carta identifica quién pide, qué documento desea consultar, con qué propósito y qué respuesta necesita. La cortesía acompaña esos datos, pero no los sustituye.",
+        "Resolución: una frase como Espero su respuesta sobre una fecha disponible permite actuar. Un saludo muy largo sin petición dejaría indeterminado el propósito."
+      ],
+      "passage": {
+        "title": "Carta de práctica",
+        "paragraphs": [
+          "Señora responsable del archivo: Soy integrante del taller de historia local. Solicito una cita para consultar los planos del barrio correspondientes a la década de 1980 y comparar sus calles con las fotografías del proyecto. Agradeceré que me indique una fecha disponible y los requisitos de consulta. Atentamente, Elena Ruiz."
+        ]
+      },
+      "id": "textos-informativos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Identifica los datos de un memorando",
+      "body": [
+        "Toca cada fragmento para reconocer su función."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "De: Coordinación del taller. Para: Responsables de grupo.",
+            "role": "Identifica emisor y destinatarios"
+          },
+          {
+            "text": "Asunto: entrega del inventario.",
+            "role": "Delimita el tema del mensaje"
+          },
+          {
+            "text": "Cada grupo debe enviar su inventario el viernes 18 antes de las 16:00.",
+            "role": "Comunica la acción y el plazo"
+          },
+          {
+            "text": "Si no hubo movimientos, debe informarse expresamente.",
+            "role": "Añade una condición para evitar interpretar silencio como ausencia de cambios"
+          }
+        ]
+      },
+      "id": "textos-informativos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "El propósito de la carta",
+      "body": [],
+      "prompt": "¿Cuál es el propósito principal?",
+      "choices": [
+        {
+          "text": "Relatar una jornada que ya terminó",
+          "explanation": "Se solicita una actividad futura, no se cuenta un hecho concluido."
+        },
+        {
+          "text": "Demostrar que todas las aulas están libres",
+          "explanation": "La disponibilidad todavía debe confirmarse."
+        },
+        {
+          "text": "Solicitar autorización para usar un aula en una actividad delimitada",
+          "explanation": "Recoge la petición, el espacio y la condición temporal."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca la acción que la persona espera del destinatario.",
+      "solution": [
+        "La carta pide autorización y confirmación.",
+        "Los demás datos permiten evaluar esa solicitud."
+      ],
+      "passage": {
+        "title": "Carta de práctica",
+        "paragraphs": [
+          "Señor encargado: Solicito autorización para usar el aula 2 el sábado de 9:00 a 11:00 para una jornada de encuadernación. Participarían doce estudiantes y una docente. Dejaremos el espacio ordenado y necesitamos confirmar la disponibilidad antes del miércoles."
+        ]
+      },
+      "id": "textos-informativos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Memorando y tarea",
+      "body": [],
+      "prompt": "¿Qué tarea se comunica?",
+      "choices": [
+        {
+          "text": "Revisar y actualizar el estado de los préstamos antes del plazo",
+          "explanation": "Resume la acción y conserva la advertencia de verificación."
+        },
+        {
+          "text": "Marcar todo como devuelto para cerrar el informe",
+          "explanation": "Contradice la condición de recepción real."
+        },
+        {
+          "text": "Comprar nuevas herramientas sin revisar registros",
+          "explanation": "No es una acción solicitada por el memorando."
+        }
+      ],
+      "correct": 0,
+      "hint": "El mensaje distingue actualización y suposición de devolución.",
+      "solution": [
+        "Se exige revisar qué préstamos siguen vigentes.",
+        "Actualizar no permite inventar una devolución."
+      ],
+      "passage": {
+        "title": "Memorando de práctica",
+        "paragraphs": [
+          "De: Coordinación. Para: Encargados de materiales. Asunto: actualización de registros. Antes del jueves 10, revisen los préstamos abiertos y anoten cuáles continúan vigentes. No den por devuelto un objeto que no haya sido recibido."
+        ]
+      },
+      "id": "textos-informativos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una recomendación de informe",
+      "body": [],
+      "prompt": "¿Qué oración es una recomendación y no un resultado observado?",
+      "choices": [
+        {
+          "text": "Se recibieron 24 cuadernos",
+          "explanation": "Es un hecho registrado durante la jornada."
+        },
+        {
+          "text": "Se recomienda revisar los daños antes de la próxima sesión",
+          "explanation": "Propone una acción futura a partir del hallazgo."
+        },
+        {
+          "text": "Se repararon 18",
+          "explanation": "Es una cantidad de trabajo ya realizado."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue pasado registrado y acción propuesta.",
+      "solution": [
+        "Los números describen resultados de la sesión.",
+        "Revisar antes de la próxima es una mejora sugerida."
+      ],
+      "passage": {
+        "title": "Informe de práctica",
+        "paragraphs": [
+          "Durante la jornada se recibieron 24 cuadernos y se repararon 18. Los seis restantes necesitaron un material que no estaba disponible. Se recomienda revisar los daños antes de la próxima sesión para reunir los insumos adecuados."
+        ]
+      },
+      "id": "textos-informativos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Información faltante para responder",
+      "body": [],
+      "prompt": "¿Qué datos debe pedir primero?",
+      "choices": [
+        {
+          "text": "El color favorito de cada participante",
+          "explanation": "No determina la disponibilidad temporal de la sala."
+        },
+        {
+          "text": "La cantidad exacta de palabras de la carta",
+          "explanation": "No ayuda a asignar un espacio en la agenda."
+        },
+        {
+          "text": "La fecha y el intervalo de uso solicitado",
+          "explanation": "Son necesarios para comprobar si la sala estará libre."
+        }
+      ],
+      "correct": 2,
+      "hint": "Relaciona el vacío con la decisión que debe tomar el destinatario.",
+      "solution": [
+        "La disponibilidad depende del momento de uso.",
+        "Sin fecha y horario no puede confirmarse la reserva."
+      ],
+      "passage": {
+        "title": "Una solicitud incompleta",
+        "paragraphs": [
+          "Una carta pide reservar una sala para un taller e indica doce participantes, pero no presenta fecha ni horario. La persona encargada necesita comprobar la disponibilidad."
+        ]
+      },
+      "id": "textos-informativos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Reconoce la función del dato",
+      "body": [
+        "Un documento puede incluir hechos, solicitudes y recomendaciones. Identifica cada función antes de resumir: recibió no equivale a recibirá; se recomienda no equivale a ya se hizo.",
+        "Si una petición parece cortés pero no permite decidir, busca qué información operativa falta. El formato no reemplaza la precisión del contenido."
+      ],
+      "id": "textos-informativos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Distingue hecho, declaración y certeza",
+      "body": [
+        "Una noticia puede informar que una persona afirmó algo sin que el redactor lo haya comprobado de forma independiente. Según la coordinadora preserva la atribución; borrarla puede cambiar el grado de respaldo.",
+        "Podría, preliminar y estimación también delimitan la certeza. Al integrar documentos, conserva esas marcas y distingue coincidencias de datos de explicaciones todavía pendientes."
+      ],
+      "id": "textos-informativos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una declaración debe seguir atribuida",
+      "body": [
+        "El registro confirma cuántas personas asistieron. La impresión de que el nuevo horario motivó la asistencia pertenece a la coordinadora y todavía no se verificó con los participantes.",
+        "Resumen resuelto: asistieron treinta personas y la coordinadora cree que el horario pudo influir. No es fiel afirmar que se demostró la causa."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: el nuevo turno",
+        "paragraphs": [
+          "Treinta personas asistieron al primer turno temprano del centro juvenil, según el registro de entrada. La coordinadora señaló que el horario pudo facilitar la presencia de quienes trabajan por la tarde. El equipo no realizó una encuesta de motivos y aclaró que compararía las siguientes jornadas antes de evaluar la continuidad del servicio."
+        ]
+      },
+      "id": "textos-informativos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Cruza datos sin borrar diferencias",
+      "body": [
+        "Si dos documentos hablan de periodos o grupos distintos, no los trates como una sola medición. Si uno corrige una cifra preliminar, identifica la versión y conserva el motivo de la corrección cuando sea relevante.",
+        "Un resumen informativo debe permitir distinguir qué está confirmado, quién sostiene una explicación y qué permanece por comprobar."
+      ],
+      "id": "textos-informativos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Conserva una atribución",
+      "body": [],
+      "prompt": "¿Qué afirmación es más fiel?",
+      "choices": [
+        {
+          "text": "La difusión escolar fue la única causa demostrada de la asistencia",
+          "explanation": "La nota atribuye una posibilidad y menciona otros avisos."
+        },
+        {
+          "text": "La organizadora considera posible una influencia de la difusión escolar; la causa no fue medida",
+          "explanation": "Mantiene la voz responsable y el límite del registro."
+        },
+        {
+          "text": "Nadie se enteró por el mercado",
+          "explanation": "No se recogió información que permita descartarlo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Separa el registro de asistencia y la explicación provisional.",
+      "solution": [
+        "Cuarenta asistentes es el dato registrado.",
+        "La influencia de la difusión es una hipótesis atribuida a la organizadora."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: un encuentro",
+        "paragraphs": [
+          "El registro del centro comunal consigna cuarenta asistentes a la primera feria de intercambio. Según la organizadora, la difusión en los colegios pudo favorecer la participación. La nota aclara que no se preguntó a los asistentes cómo se enteraron y que también hubo avisos en el mercado. El equipo evaluará esas vías antes de repetir la campaña."
+        ]
+      },
+      "id": "textos-informativos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una corrección informativa",
+      "body": [],
+      "prompt": "¿Qué debe informar un resumen actualizado?",
+      "choices": [
+        {
+          "text": "53 personas, sumando los dos avisos",
+          "explanation": "Los avisos corresponden a la misma lista y no deben sumarse."
+        },
+        {
+          "text": "28 personas como cifra definitiva",
+          "explanation": "El primer conteo fue corregido por duplicaciones."
+        },
+        {
+          "text": "25 personas inscritas tras depurar tres registros duplicados",
+          "explanation": "Conserva la cifra actualizada y el motivo de la diferencia."
+        }
+      ],
+      "correct": 2,
+      "hint": "Identifica cuál versión revisa a la otra.",
+      "solution": [
+        "El aviso posterior depura la misma lista.",
+        "La cifra vigente es 25 personas únicas, no la suma de versiones."
+      ],
+      "passage": {
+        "title": "Dos avisos de práctica",
+        "paragraphs": [
+          "A las 10:00, un primer aviso informó de modo preliminar 28 inscripciones. A las 12:00, la coordinación revisó duplicados y publicó una corrección: 25 personas inscritas, porque tres formularios se habían enviado dos veces. Ambos avisos hablan de la misma actividad y la misma lista, no de grupos distintos."
+        ]
+      },
+      "id": "textos-informativos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Información y valoración personal",
+      "body": [],
+      "prompt": "¿Qué dato puede presentarse como hecho registrado en la nota?",
+      "choices": [
+        {
+          "text": "La apertura de una sala con diez mesas el lunes",
+          "explanation": "Es el acontecimiento descrito, separado de la valoración de participantes."
+        },
+        {
+          "text": "Que se comprobó que es el mejor espacio del distrito",
+          "explanation": "Es una valoración citada que no fue contrastada de esa forma."
+        },
+        {
+          "text": "Que todas las demás salas son inadecuadas",
+          "explanation": "No se informa una comparación de todos los espacios."
+        }
+      ],
+      "correct": 0,
+      "hint": "La opinión de una fuente no equivale automáticamente a una medición.",
+      "solution": [
+        "La apertura y el mobiliario se presentan como hechos.",
+        "El mejor espacio es una valoración atribuida a dos participantes."
+      ],
+      "passage": {
+        "title": "Noticia de práctica: la apertura",
+        "paragraphs": [
+          "El centro juvenil abrió una sala con diez mesas el lunes. Dos participantes dijeron que era el mejor espacio de estudio del distrito. El reportero describe las mesas y el horario, pero no comparó todos los espacios del distrito ni aplicó una medición de calidad."
+        ]
+      },
+      "id": "textos-informativos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Integra dos documentos con precisión",
+      "body": [],
+      "prompt": "¿Qué resumen corresponde?",
+      "choices": [
+        {
+          "text": "Ya se repararon 38 cuadernos porque se anunció otra jornada",
+          "explanation": "Convierte una actividad anunciada en un resultado realizado."
+        },
+        {
+          "text": "Hay 30 reparados y ocho pendientes que se prevé atender en la próxima jornada",
+          "explanation": "Integra resultado pasado y acción futura sin confundirlos."
+        },
+        {
+          "text": "Los ocho pendientes se perdieron definitivamente",
+          "explanation": "No existe información de pérdida ni abandono."
+        }
+      ],
+      "correct": 1,
+      "hint": "Anunciado y completado son estados distintos.",
+      "solution": [
+        "El informe registra 30 reparados y ocho pendientes.",
+        "El aviso plantea atenderlos, pero no documenta la reparación realizada."
+      ],
+      "passage": {
+        "title": "El informe y el aviso",
+        "paragraphs": [
+          "Un informe de práctica indica que en junio se repararon 30 cuadernos y que ocho quedaron pendientes por falta de cartón. Un aviso posterior anuncia una nueva jornada para atender esos pendientes; no confirma que ya se hayan reparado. El equipo quiere resumir el estado de las tareas antes de la nueva fecha."
+        ]
+      },
+      "id": "textos-informativos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Informa con la certeza que la evidencia permite",
+      "body": [
+        "Distingue dato confirmado, conteo preliminar, declaración atribuida y acción futura. En una corrección, no sumes versiones de una misma lista.",
+        "Si fallaste una inferencia, revisa si borraste según, podría, preliminar o pendiente. Esas marcas protegen la fidelidad del mensaje y deben conservarse al resumir."
+      ],
+      "id": "textos-informativos-24",
+      "level": 3
+    }
+  ]
+}

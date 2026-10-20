@@ -1,0 +1,1500 @@
+{
+  "reviewer": "verbal_content; independent of math author",
+  "scope": "Matemática, capítulos6–15 y37–38",
+  "method": "Lectura manual de enunciado, las tres alternativas y sus explicaciones, solución y cálculo independiente consignado porID. El script solo conserva el registro y comprueba correspondencia con las claves leídas.",
+  "summary": {
+    "questions": 144,
+    "answerKeyErrors": 0,
+    "nonUniqueKeys": 0,
+    "feedbackFindings": 3,
+    "feedbackClaritySuggestion": 1,
+    "feedbackCorrectionsReverified": 4,
+    "unresolved": 0
+  },
+  "questions": [
+    {
+      "id": "razones-y-proporciones-04",
+      "expectedAnswer": "8 cm",
+      "independentCheck": "23 − 15 = 8.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cinta mide 23 cm y otra 15 cm. ¿Cuál es la razón aritmética de la primera respecto de la segunda?"
+    },
+    {
+      "id": "razones-y-proporciones-05",
+      "expectedAnswer": "3:2",
+      "independentCheck": "21/14 = 3/2; 21/(21+14) = 3/5 es otra base.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En un grupo hay 21 participantes de mañana y 14 de tarde. ¿Cuál es la razón mañana:tarde simplificada?"
+    },
+    {
+      "id": "razones-y-proporciones-06",
+      "expectedAnswer": "4",
+      "independentCheck": "19−7=12; 16−d=12 → d=4.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si 19 − 7 = 16 − d, ¿cuánto vale d?"
+    },
+    {
+      "id": "razones-y-proporciones-07",
+      "expectedAnswer": "20",
+      "independentCheck": "3d=5·12=60 → d=20.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Encuentra d en 3/5 = 12/d."
+    },
+    {
+      "id": "razones-y-proporciones-12",
+      "expectedAnswer": "18",
+      "independentCheck": "(10+26)/2=18; 10−18=18−26=−8.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es la media diferencial de 10 y 26?"
+    },
+    {
+      "id": "razones-y-proporciones-13",
+      "expectedAnswer": "12",
+      "independentCheck": "√(8·18)=√144=12; 8/12=12/18.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es la media proporcional positiva de 8 y 18?"
+    },
+    {
+      "id": "razones-y-proporciones-14",
+      "expectedAnswer": "14",
+      "independentCheck": "6−10=−4; 10−c=−4 → c=14.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si 6 − 10 = 10 − c, ¿cuánto vale la tercera diferencial c?"
+    },
+    {
+      "id": "razones-y-proporciones-15",
+      "expectedAnswer": "45",
+      "independentCheck": "5c=15²=225 → c=45.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si 5/15 = 15/c y c es positivo, ¿cuánto vale c?"
+    },
+    {
+      "id": "razones-y-proporciones-20",
+      "expectedAnswer": "60",
+      "independentCheck": "a:b:c=8:12:15; total35partes, cada parte4; c=60.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si a:b = 2:3, b:c = 4:5 y a + b + c = 140, ¿cuánto vale c?"
+    },
+    {
+      "id": "razones-y-proporciones-21",
+      "expectedAnswer": "240 g",
+      "independentCheck": "Escala15/5=3; quinua80·3=240.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una receta usa 120 g de avena y 80 g de quinua para 5 porciones. Manteniendo la composición, ¿cuánta quinua necesitas para 15 porciones?"
+    },
+    {
+      "id": "razones-y-proporciones-22",
+      "expectedAnswer": "12 años",
+      "independentCheck": "5(4k+6)=6(3k+6) → k=3; mayor4k=12.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Dos edades están en razón 4:3. Dentro de 6 años estarán en razón 6:5. ¿Cuál es hoy la mayor edad?"
+    },
+    {
+      "id": "razones-y-proporciones-23",
+      "expectedAnswer": "7:18",
+      "independentCheck": "Agua10·2/5+15·1/5=7; concentrado6+12=18.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Mezclas 10 L con razón agua:concentrado 2:3 y 15 L con razón 1:4. Suponiendo volúmenes aditivos, ¿cuál es la razón final agua:concentrado?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-04",
+      "expectedAnswer": "2x² − 3x + 1 = 0",
+      "independentCheck": "a=2,b=−3,c=1 son no nulos; las otras opciones son incompleta y lineal.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál de estas ecuaciones es cuadrática completa en su forma escrita?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-05",
+      "expectedAnswer": "{−7; 7}",
+      "independentCheck": "Ambos cuadrados dan49; ±49 no.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es el conjunto de soluciones reales de x² = 49?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-06",
+      "expectedAnswer": "{−5; 0}",
+      "independentCheck": "x(x+5)=0 conserva raíz0.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Resuelve x² + 5x = 0."
+    },
+    {
+      "id": "ecuaciones-cuadraticas-07",
+      "expectedAnswer": "Ninguna",
+      "independentCheck": "x²=−9 no tiene soluciones reales.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuántas soluciones reales tiene x² + 9 = 0?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-12",
+      "expectedAnswer": "{2; 5}",
+      "independentCheck": "(x−2)(x−5)=x²−7x+10.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué conjunto resuelve x² − 7x + 10 = 0?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-13",
+      "expectedAnswer": "4, raíz doble",
+      "independentCheck": "(x−4)²=0; Δ=0.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es la raíz real de x² − 8x + 16 = 0?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-14",
+      "expectedAnswer": "(x + 2)² = 9",
+      "independentCheck": "x²+4x=5; completar requiere sumar4 a ambos miembros.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si x² + 4x − 5 = 0, ¿qué igualdad equivalente permite extraer la raíz?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-15",
+      "expectedAnswer": "{1 − √2; 1 + √2}",
+      "independentCheck": "Δ=8; (2±√8)/2=1±√2.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Resuelve x² − 2x − 1 = 0 en los reales."
+    },
+    {
+      "id": "ecuaciones-cuadraticas-20",
+      "expectedAnswer": "6 m",
+      "independentCheck": "x(x+4)=60 → (x−6)(x+10)=0; solo6 es longitud.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un rectángulo tiene ancho x y largo x + 4, en metros. Su área es 60 m². ¿Cuál es el ancho?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-21",
+      "expectedAnswer": "7",
+      "independentCheck": "Raíces3y4: suma7 y producto12.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Las raíces de x² − kx + 12 = 0 son 3 y 4. ¿Cuánto vale k?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-22",
+      "expectedAnswer": "15 años",
+      "independentCheck": "(t−11)(t−15)=0; mayor15; suma26/producto165.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Dos hermanas tienen edades positivas que suman 26 años y cuyo producto es 165. Eva es mayor que Luz. ¿Cuántos años tiene Eva?"
+    },
+    {
+      "id": "ecuaciones-cuadraticas-23",
+      "expectedAnswer": "2 m",
+      "independentCheck": "(10−2x)(14−2x)=60 → x²−12x+20=0; raíces2,10; exige0<x<5.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un rectángulo de 10 m por 14 m deja un área interior de 60 m² tras reservar un borde de ancho uniforme x. ¿Cuánto mide el borde?"
+    },
+    {
+      "id": "magnitudes-proporcionales-04",
+      "expectedAnswer": "4,5 soles por metro",
+      "independentCheck": "18/4=4,5 soles/m; inversa2/9 m/sol.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si 4 metros de cinta cuestan 18 soles a precio unitario constante, ¿cuál es la constante costo/longitud?"
+    },
+    {
+      "id": "magnitudes-proporcionales-05",
+      "expectedAnswer": "120 páginas",
+      "independentCheck": "45/3=15 páginas/min; 15·8=120.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una impresora produce 45 páginas en 3 minutos a ritmo constante. ¿Cuántas produce en 8 minutos?"
+    },
+    {
+      "id": "magnitudes-proporcionales-06",
+      "expectedAnswer": "(2,6), (4,12), (6,18)",
+      "independentCheck": "y/x=3 en las tres; primera tabla xy=24.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué tabla de pares (x,y) muestra proporcionalidad directa?"
+    },
+    {
+      "id": "magnitudes-proporcionales-07",
+      "expectedAnswer": "Porque C/d no es constante debido al cargo fijo",
+      "independentCheck": "C(1)/1=9; C(2)/2=6.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una entrega cuesta C = 6 + 3d soles por d kilómetros. ¿Por qué C y d no son directamente proporcionales?"
+    },
+    {
+      "id": "magnitudes-proporcionales-12",
+      "expectedAnswer": "12 horas",
+      "independentCheck": "6·8=48 bomba-horas;48/4=12.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Seis bombas iguales llenan un tanque en 8 horas. Sin pérdidas y con caudal constante, ¿cuánto tardan 4 bombas?"
+    },
+    {
+      "id": "magnitudes-proporcionales-13",
+      "expectedAnswer": "2 horas",
+      "independentCheck": "Distancia60·3=180km;180/90=2.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un recorrido se hace en 3 horas a 60 km/h constantes. ¿Cuánto se tarda a 90 km/h constantes en el mismo recorrido?"
+    },
+    {
+      "id": "magnitudes-proporcionales-14",
+      "expectedAnswer": "xy = 36",
+      "independentCheck": "2·18=3·12=6·6=36; cocientes9,4,1.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En una tabla se tienen (x,y) = (2,18), (3,12), (6,6). ¿Qué relación cumplen?"
+    },
+    {
+      "id": "magnitudes-proporcionales-15",
+      "expectedAnswer": "6 horas",
+      "independentCheck": "54 persona-horas /9 personas =6h.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una tarea requiere 54 persona-horas. Nueve personas con igual productividad la hacen juntas. ¿Cuánto tiempo necesitan?"
+    },
+    {
+      "id": "magnitudes-proporcionales-20",
+      "expectedAnswer": "25",
+      "independentCheck": "M=k√t;k=10/2=5;M(25)=25.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "M es directamente proporcional a √t. Si M = 10 cuando t = 4, ¿cuánto vale M cuando t = 25?"
+    },
+    {
+      "id": "magnitudes-proporcionales-21",
+      "expectedAnswer": "120 soles",
+      "independentCheck": "360·3/(2+3+4)=120.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se reparten 360 soles directamente a los pesos 2, 3 y 4. ¿Cuánto recibe el peso 3?"
+    },
+    {
+      "id": "magnitudes-proporcionales-22",
+      "expectedAnswer": "90 soles",
+      "independentCheck": "Pesos1/2:1/3:1/6=3:2:1;180·3/6=90.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Repartes 180 soles inversamente a 2, 3 y 6. ¿Cuánto corresponde al valor 2?"
+    },
+    {
+      "id": "magnitudes-proporcionales-23",
+      "expectedAnswer": "5 días",
+      "independentCheck": "Tasa240/(5·4·6)=2; diaria8·5·2=80;400/80=5.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Cinco personas producen 240 piezas en 4 días de 6 horas. A igual ritmo, ¿cuántos días necesitan 8 personas trabajando 5 horas diarias para producir 400 piezas?"
+    },
+    {
+      "id": "sucesiones-04",
+      "expectedAnswer": "19",
+      "independentCheck": "4·5−1=19; a6=23.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En la sucesión aₙ = 4n − 1, con n empezando en 1, ¿cuánto vale a₅?"
+    },
+    {
+      "id": "sucesiones-05",
+      "expectedAnswer": "Finita",
+      "independentCheck": "El registro fija exactamente doce meses de un año.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una sucesión registra la producción de cada uno de los 12 meses de un año. ¿Cómo se clasifica por su extensión?"
+    },
+    {
+      "id": "sucesiones-06",
+      "expectedAnswer": "1",
+      "independentCheck": "Primer índice0;2^0=1.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si bₙ = 2ⁿ para n = 0, 1, 2…, ¿cuál es el primer término?"
+    },
+    {
+      "id": "sucesiones-07",
+      "expectedAnswer": "aₙ = 5n + 1",
+      "independentCheck": "a1=6; diferencia constante5.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué fórmula, con n = 1, 2, 3…, reproduce 6, 11, 16, 21… siguiendo incrementos constantes?"
+    },
+    {
+      "id": "sucesiones-12",
+      "expectedAnswer": "5",
+      "independentCheck": "a6=25−4·5=5; seis posiciones implican cinco cambios.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una sucesión inicia en 25 y resta 4 en cada paso. ¿Cuál es su sexto término?"
+    },
+    {
+      "id": "sucesiones-13",
+      "expectedAnswer": "6",
+      "independentCheck": "96/2^4=6; a4=12,a6=3.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "La sucesión 96, 48, 24… divide entre 2 cada vez. ¿Cuál es su quinto término?"
+    },
+    {
+      "id": "sucesiones-14",
+      "expectedAnswer": "−12",
+      "independentCheck": "(−1)^5·12=−12; a3=+9.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si aₙ = (−1)ⁿ⁺¹(3n), ¿cuánto vale a₄?"
+    },
+    {
+      "id": "sucesiones-15",
+      "expectedAnswer": "12",
+      "independentCheck": "7+3(n−1)=40 → n=12.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En aₙ = 7 + 3(n − 1), ¿en qué posición aparece 40?"
+    },
+    {
+      "id": "sucesiones-20",
+      "expectedAnswer": "21",
+      "independentCheck": "2,3,5,8,13,21,34; a6=21.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define a₁ = 2, a₂ = 3 y aₙ = aₙ₋₁ + aₙ₋₂ para n ≥ 3. ¿Cuánto vale a₆?"
+    },
+    {
+      "id": "sucesiones-21",
+      "expectedAnswer": "49",
+      "independentCheck": "2·5²−1=49; (2·5)²−1=99.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una sucesión sigue aₙ = 2n² − 1. ¿Cuánto vale a₅?"
+    },
+    {
+      "id": "sucesiones-22",
+      "expectedAnswer": "21",
+      "independentCheck": "Pares30,27,24,21; a8=21; a7=14.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "La regla es sumar 4 entre posiciones impares y restar 3 entre pares. La lista empieza 2, 30, 6, 27, 10, 24… ¿Cuál es a₈?"
+    },
+    {
+      "id": "sucesiones-23",
+      "expectedAnswer": "78",
+      "independentCheck": "1+...+12=12·13/2=78; hasta11=66.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una figura tiene filas de 1, 2, …, 12 puntos. ¿Cuántos puntos contiene?"
+    },
+    {
+      "id": "porcentajes-fundamentos-04",
+      "expectedAnswer": "0,07",
+      "independentCheck": "7/100=0,07;0,7=70%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué decimal equivale a 7 %?"
+    },
+    {
+      "id": "porcentajes-fundamentos-05",
+      "expectedAnswer": "35 %",
+      "independentCheck": "7/20=35/100.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En un grupo, 7 de cada 20 personas prefieren estudiar temprano. ¿Qué porcentaje representa?"
+    },
+    {
+      "id": "porcentajes-fundamentos-06",
+      "expectedAnswer": "9/20",
+      "independentCheck": "45/100 se reduce por5;9/20.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué fracción irreducible representa 45 %?"
+    },
+    {
+      "id": "porcentajes-fundamentos-07",
+      "expectedAnswer": "60",
+      "independentCheck": "1,5·40=60.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuánto es el 150 % de 40?"
+    },
+    {
+      "id": "porcentajes-fundamentos-12",
+      "expectedAnswer": "45",
+      "independentCheck": "0,18·250=45.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuánto es el 18 % de 250?"
+    },
+    {
+      "id": "porcentajes-fundamentos-13",
+      "expectedAnswer": "30 personas",
+      "independentCheck": "300·0,40·0,25=30; subgrupo120.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "El 40 % de 300 participantes estudia por la noche. De ese turno, el 25 % usa apuntes digitales. ¿Cuántas personas cumplen ambas condiciones?"
+    },
+    {
+      "id": "porcentajes-fundamentos-14",
+      "expectedAnswer": "180",
+      "independentCheck": "0,30N=54 → N=180.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si 54 representa el 30 % de una cantidad, ¿cuál es la cantidad completa?"
+    },
+    {
+      "id": "porcentajes-fundamentos-15",
+      "expectedAnswer": "35 %",
+      "independentCheck": "28/80=0,35;52/80=0,65.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un grupo tiene 80 integrantes y 28 usan bicicleta. ¿Qué porcentaje la usa?"
+    },
+    {
+      "id": "porcentajes-fundamentos-20",
+      "expectedAnswer": "25 %",
+      "independentCheck": "(150−120)/120=0,25.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cantidad pasa de 120 a 150. ¿Cuál fue el aumento porcentual?"
+    },
+    {
+      "id": "porcentajes-fundamentos-21",
+      "expectedAnswer": "25 %",
+      "independentCheck": "(50−40)/40=0,25; diferencia10 puntos.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una tasa pasa de 40 % a 50 %. ¿Cuál es su aumento relativo respecto de la tasa inicial?"
+    },
+    {
+      "id": "porcentajes-fundamentos-22",
+      "expectedAnswer": "25 %",
+      "independentCheck": "Caída100→80; recuperar20/80=25%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cantidad disminuye 20 %. ¿Qué porcentaje debe aumentar desde su nuevo valor para recuperar el inicial?"
+    },
+    {
+      "id": "porcentajes-fundamentos-23",
+      "expectedAnswer": "Disminuye 12 %",
+      "independentCheck": "Área:1,10·0,80=0,88; variación−12%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "El largo de un rectángulo aumenta 10 % y su ancho disminuye 20 %. ¿Qué ocurre con su área?"
+    },
+    {
+      "id": "porcentajes-sucesivos-04",
+      "expectedAnswer": "230 soles",
+      "independentCheck": "200·1,15=230; incremento30.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un precio de 200 soles aumenta 15 %. ¿Cuál es el nuevo precio?"
+    },
+    {
+      "id": "porcentajes-sucesivos-05",
+      "expectedAnswer": "60 soles",
+      "independentCheck": "80·0,75=60; rebaja20.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un libro cuesta 80 soles y tiene descuento de 25 %. ¿Cuánto se paga?"
+    },
+    {
+      "id": "porcentajes-sucesivos-06",
+      "expectedAnswer": "132",
+      "independentCheck": "100·1,10·1,20=132.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cantidad de 100 aumenta 10 % y después 20 %. ¿Cuál es el valor final?"
+    },
+    {
+      "id": "porcentajes-sucesivos-07",
+      "expectedAnswer": "144 soles",
+      "independentCheck": "200·0,80·0,90=144.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un artículo cuesta 200 soles. Recibe descuentos sucesivos de 20 % y 10 %. ¿Cuál es su precio final?"
+    },
+    {
+      "id": "porcentajes-sucesivos-12",
+      "expectedAnswer": "44 %",
+      "independentCheck": "0,80·0,70=0,56 conservado;descuento44%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿A qué descuento único equivalen descuentos sucesivos de 20 % y 30 %?"
+    },
+    {
+      "id": "porcentajes-sucesivos-13",
+      "expectedAnswer": "50 %",
+      "independentCheck": "1,25·1,20=1,50 → aumento50%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es el aumento único equivalente a subir 25 % y después 20 %?"
+    },
+    {
+      "id": "porcentajes-sucesivos-14",
+      "expectedAnswer": "0 %",
+      "independentCheck": "1,25·0,80=1.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cantidad aumenta 25 % y luego disminuye 20 %. ¿Cuál es la variación total?"
+    },
+    {
+      "id": "porcentajes-sucesivos-15",
+      "expectedAnswer": "Disminuye 4 %",
+      "independentCheck": "1,20·0,80=0,96.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cantidad sube 20 % y después baja 20 %. ¿Qué cambio global experimenta?"
+    },
+    {
+      "id": "porcentajes-sucesivos-20",
+      "expectedAnswer": "200 soles",
+      "independentCheck": "153/(0,85·0,90)=200;153/0,75=204.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Después de descuentos sucesivos de 15 % y 10 %, se pagan 153 soles. ¿Cuál era el precio inicial?"
+    },
+    {
+      "id": "porcentajes-sucesivos-21",
+      "expectedAnswer": "150 soles",
+      "independentCheck": "100·1,20·1,25=150.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un producto cuesta 100 soles al primer vendedor. Este recarga 20 % sobre costo y el siguiente recarga 25 % sobre lo que pagó. ¿Cuál es el precio final?"
+    },
+    {
+      "id": "porcentajes-sucesivos-22",
+      "expectedAnswer": "240 soles",
+      "independentCheck": "Costo0,75V=180 →V240;G60/V240=25%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un artículo cuesta 180 soles. Se desea que la ganancia sea el 25 % del precio de venta. ¿A cuánto debe venderse?"
+    },
+    {
+      "id": "porcentajes-sucesivos-23",
+      "expectedAnswer": "Se pierden 10 soles",
+      "independentCheck": "Costos120/1,20+120/0,80=100+150=250;ingreso240.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Dos objetos se venden a 120 soles cada uno. En el primero se gana 20 % sobre su costo y en el segundo se pierde 20 % sobre su costo. ¿Qué ocurre en conjunto?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-04",
+      "expectedAnswer": "25 %",
+      "independentCheck": "G=150−120=30;30/120=25%;30/150=20% es margen.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un artículo cuesta 120 soles y se vende a 150. ¿Cuál es la ganancia porcentual sobre costo?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-05",
+      "expectedAnswer": "30 soles",
+      "independentCheck": "V200·0,90=180;G180−150=30.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "La lista marca 200 soles y se descuenta 10 %. El costo fue 150. ¿Cuántos soles se ganan?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-06",
+      "expectedAnswer": "15 %",
+      "independentCheck": "P200−170=30;30/200=15%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un producto cuesta 200 soles y se vende a 170. ¿Qué porcentaje del costo se pierde?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-07",
+      "expectedAnswer": "250 soles",
+      "independentCheck": "Venta160·1,25=200;lista200/0,80=250;160·1,45=232 es distractor.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "El costo es 160 soles. Se busca ganar 25 % sobre costo luego de descontar 20 % de la lista. ¿Qué precio de lista corresponde?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-12",
+      "expectedAnswer": "26 soles/kg",
+      "independentCheck": "Costo2·20+3·30=130;masa5;130/5=26.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Mezclas 2 kg de un producto de 20 soles/kg con 3 kg de otro de 30 soles/kg. ¿Cuál es el costo medio por kg?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-13",
+      "expectedAnswer": "22 soles/kg",
+      "independentCheck": "Media de cantidades positivas entre12y20 no puede exceder20.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se mezclan cantidades positivas de un material de 12 soles/kg y otro de 20 soles/kg, sin otros costos. ¿Qué valor no puede ser su costo medio?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-14",
+      "expectedAnswer": "32 %",
+      "independentCheck": "Soluto3·0,20+2·0,50=1,6;total5;32%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Mezclas 3 kg de solución al 20 % en masa con 2 kg al 50 %. Sin pérdidas, ¿qué concentración tiene la mezcla?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-15",
+      "expectedAnswer": "36 g",
+      "independentCheck": "300·0,12=36;264 es resto.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una solución de 300 g tiene 12 % de sal en masa. ¿Cuántos gramos de sal contiene?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-20",
+      "expectedAnswer": "5 kg",
+      "independentCheck": "Soluto3;finaltotal3/0,20=15;añadir5.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Tienes 10 kg de solución al 30 % en masa. ¿Cuánta agua pura debes agregar para llegar al 20 %?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-21",
+      "expectedAnswer": "2:1",
+      "independentCheck": "0,20x+0,50y=0,30x+0,30y → x=2y.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿En qué razón de masas debes mezclar soluciones al 20 % y al 50 % para obtener 30 %, en ese orden?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-22",
+      "expectedAnswer": "18,75 %",
+      "independentCheck": "Soluto5−5·0,25=3,75;totalrepuesto20;3,75/20=18,75%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "De 20 kg de solución homogénea al 25 %, retiras 5 kg y repones 5 kg de agua. ¿Cuál es la concentración final?"
+    },
+    {
+      "id": "porcentajes-aplicaciones-23",
+      "expectedAnswer": "3 kg",
+      "independentCheck": "(2,4+x)/(3+x)=0,90 → x=3;añadir1 da85%.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una aleación de 3 kg contiene 80 % de cobre en masa. ¿Cuánto cobre puro se agrega para obtener 90 %?"
+    },
+    {
+      "id": "progresiones-04",
+      "expectedAnswer": "27",
+      "independentCheck": "3+6·4=27; siete saltos darían31.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una PA empieza en 3 y tiene diferencia 4. ¿Cuál es a₇?"
+    },
+    {
+      "id": "progresiones-05",
+      "expectedAnswer": "4",
+      "independentCheck": "(31−11)/(8−3)=4.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En una PA, a₃ = 11 y a₈ = 31. ¿Cuál es d?"
+    },
+    {
+      "id": "progresiones-06",
+      "expectedAnswer": "35",
+      "independentCheck": "50+5(−3)=35.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una PA tiene a₁ = 50 y d = −3. ¿Cuánto vale a₆?"
+    },
+    {
+      "id": "progresiones-07",
+      "expectedAnswer": "12",
+      "independentCheck": "(63−8)/5=11saltos;12términos.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una PA empieza en 8, aumenta 5 y termina en 63. ¿Cuántos términos tiene?"
+    },
+    {
+      "id": "progresiones-12",
+      "expectedAnswer": "650",
+      "independentCheck": "a20=4+19·3=61;S20=20(4+61)/2=650.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una PA tiene a₁ = 4 y d = 3. ¿Cuánto suman sus primeros 20 términos?"
+    },
+    {
+      "id": "progresiones-13",
+      "expectedAnswer": "441",
+      "independentCheck": "21..77:9términos;9·49=441.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es la suma de los múltiplos de 7 mayores que 20 y menores que 80?"
+    },
+    {
+      "id": "progresiones-14",
+      "expectedAnswer": "6, 10 y 14",
+      "independentCheck": "Cuatro saltos entre2y18: d4;2,6,10,14,18.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué tres números deben insertarse entre 2 y 18 para formar una PA de cinco términos?"
+    },
+    {
+      "id": "progresiones-15",
+      "expectedAnswer": "10 días",
+      "independentCheck": "5n(n+1)/2=275 →n(n+1)=110;n10; n11 acumula330.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Los aportes diarios son 5, 10, 15… soles. ¿En cuántos días se acumulan exactamente 275 soles?"
+    },
+    {
+      "id": "progresiones-20",
+      "expectedAnswer": "−96",
+      "independentCheck": "3(−2)^5=−96; con seis multiplicaciones da+192.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una PG tiene a₁ = 3 y r = −2. ¿Cuál es su sexto término?",
+      "feedbackFindingAtInitialReview": {
+        "severity": "feedback",
+        "finding": "Distractor −192 no se obtiene solo usando seis multiplicaciones; 3(−2)^6 es +192.",
+        "recommendation": "Explicar además el signo indebido, o usar +192 como distractor."
+      },
+      "resolution": "Autor corrigió; reviewer releyó y recalculó las cuatro explicaciones: verificadas.",
+      "currentFeedback": [
+        "Se omitió el signo negativo de una potencia impar de −2.",
+        "Se hicieron seis multiplicaciones en lugar de cinco y además se conservó indebidamente el signo negativo: 3(−2)⁶ sería +192.",
+        "a₆ = 3(−2)⁵ = −96."
+      ]
+    },
+    {
+      "id": "progresiones-21",
+      "expectedAnswer": "242",
+      "independentCheck": "2+6+18+54+162=242; a6=486.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuánto suman los primeros cinco términos de una PG con a₁ = 2 y r = 3?"
+    },
+    {
+      "id": "progresiones-22",
+      "expectedAnswer": "18",
+      "independentCheck": "|1/3|<1;12/(1−1/3)=18.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una PG infinita tiene primer término 12 y razón 1/3. ¿Cuál es su suma?"
+    },
+    {
+      "id": "progresiones-23",
+      "expectedAnswer": "5 unidades",
+      "independentCheck": "80/2^4=5;quinto cambio2,5;tercero10.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una cantidad inicial es 80 unidades en la etapa 0. Se reduce a la mitad en cada etapa. ¿Cuánto queda después de cuatro cambios?",
+      "feedbackFindingAtInitialReview": {
+        "severity": "feedback",
+        "finding": "2,5 es quinto cambio, pero contar el inicial como reducción explicaría menos cambios, no más.",
+        "recommendation": "Decir que se efectuó una reducción adicional."
+      },
+      "resolution": "Autor corrigió; reviewer releyó y recalculó las cuatro explicaciones: verificadas.",
+      "currentFeedback": [
+        "10 corresponde a tres cambios; faltaría la cuarta reducción.",
+        "2,5 corresponde a cinco cambios; se efectuó una reducción adicional a las cuatro solicitadas.",
+        "80 × (1/2)⁴ = 5."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-04",
+      "expectedAnswer": "−7",
+      "independentCheck": "El factor numérico de−7x²y incluye signo.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es el coeficiente de −7x²y?"
+    },
+    {
+      "id": "expresiones-algebraicas-05",
+      "expectedAnswer": "3x²y",
+      "independentCheck": "Un término, exponentes2y1 enteros no negativos;3/x exponente−1.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es un monomio polinómico en x e y?"
+    },
+    {
+      "id": "expresiones-algebraicas-06",
+      "expectedAnswer": "15",
+      "independentCheck": "2(−2)²−3(−2)+1=8+6+1=15.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si P(x) = 2x² − 3x + 1, ¿cuánto vale P(−2)?"
+    },
+    {
+      "id": "expresiones-algebraicas-07",
+      "expectedAnswer": "5",
+      "independentCheck": "Gradoabsoluto3+2=5;coeficiente4 no participa.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es el grado absoluto de 4x³y²?"
+    },
+    {
+      "id": "expresiones-algebraicas-12",
+      "expectedAnswer": "−2x²y + 7xy²",
+      "independentCheck": "(3−5)x²y+7xy²;xy² no es semejante.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Simplifica 3x²y − 5x²y + 7xy²."
+    },
+    {
+      "id": "expresiones-algebraicas-13",
+      "expectedAnswer": "−3x − 4",
+      "independentCheck": "2x−3−5x−1=−3x−4.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Simplifica (2x − 3) − (5x + 1)."
+    },
+    {
+      "id": "expresiones-algebraicas-14",
+      "expectedAnswer": "−6x³y⁴",
+      "independentCheck": "3(−2)x^(2+1)y^(1+3)=−6x³y⁴.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Multiplica (3x²y)(−2xy³)."
+    },
+    {
+      "id": "expresiones-algebraicas-15",
+      "expectedAnswer": "4x³y²",
+      "independentCheck": "12/3=4;x^(5−2)y^(3−1);restriccionesseconservan.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Para x ≠ 0 e y ≠ 0, simplifica 12x⁵y³/(3x²y)."
+    },
+    {
+      "id": "expresiones-algebraicas-20",
+      "expectedAnswer": "2",
+      "independentCheck": "Homogeneidad:a+2=3+1=4 →a2.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Para que xᵃy² + x³y sea homogéneo, con a entero no negativo, ¿cuánto vale a?"
+    },
+    {
+      "id": "expresiones-algebraicas-21",
+      "expectedAnswer": "12x",
+      "independentCheck": "(A−B)(A+B)=6·2x=12x.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Simplifica (x + 3)² − (x − 3)²."
+    },
+    {
+      "id": "expresiones-algebraicas-22",
+      "expectedAnswer": "3x(2x − 3)",
+      "independentCheck": "Distribuir3x recupera6x²−9x;otrasopciones−27x o pierdegrado.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué factorización es igual a 6x² − 9x?"
+    },
+    {
+      "id": "expresiones-algebraicas-23",
+      "expectedAnswer": "x + 5",
+      "independentCheck": "Interior5−x;llaves3x−5;4x−(3x−5)=x+5.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Simplifica 4x − {2x − [3 − (x − 2)]}."
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-04",
+      "expectedAnswer": "(2,3)",
+      "independentCheck": "2+3=5;4−3=1;otrasparejasfallansegunda.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué par resuelve x + y = 5 y 2x − y = 1?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-05",
+      "expectedAnswer": "5",
+      "independentCheck": "3(−1)+2·4=5;intercambio10.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si (x,y) = (−1,4), ¿cuánto vale 3x + 2y?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-06",
+      "expectedAnswer": "−2x + 4y = −6",
+      "independentCheck": "MultiplicarTODOpor−2 conservaelconjunto.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué ecuación se obtiene al multiplicar x − 2y = 3 por −2 sin alterar sus soluciones?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-07",
+      "expectedAnswer": "2x + y = 8; x − 3y = 1",
+      "independentCheck": "Ambasafinesgrado1;otrasx²yxyimpidenlinealidad.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué par de ecuaciones forma un sistema lineal en x e y?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-12",
+      "expectedAnswer": "(6,3)",
+      "independentCheck": "Sumar2x=12 →x6;y3.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Resuelve x + y = 9 y x − y = 3."
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-13",
+      "expectedAnswer": "(3,2)",
+      "independentCheck": "Sumar6x=18 →x3;y2.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Resuelve 2x + 3y = 12 y 4x − 3y = 6."
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-14",
+      "expectedAnswer": "Compatible indeterminado",
+      "independentCheck": "Segunda2×primera;misma recta;infinitosparesreales.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cómo se clasifica x + y = 4 junto con 2x + 2y = 8?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-15",
+      "expectedAnswer": "No tiene solución",
+      "independentCheck": "Duplicarprimera exige8 mientras segunda10;contradicción.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué ocurre con x + y = 4 y 2x + 2y = 10?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-20",
+      "expectedAnswer": "(3,1)",
+      "independentCheck": "Sumar3x=9 →x3;y1;CramerD−3,Dx−9,Dy−3.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Resuelve por cualquier método 2x + y = 7 y x − y = 2."
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-21",
+      "expectedAnswer": "10 entradas",
+      "independentCheck": "12a+8(30−a)=280→4a40→10.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se venden 30 entradas: las de adulto cuestan 12 soles y las de estudiante 8. Se recaudan 280 soles. ¿Cuántas entradas de adulto se vendieron?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-22",
+      "expectedAnswer": "31 aciertos",
+      "independentCheck": "c+i40;3c−i84→4c124→31;errores9.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una prueba tiene 40 preguntas, todas contestadas. Cada acierto vale 3 puntos y cada error resta 1. Si el puntaje es 84, ¿cuántos aciertos hubo?"
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-23",
+      "expectedAnswer": "74",
+      "independentCheck": "a+b11;a−b3→a7,b4;74−47=27.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un número de dos cifras tiene suma de cifras 11 y supera a su invertido en 27. ¿Cuál es el número?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-04",
+      "expectedAnswer": "11",
+      "independentCheck": "2·3+5=11;invertirda13.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define a ★ b = 2a + b. ¿Cuánto vale 3 ★ 5?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-05",
+      "expectedAnswer": "−2",
+      "independentCheck": "4−2·3=−2;invertir3−2·4=−5.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si a ◇ b = a − 2b, ¿cuánto es 4 ◇ 3?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-06",
+      "expectedAnswer": "8",
+      "independentCheck": "(−3)²−1=8;−3²−1=−10 es error sin agrupación.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define F(t) = t² − 1. ¿Cuánto vale F(−3)?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-07",
+      "expectedAnswer": "16",
+      "independentCheck": "2★3=8;8★4=16;otraagrupación2★11=24.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si a ★ b = a + 2b, ¿cuánto vale (2 ★ 3) ★ 4?",
+      "feedbackFindingAtInitialReview": {
+        "severity": "clarity",
+        "finding": "El feedback de10 no identifica un cálculo concreto.",
+        "recommendation": "Mostrar primera operación8;segunda8+2·4=16;10 no sigue la definición."
+      },
+      "resolution": "Autor corrigió; reviewer releyó y recalculó las cuatro explicaciones: verificadas.",
+      "currentFeedback": [
+        "La primera operación da 8 y la segunda debe dar 8 + 2 × 4 = 16; 10 no sigue la regla definida.",
+        "Primero 2 ★ 3 = 8; luego 8 ★ 4 = 16.",
+        "24 corresponde a la otra agrupación: 2 ★ (3 ★ 4)."
+      ]
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-12",
+      "expectedAnswer": "3",
+      "independentCheck": "2k+5=11→k3;conk8seobtiene21.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define a ◆ b = ka + b. Si 2 ◆ 5 = 11, ¿cuánto vale k?",
+      "feedbackFindingAtInitialReview": {
+        "severity": "feedback",
+        "finding": "La explicación de 8 alude a restar2 sin operación que produzca8 con los datos.",
+        "recommendation": "Comprobar k8:2·8+5=21, distinto de11."
+      },
+      "resolution": "Autor corrigió; reviewer releyó y recalculó las cuatro explicaciones: verificadas.",
+      "currentFeedback": [
+        "2k + 5 = 11 produce 2k = 6.",
+        "6 es el valor de 2k, no el de k.",
+        "Con k = 8, la regla produce 2k + 5 = 21, no 11."
+      ]
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-13",
+      "expectedAnswer": "3,5",
+      "independentCheck": "2x+3·4=19→x7/2;coeficientesinvertidos11/3.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Si a ★ b = 2a + 3b y x ★ 4 = 19, ¿cuánto vale x?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-14",
+      "expectedAnswer": "No está definida",
+      "independentCheck": "(3+3)/(3−3)=6/0;divisiónnulaindefinida.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define a □ b = (a + b)/(a − b). ¿Qué ocurre con 3 □ 3?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-15",
+      "expectedAnswer": "6",
+      "independentCheck": "Fila2,column4:2+4=6.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "En una tabla, las filas son la primera entrada a y las columnas la segunda b. La casilla se define como a ⊙ b = a + b. ¿Qué contiene fila 2, columna 4?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-20",
+      "expectedAnswer": "−2",
+      "independentCheck": "a+e+2=a→e−2;funcionaamboslados.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define a ⊙ b = a + b + 2 en los reales. ¿Cuál es su elemento neutro?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-21",
+      "expectedAnswer": "(4 ★ 2) ★ 1 = 1, pero 4 ★ (2 ★ 1) = 3",
+      "independentCheck": "(4−2)−1=1;4−(2−1)=3;contraejemplobasta.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Se define a ★ b = a − b. ¿Qué comparación demuestra que no es asociativa?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-22",
+      "expectedAnswer": "3",
+      "independentCheck": "Resultados{1+2,1+4,3+2,3+4}={3,5,7};parejas4.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Eliges un número de {1,3} y otro de {2,4} y sumas. ¿Cuántos valores diferentes puedes obtener?"
+    },
+    {
+      "id": "operadores-y-razonamiento-numerico-23",
+      "expectedAnswer": "2",
+      "independentCheck": "Base6·2=12;extras4/2=2animalesde4patas.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Hay seis animales, cada uno con dos o cuatro patas, y suman dieciséis patas. ¿Cuántos tienen cuatro patas?"
+    },
+    {
+      "id": "aritmetica-complementaria-04",
+      "expectedAnswer": "1/8",
+      "independentCheck": "0,125=125/1000=1/8.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué fracción irreducible equivale a 0,125?"
+    },
+    {
+      "id": "aritmetica-complementaria-05",
+      "expectedAnswer": "3/11",
+      "independentCheck": "x0,2727;100x−x27;27/99=3/11.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué fracción equivale exactamente a 0,272727…?"
+    },
+    {
+      "id": "aritmetica-complementaria-06",
+      "expectedAnswer": "1/6",
+      "independentCheck": "100x−10x=15→90x15→1/6.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Qué fracción irreducible equivale a 0,16666…?"
+    },
+    {
+      "id": "aritmetica-complementaria-07",
+      "expectedAnswer": "12/5 horas",
+      "independentCheck": "1/6+1/3−1/12=5/12tanque/h;T12/5h=2h24m.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Dos tubos llenan un tanque en 6 y 3 horas respectivamente. Un desagüe lo vacía en 12 horas. Todos operan juntos con caudales constantes. ¿En cuánto tiempo se llena desde vacío?"
+    },
+    {
+      "id": "aritmetica-complementaria-12",
+      "expectedAnswer": "1001",
+      "independentCheck": "7·11·13=1001;1011alternada1;1003≡2mod7.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál de estos números es divisible entre 7, 11 y 13 al mismo tiempo?"
+    },
+    {
+      "id": "aritmetica-complementaria-13",
+      "expectedAnswer": "462",
+      "independentCheck": "4−6+2=0;462/11=42;alternadasotras−1y1.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuál es divisible entre 11?"
+    },
+    {
+      "id": "aritmetica-complementaria-14",
+      "expectedAnswer": "Porque MCD(6,9) = 3 no divide a 25",
+      "independentCheck": "6x+9y=3(2x+3y) siempre múltiplo3enenteros;25 no.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Por qué 6x + 9y = 25 no tiene soluciones enteras?"
+    },
+    {
+      "id": "aritmetica-complementaria-15",
+      "expectedAnswer": "6",
+      "independentCheck": "72=2³3²;múltiplos6 exponentes2:1..3 y3:1..2;3·2=6.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "¿Cuántos divisores positivos de 72 son múltiplos de 6?"
+    },
+    {
+      "id": "aritmetica-complementaria-20",
+      "expectedAnswer": "12 cortes",
+      "independentCheck": "MCD18,30,42=6;piezas3+5+7=15;cortes15−3=12sinapilar.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Cortas barras de 18, 30 y 42 cm en piezas de máxima longitud igual, sin sobrantes y sin apilar barras al cortar. ¿Cuántos cortes necesitas?"
+    },
+    {
+      "id": "aritmetica-complementaria-21",
+      "expectedAnswer": "9 postes",
+      "independentCheck": "32/4=8intervalos;abiertoambosextremos9puntos.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un sendero recto de 32 m tendrá postes cada 4 m, incluidos ambos extremos. ¿Cuántos postes se colocan?"
+    },
+    {
+      "id": "aritmetica-complementaria-22",
+      "expectedAnswer": "8 postes",
+      "independentCheck": "Circuitocerrado40/5=8;finalcoincideconinicio.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Un circuito cerrado mide 40 m y lleva postes cada 5 m. ¿Cuántos postes distintos hay?"
+    },
+    {
+      "id": "aritmetica-complementaria-23",
+      "expectedAnswer": "30 cubos",
+      "independentCheck": "AristamáximaMCD24,36,60=12;2·3·5=30.",
+      "keyVerified": true,
+      "uniqueAlternativeVerified": true,
+      "distractorExplanationsReviewed": 3,
+      "solutionReviewed": true,
+      "question": "Una caja interior de 24 cm × 36 cm × 60 cm se llena sin huecos con cubos iguales, alineados con sus aristas. ¿Cuántos cubos de máxima arista caben?"
+    }
+  ]
+}

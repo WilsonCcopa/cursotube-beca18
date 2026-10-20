@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/evaluacion-de-fuentes-y-argumentos",
+  "course": "lectura",
+  "slug": "evaluacion-de-fuentes-y-argumentos",
+  "title": "Evalúa fuentes y argumentos",
+  "description": "Examina evidencia, credibilidad y forma, y decide qué conclusiones permite un texto.",
+  "version": 1,
+  "order": 26,
+  "estimatedMinutes": 32,
+  "objectives": [
+    "Distinguir afirmación, evidencia y justificación.",
+    "Evaluar fuentes con criterios pertinentes.",
+    "Examinar generalizaciones, causalidad y extrapolaciones."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una afirmación necesita apoyo pertinente",
+      "body": [
+        "Una afirmación presenta algo como verdadero. La evidencia aporta datos, observaciones o documentos. La justificación explica por qué esa evidencia sostiene la afirmación.",
+        "La evidencia debe referirse a la misma pregunta. Un testimonio sobre el sabor de una bebida no demuestra su efecto sobre la memoria.",
+        "Una opinión puede estar razonada y una cifra puede estar mal obtenida. Evalúa cómo se llegó a la información, no solo su apariencia."
+      ],
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-01"
+    },
+    {
+      "type": "example",
+      "title": "Un dato que sí responde",
+      "body": [
+        "La propuesta afirma que hacen falta más asientos durante el recreo. El registro cuenta personas sin asiento en ese mismo horario, por lo que es evidencia pertinente.",
+        "No demuestra por sí solo cuántos asientos comprar ni cuánto durará la necesidad. Para eso habría que revisar varios días, capacidad y presupuesto."
+      ],
+      "passage": {
+        "title": "La propuesta de bancos",
+        "paragraphs": [
+          "Un grupo propuso añadir bancos al patio porque durante el recreo varias personas permanecían de pie mientras comían. En tres recreos, sus integrantes contaron entre 18 y 24 personas buscando asiento. Presentaron las hojas de registro y aclararon que no habían observado todos los días del mes."
+        ]
+      },
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-02"
+    },
+    {
+      "type": "explore",
+      "title": "Desarma un argumento",
+      "body": [
+        "Toca cada pieza y observa la diferencia entre una propuesta, su apoyo y el vínculo que los conecta."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Afirmación",
+            "text": "Conviene ampliar una hora el préstamo de materiales durante la semana de proyectos."
+          },
+          {
+            "label": "Evidencia",
+            "text": "En cuatro días, el registro anotó solicitudes que llegaron en la última media hora y no pudieron completarse."
+          },
+          {
+            "label": "Justificación",
+            "text": "Una franja adicional podría atender esa demanda tardía si hay personal y materiales disponibles."
+          },
+          {
+            "label": "Límite",
+            "text": "El registro no prueba que deba ampliarse permanentemente durante todo el año."
+          }
+        ]
+      },
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-03"
+    },
+    {
+      "type": "question",
+      "title": "Evidencia pertinente",
+      "body": [],
+      "prompt": "¿Qué dato apoya mejor la necesidad de revisar el horario de atención?",
+      "choices": [
+        {
+          "text": "El color del nuevo cartel gusta a muchas personas",
+          "explanation": "Habla de diseño, no de solicitudes fuera de horario."
+        },
+        {
+          "text": "El registro muestra solicitudes que llegan después del cierre",
+          "explanation": "Relaciona directamente demanda y horario disponible."
+        },
+        {
+          "text": "El local fue pintado recientemente",
+          "explanation": "No informa cuándo necesitan atención las personas."
+        }
+      ],
+      "correct": 1,
+      "hint": "El apoyo debe responder a la misma dificultad que la afirmación.",
+      "solution": [
+        "La afirmación se refiere a la franja horaria.",
+        "Las solicitudes fuera de horario aportan evidencia pertinente."
+      ],
+      "passage": {
+        "title": "Un horario por revisar",
+        "paragraphs": [
+          "La oficina atiende de nueve a doce. Durante una semana anotó diez solicitudes que llegaron entre doce y una, cuando el personal ya no atendía al público. El equipo propuso estudiar una ampliación o una franja alternativa. En el mismo informe se menciona que el cartel de la entrada fue renovado y que el local se pintó el mes anterior."
+        ]
+      },
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-04"
+    },
+    {
+      "type": "question",
+      "title": "Afirmación y dato",
+      "body": [],
+      "prompt": "¿Cuál oración funciona como conclusión del argumento?",
+      "choices": [
+        {
+          "text": "En cinco jornadas se agotaron las fichas antes del recreo",
+          "explanation": "Es un dato usado como apoyo."
+        },
+        {
+          "text": "El registro se adjuntó al informe",
+          "explanation": "Describe dónde puede consultarse la evidencia."
+        },
+        {
+          "text": "Conviene aumentar la cantidad de fichas disponibles para una prueba",
+          "explanation": "Es la propuesta que se sostiene mediante el registro."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca lo que el autor propone a partir de lo observado.",
+      "solution": [
+        "El agotamiento de fichas es la observación.",
+        "Aumentar la cantidad para una prueba es la conclusión práctica."
+      ],
+      "passage": {
+        "title": "Las fichas del taller",
+        "paragraphs": [
+          "En cinco jornadas consecutivas se agotaron las fichas de inscripción antes del recreo. El registro de entregas se adjuntó al informe. Por esa razón, el equipo sostuvo que conviene aumentar la cantidad de fichas disponibles durante una prueba y observar si se atienden las solicitudes que quedaron pendientes."
+        ]
+      },
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-05"
+    },
+    {
+      "type": "question",
+      "title": "Un testimonio con límites",
+      "body": [],
+      "prompt": "¿Qué demuestra directamente el testimonio?",
+      "choices": [
+        {
+          "text": "La participante percibió que el material le resultó útil",
+          "explanation": "Eso es lo que relata su experiencia individual."
+        },
+        {
+          "text": "El material mejorará el rendimiento de todos",
+          "explanation": "Un caso personal no sostiene una generalización universal."
+        },
+        {
+          "text": "La mejora fue causada solo por el material",
+          "explanation": "También cambió el tiempo de estudio y no hubo comparación controlada."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue experiencia individual de eficacia general.",
+      "solution": [
+        "La participante informa su percepción.",
+        "No se aisló el efecto del material ni se observaron todos los estudiantes."
+      ],
+      "passage": {
+        "title": "Una experiencia individual",
+        "paragraphs": [
+          "Después de usar una guía de ejercicios, Mariela contó que le había ayudado a ordenar sus ideas. Durante ese mes también aumentó su tiempo de estudio y asistió a dos sesiones de consulta. Su comentario fue incluido como experiencia personal, sin una comparación de grupos ni un seguimiento de todos los usuarios."
+        ]
+      },
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-06"
+    },
+    {
+      "type": "question",
+      "title": "La justificación conecta",
+      "body": [],
+      "prompt": "¿Qué función cumple la última oración?",
+      "choices": [
+        {
+          "text": "Añade una cifra sin relación",
+          "explanation": "Relaciona la legibilidad con el uso que se espera del cartel."
+        },
+        {
+          "text": "Explica por qué el tamaño de letra importa para la propuesta",
+          "explanation": "Conecta una decisión formal con la posibilidad de leer a distancia."
+        },
+        {
+          "text": "Prueba que todo cartel grande es correcto",
+          "explanation": "No evalúa la verdad de todos los carteles ni establece universalidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "La última oración explica el mecanismo por el que una decisión ayudaría.",
+      "solution": [
+        "La propuesta es aumentar la letra.",
+        "La razón es facilitar lectura desde la distancia habitual."
+      ],
+      "passage": {
+        "title": "Un cartel para un pasillo",
+        "paragraphs": [
+          "El aviso se coloca a varios metros del lugar donde las personas hacen fila. Algunas se acercan para leerlo y vuelven luego a su posición. El equipo propone aumentar el tamaño de letra porque la información debería poder consultarse desde la distancia habitual de espera."
+        ]
+      },
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-07"
+    },
+    {
+      "type": "review",
+      "title": "La evidencia puede ser útil sin ser suficiente",
+      "body": [
+        "Un registro limitado puede apoyar una prueba inicial y seguir siendo insuficiente para una política permanente. Evita el salto de algunos casos a todos los casos.",
+        "No confundas relación temática con pertinencia: dos datos sobre una oficina pueden responder a preguntas diferentes. Explica el vínculo entre apoyo y conclusión."
+      ],
+      "level": 1,
+      "id": "evaluacion-de-fuentes-y-argumentos-08"
+    },
+    {
+      "type": "learn",
+      "title": "Credibilidad: pregunta quién, cómo y cuándo",
+      "body": [
+        "Revisa autoría y competencia pertinente, fecha, método, datos que se pueden consultar y posibles intereses. No son casillas mágicas: cada criterio debe ser relevante para la afirmación.",
+        "Una fuente oficial puede ser apropiada para sus propios trámites; un estudio técnico necesita método y evidencia. Un diseño elegante, muchos seguidores o lenguaje complicado no garantizan veracidad.",
+        "Corroborar implica contrastar con fuentes independientes. Diez páginas que repiten el mismo mensaje sin verificarlo no equivalen a diez comprobaciones distintas."
+      ],
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-09"
+    },
+    {
+      "type": "example",
+      "title": "Prefiere una fuente que permite verificar",
+      "body": [
+        "La ficha municipal identifica fecha, lugares observados y procedimiento. El mensaje anónimo no permite revisar de dónde sale su afirmación. Para saber qué días se midieron los residuos, la ficha es más verificable.",
+        "Esto no vuelve infalible a la ficha: si los datos tienen errores, pueden corregirse. La ventaja es que ofrece un camino de revisión."
+      ],
+      "passage": {
+        "title": "Dos fuentes sobre residuos",
+        "paragraphs": [
+          "Fuente A. Una ficha del equipo municipal de limpieza, fechada en agosto, indica los tres puntos observados, los días de pesado y las cantidades registradas. Adjunta una tabla y describe la balanza utilizada.",
+          "Fuente B. Un mensaje reenviado afirma que los residuos se duplicaron en toda la ciudad. No identifica autor, periodo, lugares de medición ni registro que permita comprobar el cálculo."
+        ]
+      },
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-10"
+    },
+    {
+      "type": "learn",
+      "title": "Distingue vigencia de antigüedad por sí sola",
+      "body": [
+        "Para un horario de atención importa que la información esté vigente; una noticia de hace años podría haber quedado desactualizada. Para un hecho histórico, una fuente antigua puede ser muy valiosa.",
+        "Un conflicto de interés no demuestra automáticamente falsedad, pero exige revisar con más cuidado método, transparencia y contraste independiente. Ataca o defiende la afirmación con evidencia pertinente, no solo a la persona."
+      ],
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-11"
+    },
+    {
+      "type": "question",
+      "title": "Una consulta sobre horario",
+      "body": [],
+      "prompt": "¿Qué fuente conviene revisar primero para saber el horario vigente?",
+      "choices": [
+        {
+          "text": "Una captura de un afiche sin fecha reenviada hace tres años",
+          "explanation": "Su vigencia no puede comprobarse."
+        },
+        {
+          "text": "El comunicado actual del servicio, fechado y publicado en su canal oficial",
+          "explanation": "Identifica procedencia y actualización sobre ese horario."
+        },
+        {
+          "text": "El comentario de alguien que visitó el local en otra ciudad",
+          "explanation": "Puede referirse a otra sede y a otro momento."
+        }
+      ],
+      "correct": 1,
+      "hint": "La pregunta requiere procedencia y vigencia para esa sede.",
+      "solution": [
+        "Se necesita el horario actual del servicio concreto.",
+        "El comunicado fechado y oficial es el punto de partida más pertinente."
+      ],
+      "passage": {
+        "title": "Antes de ir",
+        "paragraphs": [
+          "Lucía encontró tres mensajes sobre el horario de una oficina. Uno era la captura sin fecha de un afiche reenviado años atrás. Otro era un comunicado de esta semana en el canal oficial de esa sede. El tercero era un comentario sobre una visita a una sede de otra ciudad. Lucía necesita elegir cuándo acudir mañana."
+        ]
+      },
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-12"
+    },
+    {
+      "type": "question",
+      "title": "Repetición no es independencia",
+      "body": [],
+      "prompt": "¿Por qué las doce publicaciones no equivalen a doce verificaciones independientes?",
+      "choices": [
+        {
+          "text": "Todas remiten al mismo mensaje sin presentar una comprobación propia",
+          "explanation": "La cadena multiplica copias de un único origen."
+        },
+        {
+          "text": "Toda información compartida es falsa",
+          "explanation": "Compartir no demuestra falsedad; el problema es la falta de verificación independiente."
+        },
+        {
+          "text": "Una cifra solo puede aparecer una vez",
+          "explanation": "Una cifra puede difundirse muchas veces y seguir teniendo un solo sustento original."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sigue la cadena hasta la fuente original.",
+      "solution": [
+        "Todas las publicaciones copian un mismo mensaje sin autor.",
+        "No aportan mediciones separadas que corroboren la cifra."
+      ],
+      "passage": {
+        "title": "Una cifra que circula",
+        "paragraphs": [
+          "Doce cuentas publicaron que un puente soporta cierta carga. Al revisar sus enlaces, una reportera encontró que todas copiaban un mismo mensaje sin autor. Ninguna aportaba planos, prueba técnica o documento de la entidad responsable. El número de publicaciones aumentó, pero no apareció un nuevo dato verificable."
+        ]
+      },
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-13"
+    },
+    {
+      "type": "question",
+      "title": "Un interés que exige revisión",
+      "body": [],
+      "prompt": "¿Cuál evaluación es más razonable?",
+      "choices": [
+        {
+          "text": "El informe es falso solo porque lo financió el fabricante",
+          "explanation": "El financiamiento requiere atención, pero no prueba por sí mismo falsedad."
+        },
+        {
+          "text": "El informe es verdadero porque tiene muchos gráficos",
+          "explanation": "La presentación visual no sustituye método y datos."
+        },
+        {
+          "text": "Conviene revisar el método, la declaración de intereses y estudios independientes",
+          "explanation": "Permite evaluar la afirmación sin aceptar ni rechazar por un único rasgo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Evita convertir un posible sesgo en una conclusión automática.",
+      "solution": [
+        "Existe un interés económico que debe declararse y examinarse.",
+        "La afirmación requiere revisión de evidencia y contraste independiente."
+      ],
+      "passage": {
+        "title": "Un resultado favorable",
+        "paragraphs": [
+          "Una empresa financió un informe que compara su material de construcción con otro. El resumen afirma que el suyo resiste más. La versión completa declara quién lo financió, pero el lector aún necesita revisar cómo se eligieron las muestras, qué prueba se hizo y si otros equipos obtuvieron resultados semejantes."
+        ]
+      },
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-14"
+    },
+    {
+      "type": "question",
+      "title": "Un aspecto formal útil",
+      "body": [],
+      "prompt": "¿Qué mejora formal facilita evaluar la información?",
+      "choices": [
+        {
+          "text": "Aumentar la cantidad de colores sin cambiar el contenido",
+          "explanation": "Puede decorar, pero no facilita revisar el origen de los datos."
+        },
+        {
+          "text": "Añadir fecha, unidad, fuente y explicación de cómo se midió",
+          "explanation": "Permite interpretar la cifra y rastrear su sustento."
+        },
+        {
+          "text": "Eliminar las limitaciones para que el mensaje parezca firme",
+          "explanation": "Ocultar límites reduce la posibilidad de evaluar el alcance."
+        }
+      ],
+      "correct": 1,
+      "hint": "Una buena forma ayuda a entender y verificar, no solo a impresionar.",
+      "solution": [
+        "La cifra carece de contexto medible y procedencia.",
+        "Fecha, unidad, fuente y método permiten interpretarla y comprobarla."
+      ],
+      "passage": {
+        "title": "Un gráfico incompleto",
+        "paragraphs": [
+          "Un afiche muestra una barra alta y la cifra 240, pero no indica si cuenta personas, litros o soles. Tampoco informa el periodo, el lugar ni el origen del dato. Quienes lo leen no pueden saber qué compara ni comprobar cómo se obtuvo esa cantidad."
+        ]
+      },
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-15"
+    },
+    {
+      "type": "review",
+      "title": "Verifica antes de aceptar por prestigio",
+      "body": [
+        "La credibilidad se construye con criterios pertinentes: trazabilidad, método, competencia, vigencia y contraste. Ninguno reemplaza automáticamente a todos los demás.",
+        "Busca fuentes independientes de verdad y separa interés de prueba. Una corrección transparente puede mejorar una fuente; esconder errores o límites dificulta evaluarla."
+      ],
+      "level": 2,
+      "id": "evaluacion-de-fuentes-y-argumentos-16"
+    },
+    {
+      "type": "learn",
+      "title": "Evalúa el salto desde los datos",
+      "body": [
+        "Una muestra pequeña o voluntaria limita la generalización. Una coincidencia temporal no demuestra causalidad. Una condición necesaria no es siempre suficiente.",
+        "Para evaluar un argumento, conserva su tesis y pregunta si la evidencia permite exactamente esa conclusión. Ofrecer un contraejemplo basta para refutar una afirmación universal, pero no convierte automáticamente en verdadero su contrario universal."
+      ],
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-17"
+    },
+    {
+      "type": "example",
+      "title": "Del antes y después a la causa",
+      "body": [
+        "El consumo bajó durante la semana de la campaña, pero también cambió la asistencia. El registro antes/después no permite atribuir toda la reducción a la campaña.",
+        "Una conclusión mejor es que hubo una reducción observada y que se necesitan comparaciones que consideren cuántas personas asistieron y qué otras condiciones cambiaron."
+      ],
+      "passage": {
+        "title": "Una reducción con varias condiciones",
+        "paragraphs": [
+          "Una escuela registró menos consumo total de agua la semana en que publicó una campaña de ahorro. Esa semana hubo dos jornadas con asistencia reducida por actividades fuera del local. El informe comparó litros totales, pero no calculó consumo por persona ni observó otra escuela como comparación."
+        ]
+      },
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-18"
+    },
+    {
+      "type": "learn",
+      "title": "Extrapola conservando condiciones",
+      "body": [
+        "Aplicar una idea a otro contexto exige identificar el mecanismo y las condiciones relevantes. Si una estrategia funciona donde hay buena conexión, no se asegura el mismo resultado donde la conexión es inestable.",
+        "Una objeción pertinente señala un límite real del razonamiento. Cambiar de tema, descalificar a quien habla o repetir la tesis con mayor énfasis no responde a la evidencia."
+      ],
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-19"
+    },
+    {
+      "type": "question",
+      "title": "Una generalización excesiva",
+      "body": [],
+      "prompt": "¿Qué conclusión excede el alcance de la encuesta?",
+      "choices": [
+        {
+          "text": "Entre quienes respondieron, la mayoría prefirió el horario de tarde",
+          "explanation": "Eso describe al grupo observado."
+        },
+        {
+          "text": "Todos los estudiantes de la ciudad prefieren la tarde",
+          "explanation": "Se encuestó solo a voluntarios de un taller."
+        },
+        {
+          "text": "Sería útil consultar otros grupos antes de decidir para toda la ciudad",
+          "explanation": "Esa recomendación reconoce el límite de la muestra."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara la población observada con la población de la conclusión.",
+      "solution": [
+        "La muestra reúne voluntarios de un único taller.",
+        "No permite afirmar una preferencia universal de toda la ciudad."
+      ],
+      "passage": {
+        "title": "Un horario preferido",
+        "paragraphs": [
+          "En un taller de dibujo respondieron voluntariamente 18 estudiantes. Catorce eligieron horario de tarde y cuatro, de mañana. El informe explica cómo se contó, pero no consultó a otros talleres ni a estudiantes que no asisten a ese local."
+        ]
+      },
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-20"
+    },
+    {
+      "type": "question",
+      "title": "Correlación y causa",
+      "body": [],
+      "prompt": "¿Qué dato debilita más la atribución exclusiva al nuevo afiche?",
+      "choices": [
+        {
+          "text": "Durante esa semana también se añadió personal y se habilitó otra ventanilla",
+          "explanation": "Son cambios que podrían explicar parte de la menor espera."
+        },
+        {
+          "text": "El afiche usa letras grandes",
+          "explanation": "Eso describe su forma, pero no aísla la causa del resultado."
+        },
+        {
+          "text": "La espera se midió con reloj",
+          "explanation": "Mejora el registro, pero no separa efectos de cambios simultáneos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca otra condición que también pueda afectar el tiempo de atención.",
+      "solution": [
+        "La conclusión atribuye el cambio solo al afiche.",
+        "Más personal y otra ventanilla ofrecen explicaciones alternativas pertinentes."
+      ],
+      "passage": {
+        "title": "Una fila más corta",
+        "paragraphs": [
+          "La oficina colocó un afiche con pasos del trámite y observó una menor espera esa semana. El resumen atribuyó toda la mejora al afiche. Sin embargo, en las mismas fechas aumentó el personal y comenzó a funcionar una ventanilla adicional. No se midió por separado el efecto de cada cambio."
+        ]
+      },
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-21"
+    },
+    {
+      "type": "question",
+      "title": "Un contraejemplo pertinente",
+      "body": [],
+      "prompt": "¿Qué dato refuta la afirmación todos los ejemplares necesitan luz directa?",
+      "choices": [
+        {
+          "text": "Un ejemplar de esa especie se desarrolló con luz indirecta y las demás condiciones necesarias",
+          "explanation": "Un solo caso válido fuera de la condición universal basta para refutar todos."
+        },
+        {
+          "text": "Otra especie crece sin luz directa",
+          "explanation": "La afirmación se refiere a esta especie, no a otra."
+        },
+        {
+          "text": "A una persona no le gusta el sol",
+          "explanation": "No informa sobre los requisitos de los ejemplares."
+        }
+      ],
+      "correct": 0,
+      "hint": "Un contraejemplo debe pertenecer al mismo grupo y violar la afirmación universal.",
+      "solution": [
+        "La tesis abarca todos los ejemplares de una especie.",
+        "Un ejemplar de esa especie que se desarrolla sin luz directa contradice la universalidad."
+      ],
+      "passage": {
+        "title": "Una afirmación universal",
+        "paragraphs": [
+          "Durante una discusión se afirmó: Todos los ejemplares de esta especie necesitan luz directa para desarrollarse. El grupo decidió contrastar esa afirmación con registros de cultivo que identifiquen la especie y documenten las condiciones. No está discutiendo preferencias personales ni plantas de otras especies."
+        ]
+      },
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-22"
+    },
+    {
+      "type": "question",
+      "title": "Transfiere una estrategia con cuidado",
+      "body": [],
+      "prompt": "¿Qué propuesta extrapola de manera más justificada?",
+      "choices": [
+        {
+          "text": "Aplicar exactamente el mismo formulario en línea y garantizar igual resultado",
+          "explanation": "La conexión del nuevo contexto difiere y puede afectar el mecanismo."
+        },
+        {
+          "text": "Afirmar que los formularios en línea nunca sirven",
+          "explanation": "El límite de un contexto no invalida todas las aplicaciones."
+        },
+        {
+          "text": "Adaptar la captura para funcionar sin conexión y ensayar si conserva la reducción de errores",
+          "explanation": "Mantiene el mecanismo de validación y revisa una condición relevante del contexto nuevo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Identifica qué parte produjo la mejora y qué condición cambió.",
+      "solution": [
+        "La validación de campos ayudó a detectar omisiones.",
+        "En la nueva sede falta conexión estable.",
+        "Una captura con validación sin conexión conserva el mecanismo y necesita una prueba local."
+      ],
+      "passage": {
+        "title": "Un formulario en otra sede",
+        "paragraphs": [
+          "En una sede con conexión estable, un formulario en línea marcó campos vacíos antes de enviar la solicitud y redujo omisiones. La nueva sede tiene interrupciones frecuentes de internet. El objetivo sigue siendo detectar campos faltantes antes de aceptar cada solicitud; el equipo todavía no ha probado una adaptación allí."
+        ]
+      },
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-23"
+    },
+    {
+      "type": "review",
+      "title": "Formula una objeción que responda a la tesis",
+      "body": [
+        "Una crítica útil identifica un error de alcance, una premisa dudosa, evidencia insuficiente o una explicación alternativa. No basta manifestar desacuerdo.",
+        "Para extrapolar, conserva el mecanismo y revisa condiciones. Para generalizar, justifica la muestra. Para atribuir causa, considera cambios simultáneos. Para refutar todos, exige un contraejemplo del mismo conjunto."
+      ],
+      "level": 3,
+      "id": "evaluacion-de-fuentes-y-argumentos-24"
+    }
+  ]
+}

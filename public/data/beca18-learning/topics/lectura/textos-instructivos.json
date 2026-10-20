@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-instructivos",
+  "course": "lectura",
+  "slug": "textos-instructivos",
+  "title": "Textos instructivos",
+  "description": "Sigue metas, materiales, secuencias, condiciones y comprobaciones de procedimientos.",
+  "version": 1,
+  "order": 21,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Reconocer propósito, materiales y secuencia",
+    "Interpretar requisitos, ramas y criterios de finalización",
+    "Detectar omisiones y revisar instrucciones para lectores nuevos"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Un instructivo permite realizar una tarea",
+      "body": [
+        "El texto instructivo orienta acciones para lograr un resultado. Puede incluir título, materiales o requisitos, pasos y comprobaciones. No todos los instructivos necesitan ingredientes ni herramientas; depende de la tarea.",
+        "La claridad exige acciones identificables y un orden que respete dependencias. Primero coloca las hojas y después sujétalas es diferente de contar cómo alguien lo hizo ayer."
+      ],
+      "id": "textos-instructivos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Del material a la acción",
+      "body": [
+        "Meta: organizar un pequeño archivo de tarjetas. Materiales: tarjetas, tres sobres y lápiz. Secuencia: clasificar, nombrar sobres y guardar.",
+        "Resolución: no se puede guardar por categoría antes de definir a qué grupo pertenece cada tarjeta. Los pasos posteriores dependen de la clasificación inicial."
+      ],
+      "passage": {
+        "title": "Organiza tarjetas",
+        "paragraphs": [
+          "Materiales: tarjetas de tres temas, tres sobres y un lápiz. 1. Separa las tarjetas por tema. 2. Escribe en cada sobre el nombre de un tema. 3. Guarda cada grupo en el sobre correspondiente. 4. Revisa que ninguna tarjeta haya quedado en un sobre de otro tema."
+        ]
+      },
+      "id": "textos-instructivos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora las partes de una instrucción",
+      "body": [
+        "Toca cada elemento y vincúlalo con una necesidad del lector."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Meta",
+            "text": "Indica qué resultado se busca: un conjunto de tarjetas organizado."
+          },
+          {
+            "label": "Materiales",
+            "text": "Permite reunir lo necesario antes de empezar."
+          },
+          {
+            "label": "Pasos",
+            "text": "Presentan acciones y dependencias en un orden ejecutable."
+          },
+          {
+            "label": "Comprobación",
+            "text": "Permite saber si el resultado cumple lo solicitado."
+          }
+        ]
+      },
+      "id": "textos-instructivos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Identifica la meta",
+      "body": [],
+      "prompt": "¿Cuál es la meta del procedimiento?",
+      "choices": [
+        {
+          "text": "Escribir una historia sobre una hoja",
+          "explanation": "El texto orienta una tarea concreta y no una narración."
+        },
+        {
+          "text": "Crear una ficha de repaso con respuesta oculta en el interior",
+          "explanation": "Integra forma, contenido y función del resultado."
+        },
+        {
+          "text": "Medir la temperatura del papel",
+          "explanation": "No se realiza esa acción ni se requieren instrumentos para ella."
+        }
+      ],
+      "correct": 1,
+      "hint": "La meta describe el objeto terminado y su función.",
+      "solution": [
+        "La hoja doblada separa pregunta y respuesta.",
+        "Su función final es permitir repasar antes de mirar la explicación."
+      ],
+      "passage": {
+        "title": "Una ficha doblada",
+        "paragraphs": [
+          "Materiales: una hoja y lápices. 1. Dobla la hoja por la mitad. 2. Escribe un concepto en la cara exterior. 3. En el interior, escribe su explicación y un ejemplo. El resultado será una ficha para repasar sin ver de inmediato la respuesta."
+        ]
+      },
+      "id": "textos-instructivos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un material indispensable",
+      "body": [],
+      "prompt": "¿Qué objeto está requerido por el procedimiento?",
+      "choices": [
+        {
+          "text": "Una regla",
+          "explanation": "Se usa expresamente para marcar las divisiones."
+        },
+        {
+          "text": "Un pegamento",
+          "explanation": "No se pega ninguna parte y el texto no lo solicita."
+        },
+        {
+          "text": "Un termómetro",
+          "explanation": "No se mide temperatura en ninguna etapa."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca qué acción requiere el objeto, no solo qué suele usarse en manualidades.",
+      "solution": [
+        "Las divisiones se marcan usando una regla.",
+        "Es uno de los materiales definidos y tiene una función explícita."
+      ],
+      "passage": {
+        "title": "El separador",
+        "paragraphs": [
+          "Para hacer un separador se necesitan una tira de cartón, una regla y un lápiz. Primero se marcan tres divisiones iguales con la regla; luego se escribe un título en cada división. No se recorta ni se pega nada."
+        ]
+      },
+      "id": "textos-instructivos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Orden por dependencia",
+      "body": [],
+      "prompt": "¿Qué acción debe preceder inmediatamente a colocar la etiqueta?",
+      "choices": [
+        {
+          "text": "Abrir todas las cajas sin leer",
+          "explanation": "No es el paso previo indicado."
+        },
+        {
+          "text": "Guardar el lápiz y terminar",
+          "explanation": "No garantiza la comprobación requerida."
+        },
+        {
+          "text": "Comprobar que el nombre sea legible",
+          "explanation": "Es el paso 2 y una condición antes de colocarla."
+        }
+      ],
+      "correct": 2,
+      "hint": "Sigue la secuencia explícita y no una costumbre externa.",
+      "solution": [
+        "La etiqueta se escribe y después se comprueba.",
+        "Solo tras esa revisión se coloca en la caja."
+      ],
+      "passage": {
+        "title": "Las etiquetas",
+        "paragraphs": [
+          "1. Escribe el nombre de cada grupo en una etiqueta. 2. Comprueba que el nombre sea legible. 3. Coloca la etiqueta en su caja. El instructivo exige comprobar la escritura antes de colocarla."
+        ]
+      },
+      "id": "textos-instructivos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Verbo que orienta una acción",
+      "body": [],
+      "prompt": "¿Qué opción cumple esa función?",
+      "choices": [
+        {
+          "text": "Las fichas eran muy bonitas",
+          "explanation": "Describe una cualidad pasada sin orientar una acción."
+        },
+        {
+          "text": "Guarda las fichas ordenadas en el sobre azul",
+          "explanation": "Indica una acción concreta, su objeto y el lugar."
+        },
+        {
+          "text": "Tal vez ayer alguien vio un sobre",
+          "explanation": "Formula una conjetura sobre un hecho, no una instrucción."
+        }
+      ],
+      "correct": 1,
+      "hint": "Un paso debe permitir que el lector identifique qué acción realizar.",
+      "solution": [
+        "Guarda es un verbo dirigido al destinatario.",
+        "La frase define qué guardar y dónde."
+      ],
+      "passage": {
+        "title": "El aviso del taller",
+        "paragraphs": [
+          "La frase debe indicar al lector qué hacer con las fichas después de ordenarlas. Se busca una instrucción directa y ejecutable."
+        ]
+      },
+      "id": "textos-instructivos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Un paso debe poder ejecutarse",
+      "body": [
+        "Si elegiste un material por costumbre, vuelve a las acciones que el texto requiere. Si cambiaste la secuencia, comprueba qué paso necesita el resultado de uno anterior.",
+        "Una instrucción clara define acción, objeto y condición suficiente. Hazlo bien no reemplaza una comprobación concreta de lo que debe quedar listo."
+      ],
+      "id": "textos-instructivos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Condiciones y rutas alternativas",
+      "body": [
+        "Un requisito debe cumplirse antes de avanzar. Una condición como si la etiqueta está borrada activa una acción solo cuando ocurre ese caso. De lo contrario indica una ruta distinta.",
+        "El criterio de finalización explica cuándo detenerse: hasta que cada ficha tenga un código legible. No confundas una cantidad de repeticiones con un resultado que debe comprobarse."
+      ],
+      "id": "textos-instructivos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Una decisión con dos ramas",
+      "body": [
+        "Primera pregunta: ¿el rótulo se puede leer completo? Si sí, se conserva. Si no, se reemplaza. Ambas rutas llevan después a verificar el código en el registro.",
+        "Resolución: reemplazar todos los rótulos no respeta la condición; conservar uno ilegible tampoco. El procedimiento selecciona acciones según el estado observado."
+      ],
+      "passage": {
+        "title": "Revisa un rótulo",
+        "paragraphs": [
+          "Lee el nombre y el código de cada rótulo. Si ambos se distinguen completos, conserva el rótulo. Si falta alguna parte legible, escribe uno nuevo con los datos del registro. Después, comprueba que el código de la caja coincida con el registro."
+        ]
+      },
+      "id": "textos-instructivos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Sigue la ruta que corresponde",
+      "body": [
+        "Toca cada tramo para distinguir requisito, condición y cierre."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Antes de empezar, reúne las fichas de la misma actividad.",
+            "role": "Requisito previo"
+          },
+          {
+            "text": "Si una ficha carece de fecha, consulta el registro original.",
+            "role": "Condición que activa una acción"
+          },
+          {
+            "text": "Si ya tiene fecha legible, no la modifiques.",
+            "role": "Ruta alternativa"
+          },
+          {
+            "text": "Termina cuando todas las fichas tengan fecha comprobada o una marca explícita de dato pendiente.",
+            "role": "Criterio de finalización con tratamiento de casos sin dato"
+          }
+        ]
+      },
+      "id": "textos-instructivos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Actúa según la condición",
+      "body": [],
+      "prompt": "¿Qué acción corresponde?",
+      "choices": [
+        {
+          "text": "Guardarla como completa porque tiene título",
+          "explanation": "La condición exige que no falte ninguna parte."
+        },
+        {
+          "text": "Inventar la página faltante",
+          "explanation": "El instructivo pide registrar la falta, no completarla con imaginación."
+        },
+        {
+          "text": "Llevarla a revisión y anotar la página ausente",
+          "explanation": "Cumple la rama definida para materiales incompletos."
+        }
+      ],
+      "correct": 2,
+      "hint": "Compara el caso con todos los requisitos de la condición.",
+      "solution": [
+        "Falta una página, por lo que la hoja no está completa.",
+        "Corresponde revisión con registro de lo ausente."
+      ],
+      "passage": {
+        "title": "El archivado",
+        "paragraphs": [
+          "Si una hoja está completa y legible, colócala en la carpeta principal. Si falta una parte, guárdala en la carpeta de revisión y anota qué falta. Una hoja presenta el título y el texto, pero le falta la última página."
+        ]
+      },
+      "id": "textos-instructivos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un requisito anterior",
+      "body": [],
+      "prompt": "¿Qué debe hacerse antes de la entrega?",
+      "choices": [
+        {
+          "text": "Registrar el código del objeto",
+          "explanation": "Es el requisito que todavía falta cumplir."
+        },
+        {
+          "text": "Entregarla sin más porque el nombre ya figura",
+          "explanation": "El texto exige dos condiciones previas y solo se cumplió una."
+        },
+        {
+          "text": "Eliminar el nombre de Joel de la lista",
+          "explanation": "No hay razón ni indicación para esa acción."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue cumplir una condición y cumplir todas.",
+      "solution": [
+        "La lista ya se verificó.",
+        "Todavía falta registrar el código antes del retiro."
+      ],
+      "passage": {
+        "title": "El préstamo",
+        "paragraphs": [
+          "Antes de entregar una herramienta, verifica que el nombre del solicitante figure en la lista y registra el código del objeto. Solo después permite que lo retire. Joel está en la lista, pero aún no se registró el código."
+        ]
+      },
+      "id": "textos-instructivos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Criterio para terminar",
+      "body": [],
+      "prompt": "¿Cuándo se considera completada esta tarea de revisión?",
+      "choices": [
+        {
+          "text": "Cuando desaparece todo dato pendiente, incluso si debe inventarse",
+          "explanation": "La instrucción admite datos pendientes y no autoriza inventarlos."
+        },
+        {
+          "text": "Cuando todas las fichas fueron revisadas y cada falta quedó marcada",
+          "explanation": "Conserva el criterio de cobertura y el registro honesto de lo no verificado."
+        },
+        {
+          "text": "Cuando se revisa la primera ficha sin errores",
+          "explanation": "Debe comprobarse el conjunto, no un solo ejemplo."
+        }
+      ],
+      "correct": 1,
+      "hint": "El final se define por revisar todas, no por conocer todos los datos.",
+      "solution": [
+        "Cada ficha debe haber pasado por la comprobación.",
+        "Los campos no verificables permanecen explícitos como pendientes."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "Revisa las fichas una por una. En cada una comprueba nombre, fecha y código. Si un dato no puede verificarse, marca pendiente en ese campo. Termina cuando no quede ninguna ficha sin revisar, aunque existan campos marcados como pendientes."
+        ]
+      },
+      "id": "textos-instructivos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "No omitas una excepción",
+      "body": [],
+      "prompt": "¿A qué caja debe ir?",
+      "choices": [
+        {
+          "text": "A uso, porque basta el tamaño",
+          "explanation": "La condición de limpieza no se cumple."
+        },
+        {
+          "text": "A cualquier caja, porque las instrucciones no distinguen casos",
+          "explanation": "El texto define expresamente el caso con pegamento."
+        },
+        {
+          "text": "A revisión, por los restos de pegamento",
+          "explanation": "La excepción prevalece aunque el tamaño sea adecuado."
+        }
+      ],
+      "correct": 2,
+      "hint": "Conserva la condición que aparece después de aunque.",
+      "solution": [
+        "Tamaño correcto no equivale a material limpio.",
+        "La presencia de pegamento activa la ruta de revisión."
+      ],
+      "passage": {
+        "title": "La selección",
+        "paragraphs": [
+          "Guarda los cartones limpios en la caja de uso. Los que tengan restos de pegamento van a revisión, aunque su tamaño sea adecuado. Un cartón tiene el tamaño correcto, pero conserva restos de pegamento."
+        ]
+      },
+      "id": "textos-instructivos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Las condiciones deben verificarse, no suponerse",
+      "body": [
+        "Si entregaste la herramienta tras cumplir un solo requisito, enumera los que faltaban. Si mezclaste las rutas, escribe una pequeña pregunta de sí o no y sigue la acción correspondiente.",
+        "Un procedimiento puede terminar con datos pendientes bien registrados. Completar la revisión no significa fabricar información para que todos los campos parezcan llenos."
+      ],
+      "id": "textos-instructivos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Evalúa si otra persona puede seguirlo",
+      "body": [
+        "Un instructivo para lectores nuevos debe nombrar materiales, cantidades y referencias sin depender de costumbres que desconocen. Córtalo como siempre no basta si no se indica qué cortar ni cómo.",
+        "La revisión debe detectar pasos omitidos, órdenes imposibles y controles ausentes. No añadas tareas innecesarias que no contribuyan a la meta."
+      ],
+      "id": "textos-instructivos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una omisión rompe la secuencia",
+      "body": [
+        "El procedimiento pasa de escribir las etiquetas a guardar las tarjetas en el sobre correspondiente, pero aún no se colocaron etiquetas en los sobres. Una persona nueva no sabrá identificar esa correspondencia.",
+        "Revisión resuelta: después de escribir, coloca una etiqueta en cada sobre. Luego guarda las tarjetas según ese nombre y comprueba el contenido."
+      ],
+      "passage": {
+        "title": "El instructivo incompleto",
+        "paragraphs": [
+          "Materiales: tarjetas de tres temas, sobres sin nombre y etiquetas. 1. Escribe los nombres de los temas en las etiquetas. 2. Guarda cada grupo de tarjetas en el sobre correspondiente. 3. Revisa el contenido de cada sobre. El redactor confirma que los sobres estaban sin identificar al inicio."
+        ]
+      },
+      "id": "textos-instructivos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "El resultado debe comprobarse con una señal concreta",
+      "body": [
+        "Al finalizar, no basta decir que el trabajo quedó listo. Indica qué se observa: cada sobre tiene nombre y contiene solo tarjetas de ese tema.",
+        "Una advertencia pertinente se sitúa antes de la acción a la que afecta. Una corrección de estilo que llega después de una decisión irreversible puede resultar demasiado tardía."
+      ],
+      "id": "textos-instructivos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un paso faltante",
+      "body": [],
+      "prompt": "¿Qué paso debe añadirse antes del tercero?",
+      "choices": [
+        {
+          "text": "Cambiar el color de todas las hojas",
+          "explanation": "No resuelve que sigan fuera de la carpeta."
+        },
+        {
+          "text": "Introduce las hojas ordenadas y numeradas en la carpeta",
+          "explanation": "Completa la dependencia necesaria para tener una carpeta con contenido."
+        },
+        {
+          "text": "Repetir la fecha de la primera hoja diez veces",
+          "explanation": "No contribuye al resultado ni corrige la omisión."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara el estado inicial con el estado que el paso final supone.",
+      "solution": [
+        "El paso 3 presupone que la carpeta ya contiene hojas.",
+        "Debe añadirse la acción de guardarlas."
+      ],
+      "passage": {
+        "title": "La carpeta de consulta",
+        "paragraphs": [
+          "El instructivo parte de hojas sueltas y una carpeta vacía. Paso 1: ordena las hojas por fecha. Paso 2: numera las páginas del conjunto. Paso 3: coloca la carpeta completa en el estante. No aparece ninguna acción que introduzca las hojas en la carpeta y el redactor confirma que esa operación no está implícita en los dos primeros pasos."
+        ]
+      },
+      "id": "textos-instructivos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una referencia insuficiente",
+      "body": [],
+      "prompt": "¿Qué revisión es necesaria?",
+      "choices": [
+        {
+          "text": "Añadir más signos de exclamación",
+          "explanation": "No identifica objeto, lugar ni acción."
+        },
+        {
+          "text": "Cambiar allí por allá sin aclarar",
+          "explanation": "Conserva la indeterminación de lugar."
+        },
+        {
+          "text": "Nombrar el objeto, la caja de destino y el siguiente paso",
+          "explanation": "Sustituye referencias sin antecedente compartido por acciones ejecutables."
+        }
+      ],
+      "correct": 2,
+      "hint": "Los deícticos requieren un contexto que estos lectores no tienen.",
+      "solution": [
+        "Lo, allí y habitual carecen de anclaje suficiente.",
+        "Los datos explícitos permiten seguir el procedimiento."
+      ],
+      "passage": {
+        "title": "El nuevo grupo",
+        "paragraphs": [
+          "Una instrucción para estudiantes que nunca usaron el depósito dice: Ponlo allí y sigue con lo habitual. Al comenzar hay tres cajas posibles y no se identificó qué objeto se está manipulando. Ninguna persona del nuevo grupo comparte instrucciones anteriores."
+        ]
+      },
+      "id": "textos-instructivos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una comprobación operativa",
+      "body": [],
+      "prompt": "¿Qué cierre mejora la instrucción?",
+      "choices": [
+        {
+          "text": "Lee el nombre de cada sobre y revisa que todas sus tarjetas correspondan a ese tema",
+          "explanation": "Explicita los dos criterios verificables de la meta."
+        },
+        {
+          "text": "Mira rápidamente si el conjunto te gusta",
+          "explanation": "Sustituye condiciones definidas por una impresión subjetiva."
+        },
+        {
+          "text": "Confirma que nadie hizo preguntas",
+          "explanation": "La ausencia de preguntas no demuestra que el resultado sea correcto."
+        }
+      ],
+      "correct": 0,
+      "hint": "La comprobación debe medir las condiciones que definen la meta.",
+      "solution": [
+        "El nombre debe poder leerse y el contenido debe corresponder al tema.",
+        "La revisión propuesta verifica ambos aspectos."
+      ],
+      "passage": {
+        "title": "El archivo terminado",
+        "paragraphs": [
+          "La meta es que cada tarjeta quede en un sobre del mismo tema y que el nombre del sobre sea legible. El borrador cierra con: Comprueba que todo esté bien. El comité quiere un control que cualquier persona pueda ejecutar sin adivinar el criterio."
+        ]
+      },
+      "id": "textos-instructivos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Repara el orden de una advertencia",
+      "body": [],
+      "prompt": "¿Qué cambio de orden responde al objetivo?",
+      "choices": [
+        {
+          "text": "Eliminar la comprobación para ahorrar un paso",
+          "explanation": "Aumenta el riesgo que la advertencia intenta prevenir."
+        },
+        {
+          "text": "Colocar la verificación del código antes de escribirlo en la carpeta",
+          "explanation": "La condición se comprueba antes de la acción difícil de corregir."
+        },
+        {
+          "text": "Mantener la advertencia solo después de guardar la carpeta",
+          "explanation": "La comprobación seguiría llegando tarde."
+        }
+      ],
+      "correct": 1,
+      "hint": "Una condición previa debe aparecer antes de la acción que depende de ella.",
+      "solution": [
+        "La escritura definitiva supone un código ya correcto.",
+        "Verificar primero evita que el error se materialice."
+      ],
+      "passage": {
+        "title": "La rotulación",
+        "paragraphs": [
+          "El procedimiento pide escribir el código definitivo directamente en la carpeta. Al final advierte que primero debe comprobarse ese código en el registro maestro, porque un error será difícil de borrar. El objetivo es evitar marcar una carpeta con un código no verificado."
+        ]
+      },
+      "id": "textos-instructivos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Prueba mentalmente cada estado",
+      "body": [
+        "Describe cómo empieza el material, qué cambia en cada paso y qué debe quedar al terminar. Si un paso presupone un estado que ninguno produjo, hay una omisión.",
+        "Revisa también referencias, cantidades, ramas y comprobaciones. Una persona nueva debería poder ejecutar el texto sin recurrir a instrucciones que solo el autor conoce."
+      ],
+      "id": "textos-instructivos-24",
+      "level": 3
+    }
+  ]
+}

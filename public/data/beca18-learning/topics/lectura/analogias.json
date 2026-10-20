@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/analogias",
+  "course": "lectura",
+  "slug": "analogias",
+  "title": "Analogías",
+  "description": "Compara relaciones con dirección, función y nivel de precisión constantes.",
+  "version": 1,
+  "order": 16,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Formular relaciones en analogías horizontales",
+    "Completar pares y distinguir clases de relación",
+    "Resolver relaciones precisas y comparaciones verticales"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Compara relaciones, no palabras sueltas",
+      "body": [
+        "Una analogía busca una relación semejante entre dos pares. En llave : abrir, una llave es un instrumento que permite abrir; un par equivalente debe conservar instrumento y función en ese orden.",
+        "Escribe una oración breve para el par base y aplícala a cada opción. Compartir tema no basta: llave y puerta se asocian, pero no representan la relación instrumento-acción en ambos extremos."
+      ],
+      "id": "analogias-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Mantén la dirección",
+      "body": [
+        "Base: tijeras : cortar. Oración: las tijeras son un instrumento que se usa para cortar.",
+        "Resolución: regla : medir conserva instrumento y función. Medir : regla invierte el orden. Papel : tijeras expresa material e instrumento y cambia la relación."
+      ],
+      "passage": {
+        "title": "La tarea",
+        "paragraphs": [
+          "La actividad compara instrumentos con una de sus funciones habituales. No busca objetos fabricados con el mismo material ni acciones opuestas."
+        ]
+      },
+      "id": "analogias-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Formula una oración para cada vínculo",
+      "body": [
+        "Toca cada par y observa cómo se comprueba."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Rueda : bicicleta",
+            "text": "La rueda forma parte de la bicicleta: parte a todo."
+          },
+          {
+            "label": "Golondrina : ave",
+            "text": "La golondrina es una clase de ave: particular a general."
+          },
+          {
+            "label": "Escribir : borrar",
+            "text": "Son acciones que pueden oponerse sobre una marca, según el contexto."
+          },
+          {
+            "label": "Arquitecta : plano",
+            "text": "La profesional puede elaborar ese producto de trabajo; no es parte física de él."
+          }
+        ]
+      },
+      "id": "analogias-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Instrumento y función",
+      "body": [],
+      "prompt": "¿Qué par conserva la relación?",
+      "choices": [
+        {
+          "text": "Temperatura : termómetro",
+          "explanation": "Invierte magnitud e instrumento y no empieza por el objeto que mide."
+        },
+        {
+          "text": "Termómetro : medir temperatura",
+          "explanation": "Mantiene instrumento seguido de su función."
+        },
+        {
+          "text": "Balanza : metal",
+          "explanation": "Relaciona objeto y un posible material, no función."
+        }
+      ],
+      "correct": 1,
+      "hint": "Lee cada opción con la frase es un instrumento para.",
+      "solution": [
+        "Una balanza sirve para pesar.",
+        "Un termómetro sirve para medir temperatura en la misma dirección."
+      ],
+      "passage": {
+        "title": "El criterio",
+        "paragraphs": [
+          "La base es balanza : pesar. Se busca otro instrumento seguido por una función de medida que realiza."
+        ]
+      },
+      "id": "analogias-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Parte y todo",
+      "body": [],
+      "prompt": "¿Qué par es equivalente?",
+      "choices": [
+        {
+          "text": "Tecla : teclado",
+          "explanation": "Una tecla es componente de un teclado, como página de libro."
+        },
+        {
+          "text": "Libro : novela",
+          "explanation": "Presenta clase general y una clase particular."
+        },
+        {
+          "text": "Leer : escribir",
+          "explanation": "Relaciona acciones, no parte y todo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Prueba forma parte de, conservando el orden.",
+      "solution": [
+        "La base va de componente a objeto completo.",
+        "Tecla a teclado conserva esa dirección."
+      ],
+      "passage": {
+        "title": "La comparación",
+        "paragraphs": [
+          "Base: página : libro. Se considera la página como componente de un libro, no como una clase de libro."
+        ]
+      },
+      "id": "analogias-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Tipo y clase",
+      "body": [],
+      "prompt": "¿Qué opción corresponde?",
+      "choices": [
+        {
+          "text": "Vértice : triángulo",
+          "explanation": "Expresa parte y todo, no tipo y clase."
+        },
+        {
+          "text": "Polígono : cuadrado",
+          "explanation": "Invierte la dirección de particular a general."
+        },
+        {
+          "text": "Colibrí : ave",
+          "explanation": "Un colibrí es un tipo de ave, como un triángulo es un tipo de polígono."
+        }
+      ],
+      "correct": 2,
+      "hint": "No confundas ser parte de con ser una clase de.",
+      "solution": [
+        "Triángulo se incluye en polígono.",
+        "Colibrí se incluye en ave con la misma dirección."
+      ],
+      "passage": {
+        "title": "La base",
+        "paragraphs": [
+          "Triángulo : polígono. La relación se refiere a inclusión de una clase particular en otra más general."
+        ]
+      },
+      "id": "analogias-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una oposición en el mismo eje",
+      "body": [],
+      "prompt": "¿Qué par conserva la oposición de acciones?",
+      "choices": [
+        {
+          "text": "Cantidad : número",
+          "explanation": "Son términos relacionados, pero no acciones contrarias."
+        },
+        {
+          "text": "Acercar : alejar",
+          "explanation": "Son acciones opuestas en distancia, manteniendo una misma dimensión."
+        },
+        {
+          "text": "Aumentar : cantidad",
+          "explanation": "Une una acción y aquello sobre lo que actúa."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca dos acciones contrarias, no dos palabras asociadas.",
+      "solution": [
+        "Aumentar y disminuir cambian una cantidad en sentidos opuestos.",
+        "Acercar y alejar hacen lo mismo respecto de la distancia."
+      ],
+      "passage": {
+        "title": "El par",
+        "paragraphs": [
+          "Base: aumentar : disminuir. Se consideran como cambios contrarios en cantidad."
+        ]
+      },
+      "id": "analogias-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "El par necesita una relación completa",
+      "body": [
+        "Si elegiste una palabra del mismo tema, formula la oración que une ambas. Si elegiste el orden inverso, prueba la misma oración sin cambiar su dirección.",
+        "Una comparación rigurosa conserva la clase de relación, el orden y, cuando sea necesario, el nivel de generalidad. No basta que ambos pares tengan alguna conexión."
+      ],
+      "id": "analogias-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Completar un par también exige la relación",
+      "body": [
+        "En una analogía incompleta, primero reconstruye el vínculo del par conocido y después busca el término que ocupe el papel faltante. No respondas por semejanza sonora.",
+        "Existen relaciones de productor y producto, objeto y uso, etapa y proceso, parte y todo, causa y efecto en un contexto, o grado de intensidad. El contexto delimita cuáles se están comparando."
+      ],
+      "id": "analogias-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Productor y producto",
+      "body": [
+        "Base: panadera : pan. Se considera a la persona que produce un objeto, no el lugar donde trabaja ni la herramienta que usa.",
+        "Resolución: ceramista : vasija mantiene ese vínculo. Ceramista : taller sería trabajadora y lugar, una relación distinta aunque ambas palabras estén asociadas."
+      ],
+      "passage": {
+        "title": "Dos oficios",
+        "paragraphs": [
+          "Una panadera elabora pan. Una ceramista modela y cuece vasijas. La actividad compara a quien realiza el trabajo con uno de sus productos."
+        ]
+      },
+      "id": "analogias-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Distingue vínculos cercanos",
+      "body": [
+        "Toca los pares y observa qué cambia."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Carpintera : mesa",
+            "role": "Productora y producto"
+          },
+          {
+            "text": "Carpintera : taller",
+            "role": "Trabajadora y lugar de trabajo"
+          },
+          {
+            "text": "Serrucho : cortar",
+            "role": "Instrumento y función"
+          },
+          {
+            "text": "Pata : mesa",
+            "role": "Componente y objeto completo"
+          }
+        ]
+      },
+      "id": "analogias-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Completa el producto",
+      "body": [],
+      "prompt": "¿Qué término completa la analogía?",
+      "choices": [
+        {
+          "text": "Taller",
+          "explanation": "Es un lugar de trabajo, no el producto solicitado."
+        },
+        {
+          "text": "Arcilla",
+          "explanation": "Es material usado en el oficio; no equivale al producto elaborado."
+        },
+        {
+          "text": "Vasija",
+          "explanation": "Es un producto que puede elaborar una ceramista."
+        }
+      ],
+      "correct": 2,
+      "hint": "Conserva el papel de la segunda palabra: producto y no material ni lugar.",
+      "solution": [
+        "Pan es producto de la panadera.",
+        "Vasija ocupa ese mismo papel respecto de la ceramista."
+      ],
+      "passage": {
+        "title": "El formato",
+        "paragraphs": [
+          "Panadera : pan :: ceramista : ___. El texto define la relación como persona que elabora y producto elaborado."
+        ]
+      },
+      "id": "analogias-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Objeto y acción de cuidado",
+      "body": [],
+      "prompt": "¿Qué opción mantiene mejor la relación?",
+      "choices": [
+        {
+          "text": "Coser",
+          "explanation": "Es una acción de unión o reparación de la prenda, paralela al trabajo sobre el libro."
+        },
+        {
+          "text": "Vestir",
+          "explanation": "Es un uso de la prenda, no el trabajo de unión considerado."
+        },
+        {
+          "text": "Armario",
+          "explanation": "Es un lugar donde puede guardarse, no una acción."
+        }
+      ],
+      "correct": 0,
+      "hint": "La explicación de la relación restringe el sentido de la comparación.",
+      "solution": [
+        "Encuadernar une o asegura partes de un libro.",
+        "Coser puede unir partes de una prenda con esa misma función."
+      ],
+      "passage": {
+        "title": "La relación",
+        "paragraphs": [
+          "Libro : encuadernar :: prenda : ___. Se compara un objeto con una acción que une o asegura sus partes mediante un trabajo específico."
+        ]
+      },
+      "id": "analogias-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Intensidad en orden creciente",
+      "body": [],
+      "prompt": "¿Qué par conserva un aumento de intensidad?",
+      "choices": [
+        {
+          "text": "Pánico : inquietud",
+          "explanation": "Invierte la dirección: pasa de mayor a menor intensidad."
+        },
+        {
+          "text": "Inquietud : pánico",
+          "explanation": "Pasa de una preocupación leve a un miedo muy intenso."
+        },
+        {
+          "text": "Furia : mesa",
+          "explanation": "No forma una escala de estados comparables."
+        }
+      ],
+      "correct": 1,
+      "hint": "La analogía pide una escala, no una secuencia obligatoria de hechos.",
+      "solution": [
+        "La base aumenta intensidad dentro de un ámbito emocional.",
+        "Inquietud a pánico conserva el aumento, sin afirmar causalidad."
+      ],
+      "passage": {
+        "title": "La escala",
+        "paragraphs": [
+          "Base: molestia : furia. La actividad los considera estados de enfado que pasan de menor a mayor intensidad, sin afirmar que todas las molestias terminen en furia."
+        ]
+      },
+      "id": "analogias-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Relación causal delimitada",
+      "body": [],
+      "prompt": "¿Qué par de relaciones es equivalente?",
+      "choices": [
+        {
+          "text": "Válvula : agua :: interruptor : metal",
+          "explanation": "El segundo par cambia a un posible material y no conserva acción-efecto."
+        },
+        {
+          "text": "Agua : válvula :: cerrar : abrir",
+          "explanation": "Mezcla objeto y acciones sin mantener el vínculo observado."
+        },
+        {
+          "text": "Cerrar válvula : detener agua :: abrir interruptor : detener corriente",
+          "explanation": "Conserva acciones de corte y efectos observados, sin invertir el segundo circuito."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa lo que el ensayo afirma, no el sentido cotidiano de abrir una puerta.",
+      "solution": [
+        "Cada acción interrumpe un flujo en su circuito.",
+        "La analogía debe conservar esos dos efectos concretos."
+      ],
+      "passage": {
+        "title": "El ensayo",
+        "paragraphs": [
+          "En el ensayo, cerrar la válvula detuvo el paso del agua. En otro circuito, abrir el interruptor detuvo el paso de corriente. La comparación se refiere a una acción y su efecto observado en cada circuito."
+        ]
+      },
+      "id": "analogias-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "No cambies de vínculo para salvar una opción",
+      "body": [
+        "Si en el primer par dijiste produce, debes probar produce en el segundo. Cambiarlo por usa o trabaja en vuelve la comparación demasiado amplia.",
+        "En escalas de intensidad, conserva la dirección y evita convertir grados en una causa inevitable. En relaciones causales, usa las condiciones del contexto."
+      ],
+      "id": "analogias-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Precisión antes que semejanza superficial",
+      "body": [
+        "Puede haber varias relaciones generales posibles. Una consigna precisa el vínculo para que puedas elegir la opción que lo conserve con menos supuestos.",
+        "En comparaciones verticales, se relacionan elementos correspondientes de dos filas. Por ejemplo, colibrí : sardina y ave : pez pueden leerse por columnas: colibrí es ave y sardina es pez. Debes verificar ambas columnas."
+      ],
+      "id": "analogias-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una comparación vertical",
+      "body": [
+        "Fila superior: violín : flauta. Fila inferior: cuerda : viento. La comparación asigna a cada instrumento el tipo de mecanismo que caracteriza su producción sonora en esta clasificación.",
+        "Resolución: violín se clasifica entre los instrumentos de cuerda y flauta entre los de viento. No decimos que una flauta sea un tipo de cuerda; cada columna debe conservar su vínculo."
+      ],
+      "passage": {
+        "title": "La clasificación musical",
+        "paragraphs": [
+          "El taller agrupa instrumentos según cómo producen su sonido. Presenta el violín como instrumento de cuerda y la flauta como instrumento de viento. Se comparan las dos columnas de esa clasificación."
+        ]
+      },
+      "id": "analogias-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "La relación debe cubrir todos los elementos",
+      "body": [
+        "Una opción parcialmente correcta no resuelve una analogía: debe conservar también el segundo vínculo, la dirección y el nivel.",
+        "Después de elegir, explica la base y la opción con una misma oración. Si necesitas excepciones o cambiar el verbo, vuelve a examinar la alternativa."
+      ],
+      "id": "analogias-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Dos columnas completas",
+      "body": [],
+      "prompt": "¿Qué fila corresponde?",
+      "choices": [
+        {
+          "text": "Pez : ave",
+          "explanation": "Invierte las clases: colibrí no es pez y sardina no es ave."
+        },
+        {
+          "text": "Ave : pez",
+          "explanation": "Cada columna conserva la inclusión correcta."
+        },
+        {
+          "text": "Nido : agua",
+          "explanation": "Presenta lugares o medios asociados, no clases generales de ambos animales."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba colibrí es un tipo de ___ y sardina es un tipo de ___.",
+      "solution": [
+        "Colibrí se incluye en aves.",
+        "Sardina se incluye en peces: ambas columnas quedan completas."
+      ],
+      "passage": {
+        "title": "La tabla",
+        "paragraphs": [
+          "Fila superior: colibrí : sardina. Se busca una fila inferior que complete tipo particular → clase general en cada columna, en el mismo orden."
+        ]
+      },
+      "id": "analogias-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Parte estructural y unidad de conjunto",
+      "body": [],
+      "prompt": "¿Qué par conserva mejor esa organización de secciones?",
+      "choices": [
+        {
+          "text": "Página : tinta",
+          "explanation": "Relaciona soporte y material, no sección y obra."
+        },
+        {
+          "text": "Libro : capítulo",
+          "explanation": "Invierte la dirección parte organizada a conjunto."
+        },
+        {
+          "text": "Acto : obra teatral",
+          "explanation": "Un acto es una sección de una obra teatral, como un capítulo de un libro."
+        }
+      ],
+      "correct": 2,
+      "hint": "El rasgo solicitado es sección organizada de una obra.",
+      "solution": [
+        "La base no pide cualquier objeto cercano al libro.",
+        "Acto y obra teatral mantienen sección y conjunto."
+      ],
+      "passage": {
+        "title": "La base",
+        "paragraphs": [
+          "Capítulo : libro. La consigna considera un capítulo como una sección organizada que integra una obra, no como una palabra que aparece impresa."
+        ]
+      },
+      "id": "analogias-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Objeto y proceso característico",
+      "body": [],
+      "prompt": "¿Qué par es equivalente bajo esa relación?",
+      "choices": [
+        {
+          "text": "Huevo : eclosión",
+          "explanation": "Relaciona otra estructura con el proceso de salida y comienzo de una etapa definido por el texto."
+        },
+        {
+          "text": "Huevo : nido",
+          "explanation": "Une una estructura con un lugar donde puede encontrarse."
+        },
+        {
+          "text": "Germinación : planta",
+          "explanation": "Pasa de proceso a organismo y cambia la dirección solicitada."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conserva estructura seguida de proceso; usa la definición dada.",
+      "solution": [
+        "Semilla se vincula con su germinación.",
+        "Huevo se vincula con eclosión en la relación explicada."
+      ],
+      "passage": {
+        "title": "El contexto",
+        "paragraphs": [
+          "Semilla : germinación. Se compara una estructura biológica con el proceso por el que inicia el desarrollo que el texto considera. Para el segundo caso, el pasaje define eclosión como salida del organismo del huevo."
+        ]
+      },
+      "id": "analogias-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Explica por qué falla un distractor",
+      "body": [],
+      "prompt": "¿Por qué debe revisar su propuesta?",
+      "choices": [
+        {
+          "text": "Porque ningún museo puede tener herramientas de limpieza",
+          "explanation": "Sí puede tenerlas; la pregunta no exige negar su existencia."
+        },
+        {
+          "text": "Porque tener objetos no equivale a que esos objetos constituyan la colección ofrecida al público",
+          "explanation": "La relación de la base es más específica que mera presencia en un lugar."
+        },
+        {
+          "text": "Porque biblioteca y museo no pueden compararse en ninguna situación",
+          "explanation": "Pueden compararse si se conserva una relación pertinente."
+        }
+      ],
+      "correct": 1,
+      "hint": "No basta que un objeto esté físicamente en un lugar.",
+      "solution": [
+        "Libros es la colección que define el servicio considerado.",
+        "Herramientas de limpieza pueden estar presentes sin cumplir ese papel."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "Base: biblioteca : libros, bajo la relación lugar que organiza y ofrece una colección específica para su consulta. Una estudiante propone museo : herramientas de limpieza."
+        ]
+      },
+      "id": "analogias-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Comprueba la relación exacta en una frase",
+      "body": [
+        "Usa un verbo preciso: integra, produce, permite medir, pertenece a una clase o contrasta en intensidad. Evita se relaciona con, que puede justificar casi cualquier asociación.",
+        "En una analogía vertical, revisa las dos columnas. En una incompleta, determina qué papel falta. La respuesta correcta conserva la estructura de la relación y no solo un tema parecido."
+      ],
+      "id": "analogias-24",
+      "level": 3
+    }
+  ]
+}

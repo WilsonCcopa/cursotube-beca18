@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/intervalos-y-conjuntos",
+  "course": "matematica",
+  "slug": "intervalos-y-conjuntos",
+  "title": "Intervalos y conjuntos de números",
+  "description": "Representa soluciones en la recta y combina condiciones sin perder los extremos.",
+  "version": 1,
+  "order": 27,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Interpretar extremos abiertos y cerrados.",
+    "Calcular unión, intersección y diferencia de intervalos.",
+    "Traducir restricciones reales a conjuntos de soluciones."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Un intervalo reúne números",
+      "body": [
+        "Un intervalo real contiene todos los números entre dos extremos: enteros, decimales y fracciones. No es solo una lista de enteros.",
+        "En [a, b], ambos extremos se incluyen. En (a, b), ambos se excluyen. Puedes combinar: (a, b] excluye a e incluye b. En la recta, punto lleno significa incluido y punto vacío significa excluido.",
+        "Para no depender del símbolo, traduce: (−2, 3] significa −2 < x ≤ 3. Los paréntesis también se escriben a veces como corchetes invertidos; aquí usamos paréntesis."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-01"
+    },
+    {
+      "type": "example",
+      "title": "De una condición al intervalo",
+      "body": [
+        "Una temperatura debe ser mayor que 4 °C y no superar 9 °C. La condición es 4 < t ≤ 9.",
+        "El intervalo es (4, 9]. El 4 se excluye porque se exige mayor; el 9 se incluye porque no superar permite ser igual. 4,1 y 8,75 también pertenecen."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-02"
+    },
+    {
+      "type": "explore",
+      "title": "Prueba los extremos",
+      "body": [
+        "Mueve los extremos y activa o desactiva su inclusión. Observa cómo cambian la notación y los puntos de la recta.",
+        "Un extremo abierto sigue limitando el intervalo, aunque ese número concreto no pertenezca."
+      ],
+      "diagram": {
+        "kind": "interval",
+        "a": -2,
+        "b": 3,
+        "leftClosed": false,
+        "rightClosed": true
+      },
+      "level": 1,
+      "id": "intervalos-y-conjuntos-03"
+    },
+    {
+      "type": "question",
+      "title": "Incluye el límite superior",
+      "body": [],
+      "prompt": "¿Qué intervalo representa −1 < x ≤ 4?",
+      "choices": [
+        {
+          "text": "[−1, 4]",
+          "explanation": "Incluye −1, pero la desigualdad estricta lo excluye."
+        },
+        {
+          "text": "(−1, 4]",
+          "explanation": "Abierto en −1 y cerrado en 4 conserva ambas condiciones."
+        },
+        {
+          "text": "(−1, 4)",
+          "explanation": "Excluiría 4, aunque sí está permitido."
+        }
+      ],
+      "correct": 1,
+      "hint": "Relaciona < con extremo abierto y ≤ con cerrado.",
+      "solution": [
+        "−1 se excluye.",
+        "4 se incluye; intervalo (−1, 4]."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-04"
+    },
+    {
+      "type": "question",
+      "title": "Un número interior",
+      "body": [],
+      "prompt": "¿Cuál pertenece a (2, 3)?",
+      "choices": [
+        {
+          "text": "2",
+          "explanation": "El extremo 2 está excluido."
+        },
+        {
+          "text": "2,5",
+          "explanation": "Está estrictamente entre 2 y 3."
+        },
+        {
+          "text": "3",
+          "explanation": "El extremo 3 está excluido."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca un valor mayor que 2 y menor que 3.",
+      "solution": [
+        "2 < 2,5 < 3.",
+        "Por tanto, 2,5 pertenece."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-05"
+    },
+    {
+      "type": "question",
+      "title": "No acotes el infinito",
+      "body": [],
+      "prompt": "¿Qué intervalo representa x ≥ 5?",
+      "choices": [
+        {
+          "text": "[5, +∞)",
+          "explanation": "Incluye 5 y todos los reales mayores. El infinito no es un número que se incluya."
+        },
+        {
+          "text": "(5, +∞)",
+          "explanation": "Excluiría 5."
+        },
+        {
+          "text": "[5, +∞]",
+          "explanation": "El infinito siempre lleva extremo abierto, pues no es un valor real."
+        }
+      ],
+      "correct": 0,
+      "hint": "Incluye el 5; el infinito nunca lleva corchete cerrado.",
+      "solution": [
+        "x puede ser 5 o cualquier real mayor.",
+        "Se escribe [5, +∞)."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-06"
+    },
+    {
+      "type": "question",
+      "title": "Conjunto vacío",
+      "body": [],
+      "prompt": "¿Qué números reales satisfacen simultáneamente x > 3 y x ≤ 3?",
+      "choices": [
+        {
+          "text": "Solo 3",
+          "explanation": "3 no satisface x > 3."
+        },
+        {
+          "text": "Todos los reales",
+          "explanation": "Ningún número puede cumplir ambas comparaciones."
+        },
+        {
+          "text": "Ninguno: ∅",
+          "explanation": "Las condiciones son incompatibles."
+        }
+      ],
+      "correct": 2,
+      "hint": "Prueba el extremo y luego valores a cada lado.",
+      "solution": [
+        "x > 3 excluye 3 y todo lo menor.",
+        "x ≤ 3 excluye todo lo mayor.",
+        "La intersección es vacía."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-07"
+    },
+    {
+      "type": "review",
+      "title": "Revisa cada extremo por separado",
+      "body": [
+        "No decidas ambos símbolos de una vez. Pregunta: ¿el extremo izquierdo cumple la condición? ¿y el derecho?",
+        "Un intervalo contiene infinitos reales aunque sus extremos sean consecutivos. El infinito siempre se representa con un extremo abierto."
+      ],
+      "level": 1,
+      "id": "intervalos-y-conjuntos-08"
+    },
+    {
+      "type": "learn",
+      "title": "Intersección: cumplir las dos condiciones",
+      "body": [
+        "A ∩ B reúne los números que pertenecen a A y también a B. En la recta, es la parte compartida. La palabra y suele indicar intersección.",
+        "A ∪ B reúne lo que pertenece al menos a uno de los conjuntos. La palabra o suele indicar unión inclusiva: también se admiten los que están en ambos."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-09"
+    },
+    {
+      "type": "example",
+      "title": "Una zona compartida y una zona total",
+      "body": [
+        "Sea A = [−2, 4] y B = (1, 7). Para A ∩ B toma la zona común: (1, 4]. El 1 no entra porque B lo excluye; el 4 sí entra en ambos.",
+        "Para A ∪ B toma toda la zona cubierta por cualquiera: [−2, 7). No hay hueco porque los intervalos se superponen."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-10"
+    },
+    {
+      "type": "learn",
+      "title": "Cuando un punto decide si hay hueco",
+      "body": [
+        "[0, 2] ∪ (2, 5] = [0, 5] porque el 2 está en el primer intervalo.",
+        "En cambio, [0, 2) ∪ (2, 5] no contiene 2: hay un hueco y la unión no se puede escribir como un único intervalo sin cambiar el conjunto.",
+        "Si dos intervalos solo se tocan en un extremo, su intersección contiene ese punto únicamente cuando ambos lo incluyen."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-11"
+    },
+    {
+      "type": "question",
+      "title": "La parte común",
+      "body": [],
+      "prompt": "Si A = [0, 6] y B = [4, 9), ¿cuál es A ∩ B?",
+      "choices": [
+        {
+          "text": "[0, 9)",
+          "explanation": "Esa es la unión, no la parte compartida."
+        },
+        {
+          "text": "[4, 6]",
+          "explanation": "Todos los valores entre 4 y 6 están en ambos, incluidos los extremos."
+        },
+        {
+          "text": "(4, 6)",
+          "explanation": "4 y 6 sí pertenecen a los dos conjuntos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca la zona que las dos franjas cubren.",
+      "solution": [
+        "El mayor extremo izquierdo es 4.",
+        "El menor extremo derecho es 6.",
+        "Ambos se incluyen: [4, 6]."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-12"
+    },
+    {
+      "type": "question",
+      "title": "Sin huecos",
+      "body": [],
+      "prompt": "¿Cuál es [−3, 1] ∪ (1, 5)?",
+      "choices": [
+        {
+          "text": "[−3, 5)",
+          "explanation": "El 1 está incluido en el primer conjunto y no queda hueco."
+        },
+        {
+          "text": "[−3, 5]",
+          "explanation": "El 5 está excluido en el segundo y no aparece en el primero."
+        },
+        {
+          "text": "[−3, 1)",
+          "explanation": "Falta todo el tramo de 1 a 5."
+        }
+      ],
+      "correct": 0,
+      "hint": "El punto de contacto puede estar en cualquiera de los dos conjuntos para entrar en la unión.",
+      "solution": [
+        "Ambos tramos se unen gracias a que 1 pertenece al primero.",
+        "−3 entra y 5 no: [−3, 5)."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-13"
+    },
+    {
+      "type": "question",
+      "title": "Un único punto compartido",
+      "body": [],
+      "prompt": "¿Cuál es [1, 4] ∩ [4, 8]?",
+      "choices": [
+        {
+          "text": "∅",
+          "explanation": "Ambos intervalos sí incluyen 4."
+        },
+        {
+          "text": "[1, 8]",
+          "explanation": "Eso reúne los intervalos, no los intersecta."
+        },
+        {
+          "text": "{4}",
+          "explanation": "4 es el único número que está en ambos."
+        }
+      ],
+      "correct": 2,
+      "hint": "Comprueba el punto donde se tocan.",
+      "solution": [
+        "El primero no supera 4.",
+        "El segundo no baja de 4.",
+        "Solo coincide el 4."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-14"
+    },
+    {
+      "type": "question",
+      "title": "Dos restricciones sobre edad",
+      "body": [],
+      "prompt": "En un modelo real, una edad cumple 16 ≤ x < 22 y además x > 18. ¿Cuál es el conjunto permitido?",
+      "choices": [
+        {
+          "text": "[16, 22)",
+          "explanation": "Falta aplicar la condición x > 18."
+        },
+        {
+          "text": "(18, 22)",
+          "explanation": "El límite inferior 18 y el superior 22 quedan excluidos."
+        },
+        {
+          "text": "[18, 22]",
+          "explanation": "Ninguno de los dos extremos está permitido."
+        }
+      ],
+      "correct": 1,
+      "hint": "Las dos condiciones deben cumplirse a la vez.",
+      "solution": [
+        "Intersecta [16, 22) con (18, +∞).",
+        "Resultado: (18, 22)."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-15"
+    },
+    {
+      "type": "review",
+      "title": "No intercambies y con o",
+      "body": [
+        "Si te piden simultáneamente, conserva solo la superposición. Si permiten cualquiera de dos condiciones, reúne los conjuntos completos.",
+        "No borres huecos para simplificar la escritura. Comprueba los puntos de contacto antes de reemplazar dos intervalos por uno solo."
+      ],
+      "level": 2,
+      "id": "intervalos-y-conjuntos-16"
+    },
+    {
+      "type": "learn",
+      "title": "Diferencia y complemento",
+      "body": [
+        "A − B contiene lo que está en A pero no en B. El orden importa: A − B y B − A suelen ser distintos.",
+        "El complemento depende del universo. Si U = [0, 10] y A = [3, 6), entonces U − A = [0, 3) ∪ [6, 10]. El 3 se quita porque estaba en A; el 6 se conserva porque no estaba en A."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-17"
+    },
+    {
+      "type": "example",
+      "title": "Una franja con una zona retirada",
+      "body": [
+        "Sea A = [−4, 8] y B = (−1, 3]. En A − B se retiran los valores mayores que −1 hasta 3 inclusive.",
+        "Quedan [−4, −1] ∪ (3, 8]. Se conserva −1 porque B no lo contiene y se elimina 3 porque B sí lo contiene."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-18"
+    },
+    {
+      "type": "learn",
+      "title": "De lo real a un conteo",
+      "body": [
+        "Si una solución es x ∈ (1, 5] y x cuenta personas, se admiten solo 2, 3, 4 y 5. La variable de contexto puede restringir un intervalo real a enteros.",
+        "La longitud de un intervalo acotado entre a y b es b − a aunque algún extremo se excluya. Esto mide extensión, no cantidad de puntos."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-19"
+    },
+    {
+      "type": "question",
+      "title": "Quita una zona central",
+      "body": [],
+      "prompt": "¿Cuál es [0, 8] − [3, 5)?",
+      "choices": [
+        {
+          "text": "[0, 3] ∪ [5, 8]",
+          "explanation": "El 3 pertenece al conjunto que se retira, así que no se conserva."
+        },
+        {
+          "text": "[0, 3) ∪ [5, 8]",
+          "explanation": "Se elimina 3 y se conserva 5, que no estaba en [3, 5)."
+        },
+        {
+          "text": "[3, 5)",
+          "explanation": "Ese es el tramo que se quita, no lo que queda."
+        }
+      ],
+      "correct": 1,
+      "hint": "La pertenencia de cada extremo se invierte al retirar ese tramo dentro del conjunto inicial.",
+      "solution": [
+        "Retira desde 3 incluido hasta 5 excluido.",
+        "Quedan [0, 3) y [5, 8]."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-20"
+    },
+    {
+      "type": "question",
+      "title": "Complemento con universo explícito",
+      "body": [],
+      "prompt": "Si U = [−2, 6] y A = (0, 4], ¿cuál es U − A?",
+      "choices": [
+        {
+          "text": "[−2, 0] ∪ (4, 6]",
+          "explanation": "0 no estaba en A y se conserva; 4 sí estaba y se retira."
+        },
+        {
+          "text": "(−∞, 0] ∪ (4, +∞)",
+          "explanation": "El universo dado es acotado: no incluye todos esos valores."
+        },
+        {
+          "text": "[−2, 0) ∪ [4, 6]",
+          "explanation": "Invierte indebidamente la inclusión de 0 y 4."
+        }
+      ],
+      "correct": 0,
+      "hint": "El complemento se busca solo dentro de U.",
+      "solution": [
+        "Conserva los puntos de U que no satisfacen 0 < x ≤ 4.",
+        "Resultado: [−2, 0] ∪ (4, 6]."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-21"
+    },
+    {
+      "type": "question",
+      "title": "Enteros permitidos",
+      "body": [],
+      "prompt": "Si x es entero y pertenece a (−3, 2], ¿cuántos valores puede tomar?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "Falta contar uno de los valores permitidos."
+        },
+        {
+          "text": "6",
+          "explanation": "Se incluyó −3, que está excluido."
+        },
+        {
+          "text": "5",
+          "explanation": "Son −2, −1, 0, 1 y 2."
+        }
+      ],
+      "correct": 2,
+      "hint": "Escribe los enteros uno por uno y verifica ambos extremos.",
+      "solution": [
+        "−3 no entra y 2 sí.",
+        "Hay cinco enteros: −2, −1, 0, 1, 2."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-22"
+    },
+    {
+      "type": "question",
+      "title": "La diferencia no conmuta",
+      "body": [],
+      "prompt": "Para A = [1, 5] y B = [4, 7], ¿cuál afirmación es verdadera?",
+      "choices": [
+        {
+          "text": "A − B = B − A",
+          "explanation": "Los tramos restantes quedan en lados distintos."
+        },
+        {
+          "text": "A − B = [1, 4) y B − A = (5, 7]",
+          "explanation": "Se quita en cada caso la zona compartida [4, 5]."
+        },
+        {
+          "text": "Ambas diferencias son vacías",
+          "explanation": "Cada conjunto tiene puntos que no están en el otro."
+        }
+      ],
+      "correct": 1,
+      "hint": "Marca primero la intersección y retírala de cada conjunto.",
+      "solution": [
+        "A conserva los números de 1 hasta antes de 4.",
+        "B conserva los mayores que 5 hasta 7."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-23"
+    },
+    {
+      "type": "review",
+      "title": "Una comprobación con puntos de prueba",
+      "body": [
+        "Prueba un valor de cada tramo y cada extremo importante. Si el resultado dice que 3 está incluido pero el conjunto que retiras contiene 3, hay una contradicción.",
+        "Declara el universo para un complemento y el tipo de variable en contexto. No confundas longitud de un intervalo con número de enteros que contiene."
+      ],
+      "level": 3,
+      "id": "intervalos-y-conjuntos-24"
+    }
+  ]
+}

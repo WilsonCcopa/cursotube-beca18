@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/interes-simple",
+  "course": "matematica",
+  "slug": "interes-simple",
+  "title": "Interés simple",
+  "description": "Distingue capital, interés y monto; coordina tasas y tiempos para resolver problemas completos.",
+  "version": 1,
+  "order": 17,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Aplicar I = C × r × t usando una tasa decimal.",
+    "Convertir tiempos y despejar capital, tasa o duración.",
+    "Comparar condiciones hipotéticas sin confundir interés con monto."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "El capital permanece como base",
+      "body": [
+        "El capital C es la cantidad inicial. El interés I es la cantidad adicional generada. En interés simple, cada periodo se calcula sobre el mismo capital, sin añadir los intereses a la base.",
+        "Si r es la tasa decimal por periodo y t el número de esos periodos, I = C × r × t. El monto final es M = C + I = C(1 + rt). En estos ejercicios hipotéticos no hay comisiones ni otros cargos."
+      ],
+      "id": "interes-simple-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Dos cantidades que no se confunden",
+      "body": [
+        "Un capital de S/ 800 genera interés simple al 3% mensual durante 4 meses. Halla interés y monto."
+      ],
+      "solution": [
+        "Convierte 3% a 0,03. El tiempo ya está en meses: t = 4.",
+        "I = 800 × 0,03 × 4 = 96 soles.",
+        "M = 800 + 96 = 896 soles. El interés es 96 y el monto incluye los 800 iniciales."
+      ],
+      "id": "interes-simple-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Ordena los datos antes de calcular",
+      "body": [
+        "Abre las tres piezas de la fórmula. La tasa siempre debe indicar un periodo: 5% mensual y 5% anual describen ritmos distintos."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Capital C",
+            "text": "Es la base fija: en S/ 600 al 2% mensual, cada mes genera 600 × 0,02 = 12 soles."
+          },
+          {
+            "label": "Tasa r",
+            "text": "Escribe 2% como 0,02 en la fórmula. Usar 2 multiplicaría el interés por cien."
+          },
+          {
+            "label": "Tiempo t",
+            "text": "Cuenta periodos de la tasa: para una tasa mensual, cuatro meses son t = 4; un año son t = 12."
+          }
+        ]
+      },
+      "id": "interes-simple-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Interés de un solo periodo",
+      "body": [],
+      "prompt": "S/ 500 al 4% mensual de interés simple, durante un mes, generan ¿qué interés?",
+      "choices": [
+        {
+          "text": "S/ 200",
+          "explanation": "200 equivale al 40% de 500; la tasa indicada es 4%."
+        },
+        {
+          "text": "S/ 20",
+          "explanation": "500 × 0,04 × 1 = 20 soles de interés."
+        },
+        {
+          "text": "S/ 520",
+          "explanation": "520 es el monto, que suma capital e interés."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula el 4% del capital.",
+      "solution": [
+        "4% = 4/100 = 0,04.",
+        "I = 500 × 0,04 = 20 soles."
+      ],
+      "id": "interes-simple-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Varios meses, base fija",
+      "body": [],
+      "prompt": "¿Qué interés simple generan S/ 1200 al 2% mensual durante 5 meses?",
+      "choices": [
+        {
+          "text": "S/ 120",
+          "explanation": "Cada mes genera 24 soles; en cinco meses son 120."
+        },
+        {
+          "text": "S/ 24",
+          "explanation": "24 corresponde a un mes; faltan los otros cuatro."
+        },
+        {
+          "text": "S/ 1320",
+          "explanation": "1320 es el monto final, no el interés pedido."
+        }
+      ],
+      "correct": 0,
+      "hint": "Obtén el interés mensual y multiplica por cinco.",
+      "solution": [
+        "I = 1200 × 0,02 × 5 = 120.",
+        "Como la base es fija, también 24 + 24 + 24 + 24 + 24 = 120."
+      ],
+      "id": "interes-simple-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Ahora pide el monto",
+      "body": [],
+      "prompt": "Un capital de S/ 900 está al 10% anual simple por 2 años. ¿Cuál es el monto?",
+      "choices": [
+        {
+          "text": "S/ 180",
+          "explanation": "180 es solo el interés; falta devolver o recuperar el capital."
+        },
+        {
+          "text": "S/ 990",
+          "explanation": "990 agrega un único año de interés; el tiempo indicado es de dos."
+        },
+        {
+          "text": "S/ 1080",
+          "explanation": "El interés es 900 × 0,10 × 2 = 180; monto = 900 + 180."
+        }
+      ],
+      "correct": 2,
+      "hint": "Suma al capital el interés de los dos años.",
+      "solution": [
+        "I = 900 × 0,10 × 2 = 180 soles.",
+        "M = 900 + 180 = 1080 soles."
+      ],
+      "id": "interes-simple-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Representa correctamente la tasa",
+      "body": [],
+      "prompt": "En la fórmula I = Crt, ¿qué r corresponde a una tasa de 1,5% mensual?",
+      "choices": [
+        {
+          "text": "1,5 por mes",
+          "explanation": "1,5 equivale a 150%, cien veces 1,5%."
+        },
+        {
+          "text": "0,015 por mes",
+          "explanation": "1,5/100 = 0,015; mantiene el periodo mensual."
+        },
+        {
+          "text": "0,15 por mes",
+          "explanation": "0,15 equivale a 15%, diez veces la tasa indicada."
+        }
+      ],
+      "correct": 1,
+      "hint": "El símbolo % indica dividir entre 100.",
+      "solution": [
+        "1,5% = 1,5 ÷ 100.",
+        "r = 0,015 por mes."
+      ],
+      "id": "interes-simple-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Interés y monto responden preguntas distintas",
+      "body": [
+        "Si el enunciado pregunta cuánto se genera, calcula I. Si pregunta el total final, calcula M. Escribe las dos cantidades en el borrador para diferenciarlas.",
+        "Antes de multiplicar, transforma el porcentaje a decimal. En interés simple no cambies la base de un periodo a otro."
+      ],
+      "id": "interes-simple-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "La tasa y el reloj deben coincidir",
+      "body": [
+        "Una tasa anual requiere tiempo en años: 6 meses = 1/2 año, 18 meses = 1,5 años. Una tasa mensual usa meses: 1 año y 3 meses = 15 meses.",
+        "En un problema de año comercial, si se indica 360 días, t = días/360 para una tasa anual. No supongas que todos los problemas usan ese convenio; debe estar declarado.",
+        "Puedes despejar C = I/(rt), r = I/(Ct) y t = I/(Cr), siempre que los divisores sean distintos de cero."
+      ],
+      "id": "interes-simple-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Despejar con meses y una tasa anual",
+      "body": [
+        "Un interés simple de S/ 72 se obtuvo al 12% anual en 8 meses. ¿Cuál era el capital?"
+      ],
+      "solution": [
+        "r = 0,12; t = 8/12 = 2/3 año.",
+        "72 = C × 0,12 × 2/3 = 0,08 C.",
+        "C = 72/0,08 = 900 soles. Comprobación: 900 × 0,12 × 2/3 = 72."
+      ],
+      "id": "interes-simple-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Tasas simples equivalentes",
+      "body": [
+        "En este modelo, 1% mensual simple equivale a 12% anual simple: en doce meses genera el mismo interés sobre la misma base. No uses esta suma directa en capitalización compuesta.",
+        "Para comparar dos opciones hipotéticas, iguala capital y duración. Comparar solo el número del porcentaje puede engañar: 3% trimestral simple equivale a 12% anual simple."
+      ],
+      "id": "interes-simple-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Convierte medio año",
+      "body": [],
+      "prompt": "S/ 2400 al 15% anual simple durante 6 meses generan ¿qué interés?",
+      "choices": [
+        {
+          "text": "S/ 360",
+          "explanation": "360 es el interés de un año completo."
+        },
+        {
+          "text": "S/ 2160",
+          "explanation": "Multiplicar por 6 usa meses con una tasa anual sin convertir."
+        },
+        {
+          "text": "S/ 180",
+          "explanation": "Seis meses son 0,5 años: 2400 × 0,15 × 0,5 = 180."
+        }
+      ],
+      "correct": 2,
+      "hint": "Expresa los seis meses como fracción de año.",
+      "solution": [
+        "t = 6/12 = 1/2.",
+        "I = 2400 × 0,15 × 1/2 = 180 soles."
+      ],
+      "id": "interes-simple-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Busca la tasa mensual",
+      "body": [],
+      "prompt": "S/ 1500 generan S/ 180 de interés simple en 8 meses. ¿Cuál es la tasa mensual?",
+      "choices": [
+        {
+          "text": "0,015%",
+          "explanation": "0,015 es la tasa decimal; al expresarla como porcentaje se multiplica por 100."
+        },
+        {
+          "text": "1,5%",
+          "explanation": "180/(1500 × 8) = 0,015, es decir 1,5% mensual."
+        },
+        {
+          "text": "12%",
+          "explanation": "12% es el interés total como fracción del capital durante ocho meses."
+        }
+      ],
+      "correct": 1,
+      "hint": "Despeja r = I/(Ct) y expresa el resultado en porcentaje.",
+      "solution": [
+        "r = 180/12000 = 0,015.",
+        "0,015 × 100 = 1,5% mensual."
+      ],
+      "id": "interes-simple-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Calcula el tiempo",
+      "body": [],
+      "prompt": "¿Cuántos meses necesitan S/ 2000 al 2% mensual simple para generar S/ 280 de interés?",
+      "choices": [
+        {
+          "text": "7 meses",
+          "explanation": "Cada mes genera 40 soles; 280/40 = 7."
+        },
+        {
+          "text": "14 meses",
+          "explanation": "14 meses generarían 560 soles, el doble del interés pedido."
+        },
+        {
+          "text": "0,14 meses",
+          "explanation": "0,14 es I/C; todavía debes dividir entre la tasa mensual."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide el interés deseado entre el interés que se genera en un mes.",
+      "solution": [
+        "t = 280/(2000 × 0,02).",
+        "t = 280/40 = 7 meses."
+      ],
+      "id": "interes-simple-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un convenio de días explícito",
+      "body": [],
+      "prompt": "Usa año comercial de 360 días. ¿Qué interés simple producen S/ 3600 al 8% anual durante 45 días?",
+      "choices": [
+        {
+          "text": "S/ 288",
+          "explanation": "288 es el interés de 360 días completos."
+        },
+        {
+          "text": "S/ 108",
+          "explanation": "108 correspondería a 135 días, tres veces el plazo."
+        },
+        {
+          "text": "S/ 36",
+          "explanation": "45/360 = 1/8 de año; 3600 × 0,08 × 1/8 = 36."
+        }
+      ],
+      "correct": 2,
+      "hint": "El tiempo anual es 45/360.",
+      "solution": [
+        "I = 3600 × 0,08 × 45/360.",
+        "I = 288 × 1/8 = 36 soles."
+      ],
+      "id": "interes-simple-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "El error que cambia todo el resultado",
+      "body": [
+        "No mezcles r anual con t mensual. Anota la unidad junto a r y conviértela antes de reemplazar.",
+        "Al despejar r, un resultado como 0,02 significa 2%. Si escribes 0,02% estarías usando una tasa cien veces menor."
+      ],
+      "id": "interes-simple-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Comparar, repartir y reconstruir",
+      "body": [
+        "Para reconstruir un capital desde el monto, usa C = M/(1 + rt), no C = M − rt: rt es una fracción, no una cantidad de dinero.",
+        "Si un capital se divide entre dos tasas, suma sus intereses: I total = C₁r₁t₁ + C₂r₂t₂. Cada parte puede tener un plazo distinto. Especifica qué ocurre después de un retiro o un abono; no inventes movimientos ausentes del enunciado."
+      ],
+      "id": "interes-simple-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un capital dividido en dos partes",
+      "body": [
+        "S/ 3000 se reparten: una parte al 10% anual simple y el resto al 6%. Tras un año generan S/ 228. ¿Cuánto va al 10%?"
+      ],
+      "solution": [
+        "Sea x la parte al 10%; la otra parte es 3000 − x.",
+        "0,10 x + 0,06(3000 − x) = 228.",
+        "0,04 x + 180 = 228; x = 48/0,04 = 1200 soles.",
+        "Verifica: 120 + 108 = 228 soles de interés."
+      ],
+      "id": "interes-simple-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Una comparación necesita el mismo plazo",
+      "body": [
+        "En un ejemplo sin cargos, compara el interés final para igual capital y tiempo. Duplicar el plazo duplica I en el modelo simple; duplicar C también lo duplica.",
+        "La fórmula describe las condiciones hipotéticas del ejercicio. Una tasa aislada sin periodo o una suma final sin indicar si incluye capital no bastan para calcular una respuesta única."
+      ],
+      "id": "interes-simple-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Reconstruye el capital inicial",
+      "body": [],
+      "prompt": "El monto final es S/ 1560 tras 2 años al 15% anual simple. ¿Cuál fue el capital?",
+      "choices": [
+        {
+          "text": "S/ 1200",
+          "explanation": "M = C(1 + 0,15 × 2) = 1,3 C; 1560/1,3 = 1200."
+        },
+        {
+          "text": "S/ 1092",
+          "explanation": "Restar 30% al monto usa el monto como base del porcentaje, cuando la base era C."
+        },
+        {
+          "text": "S/ 1260",
+          "explanation": "Restar 300 soles no corresponde a una tasa sin conocer el capital."
+        }
+      ],
+      "correct": 0,
+      "hint": "El monto es el 130% del capital.",
+      "solution": [
+        "1 + rt = 1 + 0,15 × 2 = 1,3.",
+        "C = 1560/1,3 = 1200 soles."
+      ],
+      "id": "interes-simple-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Reparte el capital por tasas",
+      "body": [],
+      "prompt": "Se reparten S/ 5000 entre 8% y 12% anual simple. Tras un año generan S/ 520 de interés. ¿Cuánto se colocó al 12%?",
+      "choices": [
+        {
+          "text": "S/ 2000",
+          "explanation": "2000 es la parte al 8%; se solicita la parte al 12%."
+        },
+        {
+          "text": "S/ 4333,33",
+          "explanation": "Dividir todo el interés entre 12% supone que ambas partes reciben esa tasa."
+        },
+        {
+          "text": "S/ 3000",
+          "explanation": "0,12 x + 0,08(5000 − x) = 520 conduce a 0,04 x = 120."
+        }
+      ],
+      "correct": 2,
+      "hint": "Llama x a la parte al 12% y 5000 − x a la otra.",
+      "solution": [
+        "0,12 x + 400 − 0,08 x = 520.",
+        "0,04 x = 120; x = 3000 soles. La otra parte genera 160 y esta genera 360."
+      ],
+      "id": "interes-simple-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Compara el mismo periodo",
+      "body": [],
+      "prompt": "Dos modelos simples sin cargos usan el mismo capital por 18 meses: A cobra 1% mensual; B, 10% anual. ¿Qué porcentaje del capital cuesta menos B que A?",
+      "choices": [
+        {
+          "text": "8% del capital",
+          "explanation": "18 − 10 compara 18 meses de A con solo un año de B."
+        },
+        {
+          "text": "3% del capital",
+          "explanation": "A genera 18% en 18 meses y B genera 15%; la diferencia es 3 puntos porcentuales del capital."
+        },
+        {
+          "text": "9% del capital",
+          "explanation": "Restar 1% a 10% compara periodos distintos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Convierte 18 meses a 1,5 años para la opción B.",
+      "solution": [
+        "A: I/C = 0,01 × 18 = 0,18. B: I/C = 0,10 × 1,5 = 0,15.",
+        "La diferencia es 0,03 C, es decir 3% del capital."
+      ],
+      "id": "interes-simple-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un abono divide el cálculo",
+      "body": [],
+      "prompt": "Se presta S/ 2000 al 2% mensual simple. A los 3 meses se paga solo S/ 800 de capital; el interés queda pendiente sin capitalizar. Se pagan el capital restante y todos los intereses al mes 5. ¿Cuánto interés se paga en total?",
+      "choices": [
+        {
+          "text": "S/ 168",
+          "explanation": "Los primeros tres meses generan 120; los dos restantes sobre 1200 generan 48."
+        },
+        {
+          "text": "S/ 200",
+          "explanation": "200 calcula cinco meses sobre 2000, ignorando el abono de capital."
+        },
+        {
+          "text": "S/ 120",
+          "explanation": "120 solo considera el primer tramo y omite el interés del capital restante."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula por separado el tramo antes y después de reducir el capital.",
+      "solution": [
+        "I₁ = 2000 × 0,02 × 3 = 120.",
+        "Tras abonar 800, C₂ = 1200. I₂ = 1200 × 0,02 × 2 = 48.",
+        "I total = 120 + 48 = 168 soles; el interés pendiente no genera interés adicional."
+      ],
+      "id": "interes-simple-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Controla base, periodo y pregunta",
+      "body": [
+        "Si el monto final parece menor que el capital con tasa positiva y tiempo positivo, revisa tu operación. Si divides capital entre tasas, las partes deben sumar el capital original.",
+        "Un abono al capital cambia la base desde ese momento. Divide la línea de tiempo y comprueba que la suma de duraciones coincide con el plazo total."
+      ],
+      "id": "interes-simple-24",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/relaciones-lexico-semanticas",
+  "course": "lectura",
+  "slug": "relaciones-lexico-semanticas",
+  "title": "Relaciones léxico-semánticas",
+  "description": "Organiza significados, clases y partes; distingue polisemia, homonimia y paronimia.",
+  "version": 1,
+  "order": 10,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Distinguir denotación, connotación y campos de palabras",
+    "Relacionar hiperónimos, hipónimos y partes",
+    "Distinguir polisemia, homonimia y paronimia en contexto"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Palabras relacionadas de formas diferentes",
+      "body": [
+        "El significado denotativo permite identificar aquello a lo que una palabra se refiere de manera convencional. La connotación añade asociaciones o valoraciones activadas por un contexto. En una voz de hielo, hielo puede sugerir frialdad en el trato.",
+        "Un campo semántico reúne palabras de una categoría gramatical con un rasgo de significado común, como cuchara, tenedor y cuchillo entre utensilios. Un campo asociativo puede reunir palabras de distintas clases vinculadas a una situación: cocinar, olla, caliente."
+      ],
+      "id": "relaciones-lexico-semanticas-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un sentido literal y una valoración",
+      "body": [
+        "La primera piedra es un objeto; el segundo uso caracteriza figuradamente una actitud difícil de conmover.",
+        "Resolución: No debo atribuir al compañero la composición mineral de una piedra. El contexto emocional selecciona una asociación con dureza, no una definición física."
+      ],
+      "passage": {
+        "title": "Dos piedras",
+        "paragraphs": [
+          "Nora retiró una piedra que bloqueaba la rueda de un carro. Más tarde dijo que su compañero parecía una piedra: escuchó la petición sin mostrar ninguna emoción."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Distingue las redes de palabras",
+      "body": [
+        "Toca cada grupo para ver el vínculo que lo mantiene unido."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Campo semántico",
+            "text": "Silla, banco y sillón: sustantivos que nombran tipos de asiento."
+          },
+          {
+            "label": "Campo asociativo",
+            "text": "Biblioteca, leer, silencioso y préstamo: palabras de clases distintas vinculadas a una situación."
+          },
+          {
+            "label": "Connotación",
+            "text": "Un comentario venenoso: no contiene veneno material; sugiere daño o mala intención."
+          },
+          {
+            "label": "Denotación contextual",
+            "text": "La botella contenía agua: el sustantivo identifica la sustancia de manera literal."
+          }
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un campo semántico delimitado",
+      "body": [],
+      "prompt": "¿Qué grupo cumple el criterio?",
+      "choices": [
+        {
+          "text": "Medir, calcular, comparar",
+          "explanation": "Son verbos y no nombres de instrumentos."
+        },
+        {
+          "text": "Regla, balanza, termómetro",
+          "explanation": "Son sustantivos que nombran instrumentos de medida."
+        },
+        {
+          "text": "Largo, pesado, caliente",
+          "explanation": "Son adjetivos que expresan propiedades, no instrumentos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Debes conservar categoría gramatical y rasgo de significado.",
+      "solution": [
+        "El criterio exige nombres de instrumentos.",
+        "Regla, balanza y termómetro cumplen ambas condiciones."
+      ],
+      "passage": {
+        "title": "La clasificación",
+        "paragraphs": [
+          "Una actividad pide reunir solo sustantivos que nombren instrumentos para medir. Se permite incluir objetos de uso escolar o de taller."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una asociación de varias clases",
+      "body": [],
+      "prompt": "¿Qué serie responde a esa consigna?",
+      "choices": [
+        {
+          "text": "Semilla, sembrar, húmedo",
+          "explanation": "Combina sustantivo, verbo y adjetivo relacionados con la situación."
+        },
+        {
+          "text": "Semilla, planeta, aduana",
+          "explanation": "Planeta y aduana no mantienen aquí una asociación específica con la actividad."
+        },
+        {
+          "text": "Sembrar, sembró, sembramos",
+          "explanation": "Son formas del mismo verbo; no construyen una red variada de la situación."
+        }
+      ],
+      "correct": 0,
+      "hint": "La consigna admite clases diferentes vinculadas por un mismo contexto.",
+      "solution": [
+        "Un huerto involucra semillas, la acción de sembrar y condiciones de humedad.",
+        "La serie forma una red asociativa coherente."
+      ],
+      "passage": {
+        "title": "El huerto",
+        "paragraphs": [
+          "Para preparar un campo asociativo de huerto, un grupo propone palabras relacionadas con esa actividad sin exigir una sola categoría gramatical."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una connotación",
+      "body": [],
+      "prompt": "¿Qué aporta tibia?",
+      "choices": [
+        {
+          "text": "Una medida exacta de temperatura",
+          "explanation": "El contexto descarta expresamente esa lectura."
+        },
+        {
+          "text": "Que la propuesta fue aprobada sin reservas",
+          "explanation": "La falta de entusiasmo no equivale a aprobación total."
+        },
+        {
+          "text": "Una valoración de entusiasmo limitado",
+          "explanation": "La conducta descrita sostiene el sentido figurado de una recepción poco entusiasta."
+        }
+      ],
+      "correct": 2,
+      "hint": "Interpreta el adjetivo según las reacciones descritas.",
+      "solution": [
+        "Tibia se vincula a una actitud y no a calor físico.",
+        "Connota una aceptación sin entusiasmo."
+      ],
+      "passage": {
+        "title": "La conversación",
+        "paragraphs": [
+          "La propuesta recibió una bienvenida tibia: algunos asintieron por cortesía, pero nadie mostró entusiasmo ni ofreció colaborar. No se habla de la temperatura del salón."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un uso literal",
+      "body": [],
+      "prompt": "¿Qué interpretación corresponde a piedra?",
+      "choices": [
+        {
+          "text": "Una persona insensible",
+          "explanation": "No existe una comparación con una conducta humana."
+        },
+        {
+          "text": "El objeto material colocado en el recipiente",
+          "explanation": "El contexto describe acciones físicas realizadas con ese objeto."
+        },
+        {
+          "text": "Una dificultad emocional imposible de resolver",
+          "explanation": "Introduce una metáfora que el texto no plantea."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba a qué se refiere concretamente el sustantivo.",
+      "solution": [
+        "La piedra es manipulada y observada en agua.",
+        "Su uso es literal dentro de la actividad descrita."
+      ],
+      "passage": {
+        "title": "La observación",
+        "paragraphs": [
+          "La piedra se hundió al colocarla en el agua del recipiente. La ficha describe el comportamiento del objeto durante una actividad y no compara personas ni actitudes."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No confundas redes con equivalencia",
+      "body": [
+        "Que dos palabras pertenezcan al mismo campo no las vuelve sinónimas: balanza y termómetro miden cosas diferentes. La asociación tampoco implica oposición.",
+        "Para distinguir denotación y connotación, comprueba si se identifica un objeto o propiedad de manera literal o si el contexto activa una asociación valorativa. Una lectura figurada debe apoyarse en pistas concretas."
+      ],
+      "id": "relaciones-lexico-semanticas-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Clases, miembros y partes",
+      "body": [
+        "Un hiperónimo nombra una clase más amplia: ave respecto de paloma. Un hipónimo nombra una clase incluida: paloma respecto de ave. Dos hipónimos del mismo nivel pueden ser cohipónimos, como paloma y gorrión.",
+        "La relación parte-todo es distinta: ala es parte de un ave; no es un tipo de ave. Para distinguirlas pregunta es una clase de o es una parte de."
+      ],
+      "id": "relaciones-lexico-semanticas-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "La prueba de inclusión",
+      "body": [
+        "Triángulo es una clase de polígono; por tanto, polígono es su hiperónimo. Un lado no es una clase de polígono: forma parte de él.",
+        "Resolución: triángulo y cuadrilátero son clases distintas incluidas en polígono. Lado y vértice son componentes de esas figuras, no especies del género."
+      ],
+      "passage": {
+        "title": "Las figuras",
+        "paragraphs": [
+          "En el taller se clasifican polígonos según su número de lados. Se forman grupos de triángulos y cuadriláteros. Después, cada grupo señala los lados y vértices de sus figuras."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Lee las relaciones con su dirección",
+      "body": [
+        "Toca cada afirmación para identificar inclusión o composición."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Un violín es un instrumento musical.",
+            "role": "Hipónimo a hiperónimo: una clase incluida en otra"
+          },
+          {
+            "text": "Un instrumento musical puede ser un violín o una flauta.",
+            "role": "Hiperónimo a ejemplos de clases incluidas"
+          },
+          {
+            "text": "Una cuerda forma parte de un violín.",
+            "role": "Parte a todo: composición, no inclusión de clase"
+          },
+          {
+            "text": "Violín y flauta son instrumentos musicales distintos.",
+            "role": "Cohipónimos bajo una clase compartida"
+          }
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Encuentra el hiperónimo",
+      "body": [],
+      "prompt": "¿Cuál funciona como hiperónimo en la relación descrita?",
+      "choices": [
+        {
+          "text": "Novela",
+          "explanation": "Es una de las clases incluidas, no el encabezado más general."
+        },
+        {
+          "text": "Poema",
+          "explanation": "También es una clase particular del conjunto."
+        },
+        {
+          "text": "Obra literaria",
+          "explanation": "Nombra la clase amplia que incluye las categorías mencionadas."
+        }
+      ],
+      "correct": 2,
+      "hint": "El hiperónimo abarca los miembros, sin ser uno solo de ellos.",
+      "solution": [
+        "Novelas, cuentos y poemas se incluyen en una categoría mayor.",
+        "Obra literaria expresa ese nivel general."
+      ],
+      "passage": {
+        "title": "El catálogo",
+        "paragraphs": [
+          "El catálogo reúne novelas, cuentos y poemas bajo un encabezado que nombra el conjunto de obras literarias. La pregunta se refiere a ese nivel de clasificación."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una parte no es una especie",
+      "body": [],
+      "prompt": "¿Qué relación hay entre tapa y cuaderno?",
+      "choices": [
+        {
+          "text": "Parte y todo",
+          "explanation": "La tapa es un componente del cuaderno."
+        },
+        {
+          "text": "Hipónimo e hiperónimo",
+          "explanation": "Una tapa no es una clase de cuaderno."
+        },
+        {
+          "text": "Sinónimos absolutos",
+          "explanation": "No nombran el mismo objeto completo en este contexto."
+        }
+      ],
+      "correct": 0,
+      "hint": "Prueba es una clase de frente a forma parte de.",
+      "solution": [
+        "Una tapa integra un cuaderno.",
+        "La relación es de composición, no de inclusión de clases."
+      ],
+      "passage": {
+        "title": "El cuaderno",
+        "paragraphs": [
+          "La tapa protege las hojas de un cuaderno. El cuaderno, a su vez, es un tipo de material escolar."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cohipónimos",
+      "body": [],
+      "prompt": "¿Qué par mantiene la relación de cohiponimia descrita?",
+      "choices": [
+        {
+          "text": "Bebida y jugo",
+          "explanation": "Une la clase amplia con una clase incluida, no dos del mismo nivel."
+        },
+        {
+          "text": "Infusión y jugo",
+          "explanation": "Son clases distintas bajo el hiperónimo bebida."
+        },
+        {
+          "text": "Jugo y vaso",
+          "explanation": "Relaciona contenido y recipiente, no categorías hermanas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca dos clases del mismo nivel dentro del grupo dado.",
+      "solution": [
+        "La consigna fija bebida como categoría general.",
+        "Infusión y jugo son dos clases incluidas en ese mismo nivel."
+      ],
+      "passage": {
+        "title": "Las bebidas",
+        "paragraphs": [
+          "Un registro agrupa infusiones, jugos y leche como clases de bebida. Cada entrada representa una categoría y no una parte de un recipiente."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Sustitución sin perder el referente",
+      "body": [],
+      "prompt": "¿Qué permite que el ave retome a una golondrina?",
+      "choices": [
+        {
+          "text": "Ave es una parte de la golondrina",
+          "explanation": "No es un componente, sino una clase más amplia."
+        },
+        {
+          "text": "Ave nombra necesariamente a cualquier objeto que vuela",
+          "explanation": "Muchos objetos voladores no son aves."
+        },
+        {
+          "text": "Ave es un hiperónimo compatible con el mismo referente",
+          "explanation": "La golondrina pertenece a esa clase y el contexto mantiene su identidad."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue la relación de clase y el objeto concreto del relato.",
+      "solution": [
+        "Golondrina es una clase de ave.",
+        "El hiperónimo retoma al mismo individuo sin convertirlo en otro personaje."
+      ],
+      "passage": {
+        "title": "El rescate",
+        "paragraphs": [
+          "Una golondrina entró al salón. El ave se posó en una repisa y luego salió por la ventana."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Usa dos preguntas para separar relaciones",
+      "body": [
+        "Si respondes sí a es una clase de, revisa inclusión entre hipónimo e hiperónimo. Si respondes sí a forma parte de, revisa composición. La dirección importa: ave incluye golondrina, no al revés.",
+        "No asumas que cualquier palabra del mismo campo retoma al mismo individuo. Cambiar golondrina por gorrión introduciría otra clase y alteraría el referente."
+      ],
+      "id": "relaciones-lexico-semanticas-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Formas parecidas, relaciones diferentes",
+      "body": [
+        "Polisemia: una palabra presenta sentidos relacionados, como cabeza del cuerpo y cabeza de un equipo. Homonimia: formas iguales corresponden a palabras diferentes; pueden coincidir en escritura o solo en sonido.",
+        "Paronimia: palabras semejantes, pero no idénticas, como actitud y aptitud. La semejanza facilita confusiones, aunque sus significados no coincidan. El contexto permite elegir la forma pertinente."
+      ],
+      "id": "relaciones-lexico-semanticas-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Actitud no es aptitud",
+      "body": [
+        "Aptitud alude a capacidad para realizar una actividad. Actitud expresa una disposición o manera de afrontar algo. El texto distingue saber hacerlo y estar dispuesto a colaborar.",
+        "Resolución: Tiene aptitud para el dibujo y una actitud colaborativa. Las palabras se parecen, pero intercambiarlas borraría la distinción."
+      ],
+      "passage": {
+        "title": "En el equipo",
+        "paragraphs": [
+          "Rita dibuja con facilidad y maneja las proporciones con precisión. Además, escucha las sugerencias y comparte sus materiales. La coordinación distingue su capacidad técnica de su disposición al trabajo conjunto."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "No deduzcas una historia de la palabra",
+      "body": [
+        "Para identificar una relación, usa casos claros y el sentido activo. No necesitas inventar el origen histórico de una palabra. Cuando una clasificación depende de una distinción etimológica dudosa, conviene consultar una fuente lingüística.",
+        "También existen usos técnicos de significado muy delimitado. Hexágono, dentro de geometría, designa un polígono de seis lados; ese marco ayuda a precisar el sentido sin afirmar que todo término científico sea siempre unívoco."
+      ],
+      "id": "relaciones-lexico-semanticas-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Sentidos relacionados",
+      "body": [],
+      "prompt": "¿Qué relación ilustra mejor el par de usos?",
+      "choices": [
+        {
+          "text": "Antonimia",
+          "explanation": "No son sentidos opuestos en una misma escala."
+        },
+        {
+          "text": "Polisemia",
+          "explanation": "Una misma palabra desarrolla sentidos relacionados, uno corporal y otro figurado."
+        },
+        {
+          "text": "Paronimia",
+          "explanation": "No son dos palabras solo parecidas: se usa la misma forma cabeza."
+        }
+      ],
+      "correct": 1,
+      "hint": "La consigna destaca una misma palabra y una conexión figurada entre sentidos.",
+      "solution": [
+        "El sentido de dirección se relaciona con una función atribuida a cabeza.",
+        "Eso ilustra polisemia."
+      ],
+      "passage": {
+        "title": "La coordinación",
+        "paragraphs": [
+          "En una oración, cabeza nombra la parte superior del cuerpo de una persona. En otra, cabeza del equipo designa a quien dirige y coordina sus tareas. La segunda expresión traslada una función de dirección al ámbito del grupo."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Coincidir en sonido",
+      "body": [],
+      "prompt": "¿Qué relación se ejemplifica?",
+      "choices": [
+        {
+          "text": "Sinonimia",
+          "explanation": "El arma y la perturbación del agua no tienen el mismo significado."
+        },
+        {
+          "text": "Paronimia de sonidos distintos",
+          "explanation": "El pasaje precisa que la pronunciación coincide, no que solo sea aproximada."
+        },
+        {
+          "text": "Homonimia homófona",
+          "explanation": "Coinciden en sonido y se distinguen en escritura y significado."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue igualdad de sonido y semejanza aproximada.",
+      "solution": [
+        "La h no se pronuncia en honda en ese uso habitual.",
+        "La coincidencia sonora con significados distintos es homofonía."
+      ],
+      "passage": {
+        "title": "Dos frases",
+        "paragraphs": [
+          "La honda del tirador quedó guardada en una bolsa. La onda del agua se extendió por la superficie. En la pronunciación usual del español, honda y onda suenan igual, pero se escriben diferente y nombran cosas distintas."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Elige una palabra por su significado",
+      "body": [],
+      "prompt": "¿Qué palabra corresponde al dato solicitado?",
+      "choices": [
+        {
+          "text": "Aptitud",
+          "explanation": "Nombra la capacidad para realizar una actividad."
+        },
+        {
+          "text": "Actitud",
+          "explanation": "Se refiere a disposición o manera de afrontar una situación."
+        },
+        {
+          "text": "Altitud",
+          "explanation": "Nombra una altura respecto de un nivel de referencia y es ajena al dato."
+        }
+      ],
+      "correct": 0,
+      "hint": "La ficha pregunta por capacidad, no por disposición ni altura.",
+      "solution": [
+        "El rasgo solicitado es poder realizar una tarea.",
+        "Aptitud expresa esa capacidad."
+      ],
+      "passage": {
+        "title": "La inscripción",
+        "paragraphs": [
+          "La ficha pide que cada participante indique si tiene capacidad para realizar una tarea de precisión manual. No pregunta por su ánimo ni su disposición frente al grupo."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Misma escritura, distinta palabra",
+      "body": [],
+      "prompt": "¿Qué relación presentan esas formas?",
+      "choices": [
+        {
+          "text": "Cohiponimia",
+          "explanation": "No son dos clases incluidas bajo un género compartido."
+        },
+        {
+          "text": "Homonimia homógrafa",
+          "explanation": "Coinciden en escritura, pero son palabras de significado y función diferentes."
+        },
+        {
+          "text": "Antonimia gradual",
+          "explanation": "No ocupan extremos de una escala ni admiten un intermedio."
+        }
+      ],
+      "correct": 1,
+      "hint": "Identifica qué clase de palabra y qué significado tiene cada forma.",
+      "solution": [
+        "Una forma nombra una bebida y otra expresa venir en pasado.",
+        "La coincidencia escrita entre palabras diferentes es homografía."
+      ],
+      "passage": {
+        "title": "La lista de ejemplos",
+        "paragraphs": [
+          "En El vino se guardó en la bodega, vino es un sustantivo que nombra una bebida. En Ella vino temprano, vino es una forma del verbo venir. La actividad compara esas dos palabras, no dos características de la bebida."
+        ]
+      },
+      "id": "relaciones-lexico-semanticas-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Nombra la relación, no solo la semejanza",
+      "body": [
+        "Ante dos usos, pregunta si hay una palabra con sentidos relacionados, dos palabras con forma igual o dos palabras solo semejantes. Luego revisa inclusión, oposición o equivalencia si la pregunta trata de significado.",
+        "Si fallaste aptitud, escribe una frase propia con capacidad y otra con disposición. Si fallaste parte y clase, usa las pruebas es un tipo de y forma parte de. La relación queda clara cuando puedes formularla en una oración."
+      ],
+      "id": "relaciones-lexico-semanticas-24",
+      "level": 3
+    }
+  ]
+}

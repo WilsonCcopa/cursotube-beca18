@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/oraciones-eliminadas",
+  "course": "lectura",
+  "slug": "oraciones-eliminadas",
+  "title": "Oraciones eliminadas",
+  "description": "Depura un párrafo por pertinencia y redundancia sin borrar relaciones necesarias.",
+  "version": 1,
+  "order": 15,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Identificar unidad temática e información impertinente",
+    "Reconocer redundancia y conservar antecedentes necesarios",
+    "Distinguir contradicción, contraste útil y supresión justificada"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Eliminar requiere comprender el párrafo",
+      "body": [
+        "Una oración es impertinente cuando no contribuye al tema o propósito concreto del pasaje. Una oración redundante repite información ya suficiente sin aportar una función necesaria.",
+        "No se elimina una idea solo porque sea diferente o negativa. Un contraste, una excepción o una objeción pueden ser indispensables para comprender el conjunto."
+      ],
+      "id": "oraciones-eliminadas-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Lo verdadero también puede ser impertinente",
+      "body": [
+        "Las tres oraciones deben evaluarse respecto del propósito: orientar la devolución de materiales. La afirmación sobre montañas puede ser verdadera, pero no ayuda a ese procedimiento.",
+        "Resolución: se elimina la segunda oración. Conservar las instrucciones de lugar y registro mantiene la unidad del aviso."
+      ],
+      "passage": {
+        "title": "La devolución",
+        "paragraphs": [
+          "I. Devuelve las herramientas en el mostrador antes del cierre. II. Algunas montañas tienen nieve durante parte del año. III. Después de la entrega, confirma que el responsable haya registrado la devolución."
+        ]
+      },
+      "id": "oraciones-eliminadas-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Pregunta qué función cumple",
+      "body": [
+        "Toca cada posibilidad antes de decidir una supresión."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Pertinencia",
+            "text": "¿Desarrolla el asunto concreto y el propósito del párrafo?"
+          },
+          {
+            "label": "Información nueva",
+            "text": "¿Aporta un dato, una explicación o un límite que no estaba ya expresado?"
+          },
+          {
+            "label": "Vínculo necesario",
+            "text": "¿Presenta un antecedente que otra oración retomará?"
+          },
+          {
+            "label": "Contraste útil",
+            "text": "¿La idea distinta delimita o cuestiona algo de manera relevante?"
+          }
+        ]
+      },
+      "id": "oraciones-eliminadas-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un asunto ajeno",
+      "body": [],
+      "prompt": "¿Qué oración se elimina por impertinencia temática?",
+      "choices": [
+        {
+          "text": "I",
+          "explanation": "Presenta un dato necesario de las etiquetas del semillero."
+        },
+        {
+          "text": "III",
+          "explanation": "Introduce el sonido sin relación con el registro y cuidado de las etiquetas."
+        },
+        {
+          "text": "IV",
+          "explanation": "Completa el tema al indicar cómo mantener legibles las etiquetas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Define el tema más específico, no solo la idea general de ciencias.",
+      "solution": [
+        "El párrafo desarrolla identificación y mantenimiento de etiquetas.",
+        "La oración III no aporta a esa unidad."
+      ],
+      "passage": {
+        "title": "El semillero",
+        "paragraphs": [
+          "I. Cada recipiente del semillero debe llevar el nombre de la especie. II. La fecha de siembra permite comparar el desarrollo de las plantas. III. El sonido viaja por distintos medios. IV. Las etiquetas deben revisarse si se borran con el riego."
+        ]
+      },
+      "id": "oraciones-eliminadas-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una instrucción interrumpida",
+      "body": [],
+      "prompt": "¿Qué oración debe suprimirse?",
+      "choices": [
+        {
+          "text": "III",
+          "explanation": "Interrumpe un procedimiento de organización con información ajena."
+        },
+        {
+          "text": "II",
+          "explanation": "Es el paso intermedio que ordena las hojas."
+        },
+        {
+          "text": "IV",
+          "explanation": "Cierra el procedimiento e indica dónde conservarlas."
+        }
+      ],
+      "correct": 0,
+      "hint": "Observa qué oraciones hacen avanzar la misma tarea.",
+      "solution": [
+        "I, II y IV forman una secuencia para organizar apuntes.",
+        "III no participa de esa tarea."
+      ],
+      "passage": {
+        "title": "La carpeta",
+        "paragraphs": [
+          "I. Reúne las hojas de cada curso. II. Luego ordénalas por fecha. III. Las cometas pueden tener formas distintas. IV. Finalmente, guárdalas en una carpeta con el nombre del curso."
+        ]
+      },
+      "id": "oraciones-eliminadas-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "La cercanía de tema no basta",
+      "body": [],
+      "prompt": "¿Qué oración es ajena al propósito del aviso?",
+      "choices": [
+        {
+          "text": "I",
+          "explanation": "Informa una condición necesaria para usar el servicio."
+        },
+        {
+          "text": "III",
+          "explanation": "Explica una obligación de devolución y pertenece al aviso."
+        },
+        {
+          "text": "IV",
+          "explanation": "Habla de la palabra, no de las condiciones del préstamo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Una misma palabra puede aparecer en una información que no sirve al propósito.",
+      "solution": [
+        "El aviso explica cómo usar y devolver el vehículo.",
+        "Contar letras no desarrolla esas condiciones."
+      ],
+      "passage": {
+        "title": "El préstamo",
+        "paragraphs": [
+          "I. El préstamo de una bicicleta dura dos horas. II. Para retirarla se registra un documento de identidad. III. Las bicicletas deben devolverse en el mismo punto. IV. La palabra bicicleta tiene nueve letras."
+        ]
+      },
+      "id": "oraciones-eliminadas-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una elección justificada",
+      "body": [],
+      "prompt": "¿Qué explicación de supresión es correcta?",
+      "choices": [
+        {
+          "text": "Se elimina II porque es una restricción",
+          "explanation": "Una restricción relevante informa cómo visitar el museo."
+        },
+        {
+          "text": "Se elimina III porque no informa condiciones de visita",
+          "explanation": "La clasificación de números no aporta al objetivo del aviso."
+        },
+        {
+          "text": "Se elimina IV porque aparece al final",
+          "explanation": "La posición no vuelve impertinente una condición de entrada."
+        }
+      ],
+      "correct": 1,
+      "hint": "Una razón válida debe relacionar contenido y propósito.",
+      "solution": [
+        "Las condiciones de horario y reserva organizan la visita.",
+        "III cambia de asunto y por eso se elimina."
+      ],
+      "passage": {
+        "title": "El museo",
+        "paragraphs": [
+          "I. El museo abre a las 9:00. II. Las visitas de grupo necesitan reserva. III. Los números pares son divisibles por dos. IV. La última entrada se permite media hora antes del cierre."
+        ]
+      },
+      "id": "oraciones-eliminadas-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No confundas diferencia y falta de pertinencia",
+      "body": [
+        "Si eliminaste una restricción, revisa si resulta necesaria para usar el servicio. Una oración puede limitar una regla y seguir siendo parte central del tema.",
+        "Si conservaste una frase solo porque repite bicicleta o libro, comprueba su función. La repetición de palabras no garantiza unidad de propósito."
+      ],
+      "id": "oraciones-eliminadas-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Redundancia no es cualquier repetición",
+      "body": [
+        "Una repetición puede asegurar continuidad, contrastar dos sentidos o insistir con una finalidad. La redundancia eliminable repite información sin una función necesaria en ese pasaje.",
+        "En estos ejercicios se pide conservar la primera presentación y los datos nuevos. Antes de borrar, comprueba que los pronombres y demostrativos restantes mantengan antecedentes claros."
+      ],
+      "id": "oraciones-eliminadas-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Borra la reiteración sin perder el antecedente",
+      "body": [
+        "La oración I presenta el registro e informa sus campos. II explica su uso. III vuelve a decir que se anotan los mismos tres datos sin añadir una función. IV necesita ese registro, cuyo antecedente permanece en I.",
+        "Resolución: se suprime III. El párrafo conserva presentación, utilidad y condición de actualización."
+      ],
+      "passage": {
+        "title": "El registro de cajas",
+        "paragraphs": [
+          "I. El registro contiene código, ubicación y responsable de cada caja. II. Permite localizarla sin revisar todos los estantes. III. En él se anotan el código, la ubicación y el responsable de cada caja. IV. Ese registro debe actualizarse después de un traslado."
+        ]
+      },
+      "id": "oraciones-eliminadas-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Distingue repetir y desarrollar",
+      "body": [
+        "Toca cada oración para ver su aporte."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "La caja tiene una tapa ajustada.",
+            "role": "Presenta una característica"
+          },
+          {
+            "text": "Esa tapa reduce la entrada de salpicaduras.",
+            "role": "Añade una función y retoma el antecedente"
+          },
+          {
+            "text": "La caja dispone de una tapa que encaja ajustadamente.",
+            "role": "Reitera la característica sin información nueva en este contexto"
+          },
+          {
+            "text": "No protege el papel si se guardó húmedo.",
+            "role": "Añade un límite relevante; no es redundante"
+          }
+        ]
+      },
+      "id": "oraciones-eliminadas-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una reiteración posterior",
+      "body": [],
+      "prompt": "¿Qué oración se elimina?",
+      "choices": [
+        {
+          "text": "II",
+          "explanation": "Explica una utilidad del código y aporta información nueva."
+        },
+        {
+          "text": "IV",
+          "explanation": "Añade una acción de verificación que no estaba expresada."
+        },
+        {
+          "text": "III",
+          "explanation": "Reformula único como no repetido sin añadir otra función o condición."
+        }
+      ],
+      "correct": 2,
+      "hint": "La consigna conserva la primera presentación del dato.",
+      "solution": [
+        "I ya informa que los códigos son únicos.",
+        "III reitera esa misma propiedad; II y IV desarrollan uso y control."
+      ],
+      "passage": {
+        "title": "Las fichas",
+        "paragraphs": [
+          "Conserva la primera presentación y elimina solo la reiteración que no aporta datos nuevos. I. Cada ficha lleva un código único. II. Ese código permite relacionarla con su fotografía. III. No se repite ningún código entre las fichas. IV. La relación se comprueba al final de la jornada."
+        ]
+      },
+      "id": "oraciones-eliminadas-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un dato nuevo no es redundante",
+      "body": [],
+      "prompt": "¿Cuál es la reiteración eliminable?",
+      "choices": [
+        {
+          "text": "III",
+          "explanation": "Repite el máximo de veinte ya presentado en I."
+        },
+        {
+          "text": "II",
+          "explanation": "Explica cuándo se cierra la inscripción: es una condición nueva."
+        },
+        {
+          "text": "IV",
+          "explanation": "Añade una indicación de llegada y no repite el aforo."
+        }
+      ],
+      "correct": 0,
+      "hint": "No elimines una condición solo porque se relaciona con un dato previo.",
+      "solution": [
+        "I y III comunican el mismo aforo.",
+        "II y IV agregan reglas distintas que deben conservarse."
+      ],
+      "passage": {
+        "title": "El taller",
+        "paragraphs": [
+          "I. El taller admite veinte participantes. II. La inscripción se cierra cuando se completan esos cupos. III. Pueden ingresar como máximo veinte personas al taller. IV. Las personas inscritas deben llegar diez minutos antes. La consigna pide conservar la primera formulación del aforo."
+        ]
+      },
+      "id": "oraciones-eliminadas-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Antecedente necesario",
+      "body": [],
+      "prompt": "¿Qué oración se elimina?",
+      "choices": [
+        {
+          "text": "I",
+          "explanation": "Presenta el antecedente de ese desvío en II y debe conservarse."
+        },
+        {
+          "text": "IV",
+          "explanation": "Repite la ubicación ya informada sin añadir un dato."
+        },
+        {
+          "text": "III",
+          "explanation": "Explica a dónde conduce el camino comunal y completa la ruta."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba qué necesita retomar la segunda oración.",
+      "solution": [
+        "I introduce el desvío y su ubicación.",
+        "IV repite esa ubicación; quitarla deja intacta la cadena referencial."
+      ],
+      "passage": {
+        "title": "La ruta",
+        "paragraphs": [
+          "I. El grupo encontró un desvío junto al puente. II. Ese desvío conducía al camino comunal. III. El camino comunal llevaba al punto de reunión. IV. El desvío se encontraba al lado del puente. Se pide conservar la primera presentación y suprimir la repetición posterior."
+        ]
+      },
+      "id": "oraciones-eliminadas-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una repetición con función",
+      "body": [],
+      "prompt": "¿Qué se debe eliminar?",
+      "choices": [
+        {
+          "text": "II, porque repite caja",
+          "explanation": "La repetición identifica una condición del contraste y es útil."
+        },
+        {
+          "text": "III, porque contiene más agua",
+          "explanation": "Describe el resultado de la otra condición y es pertinente."
+        },
+        {
+          "text": "IV, porque cambia de asunto",
+          "explanation": "No contribuye a la comparación de las cajas."
+        }
+      ],
+      "correct": 2,
+      "hint": "No confundas repetición de una palabra con repetición innecesaria de información.",
+      "solution": [
+        "II y III desarrollan los dos lados de una comparación.",
+        "La oración IV es la única ajena a ese propósito."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "I. El informe compara dos cajas: una cerrada y otra abierta. II. La caja cerrada perdió menos agua. III. La caja abierta perdió más agua. IV. Las nubes pueden ocultar una montaña. El contraste entre las dos cajas es el propósito del párrafo."
+        ]
+      },
+      "id": "oraciones-eliminadas-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Prueba el párrafo que queda",
+      "body": [
+        "Después de suprimir, lee las oraciones restantes seguidas. Debe conservarse el tema, la secuencia y cada antecedente necesario.",
+        "Si eliminaste un dato nuevo, revisa qué diferencia aporta: una función, una condición o una etapa. Si conservaste la duplicación, pregunta qué perdería el lector al borrarla bajo el propósito fijado."
+      ],
+      "id": "oraciones-eliminadas-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Contradicción y contraste no son iguales",
+      "body": [
+        "Una contradicción atribuye hechos incompatibles al mismo objeto, tiempo y marco: todas las cajas abiertas y dos cerradas todo ese día. Un contraste puede ser plenamente coherente: una caja abierta y otra cerrada.",
+        "Una objeción también puede ser pertinente dentro de una argumentación. No se elimina por disentir del autor; debe evaluarse su función en el conjunto."
+      ],
+      "id": "oraciones-eliminadas-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una excepción puede ser central",
+      "body": [
+        "El pasaje no pretende decir que el nuevo horario resuelva cualquier necesidad. La tercera oración muestra un grupo que sigue sin acceso y explica la propuesta final.",
+        "Resolución: se conserva la excepción. Si se suprimiera, la última medida perdería su razón. La distinta situación de un grupo es un límite relevante, no una incoherencia."
+      ],
+      "passage": {
+        "title": "El horario ampliado",
+        "paragraphs": [
+          "I. El nuevo horario permitió acudir a quienes estaban libres después de clases. II. Esas personas empezaron a usar la sala dos tardes por semana. III. Quienes trabajaban por la tarde seguían sin poder asistir. IV. Por eso, el comité propuso probar un turno temprano para ese segundo grupo."
+        ]
+      },
+      "id": "oraciones-eliminadas-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "El criterio debe estar declarado",
+      "body": [
+        "En una supresión por redundancia conservamos la información suficiente y los enlaces. En una supresión por impertinencia conservamos el propósito. Ante datos contradictorios, primero debe verificarse cuál es correcto.",
+        "Si un ejercicio indica expresamente qué registro ha sido confirmado, puedes usar esa condición para identificar la afirmación incompatible. Sin esa evidencia, no adivines cuál dato real debe borrarse."
+      ],
+      "id": "oraciones-eliminadas-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una contradicción con dato verificado",
+      "body": [],
+      "prompt": "¿Qué oración es incompatible con el acta confirmada?",
+      "choices": [
+        {
+          "text": "II",
+          "explanation": "Tres filas de cuatro son compatibles con doce sillas."
+        },
+        {
+          "text": "III",
+          "explanation": "Niega la presencia de sillas que el acta y la distribución confirman."
+        },
+        {
+          "text": "IV",
+          "explanation": "Informa la disposición y no contradice la cantidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "La verificación y el mismo momento eliminan dudas sobre el marco.",
+      "solution": [
+        "El dato confirmado es doce sillas presentes.",
+        "III afirma cero y resulta incompatible."
+      ],
+      "passage": {
+        "title": "El inventario",
+        "paragraphs": [
+          "El acta confirmada establece que hay doce sillas en la sala. I. La sala dispone de doce sillas. II. Se colocaron en tres filas de cuatro. III. No hay ninguna silla en la sala. IV. Cada fila deja un espacio de paso. Todas las oraciones se refieren al mismo momento."
+        ]
+      },
+      "id": "oraciones-eliminadas-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "No elimines la objeción útil",
+      "body": [],
+      "prompt": "¿Qué oración debe eliminarse por impertinencia?",
+      "choices": [
+        {
+          "text": "II",
+          "explanation": "Presenta la objeción a la que responde la limitación de III."
+        },
+        {
+          "text": "III",
+          "explanation": "Explica cómo se ajusta la propuesta y conserva el razonamiento."
+        },
+        {
+          "text": "IV",
+          "explanation": "El conteo de letras no contribuye a evaluar la jornada propuesta."
+        }
+      ],
+      "correct": 2,
+      "hint": "La objeción es parte de la estructura argumentativa.",
+      "solution": [
+        "II y III forman una dificultad y su respuesta.",
+        "IV no aporta a esa discusión."
+      ],
+      "passage": {
+        "title": "La jornada",
+        "paragraphs": [
+          "I. La autora propone una jornada mensual de reparación. II. Algunos objetan que el equipo dispone de poco tiempo. III. Para atender esa dificultad, limita la jornada a objetos con daños sencillos. IV. La palabra mensual tiene siete letras."
+        ]
+      },
+      "id": "oraciones-eliminadas-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una supresión que daña el sentido",
+      "body": [],
+      "prompt": "¿Qué decisión es correcta?",
+      "choices": [
+        {
+          "text": "Eliminar III, porque parafrasea la consulta interna de los sábados",
+          "explanation": "La condición queda suficientemente expresada en II bajo el sentido de consulta interna."
+        },
+        {
+          "text": "Eliminar II y III, porque cualquier excepción sobra",
+          "explanation": "Borraría una regla indispensable del servicio."
+        },
+        {
+          "text": "Eliminar I, porque todos ya deberían saber el horario",
+          "explanation": "La consigna no establece ese conocimiento y I aporta los días de apertura."
+        }
+      ],
+      "correct": 0,
+      "hint": "Identifica la condición inicial y la paráfrasis que la repite.",
+      "solution": [
+        "II fija que el sábado el uso es interno.",
+        "III explica lo mismo sin añadir otro requisito; las otras condiciones se conservan."
+      ],
+      "passage": {
+        "title": "El aviso",
+        "paragraphs": [
+          "I. La sala abre de lunes a sábado. II. Los sábados solo se permite consulta interna. III. Ese día no se llevan libros a casa. IV. Para los demás días se mantiene el préstamo habitual. Se pide conservar la formulación inicial de cada condición y suprimir una paráfrasis posterior."
+        ]
+      },
+      "id": "oraciones-eliminadas-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un contraste pertinente y una digresión",
+      "body": [],
+      "prompt": "¿Qué supresión conserva mejor el propósito?",
+      "choices": [
+        {
+          "text": "Eliminar II porque contradice una ventaja del papel grueso",
+          "explanation": "No contradice: presenta otra propiedad útil para un uso distinto."
+        },
+        {
+          "text": "Eliminar IV porque no contribuye a la comparación ni a la elección",
+          "explanation": "Las tres primeras oraciones mantienen criterios y una conclusión pertinente."
+        },
+        {
+          "text": "Eliminar III porque una conclusión nunca aporta información",
+          "explanation": "III integra los criterios de elección y es parte del razonamiento."
+        }
+      ],
+      "correct": 1,
+      "hint": "Dos ventajas distintas pueden coexistir si se refieren a usos distintos.",
+      "solution": [
+        "I y II comparan propiedades; III explica cómo elegir.",
+        "IV cambia a un asunto ajeno y se elimina."
+      ],
+      "passage": {
+        "title": "La exposición",
+        "paragraphs": [
+          "I. El papel grueso resiste mejor algunos dobleces que el muy fino. II. El fino puede ser más cómodo para crear pliegues pequeños. III. La elección depende del tamaño y la función del objeto que se desea construir. IV. Las palomas suelen posarse en la plaza. El propósito es comparar papeles para plegado."
+        ]
+      },
+      "id": "oraciones-eliminadas-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "La mejor depuración conserva la estructura",
+      "body": [
+        "Justifica la oración que retiras y la función de las que quedan. No borres una excepción porque complica la regla ni una objeción porque no coincide con la tesis.",
+        "Si aparecen hechos incompatibles y no hay uno verificado, la tarea editorial requiere comprobarlos. La coherencia no se consigue eligiendo al azar el dato más agradable."
+      ],
+      "id": "oraciones-eliminadas-24",
+      "level": 3
+    }
+  ]
+}

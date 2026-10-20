@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-narrativos",
+  "course": "lectura",
+  "slug": "textos-narrativos",
+  "title": "Textos narrativos",
+  "description": "Lee acontecimientos, narradores, géneros, cambios temporales y desenlaces con evidencia.",
+  "version": 1,
+  "order": 23,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Reconocer acciones, personajes, espacio y cambio",
+    "Distinguir géneros narrativos y alcance del narrador",
+    "Interpretar tiempo, motivaciones y cierres sin inventar hechos"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una narración organiza acontecimientos",
+      "body": [
+        "Un texto narrativo cuenta hechos reales o ficticios relacionados en el tiempo. Puede presentar personajes, un espacio, una situación inicial, una dificultad y un cambio; no toda narración desarrolla un conflicto del mismo modo.",
+        "El narrador es la voz que cuenta. El autor es la persona real que produce el texto. En una ficción, no debemos suponer que el yo narrador tiene la misma vida ni identidad del autor."
+      ],
+      "id": "textos-narrativos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Sigue qué cambia",
+      "body": [
+        "Situación inicial: Ana cree que no podrá presentar su maqueta por falta de una pieza. Dificultad: no tiene tiempo para reemplazarla. Cambio: adapta el diseño con una idea del grupo y logra presentarlo.",
+        "El banco y la ventana describen un escenario; las acciones que transforman el problema organizan la narración."
+      ],
+      "passage": {
+        "title": "La pieza que faltaba",
+        "paragraphs": [
+          "Ana dejó la caja junto a la ventana y contó las piezas de su maqueta. Faltaba la más larga y la presentación comenzaría en diez minutos. Miró el banco del taller, vacío, sin saber qué hacer. Entonces Joel propuso unir dos piezas cortas. Ana probó la idea, ajustó el soporte y llegó al aula con un diseño distinto del que había planeado."
+        ]
+      },
+      "id": "textos-narrativos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Reconstruye una historia",
+      "body": [
+        "Toca cada elemento y observa qué pregunta responde."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Personaje",
+            "text": "¿Quién actúa o a quién le ocurre algo?"
+          },
+          {
+            "label": "Espacio",
+            "text": "¿En qué lugar se desarrolla la acción?"
+          },
+          {
+            "label": "Tiempo",
+            "text": "¿Cuándo ocurre y en qué orden se cuentan los hechos?"
+          },
+          {
+            "label": "Dificultad",
+            "text": "¿Qué obstáculo, incertidumbre o necesidad impulsa los acontecimientos?"
+          },
+          {
+            "label": "Cambio",
+            "text": "¿Qué diferencia existe entre el comienzo y el final?"
+          }
+        ]
+      },
+      "id": "textos-narrativos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El cambio central",
+      "body": [],
+      "prompt": "¿Qué cambio organiza el relato?",
+      "choices": [
+        {
+          "text": "El parque desaparece antes del segundo intento",
+          "explanation": "No se describe esa transformación del espacio."
+        },
+        {
+          "text": "La cometa pasa de no volar a elevarse después de un ajuste",
+          "explanation": "Conserva la dificultad, la intervención y el resultado."
+        },
+        {
+          "text": "Rita decide no volver a usar una cometa",
+          "explanation": "Su segundo intento y el final contradicen esa decisión."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara la situación del objeto al inicio y al final.",
+      "solution": [
+        "Primero la cometa no vuela.",
+        "Tras ajustar la varilla, logra elevarse."
+      ],
+      "passage": {
+        "title": "La cometa",
+        "paragraphs": [
+          "Rita llegó al parque con una cometa que no levantaba vuelo. Observó que una varilla estaba torcida, la ajustó con ayuda de su hermano y volvió a intentarlo. Esta vez la cometa subió por encima de los árboles. Rita dejó de mirar la varilla y siguió con los ojos el hilo tenso."
+        ]
+      },
+      "id": "textos-narrativos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una acción que modifica la situación",
+      "body": [],
+      "prompt": "¿Qué acción resuelve la situación de la libreta perdida?",
+      "choices": [
+        {
+          "text": "Devolverla a Lía",
+          "explanation": "Restituye el objeto a la persona identificada como dueña."
+        },
+        {
+          "text": "Ver un pasillo",
+          "explanation": "Solo ubica parte del escenario."
+        },
+        {
+          "text": "Dejarla sobre una mesa",
+          "explanation": "El texto dice que eligió otra acción."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca el hecho que cambia el estado de objeto encontrado sin dueño presente.",
+      "solution": [
+        "Identificar el nombre orienta la acción.",
+        "La devolución resuelve la pérdida para la propietaria."
+      ],
+      "passage": {
+        "title": "La libreta",
+        "paragraphs": [
+          "Hugo encontró una libreta en el pasillo. La abrió para buscar un nombre y vio el de su compañera Lía. En lugar de dejarla sobre una mesa, fue al aula contigua y se la devolvió antes de la salida."
+        ]
+      },
+      "id": "textos-narrativos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Narrador y autor",
+      "body": [],
+      "prompt": "¿Qué puede afirmarse sobre el yo?",
+      "choices": [
+        {
+          "text": "Es necesariamente la persona real que escribió el cuento",
+          "explanation": "En una ficción, autor y narrador no se identifican por el pronombre."
+        },
+        {
+          "text": "No puede ser un personaje porque usa primera persona",
+          "explanation": "Precisamente puede contar como participante de los hechos."
+        },
+        {
+          "text": "Es la voz narradora participante de la historia",
+          "explanation": "El yo realiza acciones dentro del relato, sin identificar al autor real."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa la voz que cuenta de la persona real que produjo el texto.",
+      "solution": [
+        "Yo escondí introduce un narrador que actúa.",
+        "La identidad del autor no queda establecida."
+      ],
+      "passage": {
+        "title": "El inicio de un cuento propio",
+        "paragraphs": [
+          "Yo escondí la caja detrás del banco y esperé a que mi hermana terminara de buscar. No sabía que ella había visto mis huellas en el polvo. El texto se presenta como un cuento ficticio y no informa quién lo escribió."
+        ]
+      },
+      "id": "textos-narrativos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Espacio y acción",
+      "body": [],
+      "prompt": "¿Qué fragmento describe principalmente el espacio?",
+      "choices": [
+        {
+          "text": "Sara llegó cuando solo quedaba una silla",
+          "explanation": "Introduce un acontecimiento en el tiempo."
+        },
+        {
+          "text": "La sala tenía tres filas y una puerta al fondo",
+          "explanation": "Presenta la disposición del lugar."
+        },
+        {
+          "text": "La acercó al grupo y se sentó",
+          "explanation": "Relata acciones que hacen avanzar los hechos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue cómo es el lugar de qué sucede en él.",
+      "solution": [
+        "Filas y puerta sitúan elementos del ambiente.",
+        "Las otras opciones presentan movimientos de Sara."
+      ],
+      "passage": {
+        "title": "El último asiento",
+        "paragraphs": [
+          "La sala tenía tres filas y una puerta al fondo. Sara llegó cuando solo quedaba una silla libre. La acercó al grupo que trabajaba junto a la ventana y se sentó para ayudar con el cartel."
+        ]
+      },
+      "id": "textos-narrativos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Las descripciones pueden apoyar una narración",
+      "body": [
+        "Si elegiste todo el texto como descriptivo porque aparecía una ventana o un color, observa qué cambia y qué acciones lo producen. Una secuencia descriptiva puede aportar el escenario.",
+        "Si identificaste autor y narrador por el yo, vuelve al marco de ficción. El texto permite describir una voz narrativa sin atribuirle la biografía de una persona real."
+      ],
+      "id": "textos-narrativos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Hay distintas formas de narrar",
+      "body": [
+        "Un cuento suele ser una narración breve con una unidad de acontecimientos. Una novela desarrolla una trama más amplia y compleja; un fragmento aislado no basta siempre para distinguirlos. Una biografía narra la vida de una persona y una crónica organiza hechos con atención a su secuencia temporal.",
+        "Un mito tradicional suele explicar orígenes mediante seres o acciones sagradas en una comunidad; una leyenda vincula lugares, personajes o hechos con elementos extraordinarios transmitidos. Un relato inventado para practicar puede imitar esas formas, sin presentarse como tradición auténtica."
+      ],
+      "id": "textos-narrativos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "La forma y el marco importan",
+      "body": [
+        "El relato inventado atribuye un origen a las estrellas mediante una acción de un ser extraordinario. Por esa función de explicación de origen imita una forma mítica.",
+        "No se afirma que la comunidad ficticia haya existido. Clasificar el recurso narrativo no convierte el relato en una fuente histórica."
+      ],
+      "passage": {
+        "title": "Mito ficticio de práctica: las semillas de luz",
+        "paragraphs": [
+          "En la isla imaginaria de Luma, el relato cuenta que al principio la noche era completamente oscura. Una guardiana lanzó al cielo semillas que no habían encontrado suelo. Las semillas quedaron encendidas sobre el mar, y desde entonces las personas de aquella historia las llamaron estrellas. Cada noche buscaban su luz para recordar el camino de regreso."
+        ]
+      },
+      "id": "textos-narrativos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Género y función narrativa",
+      "body": [
+        "Toca las formas y observa qué rasgo puede orientar su lectura, sin convertirlo en una regla mecánica."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Cuento y novela",
+            "text": "Comparten narración ficticia posible; la novela suele desarrollar una obra más extensa y compleja."
+          },
+          {
+            "label": "Mito",
+            "text": "Puede explicar un origen en un marco sagrado o extraordinario de una tradición."
+          },
+          {
+            "label": "Leyenda",
+            "text": "Suele vincular un lugar o personaje reconocible con acontecimientos extraordinarios transmitidos."
+          },
+          {
+            "label": "Crónica",
+            "text": "Organiza hechos con atención a su desarrollo temporal y puede incluir una mirada del cronista."
+          },
+          {
+            "label": "Biografía",
+            "text": "Narra acontecimientos de la vida de una persona; una autobiografía los cuenta desde esa misma persona."
+          },
+          {
+            "label": "Poesía épica",
+            "text": "Puede narrar acciones heroicas mediante una composición poética."
+          },
+          {
+            "label": "Noticia y reportaje",
+            "text": "Pueden usar secuencias narrativas para informar hechos, con distinto desarrollo periodístico."
+          }
+        ]
+      },
+      "id": "textos-narrativos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una leyenda imitada",
+      "body": [],
+      "prompt": "¿Qué rasgo acerca el texto a una leyenda?",
+      "choices": [
+        {
+          "text": "Presenta datos experimentales sobre el sonido",
+          "explanation": "No describe mediciones ni una explicación física comprobada."
+        },
+        {
+          "text": "Enumera pasos para construir un puente",
+          "explanation": "No orienta una tarea de construcción."
+        },
+        {
+          "text": "Vincula un lugar de la historia con un acontecimiento extraordinario transmitido",
+          "explanation": "Ese vínculo y la circulación del relato caracterizan la forma imitada."
+        }
+      ],
+      "correct": 2,
+      "hint": "La actividad clasifica una forma narrativa, no verifica la existencia del pueblo.",
+      "solution": [
+        "El puente y la campana extraordinaria se vinculan con una historia transmitida.",
+        "Ese recurso corresponde a una leyenda ficticia de práctica."
+      ],
+      "passage": {
+        "title": "Leyenda ficticia de práctica",
+        "paragraphs": [
+          "En el pueblo imaginario de Brisalta, se cuenta que una campana enterrada suena bajo el puente cuando alguien intenta cruzarlo durante la niebla. Los vecinos de la historia relacionan el sonido con una antigua guardiana del paso. Nadie en el relato encuentra la campana, pero su leyenda acompaña las advertencias que los mayores cuentan a los niños."
+        ]
+      },
+      "id": "textos-narrativos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una crónica breve",
+      "body": [],
+      "prompt": "¿Qué rasgo organiza el texto?",
+      "choices": [
+        {
+          "text": "El recorrido temporal de una jornada",
+          "explanation": "Las marcas horarias y las acciones sucesivas guían el relato."
+        },
+        {
+          "text": "Una clasificación de todos los tipos de cuaderno",
+          "explanation": "Los cuadernos participan de la jornada, pero no se clasifican."
+        },
+        {
+          "text": "Una argumentación para prohibir el taller",
+          "explanation": "No se formula esa postura ni se ofrecen razones para ella."
+        }
+      ],
+      "correct": 0,
+      "hint": "Observa cómo las marcas temporales ordenan los hechos.",
+      "solution": [
+        "Ocho, media hora después, mañana y mediodía estructuran la secuencia.",
+        "La narración sigue el desarrollo de la jornada."
+      ],
+      "passage": {
+        "title": "Crónica de práctica: la jornada",
+        "paragraphs": [
+          "A las ocho, el equipo abrió el aula y preparó las mesas. Media hora después llegaron los primeros participantes con sus cuadernos. Durante la mañana, cada grupo mostró cómo había resuelto una reparación. Al mediodía se recogieron los materiales y se registraron los trabajos pendientes. La cronista cerró su nota al ver el patio vacío."
+        ]
+      },
+      "id": "textos-narrativos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un narrador con acceso a pensamientos",
+      "body": [],
+      "prompt": "¿Qué alcance muestra esta voz narradora?",
+      "choices": [
+        {
+          "text": "Solo reproduce sonidos sin interpretar nada",
+          "explanation": "Se exponen estados mentales no dichos en voz alta."
+        },
+        {
+          "text": "Conoce pensamientos de más de un personaje",
+          "explanation": "Elena teme y Luis está seguro, con información que el narrador distribuye."
+        },
+        {
+          "text": "Es necesariamente Luis hablando en primera persona",
+          "explanation": "El relato usa sus nombres y no se identifica como yo."
+        }
+      ],
+      "correct": 1,
+      "hint": "No atribuyas omnisciencia por la tercera persona sola; aquí hay evidencia mental de dos personajes.",
+      "solution": [
+        "La voz conoce el temor de Elena y la seguridad de Luis.",
+        "Ese acceso supera una mera observación externa."
+      ],
+      "passage": {
+        "title": "El proyecto",
+        "paragraphs": [
+          "Elena miró la caja y temió haber olvidado una pieza. Al otro lado del aula, Luis estaba seguro de que el grupo acabaría a tiempo; no sabía que la pieza ya estaba en su mochila. El narrador presenta esos pensamientos aunque ninguno de los dos los pronuncia."
+        ]
+      },
+      "id": "textos-narrativos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una biografía frente a una instrucción",
+      "body": [],
+      "prompt": "¿Qué clasificación responde al propósito?",
+      "choices": [
+        {
+          "text": "Manual de reparación",
+          "explanation": "No explica materiales ni pasos ejecutables para reparar un instrumento."
+        },
+        {
+          "text": "Mito de origen del río",
+          "explanation": "No atribuye el origen de un fenómeno a seres extraordinarios."
+        },
+        {
+          "text": "Relato biográfico",
+          "explanation": "Organiza acontecimientos de la vida de una persona ficticia."
+        }
+      ],
+      "correct": 2,
+      "hint": "El objeto del relato son las etapas de una vida.",
+      "solution": [
+        "Nacimiento, aprendizaje, taller y formación presentan un recorrido vital.",
+        "Ese propósito corresponde a un relato biográfico de práctica."
+      ],
+      "passage": {
+        "title": "Perfil ficticio de práctica",
+        "paragraphs": [
+          "Marina nació en un pueblo junto al río. Durante su juventud aprendió a reparar instrumentos y abrió después un pequeño taller. Años más tarde formó aprendices y registró sus técnicas en cuadernos. El perfil recorre etapas de su vida; no pretende que el lector siga esas mismas acciones como un procedimiento."
+        ]
+      },
+      "id": "textos-narrativos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Los géneros no se reconocen por una sola palabra",
+      "body": [
+        "No elijas mito solo porque aparece una estrella ni crónica solo porque aparece una hora. Revisa la función y la organización del conjunto.",
+        "En el narrador, busca evidencia del alcance: acciones observadas, pensamientos propios o estados de varios personajes. La tercera persona puede tener conocimiento limitado; el pronombre no decide por sí solo."
+      ],
+      "id": "textos-narrativos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "El orden del relato puede cambiar",
+      "body": [
+        "El tiempo de los hechos y el orden en que se cuentan no siempre coinciden. Una retrospección vuelve a algo anterior; una anticipación adelanta un hecho futuro respecto del momento que se narraba.",
+        "Para interpretar motivaciones y desenlaces, enlaza acciones con pistas del texto. Una inferencia puede ser razonable sin convertirse en una certeza sobre todo lo que el personaje piensa o hará."
+      ],
+      "id": "textos-narrativos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un recuerdo dentro del presente narrado",
+      "body": [
+        "Primero se cuenta que Inés llega a la estación. Después recuerda lo sucedido el verano anterior y finalmente vuelve a su llegada actual.",
+        "Resolución: el bloque central es una retrospección. Explica por qué la libreta tiene valor para ella; no significa que esté perdiéndola de nuevo en ese momento."
+      ],
+      "passage": {
+        "title": "La libreta azul",
+        "paragraphs": [
+          "Inés llegó a la estación con una libreta azul bajo el brazo. Al ver el banco de madera recordó el verano anterior: había dejado allí la libreta, subido al bus y advertido la pérdida cuando ya era tarde. Un vendedor la había guardado hasta su regreso. Ahora, frente al mismo banco, Inés apretó la libreta y buscó al vendedor entre los puestos."
+        ]
+      },
+      "id": "textos-narrativos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Un final abierto conserva preguntas",
+      "body": [
+        "Un desenlace puede resolver la dificultad principal o dejar una decisión pendiente. Un final abierto no carece de sentido: puede centrar la atención en una incertidumbre que el lector debe reconocer.",
+        "No completes el final con un deseo propio. Si el personaje ve una carta sin abrirla, puedes describir su vacilación, pero no afirmar el contenido ni la respuesta que dará."
+      ],
+      "id": "textos-narrativos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Identifica una retrospección",
+      "body": [],
+      "prompt": "¿Qué función tiene el tramo sobre diez años antes?",
+      "choices": [
+        {
+          "text": "Anunciar lo que ocurrirá después de abrir la caja",
+          "explanation": "Se sitúa antes de la escena actual, no en el futuro."
+        },
+        {
+          "text": "Introducir un recuerdo que da contexto al reconocimiento actual",
+          "explanation": "La retrospección relaciona el objeto presente con una experiencia anterior."
+        },
+        {
+          "text": "Demostrar que Nerea nunca había visto la caja",
+          "explanation": "El recuerdo afirma precisamente una familiaridad previa."
+        }
+      ],
+      "correct": 1,
+      "hint": "Ubica el recuerdo respecto del momento de entrar al taller.",
+      "solution": [
+        "El pasado de hace diez años explica por qué reconoce la caja.",
+        "Luego el relato regresa a la escena actual."
+      ],
+      "passage": {
+        "title": "La caja de madera",
+        "paragraphs": [
+          "Al entrar al taller, Nerea reconoció la caja junto a la ventana. Diez años antes, su padre había guardado allí las primeras herramientas que ella aprendió a usar. Recordó la tarde en que intentó ajustar una bisagra y dejó caer todos los tornillos. Volvió a mirar la caja actual, con una esquina nueva y el mismo cierre. La abrió despacio."
+        ]
+      },
+      "id": "textos-narrativos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una motivación apoyada en acciones",
+      "body": [],
+      "prompt": "¿Qué motivación es la mejor respaldada?",
+      "choices": [
+        {
+          "text": "Quería ocultar el dibujo para ganar un premio",
+          "explanation": "Su acción final es entregarlo, no esconderlo, y no se menciona un premio."
+        },
+        {
+          "text": "Pretendía abandonar la exposición por falta de interés",
+          "explanation": "Se apresura hacia la compañera y conserva el dibujo."
+        },
+        {
+          "text": "Quería devolver a Lía el dibujo que necesitaba antes del cierre",
+          "explanation": "Reconocimiento, recuerdo de la búsqueda, reloj y entrega apoyan esa interpretación."
+        }
+      ],
+      "correct": 2,
+      "hint": "Relaciona el conocimiento del personaje y la acción final.",
+      "solution": [
+        "Omar sabe que Lía busca la hoja y que queda poco tiempo.",
+        "Su cuidado y entrega sostienen una intención de ayudar a recuperarla."
+      ],
+      "passage": {
+        "title": "La hoja faltante",
+        "paragraphs": [
+          "La exposición cerraba en veinte minutos cuando Omar encontró una hoja caída detrás de un armario. Reconoció el dibujo de Lía y recordó que ella llevaba toda la mañana buscándolo. Miró el reloj, tomó la hoja sin doblarla y salió hacia el patio, donde su compañera preparaba una mesa vacía. Al llegar, dejó el dibujo frente a ella antes de decir una palabra."
+        ]
+      },
+      "id": "textos-narrativos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "No inventes el final",
+      "body": [],
+      "prompt": "¿Qué permanece sin resolver?",
+      "choices": [
+        {
+          "text": "Si Sol abrirá la carta y cómo responderá a su contenido",
+          "explanation": "El relato termina antes de mostrar lectura o respuesta."
+        },
+        {
+          "text": "Si existía una carta sobre el cuaderno",
+          "explanation": "Su presencia está afirmada desde el comienzo."
+        },
+        {
+          "text": "Si el aula había quedado vacía",
+          "explanation": "El texto lo establece de forma explícita."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue incertidumbre final de hechos que ya se presentaron.",
+      "solution": [
+        "La carta y su reconocimiento están establecidos.",
+        "La acción de abrir y la posible respuesta siguen pendientes."
+      ],
+      "passage": {
+        "title": "La carta",
+        "paragraphs": [
+          "Cuando el aula quedó vacía, Sol encontró una carta sobre su cuaderno. Reconoció la letra de su antigua compañera, con quien no hablaba desde una discusión. Se sentó, acercó el sobre a la lámpara y luego lo dejó junto a la ventana. Afuera empezaba a llover. Sol tomó de nuevo la carta y apoyó un dedo bajo la solapa. En ese instante terminó el relato."
+        ]
+      },
+      "id": "textos-narrativos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "La voz del personaje no es toda la verdad del relato",
+      "body": [],
+      "prompt": "¿Qué interpretación integra el inicio y la información posterior?",
+      "choices": [
+        {
+          "text": "La sospecha inicial queda demostrada sin cambios",
+          "explanation": "La acción de Lara muestra que estaba ayudando fuera del aula."
+        },
+        {
+          "text": "La primera impresión de Tomás se corrige al conocer lo que hacía Lara",
+          "explanation": "El texto distingue su inferencia inicial del hecho revelado después."
+        },
+        {
+          "text": "Lara nunca salió del aula",
+          "explanation": "El relato describe su salida para traer materiales."
+        }
+      ],
+      "correct": 1,
+      "hint": "Una idea de un personaje puede quedar rectificada por nuevos hechos.",
+      "solution": [
+        "Tomás interpreta una mesa vacía como abandono.",
+        "La escena del patio aporta una explicación distinta y corrige esa impresión."
+      ],
+      "passage": {
+        "title": "El malentendido",
+        "paragraphs": [
+          "Tomás pensó que Lara se había marchado sin ayudar: su mesa estaba vacía y la puerta, abierta. Salió al patio molesto. Allí vio a Lara cargando los materiales que ambos habían olvidado en el depósito. Ella había salido antes para traerlos y no había encontrado a nadie a quien avisar. Tomás bajó la mirada y se acercó a sostener la caja más grande."
+        ]
+      },
+      "id": "textos-narrativos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Vuelve a la pista, no a una moraleja automática",
+      "body": [
+        "Para tiempo, marca el momento de referencia y los saltos. Para motivación, conecta conocimientos y acciones. Para final, distingue lo resuelto de lo que el texto deja pendiente.",
+        "Si confundiste pensamiento y hecho, separa quién lo cree y qué muestra después el narrador. Una historia puede usar un error de interpretación para producir el cambio central."
+      ],
+      "id": "textos-narrativos-24",
+      "level": 3
+    }
+  ]
+}

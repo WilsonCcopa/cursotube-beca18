@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/fases-comprension-lectora",
+  "course": "lectura",
+  "slug": "fases-comprension-lectora",
+  "title": "Fases de la comprensión lectora",
+  "description": "Planifica, supervisa y evalúa tu lectura con preguntas y evidencia.",
+  "version": 1,
+  "order": 9,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Establecer propósito y predicciones antes de leer",
+    "Autorregular la comprensión durante la lectura",
+    "Resumir, contrastar y evaluar después de leer"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Antes: define qué necesitas comprender",
+      "body": [
+        "Leer para localizar una fecha no exige el mismo recorrido que leer para explicar una postura. Define tu objetivo y revisa título, subtítulos y procedencia. Activa conocimientos previos, pero mantenlos separados de lo que el texto afirma.",
+        "Una predicción es una hipótesis revisable. El título puede sugerir un asunto; no demuestra el contenido ni autoriza responder sin leer."
+      ],
+      "id": "fases-comprension-lectora-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Una predicción que se puede corregir",
+      "body": [
+        "El título puede hacer esperar una historia sobre riego; la presentación precisa que se explicarán registros de consumo.",
+        "Procedimiento resuelto: formulo la pregunta ¿cómo compararon el uso de agua?, leo y modifico mi expectativa si el desarrollo no trata sobre técnicas de cultivo."
+      ],
+      "passage": {
+        "title": "Agua que se cuenta",
+        "paragraphs": [
+          "El informe de un taller escolar presenta cómo se registró el agua usada en tres jornadas. No propone un sistema de riego; explica qué se midió y qué límites tuvieron las mediciones."
+        ]
+      },
+      "id": "fases-comprension-lectora-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Prepara una lectura activa",
+      "body": [
+        "Toca cada decisión previa y observa para qué sirve."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Propósito",
+            "text": "Quiero identificar el cambio de horario y a quién afecta: orienta la búsqueda."
+          },
+          {
+            "label": "Conocimientos previos",
+            "text": "Sé qué es un préstamo: ayuda a entender, pero no fija las reglas de esta biblioteca."
+          },
+          {
+            "label": "Predicción",
+            "text": "Por el título espero una explicación del cambio: debo comprobarlo al leer."
+          },
+          {
+            "label": "Pregunta guía",
+            "text": "¿Qué cambió, desde cuándo y para quiénes? Permite revisar si obtuve lo necesario."
+          }
+        ]
+      },
+      "id": "fases-comprension-lectora-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un propósito definido",
+      "body": [],
+      "prompt": "¿Qué objetivo de lectura corresponde primero?",
+      "choices": [
+        {
+          "text": "Memorizar todas las palabras de la circular",
+          "explanation": "No es necesario para resolver la necesidad concreta."
+        },
+        {
+          "text": "Encontrar y verificar la fecha de inicio del nuevo horario",
+          "explanation": "Responde a la información que debe comunicar."
+        },
+        {
+          "text": "Decidir si le gusta el estilo del autor",
+          "explanation": "Es una evaluación distinta de la tarea solicitada."
+        }
+      ],
+      "correct": 1,
+      "hint": "Relaciona el objetivo con la pregunta que Julia debe responder.",
+      "solution": [
+        "La tarea exige una fecha de aplicación.",
+        "Ese propósito orienta hacia la sección pertinente y su verificación."
+      ],
+      "passage": {
+        "title": "La tarea",
+        "paragraphs": [
+          "A Julia le piden informar a su grupo desde qué día se aplicará un nuevo horario. Tiene una circular con antecedentes, razones del cambio y una sección de fechas."
+        ]
+      },
+      "id": "fases-comprension-lectora-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El título no reemplaza al texto",
+      "body": [],
+      "prompt": "¿Cómo debe tratar su suposición?",
+      "choices": [
+        {
+          "text": "Como una predicción que puede confirmarse o corregirse",
+          "explanation": "El título aporta una pista, no todo el desarrollo."
+        },
+        {
+          "text": "Como un hecho demostrado que vuelve innecesaria la lectura",
+          "explanation": "No se conoce aún qué explica realmente el texto."
+        },
+        {
+          "text": "Como una respuesta incorrecta que siempre debe desecharse",
+          "explanation": "Una predicción puede ser útil si se contrasta con evidencia."
+        }
+      ],
+      "correct": 0,
+      "hint": "Una hipótesis previa debe mantenerse abierta a la comprobación.",
+      "solution": [
+        "El título permite anticipar un tema posible.",
+        "La lectura será la prueba que sostenga o modifique esa anticipación."
+      ],
+      "passage": {
+        "title": "Una expectativa",
+        "paragraphs": [
+          "Un texto se titula La segunda vida del papel. Antes de leerlo, Andrés supone que explicará formas de reutilización. Todavía no ha revisado los párrafos."
+        ]
+      },
+      "id": "fases-comprension-lectora-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Conocimientos previos y evidencia",
+      "body": [],
+      "prompt": "¿Qué actitud favorece la comprensión?",
+      "choices": [
+        {
+          "text": "Aplicar automáticamente la regla de su biblioteca habitual",
+          "explanation": "Las normas de instituciones distintas pueden variar."
+        },
+        {
+          "text": "Ignorar todas las palabras conocidas",
+          "explanation": "Los conocimientos previos ayudan a entender los conceptos."
+        },
+        {
+          "text": "Usar su experiencia para comprender y verificar la regla de la nueva biblioteca",
+          "explanation": "Separa apoyo previo y dato que debe extraer del documento."
+        }
+      ],
+      "correct": 2,
+      "hint": "Lo que ya sabes ayuda, pero no sustituye una norma particular.",
+      "solution": [
+        "Mica entiende qué es un plazo gracias a su experiencia.",
+        "Debe obtener el plazo de esta otra biblioteca del texto correspondiente."
+      ],
+      "passage": {
+        "title": "Dos bibliotecas",
+        "paragraphs": [
+          "Mica sabe que en su biblioteca los préstamos duran una semana. Va a leer las normas de otra biblioteca para saber cuándo devolver un libro que pidió allí."
+        ]
+      },
+      "id": "fases-comprension-lectora-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una pregunta útil antes de leer",
+      "body": [],
+      "prompt": "¿Qué pregunta guía es más pertinente?",
+      "choices": [
+        {
+          "text": "¿Cuántas letras tiene el título?",
+          "explanation": "No ayuda a organizar el viaje ni a identificar la ruta."
+        },
+        {
+          "text": "¿Qué paraderos cambian y desde cuándo se aplica la ruta?",
+          "explanation": "Orienta hacia los datos necesarios para la familia."
+        },
+        {
+          "text": "¿Qué ruta usaría yo si no existiera este servicio?",
+          "explanation": "Introduce una situación hipotética ajena a la necesidad inmediata."
+        }
+      ],
+      "correct": 1,
+      "hint": "La pregunta debe guiar hacia información útil para la tarea.",
+      "solution": [
+        "El problema práctico es ubicar el paradero y la fecha de aplicación.",
+        "La pregunta que recoge ambas necesidades prepara una lectura dirigida."
+      ],
+      "passage": {
+        "title": "El informe",
+        "paragraphs": [
+          "El título del documento es Cambio de ruta del transporte escolar. La familia necesita organizar el viaje del lunes y saber si cambió su paradero."
+        ]
+      },
+      "id": "fases-comprension-lectora-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Mantén abiertas tus anticipaciones",
+      "body": [
+        "Si respondiste con lo que ya sabías, busca la oración del texto que debería sostener tu respuesta. La ausencia de evidencia revela dónde una suposición reemplazó la lectura.",
+        "Antes de empezar, escribe una pregunta concreta. Al terminar, vuelve a ella: podrás comprobar si realmente obtuviste la información que necesitabas."
+      ],
+      "id": "fases-comprension-lectora-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Durante: comprueba que estás entendiendo",
+      "body": [
+        "Al leer, relaciona cada párrafo con el anterior, identifica ideas relevantes y pregunta si puedes explicarlas. Si pierdes un referente o una relación, detente y relee el tramo necesario.",
+        "Una palabra desconocida puede inferirse provisionalmente por sus acompañantes y luego verificarse. Si es central y el contexto no basta, consulta una fuente adecuada; adivinar sin control acumula errores."
+      ],
+      "id": "fases-comprension-lectora-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Releer para resolver una aparente contradicción",
+      "body": [
+        "La primera oración habla de todo el servicio; la segunda, solo del préstamo externo. No se contradicen cuando distinguimos qué parte se reabrió y cuál sigue suspendida.",
+        "Resolución: la lectura en sala funciona, pero no se permite llevar libros a casa. La relectura debe buscar el alcance exacto de cada afirmación."
+      ],
+      "passage": {
+        "title": "La biblioteca",
+        "paragraphs": [
+          "La biblioteca reabrió su atención al público el martes. El préstamo externo continuará suspendido hasta el viernes, aunque se podrá consultar material en la sala durante toda la semana."
+        ]
+      },
+      "id": "fases-comprension-lectora-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Lee y regula tu comprensión",
+      "body": [
+        "Toca cada tramo para ver una pregunta de control pertinente."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "El taller incorporó un segundo turno.",
+            "role": "¿Qué cambio se presenta?"
+          },
+          {
+            "text": "Esa medida buscaba reducir las listas de espera.",
+            "role": "¿Qué antecedente tiene esa medida y cuál era su propósito?"
+          },
+          {
+            "text": "No obstante, la demanda también aumentó.",
+            "role": "¿Qué expectativa limita este contraste?"
+          },
+          {
+            "text": "Por ello, se mantuvo una lista al final del mes.",
+            "role": "¿Qué hechos explican el resultado?"
+          }
+        ]
+      },
+      "id": "fases-comprension-lectora-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Detecta una falta de comprensión",
+      "body": [],
+      "prompt": "¿Qué acción es más útil?",
+      "choices": [
+        {
+          "text": "Seguir de inmediato para no perder velocidad",
+          "explanation": "La referencia sin resolver puede impedir comprender el resultado siguiente."
+        },
+        {
+          "text": "Elegir al azar una decisión externa al texto",
+          "explanation": "Añadiría un antecedente que el autor no proporcionó."
+        },
+        {
+          "text": "Releer las oraciones anteriores para localizar el antecedente",
+          "explanation": "Busca la información textual necesaria para reconstruir el vínculo."
+        }
+      ],
+      "correct": 2,
+      "hint": "La dificultad es de relación, no de pronunciación.",
+      "solution": [
+        "Esa decisión debe retomar una acción o acuerdo previo.",
+        "La relectura local permite recuperar ese referente."
+      ],
+      "passage": {
+        "title": "La relectura",
+        "paragraphs": [
+          "Al llegar a la frase esa decisión, Paula no recuerda qué decisión se había mencionado. Puede pronunciar todas las palabras, pero no relaciona la oración con lo anterior."
+        ]
+      },
+      "id": "fases-comprension-lectora-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Interpreta sin adivinar",
+      "body": [],
+      "prompt": "¿Qué sentido provisional de permeable respalda el contexto?",
+      "choices": [
+        {
+          "text": "Que permite el paso del agua",
+          "explanation": "La explicación y el contraste señalan esa propiedad."
+        },
+        {
+          "text": "Que siempre está seco",
+          "explanation": "El paso del agua no implica sequedad permanente."
+        },
+        {
+          "text": "Que no contiene poros",
+          "explanation": "El texto menciona expresamente sus poros."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa la explicación que sigue a los dos puntos y el contraste posterior.",
+      "solution": [
+        "El agua atraviesa el suelo y la lámina la retiene.",
+        "Permeable alude aquí a permitir ese paso."
+      ],
+      "passage": {
+        "title": "Una palabra nueva",
+        "paragraphs": [
+          "El suelo era permeable: el agua atravesaba sus poros y llegaba a la capa inferior. En cambio, sobre la lámina cerrada el agua permanecía en la superficie."
+        ]
+      },
+      "id": "fases-comprension-lectora-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una pregunta de control",
+      "body": [],
+      "prompt": "¿Qué pregunta ayuda a integrar ambos párrafos?",
+      "choices": [
+        {
+          "text": "¿Cuál de los dos debo ignorar para evitar dudas?",
+          "explanation": "Ambos aportan condiciones compatibles que deben relacionarse."
+        },
+        {
+          "text": "¿Qué protege el cierre y qué límite tiene esa protección?",
+          "explanation": "Permite unir el beneficio con la condición que lo restringe."
+        },
+        {
+          "text": "¿Qué otros tipos de cajas conozco?",
+          "explanation": "Puede aportar ideas previas, pero no resuelve la relación textual solicitada."
+        }
+      ],
+      "correct": 1,
+      "hint": "La segunda parte delimita la primera en vez de anularla.",
+      "solution": [
+        "El cierre protege de agua exterior.",
+        "No resuelve humedad interna: la pregunta debe conservar beneficio y límite."
+      ],
+      "passage": {
+        "title": "Dos párrafos",
+        "paragraphs": [
+          "El primer párrafo explica que una caja cerrada protege documentos de salpicaduras. El segundo aclara que el cierre no elimina la humedad que ya estaba dentro cuando se guardaron."
+        ]
+      },
+      "id": "fases-comprension-lectora-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Corrige una anticipación",
+      "body": [],
+      "prompt": "¿Qué debe hacer durante la lectura?",
+      "choices": [
+        {
+          "text": "Mantener la interpretación financiera aunque el texto la descarte",
+          "explanation": "Impondría un sentido incompatible con la definición."
+        },
+        {
+          "text": "Concluir que todo el texto carece de sentido",
+          "explanation": "La definición permite resolver la ambigüedad del título."
+        },
+        {
+          "text": "Ajustar su interpretación de banco al sentido definido por el pasaje",
+          "explanation": "La evidencia nueva corrige una predicción inicial legítima pero equivocada."
+        }
+      ],
+      "correct": 2,
+      "hint": "Una predicción sirve si puedes actualizarla.",
+      "solution": [
+        "El texto explicita el sentido de la expresión.",
+        "Comprender exige revisarlo y seguir con la definición pertinente."
+      ],
+      "passage": {
+        "title": "El banco de semillas",
+        "paragraphs": [
+          "Por el título, Ana esperaba una explicación sobre préstamos de dinero. El primer párrafo aclara que banco de semillas designa una colección organizada para conservar materiales vegetales."
+        ]
+      },
+      "id": "fases-comprension-lectora-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "La velocidad no mide por sí sola la comprensión",
+      "body": [
+        "Si avanzaste sin saber qué retomaba un pronombre, vuelve al antecedente y observa qué información faltó. Si una palabra central seguía indefinida, busca las pistas o verifica su sentido.",
+        "Autorregular consiste en detectar el problema y elegir una intervención concreta. Releer todo de forma mecánica puede ser menos útil que revisar la oración y el vínculo que necesitas."
+      ],
+      "id": "fases-comprension-lectora-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Después: integra y evalúa",
+      "body": [
+        "Al terminar, responde tu pregunta inicial, formula la idea principal y comprueba que puedas sostenerla con el texto. Un resumen conserva la relación central y elimina detalles repetidos.",
+        "Distingue comprensión y valoración: primero reconstruye qué afirma el autor; después evalúa si sus razones bastan. Tu acuerdo o desacuerdo no cambia lo que el texto dice."
+      ],
+      "id": "fases-comprension-lectora-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un resumen que conserva el límite",
+      "body": [
+        "El texto no afirma que el registro elimine todos los errores. Explica un beneficio concreto y una condición de uso.",
+        "Resumen resuelto: Registrar fecha y responsable ayuda a seguir los préstamos, siempre que el registro se complete y actualice. Conserva la idea central y el límite sin enumerar todos los campos."
+      ],
+      "passage": {
+        "title": "El registro de herramientas",
+        "paragraphs": [
+          "Un registro con fecha, herramienta y responsable permite reconstruir quién recibió cada objeto. Su utilidad depende de que las entregas y devoluciones se anoten de manera constante. Si se omiten movimientos, el registro puede dejar dudas sobre la ubicación de algunas herramientas."
+        ]
+      },
+      "id": "fases-comprension-lectora-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Reflexiona sobre el proceso, no solo la nota",
+      "body": [
+        "Después de una pregunta fallada, identifica si el error vino de un referente, una palabra, un alcance o una inferencia. Esa causa permite elegir una estrategia para el próximo texto.",
+        "Las fases no son compartimentos rígidos: puedes formular una nueva pregunta durante la lectura y releer después para comprobar un resumen. Su función es ayudarte a dirigir la comprensión."
+      ],
+      "id": "fases-comprension-lectora-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Resume sin exagerar",
+      "body": [],
+      "prompt": "¿Qué resumen conserva la idea central?",
+      "choices": [
+        {
+          "text": "La señalización fue inútil para todas las personas",
+          "explanation": "Ignora el beneficio registrado para varias personas."
+        },
+        {
+          "text": "Las señales ayudaron, pero un acceso sin orientación visible requería mejorar",
+          "explanation": "Integra el resultado favorable y el límite específico."
+        },
+        {
+          "text": "Las señales eliminaron definitivamente todas las consultas",
+          "explanation": "Borra a quienes siguieron necesitando orientación."
+        }
+      ],
+      "correct": 1,
+      "hint": "Conserva tanto el beneficio como la excepción desarrollada.",
+      "solution": [
+        "El texto registra ayuda real, pero no universal.",
+        "La mejora pendiente corresponde a una entrada concreta."
+      ],
+      "passage": {
+        "title": "La señalización",
+        "paragraphs": [
+          "Las nuevas señales permitieron que varias personas encontraran la sala sin preguntar en recepción. Sin embargo, quienes entraron por la puerta lateral no veían la primera flecha y continuaron necesitando orientación. El equipo propuso añadir una señal en ese acceso."
+        ]
+      },
+      "id": "fases-comprension-lectora-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Comprensión antes de valoración",
+      "body": [],
+      "prompt": "¿Qué debe hacer primero para evaluar la postura con precisión?",
+      "choices": [
+        {
+          "text": "Atribuir al autor el problema de personal que él no menciona",
+          "explanation": "Confundiría información externa y contenido del texto."
+        },
+        {
+          "text": "Decir que el autor prohíbe estudiar por la tarde",
+          "explanation": "No es lo que la propuesta afirma."
+        },
+        {
+          "text": "Reconstruir la propuesta y su razón antes de añadir su objeción",
+          "explanation": "Separa comprensión del argumento y evaluación con otra información."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue lo afirmado por el autor de la crítica que elaborarás.",
+      "solution": [
+        "La postura tiene una propuesta y una razón identificables.",
+        "Solo después puede evaluarse si otras condiciones la limitan."
+      ],
+      "passage": {
+        "title": "Una postura",
+        "paragraphs": [
+          "El autor propone ampliar el horario de estudio porque algunos estudiantes solo disponen de la mañana. Teresa está en desacuerdo por un problema de personal que conoce fuera del texto."
+        ]
+      },
+      "id": "fases-comprension-lectora-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Identifica qué estrategia funcionó",
+      "body": [],
+      "prompt": "¿Qué reflexión describe mejor lo que lo ayudó?",
+      "choices": [
+        {
+          "text": "Precisar el alcance de dos servicios mediante relectura",
+          "explanation": "La confusión se resolvió al distinguir categorías y condiciones."
+        },
+        {
+          "text": "Memorizar sinónimos de todas las palabras",
+          "explanation": "No hubo una dificultad léxica en la situación descrita."
+        },
+        {
+          "text": "Leer solo el título y omitir el cuerpo",
+          "explanation": "La aclaración se obtuvo precisamente del desarrollo del texto."
+        }
+      ],
+      "correct": 0,
+      "hint": "La reflexión debe corresponder a la causa real del error.",
+      "solution": [
+        "El problema era haber generalizado la suspensión a todos los servicios.",
+        "La relectura permitió delimitar el alcance correcto."
+      ],
+      "passage": {
+        "title": "El error corregido",
+        "paragraphs": [
+          "Diego creyó que todos los préstamos estaban suspendidos. Al releer, distinguió consulta en sala de préstamo externo y corrigió su respuesta. No necesitó un diccionario."
+        ]
+      },
+      "id": "fases-comprension-lectora-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Comprueba la meta inicial",
+      "body": [],
+      "prompt": "¿Cuál es la mejor decisión posterior?",
+      "choices": [
+        {
+          "text": "Dar por logrado el objetivo porque recuerda una parte",
+          "explanation": "No recuperó los datos que necesitaba para actuar."
+        },
+        {
+          "text": "Volver a las secciones de requisitos y plazo y verificar los datos",
+          "explanation": "La relectura dirigida permite completar la meta inicial."
+        },
+        {
+          "text": "Inventar una fecha razonable según su experiencia",
+          "explanation": "Una suposición podría llevarla a incumplir el trámite."
+        }
+      ],
+      "correct": 1,
+      "hint": "Evalúa el resultado con la pregunta que originó la lectura.",
+      "solution": [
+        "Recordar razones no resuelve la tarea concreta.",
+        "Debe recuperar y comprobar requisitos y plazo antes de cerrar la lectura."
+      ],
+      "passage": {
+        "title": "La lectura terminada",
+        "paragraphs": [
+          "Elena leyó una circular para saber qué documentos presentar y hasta cuándo. Al cerrar el texto recuerda las razones del trámite, pero no puede nombrar los documentos ni la fecha límite."
+        ]
+      },
+      "id": "fases-comprension-lectora-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Cierra con evidencia y una mejora concreta",
+      "body": [
+        "Puedes considerar logrado un objetivo cuando tu respuesta cubre la necesidad inicial y tiene respaldo localizable. Explicar con tus palabras no significa añadir datos propios al texto.",
+        "Registra una mejora operativa: buscar el antecedente, conservar algunos en vez de todos, distinguir propósito de resultado o releer la sección de condiciones. Esa precisión convierte el error en una estrategia útil."
+      ],
+      "id": "fases-comprension-lectora-24",
+      "level": 3
+    }
+  ]
+}

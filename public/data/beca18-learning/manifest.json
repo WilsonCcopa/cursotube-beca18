@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "revision": "8e7e3160e447e39a37c5",
+  "revision": "19cdfbba5ad22c5c5d64",
   "courses": [
     {
       "slug": "matematica",
       "title": "Matemática",
       "shortTitle": "Matemática",
-      "description": "De los números al álgebra: entiende las bases y úsalas para resolver problemas.",
+      "description": "Construye bases de aritmética y álgebra, explora geometría y aprende a interpretar datos.",
       "topics": [
         {
           "id": "matematica/numeros-y-operaciones",
@@ -102,6 +102,633 @@
           "questionCount": 12,
           "file": "topics/matematica/ecuaciones-e-inecuaciones.json",
           "sha256": "091063d5a90e0ec26a89fa959ab4e2e998520a6ef212b2de8e7a1eab6f414f6d"
+        },
+        {
+          "id": "matematica/razones-y-proporciones",
+          "course": "matematica",
+          "slug": "razones-y-proporciones",
+          "title": "Razones y proporciones",
+          "description": "Compara por diferencia o cociente, enlaza razones y encuentra términos proporcionales.",
+          "version": 1,
+          "order": 6,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Distinguir razón aritmética de razón geométrica.",
+            "Resolver proporciones discretas y continuas con sus condiciones.",
+            "Modelar razones enlazadas, escalas y cambios en cantidades."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/razones-y-proporciones.json",
+          "sha256": "c2ccf8a12da4d5bbe6aaba55f18e2ee035497fc8fbbe2c574d14adf69dce1272"
+        },
+        {
+          "id": "matematica/ecuaciones-cuadraticas",
+          "course": "matematica",
+          "slug": "ecuaciones-cuadraticas",
+          "title": "Ecuaciones cuadráticas",
+          "description": "Resuelve cuadráticas reales y decide qué raíces son válidas en un problema.",
+          "version": 1,
+          "order": 7,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Reconocer formas completas e incompletas.",
+            "Resolver por factores, cuadrados y fórmula general.",
+            "Comprobar raíces y restricciones de áreas, edades y reparto de costos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/ecuaciones-cuadraticas.json",
+          "sha256": "498e5fccdd99400e8ba04fe8c8fe2e609b360dc89c6f210c291aae2a4f7bb04d"
+        },
+        {
+          "id": "matematica/magnitudes-proporcionales",
+          "course": "matematica",
+          "slug": "magnitudes-proporcionales",
+          "title": "Magnitudes proporcionales",
+          "description": "Reconoce relaciones directas e inversas y resuelve reglas de tres con supuestos claros.",
+          "version": 1,
+          "order": 8,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Distinguir cociente constante de producto constante.",
+            "Leer tablas y gráficas de proporcionalidad.",
+            "Aplicar proporcionalidad compuesta, potencias y repartos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/magnitudes-proporcionales.json",
+          "sha256": "d1ddd3c6d7362cec5fc60856268982c010b48ef5729510c8373439094e730d7c"
+        },
+        {
+          "id": "matematica/sucesiones",
+          "course": "matematica",
+          "slug": "sucesiones",
+          "title": "Sucesiones",
+          "description": "Describe patrones con índices, fórmulas y reglas recursivas sin confundir una conjetura con una ley.",
+          "version": 1,
+          "order": 9,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Identificar términos, posiciones y clases de sucesiones.",
+            "Aplicar reglas aritméticas, geométricas, alternadas y recursivas.",
+            "Verificar fórmulas y justificar patrones de mayor complejidad."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/sucesiones.json",
+          "sha256": "bd1002d4ff19c4287f467d4fccca61d3d9d0aa3d152eb1b1f22bfd8015cc64a6"
+        },
+        {
+          "id": "matematica/porcentajes-fundamentos",
+          "course": "matematica",
+          "slug": "porcentajes-fundamentos",
+          "title": "Porcentajes: fundamentos",
+          "description": "Construye el significado del porcentaje y resuelve bases, tasas y variaciones.",
+          "version": 1,
+          "order": 10,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Convertir razones y porcentajes con sentido.",
+            "Hallar parte, total o tasa según el dato desconocido.",
+            "Distinguir variación relativa, puntos porcentuales y cambios geométricos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/porcentajes-fundamentos.json",
+          "sha256": "a946737fe7b7babbfbb9ea6d4ba36e8894461bbf0a075d25bbcdf15bf1c8688e"
+        },
+        {
+          "id": "matematica/porcentajes-sucesivos",
+          "course": "matematica",
+          "slug": "porcentajes-sucesivos",
+          "title": "Porcentajes sucesivos",
+          "description": "Multiplica factores para comparar ofertas, recuperar precios y entender cadenas de aumentos.",
+          "version": 1,
+          "order": 11,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Aplicar aumentos y descuentos sobre bases sucesivas.",
+            "Calcular una variación equivalente y revertir cambios.",
+            "Distinguir ganancia sobre costo de margen sobre precio de venta."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/porcentajes-sucesivos.json",
+          "sha256": "dfc0e7bf28e8ffdee5d08b27d2bb61612084d1127f4f900dbf9d02fa0e335311"
+        },
+        {
+          "id": "matematica/porcentajes-aplicaciones",
+          "course": "matematica",
+          "slug": "porcentajes-aplicaciones",
+          "title": "Porcentajes: aplicaciones",
+          "description": "Relaciona precios y aplica promedios ponderados a mezclas, concentración y aleaciones.",
+          "version": 1,
+          "order": 12,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Distinguir costo, lista, venta, descuento y resultado.",
+            "Calcular promedios ponderados y cantidad de componente puro.",
+            "Resolver diluciones, mezclas objetivo y reemplazos con conservación."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/porcentajes-aplicaciones.json",
+          "sha256": "551acbb64ba8911a45592a1a31396d3b68fc79e471876bd65138d2b94e5d19c0"
+        },
+        {
+          "id": "matematica/progresiones",
+          "course": "matematica",
+          "slug": "progresiones",
+          "title": "Progresiones aritméticas y geométricas",
+          "description": "Calcula términos y sumas de progresiones y elige la fórmula según la razón.",
+          "version": 1,
+          "order": 13,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Resolver diferencias, índices y sumas de progresiones aritméticas.",
+            "Interpolar medias y contar términos de un intervalo.",
+            "Calcular términos, sumas finitas e infinitas de progresiones geométricas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/progresiones.json",
+          "sha256": "30bcbc825eb65e63a4269df79482fc2ebc194bdb1196148010fd938807aa770e"
+        },
+        {
+          "id": "matematica/expresiones-algebraicas",
+          "course": "matematica",
+          "slug": "expresiones-algebraicas",
+          "title": "Expresiones algebraicas",
+          "description": "Lee y transforma expresiones conservando coeficientes, potencias, grados y restricciones.",
+          "version": 1,
+          "order": 14,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Identificar términos, grados y expresiones polinómicas.",
+            "Reducir, multiplicar y dividir expresiones con signos correctos.",
+            "Usar identidades y factorización para simplificar con justificación."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/expresiones-algebraicas.json",
+          "sha256": "53bb6ea55744940eba0f81a55f7e20a3b633cf1ad65e20d9480cfb308dd1edfa"
+        },
+        {
+          "id": "matematica/sistemas-lineales-fundamentos",
+          "course": "matematica",
+          "slug": "sistemas-lineales-fundamentos",
+          "title": "Sistemas lineales: fundamentos",
+          "description": "Encuentra soluciones simultáneas y traduce situaciones a dos ecuaciones coherentes.",
+          "version": 1,
+          "order": 15,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Comprobar pares ordenados y sistemas equivalentes.",
+            "Resolver por sustitución, reducción, igualación, gráfico y determinantes.",
+            "Distinguir una, ninguna o infinitas soluciones e interpretar modelos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/sistemas-lineales-fundamentos.json",
+          "sha256": "b787716036a208a23dd181cb05a5271cea37caab0bfc2b207ebed402ed3cd381"
+        },
+        {
+          "id": "matematica/sistemas-lineales-aplicaciones",
+          "course": "matematica",
+          "slug": "sistemas-lineales-aplicaciones",
+          "title": "Sistemas lineales: tres variables y aplicaciones",
+          "description": "Modela tres cantidades, reduce ecuaciones y distingue una solución única de una contradicción.",
+          "version": 1,
+          "order": 16,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Traducir condiciones a sistemas con tres incógnitas.",
+            "Resolver por sustitución y reducción comprobando todas las ecuaciones.",
+            "Distinguir sistemas determinados, indeterminados e incompatibles."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/sistemas-lineales-aplicaciones.json",
+          "sha256": "f5ece01dd643550f811b4fffb63486cf4b0bad3f64fd9b30ac583e1b368cfcb4"
+        },
+        {
+          "id": "matematica/interes-simple",
+          "course": "matematica",
+          "slug": "interes-simple",
+          "title": "Interés simple",
+          "description": "Distingue capital, interés y monto; coordina tasas y tiempos para resolver problemas completos.",
+          "version": 1,
+          "order": 17,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Aplicar I = C × r × t usando una tasa decimal.",
+            "Convertir tiempos y despejar capital, tasa o duración.",
+            "Comparar condiciones hipotéticas sin confundir interés con monto."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/interes-simple.json",
+          "sha256": "3a5a90425a49c38ef363885ef6f3aa5a14aa59655151e07196effd5e494dc8d0"
+        },
+        {
+          "id": "matematica/interes-compuesto",
+          "course": "matematica",
+          "slug": "interes-compuesto",
+          "title": "Interés compuesto y capitalización",
+          "description": "Sigue el crecimiento periodo a periodo y compara el interés compuesto con el simple.",
+          "version": 1,
+          "order": 18,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Distinguir la base fija simple de la base acumulada compuesta.",
+            "Calcular montos y tasas efectivas con periodos consistentes.",
+            "Reconstruir capital, tasa o número entero de periodos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/interes-compuesto.json",
+          "sha256": "095e6e88c08deb36827371f6c6421044b0344c759765fb093064e2c3d4d5253d"
+        },
+        {
+          "id": "matematica/proporcionalidad-directa-inversa",
+          "course": "matematica",
+          "slug": "proporcionalidad-directa-inversa",
+          "title": "Proporcionalidad directa e inversa",
+          "description": "Identifica qué permanece constante y combina razones para resolver repartos, trabajo y movimiento.",
+          "version": 1,
+          "order": 19,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Distinguir razón, proporción y constante de proporcionalidad.",
+            "Resolver situaciones directas, inversas y compuestas con unidades.",
+            "Construir repartos proporcionales y comprobar sus totales."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/proporcionalidad-directa-inversa.json",
+          "sha256": "6d7dfafb7d3be7163448027126716baa5e5c30ef667977bb2c2d4988d7dde5ab"
+        },
+        {
+          "id": "matematica/promedios",
+          "course": "matematica",
+          "slug": "promedios",
+          "title": "Promedios: aritmético, ponderado, geométrico y armónico",
+          "description": "Elige una media según qué se suma, multiplica o mantiene constante en el problema.",
+          "version": 1,
+          "order": 20,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Calcular medias aritméticas y reconstruir sumas o datos faltantes.",
+            "Usar pesos correctos al combinar grupos o evaluaciones.",
+            "Interpretar medias geométricas y armónicas en situaciones adecuadas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/promedios.json",
+          "sha256": "f64702bd8e11886acefbc32021ae544b12dc0bdd08c7726c255e3f80e53d11cc"
+        },
+        {
+          "id": "matematica/funciones-lineales",
+          "course": "matematica",
+          "slug": "funciones-lineales",
+          "title": "Funciones lineales y afines",
+          "description": "Conecta fórmulas, tablas y rectas para interpretar pendientes, tarifas y puntos de equilibrio.",
+          "version": 1,
+          "order": 21,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Identificar dominio, imagen y regla de una función.",
+            "Interpretar pendiente e intersecciones de y = mx + b.",
+            "Construir y comparar modelos lineales con restricciones de contexto."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/funciones-lineales.json",
+          "sha256": "d5e42e0ac6898e657fa124af4e1bd5d22d41395ec364afe9797f089e0a9c0853"
+        },
+        {
+          "id": "matematica/funciones-cuadraticas",
+          "course": "matematica",
+          "slug": "funciones-cuadraticas",
+          "title": "Funciones cuadráticas",
+          "description": "Interpreta parábolas, raíces y vértices para resolver máximos, mínimos y restricciones.",
+          "version": 1,
+          "order": 22,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Relacionar coeficientes, tabla y forma de una parábola.",
+            "Encontrar vértice, raíces y rango con dominio declarado.",
+            "Modelar y comprobar problemas de área y altura."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/funciones-cuadraticas.json",
+          "sha256": "a4d5173c21d81d898a232f815af930d4d93ef43a31ea2cc347f52bd36d7d1499"
+        },
+        {
+          "id": "matematica/funciones-trigonometricas",
+          "course": "matematica",
+          "slug": "funciones-trigonometricas",
+          "title": "Funciones trigonométricas: seno y coseno",
+          "description": "Conecta ángulos, ondas y triángulos; interpreta amplitud, periodo y leyes de senos y cosenos.",
+          "version": 1,
+          "order": 23,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Convertir grados y radianes y evaluar seno y coseno en ángulos conocidos.",
+            "Interpretar amplitud, periodo y desplazamiento de una función periódica.",
+            "Aplicar leyes de senos y cosenos con lados y ángulos correspondientes."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/funciones-trigonometricas.json",
+          "sha256": "eca177d536fc909a50d7c7835f4c5b97467a988c3fb664341f5be4883fa33b46"
+        },
+        {
+          "id": "matematica/patrones-geometricos",
+          "course": "matematica",
+          "slug": "patrones-geometricos",
+          "title": "Patrones geométricos",
+          "description": "Describe reglas de repetición y crecimiento con ciclos, figuras compartidas y fórmulas generales.",
+          "version": 1,
+          "order": 24,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Identificar un ciclo y hallar posiciones grandes con residuos.",
+            "Construir reglas de crecimiento a partir de estructuras geométricas.",
+            "Comprobar fórmulas y contar sin duplicar elementos compartidos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/patrones-geometricos.json",
+          "sha256": "44aa25edaa802d3adbd8255e3b68bbb050a3afa98ec0c4ff9dadb21710691688"
+        },
+        {
+          "id": "matematica/potencias-raices-y-notacion-cientifica",
+          "course": "matematica",
+          "slug": "potencias-raices-y-notacion-cientifica",
+          "title": "Potencias, raíces y notación científica",
+          "description": "Comprende exponentes y radicales, aproxima con criterio y representa cantidades grandes o pequeñas.",
+          "version": 1,
+          "order": 25,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Operar con potencias de base racional.",
+            "Distinguir valores exactos de aproximaciones.",
+            "Interpretar notación científica y órdenes de magnitud."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/potencias-raices-y-notacion-cientifica.json",
+          "sha256": "1e83826c0a10b55efb40d7fe38af28f04932ba5fe44b069635c12ce421102d3b"
+        },
+        {
+          "id": "matematica/conversion-de-unidades",
+          "course": "matematica",
+          "slug": "conversion-de-unidades",
+          "title": "Longitud y tiempo: conversión de unidades",
+          "description": "Conecta prefijos, duraciones y escalas para resolver situaciones sin perder las unidades.",
+          "version": 1,
+          "order": 26,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Convertir longitudes y tiempos con factores equivalentes.",
+            "Distinguir tiempo decimal de horas y minutos.",
+            "Resolver escalas y conversiones encadenadas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/conversion-de-unidades.json",
+          "sha256": "955278b1ff16b4cea80a4ab00dfd4a7b28a16a6820f2a557db08f9acca102aaf"
+        },
+        {
+          "id": "matematica/intervalos-y-conjuntos",
+          "course": "matematica",
+          "slug": "intervalos-y-conjuntos",
+          "title": "Intervalos y conjuntos de números",
+          "description": "Representa soluciones en la recta y combina condiciones sin perder los extremos.",
+          "version": 1,
+          "order": 27,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Interpretar extremos abiertos y cerrados.",
+            "Calcular unión, intersección y diferencia de intervalos.",
+            "Traducir restricciones reales a conjuntos de soluciones."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/intervalos-y-conjuntos.json",
+          "sha256": "eaa1d007660bd15f8a063aabfd1265ce03b4bac5b68d72500e1f7be4b6ddec65"
+        },
+        {
+          "id": "matematica/funciones-exponenciales",
+          "course": "matematica",
+          "slug": "funciones-exponenciales",
+          "title": "Funciones exponenciales",
+          "description": "Modela cambios multiplicativos y evalúa crecimiento, decrecimiento y sus límites.",
+          "version": 1,
+          "order": 28,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Distinguir cambio aditivo de multiplicativo.",
+            "Interpretar base, valor inicial y tasa por periodo.",
+            "Comparar modelos exponenciales y sus gráficas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/funciones-exponenciales.json",
+          "sha256": "a0cb28c670d24ff7381da0dc6c8eba4d96c0fc4da40c1357a871ed0ef41fde95"
+        },
+        {
+          "id": "matematica/triangulos-y-relaciones-metricas",
+          "course": "matematica",
+          "slug": "triangulos-y-relaciones-metricas",
+          "title": "Triángulos y relaciones métricas",
+          "description": "Relaciona lados, áreas y proyecciones; reconoce las líneas y centros notables del triángulo.",
+          "version": 1,
+          "order": 29,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Usar ángulos, desigualdad triangular, área y Pitágoras.",
+            "Aplicar relaciones entre hipotenusa, proyecciones y altura.",
+            "Distinguir medianas, bisectrices, mediatrices, alturas y sus centros."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/triangulos-y-relaciones-metricas.json",
+          "sha256": "7c93e2cabe5f562eafd08005f717a85e04232690d54b6ba2b3051e03a17c5b6d"
+        },
+        {
+          "id": "matematica/cuadrilateros",
+          "course": "matematica",
+          "slug": "cuadrilateros",
+          "title": "Cuadriláteros",
+          "description": "Clasifica figuras por sus propiedades y calcula ángulos, diagonales y áreas con alturas correctas.",
+          "version": 1,
+          "order": 30,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Reconocer cuadriláteros y la inclusión entre sus clases.",
+            "Calcular áreas y diagonales de figuras con datos suficientes.",
+            "Combinar propiedades y evaluar afirmaciones geométricas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/cuadrilateros.json",
+          "sha256": "a135356c06fb08b02f5c1b8df1f7c061e7ad9bae7b7ada6c7d5b79a539928899"
+        },
+        {
+          "id": "matematica/circunferencia-y-circulo",
+          "course": "matematica",
+          "slug": "circunferencia-y-circulo",
+          "title": "Circunferencia y círculo",
+          "description": "Conecta radios, cuerdas, arcos y ángulos para calcular longitudes y superficies con π exacto.",
+          "version": 1,
+          "order": 31,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Distinguir circunferencia, círculo, radio, diámetro y cuerda.",
+            "Relacionar ángulos centrales e inscritos con arcos y sectores.",
+            "Usar tangencia, cuerdas y áreas compuestas con condiciones claras."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/circunferencia-y-circulo.json",
+          "sha256": "40f0e4f39c99d81e7cdbb35eaaf086c6c3e4b5617f2ad256213630caeed4c572"
+        },
+        {
+          "id": "matematica/poligonos-regulares",
+          "course": "matematica",
+          "slug": "poligonos-regulares",
+          "title": "Polígonos regulares",
+          "description": "Conecta ángulos, diagonales, radio y apotema para medir figuras regulares y justificar fórmulas.",
+          "version": 1,
+          "order": 32,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Calcular ángulos y diagonales según el número de lados.",
+            "Relacionar radio, apotema y lado con triángulos centrales.",
+            "Calcular áreas y recuperar un número de lados desde sus propiedades."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/poligonos-regulares.json",
+          "sha256": "4e1b0049db025702965d7d85fa82e3cf8c9a0e4bb39edda55c91cd986c9503a2"
+        },
+        {
+          "id": "matematica/cuerpos-de-revolucion",
+          "course": "matematica",
+          "slug": "cuerpos-de-revolucion",
+          "title": "Cuerpos de revolución y capacidad",
+          "description": "Mide cilindros, conos y esferas, distingue superficie de volumen y convierte capacidad.",
+          "version": 1,
+          "order": 33,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Calcular volúmenes con radios y alturas identificados.",
+            "Relacionar áreas laterales, totales y generatrices.",
+            "Convertir unidades y resolver recipientes, diferencias y desplazamientos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/cuerpos-de-revolucion.json",
+          "sha256": "3f32e83405965e0483c8fb23e440aca04d0a13332395320b3753dbc01b23e1f5"
+        },
+        {
+          "id": "matematica/razones-trigonometricas",
+          "course": "matematica",
+          "slug": "razones-trigonometricas",
+          "title": "Razones trigonométricas y aplicaciones",
+          "description": "Identifica lados respecto de un ángulo y resuelve alturas, sombras y pendientes con razones exactas.",
+          "version": 1,
+          "order": 34,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Relacionar seno, coseno, tangente y sus recíprocas con lados de un triángulo rectángulo.",
+            "Usar ángulos 30°,45°y 60° para hallar distancias exactas.",
+            "Construir modelos con elevación, pendientes e identidades sin confundir alturas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/razones-trigonometricas.json",
+          "sha256": "9711bdd4b615adac40a776f66f4ed2e16d148e62c05a58f2bfb54ab4c348abfe"
+        },
+        {
+          "id": "matematica/probabilidad",
+          "course": "matematica",
+          "slug": "probabilidad",
+          "title": "Probabilidad y sucesos",
+          "description": "Construye espacios muestrales, cuenta casos y distingue certeza, posibilidad e independencia.",
+          "version": 1,
+          "order": 35,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Describir resultados y sucesos de un experimento.",
+            "Calcular probabilidades cuando los casos son equiprobables.",
+            "Resolver complementos y selecciones sucesivas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/probabilidad.json",
+          "sha256": "9df1215fc4b07ca81de13a915fff148ddc37ddda2bb1b0ec3f1c2a4857619328"
+        },
+        {
+          "id": "matematica/estadistica-y-graficos",
+          "course": "matematica",
+          "slug": "estadistica-y-graficos",
+          "title": "Estadística, tablas y gráficos",
+          "description": "Organiza datos, interpreta frecuencias y evalúa qué puede concluirse de un gráfico.",
+          "version": 1,
+          "order": 36,
+          "estimatedMinutes": 28,
+          "objectives": [
+            "Leer tablas simples y de intervalos.",
+            "Calcular y comparar media, mediana y moda.",
+            "Detectar escalas y conclusiones engañosas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/estadistica-y-graficos.json",
+          "sha256": "fd322b46ca000f022c9153cbbd6961f13ecc2cbf279ffc0c2fbaab44107758fa"
+        },
+        {
+          "id": "matematica/operadores-y-razonamiento-numerico",
+          "course": "matematica",
+          "slug": "operadores-y-razonamiento-numerico",
+          "title": "Operadores y razonamiento numérico",
+          "description": "Completa la base del capítulo 1: reglas definidas, tablas, propiedades y estrategias de resolución.",
+          "version": 1,
+          "order": 37,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Aplicar operaciones definidas sin atribuirles reglas inexistentes.",
+            "Resolver parámetros, inversas y restricciones de dominio.",
+            "Usar tablas, contraejemplos y búsqueda ordenada para justificar resultados."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/operadores-y-razonamiento-numerico.json",
+          "sha256": "dab9d8b88348e46a6dcc60c55d2c9ec83af2a6cf9c58034179ae984ac3e70ceb"
+        },
+        {
+          "id": "matematica/aritmetica-complementaria",
+          "course": "matematica",
+          "slug": "aritmetica-complementaria",
+          "title": "Aritmética complementaria",
+          "description": "Completa subtemas de los capítulos 2–5: decimales, trabajo conjunto, criterios, divisores y cortes.",
+          "version": 1,
+          "order": 38,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Convertir decimales racionales y sumar tasas de trabajo.",
+            "Aplicar criterios adicionales y condiciones de divisibilidad.",
+            "Contar cortes, postes y cubos a partir de divisores comunes."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/aritmetica-complementaria.json",
+          "sha256": "85ee00c069f57b879dfc114d01cfae108cb30239ad199f69abd53110de8ee491"
         }
       ]
     },
@@ -109,7 +736,7 @@
       "slug": "lectura",
       "title": "Competencia lectora y razonamiento verbal",
       "shortTitle": "Lectura y verbal",
-      "description": "Lee con intención, interpreta el contexto y descubre las relaciones entre ideas.",
+      "description": "Comprende textos, conecta ideas y evalúa lo que lees con evidencia.",
       "topics": [
         {
           "id": "lectura/tipos-de-texto",
@@ -205,6 +832,405 @@
           "questionCount": 12,
           "file": "topics/lectura/relaciones-logicas.json",
           "sha256": "6b9552710756e20c22211efc64cc40a532fdba94baca9e0cb978e7018017ba29"
+        },
+        {
+          "id": "lectura/conectores-fundamentos",
+          "course": "lectura",
+          "slug": "conectores-fundamentos",
+          "title": "Conectores: fundamentos",
+          "description": "Relaciona adición, contraste, explicación, tiempo y finalidad en mensajes completos.",
+          "version": 1,
+          "order": 6,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Reconocer adición, contraste y reformulación",
+            "Distinguir secuencia temporal, simultaneidad y finalidad",
+            "Elegir enlaces según el sentido global y la construcción"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/conectores-fundamentos.json",
+          "sha256": "2df30dcef6a8e3016d4f7d6b09a5936175ad024c41e0a337fb0696b2158fd633"
+        },
+        {
+          "id": "lectura/conectores-avanzados",
+          "course": "lectura",
+          "slug": "conectores-avanzados",
+          "title": "Conectores: relaciones avanzadas",
+          "description": "Interpreta causas, concesiones, continuidad, orden y conclusiones sin exagerar lo afirmado.",
+          "version": 1,
+          "order": 7,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Distinguir causas y consecuencias con su dirección",
+            "Organizar continuidad, orden y concesiones",
+            "Evaluar cierres, conectores dobles y alcance de conclusiones"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/conectores-avanzados.json",
+          "sha256": "8cdffd6482904d507bf226f63d54d7a3867e1bfac303f1db1a4ad305125162bd"
+        },
+        {
+          "id": "lectura/propiedades-del-texto",
+          "course": "lectura",
+          "slug": "propiedades-del-texto",
+          "title": "Propiedades del texto",
+          "description": "Revisa adecuación, coherencia, cohesión, corrección y disposición visual.",
+          "version": 1,
+          "order": 8,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Reconocer situación comunicativa y adecuación",
+            "Distinguir coherencia y mecanismos de cohesión",
+            "Revisar gramática y presentación sin perder el propósito"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/propiedades-del-texto.json",
+          "sha256": "60f71915395474a1ee68819153de275c8c4f7589ebedfb6deea11e73687bd437"
+        },
+        {
+          "id": "lectura/fases-comprension-lectora",
+          "course": "lectura",
+          "slug": "fases-comprension-lectora",
+          "title": "Fases de la comprensión lectora",
+          "description": "Planifica, supervisa y evalúa tu lectura con preguntas y evidencia.",
+          "version": 1,
+          "order": 9,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Establecer propósito y predicciones antes de leer",
+            "Autorregular la comprensión durante la lectura",
+            "Resumir, contrastar y evaluar después de leer"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/fases-comprension-lectora.json",
+          "sha256": "94091552db19f701b54485c17e1005d6b45aef017baff05ecc10c8a9bdae8ca4"
+        },
+        {
+          "id": "lectura/relaciones-lexico-semanticas",
+          "course": "lectura",
+          "slug": "relaciones-lexico-semanticas",
+          "title": "Relaciones léxico-semánticas",
+          "description": "Organiza significados, clases y partes; distingue polisemia, homonimia y paronimia.",
+          "version": 1,
+          "order": 10,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Distinguir denotación, connotación y campos de palabras",
+            "Relacionar hiperónimos, hipónimos y partes",
+            "Distinguir polisemia, homonimia y paronimia en contexto"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/relaciones-lexico-semanticas.json",
+          "sha256": "01db71a0570204cda9c7de7b2d9b47868f81346e45ac34c224364c1accd70f67"
+        },
+        {
+          "id": "lectura/tecnicas-comprension-lectora",
+          "course": "lectura",
+          "slug": "tecnicas-comprension-lectora",
+          "title": "Técnicas de comprensión lectora",
+          "description": "Selecciona el tipo de lectura y organiza ideas sin sustituir comprensión por subrayado.",
+          "version": 1,
+          "order": 11,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Elegir lectura global, focalizada e intensiva según la meta",
+            "Aplicar preguntas, subrayado, títulos y mapas conceptuales",
+            "Integrar resumen, lectura extensiva y evaluación crítica"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/tecnicas-comprension-lectora.json",
+          "sha256": "d3f9693d6a7d32d23ffaea5fafb9f5c697ebf78288189139aace0dfacfcdc627"
+        },
+        {
+          "id": "lectura/referentes-textuales",
+          "course": "lectura",
+          "slug": "referentes-textuales",
+          "title": "Referentes textuales",
+          "description": "Reconstruye anáforas, catáforas, elipsis y deixis con antecedentes precisos.",
+          "version": 1,
+          "order": 12,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Identificar anáforas pronominales y adverbiales",
+            "Reconocer catáfora, sustitución léxica y elipsis",
+            "Resolver deixis, referentes extensos y ambigüedad"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/referentes-textuales.json",
+          "sha256": "09ff80d089c00068ff8149a39d0df1036fb2dfa773b7c2db2fe19ca4fe11d58b"
+        },
+        {
+          "id": "lectura/textos-argumentativos",
+          "course": "lectura",
+          "slug": "textos-argumentativos",
+          "title": "Textos argumentativos",
+          "description": "Identifica tesis, razones, concesiones y contraargumentos en posturas completas.",
+          "version": 1,
+          "order": 13,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Distinguir tema, tesis y razones",
+            "Reconocer recursos y contraargumentación",
+            "Integrar una postura matizada y comprobar su alcance"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-argumentativos.json",
+          "sha256": "d32319d9179a80d8549ed7daa2ba04fd660152d545191e55d86c6de8f6bdec95"
+        },
+        {
+          "id": "lectura/termino-excluido",
+          "course": "lectura",
+          "slug": "termino-excluido",
+          "title": "Término excluido",
+          "description": "Descubre el criterio común y excluye por significado, clase o relación precisa.",
+          "version": 1,
+          "order": 14,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Excluir según un rasgo semántico explícito",
+            "Distinguir sinonimia, antonimia, clase y parte",
+            "Controlar el nivel de clasificación y evitar criterios arbitrarios"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/termino-excluido.json",
+          "sha256": "3d3a4d0ac502272fb4e1e2c0fe86dd3ed7a8c6c7adde3b32869496800e14eb86"
+        },
+        {
+          "id": "lectura/oraciones-eliminadas",
+          "course": "lectura",
+          "slug": "oraciones-eliminadas",
+          "title": "Oraciones eliminadas",
+          "description": "Depura un párrafo por pertinencia y redundancia sin borrar relaciones necesarias.",
+          "version": 1,
+          "order": 15,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Identificar unidad temática e información impertinente",
+            "Reconocer redundancia y conservar antecedentes necesarios",
+            "Distinguir contradicción, contraste útil y supresión justificada"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/oraciones-eliminadas.json",
+          "sha256": "6e425b51767cf57c3c9551e271415ab756212c000a714c57832e651c7a1f8e86"
+        },
+        {
+          "id": "lectura/analogias",
+          "course": "lectura",
+          "slug": "analogias",
+          "title": "Analogías",
+          "description": "Compara relaciones con dirección, función y nivel de precisión constantes.",
+          "version": 1,
+          "order": 16,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Formular relaciones en analogías horizontales",
+            "Completar pares y distinguir clases de relación",
+            "Resolver relaciones precisas y comparaciones verticales"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/analogias.json",
+          "sha256": "a09cf1b39a7dde63ba030325e9c54a1850196eca50e9b3949cdaa088259bdbe7"
+        },
+        {
+          "id": "lectura/textos-con-graficos-fundamentos",
+          "course": "lectura",
+          "slug": "textos-con-graficos-fundamentos",
+          "title": "Textos con gráficos: fundamentos",
+          "description": "Lee títulos, unidades, escalas, leyendas y datos; integra figuras y explicación.",
+          "version": 1,
+          "order": 17,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Leer categorías, cantidades, unidades y comparaciones",
+            "Interpretar distribución, evolución y leyendas",
+            "Integrar gráficos, mapas y texto sin exceder sus datos"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-con-graficos-fundamentos.json",
+          "sha256": "62ddfa002938f4f491cc9f16fa3b02cdc6bbe1db88d690d984d238fc84ed51db"
+        },
+        {
+          "id": "lectura/textos-con-graficos-avanzados",
+          "course": "lectura",
+          "slug": "textos-con-graficos-avanzados",
+          "title": "Textos con gráficos: interpretación avanzada",
+          "description": "Contrasta bases, porcentajes, fuentes y alcance antes de aceptar una conclusión visual.",
+          "version": 1,
+          "order": 18,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Comparar escalas, bases y unidades equivalentes",
+            "Distinguir porcentajes, puntos porcentuales y categorías superpuestas",
+            "Integrar fuentes y controlar causalidad, proyecciones y agregados"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-con-graficos-avanzados.json",
+          "sha256": "bd7220c2141faa214fef69d186212443f48a8a664d9afd18ececc288b453f5d9"
+        },
+        {
+          "id": "lectura/textos-informativos",
+          "course": "lectura",
+          "slug": "textos-informativos",
+          "title": "Textos informativos",
+          "description": "Reconoce noticia, carta, memorando e informe y distingue hechos de atribuciones.",
+          "version": 1,
+          "order": 19,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Leer hechos y estructura de una noticia",
+            "Interpretar cartas formales, memorandos e informes",
+            "Integrar información, atribuciones y alcance sin inventar datos"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-informativos.json",
+          "sha256": "24d65d04dad9319047fa520e9a9806229a1be0dfc7ad52aee6bb44d213cb07ee"
+        },
+        {
+          "id": "lectura/redaccion-de-textos",
+          "course": "lectura",
+          "slug": "redaccion-de-textos",
+          "title": "Redacción de textos",
+          "description": "Planifica, escribe y revisa con coherencia, tildes y puntuación pertinentes.",
+          "version": 1,
+          "order": 20,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Planificar, textualizar y revisar según un propósito",
+            "Aplicar acento y tildación a palabras y funciones frecuentes",
+            "Usar comas y revisión integrada sin alterar los datos"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/redaccion-de-textos.json",
+          "sha256": "cb4fd19763d27d4920daa2c45ab9e8a45adb1fb5e1b8e52ade8496b6cf5574de"
+        },
+        {
+          "id": "lectura/textos-instructivos",
+          "course": "lectura",
+          "slug": "textos-instructivos",
+          "title": "Textos instructivos",
+          "description": "Sigue metas, materiales, secuencias, condiciones y comprobaciones de procedimientos.",
+          "version": 1,
+          "order": 21,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Reconocer propósito, materiales y secuencia",
+            "Interpretar requisitos, ramas y criterios de finalización",
+            "Detectar omisiones y revisar instrucciones para lectores nuevos"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-instructivos.json",
+          "sha256": "68c8ecdfff9ffa8fc384bef8bf84c153adbbbf8e6e1255cb6a9db688dfd4dcd4"
+        },
+        {
+          "id": "lectura/plan-de-redaccion",
+          "course": "lectura",
+          "slug": "plan-de-redaccion",
+          "title": "Plan de redacción",
+          "description": "Ordena ideas según generalidad, tiempo, causa y dependencias referenciales.",
+          "version": 1,
+          "order": 22,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Leer el título y ordenar de general a particular",
+            "Aplicar cronología y causa-efecto sin confundir criterios",
+            "Resolver planes con referencias y verificar la secuencia completa"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/plan-de-redaccion.json",
+          "sha256": "830818df37cf36744d0e75ab261fda3b217c8f9c8fd2a51e89e60a50ee6a5958"
+        },
+        {
+          "id": "lectura/textos-narrativos",
+          "course": "lectura",
+          "slug": "textos-narrativos",
+          "title": "Textos narrativos",
+          "description": "Lee acontecimientos, narradores, géneros, cambios temporales y desenlaces con evidencia.",
+          "version": 1,
+          "order": 23,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Reconocer acciones, personajes, espacio y cambio",
+            "Distinguir géneros narrativos y alcance del narrador",
+            "Interpretar tiempo, motivaciones y cierres sin inventar hechos"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-narrativos.json",
+          "sha256": "5df358a6539a415a4492d71edddf41758f80b1293907560ca66a6da3deb6769d"
+        },
+        {
+          "id": "lectura/vicios-de-diccion",
+          "course": "lectura",
+          "slug": "vicios-de-diccion",
+          "title": "Vicios de dicción",
+          "description": "Corrige ambigüedad, imprecisión, redundancia y errores de construcción con criterio.",
+          "version": 1,
+          "order": 24,
+          "estimatedMinutes": 27,
+          "objectives": [
+            "Detectar anfibología, monotonía y redundancia",
+            "Revisar formas léxicas, concordancia y régimen",
+            "Distinguir norma, estilo y énfasis en una revisión integrada"
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/vicios-de-diccion.json",
+          "sha256": "2e80b373b44021e4fc17d1f9108ef63e537c897e89bdea6dd9b02da615dbc259"
+        },
+        {
+          "id": "lectura/inferencias-y-sentido-figurado",
+          "course": "lectura",
+          "slug": "inferencias-y-sentido-figurado",
+          "title": "Inferencias y sentido figurado",
+          "description": "Distingue lo dicho de lo deducido, interpreta recursos expresivos y compara textos con evidencia.",
+          "version": 1,
+          "order": 25,
+          "estimatedMinutes": 30,
+          "objectives": [
+            "Sustentar inferencias sin añadir supuestos.",
+            "Interpretar metáforas, personificación e ironía en contexto.",
+            "Integrar y comparar información de varios textos."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/inferencias-y-sentido-figurado.json",
+          "sha256": "83c0287ea69d019923ae99197217aedf16b367d3ab91e8e29c2a83134b5b8b23"
+        },
+        {
+          "id": "lectura/evaluacion-de-fuentes-y-argumentos",
+          "course": "lectura",
+          "slug": "evaluacion-de-fuentes-y-argumentos",
+          "title": "Evalúa fuentes y argumentos",
+          "description": "Examina evidencia, credibilidad y forma, y decide qué conclusiones permite un texto.",
+          "version": 1,
+          "order": 26,
+          "estimatedMinutes": 32,
+          "objectives": [
+            "Distinguir afirmación, evidencia y justificación.",
+            "Evaluar fuentes con criterios pertinentes.",
+            "Examinar generalizaciones, causalidad y extrapolaciones."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/evaluacion-de-fuentes-y-argumentos.json",
+          "sha256": "794da9b6f0f7de728fa89b6fce2ca77b1e5c0aaef3d1533af286aef8e146403e"
         }
       ]
     }

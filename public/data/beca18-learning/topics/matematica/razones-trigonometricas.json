@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/razones-trigonometricas",
+  "course": "matematica",
+  "slug": "razones-trigonometricas",
+  "title": "Razones trigonométricas y aplicaciones",
+  "description": "Identifica lados respecto de un ángulo y resuelve alturas, sombras y pendientes con razones exactas.",
+  "version": 1,
+  "order": 34,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Relacionar seno, coseno, tangente y sus recíprocas con lados de un triángulo rectángulo.",
+    "Usar ángulos 30°,45°y 60° para hallar distancias exactas.",
+    "Construir modelos con elevación, pendientes e identidades sin confundir alturas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Los lados dependen del ángulo que miras",
+      "body": [
+        "En un triángulo rectángulo, la hipotenusa está siempre frente al ángulo de 90°. Para un ángulo agudoθ, el cateto opuesto está enfrente y el adyacente es el que toca aθ sin ser hipotenusa.",
+        "sen θ = opuesto/hipotenusa, cos θ = adyacente/hipotenusa y tan θ = opuesto/adyacente. Cambiar al otro ángulo agudo intercambia opuesto y adyacente, pero la hipotenusa sigue igual.",
+        "Las recíprocas son cosecante csc θ = hipotenusa/opuesto, secante sec θ = hipotenusa/adyacente y cotangente cot θ = adyacente/opuesto. Para un ángulo agudo todos estos lados son positivos y los denominadores no son cero."
+      ],
+      "id": "razones-trigonometricas-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un triángulo 3–4–5 desde un ángulo concreto",
+      "body": [
+        "Paraθ, el cateto opuesto mide 3 cm, el adyacente 4 cm y la hipotenusa 5 cm. Encuentra las seis razones."
+      ],
+      "solution": [
+        "sen θ = 3/5; cos θ = 4/5; tan θ = 3/4.",
+        "csc θ = 5/3; sec θ = 5/4; cot θ = 4/3.",
+        "Las unidades se cancelan: son razones sin unidad. Verifica tan θ = sen θ/cos θ = (3/5)/(4/5) = 3/4."
+      ],
+      "id": "razones-trigonometricas-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "La misma forma mantiene las razones",
+      "body": [
+        "Dos triángulos rectángulos semejantes con catetos 3 y 4, o 6 y 8, tienen las mismas razones para el ángulo correspondiente. La hipotenusa pasa de 5 a 10 y todos los cocientes se conservan.",
+        "Si usas el explorador, consideraθ como el ángulo que tiene a como cateto opuesto y b como adyacente. La hipotenusa es√(a²+b²). Cambiar ambos catetos por el mismo factor conserva sen θ, cos θ y tan θ."
+      ],
+      "diagram": {
+        "kind": "geometry",
+        "mode": "triangle",
+        "a": 3,
+        "b": 4,
+        "n": 3
+      },
+      "id": "razones-trigonometricas-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Seno con lados identificados",
+      "body": [],
+      "prompt": "Para un ángulo agudoθ, opuesto = 5 cm e hipotenusa = 13 cm. ¿Cuál es sen θ?",
+      "choices": [
+        {
+          "text": "13/5",
+          "explanation": "13/5 es la cosecante, recíproca del seno."
+        },
+        {
+          "text": "5/12",
+          "explanation": "12 sería el cateto adyacente;5/12 corresponde a la tangente."
+        },
+        {
+          "text": "5/13",
+          "explanation": "El seno compara el cateto opuesto con la hipotenusa."
+        }
+      ],
+      "correct": 2,
+      "hint": "El denominador del seno es la hipotenusa.",
+      "solution": [
+        "sen θ = opuesto/hipotenusa.",
+        "sen θ = 5/13."
+      ],
+      "id": "razones-trigonometricas-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Coseno con lados identificados",
+      "body": [],
+      "prompt": "Paraθ, el cateto adyacente mide 12 cm y la hipotenusa 13 cm. ¿Cuál es cos θ?",
+      "choices": [
+        {
+          "text": "13/12",
+          "explanation": "13/12 es la secante, no el coseno."
+        },
+        {
+          "text": "12/13",
+          "explanation": "Coseno = adyacente/hipotenusa."
+        },
+        {
+          "text": "5/13",
+          "explanation": "5/13 sería el seno en este triángulo 5–12–13."
+        }
+      ],
+      "correct": 1,
+      "hint": "Elige el cateto que toca al ángulo, sin contar la hipotenusa.",
+      "solution": [
+        "cos θ = 12/13.",
+        "Es menor que 1, como corresponde a un ángulo agudo."
+      ],
+      "id": "razones-trigonometricas-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Tangente entre los catetos",
+      "body": [],
+      "prompt": "Respecto deθ, el opuesto mide 3 cm y el adyacente 4 cm. ¿Cuánto vale tan θ?",
+      "choices": [
+        {
+          "text": "3/4",
+          "explanation": "Tangente = opuesto/adyacente."
+        },
+        {
+          "text": "3/5",
+          "explanation": "3/5 usa la hipotenusa 5 y corresponde al seno."
+        },
+        {
+          "text": "4/3",
+          "explanation": "4/3 invierte los catetos y corresponde a la cotangente."
+        }
+      ],
+      "correct": 0,
+      "hint": "La tangente no usa la hipotenusa.",
+      "solution": [
+        "tan θ = 3/4.",
+        "La razón compara altura opuesta con base adyacente."
+      ],
+      "id": "razones-trigonometricas-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una razón recíproca",
+      "body": [],
+      "prompt": "Si cos θ = 4/5 para un ángulo agudo, ¿cuánto vale sec θ?",
+      "choices": [
+        {
+          "text": "4/5",
+          "explanation": "4/5 repite el coseno; falta tomar su recíproco."
+        },
+        {
+          "text": "3/5",
+          "explanation": "3/5 sería el seno del triángulo correspondiente, no la secante."
+        },
+        {
+          "text": "5/4",
+          "explanation": "La secante es 1/cos θ, por lo que invierte la fracción."
+        }
+      ],
+      "correct": 2,
+      "hint": "Secante y coseno son recíprocos.",
+      "solution": [
+        "sec θ = 1/(4/5).",
+        "sec θ = 5/4."
+      ],
+      "id": "razones-trigonometricas-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Opuesto y adyacente necesitan un ángulo de referencia",
+      "body": [
+        "No etiquetes un cateto como opuesto de manera absoluta: di respecto de qué ángulo. La hipotenusa sí queda fija frente a 90°.",
+        "En un ángulo agudo, seno y coseno están entre 0 y 1. Una respuesta como 13/5 para seno indica que invertiste la razón."
+      ],
+      "id": "razones-trigonometricas-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Tres ángulos que se pueden resolver exactamente",
+      "body": [
+        "En un triángulo 30°–60°–90°, los lados opuestos a esos ángulos están en razón 1:√3:2. Así, sen 30° = 1/2, cos 30° = √3/2, tan 30° = 1/√3; sen 60° = √3/2, cos 60° = 1/2, tan 60° = √3.",
+        "En un triángulo 45°–45°–90°, los catetos son iguales y la hipotenusa es√2 veces cada uno. Por eso sen 45° = cos 45° = √2/2 y tan 45° = 1.",
+        "Una inclinación respecto de la horizontal forma un ángulo con el suelo, no con la vertical. Dibuja ese ángulo antes de decidir qué lado es opuesto o adyacente."
+      ],
+      "id": "razones-trigonometricas-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Una escalera inclinada",
+      "body": [
+        "Una escalera de 10 m forma 30° con el piso horizontal. ¿A qué altura llega y a qué distancia está su pie de la pared?"
+      ],
+      "solution": [
+        "La escalera es hipotenusa. Altura = 10 sen 30° = 10/2 = 5 m.",
+        "Distancia horizontal = 10 cos 30° = 10√3/2 = 5√3 m.",
+        "Verifica Pitágoras:5²+(5√3)² = 25+75 = 100 = 10²."
+      ],
+      "id": "razones-trigonometricas-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Sombras y ángulos de elevación",
+      "body": [
+        "Para un objeto vertical sobre suelo horizontal, altura/sombra = tanα siα es la elevación del sol respecto del suelo. La sombra es el cateto adyacente y la altura el opuesto.",
+        "Un ángulo de elevación se mide hacia arriba desde la horizontal del observador; uno de depresión, hacia abajo. Si las horizontales son paralelas, elevación y depresión entre los mismos puntos tienen igual magnitud."
+      ],
+      "id": "razones-trigonometricas-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Escalera y altura",
+      "body": [],
+      "prompt": "Una escalera de 12 m forma 30° con el piso. ¿Qué altura alcanza?",
+      "choices": [
+        {
+          "text": "6 m",
+          "explanation": "La altura es opuesta:12 sen 30° = 12 × 1/2 = 6."
+        },
+        {
+          "text": "6√3 m",
+          "explanation": "6√3 es la distancia horizontal, calculada con cos 30°."
+        },
+        {
+          "text": "12 m",
+          "explanation": "12 es la hipotenusa; solo sería la altura con escalera vertical."
+        }
+      ],
+      "correct": 0,
+      "hint": "La escalera es hipotenusa y la altura está frente al ángulo con el piso.",
+      "solution": [
+        "h/12 = sen 30° = 1/2.",
+        "h = 6 m."
+      ],
+      "id": "razones-trigonometricas-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Proyección horizontal",
+      "body": [],
+      "prompt": "Una rampa recta de 8 m forma 60° con la horizontal. ¿Cuánto mide su proyección horizontal?",
+      "choices": [
+        {
+          "text": "4√3 m",
+          "explanation": "4√3 es la altura, opuesta al ángulo de 60°."
+        },
+        {
+          "text": "8√3 m",
+          "explanation": "8√3 supera incluso la longitud de la rampa; no puede ser una proyección."
+        },
+        {
+          "text": "4 m",
+          "explanation": "La proyección es adyacente:8 cos 60° = 8 × 1/2."
+        }
+      ],
+      "correct": 2,
+      "hint": "La proyección horizontal corresponde al cateto adyacente.",
+      "solution": [
+        "x/8 = cos 60° = 1/2.",
+        "x = 4 m."
+      ],
+      "id": "razones-trigonometricas-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Elevación de 45 grados",
+      "body": [],
+      "prompt": "Desde un punto en el suelo a 12 m de la base de un poste, su punta se ve con elevación 45°. El ojo se considera a nivel del suelo. ¿Qué altura tiene el poste?",
+      "choices": [
+        {
+          "text": "6 m",
+          "explanation": "6 usa una razón 1/2 que no corresponde a tangente 45°."
+        },
+        {
+          "text": "12 m",
+          "explanation": "tan 45° = h/12 = 1, de modo que h = 12."
+        },
+        {
+          "text": "12√2 m",
+          "explanation": "12√2 sería la distancia visual a la punta, no la altura."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa la razón altura/distancia horizontal.",
+      "solution": [
+        "h = 12 tan 45°.",
+        "h = 12 × 1 = 12 m."
+      ],
+      "id": "razones-trigonometricas-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Sombra con longitud exacta",
+      "body": [],
+      "prompt": "Un árbol proyecta una sombra de 6√3 m cuando el sol tiene elevación 30°. ¿Cuál es su altura?",
+      "choices": [
+        {
+          "text": "6 m",
+          "explanation": "h = sombra × tan 30° = 6√3 × 1/√3 = 6."
+        },
+        {
+          "text": "18 m",
+          "explanation": "18 usa tan 60° en vez de tan 30°."
+        },
+        {
+          "text": "3√3 m",
+          "explanation": "3√3 multiplica por sen 30°, pero la sombra no es hipotenusa."
+        }
+      ],
+      "correct": 0,
+      "hint": "La sombra es distancia horizontal; usa tangente, no seno.",
+      "solution": [
+        "h/(6√3) = tan 30° = 1/√3.",
+        "h = 6 m."
+      ],
+      "id": "razones-trigonometricas-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Dibuja el suelo como una referencia horizontal",
+      "body": [
+        "Si el ángulo se da respecto de la horizontal, altura es opuesto y distancia horizontal es adyacente. Un ángulo respecto de la vertical intercambia esos papeles.",
+        "En un problema de sombra, la sombra no es hipotenusa. Identificar cada lado es más seguro que elegir una fórmula por memoria."
+      ],
+      "id": "razones-trigonometricas-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Identidades y alturas con más de una medición",
+      "body": [
+        "Para un ángulo real, sen²θ+cos²θ = 1. Para un ángulo agudo, si conoces seno puedes recuperar coseno con la raíz positiva: cos θ = √(1−sen²θ). También tan θ = sen θ/cos θ cuando cos θ≠0.",
+        "En dos observaciones desde el mismo lado de un objeto, usa una altura común y dos distancias relacionadas. La distancia más cercana tiene mayor ángulo de elevación si el nivel del observador no cambia.",
+        "Si el ojo está sobre el suelo, la tangente calcula la diferencia entre la altura del objeto y la del ojo. La altura total exige sumar luego la altura del observador."
+      ],
+      "id": "razones-trigonometricas-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "La altura del ojo sí cuenta",
+      "body": [
+        "Un observador tiene los ojos a 1,6 m del suelo. A 10 m de una pared ve su borde con elevación 45°. Halla la altura del borde sobre el suelo."
+      ],
+      "solution": [
+        "La diferencia de altura entre ojo y borde es d = 10 tan 45° = 10 m.",
+        "Altura total H = 10+1,6 = 11,6 m.",
+        "No restes la altura del ojo: el rayo parte por encima del suelo y el borde está 10 m más alto que ese punto."
+      ],
+      "id": "razones-trigonometricas-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Una pendiente porcentual no es un ángulo en grados",
+      "body": [
+        "Una pendiente de 20% indica subida/desplazamiento horizontal = 20/100 = 0,2. Por tanto tan θ = 0,2; no significaθ = 20°.",
+        "Al comparar inclinaciones, usa la misma unidad y el mismo tipo de razón. Una rampa que sube 1 m en 5 m horizontales tiene pendiente 20%, aunque su longitud inclinada sea√26 m."
+      ],
+      "id": "razones-trigonometricas-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Recupera el coseno",
+      "body": [],
+      "prompt": "Para un ángulo agudoθ se sabe sen θ = 5/13. ¿Cuál es cos θ?",
+      "choices": [
+        {
+          "text": "8/13",
+          "explanation": "Restar numeradores 13−5 ignora la identidad de cuadrados."
+        },
+        {
+          "text": "12/13",
+          "explanation": "cos²θ = 1−25/169 = 144/169; la raíz positiva es 12/13."
+        },
+        {
+          "text": "−12/13",
+          "explanation": "El signo negativo no corresponde a un ángulo agudo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Eleva al cuadrado el seno y usa sen²+cos² = 1.",
+      "solution": [
+        "cos²θ = 144/169.",
+        "Comoθ es agudo, cos θ = 12/13."
+      ],
+      "id": "razones-trigonometricas-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Dos puntos de observación",
+      "body": [],
+      "prompt": "Dos puntos de observación y la base de una torre vertical están alineados en una misma recta horizontal, con ambos puntos al mismo lado de la torre y al nivel de su base. Están separados 20 m. Desde el cercano se ve la punta a 60° y desde el lejano a 30°. ¿Cuál es la altura?",
+      "choices": [
+        {
+          "text": "10√3 m",
+          "explanation": "Por la alineación, si x es la distancia cercana, la lejana es x+20. Entonces h = √3 x = (x+20)/√3 y resulta h = 10√3."
+        },
+        {
+          "text": "20√3 m",
+          "explanation": "Ese valor toma la separación 20 como si fuera la distancia cercana; son cantidades distintas."
+        },
+        {
+          "text": "10 m",
+          "explanation": "10 es la distancia horizontal cercana, no la altura de la torre."
+        }
+      ],
+      "correct": 0,
+      "hint": "La alineación y el mismo lado permiten usar distancias x y x+20 para una altura común.",
+      "solution": [
+        "Como los tres puntos están alineados y los observadores al mismo lado, sus distancias a la torre son x y x+20.",
+        "x√3 = (x+20)/√3 implica 3 x = x+20.",
+        "x = 10; h = 10√3 m."
+      ],
+      "id": "razones-trigonometricas-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Interpreta una pendiente",
+      "body": [],
+      "prompt": "Una rampa sube 2 m por cada 10 m de desplazamiento horizontal. ¿Cuál es tan θ, conθ el ángulo respecto de la horizontal?",
+      "choices": [
+        {
+          "text": "1/√26",
+          "explanation": "1/√26 sería el seno al usar una hipotenusa√104 = 2√26."
+        },
+        {
+          "text": "20",
+          "explanation": "20 es el valor numérico del porcentaje 20%, no su razón decimal."
+        },
+        {
+          "text": "1/5",
+          "explanation": "tan θ = subida/horizontal = 2/10 = 1/5."
+        }
+      ],
+      "correct": 2,
+      "hint": "La tangente compara los dos catetos, sin usar la longitud inclinada.",
+      "solution": [
+        "tan θ = 2/10.",
+        "tan θ = 1/5 = 0,2; la pendiente es 20%."
+      ],
+      "id": "razones-trigonometricas-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Altura total de un poste",
+      "body": [],
+      "prompt": "Un observador con ojos a 1,5 m del suelo está a 12 m horizontalmente de un poste. Ve la punta con elevación 45°. ¿Cuánto mide el poste desde el suelo?",
+      "choices": [
+        {
+          "text": "10,5 m",
+          "explanation": "10,5 resta la altura del ojo, aunque este ya está por encima del suelo."
+        },
+        {
+          "text": "13,5 m",
+          "explanation": "La punta está 12 m sobre los ojos; suma 1,5 para medir desde el suelo."
+        },
+        {
+          "text": "12 m",
+          "explanation": "12 es la diferencia entre punta y ojos, no la altura total."
+        }
+      ],
+      "correct": 1,
+      "hint": "La tangente usa el desnivel desde el ojo.",
+      "solution": [
+        "H−1,5 = 12 tan 45° = 12.",
+        "H = 12+1,5 = 13,5 m."
+      ],
+      "id": "razones-trigonometricas-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Controla de dónde empieza la altura",
+      "body": [
+        "Una observación desde un ojo elevado no parte del suelo. Distingue altura total y diferencia de alturas antes de escribir la razón.",
+        "En dos observaciones,20 m entre puntos no es automáticamente la distancia de ninguno a la torre. Define una distancia x y expresa la otra con ella. Comprueba ambas tangentes con tu altura final."
+      ],
+      "id": "razones-trigonometricas-24",
+      "level": 3
+    }
+  ]
+}

@@ -11,6 +11,8 @@
     "build": "node scripts/build-beca18-learning.mjs",
     "validate": "node scripts/validate-beca18-learning.mjs",
     "check:manifest": "node scripts/build-beca18-learning.mjs --check",
-    "test": "npm run validate && npm run check:manifest && node scripts/test-beca18-learning.mjs"
+    "check:coverage": "node scripts/check-beca18-coverage.mjs",
+    "check:reviews": "node scripts/check-beca18-reviews.mjs",
+    "test": "npm run validate && npm run check:manifest && node scripts/test-beca18-learning.mjs && npm run check:coverage && npm run check:reviews"
   }
 }

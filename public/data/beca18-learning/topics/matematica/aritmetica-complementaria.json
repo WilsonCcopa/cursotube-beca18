@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/aritmetica-complementaria",
+  "course": "matematica",
+  "slug": "aritmetica-complementaria",
+  "title": "Aritmética complementaria",
+  "description": "Completa subtemas de los capítulos 2–5: decimales, trabajo conjunto, criterios, divisores y cortes.",
+  "version": 1,
+  "order": 38,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Convertir decimales racionales y sumar tasas de trabajo.",
+    "Aplicar criterios adicionales y condiciones de divisibilidad.",
+    "Contar cortes, postes y cubos a partir de divisores comunes."
+  ],
+  "steps": [
+    {
+      "id": "aritmetica-complementaria-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Fracciones y decimales racionales",
+      "body": [
+        "Una fracción a/b con enteros a,b y b ≠ 0 es racional. Puede ser propia si 0 < a < b o impropia si a ≥ b, tomando denominador positivo; es aparente si representa un entero. Homogéneas tienen igual denominador y heterogéneas, distinto.",
+        "La división puede terminar, como 1/8 = 0,125, o repetir un bloque, como 1/3 = 0,333… Un decimal periódico puro empieza el período después de la coma; uno mixto tiene cifras no repetidas antes del período.",
+        "Para un decimal exacto, escribe el entero sin coma sobre una potencia de 10 y simplifica. En fracción irreducible, el decimal termina si el denominador solo contiene factores primos 2 y 5."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-02",
+      "level": 1,
+      "type": "example",
+      "title": "Elimina un período con una resta",
+      "body": [
+        "Sea x = 0,272727… Entonces 100x = 27,272727… Restando x: 99x = 27 y x = 27/99 = 3/11.",
+        "Para x = 0,16666…, el período empieza tras el 1. 10x = 1,6666… y 100x = 16,6666… Al restar: 90x = 15, así que x = 1/6.",
+        "Las multiplicaciones se eligen para alinear exactamente la parte que se repite. No recortes el decimal infinito como si fuera un decimal exacto."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Suma tasas, no tiempos",
+      "body": [
+        "Si un trabajador completa una tarea en T horas a ritmo constante, su tasa es 1/T tareas por hora. Para dos personas que trabajan a la vez sin interferencias, las tasas se suman: 1/T = 1/T₁ + 1/T₂.",
+        "Un desagüe resta tasa. Si entran 1/6 y 1/3 de tanque por hora y salen 1/12, la tasa neta es 5/12 por hora. El tiempo de un tanque es 12/5 horas.",
+        "La tasa debe ser positiva para llenar desde vacío. Si es cero, el nivel no aumenta; si es negativa, no se llena bajo ese modelo. Supón caudales constantes y simultáneos, y que no hay cambios por presión."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-04",
+      "level": 1,
+      "type": "question",
+      "title": "Decimal exacto",
+      "body": [],
+      "prompt": "¿Qué fracción irreducible equivale a 0,125?",
+      "choices": [
+        {
+          "text": "1/125",
+          "explanation": "Confunde las cifras decimales con el denominador de la fracción."
+        },
+        {
+          "text": "1/4",
+          "explanation": "1/4 = 0,25, el doble del decimal dado."
+        },
+        {
+          "text": "1/8",
+          "explanation": "125/1000 se simplifica entre 125."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa denominador 1000 porque hay tres cifras decimales.",
+      "solution": [
+        "0,125 = 125/1000.",
+        "125/1000 = 1/8."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-05",
+      "level": 1,
+      "type": "question",
+      "title": "Periódico puro",
+      "body": [],
+      "prompt": "¿Qué fracción equivale exactamente a 0,272727…?",
+      "choices": [
+        {
+          "text": "3/11",
+          "explanation": "El período 27 produce 27/99 = 3/11."
+        },
+        {
+          "text": "27/100",
+          "explanation": "27/100 = 0,27 termina y omite la repetición infinita."
+        },
+        {
+          "text": "27/90",
+          "explanation": "27/90 = 0,3 y no representa el bloque 27 repetido."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica por 100 para alinear el período de dos cifras.",
+      "solution": [
+        "x = 0,272727…; 100x = 27,272727…",
+        "99x = 27.",
+        "x = 27/99 = 3/11."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-06",
+      "level": 1,
+      "type": "question",
+      "title": "Periódico mixto",
+      "body": [],
+      "prompt": "¿Qué fracción irreducible equivale a 0,16666…?",
+      "choices": [
+        {
+          "text": "1/5",
+          "explanation": "1/5 = 0,2, un decimal exacto distinto."
+        },
+        {
+          "text": "1/6",
+          "explanation": "100x − 10x = 15, así que x = 15/90 = 1/6."
+        },
+        {
+          "text": "16/99",
+          "explanation": "16/99 repite 16 desde el inicio: 0,161616…"
+        }
+      ],
+      "correct": 1,
+      "hint": "Alinea el período restando 100x menos 10x.",
+      "solution": [
+        "100x = 16,666… y 10x = 1,666…",
+        "90x = 15.",
+        "x = 1/6."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-07",
+      "level": 1,
+      "type": "question",
+      "title": "Entradas y salida",
+      "body": [],
+      "prompt": "Dos tubos llenan un tanque en 6 y 3 horas respectivamente. Un desagüe lo vacía en 12 horas. Todos operan juntos con caudales constantes. ¿En cuánto tiempo se llena desde vacío?",
+      "choices": [
+        {
+          "text": "21 horas",
+          "explanation": "Sumar los tiempos individuales no modela acciones simultáneas."
+        },
+        {
+          "text": "5/12 horas",
+          "explanation": "5/12 es la tasa neta en tanques por hora; falta tomar su recíproco para hallar horas por tanque."
+        },
+        {
+          "text": "12/5 horas",
+          "explanation": "La tasa neta es 1/6 + 1/3 − 1/12 = 5/12 de tanque por hora."
+        }
+      ],
+      "correct": 2,
+      "hint": "Expresa cada acción como fracción de tanque por hora.",
+      "solution": [
+        "Tasa neta = 2/12 + 4/12 − 1/12 = 5/12.",
+        "T = 1/(5/12) = 12/5 horas.",
+        "Equivale a 2 horas y 24 minutos."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-08",
+      "level": 1,
+      "type": "review",
+      "title": "Exacto no significa redondeado",
+      "body": [
+        "Un periódico se representa exactamente con una fracción; 0,27 no es igual a 0,272727… Una aproximación puede servir para estimar, pero no reemplaza la igualdad.",
+        "En trabajo conjunto, suma fracciones de tarea por hora y después invierte la tasa para hallar el tiempo total. Verifica unidades: tasa y tiempo son recíprocos."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Criterios que faltaban",
+      "body": [
+        "Para 7 puedes separar última cifra u y prefijo p: N = 10p + u es divisible entre 7 si y solo si p − 2u lo es. Por ejemplo, 203 → 20 − 6 = 14.",
+        "Para 11, suma cifras en posiciones alternas y resta ambas sumas. El resultado debe ser múltiplo de 11, incluido cero: 462 → 4 − 6 + 2 = 0.",
+        "Para 13, N = 10p + u es divisible si p + 4u lo es: 286 → 28 + 24 = 52 = 13 × 4. Estas transformaciones pueden repetirse y admiten resultados negativos.",
+        "Para 25, revisa las dos últimas cifras; para 125, las tres últimas. En general, 2ᵏ o 5ᵏ dividen a 10ᵏ, así que las últimas k cifras bastan para probar divisibilidad por esas potencias."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-10",
+      "level": 2,
+      "type": "example",
+      "title": "Una misma cantidad con tres criterios",
+      "body": [
+        "Comprueba 1001: para 7, 100 − 2(1) = 98, múltiplo de 7. Para 11, 1 − 0 + 0 − 1 = 0. Para 13, 100 + 4(1) = 104, múltiplo de 13.",
+        "En efecto, 1001 = 7 × 11 × 13. El cero en la suma alternada es un resultado válido: cero es múltiplo de cualquier entero positivo.",
+        "Si N deja residuo 4 al dividir entre 7, escribe N = 7k + 4. Entonces 3N = 21k + 12 = 7(3k + 1) + 5 y su residuo es 5. Los residuos se reducen otra vez al intervalo de 0 a 6."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Soluciones enteras y divisores condicionados",
+      "body": [
+        "La ecuación ax + by = c, con coeficientes enteros y a,b no ambos cero, tiene soluciones enteras si y solo si MCD(a,b) divide a c. Para exigir soluciones naturales o no negativas hace falta comprobar más condiciones.",
+        "6x + 9y = 24 sí admite enteros porque 3 divide a 24. Con x,y ≥ 0, puedes enumerar y = 0, 1, 2 y conservar x entero: salen (4,0) y (1,2).",
+        "Si N = 2³ × 3² y pides divisores múltiplos de 6, el exponente de 2 debe ser 1, 2 o 3 y el de 3 debe ser 1 o 2: 3 × 2 = 6 divisores. Para ser múltiplo de 12 = 2² × 3, serían 2 × 2 = 4.",
+        "El 1 no es primo ni compuesto. Las condiciones de divisibilidad y cantidad de divisores se aplican con sus dominios: un divisor positivo no puede ser cero, aunque cero sí sea múltiplo de un entero no nulo."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-12",
+      "level": 2,
+      "type": "question",
+      "title": "Tres criterios en un número",
+      "body": [],
+      "prompt": "¿Cuál de estos números es divisible entre 7, 11 y 13 al mismo tiempo?",
+      "choices": [
+        {
+          "text": "1011",
+          "explanation": "La suma alternada 1 − 0 + 1 − 1 = 1 muestra que no es múltiplo de 11."
+        },
+        {
+          "text": "1001",
+          "explanation": "1001 = 7 × 11 × 13."
+        },
+        {
+          "text": "1003",
+          "explanation": "No es múltiplo de 7: 7 × 143 = 1001 y sobran 2."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba los criterios o usa el producto de los tres primos distintos.",
+      "solution": [
+        "1001/7 = 143.",
+        "143 = 11 × 13.",
+        "Por tanto, cumple las tres divisibilidades."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-13",
+      "level": 2,
+      "type": "question",
+      "title": "Cero en una suma alternada",
+      "body": [],
+      "prompt": "¿Cuál es divisible entre 11?",
+      "choices": [
+        {
+          "text": "483",
+          "explanation": "4 − 8 + 3 = −1, que no es múltiplo de 11."
+        },
+        {
+          "text": "452",
+          "explanation": "4 − 5 + 2 = 1, que no es múltiplo de 11."
+        },
+        {
+          "text": "462",
+          "explanation": "4 − 6 + 2 = 0, que es múltiplo de 11; 462 = 11 × 42."
+        }
+      ],
+      "correct": 2,
+      "hint": "El criterio permite resultado cero y múltiplos negativos de 11.",
+      "solution": [
+        "Suma alternada de 462: 4 − 6 + 2 = 0.",
+        "El criterio se cumple."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-14",
+      "level": 2,
+      "type": "question",
+      "title": "Una condición imposible",
+      "body": [],
+      "prompt": "¿Por qué 6x + 9y = 25 no tiene soluciones enteras?",
+      "choices": [
+        {
+          "text": "Porque MCD(6,9) = 3 no divide a 25",
+          "explanation": "Todo valor 6x + 9y con x,y enteros es múltiplo de 3."
+        },
+        {
+          "text": "Porque x e y tendrían que ser positivos",
+          "explanation": "La imposibilidad existe incluso permitiendo enteros negativos."
+        },
+        {
+          "text": "Porque hay dos incógnitas",
+          "explanation": "Tener dos incógnitas no impide soluciones enteras; el problema es la divisibilidad."
+        }
+      ],
+      "correct": 0,
+      "hint": "Extrae factor común en el primer miembro.",
+      "solution": [
+        "6x + 9y = 3(2x + 3y).",
+        "El primer miembro es múltiplo de 3; 25 no lo es.",
+        "La igualdad es imposible en enteros."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-15",
+      "level": 2,
+      "type": "question",
+      "title": "Divisores con una condición",
+      "body": [],
+      "prompt": "¿Cuántos divisores positivos de 72 son múltiplos de 6?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "4 correspondería a exigir múltiplos de 12, con al menos dos factores 2."
+        },
+        {
+          "text": "6",
+          "explanation": "En 72 = 2³ × 3², los exponentes permitidos son 1…3 y 1…2."
+        },
+        {
+          "text": "12",
+          "explanation": "12 cuenta todos los divisores de 72, incluidos los que no son múltiplos de 6."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cada divisor buscado debe contener al menos un 2 y un 3.",
+      "solution": [
+        "Exponente de 2: 1, 2, 3; exponente de 3: 1, 2.",
+        "3 × 2 = 6 posibilidades.",
+        "Son 6, 12, 18, 24, 36 y 72."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-16",
+      "level": 2,
+      "type": "review",
+      "title": "La restricción cambia la cuenta",
+      "body": [
+        "Un criterio de divisibilidad puede dar cero o un múltiplo negativo. Lo que importa es la divisibilidad del resultado, no que tenga un signo o tamaño particular.",
+        "La condición del MCD garantiza soluciones enteras de una ecuación diofántica, no automáticamente cantidades no negativas. Para divisores condicionados, restringe exponentes antes de multiplicar sus posibilidades."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Euclides y cortes sin desperdicio",
+      "body": [
+        "El algoritmo de Euclides conserva el MCD al reemplazar el par por divisor y residuo. Para 84 y 30: 84 = 2 × 30 + 24; 30 = 24 + 6; 24 = 4 × 6. El último divisor no nulo es 6.",
+        "Para cortar varias barras en piezas de máxima longitud igual sin sobrantes, usa el MCD de las longitudes. La cantidad de piezas de cada barra es longitud/MCD.",
+        "En una barra recta, obtener p piezas requiere p − 1 cortes, si cada corte separa una pieza y no se apilan barras. Con varias barras, suma piezas y resta la cantidad de barras originales."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-18",
+      "level": 3,
+      "type": "example",
+      "title": "De piezas a cortes",
+      "body": [
+        "Barras de 24 y 36 cm se cortan en piezas iguales lo más largas posible. MCD(24,36) = 12 cm.",
+        "Salen 2 piezas de la primera barra y 3 de la segunda: cinco piezas en total. Los cortes son (2 − 1) + (3 − 1) = 3.",
+        "La longitud de pieza, el total de piezas y el total de cortes son tres respuestas diferentes. Un corte no equivale a una pieza en los extremos originales."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Extremos, circuitos y cubos",
+      "body": [
+        "En una fila abierta de longitud L dividida en intervalos de tamaño d, con postes en ambos extremos, hay L/d + 1 postes. En un circuito cerrado, el inicio y el final son el mismo lugar y hay L/d postes.",
+        "Para poner postes equidistantes en los vértices de un rectángulo, d debe dividir a cada lado. La mayor separación es el MCD de sus lados; después divide el perímetro entre d.",
+        "Para llenar exactamente una caja rectangular con cubos iguales alineados con sus aristas, la mayor arista del cubo es el MCD de las tres dimensiones. La cantidad es el producto de los cocientes de dimensiones entre esa arista.",
+        "El modelo supone que las medidas son compatibles, no hay espesor ni pérdidas de corte y la separación divide exactamente a cada tramo requerido."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-20",
+      "level": 3,
+      "type": "question",
+      "title": "Cuenta los cortes",
+      "body": [],
+      "prompt": "Cortas barras de 18, 30 y 42 cm en piezas de máxima longitud igual, sin sobrantes y sin apilar barras al cortar. ¿Cuántos cortes necesitas?",
+      "choices": [
+        {
+          "text": "12 cortes",
+          "explanation": "La longitud es MCD = 6 cm; salen 3 + 5 + 7 = 15 piezas y se restan las 3 barras originales."
+        },
+        {
+          "text": "15 cortes",
+          "explanation": "15 es el número de piezas, no de cortes."
+        },
+        {
+          "text": "6 cortes",
+          "explanation": "6 cm es la longitud de cada pieza; no indica cuántos cortes hay."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula piezas por barra y resta uno a cada cantidad.",
+      "solution": [
+        "MCD(18,30,42) = 6.",
+        "Piezas: 3, 5 y 7.",
+        "Cortes: 2 + 4 + 6 = 12."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-21",
+      "level": 3,
+      "type": "question",
+      "title": "Postes en una fila abierta",
+      "body": [],
+      "prompt": "Un sendero recto de 32 m tendrá postes cada 4 m, incluidos ambos extremos. ¿Cuántos postes se colocan?",
+      "choices": [
+        {
+          "text": "7 postes",
+          "explanation": "7 omite los postes de los extremos al contar solo puntos interiores."
+        },
+        {
+          "text": "9 postes",
+          "explanation": "Hay 8 intervalos y un poste adicional para incluir los dos extremos."
+        },
+        {
+          "text": "8 postes",
+          "explanation": "8 cuenta intervalos, pero una fila abierta requiere un punto más."
+        }
+      ],
+      "correct": 1,
+      "hint": "Dibuja puntos en 0,4,8,…,32.",
+      "solution": [
+        "Intervalos = 32/4 = 8.",
+        "Postes = 8 + 1 = 9."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-22",
+      "level": 3,
+      "type": "question",
+      "title": "Postes en un circuito cerrado",
+      "body": [],
+      "prompt": "Un circuito cerrado mide 40 m y lleva postes cada 5 m. ¿Cuántos postes distintos hay?",
+      "choices": [
+        {
+          "text": "9 postes",
+          "explanation": "9 cuenta dos veces el punto donde se cierra el circuito."
+        },
+        {
+          "text": "7 postes",
+          "explanation": "7 omite un punto necesario: produciría un intervalo de 10 m."
+        },
+        {
+          "text": "8 postes",
+          "explanation": "40/5 = 8; el punto final coincide con el inicial."
+        }
+      ],
+      "correct": 2,
+      "hint": "En un circuito, el inicio no es un poste adicional al final.",
+      "solution": [
+        "Intervalos = 40/5 = 8.",
+        "Un poste por intervalo cierra el circuito sin duplicar el primero."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-23",
+      "level": 3,
+      "type": "question",
+      "title": "Cubos de tamaño máximo",
+      "body": [],
+      "prompt": "Una caja interior de 24 cm × 36 cm × 60 cm se llena sin huecos con cubos iguales, alineados con sus aristas. ¿Cuántos cubos de máxima arista caben?",
+      "choices": [
+        {
+          "text": "30 cubos",
+          "explanation": "La arista máxima es MCD(24,36,60) = 12; caben 2 × 3 × 5 = 30."
+        },
+        {
+          "text": "12 cubos",
+          "explanation": "12 cm es la arista máxima, no la cantidad."
+        },
+        {
+          "text": "10 cubos",
+          "explanation": "2 + 3 + 5 = 10 suma las filas por dirección; la cantidad total se obtiene multiplicando."
+        }
+      ],
+      "correct": 0,
+      "hint": "El tamaño debe dividir las tres dimensiones.",
+      "solution": [
+        "Arista = 12 cm.",
+        "Cubos por dirección: 24/12 = 2, 36/12 = 3, 60/12 = 5.",
+        "Total = 2 × 3 × 5 = 30."
+      ]
+    },
+    {
+      "id": "aritmetica-complementaria-24",
+      "level": 3,
+      "type": "review",
+      "title": "Nombra el objeto que cuentas",
+      "body": [
+        "Para cortes, distingue barras originales, piezas finales y operaciones de corte. Para postes, distingue intervalos, extremos abiertos y cierre de circuito.",
+        "En cajas tridimensionales, multiplica los conteos por dirección. Un MCD puede indicar longitud máxima, mientras la pregunta pide una cantidad: vuelve al contexto después de hallar el divisor común."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/funciones-cuadraticas",
+  "course": "matematica",
+  "slug": "funciones-cuadraticas",
+  "title": "Funciones cuadráticas",
+  "description": "Interpreta parábolas, raíces y vértices para resolver máximos, mínimos y restricciones.",
+  "version": 1,
+  "order": 22,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Relacionar coeficientes, tabla y forma de una parábola.",
+    "Encontrar vértice, raíces y rango con dominio declarado.",
+    "Modelar y comprobar problemas de área y altura."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "La potencia dos cambia la forma",
+      "body": [
+        "Una función cuadrática tiene forma f(x) = ax² + bx + c, con a ≠ 0. Su gráfica es una parábola: abre hacia arriba si a > 0 y hacia abajo si a < 0.",
+        "El término c es f(0), el corte con el eje vertical. Un número negativo elevado al cuadrado da positivo: (−3)² = 9, pero −3² significa −(3²) = −9 si no hay paréntesis.",
+        "Si no se restringe el contexto, el dominio de un polinomio cuadrático es todo R. La imagen, en cambio, tiene un mínimo o un máximo."
+      ],
+      "id": "funciones-cuadraticas-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Una tabla simétrica",
+      "body": [
+        "Construye tres valores de f(x) = x² − 4 x + 5."
+      ],
+      "solution": [
+        "f(1) = 1 − 4 + 5 = 2. f(2) = 4 − 8 + 5 = 1. f(3) = 9 − 12 + 5 = 2.",
+        "Las entradas 1 y 3 están a igual distancia de 2 y dan la misma salida.",
+        "Completando el cuadrado: f(x) = (x − 2)² + 1. El mínimo es 1 y ocurre en x = 2."
+      ],
+      "id": "funciones-cuadraticas-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora la abertura de la parábola",
+      "body": [
+        "El explorador representa ax² + bx + c. Observa cómo cambia la abertura al modificar a. Si a se vuelve cero, el modelo deja de ser cuadrático y se convierte en afín."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "quadratic",
+        "a": 1,
+        "b": -4,
+        "c": 5,
+        "min": -2,
+        "max": 6
+      },
+      "id": "funciones-cuadraticas-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Evalúa con una entrada negativa",
+      "body": [],
+      "prompt": "Para f(x) = x² + 2 x − 3, ¿cuánto vale f(−2)?",
+      "choices": [
+        {
+          "text": "−11",
+          "explanation": "−11 aparece si se toma (−2)² como −4, perdiendo los paréntesis."
+        },
+        {
+          "text": "5",
+          "explanation": "5 cambia el signo del producto 2(−2), que es −4."
+        },
+        {
+          "text": "−3",
+          "explanation": "(−2)² + 2(−2) − 3 = 4 − 4 − 3 = −3."
+        }
+      ],
+      "correct": 2,
+      "hint": "Sustituye −2 entre paréntesis donde aparezca x.",
+      "solution": [
+        "f(−2) = (−2)² + 2(−2) − 3.",
+        "4 − 4 − 3 = −3."
+      ],
+      "id": "funciones-cuadraticas-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Lee la dirección de abertura",
+      "body": [],
+      "prompt": "¿Qué afirmación describe f(x) = −3 x² + 6 x + 2?",
+      "choices": [
+        {
+          "text": "Abre hacia abajo y corta el eje y en 6",
+          "explanation": "6 es b, el coeficiente de x; el corte vertical lo da c."
+        },
+        {
+          "text": "Abre hacia abajo y corta el eje y en 2",
+          "explanation": "a = −3 es negativo y f(0) = c = 2."
+        },
+        {
+          "text": "Abre hacia arriba y corta el eje y en 2",
+          "explanation": "El corte es correcto, pero el signo negativo de a determina abertura hacia abajo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Separa el papel del coeficiente cuadrático y del término constante.",
+      "solution": [
+        "a = −3 < 0: abertura hacia abajo.",
+        "f(0) = 2: corte vertical en (0,2)."
+      ],
+      "id": "funciones-cuadraticas-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una forma que muestra el vértice",
+      "body": [],
+      "prompt": "¿Cuál es el vértice de f(x) = (x − 3)² + 4?",
+      "choices": [
+        {
+          "text": "(3, 4)",
+          "explanation": "El cuadrado se hace cero en x = 3; la salida mínima es 4."
+        },
+        {
+          "text": "(−3, 4)",
+          "explanation": "La expresión x − 3 se anula en 3, no en −3."
+        },
+        {
+          "text": "(3, −4)",
+          "explanation": "El término fuera del cuadrado es +4; no cambia de signo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Un cuadrado real alcanza su mínimo cero cuando su base es cero.",
+      "solution": [
+        "x − 3 = 0 da x = 3.",
+        "f(3) = 4. El vértice es (3,4)."
+      ],
+      "id": "funciones-cuadraticas-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Simetría de la parábola",
+      "body": [],
+      "prompt": "Si f(x) = (x − 2)² + 1, ¿qué entrada distinta de 0 produce el mismo valor que f(0)?",
+      "choices": [
+        {
+          "text": "2",
+          "explanation": "2 produce el mínimo 1, distinto de f(0) = 5."
+        },
+        {
+          "text": "−4",
+          "explanation": "−4 está a seis unidades del eje x = 2 y da 37."
+        },
+        {
+          "text": "4",
+          "explanation": "0 y 4 están a dos unidades de 2; ambas dan 5."
+        }
+      ],
+      "correct": 2,
+      "hint": "Refleja la entrada 0 al otro lado del eje x = 2.",
+      "solution": [
+        "f(0) = (−2)² + 1 = 5.",
+        "La otra base con cuadrado 4 es +2: x − 2 = 2 da x = 4."
+      ],
+      "id": "funciones-cuadraticas-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No cambies signos por intuición",
+      "body": [
+        "En (x − h)² + k, el vértice es (h,k). La entrada h anula el paréntesis; no copies el signo interior como coordenada.",
+        "El signo de a indica si hay máximo o mínimo. El corte vertical c no suele ser el vértice, salvo cuando el eje de simetría es x = 0."
+      ],
+      "id": "funciones-cuadraticas-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Vértice y raíces responden preguntas distintas",
+      "body": [
+        "El eje de simetría es xᵥ = −b/(2 a). La ordenada del vértice es yᵥ = f(xᵥ). Este punto es mínimo si a > 0 y máximo si a < 0.",
+        "Las raíces son entradas que hacen f(x) = 0. El discriminante Δ = b² − 4 ac indica cuántas raíces reales hay: dos si Δ > 0, una doble si Δ = 0 y ninguna si Δ < 0.",
+        "Si no factoriza fácilmente, x = (−b ± √Δ)/(2 a). Una raíz doble no son dos puntos de corte: la parábola toca el eje en un único punto."
+      ],
+      "id": "funciones-cuadraticas-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Factorización y vértice en el mismo modelo",
+      "body": [
+        "Para f(x) = x² − 6 x + 8, encuentra raíces y vértice."
+      ],
+      "solution": [
+        "Factoriza: x² − 6 x + 8 = (x − 2)(x − 4). Las raíces son 2 y 4.",
+        "El eje pasa por el punto medio: xᵥ = (2 + 4)/2 = 3. También −b/(2 a) = 6/2 = 3.",
+        "f(3) = 9 − 18 + 8 = −1; vértice (3,−1). Como a > 0, la imagen completa es y ≥ −1."
+      ],
+      "id": "funciones-cuadraticas-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "El dominio puede cortar el extremo",
+      "body": [
+        "Para hallar la imagen en un intervalo cerrado, evalúa sus extremos y el vértice solo si está dentro. El mayor y el menor entre esos valores determinan la imagen.",
+        "No uses automáticamente el vértice global si el contexto lo excluye. En una altura modelada por una parábola, los tiempos físicamente válidos suelen limitarse entre el lanzamiento y la llegada al suelo."
+      ],
+      "id": "funciones-cuadraticas-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Raíces por factorización",
+      "body": [],
+      "prompt": "¿Cuáles son las raíces de f(x) = x² − 5 x + 6?",
+      "choices": [
+        {
+          "text": "2 y 3",
+          "explanation": "(x − 2)(x − 3) = 0 produce x = 2 o x = 3."
+        },
+        {
+          "text": "−2 y −3",
+          "explanation": "Esos valores serían raíces de x² + 5 x + 6, con otro signo en el término lineal."
+        },
+        {
+          "text": "1 y 6",
+          "explanation": "Su producto es 6, pero su suma es 7 y no 5."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca dos números cuyo producto sea 6 y cuya suma sea 5.",
+      "solution": [
+        "x² − 5 x + 6 = (x − 2)(x − 3).",
+        "Un producto es cero cuando al menos uno de los factores es cero: raíces 2 y 3."
+      ],
+      "id": "funciones-cuadraticas-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "El vértice desde los coeficientes",
+      "body": [],
+      "prompt": "Para f(x) = 2 x² − 8 x + 3, ¿cuál es el vértice?",
+      "choices": [
+        {
+          "text": "(4, 3)",
+          "explanation": "4 sale de dividir −b solo entre a, olvidando el factor 2."
+        },
+        {
+          "text": "(−2, 27)",
+          "explanation": "−2 no es el eje; el signo en −b es positivo cuando b = −8."
+        },
+        {
+          "text": "(2, −5)",
+          "explanation": "xᵥ = 8/4 = 2; f(2) = 8 − 16 + 3 = −5."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa −b/(2 a), y después sustituye para hallar la salida.",
+      "solution": [
+        "xᵥ = −(−8)/(2 × 2) = 2.",
+        "yᵥ = 2(2²) − 8(2) + 3 = −5."
+      ],
+      "id": "funciones-cuadraticas-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cuando no hay raíces reales",
+      "body": [],
+      "prompt": "¿Cuántas raíces reales tiene f(x) = x² + 2 x + 5?",
+      "choices": [
+        {
+          "text": "Dos",
+          "explanation": "Una parábola no tiene necesariamente dos cortes reales con el eje x."
+        },
+        {
+          "text": "Ninguna",
+          "explanation": "Δ = 2² − 4(1)(5) = −16, que es negativo."
+        },
+        {
+          "text": "Una doble",
+          "explanation": "Una raíz doble requiere Δ = 0, no Δ < 0."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula el discriminante antes de intentar una raíz cuadrada.",
+      "solution": [
+        "Δ = 4 − 20 = −16.",
+        "No hay raíces reales; equivalentemente f(x) = (x + 1)² + 4 siempre es positiva."
+      ],
+      "id": "funciones-cuadraticas-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Imagen con intervalo restringido",
+      "body": [],
+      "prompt": "Para f(x) = (x − 3)² + 2 y dominio 0 ≤ x ≤ 2, ¿cuál es la imagen?",
+      "choices": [
+        {
+          "text": "3 ≤ y ≤ 11",
+          "explanation": "El vértice x = 3 está fuera; f(0) = 11 y f(2) = 3, y la función decrece en ese tramo."
+        },
+        {
+          "text": "y ≥ 2",
+          "explanation": "Esa es la imagen con dominio real completo; aquí el valor 2 no se alcanza."
+        },
+        {
+          "text": "2 ≤ y ≤ 11",
+          "explanation": "Incluye 2 sin que x = 3 esté permitido."
+        }
+      ],
+      "correct": 0,
+      "hint": "Comprueba si el vértice pertenece al dominio y evalúa los extremos.",
+      "solution": [
+        "0 ≤ x ≤ 2 deja x − 3 entre −3 y −1.",
+        "Su cuadrado va de 1 a 9 y, al sumar 2, la imagen va de 3 a 11."
+      ],
+      "id": "funciones-cuadraticas-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Una fórmula debe respetar sus condiciones",
+      "body": [
+        "El discriminante clasifica raíces reales; si es negativo, no escribas √Δ como un número real. Puedes interpretar que la parábola no alcanza y = 0.",
+        "Para una imagen restringida, revisa el dominio antes de elegir un máximo o mínimo. Siempre evalúa los extremos del intervalo cerrado."
+      ],
+      "id": "funciones-cuadraticas-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "La parábola como modelo de una decisión",
+      "body": [
+        "Si un rectángulo tiene perímetro fijo 2 x + 2 y = P, despeja y = P/2 − x. Su área A(x) = x(P/2 − x) es cuadrática y tiene un dominio físico: ambos lados positivos.",
+        "En una altura h(t) = at² + bt + c, el vértice da un extremo matemático; para una altura inicial no negativa y a < 0 puede dar la altura máxima durante el vuelo. Las unidades de cada coeficiente deben hacer que todos los términos sean alturas."
+      ],
+      "id": "funciones-cuadraticas-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "El mayor rectángulo de un perímetro dado",
+      "body": [
+        "Un rectángulo tiene perímetro 32 m. ¿Qué lados producen el área máxima?"
+      ],
+      "solution": [
+        "x + y = 16; y = 16 − x. Entonces A(x) = 16 x − x², con 0 < x < 16.",
+        "El vértice está en x = −16/(2 × −1) = 8.",
+        "y = 8 y A = 64 m². Al completar el cuadrado, A = 64 − (x − 8)², así que ningún otro x puede superar 64."
+      ],
+      "id": "funciones-cuadraticas-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Entre raíces: estudia el signo",
+      "body": [
+        "Si f(x) = a(x − r₁)(x − r₂) con r₁ < r₂, cambia el signo al cruzar cada raíz simple. Para a > 0 es negativa entre raíces y positiva fuera; para a < 0 ocurre al revés.",
+        "Si la pregunta pide f(x) ≥ 0, incluye las raíces. Si exige f(x) > 0, exclúyelas. Después aplica restricciones como tiempos no negativos o cantidades enteras."
+      ],
+      "id": "funciones-cuadraticas-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Altura máxima",
+      "body": [],
+      "prompt": "Una altura en metros se modela por h(t) = −t² + 6 t + 7 para 0 ≤ t ≤ 7 segundos. ¿Cuál es la altura máxima?",
+      "choices": [
+        {
+          "text": "3 m",
+          "explanation": "3 es el tiempo del máximo, medido en segundos; no la altura."
+        },
+        {
+          "text": "16 m",
+          "explanation": "El vértice está en t = 3 y h(3) = −9 + 18 + 7 = 16."
+        },
+        {
+          "text": "7 m",
+          "explanation": "7 m es la altura inicial h(0), no el máximo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca el tiempo del vértice y calcula la altura allí.",
+      "solution": [
+        "tᵥ = −6/(2 × −1) = 3, dentro del dominio.",
+        "h(3) = 16 m; como la abertura es hacia abajo, es el máximo."
+      ],
+      "id": "funciones-cuadraticas-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Área máxima con un perímetro",
+      "body": [],
+      "prompt": "Un rectángulo tiene perímetro 40 cm. ¿Cuál es su mayor área posible?",
+      "choices": [
+        {
+          "text": "100 cm²",
+          "explanation": "Los lados óptimos son 10 y 10; 10 × 10 = 100."
+        },
+        {
+          "text": "400 cm²",
+          "explanation": "Usar lado 20 da perímetro 80; confundiste semiperímetro con lado."
+        },
+        {
+          "text": "80 cm²",
+          "explanation": "80 puede ser un área posible, pero queda debajo del máximo 100."
+        }
+      ],
+      "correct": 0,
+      "hint": "Escribe un lado como 20 menos el otro.",
+      "solution": [
+        "A(x) = x(20 − x) = 100 − (x − 10)².",
+        "El cuadrado mínimo es cero: área máxima 100 cm²."
+      ],
+      "id": "funciones-cuadraticas-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Salidas no negativas",
+      "body": [],
+      "prompt": "¿Para qué valores reales de x se cumple −x² + 5 x − 6 ≥ 0?",
+      "choices": [
+        {
+          "text": "x ≤ 2 o x ≥ 3",
+          "explanation": "Ese sería el signo no negativo de la misma parábola con coeficiente principal positivo."
+        },
+        {
+          "text": "2 < x < 3",
+          "explanation": "Ese intervalo excluye raíces que sí cumplen la igualdad permitida por ≥."
+        },
+        {
+          "text": "2 ≤ x ≤ 3",
+          "explanation": "La expresión es −(x − 2)(x − 3); es no negativa entre las raíces, incluyéndolas."
+        }
+      ],
+      "correct": 2,
+      "hint": "Factoriza y observa que la parábola abre hacia abajo.",
+      "solution": [
+        "−x² + 5 x − 6 = −(x − 2)(x − 3).",
+        "Entre 2 y 3 el producto sin el menos es no positivo; con el menos es no negativo. Incluye extremos."
+      ],
+      "id": "funciones-cuadraticas-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una dimensión con restricción física",
+      "body": [],
+      "prompt": "Un rectángulo tiene área A(x) = x(12 − x) m², con lados positivos. ¿Qué valores de x permiten área de al menos 32 m²?",
+      "choices": [
+        {
+          "text": "Solo x = 6",
+          "explanation": "6 maximiza el área, pero muchos valores cercanos también alcanzan 32."
+        },
+        {
+          "text": "4 ≤ x ≤ 8",
+          "explanation": "x(12 − x) ≥ 32 equivale a (x − 4)(x − 8) ≤ 0."
+        },
+        {
+          "text": "x ≤ 4 o x ≥ 8",
+          "explanation": "Fuera de las raíces el área es menor que 32; además parte de esos valores ni da lados positivos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Pasa todo a un lado, factoriza y revisa la desigualdad.",
+      "solution": [
+        "−x² + 12 x − 32 ≥ 0 equivale a x² − 12 x + 32 ≤ 0.",
+        "(x − 4)(x − 8) ≤ 0 da 4 ≤ x ≤ 8; ambos lados siguen siendo positivos."
+      ],
+      "id": "funciones-cuadraticas-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "El máximo no es siempre lo que se pregunta",
+      "body": [
+        "Una pregunta por altura máxima pide una salida; una pregunta por cuándo se alcanza pide una entrada. Anota las unidades para evitar intercambiarlas.",
+        "No todas las áreas superiores a un umbral corresponden a un solo rectángulo. Una desigualdad puede dar un intervalo de dimensiones, y la igualdad decide si los extremos se incluyen."
+      ],
+      "id": "funciones-cuadraticas-24",
+      "level": 3
+    }
+  ]
+}

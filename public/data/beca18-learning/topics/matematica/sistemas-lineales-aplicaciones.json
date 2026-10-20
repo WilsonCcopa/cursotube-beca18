@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/sistemas-lineales-aplicaciones",
+  "course": "matematica",
+  "slug": "sistemas-lineales-aplicaciones",
+  "title": "Sistemas lineales: tres variables y aplicaciones",
+  "description": "Modela tres cantidades, reduce ecuaciones y distingue una solución única de una contradicción.",
+  "version": 1,
+  "order": 16,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Traducir condiciones a sistemas con tres incógnitas.",
+    "Resolver por sustitución y reducción comprobando todas las ecuaciones.",
+    "Distinguir sistemas determinados, indeterminados e incompatibles."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Tres incógnitas, una solución compartida",
+      "body": [
+        "Un sistema con x, y y z reúne condiciones que deben cumplirse al mismo tiempo. Su solución es una terna ordenada (x, y, z); cada posición corresponde siempre a la misma cantidad.",
+        "Una ecuación como x + y + z = 12 admite muchas ternas. Tres condiciones independientes pueden determinar una sola. Tener tres ecuaciones escritas no garantiza independencia: alguna puede repetir a las otras."
+      ],
+      "id": "sistemas-lineales-aplicaciones-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Resolver cuando las cantidades se relacionan",
+      "body": [
+        "Tres cajas contienen 12 fichas. La segunda tiene una más que la primera y la tercera tiene dos más que la primera. ¿Cuántas hay en cada caja?"
+      ],
+      "solution": [
+        "Define x, y, z en el orden de las cajas: x + y + z = 12, y = x + 1, z = x + 2.",
+        "Sustituye: x + (x + 1) + (x + 2) = 12. Entonces 3 x = 9 y x = 3.",
+        "Obtén y = 4 y z = 5. Verifica 3 + 4 + 5 = 12 y ambas diferencias."
+      ],
+      "id": "sistemas-lineales-aplicaciones-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Del enunciado a las ecuaciones",
+      "body": [
+        "Abre cada relación del mapa. Antes de operar, escribe qué representa cada variable y su unidad. Una suma de cantidades y una suma de costos son condiciones distintas."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Cantidad total",
+            "text": "Si x, y, z cuentan objetos de tres tipos y hay 15 objetos, escribe x + y + z = 15."
+          },
+          {
+            "label": "Costo total",
+            "text": "Si cada tipo cuesta 2, 3 y 5 soles, un costo total de 47 soles se escribe 2 x + 3 y + 5 z = 47."
+          },
+          {
+            "label": "Relación adicional",
+            "text": "Si hay dos objetos más del primer tipo que del segundo, escribe x = y + 2; no x = 2 y."
+          }
+        ]
+      },
+      "id": "sistemas-lineales-aplicaciones-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Verifica una terna",
+      "body": [],
+      "prompt": "¿Qué terna satisface x + y + z = 9, x − y = 1 y z = 2?",
+      "choices": [
+        {
+          "text": "(3, 4, 2)",
+          "explanation": "La suma es 9, pero 3 − 4 = −1; falla la segunda condición."
+        },
+        {
+          "text": "(4, 2, 3)",
+          "explanation": "La suma es 9, pero z debe ser 2 y x − y debe ser 1."
+        },
+        {
+          "text": "(4, 3, 2)",
+          "explanation": "4 + 3 + 2 = 9, 4 − 3 = 1 y la tercera coordenada es 2."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa z = 2 y comprueba la diferencia en el orden indicado.",
+      "solution": [
+        "Con z = 2 queda x + y = 7.",
+        "Al combinar x + y = 7 y x − y = 1 resulta 2 x = 8: x = 4, y = 3."
+      ],
+      "id": "sistemas-lineales-aplicaciones-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una suma de parejas",
+      "body": [],
+      "prompt": "Si x + y = 9, y + z = 7 y x + z = 8, ¿cuánto vale x + y + z?",
+      "choices": [
+        {
+          "text": "9",
+          "explanation": "9 solo representa x + y, sin incluir z."
+        },
+        {
+          "text": "12",
+          "explanation": "Sumar las tres ecuaciones cuenta dos veces cada variable: el total buscado es 24/2."
+        },
+        {
+          "text": "24",
+          "explanation": "24 es la suma de los miembros derechos; cada variable está contada dos veces."
+        }
+      ],
+      "correct": 1,
+      "hint": "Observa cuántas veces aparece cada variable al sumar.",
+      "solution": [
+        "2 x + 2 y + 2 z = 9 + 7 + 8 = 24.",
+        "Divide entre 2: x + y + z = 12."
+      ],
+      "id": "sistemas-lineales-aplicaciones-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Despeja primero lo conocido",
+      "body": [],
+      "prompt": "En x + y + z = 20, y = 2 x y z = 5, ¿cuál es x?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "x + 2 x + 5 = 20 da 3 x = 15 y x = 5."
+        },
+        {
+          "text": "15",
+          "explanation": "15 es x + y; todavía debes dividir entre 3 para hallar x."
+        },
+        {
+          "text": "10",
+          "explanation": "10 es el valor de y, que es el doble de x."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sustituye y y z en la ecuación del total.",
+      "solution": [
+        "x + 2 x + 5 = 20.",
+        "3 x = 15; x = 5. Comprueba: 5 + 10 + 5 = 20."
+      ],
+      "id": "sistemas-lineales-aplicaciones-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El orden de las coordenadas importa",
+      "body": [],
+      "prompt": "Una solución es (x, y, z) = (2, 5, 3). ¿Cuánto vale 3 x + y − z?",
+      "choices": [
+        {
+          "text": "14",
+          "explanation": "14 se obtiene al cambiar el signo de −z por +z."
+        },
+        {
+          "text": "9",
+          "explanation": "9 coincide con sumar x + y + z y restar uno; no respeta la expresión."
+        },
+        {
+          "text": "8",
+          "explanation": "3(2) + 5 − 3 = 6 + 5 − 3 = 8."
+        }
+      ],
+      "correct": 2,
+      "hint": "Sustituye cada variable por su coordenada antes de operar.",
+      "solution": [
+        "3 x + y − z = 3(2) + 5 − 3.",
+        "Primero multiplica: 6 + 5 − 3 = 8."
+      ],
+      "id": "sistemas-lineales-aplicaciones-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No basta con acertar el total",
+      "body": [
+        "Una terna que satisface una ecuación puede fallar en las otras. Reemplázala en todas antes de declararla solución.",
+        "Diferencia y proporción son relaciones distintas: y = x + 2 añade dos; y = 2 x duplica. Escribe las variables con nombre para evitar intercambiarlas."
+      ],
+      "id": "sistemas-lineales-aplicaciones-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Reducir tres variables a dos",
+      "body": [
+        "La reducción elimina una variable al sumar o restar ecuaciones. Si restas ecuaciones, resta todos los términos del segundo miembro y de cada miembro izquierdo.",
+        "Al obtener dos ecuaciones con dos variables, resuélvelas y recupera la tercera en una ecuación original. No elimines condiciones que todavía no has utilizado."
+      ],
+      "id": "sistemas-lineales-aplicaciones-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Eliminación con una ecuación de referencia",
+      "body": [
+        "Resuelve x + y + z = 10, 2 x + y + z = 13 y x + 2 y + 3 z = 23."
+      ],
+      "solution": [
+        "Resta la primera ecuación de la segunda: x = 3.",
+        "Sustituye en la primera: y + z = 7. En la tercera: 2 y + 3 z = 20.",
+        "Resta dos veces y + z = 7 de 2 y + 3 z = 20: z = 6. Luego y = 1.",
+        "Comprueba (3, 1, 6): suma 10; segundo total 13; tercer total 3 + 2 + 18 = 23."
+      ],
+      "id": "sistemas-lineales-aplicaciones-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Operaciones que conservan soluciones",
+      "body": [
+        "Puedes intercambiar ecuaciones, multiplicar una ecuación por un número distinto de cero o sumar a una ecuación un múltiplo de otra. Cada operación debe poder deshacerse.",
+        "Multiplicar por cero borra información. Sumar ecuaciones para obtener una nueva y descartar las anteriores también puede perder restricciones; conserva un sistema equivalente."
+      ],
+      "id": "sistemas-lineales-aplicaciones-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Resta ecuaciones completas",
+      "body": [],
+      "prompt": "Se tiene x + y + z = 14 y 3 x + y + z = 22. ¿Qué valor de x queda obligado?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "La resta elimina y y z: 2 x = 8 y x = 4."
+        },
+        {
+          "text": "8",
+          "explanation": "8 es 2 x, no x."
+        },
+        {
+          "text": "18",
+          "explanation": "Sumar los totales y dividir entre 2 no elimina y ni z."
+        }
+      ],
+      "correct": 0,
+      "hint": "Resta la primera ecuación de la segunda.",
+      "solution": [
+        "(3 x + y + z) − (x + y + z) = 22 − 14.",
+        "2 x = 8; divide entre 2 para obtener x = 4."
+      ],
+      "id": "sistemas-lineales-aplicaciones-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Recupera la tercera variable",
+      "body": [],
+      "prompt": "Un sistema se redujo a y + z = 11 y 2 y + 3 z = 28. ¿Cuál es z?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "5 es y; no es la incógnita solicitada."
+        },
+        {
+          "text": "17",
+          "explanation": "17 sale de restar solo los totales sin igualar los coeficientes de y."
+        },
+        {
+          "text": "6",
+          "explanation": "Al restar 2 y + 2 z = 22 de la segunda ecuación resulta z = 6."
+        }
+      ],
+      "correct": 2,
+      "hint": "Multiplica la primera ecuación por 2.",
+      "solution": [
+        "2 y + 2 z = 22; resta esta ecuación de 2 y + 3 z = 28.",
+        "z = 6. Después y = 11 − 6 = 5."
+      ],
+      "id": "sistemas-lineales-aplicaciones-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Entradas de tres categorías",
+      "body": [],
+      "prompt": "Se venden 14 entradas: adultas x a S/ 10, juveniles y a S/ 6 e infantiles z a S/ 2. Se recauda S/ 84 y hay tantas adultas como infantiles. ¿Cuántas son juveniles?",
+      "choices": [
+        {
+          "text": "14",
+          "explanation": "14 es una posibilidad con x = z = 0, pero las condiciones no la hacen única."
+        },
+        {
+          "text": "No queda determinada una cantidad única",
+          "explanation": "Con x = z y 2 x + y = 14, la recaudación se vuelve 12 x + 6 y = 84, que es la misma condición multiplicada por 6."
+        },
+        {
+          "text": "7",
+          "explanation": "7 no está obligado: por ejemplo, x = z = 3 e y = 8 también cumplen."
+        }
+      ],
+      "correct": 1,
+      "hint": "Sustituye z = x y compara las dos ecuaciones que quedan.",
+      "solution": [
+        "Cantidad: 2 x + y = 14. Costo: 12 x + 6 y = 84.",
+        "La segunda es seis veces la primera; por ejemplo (3,8,3) y (4,6,4) son soluciones distintas."
+      ],
+      "id": "sistemas-lineales-aplicaciones-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Modela una compra con tres datos",
+      "body": [],
+      "prompt": "Una tienda prepara 10 paquetes: pequeños x de S/ 3, medianos y de S/ 5 y grandes z de S/ 8. El total es S/ 55 y hay un grande más que pequeños. ¿Cuántos medianos hay?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "Sustituir z = x + 1 da y = 9 − 2 x y luego x = 2; por eso y = 5."
+        },
+        {
+          "text": "2",
+          "explanation": "2 es el número de paquetes pequeños."
+        },
+        {
+          "text": "3",
+          "explanation": "3 es el número de paquetes grandes."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa z = x + 1 en el total de paquetes y en el costo.",
+      "solution": [
+        "x + y + (x + 1) = 10: y = 9 − 2 x.",
+        "3 x + 5(9 − 2 x) + 8(x + 1) = 55 da x + 53 = 55, así que x = 2.",
+        "y = 5 y z = 3; 6 + 25 + 24 = 55 soles."
+      ],
+      "id": "sistemas-lineales-aplicaciones-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Cuando una condición repite otra",
+      "body": [
+        "Dos ecuaciones proporcionales aportan la misma información. Un contexto de conteo además exige números enteros no negativos.",
+        "Una solución algebraica negativa puede indicar que los datos del problema son incompatibles con el contexto. No conviertas un resultado negativo en positivo sin justificación."
+      ],
+      "id": "sistemas-lineales-aplicaciones-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Única, infinitas o ninguna",
+      "body": [
+        "Un sistema compatible determinado tiene una única solución. Uno compatible indeterminado tiene infinitas soluciones reales. Uno incompatible no tiene ninguna.",
+        "Al reducir, 0 = 0 es una identidad que no restringe más. Una igualdad como 0 = 5 es una contradicción y descarta todo el sistema. Tener una identidad no demuestra por sí sola infinitas soluciones: revisa las ecuaciones restantes.",
+        "Para dos incógnitas, el determinante ad − bc ayuda: si es distinto de cero, las rectas ax + by = e y cx + dy = f se cruzan en un único punto. Si es cero, hay que distinguir coincidencia de paralelismo."
+      ],
+      "id": "sistemas-lineales-aplicaciones-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un parámetro que cambia el sistema",
+      "body": [
+        "Considera x + y + z = 6, 2 x + 2 y + 2 z = k y x − y = 0. ¿Qué ocurre según k?"
+      ],
+      "solution": [
+        "La segunda ecuación exige 2(x + y + z) = k. Como la primera suma es 6, debe cumplirse k = 12.",
+        "Si k ≠ 12, las dos primeras condiciones se contradicen y no existe solución.",
+        "Si k = 12, queda x = y y z = 6 − 2 x: hay infinitas soluciones reales, por ejemplo (1,1,4) y (2,2,2)."
+      ],
+      "id": "sistemas-lineales-aplicaciones-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Comprueba también el significado",
+      "body": [
+        "En problemas de cantidades discretas, una familia de soluciones reales se filtra por enteros no negativos. Una condición como x ≥ 1 puede acotar aún más la familia.",
+        "En mezclas, define cantidades y conserva simultáneamente la cantidad total y el componente puro. Para contar personas o productos, verifica que no aparezcan fracciones de unidades indivisibles."
+      ],
+      "id": "sistemas-lineales-aplicaciones-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Detecta la contradicción",
+      "body": [],
+      "prompt": "¿Cuántas soluciones reales tiene x + y + z = 8, 2 x + 2 y + 2 z = 19 y x − y = 2?",
+      "choices": [
+        {
+          "text": "Infinitas",
+          "explanation": "Las ecuaciones proporcionales tienen totales incompatibles, no son una identidad."
+        },
+        {
+          "text": "Ninguna",
+          "explanation": "La segunda debería tener total 16 si fuera compatible con la primera; 19 contradice ese doble."
+        },
+        {
+          "text": "Una",
+          "explanation": "La tercera condición no puede arreglar una contradicción entre las primeras dos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Duplica la primera ecuación y compara con la segunda.",
+      "solution": [
+        "De la primera se sigue 2 x + 2 y + 2 z = 16.",
+        "Pedir simultáneamente 16 y 19 para la misma expresión produce 0 = 3."
+      ],
+      "id": "sistemas-lineales-aplicaciones-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un sistema dependiente",
+      "body": [],
+      "prompt": "Para x + y + z = 10, 2 x + 2 y + 2 z = 20 y y = 2 x, ¿qué expresión describe todas las soluciones reales?",
+      "choices": [
+        {
+          "text": "(x, y, z) = (t, 2 t, 10 − 3 t)",
+          "explanation": "Sustituir cualquier t real cumple la suma y la relación y = 2 x; la segunda ecuación repite la primera."
+        },
+        {
+          "text": "(t, t, 10 − 2 t)",
+          "explanation": "La suma cumple, pero y = 2 x solo se cumple cuando t = 0."
+        },
+        {
+          "text": "(t, 2 t, 10 − t)",
+          "explanation": "La suma sería 10 + 2 t; solo funciona para t = 0."
+        }
+      ],
+      "correct": 0,
+      "hint": "Deja x libre y expresa las otras dos variables con él.",
+      "solution": [
+        "Toma x = t; entonces y = 2 t.",
+        "De x + y + z = 10 resulta z = 10 − 3 t."
+      ],
+      "id": "sistemas-lineales-aplicaciones-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Tres mezclas, una combinación",
+      "body": [],
+      "prompt": "Se mezclan 10 litros: x litros al 10%, y al 30% y z al 50%. El resultado contiene 3 litros de sustancia pura y se usa la misma cantidad de las mezclas al 10% y al 30%. ¿Cuántos litros son de la mezcla al 50%?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "3 es la cantidad de sustancia pura, no el volumen de la mezcla al 50%."
+        },
+        {
+          "text": "5",
+          "explanation": "5 litros al 50% ya aportan 2,5 litros puros; las otras condiciones no se cumplen con el volumen restante."
+        },
+        {
+          "text": "10/3",
+          "explanation": "Con x = y y z = 10 − 2 x, el balance puro da x = 10/3 y z = 10/3."
+        }
+      ],
+      "correct": 2,
+      "hint": "Escribe 0,1 x + 0,3 y + 0,5 z = 3 y x = y.",
+      "solution": [
+        "0,4 x + 0,5(10 − 2 x) = 3: −0,6 x = −2.",
+        "x = y = 10/3 y z = 10 − 20/3 = 10/3. Verifica el total puro: 1/3 + 1 + 5/3 = 3."
+      ],
+      "id": "sistemas-lineales-aplicaciones-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una familia filtrada por el contexto",
+      "body": [],
+      "prompt": "Tres tipos de cuadernos tienen cantidades enteras no negativas que cumplen x = y y x + y + z = 7. ¿Cuántas ternas distintas son posibles?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "También se permite x = y = 0; excluirlo eliminaría una solución válida."
+        },
+        {
+          "text": "4",
+          "explanation": "x puede ser 0, 1, 2 o 3; z = 7 − 2 x sigue siendo no negativo."
+        },
+        {
+          "text": "Infinitas",
+          "explanation": "Sobre los reales hay infinitas, pero aquí las cantidades deben ser enteras no negativas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa z = 7 − 2 x y exige z ≥ 0.",
+      "solution": [
+        "2 x ≤ 7 obliga x ∈ {0,1,2,3}.",
+        "Las ternas son (0,0,7), (1,1,5), (2,2,3) y (3,3,1)."
+      ],
+      "id": "sistemas-lineales-aplicaciones-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Revisa el sistema, no solo la cuenta",
+      "body": [
+        "No confundas 0 = 0 con x = 0: la identidad desaparece sin fijar la incógnita. Una contradicción vuelve incompatible al sistema entero.",
+        "Antes de terminar, comprueba tres cosas: ecuaciones originales, unidades y restricciones del contexto. En una mezcla los litros pueden ser fraccionarios; en un conteo de cuadernos no."
+      ],
+      "id": "sistemas-lineales-aplicaciones-24",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/funciones-trigonometricas",
+  "course": "matematica",
+  "slug": "funciones-trigonometricas",
+  "title": "Funciones trigonométricas: seno y coseno",
+  "description": "Conecta ángulos, ondas y triángulos; interpreta amplitud, periodo y leyes de senos y cosenos.",
+  "version": 1,
+  "order": 23,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Convertir grados y radianes y evaluar seno y coseno en ángulos conocidos.",
+    "Interpretar amplitud, periodo y desplazamiento de una función periódica.",
+    "Aplicar leyes de senos y cosenos con lados y ángulos correspondientes."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Dos unidades para medir un giro",
+      "body": [
+        "Una vuelta completa equivale a 360° o 2π radianes. Por eso 180° = π rad; para pasar grados a radianes multiplica por π/180 y para volver multiplica por 180/π.",
+        "En un círculo de radio r, un punto del lado final del ángulo tiene coordenadas (x,y): cos θ = x/r y sen θ = y/r. En el círculo unitario r = 1 son directamente las coordenadas horizontal y vertical.",
+        "En un triángulo rectángulo, para un ángulo agudo, sen = opuesto/hipotenusa y cos = adyacente/hipotenusa. Fuera del primer cuadrante, las coordenadas pueden ser negativas; las longitudes de lados no explican por sí solas esos signos."
+      ],
+      "id": "funciones-trigonometricas-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Del giro a las coordenadas",
+      "body": [
+        "Evalúa seno y coseno de 90° y 180° en el círculo unitario."
+      ],
+      "solution": [
+        "90° = π/2 rad termina en (0,1). Entonces cos(π/2) = 0 y sen(π/2) = 1.",
+        "180° = π rad termina en (−1,0). Entonces cos π = −1 y sen π = 0.",
+        "Seno y coseno nunca salen del intervalo [−1,1] para un ángulo real."
+      ],
+      "id": "funciones-trigonometricas-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Una vuelta, cuatro puntos de referencia",
+      "body": [
+        "Abre los puntos para reconocer el orden (cos θ, sen θ). Para un ángulo agudo de 30°, sen = 1/2 y cos = √3/2; para 45°, ambos son √2/2; para 60°, se intercambian los de 30°."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "0 rad",
+            "text": "El punto es (1,0): cos 0 = 1 y sen 0 = 0."
+          },
+          {
+            "label": "π/2 rad",
+            "text": "El punto es (0,1): cos(π/2) = 0 y sen(π/2) = 1."
+          },
+          {
+            "label": "π rad",
+            "text": "El punto es (−1,0): cos π = −1 y sen π = 0."
+          },
+          {
+            "label": "3π/2 rad",
+            "text": "El punto es (0,−1): cos(3π/2) = 0 y sen(3π/2) = −1."
+          }
+        ]
+      },
+      "id": "funciones-trigonometricas-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Grados a radianes",
+      "body": [],
+      "prompt": "¿Cuántos radianes son 150°?",
+      "choices": [
+        {
+          "text": "5π/3",
+          "explanation": "5π/3 equivale a 300°, el doble del ángulo dado."
+        },
+        {
+          "text": "5π/6",
+          "explanation": "150 × π/180 = 5π/6."
+        },
+        {
+          "text": "6π/5",
+          "explanation": "Se invirtió la razón de conversión; 150° es menor que π rad."
+        }
+      ],
+      "correct": 1,
+      "hint": "Multiplica 150 por π/180 y simplifica.",
+      "solution": [
+        "150π/180 = 15π/18.",
+        "Divide entre 3: 5π/6 rad."
+      ],
+      "id": "funciones-trigonometricas-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Radianes a grados",
+      "body": [],
+      "prompt": "¿Cuántos grados corresponden a 3π/4 radianes?",
+      "choices": [
+        {
+          "text": "135°",
+          "explanation": "(3π/4)(180/π) = 135°."
+        },
+        {
+          "text": "120°",
+          "explanation": "120° corresponde a 2π/3, no a 3π/4."
+        },
+        {
+          "text": "270°",
+          "explanation": "270° corresponde a 3π/2, el doble del ángulo dado."
+        }
+      ],
+      "correct": 0,
+      "hint": "Cancela π al multiplicar por 180/π.",
+      "solution": [
+        "3π/4 × 180/π = 3 × 45.",
+        "El ángulo es 135°."
+      ],
+      "id": "funciones-trigonometricas-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una evaluación en radianes",
+      "body": [],
+      "prompt": "¿Cuánto vale sen(π/6) + cos(π/3)?",
+      "choices": [
+        {
+          "text": "√3",
+          "explanation": "√3 sumaría cos 30° y sen 60°, que no son las funciones pedidas."
+        },
+        {
+          "text": "1/2",
+          "explanation": "1/2 es cada término por separado; falta sumarlos."
+        },
+        {
+          "text": "1",
+          "explanation": "π/6 = 30° y π/3 = 60°; ambos valores son 1/2."
+        }
+      ],
+      "correct": 2,
+      "hint": "Convierte los ángulos a 30° y 60° y usa sus razones conocidas.",
+      "solution": [
+        "sen(π/6) = 1/2; cos(π/3) = 1/2.",
+        "La suma es 1."
+      ],
+      "id": "funciones-trigonometricas-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El signo en el círculo",
+      "body": [],
+      "prompt": "Un punto en el círculo unitario a 180° tiene coordenadas (−1,0). ¿Cuál es cos 180°?",
+      "choices": [
+        {
+          "text": "1",
+          "explanation": "El valor absoluto es uno, pero el punto está a la izquierda del origen."
+        },
+        {
+          "text": "−1",
+          "explanation": "El coseno es la coordenada horizontal en el círculo unitario."
+        },
+        {
+          "text": "0",
+          "explanation": "0 es la coordenada vertical, que representa el seno."
+        }
+      ],
+      "correct": 1,
+      "hint": "Recuerda el orden del punto: (cos θ, sen θ).",
+      "solution": [
+        "x = −1 y r = 1.",
+        "cos 180° = x/r = −1."
+      ],
+      "id": "funciones-trigonometricas-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No mezcles unidades angulares",
+      "body": [
+        "π no significa 180 sin unidad: π rad equivale a 180°. Si una gráfica usa radianes, una entrada x = 1 significa un radián, no un grado.",
+        "Seno corresponde a la coordenada vertical y coseno a la horizontal. Los signos dependen del cuadrante; no tomes valor absoluto salvo que el problema lo pida."
+      ],
+      "id": "funciones-trigonometricas-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Amplitud y periodo describen una onda",
+      "body": [
+        "En f(x) = A sen(Bx) + C, con A y B distintos de cero y x en radianes, la amplitud es |A|, el periodo T = 2π/|B| y la línea media es y = C. El rango es [C − |A|, C + |A|].",
+        "Para A cos(Bx) + C valen las mismas fórmulas de amplitud, periodo y rango. El coseno empieza en A + C cuando x = 0; el seno empieza en C.",
+        "Un A negativo refleja la onda respecto de su línea media. Un |B| mayor produce más oscilaciones en el mismo intervalo, por lo que su periodo es menor."
+      ],
+      "id": "funciones-trigonometricas-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Lee tres características de una función",
+      "body": [
+        "Describe f(x) = −3 cos(2 x) + 5 con x en radianes."
+      ],
+      "solution": [
+        "Amplitud = |−3| = 3; línea media y = 5. El rango es [5 − 3, 5 + 3] = [2,8].",
+        "Periodo = 2π/2 = π rad.",
+        "f(0) = −3(1) + 5 = 2: empieza en su mínimo, por el signo negativo del coeficiente."
+      ],
+      "id": "funciones-trigonometricas-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Modifica una onda en radianes",
+      "body": [
+        "Este explorador usa y = a sen(bx) + c, con x en radianes. Prueba a = 2 y b = 2: la amplitud se duplica y el periodo se reduce de 2π a π. Si a o b se hacen cero, la función queda constante y ya no tiene un periodo fundamental positivo como senoide."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "sine",
+        "a": 2,
+        "b": 1,
+        "c": 1,
+        "min": -6.283185307179586,
+        "max": 6.283185307179586
+      },
+      "id": "funciones-trigonometricas-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Amplitud con coeficiente negativo",
+      "body": [],
+      "prompt": "¿Cuál es la amplitud de f(x) = −4 sen(3 x) + 2?",
+      "choices": [
+        {
+          "text": "−4",
+          "explanation": "Una amplitud es una distancia no negativa; el signo indica reflexión."
+        },
+        {
+          "text": "3",
+          "explanation": "3 es el factor angular B, que determina el periodo."
+        },
+        {
+          "text": "4",
+          "explanation": "La amplitud es el valor absoluto del coeficiente exterior: |−4|."
+        }
+      ],
+      "correct": 2,
+      "hint": "La amplitud mide la distancia desde la línea media hasta un extremo.",
+      "solution": [
+        "A = −4.",
+        "Amplitud = |A| = 4."
+      ],
+      "id": "funciones-trigonometricas-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Periodo de una senoide",
+      "body": [],
+      "prompt": "Con x en radianes, ¿cuál es el periodo de f(x) = 2 sen(4 x)?",
+      "choices": [
+        {
+          "text": "π",
+          "explanation": "π correspondería a B = 2; aquí el factor angular es 4."
+        },
+        {
+          "text": "π/2",
+          "explanation": "T = 2π/|4| = π/2."
+        },
+        {
+          "text": "8π",
+          "explanation": "Multiplicar 2π por 4 invierte el efecto: más oscilaciones implican menor periodo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide 2π entre el valor absoluto del factor de x.",
+      "solution": [
+        "B = 4.",
+        "T = 2π/4 = π/2 rad."
+      ],
+      "id": "funciones-trigonometricas-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Rango con línea media",
+      "body": [],
+      "prompt": "¿Cuál es el rango de f(x) = 3 sen x − 2 para todo x real?",
+      "choices": [
+        {
+          "text": "−5 ≤ y ≤ 1",
+          "explanation": "El seno varía entre −1 y 1; multiplicar por 3 y restar 2 da de −5 a 1."
+        },
+        {
+          "text": "−3 ≤ y ≤ 3",
+          "explanation": "Ese sería el rango sin el desplazamiento vertical −2."
+        },
+        {
+          "text": "−2 ≤ y ≤ 3",
+          "explanation": "−2 es la línea media, no el extremo inferior."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa C − |A| y C + |A|.",
+      "solution": [
+        "C = −2 y |A| = 3.",
+        "Mínimo = −5; máximo = 1."
+      ],
+      "id": "funciones-trigonometricas-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Repetición de un ciclo",
+      "body": [],
+      "prompt": "Una señal cumple h(t) = 2 cos(πt) + 5 con t en segundos. Si alcanza un máximo en t = 0, ¿cuándo ocurre el siguiente máximo?",
+      "choices": [
+        {
+          "text": "Al 1 s",
+          "explanation": "En t = 1, cos π = −1 y la señal está en su mínimo."
+        },
+        {
+          "text": "A los π s",
+          "explanation": "π es el factor angular, no el periodo en segundos."
+        },
+        {
+          "text": "A los 2 s",
+          "explanation": "El periodo es 2π/π = 2 s; el máximo se repite un periodo después."
+        }
+      ],
+      "correct": 2,
+      "hint": "La entrada del coseno está en radianes; usa B = π.",
+      "solution": [
+        "T = 2π/|π| = 2 segundos.",
+        "El siguiente máximo después de t = 0 es t = 2 s."
+      ],
+      "id": "funciones-trigonometricas-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Una distancia no lleva signo negativo",
+      "body": [
+        "En A sen(Bx) + C, A puede ser negativo pero la amplitud es |A|. El periodo también es positivo y usa |B|.",
+        "La línea media C no es la amplitud. Calcula ambos extremos y comprueba que están a la misma distancia de C."
+      ],
+      "id": "funciones-trigonometricas-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Triángulos que no son rectángulos",
+      "body": [
+        "La ley de senos relaciona un lado con su ángulo opuesto: a/sen A = b/sen B = c/sen C. Debes emparejar correctamente cada lado y ángulo.",
+        "La ley de cosenos calcula un lado cuando conoces dos y su ángulo incluido: c² = a² + b² − 2 ab cos C. También permite recuperar un ángulo con cos C = (a² + b² − c²)/(2 ab).",
+        "La ley de senos con dos lados y un ángulo no incluido puede admitir dos triángulos. No supongas una solución única sin revisar la suma de ángulos y las condiciones. La ley de cosenos con dos lados y el ángulo incluido sí determina el tercer lado."
+      ],
+      "id": "funciones-trigonometricas-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un lado frente al ángulo incluido",
+      "body": [
+        "Dos lados de un triángulo miden 6 y 8 cm y el ángulo entre ellos es 60°. Halla el tercer lado c."
+      ],
+      "solution": [
+        "Como conocemos dos lados y el ángulo incluido, usa c² = 6² + 8² − 2(6)(8)cos 60°.",
+        "cos 60° = 1/2, por lo que c² = 36 + 64 − 48 = 52.",
+        "c = √52 = 2√13 cm. Toma la raíz positiva porque es una longitud. Cumple 8 − 6 < c < 8 + 6."
+      ],
+      "id": "funciones-trigonometricas-18",
+      "level": 3
+    },
+    {
+      "type": "explore",
+      "title": "El ángulo debe estar frente a su lado",
+      "body": [
+        "En el mapa, a siempre está frente a A; b frente a B; c frente a C. Dibuja un esquema o escribe esta correspondencia antes de elegir fórmula."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Ley de senos",
+            "text": "Si A = 30°, B = 90° y a = 5, entonces b = 5 sen 90°/sen 30° = 10."
+          },
+          {
+            "label": "Ley de cosenos",
+            "text": "Si a = b y C = 60°, entonces c² = 2 a² − a² = a²: el triángulo resulta equilátero."
+          },
+          {
+            "label": "Control final",
+            "text": "Los ángulos interiores suman 180° y un lado debe ser menor que la suma de los otros dos. Usa estos controles para detectar emparejamientos incorrectos."
+          }
+        ]
+      },
+      "id": "funciones-trigonometricas-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Ley de senos con correspondencia",
+      "body": [],
+      "prompt": "En un triángulo, A = 30°, B = 90° y el lado a opuesto a A mide 6 cm. ¿Cuánto mide b?",
+      "choices": [
+        {
+          "text": "12 cm",
+          "explanation": "b/1 = 6/(1/2), de modo que b = 12."
+        },
+        {
+          "text": "3 cm",
+          "explanation": "3 invierte la razón de senos; el lado opuesto a 90° debe ser mayor."
+        },
+        {
+          "text": "6 cm",
+          "explanation": "Ángulos de 30° y 90° no pueden tener lados opuestos iguales."
+        }
+      ],
+      "correct": 0,
+      "hint": "Escribe a/sen A = b/sen B.",
+      "solution": [
+        "6/(1/2) = b/1.",
+        "b = 12 cm; es la hipotenusa y supera al lado de 6."
+      ],
+      "id": "funciones-trigonometricas-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Ley de cosenos para un lado",
+      "body": [],
+      "prompt": "Dos lados miden 5 cm y 7 cm, con ángulo incluido de 60°. ¿Cuánto mide el tercer lado?",
+      "choices": [
+        {
+          "text": "√74 cm",
+          "explanation": "√74 aplica Pitágoras, que solo correspondería a un ángulo de 90°."
+        },
+        {
+          "text": "12 cm",
+          "explanation": "12 es la suma de los lados, que no forma un triángulo con ángulo incluido de 60°."
+        },
+        {
+          "text": "√39 cm",
+          "explanation": "c² = 25 + 49 − 2(5)(7)(1/2) = 39."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resta el término 2 ab cos C antes de tomar la raíz.",
+      "solution": [
+        "c² = 25 + 49 − 35 = 39.",
+        "c = √39 cm, positivo."
+      ],
+      "id": "funciones-trigonometricas-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Recupera el ángulo incluido",
+      "body": [],
+      "prompt": "Dos lados miden 3 cm y 4 cm; el lado opuesto al ángulo que forman mide √13 cm. ¿Cuál es ese ángulo?",
+      "choices": [
+        {
+          "text": "30°",
+          "explanation": "cos 30° = √3/2, distinto de 1/2."
+        },
+        {
+          "text": "60°",
+          "explanation": "cos C = (9 + 16 − 13)/(2 × 3 × 4) = 1/2; el ángulo interior es 60°."
+        },
+        {
+          "text": "90°",
+          "explanation": "Con 90° el lado opuesto mediría 5 cm, no √13."
+        }
+      ],
+      "correct": 1,
+      "hint": "Despeja cos C en la ley de cosenos.",
+      "solution": [
+        "cos C = (3² + 4² − (√13)²)/(2 × 3 × 4) = 12/24 = 1/2.",
+        "El ángulo interior con coseno 1/2 es 60°."
+      ],
+      "id": "funciones-trigonometricas-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cuenta ciclos en un intervalo",
+      "body": [],
+      "prompt": "Una onda es f(t) = 5 sen(2πt) con t en segundos. ¿Cuántos ciclos completos transcurren de t = 0 a t = 4?",
+      "choices": [
+        {
+          "text": "4 ciclos",
+          "explanation": "El periodo es 2π/(2π) = 1 s, por lo que en cuatro segundos hay cuatro ciclos."
+        },
+        {
+          "text": "2 ciclos",
+          "explanation": "Dos ciclos supondrían un periodo de dos segundos, que no corresponde a B = 2π."
+        },
+        {
+          "text": "5 ciclos",
+          "explanation": "5 es la amplitud de la onda, no la cantidad de ciclos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Primero encuentra el tiempo de un ciclo y divide la duración entre ese tiempo.",
+      "solution": [
+        "T = 1 segundo.",
+        "Número de ciclos = 4/1 = 4."
+      ],
+      "id": "funciones-trigonometricas-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Elige la ley según los datos",
+      "body": [
+        "Dos lados y su ángulo incluido apuntan a ley de cosenos. Un par lado–ángulo opuesto conocido y otro ángulo apuntan a ley de senos.",
+        "No confundas c² con c: después de la ley de cosenos falta tomar la raíz positiva. En una función periódica, separa amplitud, periodo y cantidad de ciclos; representan medidas distintas."
+      ],
+      "id": "funciones-trigonometricas-24",
+      "level": 3
+    }
+  ]
+}

@@ -6,7 +6,7 @@ export const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..'
 export const dataRoot = join(packageRoot, 'public/data/beca18-learning');
 const slugPattern = /^[a-z][a-z0-9-]*$/;
 const kinds = new Set(['learn', 'example', 'explore', 'question', 'review']);
-const diagramKinds = new Set(['fraction', 'numberline', 'factors', 'balance', 'textmap', 'highlight']);
+const diagramKinds = new Set(['fraction', 'numberline', 'factors', 'balance', 'textmap', 'highlight', 'function', 'interval', 'bars', 'geometry']);
 const text = (value) => typeof value === 'string' && value.trim().length > 0;
 const list = (value) => Array.isArray(value) && value.length > 0 && value.every(text);
 export function validateTopic(topic, file = 'topic.json') {
@@ -52,6 +52,10 @@ export function validateTopic(topic, file = 'topic.json') {
       if (d.kind === 'balance') check(Number.isInteger(d.offset) && d.offset >= -10 && d.offset <= 10 && Number.isInteger(d.total) && d.total >= -20 && d.total <= 20, `${label}: balanza fuera de límites`);
       if (d.kind === 'textmap') check(Array.isArray(d.nodes) && d.nodes.length > 1 && d.nodes.length <= 12 && d.nodes.every((node) => text(node.label) && text(node.text)), `${label}: mapa incompleto`);
       if (d.kind === 'highlight') check(Array.isArray(d.fragments) && d.fragments.length > 1 && d.fragments.length <= 20 && d.fragments.every((fragment) => text(fragment.text) && text(fragment.role)), `${label}: fragmentos incompletos`);
+      if (d.kind === 'function') check(['linear','quadratic','exponential','sine'].includes(d.mode) && ['a','b','c','min','max'].every(key=>Number.isFinite(d[key])) && d.a>=-1e6 && d.a<=1e6 && d.b>=-5 && d.b<=5 && d.c>=-1e6 && d.c<=1e6 && d.min>=-10 && d.min<=0 && d.max>=1 && d.max<=10 && (!['exponential','sine'].includes(d.mode)||d.b>0), `${label}: función fuera de límites`);
+      if (d.kind === 'interval') check(Number.isInteger(d.a)&&Number.isInteger(d.b)&&d.a>=-10&&d.b<=10&&d.a<=d.b&&typeof d.leftClosed==='boolean'&&typeof d.rightClosed==='boolean',`${label}: intervalo inválido`);
+      if (d.kind === 'bars') check(Array.isArray(d.labels)&&d.labels.length>=2&&d.labels.length<=12&&d.labels.every(text)&&Array.isArray(d.values)&&d.values.length===d.labels.length&&d.values.every(v=>Number.isFinite(v)&&v>=0&&v<=1e9),`${label}: datos de barras inválidos`);
+      if (d.kind === 'geometry') check(['triangle','quadrilateral','circle','polygon','solid'].includes(d.mode)&&['a','b','n'].every(key=>Number.isInteger(d[key]))&&d.a>=1&&d.a<=10&&d.b>=1&&d.b<=10&&d.n>=3&&d.n<=10,`${label}: geometría fuera de límites`);
     }
   }
   check(questions >= 12, 'mínimo 12 preguntas con explicación');

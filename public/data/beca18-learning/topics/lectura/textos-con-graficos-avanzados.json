@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-con-graficos-avanzados",
+  "course": "lectura",
+  "slug": "textos-con-graficos-avanzados",
+  "title": "Textos con gráficos: interpretación avanzada",
+  "description": "Contrasta bases, porcentajes, fuentes y alcance antes de aceptar una conclusión visual.",
+  "version": 1,
+  "order": 18,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Comparar escalas, bases y unidades equivalentes",
+    "Distinguir porcentajes, puntos porcentuales y categorías superpuestas",
+    "Integrar fuentes y controlar causalidad, proyecciones y agregados"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Comparar exige una base común",
+      "body": [
+        "Antes de comparar dos gráficos, confirma que cuentan lo mismo, durante periodos equivalentes y con unidades compatibles. Cien préstamos de un mes no se comparan directamente con ochenta de una semana para afirmar mayor ritmo.",
+        "Las cantidades absolutas y las proporciones responden preguntas distintas. Un grupo más grande puede aportar más casos y, al mismo tiempo, tener una proporción menor."
+      ],
+      "id": "textos-con-graficos-avanzados-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Más personas, menor proporción",
+      "body": [
+        "En A participaron 30 de 100 personas: 30 %. En B participaron 20 de 40: 50 %. A tiene más participantes en número absoluto, pero B tiene mayor proporción de participación.",
+        "Resolución: no es contradictorio. Cambia la base de comparación. La respuesta depende de si la pregunta pide cantidad o proporción."
+      ],
+      "passage": {
+        "title": "Dos grupos, datos simulados",
+        "paragraphs": [
+          "Grupo A: 100 integrantes, 30 participantes en la actividad. Grupo B: 40 integrantes, 20 participantes. Cada integrante aparece una sola vez dentro de su grupo."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Proporción de participación",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "values": [
+          30,
+          50
+        ],
+        "unit": "% de cada grupo"
+      },
+      "id": "textos-con-graficos-avanzados-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora proporciones comparables",
+      "body": [
+        "Datos simulados: A tiene 30 participantes de 100; B, 20 de 40. Las barras representan porcentaje dentro de cada grupo, no cantidad de participantes."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "title": "Explora proporciones comparables",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "values": [
+          30,
+          50
+        ],
+        "unit": "% de cada grupo"
+      },
+      "id": "textos-con-graficos-avanzados-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Cantidad frente a proporción",
+      "body": [],
+      "prompt": "¿Qué afirmación es correcta?",
+      "choices": [
+        {
+          "text": "A tuvo una proporción mayor porque 24 supera a 18",
+          "explanation": "Ignora que A tiene una base mucho mayor."
+        },
+        {
+          "text": "B tuvo mayor proporción: 60 %, frente al 30 % de A",
+          "explanation": "18/30 = 0,60 y 24/80 = 0,30."
+        },
+        {
+          "text": "Ambos tuvieron la misma proporción porque se contaron personas",
+          "explanation": "Compartir unidad no implica igualdad de fracciones."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula cada parte respecto de su propio total.",
+      "solution": [
+        "A: 24 ÷ 80 = 30 %.",
+        "B: 18 ÷ 30 = 60 %; su proporción es mayor."
+      ],
+      "passage": {
+        "title": "La participación",
+        "paragraphs": [
+          "Datos simulados: en el curso A asistieron 24 de sus 80 integrantes; en el B asistieron 18 de sus 30. A registró más asistentes en número absoluto. Para comparar proporciones deben dividirse los asistentes entre los integrantes de cada curso."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Participación por curso",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "values": [
+          30,
+          60
+        ],
+        "unit": "% de cada curso"
+      },
+      "id": "textos-con-graficos-avanzados-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Periodos distintos",
+      "body": [],
+      "prompt": "¿Qué comparación es válida con esas condiciones?",
+      "choices": [
+        {
+          "text": "El promedio semanal de A es 30 y el registro semanal de B es 45",
+          "explanation": "120/4 permite calcular un promedio sin afirmar igualdad entre las semanas de A."
+        },
+        {
+          "text": "A siempre presta más por semana porque 120 es mayor que 45",
+          "explanation": "Se comparan periodos distintos y siempre no está respaldado."
+        },
+        {
+          "text": "Cada semana de A tuvo exactamente 30 préstamos",
+          "explanation": "Un promedio no determina los valores de cada semana."
+        }
+      ],
+      "correct": 0,
+      "hint": "Homogeneiza el periodo y conserva la diferencia entre promedio y registro puntual.",
+      "solution": [
+        "A promedia 120 ÷ 4 = 30 préstamos por semana.",
+        "B registra 45 en una semana; no conocemos la variación semanal de A."
+      ],
+      "passage": {
+        "title": "Dos bibliotecas",
+        "paragraphs": [
+          "Datos simulados: la biblioteca A informa 120 préstamos durante un mes de cuatro semanas; B informa 45 durante una semana. Los documentos no presentan semanas individuales de A."
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una escala visual recortada",
+      "body": [],
+      "prompt": "¿Qué interpretación numérica sigue siendo correcta?",
+      "choices": [
+        {
+          "text": "60 es once veces 50 porque las partes visibles miden 11 y 1",
+          "explanation": "Confunde la longitud desde el corte con la relación de las cantidades totales."
+        },
+        {
+          "text": "La diferencia real es 1",
+          "explanation": "50 y 60 difieren en diez unidades, no en una."
+        },
+        {
+          "text": "La diferencia es 10 y 60 equivale a 1,2 veces 50",
+          "explanation": "Usa los valores completos: 60 − 50 = 10 y 60/50 = 1,2."
+        }
+      ],
+      "correct": 2,
+      "hint": "Compara los valores y no solo el tramo visible desde un eje recortado.",
+      "solution": [
+        "La diferencia aritmética no cambia al recortar el eje.",
+        "Las cantidades completas mantienen razón 1,2 y diferencia 10."
+      ],
+      "passage": {
+        "title": "La propuesta gráfica",
+        "paragraphs": [
+          "Dos valores simulados son 50 y 60. Un diseñador propone iniciar el eje en 49 para que la barra de 60 parezca mucho más grande. Los datos numéricos se mantienen, pero el informe quiere evitar exagerar visualmente la diferencia."
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una unidad diferente",
+      "body": [],
+      "prompt": "¿Qué conclusión es correcta?",
+      "choices": [
+        {
+          "text": "B utilizó más porque 1 500 es mayor que 2",
+          "explanation": "Compara cifras sin convertir sus unidades."
+        },
+        {
+          "text": "A utilizó 500 mililitros más que B",
+          "explanation": "2 litros son 2 000 mililitros; la diferencia es 500."
+        },
+        {
+          "text": "Ambos usaron exactamente la misma cantidad",
+          "explanation": "2 000 y 1 500 mililitros no son iguales."
+        }
+      ],
+      "correct": 1,
+      "hint": "Convierte las dos cantidades a la misma unidad.",
+      "solution": [
+        "A: 2 × 1 000 = 2 000 mililitros.",
+        "2 000 − 1 500 = 500 mililitros."
+      ],
+      "passage": {
+        "title": "El consumo",
+        "paragraphs": [
+          "Datos simulados: el depósito A utilizó 2 litros; el depósito B, 1 500 mililitros. La comparación se refiere al mismo intervalo de tiempo. Un litro equivale a mil mililitros."
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Una comparación necesita denominador, unidad y periodo",
+      "body": [
+        "Si elegiste el mayor número sin revisar la base, calcula la proporción. Si comparaste cifras de unidades distintas, conviértelas. Si comparaste una semana con un mes, homogeneiza el intervalo y distingue promedio de valor puntual.",
+        "El diseño puede aumentar la impresión de una diferencia. Conserva los números completos para comprobar cualquier afirmación visual."
+      ],
+      "id": "textos-con-graficos-avanzados-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Porcentaje y puntos porcentuales",
+      "body": [
+        "Pasar de 20 % a 30 % supone un aumento de 10 puntos porcentuales. El aumento relativo respecto del 20 % inicial es 10/20 = 50 %. Son medidas distintas del mismo cambio.",
+        "Cuando una encuesta admite varias respuestas, sus porcentajes pueden sumar más de 100 %. Esa suma no es un error por sí misma: una persona puede estar en varias categorías. Un gráfico circular de partes exclusivas no sería adecuado para esa superposición."
+      ],
+      "id": "textos-con-graficos-avanzados-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Calcula ambos cambios",
+      "body": [
+        "Datos simulados: la participación pasó del 40 % al 50 %. Diferencia en puntos: 50 − 40 = 10 puntos porcentuales. Cambio relativo: 10/40 × 100 = 25 %.",
+        "Resolución: no debe escribirse subió un 10 % si se quiere decir diez puntos. El informe debe nombrar claramente la medida usada."
+      ],
+      "passage": {
+        "title": "Una misma base de comparación",
+        "paragraphs": [
+          "En dos jornadas comparables se registró la proporción de integrantes que asistió. Primera jornada: 40 %; segunda: 50 %. Se utilizan porcentajes calculados sobre el total de integrantes de cada jornada."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Participación por jornada",
+        "labels": [
+          "Primera",
+          "Segunda"
+        ],
+        "values": [
+          40,
+          50
+        ],
+        "unit": "% de integrantes"
+      },
+      "id": "textos-con-graficos-avanzados-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Tres preguntas, tres operaciones",
+      "body": [
+        "Toca cada pregunta antes de elegir una operación."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "¿Cuántos puntos porcentuales cambió?",
+            "text": "Resta porcentaje final menos inicial: 30 % − 20 % = 10 puntos."
+          },
+          {
+            "label": "¿Qué cambio relativo hubo?",
+            "text": "Divide la diferencia por el valor inicial: 10/20 = 50 % de aumento relativo."
+          },
+          {
+            "label": "¿Pueden sumarse como personas distintas?",
+            "text": "Solo si las categorías son excluyentes o conoces la superposición."
+          },
+          {
+            "label": "¿Qué representa el total?",
+            "text": "Debes identificar población, muestra o conjunto usado como denominador."
+          }
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Puntos porcentuales",
+      "body": [],
+      "prompt": "¿Cuál es esa diferencia?",
+      "choices": [
+        {
+          "text": "60 puntos porcentuales",
+          "explanation": "60 % sería el aumento relativo de 15 sobre 25, no la resta de porcentajes."
+        },
+        {
+          "text": "15 % de aumento relativo",
+          "explanation": "15 es la diferencia en puntos, pero no el aumento relativo."
+        },
+        {
+          "text": "15 puntos porcentuales",
+          "explanation": "40 − 25 = 15 en la escala de porcentajes."
+        }
+      ],
+      "correct": 2,
+      "hint": "La unidad pedida exige restar los dos porcentajes.",
+      "solution": [
+        "40 − 25 = 15.",
+        "El resultado se nombra quince puntos porcentuales."
+      ],
+      "passage": {
+        "title": "Dos registros",
+        "paragraphs": [
+          "Datos simulados comparables: en la primera semana participó el 25 % de integrantes y en la segunda el 40 %. El informe solicita la diferencia en puntos porcentuales, no el aumento relativo."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Proporción por semana",
+        "labels": [
+          "Primera",
+          "Segunda"
+        ],
+        "values": [
+          25,
+          40
+        ],
+        "unit": "% de integrantes"
+      },
+      "id": "textos-con-graficos-avanzados-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Aumento relativo",
+      "body": [],
+      "prompt": "¿Qué cálculo corresponde?",
+      "choices": [
+        {
+          "text": "50 %: (30 − 20)/20 × 100",
+          "explanation": "Compara el aumento de 10 con el 20 inicial."
+        },
+        {
+          "text": "10 %: 30 − 20",
+          "explanation": "La resta da diez puntos porcentuales y no mide el cambio relativo."
+        },
+        {
+          "text": "150 % de aumento: 30/20 × 100",
+          "explanation": "150 % expresa el valor final como porcentaje del inicial; el aumento es 50 %."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue valor final relativo y aumento relativo.",
+      "solution": [
+        "El incremento es 10 puntos sobre una base inicial de 20.",
+        "10/20 = 0,50: aumento relativo del 50 %."
+      ],
+      "passage": {
+        "title": "El cambio",
+        "paragraphs": [
+          "Datos simulados: la tasa pasó de 20 % a 30 %. Se pide cuánto aumentó en relación con el valor inicial de 20 %, no cuántos puntos de la escala recorrió."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Tasa inicial y final",
+        "labels": [
+          "Inicial",
+          "Final"
+        ],
+        "values": [
+          20,
+          30
+        ],
+        "unit": "%"
+      },
+      "id": "textos-con-graficos-avanzados-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Respuestas superpuestas",
+      "body": [],
+      "prompt": "¿Qué afirmación está justificada?",
+      "choices": [
+        {
+          "text": "Hay ciento diez personas distintas interesadas",
+          "explanation": "Una misma persona puede estar contada en ambas categorías."
+        },
+        {
+          "text": "La suma de marcas es 110, pero no equivale a 110 personas distintas",
+          "explanation": "Conserva la unidad marcas y reconoce la superposición posible."
+        },
+        {
+          "text": "La encuesta es imposible porque los porcentajes superan 100 % al sumarse",
+          "explanation": "Las respuestas múltiples permiten esa suma."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue marcas registradas y personas encuestadas.",
+      "solution": [
+        "Se registraron 60 + 50 = 110 marcas.",
+        "La encuesta tiene cien personas y las categorías no son excluyentes."
+      ],
+      "passage": {
+        "title": "Preferencias de lectura",
+        "paragraphs": [
+          "Datos simulados: en una encuesta a cien personas se permitió marcar todas las opciones de interés. Sesenta marcaron cuentos y cincuenta marcaron poesía. El documento no informa quiénes marcaron ambas opciones."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Interés con respuesta múltiple",
+        "labels": [
+          "Cuentos",
+          "Poesía"
+        ],
+        "values": [
+          60,
+          50
+        ],
+        "unit": "marcas de 100 personas"
+      },
+      "id": "textos-con-graficos-avanzados-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cantidad mayor con porcentaje menor",
+      "body": [],
+      "prompt": "¿Qué interpretación integra ambas medidas?",
+      "choices": [
+        {
+          "text": "La participación bajó en número porque bajó el porcentaje",
+          "explanation": "Los participantes subieron de 20 a 30 aunque la proporción bajara."
+        },
+        {
+          "text": "Subieron cantidad y proporción",
+          "explanation": "La proporción pasó de 50 % a 30 %, por lo que disminuyó."
+        },
+        {
+          "text": "Subió la cantidad de participantes y bajó su proporción dentro del total",
+          "explanation": "Distingue 20 a 30 personas de 50 % a 30 %."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula los porcentajes antes de comparar los cambios.",
+      "solution": [
+        "Jornada 1: 20/40 = 50 %. Jornada 2: 30/100 = 30 %.",
+        "Son diez participantes más, pero veinte puntos porcentuales menos."
+      ],
+      "passage": {
+        "title": "Dos jornadas",
+        "paragraphs": [
+          "Datos simulados: en la jornada 1 participaron 20 de 40 integrantes; en la jornada 2, 30 de 100. La cantidad de integrantes disponibles cambió y el informe muestra tanto números como porcentajes."
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Nombra la medida al escribir el resultado",
+      "body": [
+        "No uses porcentaje como palabra intercambiable para cantidad, puntos o cambio relativo. Una explicación clara incluye el denominador y la operación.",
+        "Si las opciones se superponen, sumar puede contar varias veces a una persona. Cuando no conoces la intersección, reconoce qué no puede determinarse en lugar de inventar un total de personas únicas."
+      ],
+      "id": "textos-con-graficos-avanzados-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Integra documentos con cuidado",
+      "body": [
+        "En un texto mixto, explicación y representación forman una misma unidad. En un conjunto múltiple, documentos independientes se comparan. En ambos casos revisa que periodos, fuentes y poblaciones coincidan antes de unir datos.",
+        "Un aumento posterior a una medida no demuestra que esa medida sea su única causa. Un promedio global puede ocultar diferencias entre grupos. Una tendencia observada no garantiza una proyección futura."
+      ],
+      "id": "textos-con-graficos-avanzados-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "El promedio puede cambiar por la composición",
+      "body": [
+        "Datos simulados: antes, 9 de 10 del turno temprano y 24 de 40 del tardío asistieron: 33/50 = 66 %. Después, 32 de 40 del temprano y 5 de 10 del tardío: 37/50 = 74 %.",
+        "La proporción total sube, aunque cada turno baja: temprano de 90 % a 80 %; tardío de 60 % a 50 %. Cambió el peso de los turnos. No se puede usar el agregado para decir que todos mejoraron."
+      ],
+      "passage": {
+        "title": "Los turnos no pesan lo mismo",
+        "paragraphs": [
+          "Se comparan dos registros simulados con cincuenta integrantes en total cada uno. La distribución entre turnos cambia: el turno temprano pasa de diez a cuarenta integrantes y el tardío de cuarenta a diez. Las proporciones de asistencia deben examinarse dentro de cada turno y también en conjunto."
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Lo que falta también limita la conclusión",
+      "body": [
+        "Si el gráfico no identifica selección, ausencia de registros o categorías superpuestas, evita conclusiones que dependan de esos datos. Una fuente puede aportar un periodo y otra un contexto, sin que deban sumarse sus cifras.",
+        "Para evaluar una afirmación, escribe la operación o comparación que la respaldaría. Si requiere información ausente, formula qué dato hace falta."
+      ],
+      "id": "textos-con-graficos-avanzados-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Coincidencia temporal y causalidad",
+      "body": [],
+      "prompt": "¿Qué conclusión respeta el diseño del registro?",
+      "choices": [
+        {
+          "text": "El cartel explica por sí solo exactamente veinte consultas nuevas",
+          "explanation": "Hay otros cambios y no se aisló el efecto del cartel."
+        },
+        {
+          "text": "Las consultas aumentaron, pero no se puede atribuir todo el cambio únicamente al cartel",
+          "explanation": "Conserva el aumento observado y reconoce las explicaciones no separadas."
+        },
+        {
+          "text": "La ampliación del horario no tuvo ningún efecto",
+          "explanation": "Tampoco se aisló ni se descartó ese posible efecto."
+        }
+      ],
+      "correct": 1,
+      "hint": "Separa el cambio registrado de la explicación causal que no se midió.",
+      "solution": [
+        "60 − 40 = 20 consultas más.",
+        "Varios cambios coinciden; el registro no identifica su contribución individual."
+      ],
+      "passage": {
+        "title": "La campaña del taller",
+        "paragraphs": [
+          "Datos simulados: se registraron 40 consultas en agosto y 60 en septiembre. A comienzos de septiembre se publicó un nuevo cartel, pero también se amplió el horario y se incorporaron dos grupos. El informe no comparó un grupo sin cartel ni midió qué motivo llevó a cada persona a consultar."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Consultas mensuales",
+        "labels": [
+          "Agosto",
+          "Septiembre"
+        ],
+        "values": [
+          40,
+          60
+        ],
+        "unit": "consultas"
+      },
+      "id": "textos-con-graficos-avanzados-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una proyección condicional",
+      "body": [],
+      "prompt": "¿Cómo debe interpretarse 25?",
+      "choices": [
+        {
+          "text": "Como un registro ya observado de la semana 4",
+          "explanation": "La semana futura no fue medida."
+        },
+        {
+          "text": "Como una garantía que no depende de ninguna condición",
+          "explanation": "La frase si el aumento se repitiera establece una condición."
+        },
+        {
+          "text": "Como una proyección bajo un supuesto explícito, no como dato observado",
+          "explanation": "Distingue el cálculo condicional de la medición real."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca la condición que introduce el cálculo.",
+      "solution": [
+        "Se extrapola el aumento observado de cinco.",
+        "El resultado 25 depende de que se repita ese ritmo."
+      ],
+      "passage": {
+        "title": "Tres semanas",
+        "paragraphs": [
+          "Datos simulados: semana 1, 10 entregas; semana 2, 15; semana 3, 20. Un informe propone: si el aumento de cinco se repitiera, la semana 4 tendría 25. Aclara que no conoce la demanda futura ni si habrá días de cierre."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Entregas observadas",
+        "labels": [
+          "Semana 1",
+          "Semana 2",
+          "Semana 3"
+        ],
+        "values": [
+          10,
+          15,
+          20
+        ],
+        "unit": "entregas"
+      },
+      "id": "textos-con-graficos-avanzados-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "El agregado no describe todos los grupos",
+      "body": [],
+      "prompt": "¿Qué afirmación es correcta?",
+      "choices": [
+        {
+          "text": "El total subió, aunque dentro de cada turno bajó la proporción de asistencia",
+          "explanation": "Temprano: 90 % a 80 %. Tardío: 60 % a 50 %. El cambio de pesos explica la diferencia agregada."
+        },
+        {
+          "text": "Todos los turnos mejoraron porque el total mejoró",
+          "explanation": "Confunde el conjunto con el comportamiento interno de cada grupo."
+        },
+        {
+          "text": "El total después fue 80 %",
+          "explanation": "37/50 equivale a 74 %, no a 80 %."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula cada fracción dentro de su propio turno antes de mirar el total.",
+      "solution": [
+        "Las tasas internas descienden diez puntos en ambos turnos.",
+        "El total aumenta porque el turno de mayor tasa pesa más en el segundo registro."
+      ],
+      "passage": {
+        "title": "Composición de turnos",
+        "paragraphs": [
+          "Datos simulados: antes asistieron 9 de 10 del turno temprano y 24 de 40 del tardío; después, 32 de 40 del temprano y 5 de 10 del tardío. Totales: 33 de 50 antes y 37 de 50 después. El porcentaje total subió de 66 % a 74 %, pero cambió la cantidad de integrantes en cada turno."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Proporción total de asistencia",
+        "labels": [
+          "Antes",
+          "Después"
+        ],
+        "values": [
+          66,
+          74
+        ],
+        "unit": "% del total"
+      },
+      "id": "textos-con-graficos-avanzados-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cruza fuentes sin sumarlas indebidamente",
+      "body": [],
+      "prompt": "¿Qué revisión corresponde?",
+      "choices": [
+        {
+          "text": "Conservar 280 porque ambos documentos usan la misma unidad",
+          "explanation": "Compartir unidad no elimina la superposición de los conjuntos."
+        },
+        {
+          "text": "Usar 200 como total de las tres sedes y aclarar que 80 corresponden a la central",
+          "explanation": "Evita contar dos veces una parte ya incluida en el total."
+        },
+        {
+          "text": "Restar 200 de 80 para encontrar un total negativo",
+          "explanation": "La operación invierte el vínculo parte-total y no responde al conjunto."
+        }
+      ],
+      "correct": 1,
+      "hint": "Identifica si una fuente incluye los casos de la otra.",
+      "solution": [
+        "Los 80 de la central ya forman parte de los 200.",
+        "El total del conjunto sigue siendo 200, no 280."
+      ],
+      "passage": {
+        "title": "Dos documentos",
+        "paragraphs": [
+          "Documento A: un registro simulado de la biblioteca central informa 80 préstamos en junio. Documento B: una nota sobre tres sedes informa 200 préstamos en junio e indica que ese total ya incluye la biblioteca central. Ambos cuentan préstamos, no personas. Una propuesta de resumen suma 80 + 200 y anuncia 280 préstamos del conjunto."
+        ]
+      },
+      "id": "textos-con-graficos-avanzados-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Tu auditoría de una conclusión visual",
+      "body": [
+        "Comprueba unidad, periodo, base, categorías y procedencia. Después pregunta si hay solapamiento, cambios de composición o variables no separadas.",
+        "Distingue datos observados, operaciones válidas y proyecciones condicionales. Una figura convincente no puede aportar información que nunca se registró.",
+        "Si fallaste un agregado, calcula por grupos. Si fallaste causalidad, enumera los cambios simultáneos. Si fallaste una suma entre fuentes, dibuja qué conjunto incluye a cuál."
+      ],
+      "id": "textos-con-graficos-avanzados-24",
+      "level": 3
+    }
+  ]
+}

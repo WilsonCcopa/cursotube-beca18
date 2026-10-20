@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/funciones-lineales",
+  "course": "matematica",
+  "slug": "funciones-lineales",
+  "title": "Funciones lineales y afines",
+  "description": "Conecta fórmulas, tablas y rectas para interpretar pendientes, tarifas y puntos de equilibrio.",
+  "version": 1,
+  "order": 21,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Identificar dominio, imagen y regla de una función.",
+    "Interpretar pendiente e intersecciones de y = mx + b.",
+    "Construir y comparar modelos lineales con restricciones de contexto."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una entrada tiene una sola salida",
+      "body": [
+        "Una función asigna a cada entrada permitida exactamente una salida. El dominio reúne las entradas; la imagen o rango reúne las salidas que efectivamente se obtienen. El conjunto de llegada puede ser más amplio que la imagen.",
+        "En y = mx + b, x es entrada e y salida. La pendiente m describe cuánto cambia y al aumentar x una unidad. b es la salida para x = 0.",
+        "Aquí distinguimos lineal y = mx, que pasa por el origen, y afín y = mx + b. En el uso cotidiano también se llama lineal a cualquier modelo cuya gráfica sea una recta."
+      ],
+      "id": "funciones-lineales-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Lee una regla y construye su tabla",
+      "body": [
+        "Para f(x) = 2 x + 3, calcula f(−1), f(0) y f(2)."
+      ],
+      "solution": [
+        "f(−1) = 2(−1) + 3 = 1. f(0) = 3. f(2) = 7.",
+        "Los puntos (−1,1), (0,3) y (2,7) están sobre la misma recta.",
+        "Por cada aumento de una unidad en x, y aumenta dos. El valor inicial, al entrar cero, es tres."
+      ],
+      "id": "funciones-lineales-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Mueve pendiente e intercepto",
+      "body": [
+        "Explora y = ax + b: a representa la pendiente y b el corte con el eje vertical. Cambiar b desplaza la recta sin cambiar su inclinación. Cambiar el signo de a cambia creciente por decreciente."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "linear",
+        "a": 2,
+        "b": 3,
+        "c": 0,
+        "min": -5,
+        "max": 5
+      },
+      "id": "funciones-lineales-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Evalúa una función",
+      "body": [],
+      "prompt": "Si f(x) = 3 x − 2, ¿cuánto vale f(4)?",
+      "choices": [
+        {
+          "text": "10",
+          "explanation": "3(4) − 2 = 12 − 2 = 10."
+        },
+        {
+          "text": "6",
+          "explanation": "6 resulta de sustituir incorrectamente 3 + 4 − 1; la expresión indica multiplicar 3 por 4."
+        },
+        {
+          "text": "14",
+          "explanation": "14 cambia la resta de 2 por una suma."
+        }
+      ],
+      "correct": 0,
+      "hint": "f(4) significa reemplazar x por 4.",
+      "solution": [
+        "f(4) = 3 × 4 − 2.",
+        "Multiplica primero: 12 − 2 = 10."
+      ],
+      "id": "funciones-lineales-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El dato inicial",
+      "body": [],
+      "prompt": "En y = −2 x + 7, ¿cuál es el corte con el eje y?",
+      "choices": [
+        {
+          "text": "(7, 0)",
+          "explanation": "Ese punto estaría en el eje x y ni siquiera satisface esta ecuación."
+        },
+        {
+          "text": "(0, −2)",
+          "explanation": "−2 es la pendiente, no la ordenada al origen."
+        },
+        {
+          "text": "(0, 7)",
+          "explanation": "El eje y corresponde a x = 0, por lo que y = 7."
+        }
+      ],
+      "correct": 2,
+      "hint": "Pon x = 0.",
+      "solution": [
+        "y = −2(0) + 7 = 7.",
+        "El punto de corte es (0,7)."
+      ],
+      "id": "funciones-lineales-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Qué cambio describe la pendiente",
+      "body": [],
+      "prompt": "Una recta tiene pendiente −3. Si x aumenta 2 unidades, ¿cuánto cambia y?",
+      "choices": [
+        {
+          "text": "Disminuye 3 unidades",
+          "explanation": "Eso ocurre si x aumenta una unidad; aquí aumenta dos."
+        },
+        {
+          "text": "Disminuye 6 unidades",
+          "explanation": "Δy = mΔx = −3 × 2 = −6."
+        },
+        {
+          "text": "Aumenta 6 unidades",
+          "explanation": "El valor absoluto es 6, pero el signo negativo indica disminución."
+        }
+      ],
+      "correct": 1,
+      "hint": "La pendiente es el cambio de y por cada unidad de x.",
+      "solution": [
+        "Δy = −3 × 2 = −6.",
+        "El signo negativo expresa una disminución de 6 unidades."
+      ],
+      "id": "funciones-lineales-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Reconoce una correspondencia que falla",
+      "body": [],
+      "prompt": "¿Cuál relación NO es una función de x hacia y?",
+      "choices": [
+        {
+          "text": "(1,2), (1,5), (3,7)",
+          "explanation": "La entrada 1 tiene dos salidas distintas, 2 y 5."
+        },
+        {
+          "text": "(1,2), (2,2), (3,2)",
+          "explanation": "Distintas entradas pueden compartir una salida; sigue siendo función."
+        },
+        {
+          "text": "(1,4), (2,5), (3,6)",
+          "explanation": "Cada entrada tiene una sola salida."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca si una misma entrada aparece con salidas diferentes.",
+      "solution": [
+        "En la primera relación, x = 1 se relaciona con y = 2 y con y = 5.",
+        "Esa doble salida viola la definición de función."
+      ],
+      "id": "funciones-lineales-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No intercambies pendiente y corte",
+      "body": [
+        "En mx + b, m no es un punto: es una razón de cambios. b es un valor de salida; el punto de corte es (0,b).",
+        "Una función puede asignar la misma salida a varias entradas. Lo prohibido es dar dos salidas distintas a una misma entrada."
+      ],
+      "id": "funciones-lineales-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Construye la recta desde dos puntos",
+      "body": [
+        "Para puntos (x₁,y₁) y (x₂,y₂) con x₁ ≠ x₂, m = (y₂ − y₁)/(x₂ − x₁). Luego usa cualquiera de los puntos para encontrar b = y₁ − mx₁.",
+        "El cero o raíz de una función es una entrada que da salida cero. Para mx + b con m ≠ 0, se obtiene resolviendo mx + b = 0.",
+        "El dominio depende del contexto. Una cantidad de paquetes puede exigir enteros no negativos; un tiempo puede admitir reales no negativos. La gráfica matemática completa y el modelo contextual no siempre tienen el mismo dominio."
+      ],
+      "id": "funciones-lineales-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Una tarifa a partir de dos mediciones",
+      "body": [
+        "Un servicio hipotético cobra S/ 11 por 2 km y S/ 23 por 6 km. Si el modelo es afín, halla la regla."
+      ],
+      "solution": [
+        "m = (23 − 11)/(6 − 2) = 12/4 = 3 soles por km.",
+        "Usa (2,11): 11 = 3(2) + b, así que b = 5 soles.",
+        "La regla es C(x) = 3 x + 5. Verifica C(6) = 23. El contexto admite x ≥ 0."
+      ],
+      "id": "funciones-lineales-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Rectas y restricciones en una tabla",
+      "body": [
+        "Una tabla de x e y permite calcular pendientes entre pares. Si para aumentos iguales de x los cambios de y son iguales, es compatible con una recta.",
+        "La imagen se obtiene aplicando la regla al dominio, no copiando siempre todos los números reales. Si f(x) = 2 x + 1 y 0 ≤ x ≤ 3, las salidas van de 1 a 7, incluidos ambos extremos."
+      ],
+      "id": "funciones-lineales-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Pendiente desde dos puntos",
+      "body": [],
+      "prompt": "¿Cuál es la pendiente de la recta que pasa por (1,4) y (5,12)?",
+      "choices": [
+        {
+          "text": "8",
+          "explanation": "8 es solo el cambio vertical; falta dividir entre el cambio horizontal."
+        },
+        {
+          "text": "2",
+          "explanation": "(12 − 4)/(5 − 1) = 8/4 = 2."
+        },
+        {
+          "text": "1/2",
+          "explanation": "1/2 invierte cambio de y y cambio de x."
+        }
+      ],
+      "correct": 1,
+      "hint": "Escribe diferencias en el mismo orden arriba y abajo.",
+      "solution": [
+        "Δy = 12 − 4 = 8; Δx = 5 − 1 = 4.",
+        "m = 8/4 = 2."
+      ],
+      "id": "funciones-lineales-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Recupera el término independiente",
+      "body": [],
+      "prompt": "Una función afín tiene pendiente 4 y pasa por (3,17). ¿Cuál es b?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "17 = 4(3) + b da b = 5."
+        },
+        {
+          "text": "13",
+          "explanation": "13 resulta de restar solo 4 a 17, ignorando que x = 3."
+        },
+        {
+          "text": "29",
+          "explanation": "29 suma 12 a 17; para despejar b debes restarlo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sustituye el punto en y = 4 x + b.",
+      "solution": [
+        "17 = 12 + b.",
+        "b = 17 − 12 = 5."
+      ],
+      "id": "funciones-lineales-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Encuentra la raíz",
+      "body": [],
+      "prompt": "¿Qué entrada hace cero a f(x) = 5 x − 20?",
+      "choices": [
+        {
+          "text": "−20",
+          "explanation": "−20 es el valor de f(0), no su raíz."
+        },
+        {
+          "text": "−4",
+          "explanation": "5(−4) − 20 = −40, no cero."
+        },
+        {
+          "text": "4",
+          "explanation": "5(4) − 20 = 0."
+        }
+      ],
+      "correct": 2,
+      "hint": "Iguala la salida a cero y despeja x.",
+      "solution": [
+        "5 x − 20 = 0; 5 x = 20.",
+        "x = 4."
+      ],
+      "id": "funciones-lineales-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Imagen en un dominio acotado",
+      "body": [],
+      "prompt": "Si f(x) = −2 x + 9 y su dominio es 1 ≤ x ≤ 4, ¿cuál es su imagen?",
+      "choices": [
+        {
+          "text": "7 ≤ y ≤ 9",
+          "explanation": "Ese intervalo incluye f(0), pero 0 está fuera del dominio."
+        },
+        {
+          "text": "1 ≤ y ≤ 7",
+          "explanation": "Es decreciente: f(1) = 7 y f(4) = 1; se obtienen todos los valores intermedios."
+        },
+        {
+          "text": "1 ≤ y ≤ 4",
+          "explanation": "Ese intervalo es el dominio, no la imagen."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula las salidas de ambos extremos y observa el signo de la pendiente.",
+      "solution": [
+        "f(1) = 7; f(4) = 1.",
+        "La recta decreciente toma todas las salidas de 1 a 7, inclusive."
+      ],
+      "id": "funciones-lineales-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Los extremos pueden cambiar de orden",
+      "body": [
+        "En una función decreciente, el menor x produce el mayor y. Al expresar la imagen, ordena de menor a mayor los valores de salida.",
+        "Si los dos puntos tienen la misma x y distintas y, describen una recta vertical; no puede ser una función y de x."
+      ],
+      "id": "funciones-lineales-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Dos modelos se encuentran en un sistema",
+      "body": [
+        "Para comparar f(x) y g(x), iguala sus expresiones. La solución indica la entrada donde ambas salidas coinciden. Después interpreta qué modelo es mayor a cada lado.",
+        "Rectas con la misma pendiente y distinto b nunca se cruzan. Con pendiente e intercepto iguales coinciden en todos sus puntos.",
+        "Un punto de equilibrio en costos e ingresos no implica ganancia positiva: significa ingreso igual a costo. Las restricciones pueden obligar a superar un número entero de unidades."
+      ],
+      "id": "funciones-lineales-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una ganancia que empieza después de la raíz",
+      "body": [
+        "Producir n cuadernos cuesta C(n) = 120 + 4 n soles y venderlos produce R(n) = 10 n soles. ¿Cuándo se cubren los costos?"
+      ],
+      "solution": [
+        "Iguala: 120 + 4 n = 10 n. Entonces 6 n = 120 y n = 20.",
+        "En 20 unidades, ambos montos son 200 soles y la ganancia es cero.",
+        "Para ganancia estrictamente positiva, 6 n − 120 > 0 exige n > 20. Si n es entero, el mínimo es 21."
+      ],
+      "id": "funciones-lineales-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Resuelve hacia atrás sin cambiar la función",
+      "body": [
+        "Si y = mx + b y m ≠ 0, puedes recuperar la entrada x = (y − b)/m. Es una operación inversa, no una sustitución de x por y sin despejar.",
+        "Antes de usar una recta fuera de los datos, verifica si el contexto permite extrapolar. Un tramo de tarifa o una capacidad máxima puede limitar el modelo."
+      ],
+      "id": "funciones-lineales-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Iguala dos tarifas",
+      "body": [],
+      "prompt": "A cobra 6 + 2 x soles y B cobra 3 x soles para x ≥ 0. ¿En qué x cobran igual?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "En x = 3, A cobra 12 y B cobra 9, por lo que no coinciden."
+        },
+        {
+          "text": "18",
+          "explanation": "18 es el monto común, no la entrada x."
+        },
+        {
+          "text": "6",
+          "explanation": "6 + 2 x = 3 x da x = 6; ambas cobran 18."
+        }
+      ],
+      "correct": 2,
+      "hint": "No iguales solo las pendientes; iguala los montos completos.",
+      "solution": [
+        "6 + 2 x = 3 x.",
+        "Resta 2 x: x = 6. Monto común = 18 soles."
+      ],
+      "id": "funciones-lineales-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Compara después del cruce",
+      "body": [],
+      "prompt": "Con A(x) = 6 + 2 x y B(x) = 3 x, ¿qué ocurre si x > 6?",
+      "choices": [
+        {
+          "text": "Cobran siempre igual",
+          "explanation": "Solo son iguales en x = 6; sus pendientes son distintas."
+        },
+        {
+          "text": "A cobra menos que B",
+          "explanation": "B − A = x − 6 es positivo para x > 6."
+        },
+        {
+          "text": "B cobra menos que A",
+          "explanation": "Eso sucede cuando 0 ≤ x < 6, no después del cruce."
+        }
+      ],
+      "correct": 1,
+      "hint": "Resta A de B para estudiar el signo.",
+      "solution": [
+        "B(x) − A(x) = 3 x − (6 + 2 x) = x − 6.",
+        "Si x > 6, B − A > 0; A es menor."
+      ],
+      "id": "funciones-lineales-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "La primera ganancia entera",
+      "body": [],
+      "prompt": "El costo es C(n) = 90 + 3 n y el ingreso R(n) = 8 n, con n entero no negativo. ¿Cuál es el menor n con ganancia estrictamente positiva?",
+      "choices": [
+        {
+          "text": "19",
+          "explanation": "R − C = 5 n − 90 > 0 exige n > 18; el primer entero es 19."
+        },
+        {
+          "text": "18",
+          "explanation": "Con 18 la ganancia es cero; cubre costos pero no es positiva."
+        },
+        {
+          "text": "17",
+          "explanation": "Con 17 el ingreso es 136 y el costo 141, así que hay pérdida."
+        }
+      ],
+      "correct": 0,
+      "hint": "Resuelve R(n) − C(n) > 0 y respeta que n es entero.",
+      "solution": [
+        "8 n − (90 + 3 n) > 0 implica 5 n > 90.",
+        "n > 18; el mínimo entero es 19."
+      ],
+      "id": "funciones-lineales-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Recupera la entrada",
+      "body": [],
+      "prompt": "Un sensor cumple y = 1,5 x + 4. Si marca y = 19, ¿qué valor de x corresponde?",
+      "choices": [
+        {
+          "text": "32,5",
+          "explanation": "32,5 es lo que daría sustituir 19 como x, aunque el dato era la salida y."
+        },
+        {
+          "text": "15",
+          "explanation": "15 es y − 4; aún falta dividir entre 1,5."
+        },
+        {
+          "text": "10",
+          "explanation": "x = (19 − 4)/1,5 = 15/1,5 = 10."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resta el término independiente y divide entre la pendiente.",
+      "solution": [
+        "19 = 1,5 x + 4; 15 = 1,5 x.",
+        "x = 10. Comprueba: 1,5(10) + 4 = 19."
+      ],
+      "id": "funciones-lineales-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "El resultado debe responder a la variable correcta",
+      "body": [
+        "En un cruce, distingue entrada y monto común. Puedes hallar x = 6 y y = 18; responder 18 a una pregunta por x sería incorrecto.",
+        "Equilibrio significa cero ganancia. Si se exige ganancia positiva y unidades enteras, identifica el siguiente entero permitido en vez de redondear sin analizar la desigualdad."
+      ],
+      "id": "funciones-lineales-24",
+      "level": 3
+    }
+  ]
+}

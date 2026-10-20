@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/redaccion-de-textos",
+  "course": "lectura",
+  "slug": "redaccion-de-textos",
+  "title": "Redacción de textos",
+  "description": "Planifica, escribe y revisa con coherencia, tildes y puntuación pertinentes.",
+  "version": 1,
+  "order": 20,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Planificar, textualizar y revisar según un propósito",
+    "Aplicar acento y tildación a palabras y funciones frecuentes",
+    "Usar comas y revisión integrada sin alterar los datos"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Escribir es un proceso revisable",
+      "body": [
+        "Planificar consiste en decidir propósito, destinatario, contenido y orden. Textualizar es convertir el plan en oraciones y párrafos. Revisar es comprobar y mejorar el resultado.",
+        "Las etapas se relacionan: al redactar puedes detectar un dato faltante y volver al plan; al revisar puedes reorganizar una idea. No es necesario mantener un borrador defectuoso para respetar un orden rígido."
+      ],
+      "id": "redaccion-de-textos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Planifica antes de adornar",
+      "body": [
+        "Propósito: comunicar una jornada. Destinatarios: personas nuevas. Datos indispensables: qué se hará, cuándo, dónde y qué deben llevar.",
+        "Borrador resuelto: El taller de reparación será el sábado 14, de 9:00 a 11:00, en el aula comunal. Trae un cuaderno con tapa despegada. Primero se resuelve la necesidad de información; después se revisa estilo y presentación."
+      ],
+      "passage": {
+        "title": "La tarea de escritura",
+        "paragraphs": [
+          "El comité necesita un aviso para quienes no participaron antes en el taller. La fecha, la sala y el material solicitado ya han sido confirmados. El texto debe permitir que cualquier persona organice su asistencia."
+        ]
+      },
+      "id": "redaccion-de-textos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Revisa en varias escalas",
+      "body": [
+        "Toca cada escala para identificar una pregunta de revisión."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Propósito y lector",
+            "text": "¿El destinatario sabe qué debe hacer y dispone de los datos necesarios?"
+          },
+          {
+            "label": "Organización",
+            "text": "¿Cada párrafo cumple una función y las ideas siguen un orden comprensible?"
+          },
+          {
+            "label": "Relaciones",
+            "text": "¿Los referentes y conectores muestran los vínculos correctos?"
+          },
+          {
+            "label": "Forma",
+            "text": "¿Hay concordancia, tildes y puntuación adecuadas?"
+          }
+        ]
+      },
+      "id": "redaccion-de-textos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una decisión de planificación",
+      "body": [],
+      "prompt": "¿A qué etapa corresponde principalmente?",
+      "choices": [
+        {
+          "text": "Corrección de tildes del texto ya terminado",
+          "explanation": "Todavía se están eligiendo datos y destinatario."
+        },
+        {
+          "text": "Planificación",
+          "explanation": "Se define qué comunicar, a quién y para qué."
+        },
+        {
+          "text": "Publicación definitiva",
+          "explanation": "No se describe la difusión de una versión final."
+        }
+      ],
+      "correct": 1,
+      "hint": "La acción prepara el mensaje antes de formularlo por escrito.",
+      "solution": [
+        "Se seleccionan condiciones y propósito.",
+        "Eso constituye planificación."
+      ],
+      "passage": {
+        "title": "La solicitud",
+        "paragraphs": [
+          "Antes de escribir una carta para reservar una sala, el equipo identifica al destinatario, la fecha de uso, la cantidad de participantes y el propósito de la actividad."
+        ]
+      },
+      "id": "redaccion-de-textos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una revisión sustantiva",
+      "body": [],
+      "prompt": "¿Qué debe corregirse primero?",
+      "choices": [
+        {
+          "text": "Añadir la ubicación confirmada",
+          "explanation": "Resuelve un vacío que impide cumplir el propósito del aviso."
+        },
+        {
+          "text": "Cambiar solo el color de los títulos",
+          "explanation": "No proporciona el dato que el lector necesita."
+        },
+        {
+          "text": "Suprimir la fecha para que todas las líneas sean iguales",
+          "explanation": "Borra otra información indispensable."
+        }
+      ],
+      "correct": 0,
+      "hint": "El defecto central no es ortográfico ni visual.",
+      "solution": [
+        "Sin lugar explícito, el mensaje no permite acudir.",
+        "La revisión debe completar ese contenido con un dato verificado."
+      ],
+      "passage": {
+        "title": "El borrador",
+        "paragraphs": [
+          "El aviso ya tiene tildes correctas, pero no indica el lugar de la reunión. Lo leerán personas de varios colegios y no existe un lugar habitual compartido."
+        ]
+      },
+      "id": "redaccion-de-textos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Volver al plan es válido",
+      "body": [],
+      "prompt": "¿Cómo se interpreta esa decisión?",
+      "choices": [
+        {
+          "text": "Es un error porque planificar solo se permite una vez",
+          "explanation": "Las etapas pueden retomarse cuando aparecen necesidades."
+        },
+        {
+          "text": "Demuestra que no debe escribir ningún informe",
+          "explanation": "Una dificultad de estructura puede corregirse."
+        },
+        {
+          "text": "Es una revisión del plan para mejorar contenido y organización",
+          "explanation": "Atiende la redundancia y el vacío detectados durante la escritura."
+        }
+      ],
+      "correct": 2,
+      "hint": "Las etapas sirven al texto y pueden retroalimentarse.",
+      "solution": [
+        "La nueva estructura elimina repetición y agrega una explicación necesaria.",
+        "Volver al plan es una intervención pertinente."
+      ],
+      "passage": {
+        "title": "La redacción",
+        "paragraphs": [
+          "Mientras escribe un informe, una estudiante descubre que dos secciones repiten lo mismo y falta explicar cómo se reunieron los datos. Decide reorganizar el esquema antes de continuar."
+        ]
+      },
+      "id": "redaccion-de-textos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una textualización pertinente",
+      "body": [],
+      "prompt": "¿Qué versión conserva el plan?",
+      "choices": [
+        {
+          "text": "El préstamo será cualquier día y no hay requisitos",
+          "explanation": "Cambia fecha y elimina la condición confirmada."
+        },
+        {
+          "text": "El préstamo será el viernes 18, de 14:00 a 16:00, en el depósito 1, con registro previo",
+          "explanation": "Convierte todos los datos del plan en un mensaje claro."
+        },
+        {
+          "text": "Habrá herramientas bonitas, como siempre",
+          "explanation": "No comunica los datos operativos para acceder al préstamo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Al redactar debes mantener información y condiciones verificadas.",
+      "solution": [
+        "La versión correcta conserva qué, cuándo, dónde y requisito.",
+        "Una frase atractiva no reemplaza esos datos."
+      ],
+      "passage": {
+        "title": "El plan",
+        "paragraphs": [
+          "Plan confirmado: avisar que el préstamo de herramientas se hará el viernes 18, de 14:00 a 16:00, en el depósito 1; se requiere registro previo."
+        ]
+      },
+      "id": "redaccion-de-textos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "La primera revisión mira el sentido",
+      "body": [
+        "Si el texto omite el lugar o cambia una condición, corregir tildes no basta. Revisa primero si cumple el propósito y si sus datos son consistentes.",
+        "No confundas volver atrás con fracasar. Planificar, escribir y revisar forman un ciclo que puede repetirse cuando mejora una parte concreta del mensaje."
+      ],
+      "id": "redaccion-de-textos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Acento no es lo mismo que tilde",
+      "body": [
+        "El acento prosódico es la prominencia de una sílaba; la tilde es su marca escrita cuando la regla la exige. En palabras de varias sílabas, identifica primero la sílaba tónica.",
+        "Agudas: última sílaba tónica. Llanas: penúltima. Esdrújulas: antepenúltima. Sobresdrújulas: anterior a la antepenúltima. Las esdrújulas y sobresdrújulas llevan tilde.",
+        "Para los casos simples trabajados aquí, las agudas terminadas en vocal, n o s llevan tilde; las llanas terminadas en consonante distinta de n o s, también. Existen reglas específicas para hiatos, terminaciones en grupos de consonantes y otras estructuras; no extiendas estos ejemplos a todos los casos sin revisarlas."
+      ],
+      "id": "redaccion-de-textos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Clasifica antes de poner la tilde",
+      "body": [
+        "Camión: ca-MIÓN, aguda terminada en n, lleva tilde. Fácil: FÁ-cil, llana terminada en l, lleva tilde. Música: MÚ-si-ca, esdrújula, lleva tilde. Cuéntamelo: CUÉN-ta-me-lo, sobresdrújula, lleva tilde.",
+        "No se tilda una palabra solo porque sea larga. El cuaderno tiene más sílabas que fácil, pero cuaderno es llana terminada en vocal y no requiere tilde."
+      ],
+      "id": "redaccion-de-textos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "La función también puede decidir una tilde",
+      "body": [
+        "Toca cada caso de tilde diacrítica."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "El cuaderno está en la mesa.",
+            "role": "El es artículo: no lleva tilde"
+          },
+          {
+            "text": "Él guardó el cuaderno.",
+            "role": "Él es pronombre personal: lleva tilde"
+          },
+          {
+            "text": "Si vienes, avisa.",
+            "role": "Si introduce una condición: no lleva tilde"
+          },
+          {
+            "text": "Ella respondió que sí.",
+            "role": "Sí expresa afirmación: lleva tilde"
+          }
+        ]
+      },
+      "id": "redaccion-de-textos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una palabra aguda",
+      "body": [],
+      "prompt": "¿Qué forma corresponde?",
+      "choices": [
+        {
+          "text": "Cámion",
+          "explanation": "Desplaza la tilde a una sílaba que no es la tónica."
+        },
+        {
+          "text": "Camion",
+          "explanation": "La aguda terminada en n en este caso requiere tilde."
+        },
+        {
+          "text": "Camión",
+          "explanation": "Conserva la sílaba tónica final y aplica la regla."
+        }
+      ],
+      "correct": 2,
+      "hint": "Ubica la prominencia y luego revisa la terminación.",
+      "solution": [
+        "La sílaba tónica es mión.",
+        "La forma correcta es camión."
+      ],
+      "passage": {
+        "title": "La pronunciación",
+        "paragraphs": [
+          "La palabra camion se pronuncia ca-MIÓN: la sílaba tónica es la última y termina en n. No se está citando una palabra escrita correctamente; debes corregirla."
+        ]
+      },
+      "id": "redaccion-de-textos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una palabra llana",
+      "body": [],
+      "prompt": "¿Cuál es la forma correcta?",
+      "choices": [
+        {
+          "text": "Fácil",
+          "explanation": "Es llana terminada en consonante distinta de n o s y lleva tilde."
+        },
+        {
+          "text": "Facíl",
+          "explanation": "Cambiaría la sílaba tónica a la última."
+        },
+        {
+          "text": "Facil",
+          "explanation": "Omite la tilde que requiere esta llana terminada en l."
+        }
+      ],
+      "correct": 0,
+      "hint": "La sílaba tónica es la penúltima, no la última.",
+      "solution": [
+        "La palabra es llana y termina en l.",
+        "Se escribe fácil."
+      ],
+      "passage": {
+        "title": "La corrección",
+        "paragraphs": [
+          "La palabra facil se pronuncia FÁ-cil, tiene dos sílabas y termina en l. La actividad pide escribirla de acuerdo con esa pronunciación."
+        ]
+      },
+      "id": "redaccion-de-textos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una esdrújula",
+      "body": [],
+      "prompt": "¿Qué corrección corresponde?",
+      "choices": [
+        {
+          "text": "La musicá comienza a las diez",
+          "explanation": "Sitúa la tilde en una sílaba átona."
+        },
+        {
+          "text": "La música comienza a las diez",
+          "explanation": "La esdrújula lleva tilde en la antepenúltima sílaba."
+        },
+        {
+          "text": "La musìca comienza a las diez",
+          "explanation": "Usa una marca distinta de la tilde aguda del español."
+        }
+      ],
+      "correct": 1,
+      "hint": "Ubica la tercera sílaba contando desde el final.",
+      "solution": [
+        "Mú es la antepenúltima sílaba.",
+        "Música es esdrújula y lleva tilde."
+      ],
+      "passage": {
+        "title": "El aviso",
+        "paragraphs": [
+          "El borrador dice: La musica comienza a las diez. Se pronuncia MÚ-si-ca. No hay otro error en la frase que la actividad pida revisar."
+        ]
+      },
+      "id": "redaccion-de-textos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Tilde según función",
+      "body": [],
+      "prompt": "¿Qué pareja corresponde?",
+      "choices": [
+        {
+          "text": "El / él",
+          "explanation": "Invierte artículo y pronombre."
+        },
+        {
+          "text": "Él / él",
+          "explanation": "La segunda forma acompaña un sustantivo y funciona como artículo."
+        },
+        {
+          "text": "Él / el",
+          "explanation": "El pronombre lleva tilde y el artículo no."
+        }
+      ],
+      "correct": 2,
+      "hint": "Identifica función gramatical antes de decidir la tilde.",
+      "solution": [
+        "Él es sujeto pronominal de guardó.",
+        "El determina a registro como artículo."
+      ],
+      "passage": {
+        "title": "Las dos formas",
+        "paragraphs": [
+          "Completa la frase conservando el sentido: ___ guardó ___ registro en la caja. La primera palabra sustituye el nombre de un varón; la segunda acompaña al sustantivo registro."
+        ]
+      },
+      "id": "redaccion-de-textos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "No coloques tildes por intuición visual",
+      "body": [
+        "Pronuncia, separa sílabas, localiza la tónica y aplica la regla pertinente. Las palabras de una sílaba y los hiatos requieren considerar sus reglas específicas, no extender mecánicamente un ejemplo.",
+        "En la tilde diacrítica, pregunta qué función cumple la palabra. Él y el pueden sonar igual, pero no hacen el mismo trabajo en la oración."
+      ],
+      "id": "redaccion-de-textos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "La coma organiza relaciones sintácticas",
+      "body": [
+        "La coma separa elementos de una enumeración, delimita incisos y marca vocativos: Elena, revisa el registro. No debe colocarse entre sujeto y verbo solo porque al leer hagas una pausa.",
+        "Los incisos deben cerrarse: El registro, actualizado ayer, contiene las entregas. La puntuación ayuda a ver la construcción; no es una transcripción automática de cada pausa de la voz."
+      ],
+      "id": "redaccion-de-textos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Dos comas que delimitan un inciso",
+      "body": [
+        "Sujeto: La colección de fotografías. Verbo: muestra. Inciso: reunida por el taller.",
+        "Versión resuelta: La colección de fotografías, reunida por el taller, muestra los cambios del barrio. Las dos comas aíslan la información adicional; fuera del inciso no se separa sujeto y verbo."
+      ],
+      "passage": {
+        "title": "El borrador",
+        "paragraphs": [
+          "La colección de fotografías reunida por el taller muestra los cambios del barrio. El redactor quiere presentar reunida por el taller como un comentario adicional, no como una restricción que distinga esta colección de otras."
+        ]
+      },
+      "id": "redaccion-de-textos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Corrige sin modificar el hecho",
+      "body": [
+        "La revisión formal debe conservar quién hizo qué, cuándo y bajo qué condiciones. No arregles una ambigüedad asignando al azar una responsabilidad.",
+        "Tras una corrección, relee el sentido global. Una versión puede tener comas bien situadas y aun omitir el plazo o convertir una propuesta futura en un hecho realizado."
+      ],
+      "id": "redaccion-de-textos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Vocativo",
+      "body": [],
+      "prompt": "¿Qué puntuación hace explícito ese llamado?",
+      "choices": [
+        {
+          "text": "Elena revisa, el registro",
+          "explanation": "Separa el verbo de su complemento y no delimita el llamado."
+        },
+        {
+          "text": "Elena, revisa el registro",
+          "explanation": "La coma separa el vocativo de la petición."
+        },
+        {
+          "text": "Elena revisa el, registro",
+          "explanation": "Introduce una separación injustificada dentro del grupo nominal."
+        }
+      ],
+      "correct": 1,
+      "hint": "La persona nombrada es destinataria del mensaje.",
+      "solution": [
+        "Elena funciona como vocativo.",
+        "La coma aclara que se le está pidiendo una acción."
+      ],
+      "passage": {
+        "title": "La instrucción",
+        "paragraphs": [
+          "La coordinadora se dirige a una persona llamada Elena y le pide revisar el registro: Elena revisa el registro. La intención es una orden directa, no informar lo que Elena hace."
+        ]
+      },
+      "id": "redaccion-de-textos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Sujeto y verbo",
+      "body": [],
+      "prompt": "¿Qué corrección corresponde?",
+      "choices": [
+        {
+          "text": "Las cajas, del estante superior contienen las fichas antiguas",
+          "explanation": "Introduce una separación dentro del sujeto sin delimitar un inciso completo."
+        },
+        {
+          "text": "Las cajas del estante superior contienen, las fichas antiguas",
+          "explanation": "Separa verbo y complemento sin una razón sintáctica."
+        },
+        {
+          "text": "Las cajas del estante superior contienen las fichas antiguas",
+          "explanation": "Elimina la coma indebida entre sujeto y verbo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Identifica el sujeto completo antes de localizar el verbo.",
+      "solution": [
+        "Las cajas del estante superior es el sujeto.",
+        "No debe separarse de contienen por esa pausa."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "El borrador dice: Las cajas del estante superior, contienen las fichas antiguas. No hay inciso ni una lista antes del verbo; la coma pretende marcar solo una pausa al hablar."
+        ]
+      },
+      "id": "redaccion-de-textos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Enumeración",
+      "body": [],
+      "prompt": "¿Qué escritura corresponde?",
+      "choices": [
+        {
+          "text": "Cartón, papel y cuerda",
+          "explanation": "Separa los dos primeros elementos y enlaza el último mediante y."
+        },
+        {
+          "text": "Cartón papel, y, cuerda",
+          "explanation": "Omite la separación inicial e introduce una coma después de la conjunción sin función."
+        },
+        {
+          "text": "Cartón, papel, y, cuerda",
+          "explanation": "La coma después de y rompe injustificadamente la unión con el último elemento."
+        }
+      ],
+      "correct": 0,
+      "hint": "Reconoce los tres elementos y la conjunción final.",
+      "solution": [
+        "La lista contiene cartón, papel y cuerda.",
+        "La escritura simple propuesta mantiene esa enumeración."
+      ],
+      "passage": {
+        "title": "Los materiales",
+        "paragraphs": [
+          "El aviso enumera tres materiales del mismo nivel: cartón papel y cuerda. No presenta nombres compuestos ni explicaciones intercaladas."
+        ]
+      },
+      "id": "redaccion-de-textos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una revisión integrada",
+      "body": [],
+      "prompt": "¿Qué versión cumple la revisión?",
+      "choices": [
+        {
+          "text": "Los talleres de música serán el sábado en el aula 2",
+          "explanation": "Cambia una actividad por varias y altera el dato confirmado."
+        },
+        {
+          "text": "El taller de música será el sábado en el aula 2",
+          "explanation": "Corrige las tildes, la concordancia y la coma conservando los datos."
+        },
+        {
+          "text": "El taller de música será el domingo en el aula 2",
+          "explanation": "Corrige la forma, pero cambia el día confirmado."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cada cambio debe resolver una falla sin alterar información verificada.",
+      "solution": [
+        "Taller exige será y no lleva coma antes del verbo.",
+        "Música y sábado llevan tilde; los demás datos se conservan."
+      ],
+      "passage": {
+        "title": "El borrador final",
+        "paragraphs": [
+          "El aviso afirma: El taller de musica, serán el sabado en el aula 2. El dato confirmado es una sola actividad, el sábado, en el aula 2. Se pide corregir tilde y concordancia y quitar la coma injustificada sin añadir otro horario."
+        ]
+      },
+      "id": "redaccion-de-textos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Una revisión completa sirve al lector",
+      "body": [
+        "Comprueba primero propósito y datos. Después revisa orden y referentes. Finalmente examina concordancia, tildes y puntuación con las reglas pertinentes.",
+        "Si fallaste la coma, identifica qué constituyente separaste. Si fallaste una tilde, localiza sílaba y función. Si una corrección cambió el hecho, vuelve al dato confirmado antes de publicar."
+      ],
+      "id": "redaccion-de-textos-24",
+      "level": 3
+    }
+  ]
+}

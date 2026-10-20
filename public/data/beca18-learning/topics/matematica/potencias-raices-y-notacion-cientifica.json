@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/potencias-raices-y-notacion-cientifica",
+  "course": "matematica",
+  "slug": "potencias-raices-y-notacion-cientifica",
+  "title": "Potencias, raíces y notación científica",
+  "description": "Comprende exponentes y radicales, aproxima con criterio y representa cantidades grandes o pequeñas.",
+  "version": 1,
+  "order": 25,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Operar con potencias de base racional.",
+    "Distinguir valores exactos de aproximaciones.",
+    "Interpretar notación científica y órdenes de magnitud."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una potencia cuenta factores",
+      "body": [
+        "En aⁿ, a es la base y n es el exponente. Para n entero positivo, multiplicas n factores iguales a a: 3⁴ = 3 × 3 × 3 × 3 = 81. No multiplicas 3 por 4.",
+        "Los paréntesis deciden qué se eleva. (−2)² = 4 porque el negativo pertenece a la base; −2² = −4 porque primero se eleva 2 y luego se cambia el signo.",
+        "Si a no es cero, a⁰ = 1 y a⁻ⁿ = 1/aⁿ. El exponente negativo indica un recíproco, no un resultado necesariamente negativo."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-01"
+    },
+    {
+      "type": "example",
+      "title": "Combina potencias de la misma base",
+      "body": [
+        "Resuelve (2³ × 2⁴) ÷ 2⁵. En el numerador hay siete factores 2: 2³ × 2⁴ = 2⁷.",
+        "Al dividir se cancelan cinco factores: 2⁷ ÷ 2⁵ = 2² = 4. Las reglas aᵐ × aⁿ = aᵐ⁺ⁿ y aᵐ ÷ aⁿ = aᵐ⁻ⁿ requieren la misma base; en un cociente, base no nula."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-02"
+    },
+    {
+      "type": "learn",
+      "title": "Potencia de una fracción",
+      "body": [
+        "Para elevar una fracción a un entero positivo, eleva numerador y denominador: (2/3)² = 4/9.",
+        "Una potencia de potencia multiplica exponentes: (3²)³ = 3⁶. En cambio, una suma no se distribuye: (2 + 3)² = 25, mientras 2² + 3² = 13."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-03"
+    },
+    {
+      "type": "question",
+      "title": "Un recíproco",
+      "body": [],
+      "prompt": "¿Cuál es el valor de 2⁻³?",
+      "choices": [
+        {
+          "text": "−8",
+          "explanation": "Un exponente negativo no cambia el signo de la base: indica tomar el recíproco."
+        },
+        {
+          "text": "1/8",
+          "explanation": "2⁻³ = 1/2³ = 1/8."
+        },
+        {
+          "text": "1/6",
+          "explanation": "El exponente no multiplica a la base; 2³ vale 8, no 6."
+        }
+      ],
+      "correct": 1,
+      "hint": "Reescribe el exponente negativo como un denominador.",
+      "solution": [
+        "2³ = 8.",
+        "Por tanto, 2⁻³ = 1/8."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-04"
+    },
+    {
+      "type": "question",
+      "title": "La base completa",
+      "body": [],
+      "prompt": "¿Cuánto vale (−3)² − 3²?",
+      "choices": [
+        {
+          "text": "−18",
+          "explanation": "(−3)² es positivo porque se multiplican dos negativos."
+        },
+        {
+          "text": "18",
+          "explanation": "Ambas potencias valen 9; la operación que las une es resta."
+        },
+        {
+          "text": "0",
+          "explanation": "(−3)² = 9 y 3² = 9; su diferencia es cero."
+        }
+      ],
+      "correct": 2,
+      "hint": "Evalúa cada potencia antes de restar.",
+      "solution": [
+        "(−3) × (−3) = 9.",
+        "9 − 9 = 0."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-05"
+    },
+    {
+      "type": "question",
+      "title": "Exponente cero",
+      "body": [],
+      "prompt": "Si a = 7, ¿cuánto vale a⁰ + a¹?",
+      "choices": [
+        {
+          "text": "8",
+          "explanation": "7⁰ = 1 y 7¹ = 7; al sumar da 8."
+        },
+        {
+          "text": "7",
+          "explanation": "Falta contar 7⁰ = 1."
+        },
+        {
+          "text": "0",
+          "explanation": "Ninguna de estas potencias vale cero."
+        }
+      ],
+      "correct": 0,
+      "hint": "Toda base no nula elevada a cero vale uno.",
+      "solution": [
+        "a⁰ + a¹ = 1 + 7.",
+        "El resultado es 8."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-06"
+    },
+    {
+      "type": "question",
+      "title": "Fracción al cuadrado",
+      "body": [],
+      "prompt": "¿Cuál es (3/5)²?",
+      "choices": [
+        {
+          "text": "6/10",
+          "explanation": "Esto duplica términos en lugar de elevarlos al cuadrado."
+        },
+        {
+          "text": "9/25",
+          "explanation": "3² = 9 y 5² = 25."
+        },
+        {
+          "text": "9/5",
+          "explanation": "También debes elevar el denominador."
+        }
+      ],
+      "correct": 1,
+      "hint": "Eleva las dos partes de la fracción.",
+      "solution": [
+        "(3/5)² = (3 × 3)/(5 × 5).",
+        "Resultado: 9/25."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-07"
+    },
+    {
+      "type": "review",
+      "title": "El signo y la operación tienen papeles distintos",
+      "body": [
+        "Antes de usar una regla identifica si hay producto, cociente, suma o potencia de potencia. No sumes exponentes si las bases difieren.",
+        "Marca la base completa entre paréntesis. En (−a)² el negativo se eleva; en −a² se aplica después. Exponente cero no significa resultado cero."
+      ],
+      "level": 1,
+      "id": "potencias-raices-y-notacion-cientifica-08"
+    },
+    {
+      "type": "learn",
+      "title": "La raíz deshace una potencia",
+      "body": [
+        "La raíz cuadrada principal √a es el número no negativo cuyo cuadrado es a. Así, √49 = 7. La ecuación x² = 49 tiene dos soluciones, 7 y −7; el símbolo √49 por sí solo designa 7.",
+        "Un racional se puede escribir como cociente de enteros con denominador no nulo. √2 es irracional: su decimal no termina ni se repite periódicamente. Puedes aproximarlo, pero 1,414 no es su valor exacto."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-09"
+    },
+    {
+      "type": "example",
+      "title": "Aproxima sin fingir exactitud",
+      "body": [
+        "Para ubicar √50 observa que 7² = 49 y 8² = 64, de modo que 7 < √50 < 8.",
+        "Para una décima, 7,0² = 49 y 7,1² = 50,41. La raíz está entre 7,0 y 7,1 y su valor aproximado es 7,071…; redondeada a una décima es 7,1. Escribe √50 ≈ 7,1."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-10"
+    },
+    {
+      "type": "learn",
+      "title": "Simplificar es distinto de redondear",
+      "body": [
+        "Como 72 = 36 × 2, √72 = √36 × √2 = 6√2: esta igualdad es exacta. Si usas √2 ≈ 1,4142, entonces √72 ≈ 8,4852.",
+        "Redondea solo al final si los datos permiten conservar precisión. A dos decimales mira el tercer decimal: si es 5 o mayor aumenta la centésima; si es menor la mantienes."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-11"
+    },
+    {
+      "type": "question",
+      "title": "Raíz principal",
+      "body": [],
+      "prompt": "¿Cuál es √(81/16)?",
+      "choices": [
+        {
+          "text": "±9/4",
+          "explanation": "Las dos soluciones corresponden a x² = 81/16; el radical principal es solo la no negativa."
+        },
+        {
+          "text": "9/4",
+          "explanation": "√81/√16 = 9/4 y es no negativo."
+        },
+        {
+          "text": "81/4",
+          "explanation": "También debes extraer la raíz del numerador."
+        }
+      ],
+      "correct": 1,
+      "hint": "El símbolo de raíz cuadrada indica la raíz principal.",
+      "solution": [
+        "√81 = 9 y √16 = 4.",
+        "√(81/16) = 9/4."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-12"
+    },
+    {
+      "type": "question",
+      "title": "Una expresión exacta",
+      "body": [],
+      "prompt": "¿Cuál es la simplificación exacta de √75?",
+      "choices": [
+        {
+          "text": "25√3",
+          "explanation": "La raíz de 25 es 5, no 25."
+        },
+        {
+          "text": "5√3",
+          "explanation": "75 = 25 × 3 y √25 = 5."
+        },
+        {
+          "text": "8,66",
+          "explanation": "Es una aproximación decimal, no una igualdad exacta."
+        }
+      ],
+      "correct": 1,
+      "hint": "Extrae un factor cuadrado perfecto.",
+      "solution": [
+        "75 = 25 × 3.",
+        "√75 = 5√3."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-13"
+    },
+    {
+      "type": "question",
+      "title": "Ubica un irracional",
+      "body": [],
+      "prompt": "¿Entre qué enteros consecutivos está √30?",
+      "choices": [
+        {
+          "text": "4 y 5",
+          "explanation": "4² y 5² son 16 y 25, ambos menores que 30."
+        },
+        {
+          "text": "5 y 6",
+          "explanation": "25 < 30 < 36, de modo que 5 < √30 < 6."
+        },
+        {
+          "text": "6 y 7",
+          "explanation": "6² ya es 36, mayor que 30."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara 30 con cuadrados perfectos cercanos.",
+      "solution": [
+        "5² = 25 y 6² = 36.",
+        "La raíz queda entre 5 y 6."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-14"
+    },
+    {
+      "type": "question",
+      "title": "Redondea con una cifra de apoyo",
+      "body": [],
+      "prompt": "Un cálculo da 3,1468. ¿Cuál es su redondeo a dos decimales?",
+      "choices": [
+        {
+          "text": "3,14",
+          "explanation": "La tercera cifra decimal es 6, así que la centésima debe subir."
+        },
+        {
+          "text": "3,147",
+          "explanation": "Ese es el redondeo a tres decimales."
+        },
+        {
+          "text": "3,15",
+          "explanation": "La centésima 4 aumenta a 5 porque la milésima es 6."
+        }
+      ],
+      "correct": 2,
+      "hint": "Mira la cifra inmediatamente posterior a las dos que conservarás.",
+      "solution": [
+        "Se conservan inicialmente 3,14.",
+        "La cifra siguiente es 6: el resultado es 3,15."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-15"
+    },
+    {
+      "type": "review",
+      "title": "Separa exacto de aproximado",
+      "body": [
+        "√a no significa automáticamente ±√a. Esa doble respuesta aparece al resolver una ecuación cuadrática, no al evaluar el radical principal.",
+        "Usa = para una transformación exacta y ≈ cuando recortas o redondeas un decimal. No conviertas un resultado aproximado en dato exacto para justificar más precisión."
+      ],
+      "level": 2,
+      "id": "potencias-raices-y-notacion-cientifica-16"
+    },
+    {
+      "type": "learn",
+      "title": "Notación científica",
+      "body": [
+        "Una cantidad en notación científica se escribe a × 10ⁿ, con 1 ≤ |a| < 10 y n entero. Por ejemplo, 420 000 = 4,2 × 10⁵.",
+        "Un exponente positivo representa posiciones hacia cantidades grandes. Un exponente negativo representa cantidades pequeñas: 0,00063 = 6,3 × 10⁻⁴. Cuenta desplazamientos de la coma, no ceros visibles."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-17"
+    },
+    {
+      "type": "example",
+      "title": "Multiplica y normaliza",
+      "body": [
+        "(3 × 10⁴)(5 × 10⁻²) = 15 × 10². Multiplicamos coeficientes y sumamos exponentes de base 10.",
+        "15 no cumple ser menor que 10. Como 15 = 1,5 × 10, el resultado normalizado es 1,5 × 10³ = 1500."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-18"
+    },
+    {
+      "type": "learn",
+      "title": "Sumar exige la misma escala",
+      "body": [
+        "Para sumar 2 × 10⁵ + 3 × 10⁴, escribe 3 × 10⁴ = 0,3 × 10⁵. Así obtienes 2,3 × 10⁵.",
+        "En un cociente divide coeficientes y resta exponentes. Para estimar, verifica el orden de magnitud: dividir un número de miles entre uno de decenas suele producir una cantidad de centenas, no de millones."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-19"
+    },
+    {
+      "type": "question",
+      "title": "Una cantidad pequeña",
+      "body": [],
+      "prompt": "¿Cuál es la notación científica de 0,00072?",
+      "choices": [
+        {
+          "text": "7,2 × 10⁻⁴",
+          "explanation": "Mover la coma cuatro lugares produce 7,2; el exponente es −4."
+        },
+        {
+          "text": "72 × 10⁻⁵",
+          "explanation": "Es equivalente, pero no está normalizada porque 72 no es menor que 10."
+        },
+        {
+          "text": "7,2 × 10⁴",
+          "explanation": "Ese valor es 72 000, no una cantidad pequeña."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca un coeficiente entre 1 y 10.",
+      "solution": [
+        "0,00072 = 7,2/10 000.",
+        "Equivale a 7,2 × 10⁻⁴."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-20"
+    },
+    {
+      "type": "question",
+      "title": "Cociente de escalas",
+      "body": [],
+      "prompt": "¿Cuánto es (8 × 10⁶) ÷ (2 × 10²)?",
+      "choices": [
+        {
+          "text": "4 × 10⁸",
+          "explanation": "En el cociente se restan exponentes, no se suman."
+        },
+        {
+          "text": "4 × 10⁴",
+          "explanation": "8/2 = 4 y 10⁶/10² = 10⁴."
+        },
+        {
+          "text": "6 × 10⁴",
+          "explanation": "Los coeficientes se dividen, no se restan."
+        }
+      ],
+      "correct": 1,
+      "hint": "Resuelve coeficientes y potencias por separado.",
+      "solution": [
+        "8 ÷ 2 = 4.",
+        "6 − 2 = 4; resultado 4 × 10⁴."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-21"
+    },
+    {
+      "type": "question",
+      "title": "Suma con escala común",
+      "body": [],
+      "prompt": "¿Cuál es 5 × 10³ + 2 × 10²?",
+      "choices": [
+        {
+          "text": "7 × 10⁵",
+          "explanation": "No se suman exponentes al sumar cantidades."
+        },
+        {
+          "text": "7 × 10³",
+          "explanation": "2 × 10² son 200, no 2000."
+        },
+        {
+          "text": "5,2 × 10³",
+          "explanation": "5000 + 200 = 5200 = 5,2 × 10³."
+        }
+      ],
+      "correct": 2,
+      "hint": "Convierte ambas cantidades a unidades o a la misma potencia de diez.",
+      "solution": [
+        "2 × 10² = 0,2 × 10³.",
+        "(5 + 0,2) × 10³ = 5,2 × 10³."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-22"
+    },
+    {
+      "type": "question",
+      "title": "Valida una afirmación",
+      "body": [],
+      "prompt": "Una alumna afirma que √2 = 1,41 exactamente. ¿Cuál evaluación es correcta?",
+      "choices": [
+        {
+          "text": "Es una aproximación; 1,41² = 1,9881, distinto de 2",
+          "explanation": "El decimal redondeado no tiene el cuadrado requerido para ser la raíz exacta."
+        },
+        {
+          "text": "Es exacto porque tiene dos decimales",
+          "explanation": "La cantidad de decimales no garantiza exactitud."
+        },
+        {
+          "text": "Es falso porque √2 es negativo",
+          "explanation": "La raíz principal de 2 es positiva."
+        }
+      ],
+      "correct": 0,
+      "hint": "Comprueba elevando al cuadrado el decimal propuesto.",
+      "solution": [
+        "1,41 × 1,41 = 1,9881.",
+        "Como no es 2, corresponde escribir √2 ≈ 1,41."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-23"
+    },
+    {
+      "type": "review",
+      "title": "Revisa la escala antes de cerrar",
+      "body": [
+        "En notación científica comprueba que el coeficiente tenga valor absoluto entre 1 y 10, y que la potencia devuelva la cantidad inicial.",
+        "En sumas alinea escalas; en productos suma exponentes; en cocientes réstalos. Conserva precisión durante el procedimiento y redondea según lo pedido al final."
+      ],
+      "level": 3,
+      "id": "potencias-raices-y-notacion-cientifica-24"
+    }
+  ]
+}

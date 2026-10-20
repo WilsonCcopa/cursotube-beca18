@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "topics": 64,
+  "steps": 1536,
+  "questions": 768,
+  "alternativeExplanations": 2306,
+  "averageExplanationCharacters": 55.2,
+  "uniquePassageParagraphs": 396,
+  "copiedSourcePassages": [],
+  "crossTopicRepeatedPassages": [],
+  "exactDuplicateQuestions": [],
+  "diagramCounts": {
+    "textmap": 39,
+    "highlight": 19,
+    "bars": 22,
+    "geometry": 6,
+    "factors": 2,
+    "function": 7,
+    "balance": 1,
+    "fraction": 2,
+    "interval": 1,
+    "numberline": 1
+  },
+  "correctChoicePositions": {
+    "1": 290,
+    "0": 237,
+    "2": 240,
+    "3": 1
+  },
+  "publishedTopicsPreserved": 10
+}

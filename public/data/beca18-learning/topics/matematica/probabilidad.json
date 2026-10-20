@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/probabilidad",
+  "course": "matematica",
+  "slug": "probabilidad",
+  "title": "Probabilidad y sucesos",
+  "description": "Construye espacios muestrales, cuenta casos y distingue certeza, posibilidad e independencia.",
+  "version": 1,
+  "order": 35,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Describir resultados y sucesos de un experimento.",
+    "Calcular probabilidades cuando los casos son equiprobables.",
+    "Resolver complementos y selecciones sucesivas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Qué puede ocurrir",
+      "body": [
+        "Un experimento aleatorio tiene resultados que no conocemos con certeza antes de realizarlo. El espacio muestral reúne todos los resultados posibles según el modelo.",
+        "Al lanzar un dado común ideal, Ω = {1, 2, 3, 4, 5, 6}. Un suceso es un conjunto de resultados, por ejemplo obtener un par: {2, 4, 6}.",
+        "Un suceso seguro contiene todo el espacio; uno imposible no contiene ningún resultado. Entre ellos hay sucesos posibles que pueden ocurrir o no."
+      ],
+      "level": 1,
+      "id": "probabilidad-01"
+    },
+    {
+      "type": "example",
+      "title": "Cuenta antes de dividir",
+      "body": [
+        "En un dado ideal las seis caras son igualmente probables. Para obtener un número mayor que 4 hay dos casos: 5 y 6.",
+        "P(mayor que 4) = 2/6 = 1/3. La regla casos favorables/casos totales exige casos igualmente probables; no basta contar categorías con tamaños distintos."
+      ],
+      "level": 1,
+      "id": "probabilidad-02"
+    },
+    {
+      "type": "explore",
+      "title": "Del conteo al conjunto",
+      "body": [
+        "Abre cada conjunto y distingue un resultado individual de un suceso. El ejemplo usa un dado ideal de seis caras."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Espacio muestral",
+            "text": "1, 2, 3, 4, 5 y 6: seis resultados equiprobables."
+          },
+          {
+            "label": "Suceso par",
+            "text": "2, 4 y 6: tres de los seis resultados."
+          },
+          {
+            "label": "Suceso imposible",
+            "text": "Obtener 9 no aparece en este espacio."
+          },
+          {
+            "label": "Suceso seguro",
+            "text": "Obtener un número entre 1 y 6 incluye todos los resultados."
+          }
+        ]
+      },
+      "level": 1,
+      "id": "probabilidad-03"
+    },
+    {
+      "type": "question",
+      "title": "Seguro",
+      "body": [],
+      "prompt": "En un dado común ideal, ¿qué suceso es seguro?",
+      "choices": [
+        {
+          "text": "Obtener un número menor que 7",
+          "explanation": "Las seis caras cumplen esa condición."
+        },
+        {
+          "text": "Obtener 6",
+          "explanation": "Es posible, pero ocurre en solo una de seis caras."
+        },
+        {
+          "text": "Obtener un número mayor que 6",
+          "explanation": "No hay una cara que lo cumpla."
+        }
+      ],
+      "correct": 0,
+      "hint": "Un suceso seguro contiene todo el espacio muestral.",
+      "solution": [
+        "Todas las caras son 1, 2, 3, 4, 5 o 6.",
+        "Todas son menores que 7."
+      ],
+      "level": 1,
+      "id": "probabilidad-04"
+    },
+    {
+      "type": "question",
+      "title": "Imposible",
+      "body": [],
+      "prompt": "Una bolsa contiene únicamente fichas azules y verdes. ¿Qué suceso es imposible al extraer una ficha?",
+      "choices": [
+        {
+          "text": "Obtener azul",
+          "explanation": "Hay fichas azules, así que puede ocurrir."
+        },
+        {
+          "text": "Obtener rojo",
+          "explanation": "No hay ninguna ficha roja en la bolsa."
+        },
+        {
+          "text": "Obtener verde",
+          "explanation": "Hay fichas verdes, así que puede ocurrir."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca un resultado que no esté en el espacio descrito.",
+      "solution": [
+        "Solo existen dos colores en esa bolsa.",
+        "El rojo queda fuera del espacio."
+      ],
+      "level": 1,
+      "id": "probabilidad-05"
+    },
+    {
+      "type": "question",
+      "title": "Una cara entre seis",
+      "body": [],
+      "prompt": "En un dado ideal, ¿cuál es la probabilidad de obtener un múltiplo de 3?",
+      "choices": [
+        {
+          "text": "1/6",
+          "explanation": "Hay dos múltiplos de 3: 3 y 6, no solo uno."
+        },
+        {
+          "text": "1/2",
+          "explanation": "Tres casos favorables darían 1/2; aquí hay dos."
+        },
+        {
+          "text": "1/3",
+          "explanation": "Los favorables son 3 y 6: 2/6 = 1/3."
+        }
+      ],
+      "correct": 2,
+      "hint": "Lista las caras que cumplen la condición.",
+      "solution": [
+        "Casos favorables: {3, 6}.",
+        "P = 2/6 = 1/3."
+      ],
+      "level": 1,
+      "id": "probabilidad-06"
+    },
+    {
+      "type": "question",
+      "title": "Cuenta objetos, no nombres",
+      "body": [],
+      "prompt": "Una bolsa tiene 4 fichas rojas y 6 azules, todas del mismo tamaño. Si cada ficha tiene igual probabilidad de salir, ¿cuál es P(roja)?",
+      "choices": [
+        {
+          "text": "1/2",
+          "explanation": "Dos colores no significan colores equiprobables: sus cantidades son distintas."
+        },
+        {
+          "text": "2/5",
+          "explanation": "Hay 4 rojas entre 10 fichas: 4/10 = 2/5."
+        },
+        {
+          "text": "2/3",
+          "explanation": "4/6 compara rojas con azules, no con el total."
+        }
+      ],
+      "correct": 1,
+      "hint": "El total incluye ambos colores.",
+      "solution": [
+        "4 + 6 = 10 fichas.",
+        "P(roja) = 4/10 = 2/5."
+      ],
+      "level": 1,
+      "id": "probabilidad-07"
+    },
+    {
+      "type": "review",
+      "title": "Declara el modelo de azar",
+      "body": [
+        "La fórmula de conteo necesita resultados equiprobables. Una bolsa con más objetos de un color no reparte probabilidad por igual entre los nombres de colores.",
+        "Una probabilidad está entre 0 y 1. Cero corresponde a imposible dentro de un espacio finito equiprobable; uno corresponde a seguro."
+      ],
+      "level": 1,
+      "id": "probabilidad-08"
+    },
+    {
+      "type": "learn",
+      "title": "Complemento: lo que no ocurre",
+      "body": [
+        "El complemento de A, escrito no A, reúne los resultados que no pertenecen a A. En un mismo experimento, P(no A) = 1 − P(A).",
+        "Para A o B debes contar cada resultado una sola vez. Si los sucesos son disjuntos, no comparten resultados y sus probabilidades se suman directamente. Si se superponen, resta la probabilidad de la parte compartida."
+      ],
+      "level": 2,
+      "id": "probabilidad-09"
+    },
+    {
+      "type": "example",
+      "title": "No cuentes dos veces el 6",
+      "body": [
+        "En un dado, A = obtener par = {2, 4, 6} y B = obtener múltiplo de 3 = {3, 6}.",
+        "A o B = {2, 3, 4, 6}: cuatro resultados. También P(A o B) = 3/6 + 2/6 − 1/6 = 4/6 = 2/3. El 6 se restó una vez porque estaba contado en ambos."
+      ],
+      "level": 2,
+      "id": "probabilidad-10"
+    },
+    {
+      "type": "learn",
+      "title": "Dos decisiones generan pares",
+      "body": [
+        "Dos lanzamientos de una moneda ideal generan CC, CS, SC y SS, donde C es cara y S sello. CS y SC son distintos porque el orden de los lanzamientos cambia.",
+        "Si cada etapa tiene m y n opciones y todas las combinaciones son posibles, hay m × n pares. En dos dados distinguibles hay 6 × 6 = 36 pares equiprobables; las sumas no son equiprobables."
+      ],
+      "level": 2,
+      "id": "probabilidad-11"
+    },
+    {
+      "type": "question",
+      "title": "Probabilidad de no ganar",
+      "body": [],
+      "prompt": "Un sorteo tiene 20 boletos equiprobables y 3 son ganadores. ¿Cuál es la probabilidad de no ganar con un boleto?",
+      "choices": [
+        {
+          "text": "17/20",
+          "explanation": "Los 17 boletos restantes no ganan."
+        },
+        {
+          "text": "3/20",
+          "explanation": "Esa es la probabilidad de ganar."
+        },
+        {
+          "text": "17/3",
+          "explanation": "Una probabilidad no puede superar 1."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa el complemento del suceso ganar.",
+      "solution": [
+        "P(ganar) = 3/20.",
+        "P(no ganar) = 1 − 3/20 = 17/20."
+      ],
+      "level": 2,
+      "id": "probabilidad-12"
+    },
+    {
+      "type": "question",
+      "title": "Una unión con superposición",
+      "body": [],
+      "prompt": "En un dado ideal, ¿cuál es P(obtener par o mayor que 4)?",
+      "choices": [
+        {
+          "text": "5/6",
+          "explanation": "El 6 se contó dos veces al sumar 3 + 2."
+        },
+        {
+          "text": "2/3",
+          "explanation": "Los favorables son 2, 4, 5 y 6: 4/6."
+        },
+        {
+          "text": "1/6",
+          "explanation": "Eso cuenta solo el resultado compartido, 6."
+        }
+      ],
+      "correct": 1,
+      "hint": "Lista la unión sin repetir resultados.",
+      "solution": [
+        "Pares: {2, 4, 6}. Mayores que 4: {5, 6}.",
+        "Unión: {2, 4, 5, 6}; probabilidad 2/3."
+      ],
+      "level": 2,
+      "id": "probabilidad-13"
+    },
+    {
+      "type": "question",
+      "title": "Una sola cara",
+      "body": [],
+      "prompt": "Se lanza dos veces una moneda ideal e independiente. ¿Cuál es la probabilidad de obtener exactamente una cara?",
+      "choices": [
+        {
+          "text": "1/4",
+          "explanation": "Hay dos secuencias favorables, CS y SC."
+        },
+        {
+          "text": "3/4",
+          "explanation": "Tres secuencias corresponden a al menos una cara, no exactamente una."
+        },
+        {
+          "text": "1/2",
+          "explanation": "CS y SC son dos de cuatro secuencias equiprobables."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue exactamente una de al menos una.",
+      "solution": [
+        "Espacio: CC, CS, SC, SS.",
+        "Favorables: CS y SC; P = 2/4 = 1/2."
+      ],
+      "level": 2,
+      "id": "probabilidad-14"
+    },
+    {
+      "type": "question",
+      "title": "Las sumas no tienen el mismo peso",
+      "body": [],
+      "prompt": "Al lanzar dos dados ideales independientes, ¿cuál es la probabilidad de suma 7?",
+      "choices": [
+        {
+          "text": "1/11",
+          "explanation": "Hay once sumas posibles, pero no son equiprobables."
+        },
+        {
+          "text": "1/6",
+          "explanation": "Son seis pares entre 36: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)."
+        },
+        {
+          "text": "1/36",
+          "explanation": "Ese valor corresponde a un solo par específico."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cuenta pares ordenados, no solo valores de la suma.",
+      "solution": [
+        "Hay 36 pares equiprobables.",
+        "Seis suman 7.",
+        "P = 6/36 = 1/6."
+      ],
+      "level": 2,
+      "id": "probabilidad-15"
+    },
+    {
+      "type": "review",
+      "title": "Comprueba qué cuenta tu denominador",
+      "body": [
+        "En dos dados, 36 cuenta pares; 11 cuenta posibles sumas. Solo el primer conjunto es equiprobable en este modelo.",
+        "En una unión revisa si un resultado aparece en ambos sucesos. En el complemento asegúrate de que ambos sucesos cubren todo el espacio y no se superponen."
+      ],
+      "level": 2,
+      "id": "probabilidad-16"
+    },
+    {
+      "type": "learn",
+      "title": "Con reposición y sin reposición",
+      "body": [
+        "Con reposición devuelves el objeto antes de la segunda extracción; las cantidades pueden permanecer iguales. Sin reposición, el total disminuye y la composición depende de lo que salió.",
+        "Para una secuencia usa probabilidades condicionadas por lo ocurrido antes: P(A y luego B) = P(A) × P(B dado A). No afirmes independencia cuando retirar una ficha cambia la segunda probabilidad."
+      ],
+      "level": 3,
+      "id": "probabilidad-17"
+    },
+    {
+      "type": "example",
+      "title": "Dos rojas sin devolver",
+      "body": [
+        "Hay 3 rojas y 2 azules. Sin reposición, P(dos rojas) = (3/5) × (2/4) = 6/20 = 3/10.",
+        "La segunda fracción usa dos rojas entre cuatro fichas porque ya salió una roja. Si se devolviera la primera, sería (3/5) × (3/5) = 9/25."
+      ],
+      "level": 3,
+      "id": "probabilidad-18"
+    },
+    {
+      "type": "learn",
+      "title": "La información reduce el espacio",
+      "body": [
+        "Si eliges al azar un número del 1 al 12 y te dicen que es par, el nuevo espacio compatible es {2, 4, 6, 8, 10, 12}.",
+        "Entre esos seis números, 6 y 12 son múltiplos de 3. La probabilidad bajo la información dada es 2/6 = 1/3. No uses los doce originales si ya conoces que el resultado es par."
+      ],
+      "level": 3,
+      "id": "probabilidad-19"
+    },
+    {
+      "type": "question",
+      "title": "Dos azules sin reposición",
+      "body": [],
+      "prompt": "Una bolsa tiene 4 azules y 2 rojas. Se extraen dos sin reposición. ¿Cuál es P(dos azules)?",
+      "choices": [
+        {
+          "text": "4/9",
+          "explanation": "Ese valor usa reposición: (4/6)²."
+        },
+        {
+          "text": "2/5",
+          "explanation": "(4/6) × (3/5) = 12/30 = 2/5."
+        },
+        {
+          "text": "2/3",
+          "explanation": "Es la probabilidad solo de la primera azul."
+        }
+      ],
+      "correct": 1,
+      "hint": "Después de la primera azul quedan tres azules y cinco fichas.",
+      "solution": [
+        "P(primera azul) = 4/6.",
+        "P(segunda azul dado la primera) = 3/5.",
+        "Producto: 2/5."
+      ],
+      "level": 3,
+      "id": "probabilidad-20"
+    },
+    {
+      "type": "question",
+      "title": "Con reposición",
+      "body": [],
+      "prompt": "Hay 2 verdes y 3 blancas. Se extrae una, se devuelve y se extrae otra. ¿Cuál es P(dos verdes)?",
+      "choices": [
+        {
+          "text": "1/10",
+          "explanation": "Eso corresponde a no devolver la primera: (2/5)(1/4) = 1/10."
+        },
+        {
+          "text": "4/25",
+          "explanation": "Cada extracción conserva probabilidad 2/5; el producto es 4/25."
+        },
+        {
+          "text": "4/5",
+          "explanation": "Sumar 2/5 + 2/5 no calcula una secuencia de dos verdes."
+        }
+      ],
+      "correct": 1,
+      "hint": "La reposición restaura la composición antes de la segunda extracción.",
+      "solution": [
+        "P(verde en cada extracción) = 2/5.",
+        "(2/5)(2/5) = 4/25."
+      ],
+      "level": 3,
+      "id": "probabilidad-21"
+    },
+    {
+      "type": "question",
+      "title": "Al menos una cara",
+      "body": [],
+      "prompt": "En tres lanzamientos ideales independientes de moneda, ¿cuál es P(al menos una cara)?",
+      "choices": [
+        {
+          "text": "7/8",
+          "explanation": "El único caso sin caras es SSS, de probabilidad 1/8; usa su complemento."
+        },
+        {
+          "text": "3/8",
+          "explanation": "No se limita a exactamente una cara."
+        },
+        {
+          "text": "1/2",
+          "explanation": "Tener dos tipos de cara no reduce ocho secuencias a dos resultados equiprobables."
+        }
+      ],
+      "correct": 0,
+      "hint": "Es más fácil contar ninguna cara.",
+      "solution": [
+        "Hay 2³ = 8 secuencias equiprobables.",
+        "Solo SSS no tiene caras.",
+        "P = 1 − 1/8 = 7/8."
+      ],
+      "level": 3,
+      "id": "probabilidad-22"
+    },
+    {
+      "type": "question",
+      "title": "Una condición cambia el total",
+      "body": [],
+      "prompt": "Se elige uniformemente un entero del 1 al 12. Sabiendo que es par, ¿cuál es la probabilidad de que sea múltiplo de 3?",
+      "choices": [
+        {
+          "text": "1/6",
+          "explanation": "2/12 ignora que ya se sabe que el número es par."
+        },
+        {
+          "text": "1/2",
+          "explanation": "Tres de seis sería 1/2, pero solo 6 y 12 cumplen ambas condiciones."
+        },
+        {
+          "text": "1/3",
+          "explanation": "Dentro de los seis pares, dos son múltiplos de 3."
+        }
+      ],
+      "correct": 2,
+      "hint": "Limita primero el espacio a los números pares.",
+      "solution": [
+        "Pares: 2, 4, 6, 8, 10, 12.",
+        "Favorables: 6 y 12.",
+        "2/6 = 1/3."
+      ],
+      "level": 3,
+      "id": "probabilidad-23"
+    },
+    {
+      "type": "review",
+      "title": "Escribe qué cambia entre etapas",
+      "body": [
+        "Anota la composición después de cada extracción. Si no devuelves objetos, reduce el total y, cuando corresponda, el número de favorables.",
+        "Antes de multiplicar decide qué evento condiciona la segunda etapa. Para al menos uno considera el complemento ninguno. Tener muchos intentos no vuelve seguro un resultado en un número finito de ensayos."
+      ],
+      "level": 3,
+      "id": "probabilidad-24"
+    }
+  ]
+}

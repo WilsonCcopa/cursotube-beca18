@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/sistemas-lineales-fundamentos",
+  "course": "matematica",
+  "slug": "sistemas-lineales-fundamentos",
+  "title": "Sistemas lineales: fundamentos",
+  "description": "Encuentra soluciones simultáneas y traduce situaciones a dos ecuaciones coherentes.",
+  "version": 1,
+  "order": 15,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Comprobar pares ordenados y sistemas equivalentes.",
+    "Resolver por sustitución, reducción, igualación, gráfico y determinantes.",
+    "Distinguir una, ninguna o infinitas soluciones e interpretar modelos."
+  ],
+  "steps": [
+    {
+      "id": "sistemas-lineales-fundamentos-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Dos condiciones al mismo tiempo",
+      "body": [
+        "Un sistema lineal de dos variables reúne ecuaciones como x + y = 5 y 2x − y = 1. Resolverlo es encontrar pares (x,y) que satisfacen ambas simultáneamente.",
+        "El par (2,3) funciona: 2 + 3 = 5 y 4 − 3 = 1. Un par que solo cumple una ecuación no resuelve el sistema.",
+        "Una ecuación lineal tiene variables de primer grado sin productos entre ellas, como 3x − 2y = 7. x² + y = 7 o xy = 7 no son lineales."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-02",
+      "level": 1,
+      "type": "example",
+      "title": "Comprueba un candidato",
+      "body": [
+        "Para x + y = 7 y x − y = 1, probamos (4,3). Primer miembro: 4 + 3 = 7; segundo: 4 − 3 = 1. Cumple ambas.",
+        "Probamos (5,2): suma 7, pero diferencia 3. Solo cumple la primera y queda descartado.",
+        "El orden del par importa. (4,3) indica x = 4 e y = 3; intercambiarlo puede cambiar el resultado de las ecuaciones."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Transformaciones que conservan soluciones",
+      "body": [
+        "Puedes multiplicar una ecuación por un número no nulo o sumar a ella un múltiplo de la otra. Si conservas información equivalente, el conjunto solución no cambia.",
+        "Sistemas equivalentes tienen las mismas soluciones, aunque sus ecuaciones se vean distintas. Reemplazar ambas ecuaciones por una sola suma puede perder una condición.",
+        "Define qué representa cada variable y su unidad antes de modelar: x e y pueden contar personas, precios o longitudes, pero cada ecuación debe relacionar cantidades compatibles."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-04",
+      "level": 1,
+      "type": "question",
+      "title": "Comprueba ambas ecuaciones",
+      "body": [],
+      "prompt": "¿Qué par resuelve x + y = 5 y 2x − y = 1?",
+      "choices": [
+        {
+          "text": "(2,3)",
+          "explanation": "2 + 3 = 5 y 2(2) − 3 = 1."
+        },
+        {
+          "text": "(3,2)",
+          "explanation": "La suma es 5, pero 2(3) − 2 = 4, no 1."
+        },
+        {
+          "text": "(1,4)",
+          "explanation": "La suma es 5, pero 2(1) − 4 = −2."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sustituye cada par en las dos ecuaciones.",
+      "solution": [
+        "El par (2,3) cumple la suma 5.",
+        "También cumple la diferencia ponderada 1.",
+        "Es solución simultánea."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-05",
+      "level": 1,
+      "type": "question",
+      "title": "Orden del par",
+      "body": [],
+      "prompt": "Si (x,y) = (−1,4), ¿cuánto vale 3x + 2y?",
+      "choices": [
+        {
+          "text": "11",
+          "explanation": "Tomar x = 1 en vez de −1 cambia el signo del primer producto."
+        },
+        {
+          "text": "5",
+          "explanation": "3(−1) + 2(4) = −3 + 8 = 5."
+        },
+        {
+          "text": "10",
+          "explanation": "Intercambiar x e y da 3(4) + 2(−1) = 10."
+        }
+      ],
+      "correct": 1,
+      "hint": "La primera coordenada corresponde a x.",
+      "solution": [
+        "x = −1 e y = 4.",
+        "3x + 2y = −3 + 8 = 5."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-06",
+      "level": 1,
+      "type": "question",
+      "title": "Una ecuación equivalente",
+      "body": [],
+      "prompt": "¿Qué ecuación se obtiene al multiplicar x − 2y = 3 por −2 sin alterar sus soluciones?",
+      "choices": [
+        {
+          "text": "−2x − 4y = −6",
+          "explanation": "El producto de −2 por −2y es +4y, no −4y."
+        },
+        {
+          "text": "−2x + 4y = 3",
+          "explanation": "Se multiplicó solo un miembro y se rompió la equivalencia."
+        },
+        {
+          "text": "−2x + 4y = −6",
+          "explanation": "Todos los términos se multiplican por −2."
+        }
+      ],
+      "correct": 2,
+      "hint": "Aplica el mismo factor a cada término de ambos miembros.",
+      "solution": [
+        "(−2)x + (−2)(−2y) = (−2)3.",
+        "−2x + 4y = −6."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-07",
+      "level": 1,
+      "type": "question",
+      "title": "Reconoce un sistema lineal",
+      "body": [],
+      "prompt": "¿Qué par de ecuaciones forma un sistema lineal en x e y?",
+      "choices": [
+        {
+          "text": "2x + y = 8; x − 3y = 1",
+          "explanation": "Ambas contienen variables de primer grado, sin productos entre ellas."
+        },
+        {
+          "text": "x² + y = 8; x − y = 1",
+          "explanation": "La primera ecuación contiene x² y no es lineal."
+        },
+        {
+          "text": "xy = 8; x + y = 1",
+          "explanation": "El producto xy impide que la primera ecuación sea lineal."
+        }
+      ],
+      "correct": 0,
+      "hint": "Revisa las dos ecuaciones, no solo una.",
+      "solution": [
+        "2x + y y x − 3y son expresiones lineales.",
+        "El sistema indicado es lineal en ambas ecuaciones."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-08",
+      "level": 1,
+      "type": "review",
+      "title": "Simultáneo significa todas las condiciones",
+      "body": [
+        "Un par no es solución por satisfacer solo la suma o solo una ecuación. Comprueba ambas y conserva el orden de variables.",
+        "Las operaciones equivalentes deben afectar a toda la ecuación y mantener las dos condiciones del sistema. Al modelar, no mezcles cantidades de unidades distintas en una misma suma."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Sustitución y reducción",
+      "body": [
+        "En sustitución, despeja una variable en una ecuación y reemplázala en la otra. Para x + y = 9 y x − y = 3, escribe x = 9 − y y sustituye: 9 − 2y = 3.",
+        "En reducción, suma o resta ecuaciones para eliminar una variable. Si sus coeficientes no son opuestos, multiplica antes una o ambas por factores adecuados.",
+        "Una vez hallada una variable, vuelve a una ecuación para calcular la otra. Entregar solo x no expresa el par completo, salvo que eso sea lo único pedido."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-10",
+      "level": 2,
+      "type": "example",
+      "title": "Elimina con coeficientes opuestos",
+      "body": [
+        "Resuelve 2x + 3y = 12 y 4x − 3y = 6. Al sumar, 6x = 18, por lo que x = 3.",
+        "Sustituye en la primera: 6 + 3y = 12, de donde y = 2.",
+        "Comprobación: 2(3) + 3(2) = 12 y 4(3) − 3(2) = 6. El par (3,2) cumple las dos ecuaciones."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Igualación y lectura gráfica",
+      "body": [
+        "En igualación, despeja la misma variable en ambas ecuaciones. Si y = 2x + 1 e y = 7 − x, iguala 2x + 1 = 7 − x.",
+        "Gráficamente, cada ecuación lineal representa una recta. Si se cortan en un punto, el sistema es compatible determinado: una solución. Si coinciden, es compatible indeterminado: infinitas.",
+        "Si son paralelas distintas, es incompatible: ninguna solución. Al reducir, 0 = 0 indica una condición repetida; 0 = k con k ≠ 0 indica contradicción. La clasificación requiere mirar el sistema completo."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-12",
+      "level": 2,
+      "type": "question",
+      "title": "Sustituye para eliminar",
+      "body": [],
+      "prompt": "Resuelve x + y = 9 y x − y = 3.",
+      "choices": [
+        {
+          "text": "(3,6)",
+          "explanation": "Su diferencia es −3, no 3."
+        },
+        {
+          "text": "(9,3)",
+          "explanation": "La suma da 12, así que no satisface la primera ecuación."
+        },
+        {
+          "text": "(6,3)",
+          "explanation": "Sumar ambas da 2x = 12; luego y = 3."
+        }
+      ],
+      "correct": 2,
+      "hint": "Puedes sustituir x = 9 − y en la segunda.",
+      "solution": [
+        "9 − y − y = 3.",
+        "2y = 6; y = 3.",
+        "x = 9 − 3 = 6."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-13",
+      "level": 2,
+      "type": "question",
+      "title": "Reducción con signos opuestos",
+      "body": [],
+      "prompt": "Resuelve 2x + 3y = 12 y 4x − 3y = 6.",
+      "choices": [
+        {
+          "text": "(3,2)",
+          "explanation": "Al sumar se obtiene x = 3 y al sustituir resulta y = 2."
+        },
+        {
+          "text": "(2,3)",
+          "explanation": "La primera da 13, no 12."
+        },
+        {
+          "text": "(3,−2)",
+          "explanation": "El signo de y hace fallar ambas ecuaciones."
+        }
+      ],
+      "correct": 0,
+      "hint": "Los coeficientes de y ya son opuestos.",
+      "solution": [
+        "6x = 18; x = 3.",
+        "6 + 3y = 12; y = 2.",
+        "La solución es (3,2)."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-14",
+      "level": 2,
+      "type": "question",
+      "title": "Dos rectas coincidentes",
+      "body": [],
+      "prompt": "¿Cómo se clasifica x + y = 4 junto con 2x + 2y = 8?",
+      "choices": [
+        {
+          "text": "Incompatible",
+          "explanation": "Sí hay soluciones, por ejemplo (0,4) y (2,2)."
+        },
+        {
+          "text": "Compatible indeterminado",
+          "explanation": "La segunda es el doble de la primera; ambas describen la misma recta."
+        },
+        {
+          "text": "Compatible determinado",
+          "explanation": "Una sola condición independiente deja infinitos pares, no uno solo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide la segunda ecuación entre 2.",
+      "solution": [
+        "2x + 2y = 8 equivale a x + y = 4.",
+        "Se repite la misma condición: infinitas soluciones."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-15",
+      "level": 2,
+      "type": "question",
+      "title": "Una contradicción",
+      "body": [],
+      "prompt": "¿Qué ocurre con x + y = 4 y 2x + 2y = 10?",
+      "choices": [
+        {
+          "text": "Tiene infinitas soluciones",
+          "explanation": "Los coeficientes son proporcionales, pero los términos independientes no lo son."
+        },
+        {
+          "text": "Su única solución es (2,2)",
+          "explanation": "Ese par cumple la primera, pero en la segunda da 8 en vez de 10."
+        },
+        {
+          "text": "No tiene solución",
+          "explanation": "Duplicar la primera exige 2x + 2y = 8, incompatible con 10."
+        }
+      ],
+      "correct": 2,
+      "hint": "Compara el doble de la primera con la segunda.",
+      "solution": [
+        "2x + 2y = 8 y 2x + 2y = 10.",
+        "Al restar resulta 0 = 2, contradicción.",
+        "Las rectas son paralelas distintas."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-16",
+      "level": 2,
+      "type": "review",
+      "title": "Elige el método que simplifique",
+      "body": [
+        "Si una variable ya está despejada, sustitución o igualación puede ahorrar pasos. Si los coeficientes son opuestos, suma para reducir.",
+        "Tras cancelar variables, interpreta lo que queda: una contradicción no permite dividir para inventar un par. Una identidad tampoco significa x = 0; indica que una condición repite a la otra."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Determinantes en dos por dos",
+      "body": [
+        "Para ax + by = e y cx + dy = f, calcula D = ad − bc. Si D ≠ 0, hay solución única: x = (ed − bf)/D e y = (af − ec)/D.",
+        "Los numeradores se obtienen reemplazando la columna de la variable por los términos independientes. Mantén siempre el mismo orden de filas.",
+        "Si D = 0, las fórmulas no permiten dividir. Debes estudiar si las ecuaciones son compatibles indeterminadas o incompatibles; D = 0 por sí solo no distingue esos casos."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-18",
+      "level": 3,
+      "type": "example",
+      "title": "Un determinante comprobable",
+      "body": [
+        "En 2x + y = 7 y x − y = 2, D = 2(−1) − 1(1) = −3.",
+        "Dₓ = 7(−1) − 1(2) = −9; Dᵧ = 2(2) − 7(1) = −3. Entonces x = 3 e y = 1.",
+        "Comprobación: 6 + 1 = 7 y 3 − 1 = 2. La regla de determinantes llega al mismo par que sustitución o reducción."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Modela dos relaciones independientes",
+      "body": [
+        "En entradas con dos tarifas, una ecuación cuenta personas y otra suma el dinero. En una prueba con aciertos y errores, una cuenta respuestas y otra suma puntos con sus signos.",
+        "Un número de dos cifras con decena a y unidad b es 10a + b; el invertido es 10b + a. a debe estar entre 1 y 9 y b entre 0 y 9; si el invertido también tiene dos cifras, b no puede ser cero.",
+        "Para edades, el paso del tiempo se suma a cada edad real. Para rectángulos, el perímetro es 2(x + y), no xy. Las restricciones se comprueban después de resolver el sistema."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-20",
+      "level": 3,
+      "type": "question",
+      "title": "Determinante y solución",
+      "body": [],
+      "prompt": "Resuelve por cualquier método 2x + y = 7 y x − y = 2.",
+      "choices": [
+        {
+          "text": "(3,−1)",
+          "explanation": "Con y negativo la primera ecuación da 5 y la segunda 4."
+        },
+        {
+          "text": "(3,1)",
+          "explanation": "D = −3; los numeradores son −9 y −3, por lo que x = 3 e y = 1."
+        },
+        {
+          "text": "(1,3)",
+          "explanation": "El orden invertido hace que 2x + y sea 5, no 7."
+        }
+      ],
+      "correct": 1,
+      "hint": "Al sumar las ecuaciones se obtiene también 3x = 9.",
+      "solution": [
+        "D = 2(−1) − 1(1) = −3.",
+        "x = −9/−3 = 3; y = −3/−3 = 1.",
+        "Sustituimos y comprobamos ambas."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-21",
+      "level": 3,
+      "type": "question",
+      "title": "Dos tarifas",
+      "body": [],
+      "prompt": "Se venden 30 entradas: las de adulto cuestan 12 soles y las de estudiante 8. Se recaudan 280 soles. ¿Cuántas entradas de adulto se vendieron?",
+      "choices": [
+        {
+          "text": "20 entradas",
+          "explanation": "20 es la cantidad de entradas de estudiante."
+        },
+        {
+          "text": "15 entradas",
+          "explanation": "15 de cada tipo recaudarían 300 soles, no 280."
+        },
+        {
+          "text": "10 entradas",
+          "explanation": "a + e = 30 y 12a + 8e = 280 dan 4a = 40."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resta el costo de 30 entradas de estudiante a la recaudación real.",
+      "solution": [
+        "Si todas fueran de estudiante: 30 × 8 = 240.",
+        "La diferencia 40 corresponde a 4 soles extra por adulto.",
+        "a = 40/4 = 10."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-22",
+      "level": 3,
+      "type": "question",
+      "title": "Puntos con descuentos",
+      "body": [],
+      "prompt": "Una prueba tiene 40 preguntas, todas contestadas. Cada acierto vale 3 puntos y cada error resta 1. Si el puntaje es 84, ¿cuántos aciertos hubo?",
+      "choices": [
+        {
+          "text": "31 aciertos",
+          "explanation": "c + i = 40 y 3c − i = 84 suman 4c = 124."
+        },
+        {
+          "text": "28 aciertos",
+          "explanation": "84/3 ignora los puntos descontados por respuestas incorrectas."
+        },
+        {
+          "text": "9 aciertos",
+          "explanation": "9 es la cantidad de errores del sistema correcto."
+        }
+      ],
+      "correct": 0,
+      "hint": "La ecuación de puntaje debe restar los errores.",
+      "solution": [
+        "c + i = 40.",
+        "3c − i = 84.",
+        "Al sumar: 4c = 124, c = 31; quedan 9 errores."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-23",
+      "level": 3,
+      "type": "question",
+      "title": "Cifras y número invertido",
+      "body": [],
+      "prompt": "Un número de dos cifras tiene suma de cifras 11 y supera a su invertido en 27. ¿Cuál es el número?",
+      "choices": [
+        {
+          "text": "83",
+          "explanation": "Sus cifras suman 11, pero 83 − 38 = 45, no 27."
+        },
+        {
+          "text": "74",
+          "explanation": "a + b = 11 y 9(a − b) = 27 dan a = 7, b = 4."
+        },
+        {
+          "text": "47",
+          "explanation": "47 es el invertido y resulta 27 menor, no mayor."
+        }
+      ],
+      "correct": 1,
+      "hint": "Representa el número como 10a + b y su invertido como 10b + a.",
+      "solution": [
+        "(10a + b) − (10b + a) = 27, así que a − b = 3.",
+        "Junto con a + b = 11 da 2a = 14.",
+        "a = 7, b = 4; el número es 74."
+      ]
+    },
+    {
+      "id": "sistemas-lineales-fundamentos-24",
+      "level": 3,
+      "type": "review",
+      "title": "Del sistema a una respuesta válida",
+      "body": [
+        "La solución algebraica debe cumplir el contexto: cantidades enteras no negativas, cifras dentro de su rango o longitudes positivas. Comprueba la cuenta y la segunda relación.",
+        "Los cinco métodos expresan las mismas condiciones desde rutas diferentes. Un gráfico interpreta, las transformaciones despejan y los determinantes clasifican la unicidad cuando D ≠ 0."
+      ]
+    }
+  ]
+}

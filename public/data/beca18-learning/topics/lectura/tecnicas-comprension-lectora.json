@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/tecnicas-comprension-lectora",
+  "course": "lectura",
+  "slug": "tecnicas-comprension-lectora",
+  "title": "Técnicas de comprensión lectora",
+  "description": "Selecciona el tipo de lectura y organiza ideas sin sustituir comprensión por subrayado.",
+  "version": 1,
+  "order": 11,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Elegir lectura global, focalizada e intensiva según la meta",
+    "Aplicar preguntas, subrayado, títulos y mapas conceptuales",
+    "Integrar resumen, lectura extensiva y evaluación crítica"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "La técnica depende de la pregunta",
+      "body": [
+        "La lectura global explora título, subtítulos y partes relevantes para obtener una visión del conjunto. La focalizada busca un dato específico, como una fecha. La intensiva examina relaciones y matices con mayor detenimiento.",
+        "No son niveles de prestigio ni métodos excluyentes: puedes explorar un informe, localizar una cifra y después leer intensivamente la explicación de esa cifra. La velocidad útil depende de la meta."
+      ],
+      "id": "tecnicas-comprension-lectora-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Tres metas para un mismo documento",
+      "body": [
+        "Si necesitas saber de qué trata, explora la estructura. Si necesitas la hora de atención, localiza ese dato y comprueba a qué días corresponde. Si necesitas explicar una excepción, lee la regla y la condición con detalle.",
+        "Resolución: no hace falta memorizar toda la circular para ubicar una hora; sí hace falta revisar su contexto para no atribuirla al día equivocado."
+      ],
+      "passage": {
+        "title": "La circular del servicio",
+        "paragraphs": [
+          "El documento presenta una introducción sobre los objetivos de la biblioteca, un apartado con horarios de lunes a viernes y otro con condiciones especiales para los sábados. También explica cómo solicitar una ampliación de plazo."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Elige una ruta de lectura",
+      "body": [
+        "Toca cada objetivo y observa la técnica que aporta una primera respuesta."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Vista general",
+            "text": "Explora título, subtítulos y cierres de párrafo para construir un mapa inicial del documento."
+          },
+          {
+            "label": "Dato puntual",
+            "text": "Busca una fecha o palabra clave y verifica su unidad, condición y referente."
+          },
+          {
+            "label": "Relación compleja",
+            "text": "Lee intensivamente las ideas que justifican una conclusión o delimitan una excepción."
+          },
+          {
+            "label": "Lectura prolongada",
+            "text": "Recorre una obra completa para integrar su desarrollo; puedes detenerte en tramos que requieren análisis."
+          }
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una búsqueda específica",
+      "body": [],
+      "prompt": "¿Qué estrategia inicial responde mejor a la tarea?",
+      "choices": [
+        {
+          "text": "Leer cada palabra tres veces sin buscar el nombre del taller",
+          "explanation": "Aumenta trabajo sin orientar hacia el dato requerido."
+        },
+        {
+          "text": "Buscar encuadernación y verificar su horario en la entrada correspondiente",
+          "explanation": "La búsqueda focalizada localiza un dato y su referente."
+        },
+        {
+          "text": "Usar la hora de otro taller porque aparece primero",
+          "explanation": "No comprueba que el dato pertenezca a la actividad solicitada."
+        }
+      ],
+      "correct": 1,
+      "hint": "La palabra clave debe conducir a la actividad exacta.",
+      "solution": [
+        "El objetivo es un dato específico.",
+        "Buscar el nombre y confirmar la hora permite resolverlo con precisión."
+      ],
+      "passage": {
+        "title": "El programa",
+        "paragraphs": [
+          "El programa de una feria tiene cinco páginas. Lucía solo necesita confirmar a qué hora comienza el taller de encuadernación, aunque debe distinguirlo de la demostración de impresión."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una visión preliminar",
+      "body": [],
+      "prompt": "¿Qué lectura conviene al comienzo?",
+      "choices": [
+        {
+          "text": "Explorar títulos, subtítulos y partes representativas de cada informe",
+          "explanation": "Permite comparar su alcance general antes de elegir."
+        },
+        {
+          "text": "Memorizar una tabla aislada de uno de ellos",
+          "explanation": "No revela si el documento desarrolla la organización del archivo."
+        },
+        {
+          "text": "Elegir el más largo sin revisar su contenido",
+          "explanation": "La extensión no garantiza pertinencia para el propósito."
+        }
+      ],
+      "correct": 0,
+      "hint": "Primero necesitas saber qué cubre cada documento.",
+      "solution": [
+        "La tarea exige comparar el alcance de los informes.",
+        "Una lectura global orienta la selección para el análisis posterior."
+      ],
+      "passage": {
+        "title": "La selección",
+        "paragraphs": [
+          "Un equipo debe decidir cuál de tres informes leer en profundidad para investigar cómo se organizó un archivo. Aún no necesita evaluar cada dato."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una excepción requiere detalle",
+      "body": [],
+      "prompt": "¿Qué estrategia es imprescindible?",
+      "choices": [
+        {
+          "text": "Leer solo siete días y omitir salvo",
+          "explanation": "Borra la condición que responde la pregunta."
+        },
+        {
+          "text": "Elegir una regla de otra biblioteca",
+          "explanation": "Sustituye el texto por información externa."
+        },
+        {
+          "text": "Analizar la regla junto con la excepción y su alcance",
+          "explanation": "La lectura intensiva de la relación permite explicar el caso restringido."
+        }
+      ],
+      "correct": 2,
+      "hint": "La palabra salvo cambia el alcance de la regla.",
+      "solution": [
+        "La renovación tiene una condición de excepción.",
+        "Leer ambos tramos evita convertirla en un permiso universal."
+      ],
+      "passage": {
+        "title": "La norma",
+        "paragraphs": [
+          "La norma permite renovar préstamos por siete días, salvo cuando otra persona ha reservado el ejemplar. Un estudiante necesita explicar en qué caso no se aplica la renovación."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Técnicas combinadas",
+      "body": [],
+      "prompt": "¿Qué descripción es correcta?",
+      "choices": [
+        {
+          "text": "Solo hizo lectura extensiva porque el informe era largo",
+          "explanation": "Se describen objetivos y procedimientos distintos, no solo extensión."
+        },
+        {
+          "text": "Combinó lectura global, focalizada e intensiva",
+          "explanation": "Exploró estructura, buscó un dato y analizó una explicación."
+        },
+        {
+          "text": "Usó métodos incompatibles y debe comenzar de nuevo",
+          "explanation": "Las técnicas pueden complementarse según las necesidades."
+        }
+      ],
+      "correct": 1,
+      "hint": "Relaciona cada acción con el objetivo que resuelve.",
+      "solution": [
+        "Explorar aporta la estructura; localizar aporta el dato.",
+        "Analizar la nota precisa su sentido: las técnicas se complementan."
+      ],
+      "passage": {
+        "title": "El informe de gastos",
+        "paragraphs": [
+          "Nora explora primero las secciones del informe, localiza después el gasto de transporte y finalmente lee la nota que explica una corrección en ese monto."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "La técnica no sustituye la verificación",
+      "body": [
+        "Si localizaste una cifra equivocada, comprueba si estaba asociada a otro grupo, fecha o unidad. Buscar rápido no significa ignorar el contexto del dato.",
+        "Si la pregunta exige una relación, no basta hallar una palabra repetida. Cambia a lectura intensiva y explica cómo se conectan las ideas relevantes."
+      ],
+      "id": "tecnicas-comprension-lectora-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Organiza lo que el texto dice",
+      "body": [
+        "Las preguntas quién, qué, cuándo, dónde, cómo y por qué ayudan a registrar un hecho, siempre que el texto proporcione esas respuestas. No todas aparecen en cada documento.",
+        "El subrayado selecciona ideas relevantes; no mejora si marca todo. Titular un párrafo obliga a reconocer su aporte. Un mapa conceptual representa conceptos y relaciones mediante enlaces que puedan leerse como afirmaciones."
+      ],
+      "id": "tecnicas-comprension-lectora-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Subraya la relación central",
+      "body": [
+        "No conviene subrayar solo archivo, fechas y personas. La idea central es que los datos contextuales permiten interpretar y comparar fotografías.",
+        "Título de párrafo resuelto: La función de los datos de contexto. Un mapa podría leerse: fecha y lugar ayudan a situar fotografías; fotografías situadas permiten comparar cambios."
+      ],
+      "passage": {
+        "title": "Más que una imagen",
+        "paragraphs": [
+          "El archivo registra la fecha aproximada, el lugar y las personas conocidas de cada fotografía. Esos datos permiten situar la imagen y compararla con otras. Sin ellos, puede reconocerse un edificio, pero resulta más difícil saber a qué etapa del barrio corresponde."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Construye relaciones, no una lista",
+      "body": [
+        "Toca cada enlace del esquema. Debe poder leerse como una proposición que el texto sostiene."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Registro → incluye",
+            "text": "Fecha aproximada, lugar y nombres conocidos."
+          },
+          {
+            "label": "Datos de contexto → permiten",
+            "text": "Situar una fotografía en una etapa y un espacio."
+          },
+          {
+            "label": "Fotografías situadas → facilitan",
+            "text": "Comparar cambios con otras imágenes y documentos."
+          },
+          {
+            "label": "Falta de datos → limita",
+            "text": "La posibilidad de ubicar una imagen con precisión."
+          }
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un subrayado suficiente",
+      "body": [],
+      "prompt": "¿Qué selección conserva la relación principal?",
+      "choices": [
+        {
+          "text": "Tema, autor, libro",
+          "explanation": "Son palabras relevantes, pero por sí solas no expresan qué relación las une."
+        },
+        {
+          "text": "Todas las palabras del párrafo",
+          "explanation": "No diferencia la información central de los detalles."
+        },
+        {
+          "text": "Actualizar el catálogo permite que la disponibilidad registrada corresponda a la situación de los libros",
+          "explanation": "Recoge la relación funcional que el párrafo explica."
+        }
+      ],
+      "correct": 2,
+      "hint": "Una idea debe afirmar algo, no ser solo una lista de sustantivos.",
+      "solution": [
+        "El texto desarrolla la utilidad de un catálogo actualizado.",
+        "La selección que conecta actualización y disponibilidad conserva esa idea."
+      ],
+      "passage": {
+        "title": "El catálogo",
+        "paragraphs": [
+          "El catálogo permite localizar materiales por tema y autor. También indica cuáles están prestados. Mantenerlo actualizado evita que se ofrezca como disponible un libro que ya está fuera de la biblioteca."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Titula un párrafo por su aporte",
+      "body": [],
+      "prompt": "¿Qué título sintetiza mejor el aporte del párrafo?",
+      "choices": [
+        {
+          "text": "Revisión del original antes de copiar",
+          "explanation": "Incluye la acción y el momento que explican la distinción posterior."
+        },
+        {
+          "text": "La desaparición de los archivos",
+          "explanation": "No se relata ninguna desaparición."
+        },
+        {
+          "text": "Todas las ventajas de internet",
+          "explanation": "El párrafo no trata ese tema general."
+        }
+      ],
+      "correct": 0,
+      "hint": "El título debe cubrir la acción principal y su función.",
+      "solution": [
+        "La revisión previa identifica defectos del documento físico.",
+        "Ese procedimiento es el centro del párrafo."
+      ],
+      "passage": {
+        "title": "La copia",
+        "paragraphs": [
+          "Antes de digitalizar, el equipo revisó si las hojas estaban completas y registró las páginas dañadas. Así distinguió los defectos del original de posibles fallas de la copia digital."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una pregunta sin respuesta explícita",
+      "body": [],
+      "prompt": "¿Qué registro respeta la información disponible?",
+      "choices": [
+        {
+          "text": "Por qué: porque todas las personas estaban libres",
+          "explanation": "Añade una causa no expresada en la nota."
+        },
+        {
+          "text": "Por qué se eligió la fecha: no se informa",
+          "explanation": "Reconoce el límite del texto en vez de inventar una respuesta."
+        },
+        {
+          "text": "Dónde: en un lugar desconocido",
+          "explanation": "El aula comunal está mencionada explícitamente."
+        }
+      ],
+      "correct": 1,
+      "hint": "El esquema de preguntas debe permitir registrar información ausente.",
+      "solution": [
+        "La nota informa qué, cuándo, quiénes, dónde y algunos materiales.",
+        "No explica la elección de fecha: corresponde marcar que no se informa."
+      ],
+      "passage": {
+        "title": "La nota del taller",
+        "paragraphs": [
+          "El sábado, doce participantes restauraron las tapas de varios cuadernos en el aula comunal. Utilizaron cartón limpio y papel reutilizado. La nota no explica por qué se eligió ese sábado."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Un enlace de mapa incorrecto",
+      "body": [],
+      "prompt": "¿Qué enlace debe corregirse en un mapa?",
+      "choices": [
+        {
+          "text": "Registro → contiene → fechas",
+          "explanation": "La información está expresamente incluida."
+        },
+        {
+          "text": "Datos → ayudan a reconstruir → recorrido",
+          "explanation": "Conserva la función indicada en el texto."
+        },
+        {
+          "text": "Anotar una fecha → garantiza → devolución",
+          "explanation": "Transforma una ayuda de seguimiento en una garantía que el texto niega."
+        }
+      ],
+      "correct": 2,
+      "hint": "Comprueba cada flecha como una afirmación completa.",
+      "solution": [
+        "El texto explica una función informativa del registro.",
+        "Garantizar devolución exagera esa función y no debe figurar como vínculo."
+      ],
+      "passage": {
+        "title": "La explicación",
+        "paragraphs": [
+          "El registro de préstamos contiene fecha de entrega, responsable y fecha de devolución. Esos datos ayudan a reconstruir el recorrido de una herramienta; no causan por sí mismos que se devuelva."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Un buen esquema también conserva límites",
+      "body": [
+        "Si tu mapa produce una afirmación que el texto no sostiene, modifica el enlace, no solo el color de la flecha. Si tu subrayado contiene todo, vuelve a seleccionar qué responde a tu propósito.",
+        "Cuando una pregunta periodística no tiene respuesta, anota la ausencia. Completar una tabla con información inventada no demuestra comprensión."
+      ],
+      "id": "tecnicas-comprension-lectora-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Integrar y evaluar son operaciones distintas",
+      "body": [
+        "La lectura extensiva recorre textos completos y de cierta amplitud para construir comprensión global, continuidad y experiencia lectora. Puede combinarse con análisis intensivo de pasajes importantes.",
+        "La lectura crítica reconstruye el mensaje y evalúa afirmaciones, razones y procedencia. Un resumen explica fielmente; un comentario crítico añade una evaluación que debe quedar diferenciada."
+      ],
+      "id": "tecnicas-comprension-lectora-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Resume antes de opinar",
+      "body": [
+        "Resumen: el texto propone turnos tempranos porque algunas personas no disponen de las tardes. Comentario: esa razón es pertinente, pero convendría conocer cuántas usarían el turno y qué recursos requiere.",
+        "La segunda parte evalúa y propone una comprobación; no debe atribuirse al autor como si fuera uno de sus datos."
+      ],
+      "passage": {
+        "title": "Un turno nuevo",
+        "paragraphs": [
+          "El comité propone abrir la sala una hora antes los domingos. Señala que varias personas trabajan por la tarde y podrían acudir por la mañana. No presenta un conteo de potenciales asistentes ni estima el costo del horario adicional."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Recupera el contenido sin mirar y luego verifica",
+      "body": [
+        "Después de leer, explicar la idea central con tus palabras puede revelar vacíos. La comprobación posterior permite corregirlos antes de que se consoliden.",
+        "No confundas memoria literal con fidelidad. Una paráfrasis puede ser exacta; una copia de frases sueltas puede perder la relación que las unía."
+      ],
+      "id": "tecnicas-comprension-lectora-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Resumen y comentario",
+      "body": [],
+      "prompt": "¿Qué distingue las dos partes?",
+      "choices": [
+        {
+          "text": "Ambas son citas literales del autor",
+          "explanation": "La expresión a mi juicio introduce la evaluación de la estudiante."
+        },
+        {
+          "text": "La primera reconstruye el argumento y la segunda lo evalúa",
+          "explanation": "Separa contenido comprendido y comentario crítico."
+        },
+        {
+          "text": "La segunda demuestra que la primera es falsa",
+          "explanation": "Pedir más información no contradice la reconstrucción del argumento."
+        }
+      ],
+      "correct": 1,
+      "hint": "Reconoce qué voz expresa a mi juicio.",
+      "solution": [
+        "La primera parte presenta propuesta y razón del autor.",
+        "La segunda añade una exigencia de evidencia desde la lectora."
+      ],
+      "passage": {
+        "title": "La evaluación",
+        "paragraphs": [
+          "Una estudiante escribe: El autor defiende conservar dos turnos de consulta porque atienden disponibilidades distintas. A mi juicio, falta comparar su uso antes de decidir el presupuesto del siguiente mes."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una lectura extensiva con detenciones",
+      "body": [],
+      "prompt": "¿Qué interpretación es adecuada?",
+      "choices": [
+        {
+          "text": "La relectura de un pasaje impide que exista lectura extensiva",
+          "explanation": "Leer una obra completa puede incluir análisis local."
+        },
+        {
+          "text": "Solo leyeron de forma focalizada una fecha",
+          "explanation": "La actividad busca comprender el desarrollo global del libro."
+        },
+        {
+          "text": "La lectura extensiva se complementa con momentos intensivos",
+          "explanation": "El recorrido completo y la revisión detallada atienden necesidades distintas."
+        }
+      ],
+      "correct": 2,
+      "hint": "No trates las técnicas como categorías incompatibles.",
+      "solution": [
+        "La meta general es seguir un texto completo.",
+        "Las detenciones intensivas resuelven dificultades dentro de ese recorrido."
+      ],
+      "passage": {
+        "title": "El libro del taller",
+        "paragraphs": [
+          "Durante un mes, un grupo lee un libro completo para seguir su desarrollo. Cada semana conversa sobre lo leído y vuelve a un pasaje difícil para aclarar las relaciones entre los personajes."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una paráfrasis fiel",
+      "body": [],
+      "prompt": "¿Qué explicación con palabras propias mantiene el sentido?",
+      "choices": [
+        {
+          "text": "El sistema ayudó, pero dos categorías aún necesitaron aclaración",
+          "explanation": "Conserva la mejora y el límite concreto."
+        },
+        {
+          "text": "El sistema resolvió cualquier duda de modo definitivo",
+          "explanation": "Elimina la excepción que motiva revisar los rótulos."
+        },
+        {
+          "text": "El equipo abandonó todas las categorías",
+          "explanation": "Solo se propone revisar las dos problemáticas."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conserva simultáneamente el avance y la necesidad pendiente.",
+      "solution": [
+        "Hubo menos consultas, no ausencia de todas ellas.",
+        "Dos categorías requerían una mejora específica."
+      ],
+      "passage": {
+        "title": "El resultado",
+        "paragraphs": [
+          "En el primer mes, el sistema redujo las consultas sobre dónde guardar los materiales, aunque todavía hubo dudas sobre dos categorías. El equipo decidió revisar esos rótulos."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Elige una intervención según el error",
+      "body": [],
+      "prompt": "¿Qué acción favorece más su próximo resumen?",
+      "choices": [
+        {
+          "text": "Añadir todavía más ejemplos sin relacionarlos",
+          "explanation": "Mantendría el mismo problema de selección e integración."
+        },
+        {
+          "text": "Formular la idea que integra los ejemplos y conservar solo los necesarios",
+          "explanation": "Atiende la falta de relación central que detectó."
+        },
+        {
+          "text": "Copiar el primer ejemplo y suponer que equivale a todo el texto",
+          "explanation": "Un caso aislado puede dejar fuera el alcance del conjunto."
+        }
+      ],
+      "correct": 1,
+      "hint": "La corrección debe responder al vacío diagnosticado.",
+      "solution": [
+        "El problema no es falta de ejemplos, sino falta de una idea integradora.",
+        "Formularla permite seleccionar y organizar los detalles."
+      ],
+      "passage": {
+        "title": "El diagnóstico",
+        "paragraphs": [
+          "Al resumir, Luis recordó varios ejemplos del texto, pero no explicó qué mostraban en común. Después de releer, encontró una oración que relacionaba todos los casos con el uso responsable de un registro."
+        ]
+      },
+      "id": "tecnicas-comprension-lectora-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Usa la técnica que resuelve tu dificultad",
+      "body": [
+        "Para un dato, busca y verifica. Para una relación, relee intensivamente. Para el conjunto, organiza las ideas y resume. Para evaluar, reconstruye primero y distingue tu comentario de la voz del autor.",
+        "Una estrategia funciona cuando puedes explicar qué comprendiste gracias a ella. Cambiar de técnica al detectar un obstáculo es parte de leer con autonomía."
+      ],
+      "id": "tecnicas-comprension-lectora-24",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/referentes-textuales",
+  "course": "lectura",
+  "slug": "referentes-textuales",
+  "title": "Referentes textuales",
+  "description": "Reconstruye anáforas, catáforas, elipsis y deixis con antecedentes precisos.",
+  "version": 1,
+  "order": 12,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Identificar anáforas pronominales y adverbiales",
+    "Reconocer catáfora, sustitución léxica y elipsis",
+    "Resolver deixis, referentes extensos y ambigüedad"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Una palabra puede señalar otra información",
+      "body": [
+        "Una referencia anafórica remite a algo mencionado antes. Puede realizarse mediante pronombres como ella o lo, demostrativos como ese y adverbios como allí.",
+        "Para resolverla, busca un antecedente compatible en significado y construcción. No siempre es el sustantivo más cercano. Pregunta qué puede realizar la acción o recibirla según el contexto."
+      ],
+      "id": "referentes-textuales-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "El antecedente no es el más cercano",
+      "body": [
+        "Ellas concuerda en femenino plural con fotografías, no con sobres. Además, lo que se había despegado del álbum eran las fotos.",
+        "Resolución: reemplaza el pronombre y comprueba: Las fotografías se habían despegado del álbum. La concordancia y el sentido convergen."
+      ],
+      "passage": {
+        "title": "El álbum",
+        "paragraphs": [
+          "Mara colocó las fotografías en sobres de papel. Ellas se habían despegado del álbum y necesitaban guardarse sin doblarlas."
+        ]
+      },
+      "id": "referentes-textuales-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Sigue las referencias",
+      "body": [
+        "Toca cada forma y observa qué retoma."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Ella",
+            "text": "Ana reunió las fichas. Ella revisó sus fechas: remite a Ana."
+          },
+          {
+            "label": "Allí",
+            "text": "La reunión será en el aula comunal. Allí hay mesas suficientes: remite al aula."
+          },
+          {
+            "label": "Ese cambio",
+            "text": "Se añadió un turno temprano. Ese cambio amplió las opciones: retoma la acción completa de añadir el turno."
+          },
+          {
+            "label": "Lo",
+            "text": "El libro estaba prestado. Joel lo devolvió: retoma el libro como objeto devuelto."
+          }
+        ]
+      },
+      "id": "referentes-textuales-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un pronombre personal",
+      "body": [],
+      "prompt": "¿A quién se refiere él?",
+      "choices": [
+        {
+          "text": "A Camila",
+          "explanation": "La forma masculina y la secuencia señalan a Hugo."
+        },
+        {
+          "text": "A Hugo",
+          "explanation": "Es la persona masculina mencionada que recibe el cuaderno y anota la fecha."
+        },
+        {
+          "text": "Al cuaderno",
+          "explanation": "El objeto no puede realizar la anotación descrita."
+        }
+      ],
+      "correct": 1,
+      "hint": "Combina concordancia y posibilidad de realizar la acción.",
+      "solution": [
+        "Él debe identificar a una persona masculina del contexto.",
+        "Hugo es quien recibió y registró el cuaderno."
+      ],
+      "passage": {
+        "title": "El registro",
+        "paragraphs": [
+          "Camila entregó el cuaderno a Hugo. Él anotó la fecha de recepción y luego guardó el material en el estante."
+        ]
+      },
+      "id": "referentes-textuales-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un adverbio de lugar",
+      "body": [],
+      "prompt": "¿Qué retoma allí?",
+      "choices": [
+        {
+          "text": "El vivero",
+          "explanation": "Es el lugar presentado en la oración anterior."
+        },
+        {
+          "text": "Las etiquetas",
+          "explanation": "Son objetos comparados, no el lugar de la reunión."
+        },
+        {
+          "text": "La encargada",
+          "explanation": "Es una persona con quien conversan, no una ubicación."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca el lugar previamente presentado.",
+      "solution": [
+        "Allí ubica la acción en un espacio ya mencionado.",
+        "Ese espacio es el vivero."
+      ],
+      "passage": {
+        "title": "La visita",
+        "paragraphs": [
+          "El equipo se reunió en el vivero. Allí comparó las etiquetas de las plantas y conversó con la encargada."
+        ]
+      },
+      "id": "referentes-textuales-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un demostrativo que retoma un objeto",
+      "body": [],
+      "prompt": "¿Qué designa ese documento?",
+      "choices": [
+        {
+          "text": "La mesa",
+          "explanation": "No se trata de un documento ni del objeto que se sacó de la carpeta."
+        },
+        {
+          "text": "La carpeta roja",
+          "explanation": "Es el continente del plano, no el documento extendido."
+        },
+        {
+          "text": "El plano",
+          "explanation": "El contexto mantiene el mismo objeto mediante una expresión equivalente."
+        }
+      ],
+      "correct": 2,
+      "hint": "Sigue qué objeto es extraído y extendido.",
+      "solution": [
+        "La guía saca el plano de su carpeta.",
+        "Ese documento retoma el plano, no la carpeta ni la mesa."
+      ],
+      "passage": {
+        "title": "El plano",
+        "paragraphs": [
+          "El plano estaba dentro de una carpeta roja. La guía lo sacó con cuidado y extendió ese documento sobre la mesa."
+        ]
+      },
+      "id": "referentes-textuales-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Concordancia y sentido",
+      "body": [],
+      "prompt": "¿Qué retoma las?",
+      "choices": [
+        {
+          "text": "Los marcadores",
+          "explanation": "El pronombre femenino plural no concuerda con ese sustantivo."
+        },
+        {
+          "text": "Las tijeras",
+          "explanation": "La concordancia y las puntas que pueden cortar hojas permiten identificar el antecedente."
+        },
+        {
+          "text": "El estuche",
+          "explanation": "Es singular masculino y funciona como lugar donde se guarda."
+        }
+      ],
+      "correct": 1,
+      "hint": "La cercanía no basta: comprueba género, número y sentido.",
+      "solution": [
+        "Las requiere un antecedente femenino plural.",
+        "Las tijeras cumplen esa condición y el sentido descrito."
+      ],
+      "passage": {
+        "title": "Las herramientas",
+        "paragraphs": [
+          "Las tijeras estaban junto a los marcadores. El encargado las guardó en un estuche para que sus puntas no dañaran las hojas."
+        ]
+      },
+      "id": "referentes-textuales-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No adivines por proximidad",
+      "body": [
+        "Si escogiste el sustantivo más cercano, sustituye el pronombre por ese sustantivo y relee. Debe conservar concordancia y una acción posible.",
+        "Algunos referentes retoman una acción completa. Antes de reducir ese cambio a una sola palabra, verifica qué transformación se ha presentado y qué efecto se atribuye a ella."
+      ],
+      "id": "referentes-textuales-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "También se anticipa y se omite",
+      "body": [
+        "La catáfora señala información que se explicará después: Necesitamos esto: cartón y pegamento. La anáfora mira hacia atrás; la catáfora, hacia delante.",
+        "La sustitución léxica retoma mediante otra expresión compatible, como golondrina y ave. La elipsis omite un elemento recuperable: Ana llevó dos reglas; Luis, tres. En la segunda parte se sobreentiende llevó reglas."
+      ],
+      "id": "referentes-textuales-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Recupera lo omitido",
+      "body": [
+        "La segunda oración no está vacía de acción: el paralelismo permite recuperar compró tres cuadernos.",
+        "Resolución: Julia compró dos cuadernos y César compró tres cuadernos. La elipsis evita repetir información sin impedir que el lector la reconstruya."
+      ],
+      "passage": {
+        "title": "Las compras",
+        "paragraphs": [
+          "Julia compró dos cuadernos; César, tres. Después reunieron los cinco para distribuirlos en el taller."
+        ]
+      },
+      "id": "referentes-textuales-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Mira hacia atrás o hacia delante",
+      "body": [
+        "Toca cada fragmento para conocer la dirección y el mecanismo."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "El equipo necesitaba dos materiales.",
+            "role": "Introduce un referente que puede desarrollarse después"
+          },
+          {
+            "text": "Eran estos: cuerda y cartón.",
+            "role": "Estos anticipa la enumeración posterior: catáfora"
+          },
+          {
+            "text": "El cartón debía estar limpio. Ese material serviría de base.",
+            "role": "Ese material retoma cartón: anáfora con sustitución léxica"
+          },
+          {
+            "text": "Ana llevó cuerda; Luis, cartón.",
+            "role": "Se omite llevó en la segunda parte: elipsis verbal"
+          }
+        ]
+      },
+      "id": "referentes-textuales-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una referencia hacia delante",
+      "body": [],
+      "prompt": "¿Cómo funciona esto?",
+      "choices": [
+        {
+          "text": "Remite a una persona externa sin contexto",
+          "explanation": "El propio texto explica después qué falta."
+        },
+        {
+          "text": "Repite un sustantivo que apareció antes en el pasaje",
+          "explanation": "No existe una mención anterior de los materiales faltantes."
+        },
+        {
+          "text": "Anticipa los materiales enumerados después",
+          "explanation": "La explicación posterior completa su contenido: catáfora."
+        }
+      ],
+      "correct": 2,
+      "hint": "Observa de qué lado aparece la información que lo precisa.",
+      "solution": [
+        "Esto se interpreta con la lista que sigue a los dos puntos.",
+        "Es una referencia catafórica."
+      ],
+      "passage": {
+        "title": "La lista",
+        "paragraphs": [
+          "Solo falta esto: una regla larga y dos hojas de cartón. Los demás materiales ya están reunidos."
+        ]
+      },
+      "id": "referentes-textuales-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una sustitución por hiperónimo",
+      "body": [],
+      "prompt": "¿Qué permite el insecto en la segunda oración?",
+      "choices": [
+        {
+          "text": "Retomar la mariposa mediante una clase más general",
+          "explanation": "Mariposa pertenece a insecto y el contexto conserva el mismo individuo."
+        },
+        {
+          "text": "Introducir necesariamente un segundo animal",
+          "explanation": "No hay señal de otro individuo; la expresión mantiene la referencia."
+        },
+        {
+          "text": "Nombrar una parte de la ventana",
+          "explanation": "Insecto no es componente de la ventana ni retoma ese objeto."
+        }
+      ],
+      "correct": 0,
+      "hint": "Relaciona la inclusión de clase con la continuidad del relato.",
+      "solution": [
+        "Mariposa es un tipo de insecto.",
+        "El hiperónimo evita repetir la palabra y conserva el referente."
+      ],
+      "passage": {
+        "title": "La ventana",
+        "paragraphs": [
+          "Una mariposa entró por la ventana. El insecto se posó unos segundos sobre una hoja y luego salió al jardín."
+        ]
+      },
+      "id": "referentes-textuales-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una elipsis verbal",
+      "body": [],
+      "prompt": "¿Qué verbo se sobreentiende después de Omar?",
+      "choices": [
+        {
+          "text": "Compró",
+          "explanation": "No se ha presentado una compra en el contexto."
+        },
+        {
+          "text": "Revisó",
+          "explanation": "El paralelismo indica la misma acción aplicada a otro objeto."
+        },
+        {
+          "text": "Desapareció",
+          "explanation": "No encaja con las fechas como objeto de la construcción."
+        }
+      ],
+      "correct": 1,
+      "hint": "Las dos partes distribuyen la misma tarea entre dos personas.",
+      "solution": [
+        "Inés revisa títulos y Omar realiza la acción paralela con fechas.",
+        "Se recupera revisó."
+      ],
+      "passage": {
+        "title": "Las tareas",
+        "paragraphs": [
+          "Inés revisó los títulos; Omar, las fechas. Al final compararon sus anotaciones para completar el catálogo."
+        ]
+      },
+      "id": "referentes-textuales-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Referencia y simple semejanza",
+      "body": [],
+      "prompt": "¿Qué sustitución alteraría la referencia?",
+      "choices": [
+        {
+          "text": "Ese animal",
+          "explanation": "Es compatible con la paloma ya presentada."
+        },
+        {
+          "text": "La paloma",
+          "explanation": "Repite el mismo referente de manera explícita."
+        },
+        {
+          "text": "El gorrión",
+          "explanation": "Cambia la clase del único animal y no puede retomar fielmente a la paloma."
+        }
+      ],
+      "correct": 2,
+      "hint": "La variedad de vocabulario no permite cambiar de individuo o especie.",
+      "solution": [
+        "Un hiperónimo o una repetición mantienen la paloma.",
+        "Gorrión nombra otra clase y altera lo presentado."
+      ],
+      "passage": {
+        "title": "El ave",
+        "paragraphs": [
+          "Una paloma quedó junto a la puerta. El ave permaneció inmóvil hasta que se abrió el paso. El texto solo presenta un animal."
+        ]
+      },
+      "id": "referentes-textuales-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Omitir exige poder recuperar",
+      "body": [
+        "La elipsis es útil si el contexto permite reconstruir con precisión lo omitido. Si dos verbos o dos sujetos compiten sin pistas, tal vez sea necesario repetir el dato.",
+        "Si confundiste anáfora y catáfora, traza una flecha desde la expresión hacia su información: atrás o adelante. La dirección, no la longitud de la frase, decide la distinción."
+      ],
+      "id": "referentes-textuales-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "A veces la referencia depende de la situación",
+      "body": [
+        "La deixis remite al contexto de enunciación: yo depende de quién habla; aquí, de dónde habla; mañana, del día en que se emite el mensaje. Sin esa información, el referente puede quedar indeterminado.",
+        "Una expresión referencial puede resumir una afirmación o una secuencia completa. Resuélvela preguntando qué hecho explica la continuación, no solo qué sustantivo está cerca."
+      ],
+      "id": "referentes-textuales-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Mañana cambia cuando cambia el día",
+      "body": [
+        "El aviso se emitió el lunes 3. Por tanto, mañana designa el martes 4, aunque alguien lo lea el miércoles. Debemos interpretar la referencia desde la emisión fijada por el contexto.",
+        "Reescritura resuelta para evitar confusión: La entrega será el martes 4. Una fecha explícita conserva el dato cuando el mensaje circula después."
+      ],
+      "passage": {
+        "title": "Un aviso reenviado",
+        "paragraphs": [
+          "El lunes 3, la coordinadora escribió: La entrega será mañana en este local. El mensaje se reenviaría varios días después a personas que no habían estado presentes."
+        ]
+      },
+      "id": "referentes-textuales-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Corrige ambigüedad sin cambiar hechos",
+      "body": [
+        "Cuando su puede pertenecer a dos personas, o allí puede remitir a dos lugares, revisa el contexto. Si el texto no ofrece una pista suficiente, reconocer la ambigüedad es más preciso que inventar.",
+        "Al reescribir, nombra el antecedente que el autor quiere expresar y verifica que no cambias quién realiza la acción."
+      ],
+      "id": "referentes-textuales-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Deixis temporal fijada",
+      "body": [],
+      "prompt": "¿Qué fecha designa mañana?",
+      "choices": [
+        {
+          "text": "El día posterior a cualquier lectura futura",
+          "explanation": "Eso cambiaría el cierre cada vez que alguien leyera el mensaje."
+        },
+        {
+          "text": "El miércoles 9",
+          "explanation": "Se calcula desde el martes 8, fecha de emisión indicada."
+        },
+        {
+          "text": "El lunes 7",
+          "explanation": "Es el día anterior, no el siguiente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa la fecha de emisión, no una fecha de lectura imaginada.",
+      "solution": [
+        "La referencia temporal está anclada en el martes 8.",
+        "El día siguiente es miércoles 9."
+      ],
+      "passage": {
+        "title": "El mensaje",
+        "paragraphs": [
+          "El martes 8, a las 9:00, una encargada escribió: El registro cierra mañana. El contexto confirma que hablaba del día siguiente a la emisión."
+        ]
+      },
+      "id": "referentes-textuales-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un referente que es una decisión",
+      "body": [],
+      "prompt": "¿Qué retoma esa decisión?",
+      "choices": [
+        {
+          "text": "Las sillas nuevas del pasillo",
+          "explanation": "Son objetos y su presencia no constituye la decisión presentada."
+        },
+        {
+          "text": "La puerta de la sala",
+          "explanation": "Es parte del espacio y no una acción acordada."
+        },
+        {
+          "text": "El traslado de la reunión a una sala más amplia",
+          "explanation": "Es la decisión explícita que explica la capacidad de recibir al grupo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca una acción acordada, aunque no sea la expresión más cercana.",
+      "solution": [
+        "El único acuerdo presentado es trasladar la reunión.",
+        "El efecto de capacidad corresponde a esa decisión completa."
+      ],
+      "passage": {
+        "title": "La sala",
+        "paragraphs": [
+          "El comité decidió trasladar la reunión a una sala más amplia. Había varias sillas nuevas en el pasillo. Esa decisión permitió recibir a todo el grupo sin bloquear la puerta."
+        ]
+      },
+      "id": "referentes-textuales-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Reconoce una ambigüedad real",
+      "body": [],
+      "prompt": "¿Qué se puede afirmar?",
+      "choices": [
+        {
+          "text": "Su puede referirse al informe de Elena o al de Marta; hace falta precisar",
+          "explanation": "Ambas personas son posibles antecedentes y no existe una pista que decida."
+        },
+        {
+          "text": "El informe es necesariamente de Marta porque su está cerca de su nombre",
+          "explanation": "La proximidad no elimina la referencia posible a Elena."
+        },
+        {
+          "text": "El informe pertenece a una tercera persona identificada",
+          "explanation": "No se menciona a ninguna tercera persona propietaria."
+        }
+      ],
+      "correct": 0,
+      "hint": "No asignes un antecedente que el texto no permite decidir.",
+      "solution": [
+        "El posesivo no marca quién es la autora entre las dos personas.",
+        "Es necesario explicitar el nombre para resolver la ambigüedad."
+      ],
+      "passage": {
+        "title": "Dos personas",
+        "paragraphs": [
+          "Elena le dijo a Marta que su informe necesitaba una revisión. No hay más contexto sobre quién escribió el informe."
+        ]
+      },
+      "id": "referentes-textuales-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Deícticos en un mensaje que circula",
+      "body": [],
+      "prompt": "¿Qué revisión hace el mensaje interpretable para todos?",
+      "choices": [
+        {
+          "text": "Cambiar aquí por allí sin más datos",
+          "explanation": "Mantendría indeterminada la ubicación."
+        },
+        {
+          "text": "Añadir dirección, fecha y hora explícitas",
+          "explanation": "Sustituye referencias dependientes de una situación que los nuevos lectores no conocen."
+        },
+        {
+          "text": "Repetir la invitación en mayúsculas",
+          "explanation": "Aumenta visibilidad, pero no determina lugar ni tiempo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Identifica qué información del contexto de emisión falta.",
+      "solution": [
+        "Aquí, mañana y hora habitual requieren antecedentes compartidos.",
+        "Explicitar los datos permite que el mensaje se entienda al reenviarse."
+      ],
+      "passage": {
+        "title": "La invitación",
+        "paragraphs": [
+          "Una invitación se reenviará a personas de varios barrios. Dice: Vengan aquí mañana a la hora habitual. No adjunta ubicación, fecha de emisión ni un horario anterior compartido."
+        ]
+      },
+      "id": "referentes-textuales-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Toda referencia necesita un anclaje",
+      "body": [
+        "Busca dentro del texto para anáforas, catáforas y elipsis. Busca también quién habla, dónde y cuándo para la deixis. Si falta una condición decisiva, no conviertas una suposición en respuesta segura.",
+        "Al revisar un mensaje que circulará, sustituye deícticos ambiguos por datos explícitos y conserva pronombres solo cuando su antecedente sea claro. La precisión es más valiosa que evitar cualquier repetición."
+      ],
+      "id": "referentes-textuales-24",
+      "level": 3
+    }
+  ]
+}

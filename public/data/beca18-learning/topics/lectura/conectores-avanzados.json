@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/conectores-avanzados",
+  "course": "lectura",
+  "slug": "conectores-avanzados",
+  "title": "Conectores: relaciones avanzadas",
+  "description": "Interpreta causas, concesiones, continuidad, orden y conclusiones sin exagerar lo afirmado.",
+  "version": 1,
+  "order": 7,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Distinguir causas y consecuencias con su dirección",
+    "Organizar continuidad, orden y concesiones",
+    "Evaluar cierres, conectores dobles y alcance de conclusiones"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "La dirección de una explicación",
+      "body": [
+        "Porque, puesto que y ya que introducen una razón. Por lo tanto y en consecuencia presentan un resultado o una conclusión. Cambiar la dirección del enlace puede cambiar lo que se afirma.",
+        "También distinguimos hechos y razonamientos: Está mojado porque llovió explica un estado; debe de haber llovido porque el suelo está mojado presenta una inferencia, no la causa de la lluvia."
+      ],
+      "id": "conectores-avanzados-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "La misma relación, dos órdenes",
+      "body": [
+        "Forma 1: El tránsito se desvió porque la calle estaba cerrada. Forma 2: La calle estaba cerrada; por ello, el tránsito se desvió.",
+        "En ambas, el cierre explica el desvío. Sería incoherente decir que el desvío provocó el cierre si el texto no afirma esa dirección."
+      ],
+      "passage": {
+        "title": "El cierre",
+        "paragraphs": [
+          "La calle se cerró durante la reparación del pavimento. Los vehículos tuvieron que utilizar otra ruta hasta que terminó el trabajo."
+        ]
+      },
+      "id": "conectores-avanzados-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Diferencia explicación e inferencia",
+      "body": [
+        "Toca las tarjetas y localiza qué es causa y qué es señal para concluir."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Causa de un hecho",
+            "text": "La caja se mojó porque quedó bajo la lluvia: la exposición explica la humedad."
+          },
+          {
+            "label": "Señal para inferir",
+            "text": "Creo que la caja estuvo bajo la lluvia porque está mojada: la humedad apoya una hipótesis, aunque podrían existir otras causas."
+          },
+          {
+            "label": "Consecuencia",
+            "text": "La caja se mojó; por ello, el equipo secó los documentos: se explica la acción posterior."
+          }
+        ]
+      },
+      "id": "conectores-avanzados-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "La razón de una decisión",
+      "body": [],
+      "prompt": "¿Qué enlace presenta la razón de pedir la revisión?",
+      "choices": [
+        {
+          "text": "Por lo tanto",
+          "explanation": "Introduciría un resultado, pero la segunda parte explica la solicitud."
+        },
+        {
+          "text": "Puesto que",
+          "explanation": "Presenta el hallazgo de fechas incompatibles como motivo de la revisión."
+        },
+        {
+          "text": "En síntesis",
+          "explanation": "No se resume un desarrollo previo: se aporta una razón concreta."
+        }
+      ],
+      "correct": 1,
+      "hint": "La segunda parte responde por qué se pidió revisar.",
+      "solution": [
+        "El hallazgo motiva la consulta.",
+        "Puesto que enlaza la decisión con su razón."
+      ],
+      "passage": {
+        "title": "La consulta",
+        "paragraphs": [
+          "El grupo pidió revisar el registro, ___ había encontrado dos fechas incompatibles para la misma entrega."
+        ]
+      },
+      "id": "conectores-avanzados-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El resultado de un cambio",
+      "body": [],
+      "prompt": "¿Qué conector mantiene la relación?",
+      "choices": [
+        {
+          "text": "En consecuencia",
+          "explanation": "La extensión del tiempo explica el final posterior."
+        },
+        {
+          "text": "Aunque",
+          "explanation": "No encaja en esta construcción y presentaría una concesión."
+        },
+        {
+          "text": "Es decir",
+          "explanation": "Terminar tarde no reformula reservar más tiempo: es su resultado en este caso."
+        }
+      ],
+      "correct": 0,
+      "hint": "Identifica qué hecho resulta del tiempo añadido.",
+      "solution": [
+        "Se añadió tiempo y la sesión se extendió.",
+        "En consecuencia marca el resultado descrito."
+      ],
+      "passage": {
+        "title": "La agenda",
+        "paragraphs": [
+          "El equipo reservó quince minutos más para las preguntas; ___, la sesión terminó después de la hora inicialmente prevista."
+        ]
+      },
+      "id": "conectores-avanzados-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una señal no produce el fenómeno",
+      "body": [],
+      "prompt": "¿Qué función cumple la segunda parte?",
+      "choices": [
+        {
+          "text": "Ser la causa física de que alguien abra el armario",
+          "explanation": "La puerta entreabierta es una observación, no lo que provocó una acción."
+        },
+        {
+          "text": "Garantizar que una persona concreta es responsable",
+          "explanation": "No se identifica a nadie y se considera otra explicación."
+        },
+        {
+          "text": "Dar una señal para sostener una hipótesis provisional",
+          "explanation": "La observación apoya tal vez sin convertirlo en certeza."
+        }
+      ],
+      "correct": 2,
+      "hint": "Observa la palabra tal vez y la explicación alternativa.",
+      "solution": [
+        "La puerta entreabierta es evidencia para una conjetura.",
+        "La relación es de apoyo inferencial y conserva incertidumbre."
+      ],
+      "passage": {
+        "title": "La sospecha",
+        "paragraphs": [
+          "Tal vez alguien abrió el armario, porque una puerta que estaba cerrada apareció entreabierta. El grupo todavía no sabía quién lo había hecho ni si la cerradura había fallado."
+        ]
+      },
+      "id": "conectores-avanzados-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Invierte el orden sin invertir la causa",
+      "body": [],
+      "prompt": "¿Qué reescritura conserva el sentido?",
+      "choices": [
+        {
+          "text": "No quedaban ejemplares porque se abrió una lista de espera",
+          "explanation": "Invierte la razón establecida en el texto."
+        },
+        {
+          "text": "La biblioteca abrió una lista de espera porque no quedaban ejemplares disponibles",
+          "explanation": "Conserva la falta de ejemplares como motivo de la lista."
+        },
+        {
+          "text": "Aunque sobraban ejemplares, se abrió una lista de espera",
+          "explanation": "Contradice la situación inicial y cambia la relación."
+        }
+      ],
+      "correct": 1,
+      "hint": "Mantén cuál hecho explica a cuál.",
+      "solution": [
+        "La falta de ejemplares ocurre como problema previo.",
+        "Abrir la lista es la respuesta; porque introduce su razón."
+      ],
+      "passage": {
+        "title": "El préstamo",
+        "paragraphs": [
+          "No quedaban ejemplares disponibles. Por eso, la biblioteca abrió una lista de espera."
+        ]
+      },
+      "id": "conectores-avanzados-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No confundas orden con dependencia",
+      "body": [
+        "Una acción posterior puede ser efecto, respuesta o simple hecho siguiente. El texto debe ofrecer la relación causal; el tiempo por sí solo no basta.",
+        "Cuando porque apoya una hipótesis, distingue la señal observada de la causa real. Un suelo mojado puede apoyar que llovió, pero no provoca la lluvia ni elimina otras posibilidades."
+      ],
+      "id": "conectores-avanzados-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Continuar y ordenar no es concluir",
+      "body": [
+        "A continuación, por otra parte y siguiendo esta idea pueden organizar la continuidad. En primer lugar, en segundo lugar y finalmente ordenan una exposición. No afirman por sí mismos que una idea cause la siguiente.",
+        "Aunque, si bien y a pesar de que presentan concesión: admiten una dificultad que no impide lo principal. La dificultad debe ser real en la interpretación del pasaje, no una oposición imaginada."
+      ],
+      "id": "conectores-avanzados-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Concede un límite y conserva la tesis",
+      "body": [
+        "La autora admite el límite de la biblioteca móvil: no puede llevar todo el catálogo. Pese a ello, sostiene un beneficio concreto: acercar una selección a lugares distantes.",
+        "La concesión fortalece la precisión de la postura; no significa que se niegue el beneficio ni que la biblioteca resuelva toda necesidad."
+      ],
+      "passage": {
+        "title": "Un catálogo que viaja",
+        "paragraphs": [
+          "Si bien la biblioteca móvil no puede transportar todos sus libros, permite acercar una selección a comunidades alejadas. Su utilidad debe valorarse según ese objetivo y no como reemplazo completo de una sede fija."
+        ]
+      },
+      "id": "conectores-avanzados-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Ordena sin convertir en causa",
+      "body": [
+        "Toca cada tramo para identificar su función en una exposición."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "En primer lugar, revisaremos los materiales reunidos.",
+            "role": "Organiza la primera parte"
+          },
+          {
+            "text": "A continuación, explicaremos los criterios de selección.",
+            "role": "Da continuidad al mismo tema"
+          },
+          {
+            "text": "Por otra parte, mostraremos el registro de gastos.",
+            "role": "Introduce otro aspecto del asunto"
+          },
+          {
+            "text": "Finalmente, responderemos las preguntas.",
+            "role": "Marca la última parte, sin que sea una conclusión lógica obligatoria"
+          }
+        ]
+      },
+      "id": "conectores-avanzados-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una concesión precisa",
+      "body": [],
+      "prompt": "¿Qué enlace encaja mejor?",
+      "choices": [
+        {
+          "text": "Por lo tanto",
+          "explanation": "La primera cláusula no funciona aquí como consecuencia de la segunda."
+        },
+        {
+          "text": "A continuación",
+          "explanation": "No se está enumerando un siguiente momento."
+        },
+        {
+          "text": "Si bien",
+          "explanation": "Admite una dificultad que no impidió completar la versión sencilla."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca una restricción que el resultado consiguió superar parcialmente.",
+      "solution": [
+        "El presupuesto limitado constituye una dificultad.",
+        "Si bien permite reconocerla sin negar el logro."
+      ],
+      "passage": {
+        "title": "La propuesta",
+        "paragraphs": [
+          "___ el presupuesto era limitado, el equipo logró completar una versión sencilla del proyecto con materiales reutilizados."
+        ]
+      },
+      "id": "conectores-avanzados-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Continuidad temática",
+      "body": [],
+      "prompt": "¿Qué expresión organiza mejor la continuación?",
+      "choices": [
+        {
+          "text": "A continuación",
+          "explanation": "Presenta la siguiente parte relacionada con el mismo servicio."
+        },
+        {
+          "text": "Por el contrario",
+          "explanation": "No se niega ni invierte el procedimiento anterior."
+        },
+        {
+          "text": "En conclusión",
+          "explanation": "Se anuncia un contenido nuevo que todavía debe desarrollarse."
+        }
+      ],
+      "correct": 0,
+      "hint": "El segundo procedimiento es la parte que viene después.",
+      "solution": [
+        "La exposición pasa a otro paso del mismo sistema.",
+        "A continuación señala esa continuidad ordenada."
+      ],
+      "passage": {
+        "title": "La explicación",
+        "paragraphs": [
+          "Ya hemos revisado cómo se anotan los préstamos. ___, explicaremos qué hacer cuando un libro se devuelve fuera de plazo."
+        ]
+      },
+      "id": "conectores-avanzados-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Concesión no equivale a negación",
+      "body": [],
+      "prompt": "¿Qué interpretación es correcta?",
+      "choices": [
+        {
+          "text": "Ningún documento podía consultarse a distancia",
+          "explanation": "El texto reconoce que la consulta a distancia se facilitó."
+        },
+        {
+          "text": "La mejora de acceso coexistió con un límite en algunos documentos",
+          "explanation": "Aunque articula un beneficio y una restricción sin anularlos."
+        },
+        {
+          "text": "La digitalización causó todo el deterioro",
+          "explanation": "El texto ubica el deterioro antes de ese proceso."
+        }
+      ],
+      "correct": 1,
+      "hint": "Conserva los dos hechos: mejora y límite.",
+      "solution": [
+        "La concesión admite la facilidad de consulta.",
+        "La dificultad de legibilidad afecta a algunos documentos y no elimina ese beneficio."
+      ],
+      "passage": {
+        "title": "El archivo digital",
+        "paragraphs": [
+          "Aunque el archivo digital facilitó la consulta a distancia, algunos documentos seguían sin ser legibles porque se habían deteriorado antes de la digitalización."
+        ]
+      },
+      "id": "conectores-avanzados-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Orden expositivo y cronología",
+      "body": [],
+      "prompt": "¿Qué indican los enlaces de orden?",
+      "choices": [
+        {
+          "text": "Que los costos actuales ocurrieron antes que los hechos del año anterior",
+          "explanation": "El orden de exposición no coincide con el orden de los acontecimientos."
+        },
+        {
+          "text": "Que cada apartado es causa del siguiente",
+          "explanation": "La enumeración no establece esa dependencia causal."
+        },
+        {
+          "text": "La secuencia de presentación de las partes del informe",
+          "explanation": "Ordenan la exposición, aunque las partes se refieran a tiempos diferentes."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue el tiempo de los hechos del orden en que se explican.",
+      "solution": [
+        "Los apartados pasan del presente al pasado y luego al futuro.",
+        "Los enlaces organizan la lectura del informe, no una cronología histórica."
+      ],
+      "passage": {
+        "title": "El informe",
+        "paragraphs": [
+          "En primer lugar, el informe presenta los costos actuales. En segundo lugar, reconstruye cómo se organizó el taller el año anterior. Finalmente, propone dos alternativas para la próxima edición."
+        ]
+      },
+      "id": "conectores-avanzados-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Una limitación no destruye todo beneficio",
+      "body": [
+        "Si confundiste una concesión con una negación total, vuelve a separar las dos afirmaciones. Aunque A, B suele admitir A y afirmar B pese a la dificultad.",
+        "Si interpretaste finalmente como por lo tanto, revisa si se presenta la última parte o una conclusión que depende de razones. El cierre de una lista no siempre es una deducción."
+      ],
+      "id": "conectores-avanzados-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Cerrar puede resumir o inferir",
+      "body": [
+        "En resumen condensa lo ya desarrollado. En conclusión puede presentar un balance o una tesis derivada. Por lo tanto destaca una consecuencia o inferencia. El contexto define su función exacta.",
+        "Un buen cierre conserva las condiciones del texto. Si los datos corresponden a dos ensayos, el enlace no autoriza afirmar que un resultado ocurrirá siempre y en cualquier lugar."
+      ],
+      "id": "conectores-avanzados-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una conclusión proporcional",
+      "body": [
+        "Datos: tres grupos terminaron antes cuando recibieron un esquema. Límite: se ensayó una sola actividad.",
+        "Cierre resuelto: En estas condiciones, el esquema se asoció con un menor tiempo de trabajo. No sería válido concluir que cualquier esquema garantiza mejores resultados en todos los cursos."
+      ],
+      "passage": {
+        "title": "La prueba del esquema",
+        "paragraphs": [
+          "Tres grupos realizaron una actividad breve. En una segunda versión de la misma actividad recibieron un esquema de pasos y terminaron antes. El equipo aclaró que el orden de las versiones y la familiaridad con la tarea también podían influir."
+        ]
+      },
+      "id": "conectores-avanzados-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "El enlace no vuelve válida una conclusión",
+      "body": [
+        "Escribir por lo tanto no demuestra que lo anterior baste. Comprueba si el cierre se apoya en las razones, si conserva quiénes fueron observados y si no convierte una posibilidad en certeza.",
+        "En preguntas con dos huecos, puede fallar solo un enlace. No elijas una pareja porque el primero funcione: examina ambos y relee el razonamiento."
+      ],
+      "id": "conectores-avanzados-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una síntesis fiel",
+      "body": [],
+      "prompt": "¿Qué conector introduce mejor el balance final?",
+      "choices": [
+        {
+          "text": "Por el contrario",
+          "explanation": "El cierre integra las condiciones previas; no las contradice."
+        },
+        {
+          "text": "En resumen",
+          "explanation": "Condensa en una afirmación general la función de los tres elementos."
+        },
+        {
+          "text": "Por ejemplo",
+          "explanation": "La última oración reúne los casos y no añade otro ejemplo particular."
+        }
+      ],
+      "correct": 1,
+      "hint": "La oración final reúne lo que aportan varios detalles.",
+      "solution": [
+        "Rampa, señales y mesas desarrollan una misma orientación del diseño.",
+        "En resumen marca la síntesis de ese desarrollo."
+      ],
+      "passage": {
+        "title": "La sala nueva",
+        "paragraphs": [
+          "La sala tiene acceso por una rampa, señalización visible y mesas adaptables. El texto desarrolló cómo esas tres condiciones facilitan distintos usos. ___, el diseño busca facilitar que personas con necesidades diversas utilicen el espacio."
+        ]
+      },
+      "id": "conectores-avanzados-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una conclusión que se excede",
+      "body": [],
+      "prompt": "¿Qué cierre respeta mejor la evidencia?",
+      "choices": [
+        {
+          "text": "Por lo tanto, todo esquema elimina cualquier error",
+          "explanation": "Exagera de menos omisiones a ninguna y universaliza dos pruebas."
+        },
+        {
+          "text": "En conclusión, practicar nunca influye en los resultados",
+          "explanation": "No se aisló ese efecto; no puede negarse."
+        },
+        {
+          "text": "En estas pruebas hubo menos omisiones; no puede atribuirse el cambio solo al esquema",
+          "explanation": "Conserva el hallazgo y reconoce que la práctica no fue separada."
+        }
+      ],
+      "correct": 2,
+      "hint": "Mantén la cantidad de pruebas y la variable que no se controló.",
+      "solution": [
+        "Se observó una reducción concreta de omisiones.",
+        "No se demostró que el esquema fuera su única causa ni que eliminara errores."
+      ],
+      "passage": {
+        "title": "Dos pruebas",
+        "paragraphs": [
+          "En dos pruebas del taller, los equipos que revisaron un esquema cometieron menos omisiones que en su primer intento. El informe no comparó actividades diferentes ni aisló el efecto de la práctica."
+        ]
+      },
+      "id": "conectores-avanzados-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Concesión y resultado juntos",
+      "body": [],
+      "prompt": "¿Qué pareja conserva la lógica?",
+      "choices": [
+        {
+          "text": "Si bien / Por ello",
+          "explanation": "Reconoce una dificultad superada y luego presenta un resultado del trabajo completado."
+        },
+        {
+          "text": "Porque / Por el contrario",
+          "explanation": "Haría de la demora la causa directa de completar y presentaría oposición donde hay resultado."
+        },
+        {
+          "text": "En resumen / A pesar de que",
+          "explanation": "La primera parte no es un resumen y la segunda no encaja como enunciado independiente."
+        }
+      ],
+      "correct": 0,
+      "hint": "La primera relación admite un obstáculo; la segunda deriva un resultado.",
+      "solution": [
+        "El retraso no impidió completar: concesión.",
+        "Completar permite presentar los productos: consecuencia."
+      ],
+      "passage": {
+        "title": "La jornada",
+        "paragraphs": [
+          "___ algunos materiales llegaron tarde, el grupo reorganizó los turnos y completó la actividad. ___, pudo presentar todos los productos previstos, aunque necesitó más tiempo para ordenarlos."
+        ]
+      },
+      "id": "conectores-avanzados-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "La razón no es una garantía",
+      "body": [],
+      "prompt": "¿Qué expresa aun así?",
+      "choices": [
+        {
+          "text": "Que las mejoras ya garantizaron comprensión perfecta",
+          "explanation": "El ensayo pendiente muestra que no se considera garantizada."
+        },
+        {
+          "text": "Que las razones favorables no eliminan la necesidad de comprobar el resultado",
+          "explanation": "Introduce una cautela pese a la expectativa de mejora."
+        },
+        {
+          "text": "Que el grupo abandonó la exposición",
+          "explanation": "Se anuncia una prueba para revisarla, no su abandono."
+        }
+      ],
+      "correct": 1,
+      "hint": "Observa qué hace el equipo pese a confiar en sus mejoras.",
+      "solution": [
+        "Las modificaciones apoyan una expectativa favorable.",
+        "Aun así introduce la comprobación que sigue siendo necesaria."
+      ],
+      "passage": {
+        "title": "El pronóstico del grupo",
+        "paragraphs": [
+          "El equipo cree que la exposición será más fácil de seguir porque añadió un esquema y redujo los términos nuevos. Aun así, planea probarla con dos lectores antes de darla por lista."
+        ]
+      },
+      "id": "conectores-avanzados-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Revisa el alcance, además del enlace",
+      "body": [
+        "Ante un cierre, conserva los cuantificadores y las condiciones: algunos no es todos; menos errores no es ningún error; asociado no es única causa.",
+        "Ante dos conectores, anota dos relaciones independientes. Si una pareja exige borrar una dificultad, inventar un efecto o universalizar datos, no preserva el razonamiento.",
+        "Vuelve a una pregunta fallada y explica por qué cada distractor cambia la dirección o la fuerza de la relación. Esa comparación consolida el criterio."
+      ],
+      "id": "conectores-avanzados-24",
+      "level": 3
+    }
+  ]
+}

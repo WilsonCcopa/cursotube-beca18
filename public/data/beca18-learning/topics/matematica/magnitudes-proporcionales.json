@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/magnitudes-proporcionales",
+  "course": "matematica",
+  "slug": "magnitudes-proporcionales",
+  "title": "Magnitudes proporcionales",
+  "description": "Reconoce relaciones directas e inversas y resuelve reglas de tres con supuestos claros.",
+  "version": 1,
+  "order": 8,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Distinguir cociente constante de producto constante.",
+    "Leer tablas y gráficas de proporcionalidad.",
+    "Aplicar proporcionalidad compuesta, potencias y repartos."
+  ],
+  "steps": [
+    {
+      "id": "magnitudes-proporcionales-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Una magnitud y sus cantidades",
+      "body": [
+        "Masa, tiempo y longitud son magnitudes; 3 kg, 8 h y 12 cm son cantidades de esas magnitudes. Para comparar, expresa datos equivalentes en las mismas unidades.",
+        "Dos magnitudes son directamente proporcionales si y/x = k constante para x ≠ 0: y = kx. Al duplicar x, y también se duplica.",
+        "Que ambas aumenten no basta. Una tarifa y = 5 + 2x aumenta con x, pero el cargo fijo impide un cociente constante."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-02",
+      "level": 1,
+      "type": "example",
+      "title": "Precio por una cantidad",
+      "body": [
+        "A precio unitario constante, 3 kg de una semilla cuestan 21 soles. La constante es 21/3 = 7 soles por kg.",
+        "Para 5 kg, el costo es 7 × 5 = 35 soles. La tabla (1,7), (3,21), (5,35) mantiene costo/masa = 7.",
+        "Esto supone que no hay cargo fijo ni descuentos por volumen. Si cambian esas condiciones, hay que revisar el modelo antes de usar una regla de tres."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Una recta que pasa por el origen",
+      "body": [
+        "La función y = 2x muestra proporcionalidad directa. Cada unidad adicional de x aporta dos de y, y el punto (0,0) pertenece a la recta.",
+        "Explora el coeficiente y el término independiente. Si la recta deja de pasar por el origen, ya no describe y = kx, aunque siga siendo una relación lineal."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "linear",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "min": 0,
+        "max": 6
+      }
+    },
+    {
+      "id": "magnitudes-proporcionales-04",
+      "level": 1,
+      "type": "question",
+      "title": "Constante por unidad",
+      "body": [],
+      "prompt": "Si 4 metros de cinta cuestan 18 soles a precio unitario constante, ¿cuál es la constante costo/longitud?",
+      "choices": [
+        {
+          "text": "72 soles por metro",
+          "explanation": "Multiplicar costo por longitud no da el cociente unitario."
+        },
+        {
+          "text": "2/9 metros por sol",
+          "explanation": "Es la razón inversa y tiene las unidades invertidas."
+        },
+        {
+          "text": "4,5 soles por metro",
+          "explanation": "18/4 = 4,5 indica el costo de cada metro."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide el costo entre los metros.",
+      "solution": [
+        "k = 18/4 = 4,5.",
+        "El costo de L metros será 4,5L soles."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-05",
+      "level": 1,
+      "type": "question",
+      "title": "Regla de tres directa",
+      "body": [],
+      "prompt": "Una impresora produce 45 páginas en 3 minutos a ritmo constante. ¿Cuántas produce en 8 minutos?",
+      "choices": [
+        {
+          "text": "120 páginas",
+          "explanation": "El ritmo es 15 páginas/min y 15 × 8 = 120."
+        },
+        {
+          "text": "16,875 páginas",
+          "explanation": "Invertir la razón de tiempos corresponde a un modelo inverso que aquí no aplica."
+        },
+        {
+          "text": "50 páginas",
+          "explanation": "Sumar la diferencia de minutos a las páginas mezcla unidades."
+        }
+      ],
+      "correct": 0,
+      "hint": "Obtén primero la producción por minuto.",
+      "solution": [
+        "45/3 = 15 páginas por minuto.",
+        "15 × 8 = 120 páginas."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-06",
+      "level": 1,
+      "type": "question",
+      "title": "Comprueba una tabla",
+      "body": [],
+      "prompt": "¿Qué tabla de pares (x,y) muestra proporcionalidad directa?",
+      "choices": [
+        {
+          "text": "(2,12), (4,6), (6,4)",
+          "explanation": "El producto xy = 24 es constante: describe proporcionalidad inversa."
+        },
+        {
+          "text": "(2,6), (4,12), (6,18)",
+          "explanation": "En todos los pares y/x = 3."
+        },
+        {
+          "text": "(2,6), (4,8), (6,10)",
+          "explanation": "El cociente cambia: 3, 2 y 5/3. Hay un incremento fijo, pero no una razón constante."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula el mismo cociente en cada par de una opción.",
+      "solution": [
+        "6/2 = 12/4 = 18/6 = 3.",
+        "La tabla cumple y = 3x."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-07",
+      "level": 1,
+      "type": "question",
+      "title": "Una tarifa con cargo fijo",
+      "body": [],
+      "prompt": "Una entrega cuesta C = 6 + 3d soles por d kilómetros. ¿Por qué C y d no son directamente proporcionales?",
+      "choices": [
+        {
+          "text": "Porque el costo aumenta al aumentar la distancia",
+          "explanation": "Eso es compatible con proporcionalidad directa; lo decisivo es la razón constante."
+        },
+        {
+          "text": "Porque toda relación lineal es inversamente proporcional",
+          "explanation": "Una relación inversa tiene producto constante, no forma afín con cargo fijo."
+        },
+        {
+          "text": "Porque C/d no es constante debido al cargo fijo",
+          "explanation": "Para 1 km cuesta 9 y para 2 km cuesta 12; los cocientes 9 y 6 difieren."
+        }
+      ],
+      "correct": 2,
+      "hint": "Compara el costo de 1 km con el de 2 km.",
+      "solution": [
+        "C(1) = 9 y C(2) = 12.",
+        "Duplicar d no duplica C: 12 ≠ 18."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-08",
+      "level": 1,
+      "type": "review",
+      "title": "Aumentar juntos no es suficiente",
+      "body": [
+        "La prueba de proporcionalidad directa es el cociente constante y una recta que pasa por el origen, no solo que dos valores crezcan.",
+        "Mantén unidades coherentes y enuncia los supuestos: precio por unidad, ritmo uniforme o material de densidad constante. Un cargo fijo altera la relación."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Un producto que se conserva",
+      "body": [
+        "Dos magnitudes positivas son inversamente proporcionales si xy = k. Entonces y = k/x: al duplicar x, y se reduce a la mitad.",
+        "Si varios trabajadores igualmente productivos hacen una tarea divisible, y no hay interferencias ni tiempos fijos, trabajadores × horas puede ser constante.",
+        "En la gráfica y = k/x, los puntos forman una curva, no una recta; x = 0 queda fuera del modelo. Para k > 0, al aumentar x positivo, y disminuye."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-10",
+      "level": 2,
+      "type": "example",
+      "title": "La misma tarea, más personas",
+      "body": [
+        "Cuatro personas completan una tarea en 15 horas. Bajo el mismo ritmo individual y trabajo perfectamente repartible, la tarea exige 4 × 15 = 60 persona-horas.",
+        "Con 6 personas, el tiempo t cumple 6t = 60, de modo que t = 10 horas.",
+        "No multiplicamos 15 por 6/4: eso haría crecer el tiempo al aumentar personas. La tarea fija exige usar 15 × 4/6."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Cambiar la unidad antes de relacionar",
+      "body": [
+        "Para una distancia fija, velocidad × tiempo = distancia. Si duplicas la velocidad, el tiempo se divide entre dos, siempre que la velocidad sea constante en cada viaje.",
+        "Las relaciones inversas pueden expresarse con fracciones: si y = 36/x, para x = 8 resulta y = 4,5. No hay obligación de que ambas cantidades sean enteras.",
+        "Una disminución conjunta no implica relación inversa. Comprueba el producto, y decide si las cantidades permiten valores continuos o solo conteos."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-12",
+      "level": 2,
+      "type": "question",
+      "title": "Regla de tres inversa",
+      "body": [],
+      "prompt": "Seis bombas iguales llenan un tanque en 8 horas. Sin pérdidas y con caudal constante, ¿cuánto tardan 4 bombas?",
+      "choices": [
+        {
+          "text": "10 horas",
+          "explanation": "Sumar la diferencia de bombas al tiempo no conserva el producto."
+        },
+        {
+          "text": "12 horas",
+          "explanation": "El trabajo exige 6 × 8 = 48 bomba-horas; 48/4 = 12."
+        },
+        {
+          "text": "16/3 horas",
+          "explanation": "Se aplicó relación directa; con menos bombas el tiempo debe aumentar."
+        }
+      ],
+      "correct": 1,
+      "hint": "Mantén constante bombas × horas.",
+      "solution": [
+        "6 × 8 = 4 × t.",
+        "t = 48/4 = 12 horas."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-13",
+      "level": 2,
+      "type": "question",
+      "title": "Velocidad y tiempo",
+      "body": [],
+      "prompt": "Un recorrido se hace en 3 horas a 60 km/h constantes. ¿Cuánto se tarda a 90 km/h constantes en el mismo recorrido?",
+      "choices": [
+        {
+          "text": "4,5 horas",
+          "explanation": "Usar proporción directa haría tardar más a una velocidad mayor."
+        },
+        {
+          "text": "1,5 horas",
+          "explanation": "1,5 es el factor de aumento de velocidad, no el tiempo final."
+        },
+        {
+          "text": "2 horas",
+          "explanation": "La distancia es 180 km; 180/90 = 2 horas."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula primero la distancia que permanece fija.",
+      "solution": [
+        "Distancia = 60 × 3 = 180 km.",
+        "Tiempo = 180/90 = 2 horas."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-14",
+      "level": 2,
+      "type": "question",
+      "title": "Reconoce la inversa",
+      "body": [],
+      "prompt": "En una tabla se tienen (x,y) = (2,18), (3,12), (6,6). ¿Qué relación cumplen?",
+      "choices": [
+        {
+          "text": "xy = 36",
+          "explanation": "Los tres productos son 36, aunque los cocientes cambian."
+        },
+        {
+          "text": "y/x = 9",
+          "explanation": "Solo el primer par tiene ese cociente; los demás dan 4 y 1."
+        },
+        {
+          "text": "x + y = 20",
+          "explanation": "Solo el primer par suma 20; los otros suman 15 y 12."
+        }
+      ],
+      "correct": 0,
+      "hint": "Prueba producto, cociente y suma en todos los pares.",
+      "solution": [
+        "2 × 18 = 36; 3 × 12 = 36; 6 × 6 = 36.",
+        "La relación es y = 36/x."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-15",
+      "level": 2,
+      "type": "question",
+      "title": "Interpreta una fracción de tiempo",
+      "body": [],
+      "prompt": "Una tarea requiere 54 persona-horas. Nueve personas con igual productividad la hacen juntas. ¿Cuánto tiempo necesitan?",
+      "choices": [
+        {
+          "text": "45 horas",
+          "explanation": "Restar personas a persona-horas mezcla unidades y no modela el trabajo."
+        },
+        {
+          "text": "6 horas",
+          "explanation": "54/9 = 6 horas por grupo de nueve personas."
+        },
+        {
+          "text": "486 horas",
+          "explanation": "Multiplicar por nueve contaría más esfuerzo al repartir la tarea entre más personas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide el esfuerzo total entre la cantidad de personas.",
+      "solution": [
+        "9 × t = 54.",
+        "t = 54/9 = 6 horas."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-16",
+      "level": 2,
+      "type": "review",
+      "title": "La tarea fija es el ancla",
+      "body": [
+        "Para una relación inversa, calcula el producto y conserva sus unidades: km en velocidad por tiempo, o persona-horas en trabajo.",
+        "La gráfica es una hipérbola y no incluye el cero del denominador. Las cuentas de productividad son modelos: si hay esperas o interferencias, el supuesto de proporcionalidad puede fallar."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Proporcional no siempre significa a la variable sola",
+      "body": [
+        "Si M es directamente proporcional a √t, entonces M = k√t. Para multiplicar M por 3 necesitas multiplicar t por 9.",
+        "Si un cubo mantiene su densidad, masa es proporcional a volumen, y volumen es proporcional al cubo de la arista. Duplicar la arista multiplica masa por 8.",
+        "Nombra la magnitud exacta: ser proporcional al área no es lo mismo que ser proporcional al lado."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-18",
+      "level": 3,
+      "type": "example",
+      "title": "Un reparto inverso",
+      "body": [
+        "Se reparten 120 soles inversamente a los tiempos 2, 3 y 6. Los pesos son 1/2, 1/3 y 1/6; multiplicando por 6 resultan 3:2:1.",
+        "Son seis partes en total y cada parte vale 20 soles. Los montos son 60, 40 y 20.",
+        "Los productos monto × tiempo son 120 en los tres casos. Para un reparto directo a 2:3:6 usaríamos otros pesos y otro resultado."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Varios factores de trabajo",
+      "body": [
+        "En una regla de tres compuesta, compara cada magnitud manteniendo las demás fijas. Para igual productividad, producción = k × personas × horas/día × días.",
+        "Si aumenta la tarea, aumentan los días; si aumentan personas u horas por día, disminuyen los días necesarios. Escribe una igualdad de tasas para no memorizar flechas.",
+        "Un reparto directo usa pesos a,b,c. Uno inverso usa 1/a,1/b,1/c. Normaliza esos pesos dividiendo cada uno entre su suma."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-20",
+      "level": 3,
+      "type": "question",
+      "title": "Proporcional a una raíz",
+      "body": [],
+      "prompt": "M es directamente proporcional a √t. Si M = 10 cuando t = 4, ¿cuánto vale M cuando t = 25?",
+      "choices": [
+        {
+          "text": "25",
+          "explanation": "k = 10/√4 = 5, por tanto M = 5√25 = 25."
+        },
+        {
+          "text": "62,5",
+          "explanation": "Ese valor aplica proporcionalidad a t en lugar de √t."
+        },
+        {
+          "text": "50",
+          "explanation": "Duplicar 25 sin hallar k no respeta el dato inicial."
+        }
+      ],
+      "correct": 0,
+      "hint": "La variable proporcional es √t, no t.",
+      "solution": [
+        "M = k√t.",
+        "10 = 2k, así que k = 5.",
+        "M(25) = 5 × 5 = 25."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-21",
+      "level": 3,
+      "type": "question",
+      "title": "Reparto directo",
+      "body": [],
+      "prompt": "Se reparten 360 soles directamente a los pesos 2, 3 y 4. ¿Cuánto recibe el peso 3?",
+      "choices": [
+        {
+          "text": "40 soles",
+          "explanation": "40 es una parte, pero el destinatario tiene peso 3."
+        },
+        {
+          "text": "120 soles",
+          "explanation": "Son 9 partes; 360/9 = 40 y 3 × 40 = 120."
+        },
+        {
+          "text": "108 soles",
+          "explanation": "Tomar 3/10 usa un total de pesos incorrecto."
+        }
+      ],
+      "correct": 1,
+      "hint": "Suma todos los pesos antes de hallar cada parte.",
+      "solution": [
+        "2 + 3 + 4 = 9.",
+        "Monto = 360 × 3/9 = 120 soles."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-22",
+      "level": 3,
+      "type": "question",
+      "title": "Reparto inverso",
+      "body": [],
+      "prompt": "Repartes 180 soles inversamente a 2, 3 y 6. ¿Cuánto corresponde al valor 2?",
+      "choices": [
+        {
+          "text": "30 soles",
+          "explanation": "30 corresponde al valor 6, el mayor divisor y menor monto."
+        },
+        {
+          "text": "360/11 soles",
+          "explanation": "Usar 2/(2 + 3 + 6) produce reparto directo, no inverso."
+        },
+        {
+          "text": "90 soles",
+          "explanation": "Los pesos inversos equivalen a 3:2:1; al valor 2 le tocan 3 de 6 partes."
+        }
+      ],
+      "correct": 2,
+      "hint": "Transforma 1/2:1/3:1/6 en una razón de enteros.",
+      "solution": [
+        "Pesos inversos: 3:2:1.",
+        "Total 6 partes; cada una vale 30 soles.",
+        "Al valor 2 le corresponden 3 × 30 = 90 soles."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-23",
+      "level": 3,
+      "type": "question",
+      "title": "Regla de tres compuesta",
+      "body": [],
+      "prompt": "Cinco personas producen 240 piezas en 4 días de 6 horas. A igual ritmo, ¿cuántos días necesitan 8 personas trabajando 5 horas diarias para producir 400 piezas?",
+      "choices": [
+        {
+          "text": "5 días",
+          "explanation": "La tasa es 240/(5 × 4 × 6) = 2 piezas/persona-hora. Con 8 personas y 5 horas se hacen 80 piezas/día."
+        },
+        {
+          "text": "4 días",
+          "explanation": "En cuatro días el nuevo grupo produce 320 piezas, menos de 400."
+        },
+        {
+          "text": "8 días",
+          "explanation": "8 días producirían 640 piezas; se sobreestima el tiempo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Halla la producción por persona y hora antes del nuevo plazo.",
+      "solution": [
+        "Tasa = 2 piezas por persona-hora.",
+        "Nueva producción diaria = 2 × 8 × 5 = 80.",
+        "Días = 400/80 = 5."
+      ]
+    },
+    {
+      "id": "magnitudes-proporcionales-24",
+      "level": 3,
+      "type": "review",
+      "title": "Decide antes de multiplicar",
+      "body": [
+        "Escribe qué se mantiene fijo y a qué expresión es proporcional cada cantidad. En potencias, actúa sobre la raíz o el exponente correcto; en repartos, distingue pesos directos e inversos.",
+        "En trabajo compuesto, comprueba el resultado reconstruyendo la producción total. Esta verificación detecta tanto una fracción invertida como una unidad de tiempo mal convertida."
+      ]
+    }
+  ]
+}

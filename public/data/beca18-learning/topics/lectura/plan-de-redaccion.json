@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/plan-de-redaccion",
+  "course": "lectura",
+  "slug": "plan-de-redaccion",
+  "title": "Plan de redacción",
+  "description": "Ordena ideas según generalidad, tiempo, causa y dependencias referenciales.",
+  "version": 1,
+  "order": 22,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Leer el título y ordenar de general a particular",
+    "Aplicar cronología y causa-efecto sin confundir criterios",
+    "Resolver planes con referencias y verificar la secuencia completa"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "El plan organiza ideas antes de redactar",
+      "body": [
+        "Un plan de redacción propone una secuencia coherente de ideas alrededor de un tema. El título delimita el asunto y la consigna puede fijar un criterio: generalidad, cronología, causa-efecto o estructura de un procedimiento.",
+        "En el criterio de generalidad se presenta primero la clase amplia, luego un tipo y después un caso o detalle. No toda redacción real debe seguir ese orden; aquí se aplica cuando la tarea lo exige."
+      ],
+      "id": "plan-de-redaccion-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "De la clase al caso",
+      "body": [
+        "Orden resuelto: III - I - II. Primero se presenta qué es un instrumento de medida; luego una clase que mide masa; finalmente, una balanza concreta del taller.",
+        "Empezar por esta balanza antes de presentar el caso dejaría una referencia sin anclaje y desobedecería el criterio de general a particular."
+      ],
+      "passage": {
+        "title": "Instrumentos de medida",
+        "paragraphs": [
+          "Ordena de general a particular. I. Las balanzas son instrumentos usados para comparar o medir masa. II. Esta balanza del taller admite hasta cinco kilogramos. III. Los instrumentos de medida permiten comparar una magnitud con una referencia."
+        ]
+      },
+      "id": "plan-de-redaccion-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "El título delimita; el criterio ordena",
+      "body": [
+        "Toca cada decisión antes de probar secuencias."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Tema",
+            "text": "¿Qué asunto deben desarrollar todas las ideas?"
+          },
+          {
+            "label": "Criterio",
+            "text": "¿La consigna exige tiempo, generalidad o dependencia entre pasos?"
+          },
+          {
+            "label": "Inicio",
+            "text": "¿Qué enunciado presenta algo sin necesitar una referencia previa?"
+          },
+          {
+            "label": "Desarrollo",
+            "text": "¿Qué relación justifica que una idea siga a otra?"
+          },
+          {
+            "label": "Comprobación",
+            "text": "¿El orden completo mantiene tema y antecedentes?"
+          }
+        ]
+      },
+      "id": "plan-de-redaccion-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "General a particular",
+      "body": [],
+      "prompt": "¿Qué secuencia corresponde?",
+      "choices": [
+        {
+          "text": "I - II - III",
+          "explanation": "Parte del caso concreto y termina en la categoría general."
+        },
+        {
+          "text": "III - II - I",
+          "explanation": "Presenta categoría, tipo y caso particular."
+        },
+        {
+          "text": "II - III - I",
+          "explanation": "Interrumpe la progresión de general a particular al volver a la definición más amplia."
+        }
+      ],
+      "correct": 1,
+      "hint": "Identifica categoría, tipo y caso.",
+      "solution": [
+        "III define asiento; II presenta silla como tipo.",
+        "I describe una silla particular."
+      ],
+      "passage": {
+        "title": "Los asientos",
+        "paragraphs": [
+          "Consigna: ordenar de general a particular. I. La silla del aula tiene respaldo de madera. II. La silla es un tipo de asiento. III. Un asiento permite apoyar el cuerpo al sentarse."
+        ]
+      },
+      "id": "plan-de-redaccion-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una entrada independiente",
+      "body": [],
+      "prompt": "¿Qué oración puede iniciar el plan sin referencia pendiente?",
+      "choices": [
+        {
+          "text": "II",
+          "explanation": "Presenta el catálogo que las otras oraciones retomarán."
+        },
+        {
+          "text": "I",
+          "explanation": "Este sistema necesita que el lector sepa qué sistema es."
+        },
+        {
+          "text": "III",
+          "explanation": "Probarlo requiere que antes se haya identificado el objeto."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca la oración que introduce el referente.",
+      "solution": [
+        "II nombra un objeto nuevo con contenido suficiente.",
+        "I y III dependen de ese objeto ya presentado."
+      ],
+      "passage": {
+        "title": "El catálogo",
+        "paragraphs": [
+          "I. Este sistema permite localizar cada imagen por calle. II. El archivo construyó un catálogo con códigos para sus fotografías. III. Después de probarlo, se añadieron dos campos de búsqueda. El sistema de I es el catálogo presentado en II."
+        ]
+      },
+      "id": "plan-de-redaccion-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un caso después de la explicación",
+      "body": [],
+      "prompt": "¿Qué orden cumple la consigna?",
+      "choices": [
+        {
+          "text": "I - II - III",
+          "explanation": "El ejemplo aparece antes de su explicación y del criterio."
+        },
+        {
+          "text": "III - I - II",
+          "explanation": "Termina en lo general después de presentar el caso."
+        },
+        {
+          "text": "II - III - I",
+          "explanation": "Define clasificación, fija el criterio y aporta un ejemplo."
+        }
+      ],
+      "correct": 2,
+      "hint": "La palabra ejemplo debe concretar un marco ya presentado.",
+      "solution": [
+        "II explica la operación general.",
+        "III la delimita y I la ejemplifica."
+      ],
+      "passage": {
+        "title": "Las clasificaciones",
+        "paragraphs": [
+          "Consigna: explicación general, criterio y caso. I. Por ejemplo, las hojas de borde liso forman un grupo. II. Una clasificación reúne elementos que comparten un rasgo. III. En esta colección se usará la forma del borde como criterio."
+        ]
+      },
+      "id": "plan-de-redaccion-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "La función del título",
+      "body": [],
+      "prompt": "¿Qué debe revisarse antes de ordenar esa oración añadida?",
+      "choices": [
+        {
+          "text": "Su longitud para ponerla siempre al final",
+          "explanation": "El tamaño no resuelve su falta de relación temática."
+        },
+        {
+          "text": "Su pertinencia respecto del tema del plan",
+          "explanation": "No basta ubicarla: debe contribuir a la conservación del archivo."
+        },
+        {
+          "text": "Su cantidad de comas para decidir el inicio",
+          "explanation": "La puntuación no establece su pertinencia con el asunto."
+        }
+      ],
+      "correct": 1,
+      "hint": "El orden no corrige una idea que no pertenece al plan.",
+      "solution": [
+        "El título delimita conservación de papel.",
+        "La oración deportiva necesita una relación justificada o debe excluirse."
+      ],
+      "passage": {
+        "title": "El plan",
+        "paragraphs": [
+          "Título: Conservación de un archivo de papel. Las ideas se refieren a humedad, manipulación y registro del estado de las hojas. Una oración añadida describe la historia de un campeonato deportivo sin relación con el archivo."
+        ]
+      },
+      "id": "plan-de-redaccion-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Ordenar no significa adivinar un gusto del autor",
+      "body": [
+        "Formula por qué una idea debe ir antes que otra. Puede introducir una clase, un referente o una condición necesaria. Si no puedes justificar el vínculo, revisa el criterio.",
+        "Comprueba primero la pertinencia de todas las ideas. Poner al final una digresión no la vuelve coherente con el tema."
+      ],
+      "id": "plan-de-redaccion-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Cronología y causa no son lo mismo",
+      "body": [
+        "La cronología sigue momentos: antes, durante y después. La causa-efecto explica por qué ocurre un resultado. Un hecho puede ser anterior sin causar el siguiente.",
+        "Cuando la consigna ordena un procedimiento, respeta dependencias: no se puede comparar el contenido de dos cajas si todavía no se abrió ni registró ninguna. Las referencias temporales ayudan a fijar la secuencia."
+      ],
+      "id": "plan-de-redaccion-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Tres etapas que se necesitan",
+      "body": [
+        "Orden resuelto: II - III - I. La recolección proporciona los datos; el conteo los organiza; la comparación usa el conteo terminado.",
+        "La secuencia no depende de que una frase sea más larga, sino de lo que cada etapa necesita de la anterior."
+      ],
+      "passage": {
+        "title": "Una encuesta breve",
+        "paragraphs": [
+          "I. Finalmente, se compararon las cantidades de cada respuesta. II. Primero, se recogieron las fichas de los participantes. III. Con las fichas reunidas, se contó cuántas correspondían a cada opción."
+        ]
+      },
+      "id": "plan-de-redaccion-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Distingue antes y porque",
+      "body": [
+        "Toca cada vínculo para identificar el criterio."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "La lluvia comenzó a las 9:00; la visita terminó a las 10:00.",
+            "role": "Orden temporal, sin afirmar por sí solo una causa"
+          },
+          {
+            "text": "El sendero quedó bloqueado por el desprendimiento.",
+            "role": "Relación explicativa entre causa y resultado"
+          },
+          {
+            "text": "Antes de guardar, se verificó el código.",
+            "role": "Dependencia de procedimiento"
+          },
+          {
+            "text": "El código verificado se anotó después en la carpeta.",
+            "role": "Acción que usa el resultado del control previo"
+          }
+        ]
+      },
+      "id": "plan-de-redaccion-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cronología explícita",
+      "body": [],
+      "prompt": "¿Qué orden corresponde?",
+      "choices": [
+        {
+          "text": "I - III - II",
+          "explanation": "Va del final al principio y no cumple la consigna."
+        },
+        {
+          "text": "III - II - I",
+          "explanation": "Coloca las 9:00 antes de las 8:00."
+        },
+        {
+          "text": "II - III - I",
+          "explanation": "Sigue 8:00, 9:00 y 11:00 en orden ascendente."
+        }
+      ],
+      "correct": 2,
+      "hint": "Usa las horas como marcas temporales, no como causas.",
+      "solution": [
+        "La reunión de materiales precede a la elaboración.",
+        "La presentación de productos es la última etapa."
+      ],
+      "passage": {
+        "title": "La jornada",
+        "paragraphs": [
+          "I. A las 11:00 se presentaron los productos. II. A las 8:00 se reunieron los materiales. III. A las 9:00 comenzó la elaboración. La consigna exige narrar la jornada de principio a fin."
+        ]
+      },
+      "id": "plan-de-redaccion-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Causa y consecuencia",
+      "body": [],
+      "prompt": "¿Qué orden sigue la consigna?",
+      "choices": [
+        {
+          "text": "II - III - I",
+          "explanation": "Filtración, tinta corrida y dificultad de lectura conservan la cadena."
+        },
+        {
+          "text": "I - III - II",
+          "explanation": "Invierte el recorrido y empieza por el resultado."
+        },
+        {
+          "text": "III - II - I",
+          "explanation": "Coloca el efecto antes de la causa que el texto establece."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conserva la dependencia agua → tinta → legibilidad.",
+      "solution": [
+        "II explica por qué se alteró la tinta.",
+        "III explica la dificultad final de I."
+      ],
+      "passage": {
+        "title": "El deterioro",
+        "paragraphs": [
+          "Consigna: presentar primero la causa, después el efecto inmediato y finalmente su resultado en la lectura. I. Varias letras se volvieron difíciles de distinguir. II. El agua alcanzó las hojas por una filtración. III. La tinta se corrió sobre el papel. El texto establece esa cadena causal."
+        ]
+      },
+      "id": "plan-de-redaccion-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Paso previo necesario",
+      "body": [],
+      "prompt": "¿Qué secuencia es ejecutable?",
+      "choices": [
+        {
+          "text": "I - II - III",
+          "explanation": "Invita antes de saber si existe una sala disponible."
+        },
+        {
+          "text": "II - III - I",
+          "explanation": "Consulta, confirma y solo después invita."
+        },
+        {
+          "text": "III - I - II",
+          "explanation": "Intenta elegir una sala libre antes de consultar la disponibilidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cada paso debe disponer de la información que presupone.",
+      "solution": [
+        "II produce la información para elegir en III.",
+        "La confirmación de III permite ejecutar I."
+      ],
+      "passage": {
+        "title": "La reserva",
+        "paragraphs": [
+          "I. Con la disponibilidad confirmada, envía la invitación. II. Consulta qué salas están libres para la fecha. III. Elige una sala libre y confirma la reserva. El procedimiento no permite invitar antes de confirmar."
+        ]
+      },
+      "id": "plan-de-redaccion-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Anterioridad no demuestra causa",
+      "body": [],
+      "prompt": "¿Qué decisión es correcta?",
+      "choices": [
+        {
+          "text": "Presentar la mesa como causa de la carta",
+          "explanation": "Invierte el tiempo y añade una relación no expresada."
+        },
+        {
+          "text": "Afirmar que la carta obligó al cambio",
+          "explanation": "La causa no está establecida por la mera secuencia."
+        },
+        {
+          "text": "Ubicar la llegada antes del cambio sin afirmar que lo causó",
+          "explanation": "Respeta el criterio cronológico y el límite del documento."
+        }
+      ],
+      "correct": 2,
+      "hint": "La consigna pide orden y no una explicación inventada.",
+      "solution": [
+        "Lunes precede a martes.",
+        "Eso no basta para atribuir causalidad entre los hechos."
+      ],
+      "passage": {
+        "title": "Dos hechos",
+        "paragraphs": [
+          "La carta llegó el lunes. El martes se cambió la mesa del aula. El documento no conecta ambos hechos y el plan solicitado solo debe presentarlos en orden temporal."
+        ]
+      },
+      "id": "plan-de-redaccion-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Justifica cada transición",
+      "body": [
+        "Si invertiste un procedimiento, escribe qué dato o resultado necesita cada acción. Si confundiste causa y tiempo, pregunta si el texto afirma una dependencia o solo dos fechas.",
+        "No uses por eso para unir hechos solo porque aparezcan uno después de otro. La secuencia debe conservar el tipo de relación que el material establece."
+      ],
+      "id": "plan-de-redaccion-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Las referencias fijan restricciones de orden",
+      "body": [
+        "Este problema, esa medida y dicho resultado necesitan antecedentes. Una oración puede estar correctamente escrita y no funcionar como inicio porque depende de algo aún no presentado.",
+        "Resuelve primero los vínculos obligatorios: problema antes de respuesta, objeto antes de ese objeto, explicación antes del ejemplo que depende de ella. Después revisa la secuencia completa."
+      ],
+      "id": "plan-de-redaccion-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Cinco ideas, una cadena comprobable",
+      "body": [
+        "Orden resuelto: III - I - V - II - IV. Se presenta la dificultad, se diseña la medida, se prueba, se registra el resultado y se decide ampliar.",
+        "Las palabras esa distribución, durante la prueba y con ese resultado obligan a conservar los antecedentes. Leer solo el inicio y el final no basta."
+      ],
+      "passage": {
+        "title": "La distribución del depósito",
+        "paragraphs": [
+          "I. Para resolverlo, se diseñó una distribución con estantes numerados. II. Durante la prueba, el tiempo de búsqueda fue menor. III. El material mezclado dificultaba encontrar cada herramienta. IV. Con ese resultado, se decidió ampliar el sistema. V. Esa distribución se probó primero con dos grupos."
+        ]
+      },
+      "id": "plan-de-redaccion-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Prueba también las opciones descartadas",
+      "body": [
+        "Una alternativa puede acertar el inicio y fallar en el desarrollo. Comprueba dónde rompe una dependencia y exprésalo con un vínculo concreto.",
+        "El plan final debe conservar todas las ideas pertinentes una vez, sin saltos y sin referencias pendientes. Si varios órdenes fueran igualmente válidos, haría falta una consigna más precisa; aquí las condiciones fijan la secuencia."
+      ],
+      "id": "plan-de-redaccion-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una cadena de referencias",
+      "body": [],
+      "prompt": "¿Qué orden cumple todos los vínculos?",
+      "choices": [
+        {
+          "text": "II - I - IV - III",
+          "explanation": "Ese registro aparece antes de su creación en IV."
+        },
+        {
+          "text": "II - IV - I - III",
+          "explanation": "Presenta el problema, crea el registro, lo comparte y muestra su uso."
+        },
+        {
+          "text": "IV - II - III - I",
+          "explanation": "El resultado usa datos antes de que se explique su difusión a los responsables."
+        }
+      ],
+      "correct": 1,
+      "hint": "Combina el criterio explícito con los antecedentes de ese registro.",
+      "solution": [
+        "II introduce el problema que IV atiende.",
+        "I difunde la medida y III muestra su resultado."
+      ],
+      "passage": {
+        "title": "El registro común",
+        "paragraphs": [
+          "I. Ese registro se compartió con los responsables de grupo. II. La falta de información dificultaba localizar las herramientas. III. Con los datos disponibles, los responsables pudieron responder consultas. IV. Para atender el problema, se creó un registro común. La secuencia debe presentar problema, medida, difusión y resultado."
+        ]
+      },
+      "id": "plan-de-redaccion-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un caso con cinco etapas",
+      "body": [],
+      "prompt": "¿Qué secuencia respeta las dependencias?",
+      "choices": [
+        {
+          "text": "II - V - IV - I - III",
+          "explanation": "Ese borrador aparece antes de que IV lo produzca."
+        },
+        {
+          "text": "II - IV - I - V - III",
+          "explanation": "Las observaciones se incorporan antes de la prueba que las genera."
+        },
+        {
+          "text": "II - IV - V - I - III",
+          "explanation": "Reúne, redacta, prueba, revisa y distribuye en ese orden."
+        }
+      ],
+      "correct": 2,
+      "hint": "Sigue el producto que genera cada etapa para la siguiente.",
+      "solution": [
+        "La información permite redactar y el borrador permite probar.",
+        "La prueba aporta observaciones para la versión que luego se distribuye."
+      ],
+      "passage": {
+        "title": "La guía",
+        "paragraphs": [
+          "I. Las observaciones de esa prueba se incorporaron a la versión final. II. Primero se reunió información sobre los préstamos. III. La versión final se entregó a todos los grupos. IV. Con la información reunida se redactó un borrador. V. Ese borrador se probó con tres lectores nuevos."
+        ]
+      },
+      "id": "plan-de-redaccion-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Detecta el punto de ruptura",
+      "body": [],
+      "prompt": "¿Qué ajuste es necesario?",
+      "choices": [
+        {
+          "text": "Mover III antes de II",
+          "explanation": "La prueba debe presentarse antes de que se indique su resultado."
+        },
+        {
+          "text": "Mover IV al principio",
+          "explanation": "Con el resultado favorable quedaría sin antecedente."
+        },
+        {
+          "text": "Eliminar I por presentar un problema",
+          "explanation": "El problema explica la necesidad de reparar el cierre."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca la referencia que aparece antes de su antecedente.",
+      "solution": [
+        "Esa prueba en II depende de la acción presentada en III.",
+        "I - III - II - IV restablece problema, reparación, prueba y decisión."
+      ],
+      "passage": {
+        "title": "La secuencia propuesta",
+        "paragraphs": [
+          "I. La caja tenía un cierre deteriorado. II. Esa prueba mostró que ya no se abría durante el traslado. III. El equipo reemplazó el cierre y después probó la caja cargada. IV. Con el resultado favorable, volvió a usarla. La propuesta de orden es I - II - III - IV."
+        ]
+      },
+      "id": "plan-de-redaccion-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Verifica el plan entero",
+      "body": [],
+      "prompt": "¿Qué orden cumple tema y referencias?",
+      "choices": [
+        {
+          "text": "II - IV - I - III - V",
+          "explanation": "Ese resultado aparece en III antes de la observación que lo establece en V."
+        },
+        {
+          "text": "II - I - IV - V - III",
+          "explanation": "Presenta el principio general, la aplicación, su criterio y el resultado que luego se usa."
+        },
+        {
+          "text": "I - II - IV - V - III",
+          "explanation": "La aplicación comienza con esa organización antes de que se presente el sistema general."
+        }
+      ],
+      "correct": 1,
+      "hint": "No basta un inicio correcto: comprueba también qué retoma ese resultado.",
+      "solution": [
+        "II introduce el sistema y I lo sitúa en el taller.",
+        "IV explica el criterio, V aporta el hallazgo y III lo retoma como utilidad."
+      ],
+      "passage": {
+        "title": "Un archivo de objetos",
+        "paragraphs": [
+          "Consigna: de lo general a una aplicación y su resultado. I. En el taller, esa organización se aplicó a las herramientas compartidas. II. Un sistema de clasificación agrupa objetos según un criterio. III. Ese resultado permitió responder las consultas sin abrir todas las cajas. IV. Se eligió la función de cada herramienta como criterio y se rotularon los grupos. V. Tras rotular, el equipo localizó cada herramienta con menos pasos."
+        ]
+      },
+      "id": "plan-de-redaccion-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "El plan se prueba leyendo, no solo mirando números",
+      "body": [
+        "Reescribe mentalmente las oraciones en el orden elegido. Cada referencia debe quedar interpretada y cada paso debe disponer de lo que necesita.",
+        "Si fallaste, anota el primer vínculo roto de tu opción. Esa explicación es más útil que memorizar la secuencia correcta, porque se traslada a otros planes y a tu propia escritura."
+      ],
+      "id": "plan-de-redaccion-24",
+      "level": 3
+    }
+  ]
+}

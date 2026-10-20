@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/expresiones-algebraicas",
+  "course": "matematica",
+  "slug": "expresiones-algebraicas",
+  "title": "Expresiones algebraicas",
+  "description": "Lee y transforma expresiones conservando coeficientes, potencias, grados y restricciones.",
+  "version": 1,
+  "order": 14,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Identificar términos, grados y expresiones polinómicas.",
+    "Reducir, multiplicar y dividir expresiones con signos correctos.",
+    "Usar identidades y factorización para simplificar con justificación."
+  ],
+  "steps": [
+    {
+      "id": "expresiones-algebraicas-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Qué representa cada parte",
+      "body": [
+        "En −7x²y, −7 es el coeficiente y x²y es la parte literal. x e y son variables; sus exponentes describen cuántos factores aparecen. Un coeficiente puede ser fraccionario o negativo.",
+        "Un monomio polinómico es un solo término con exponentes enteros no negativos en sus variables. Un polinomio es una suma finita de esos monomios; puede tener uno o varios términos. Binomio y trinomio indican dos y tres términos no nulos.",
+        "Una expresión racional puede incluir divisiones por expresiones con variables, como 1/x, pero eso no la convierte en polinomio. Una expresión con una variable dentro de un radical no reducible, como √x, es algebraica irracional en esta clasificación."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-02",
+      "level": 1,
+      "type": "example",
+      "title": "Sustituye un negativo con paréntesis",
+      "body": [
+        "Calcula P(x) = 3x² − 2x + 4 para x = −2. La sustitución es 3(−2)² − 2(−2) + 4.",
+        "Primero la potencia: (−2)² = 4. Después los productos: 12 + 4 + 4 = 20.",
+        "El coeficiente de x no cambia la regla de signos. Escribir 3 × −2² sin agrupar puede hacer que la potencia se interprete sobre 2 y no sobre el valor completo sustituido."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Grado de un término y de un polinomio",
+      "body": [
+        "El grado relativo de 5x³y² respecto de x es 3 y respecto de y es 2. Su grado absoluto es 3 + 2 = 5. El coeficiente 5 no se suma al grado.",
+        "En un polinomio ya reducido, el grado relativo es el mayor exponente de esa variable y el absoluto es el máximo grado total de sus términos. En x²y + y⁴, el grado absoluto es 4, no 7.",
+        "El polinomio cero requiere una convención aparte para su grado. Aquí trabajaremos con expresiones no nulas y reduciremos términos antes de determinarlo."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-04",
+      "level": 1,
+      "type": "question",
+      "title": "Coeficiente con signo",
+      "body": [],
+      "prompt": "¿Cuál es el coeficiente de −7x²y?",
+      "choices": [
+        {
+          "text": "7",
+          "explanation": "Se omitió el signo que forma parte del coeficiente."
+        },
+        {
+          "text": "2",
+          "explanation": "2 es el exponente de x, no el coeficiente."
+        },
+        {
+          "text": "−7",
+          "explanation": "El factor numérico incluye el signo negativo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa el factor numérico de la parte literal.",
+      "solution": [
+        "−7x²y = (−7) × x² × y.",
+        "El coeficiente es −7."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-05",
+      "level": 1,
+      "type": "question",
+      "title": "Un monomio polinómico",
+      "body": [],
+      "prompt": "¿Cuál es un monomio polinómico en x e y?",
+      "choices": [
+        {
+          "text": "3x²y",
+          "explanation": "Es un término con exponentes 2 y 1, enteros no negativos."
+        },
+        {
+          "text": "3/x",
+          "explanation": "Tiene exponente −1 de x y no es un monomio polinómico."
+        },
+        {
+          "text": "√x + y",
+          "explanation": "Tiene dos términos y una variable bajo raíz no reducible."
+        }
+      ],
+      "correct": 0,
+      "hint": "Revisa cantidad de términos y exponentes de las variables.",
+      "solution": [
+        "3x²y tiene una sola parte multiplicativa.",
+        "Sus exponentes son 2 y 1, por lo que es un monomio polinómico."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-06",
+      "level": 1,
+      "type": "question",
+      "title": "Valor numérico",
+      "body": [],
+      "prompt": "Si P(x) = 2x² − 3x + 1, ¿cuánto vale P(−2)?",
+      "choices": [
+        {
+          "text": "−13",
+          "explanation": "Se trataron incorrectamente el cuadrado y el producto de dos negativos."
+        },
+        {
+          "text": "15",
+          "explanation": "2(−2)² − 3(−2) + 1 = 8 + 6 + 1."
+        },
+        {
+          "text": "3",
+          "explanation": "3 resulta de tratar −3(−2) como −6."
+        }
+      ],
+      "correct": 1,
+      "hint": "Sustituye cada x por (−2).",
+      "solution": [
+        "(−2)² = 4.",
+        "2 × 4 − 3(−2) + 1 = 8 + 6 + 1.",
+        "P(−2) = 15."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-07",
+      "level": 1,
+      "type": "question",
+      "title": "Grado absoluto",
+      "body": [],
+      "prompt": "¿Cuál es el grado absoluto de 4x³y²?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "3 es el grado relativo respecto de x."
+        },
+        {
+          "text": "9",
+          "explanation": "9 suma también el coeficiente 4, que no interviene en el grado."
+        },
+        {
+          "text": "5",
+          "explanation": "Se suman los exponentes de las variables: 3 + 2."
+        }
+      ],
+      "correct": 2,
+      "hint": "El grado total suma exponentes, no coeficientes.",
+      "solution": [
+        "Exponentes: 3 en x y 2 en y.",
+        "Grado absoluto = 3 + 2 = 5."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-08",
+      "level": 1,
+      "type": "review",
+      "title": "Identifica antes de operar",
+      "body": [
+        "Coeficiente, exponente y grado responden preguntas diferentes. Los signos forman parte de los coeficientes, y el coeficiente no participa en el cálculo del grado.",
+        "No clasifiques 1/x como polinomio. Cuando sustituyas negativos, agrupa el valor completo. Para grados de polinomios, reduce primero y toma el máximo de sus términos."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Términos semejantes",
+      "body": [
+        "Dos términos son semejantes si sus partes literales coinciden exactamente, incluidos los exponentes. 3x²y y −5x²y lo son; 3xy² no lo es con ellos.",
+        "Al sumar semejantes, opera los coeficientes y conserva la parte literal: 3x²y − 5x²y = −2x²y. No sumes exponentes en una suma.",
+        "Para restar un polinomio, distribuye el signo menos a todos sus términos. En expresiones con corchetes y llaves, resuelve desde la agrupación interior o distribuye con cuidado equivalente."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-10",
+      "level": 2,
+      "type": "example",
+      "title": "Dos signos de resta",
+      "body": [
+        "Simplifica 3x − [2 − (x − 4)]. Primero, 2 − (x − 4) = 2 − x + 4 = 6 − x.",
+        "Luego 3x − (6 − x) = 3x − 6 + x = 4x − 6.",
+        "Comprobación numérica con x = 2: la expresión original vale 6 − [2 − (−2)] = 2; el resultado 8 − 6 también vale 2. Una coincidencia no demuestra identidad, pero puede detectar errores."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Productos y cocientes de monomios",
+      "body": [
+        "En un producto, multiplica coeficientes y suma exponentes de la misma base: (2x²y)(−3xy³) = −6x³y⁴.",
+        "En un cociente con denominador no nulo, divide coeficientes y resta exponentes de bases iguales. x⁵/x² = x³ exige x ≠ 0 por la expresión original.",
+        "En potencias, (x²)³ = x⁶, mientras que x² + x³ no se reduce a una sola potencia. La regla depende de la operación que conecta las expresiones."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-12",
+      "level": 2,
+      "type": "question",
+      "title": "Reduce lo que es semejante",
+      "body": [],
+      "prompt": "Simplifica 3x²y − 5x²y + 7xy².",
+      "choices": [
+        {
+          "text": "−2x⁴y² + 7xy²",
+          "explanation": "Se sumaron exponentes en una resta, como si fuera un producto."
+        },
+        {
+          "text": "−2x²y + 7xy²",
+          "explanation": "Los primeros dos términos comparten parte literal; el tercero no."
+        },
+        {
+          "text": "5x²y",
+          "explanation": "Sumar los tres coeficientes ignora que xy² es distinto de x²y."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara los exponentes de x e y antes de sumar coeficientes.",
+      "solution": [
+        "3x²y − 5x²y = (3 − 5)x²y = −2x²y.",
+        "7xy² se conserva por separado."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-13",
+      "level": 2,
+      "type": "question",
+      "title": "Resta un binomio",
+      "body": [],
+      "prompt": "Simplifica (2x − 3) − (5x + 1).",
+      "choices": [
+        {
+          "text": "−3x − 2",
+          "explanation": "Se dejó +1 al quitar el segundo paréntesis."
+        },
+        {
+          "text": "7x − 4",
+          "explanation": "Se sumaron 2x y 5x sin aplicar la resta del binomio."
+        },
+        {
+          "text": "−3x − 4",
+          "explanation": "Se distribuye el menos: 2x − 3 − 5x − 1."
+        }
+      ],
+      "correct": 2,
+      "hint": "El signo menos afecta a 5x y también a 1.",
+      "solution": [
+        "2x − 3 − 5x − 1.",
+        "(2 − 5)x + (−3 − 1) = −3x − 4."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-14",
+      "level": 2,
+      "type": "question",
+      "title": "Producto de monomios",
+      "body": [],
+      "prompt": "Multiplica (3x²y)(−2xy³).",
+      "choices": [
+        {
+          "text": "−6x³y⁴",
+          "explanation": "3 × (−2) = −6; en x se suma 2 + 1 y en y, 1 + 3."
+        },
+        {
+          "text": "−6x²y³",
+          "explanation": "Se multiplicaron coeficientes pero no se combinaron los factores literales."
+        },
+        {
+          "text": "6x³y⁴",
+          "explanation": "Se perdió el signo negativo del producto."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica coeficientes y suma exponentes de bases iguales.",
+      "solution": [
+        "Coeficiente: −6.",
+        "x² × x = x³; y × y³ = y⁴.",
+        "Producto = −6x³y⁴."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-15",
+      "level": 2,
+      "type": "question",
+      "title": "División con restricciones",
+      "body": [],
+      "prompt": "Para x ≠ 0 e y ≠ 0, simplifica 12x⁵y³/(3x²y).",
+      "choices": [
+        {
+          "text": "9x³y²",
+          "explanation": "Se restaron coeficientes en vez de dividirlos."
+        },
+        {
+          "text": "4x³y²",
+          "explanation": "12/3 = 4; los exponentes se restan: 5 − 2 y 3 − 1."
+        },
+        {
+          "text": "4x⁷y⁴",
+          "explanation": "Sumar exponentes corresponde al producto, no al cociente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide números y resta exponentes de cada base.",
+      "solution": [
+        "12/3 = 4.",
+        "x⁵/x² = x³; y³/y = y².",
+        "El resultado conserva las restricciones x ≠ 0, y ≠ 0."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-16",
+      "level": 2,
+      "type": "review",
+      "title": "La operación decide la regla",
+      "body": [
+        "En una suma de semejantes se suman coeficientes; en un producto se suman exponentes; en una potencia de potencia se multiplican exponentes.",
+        "Después de simplificar un cociente, conserva las restricciones del denominador original. Una fórmula simplificada puede estar definida en valores que la expresión inicial no permitía."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Homogeneidad y productos notables",
+      "body": [
+        "Un polinomio homogéneo tiene todos sus términos del mismo grado absoluto. x²y + xy² es homogéneo de grado 3; x² + y³ no lo es.",
+        "Identidades útiles: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a + b)(a − b) = a² − b².",
+        "Para factorizar, recorre estas identidades al revés o extrae el factor común de todos los términos. La equivalencia se verifica al volver a multiplicar."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-18",
+      "level": 3,
+      "type": "example",
+      "title": "Una diferencia de cuadrados",
+      "body": [
+        "Simplifica (x + 2)² − (x − 2)². Puedes usar A² − B² = (A − B)(A + B), con A = x + 2 y B = x − 2.",
+        "A − B = 4 y A + B = 2x. Su producto es 8x.",
+        "Al desarrollar por separado, las x² y los 4 se cancelan; los términos lineales se suman. Ambas rutas llevan a la misma identidad."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Agrupar revela estructura",
+      "body": [
+        "6x² − 9x contiene el factor común 3x: 3x(2x − 3). Extraerlo no significa dividir la expresión completa y perderlo: el factor queda multiplicando.",
+        "En (x² − 9)/(x − 3), factoriza el numerador y cancela el factor x − 3 solo con la restricción x ≠ 3. El resultado es x + 3 en ese dominio.",
+        "No canceles términos dentro de sumas: (x + 3)/x no se vuelve 3. La cancelación corresponde a factores completos, no a símbolos repetidos en posiciones distintas."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-20",
+      "level": 3,
+      "type": "question",
+      "title": "Grado homogéneo",
+      "body": [],
+      "prompt": "Para que xᵃy² + x³y sea homogéneo, con a entero no negativo, ¿cuánto vale a?",
+      "choices": [
+        {
+          "text": "2",
+          "explanation": "El segundo término tiene grado 4; el primero debe cumplir a + 2 = 4."
+        },
+        {
+          "text": "3",
+          "explanation": "3 iguala exponentes de x, pero el primer término tendría grado total 5."
+        },
+        {
+          "text": "4",
+          "explanation": "4 es el grado total común, no el exponente desconocido de x."
+        }
+      ],
+      "correct": 0,
+      "hint": "Compara grados absolutos, no solo una variable.",
+      "solution": [
+        "Grado de x³y = 3 + 1 = 4.",
+        "a + 2 = 4, de donde a = 2."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-21",
+      "level": 3,
+      "type": "question",
+      "title": "Diferencia de binomios al cuadrado",
+      "body": [],
+      "prompt": "Simplifica (x + 3)² − (x − 3)².",
+      "choices": [
+        {
+          "text": "6x",
+          "explanation": "Se omitió uno de los dos términos lineales de las expansiones."
+        },
+        {
+          "text": "12x",
+          "explanation": "La diferencia de los binomios es 6 y su suma 2x; 6 × 2x = 12x."
+        },
+        {
+          "text": "18",
+          "explanation": "18 suma constantes que en realidad se cancelan."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa A² − B² = (A − B)(A + B).",
+      "solution": [
+        "A − B = (x + 3) − (x − 3) = 6.",
+        "A + B = 2x.",
+        "Resultado = 12x."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-22",
+      "level": 3,
+      "type": "question",
+      "title": "Extrae un factor común",
+      "body": [],
+      "prompt": "¿Qué factorización es igual a 6x² − 9x?",
+      "choices": [
+        {
+          "text": "3x(2x − 9)",
+          "explanation": "Produciría −27x, distinto del segundo término original."
+        },
+        {
+          "text": "3(2x − 3)",
+          "explanation": "El producto es 6x − 9 y pierde un factor x de cada término."
+        },
+        {
+          "text": "3x(2x − 3)",
+          "explanation": "Al distribuir, se recuperan exactamente 6x² y −9x."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide cada término entre el factor común 3x.",
+      "solution": [
+        "6x²/(3x) = 2x y −9x/(3x) = −3.",
+        "La identidad completa es 6x² − 9x = 3x(2x − 3)."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-23",
+      "level": 3,
+      "type": "question",
+      "title": "Tres niveles de agrupación",
+      "body": [],
+      "prompt": "Simplifica 4x − {2x − [3 − (x − 2)]}.",
+      "choices": [
+        {
+          "text": "x + 5",
+          "explanation": "El interior es 5 − x; después las llaves dan 3x − 5 y la resta exterior deja x + 5."
+        },
+        {
+          "text": "x + 1",
+          "explanation": "Se dejó −2 sin cambiar de signo al quitar el paréntesis interno."
+        },
+        {
+          "text": "3x − 5",
+          "explanation": "Es el contenido de las llaves, pero falta la operación exterior 4x menos ese contenido."
+        }
+      ],
+      "correct": 0,
+      "hint": "Trabaja desde (x − 2) hacia afuera.",
+      "solution": [
+        "3 − (x − 2) = 5 − x.",
+        "2x − (5 − x) = 3x − 5.",
+        "4x − (3x − 5) = x + 5."
+      ]
+    },
+    {
+      "id": "expresiones-algebraicas-24",
+      "level": 3,
+      "type": "review",
+      "title": "Una identidad sirve en todo su dominio",
+      "body": [
+        "Para demostrar una simplificación, usa reglas válidas o vuelve a desarrollar. Probar un solo valor puede detectar un fallo, pero no demuestra que dos expresiones sean iguales para todos los valores.",
+        "En homogeneidad compara el grado total de cada término. En fracciones algebraicas conserva restricciones, y en signos de colección cambia todos los términos afectados por una resta."
+      ]
+    }
+  ]
+}

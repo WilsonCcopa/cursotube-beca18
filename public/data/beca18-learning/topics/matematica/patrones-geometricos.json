@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/patrones-geometricos",
+  "course": "matematica",
+  "slug": "patrones-geometricos",
+  "title": "Patrones geométricos",
+  "description": "Describe reglas de repetición y crecimiento con ciclos, figuras compartidas y fórmulas generales.",
+  "version": 1,
+  "order": 24,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Identificar un ciclo y hallar posiciones grandes con residuos.",
+    "Construir reglas de crecimiento a partir de estructuras geométricas.",
+    "Comprobar fórmulas y contar sin duplicar elementos compartidos."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Repetir no es lo mismo que crecer",
+      "body": [
+        "Un patrón puede repetir un ciclo fijo de figuras o construir figuras cada vez mayores. Antes de calcular, describe qué se mantiene y qué cambia.",
+        "En un ciclo de longitud p, divide la posición n entre p. Si el residuo es r distinto de cero, corresponde a la posición r del ciclo. Si el residuo es cero, corresponde a la última posición, p.",
+        "Empieza a numerar desde la primera figura como posición 1 salvo que se indique otra convención. Cambiar el punto inicial modifica todas las posiciones."
+      ],
+      "id": "patrones-geometricos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Una posición lejana sin dibujarla toda",
+      "body": [
+        "Se repite el ciclo triángulo, círculo, cuadrado y estrella. ¿Qué figura ocupa la posición 38?"
+      ],
+      "solution": [
+        "La longitud del ciclo es 4. Divide 38 = 4 × 9 + 2.",
+        "Tras nueve ciclos completos hay 36 figuras. La posición 38 es la segunda del ciclo siguiente.",
+        "La segunda figura es círculo. No hace falta construir las 38 figuras."
+      ],
+      "id": "patrones-geometricos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Abre un ciclo de cinco pasos",
+      "body": [
+        "El mapa representa un motivo que se repite exactamente en este orden. La orientación forma parte de cada figura, así que una flecha hacia arriba y una hacia abajo no cuentan como la misma."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Posición 1: ↑",
+            "text": "La flecha hacia arriba aparece en posiciones 1, 6, 11, 16…: residuo 1 al dividir entre 5."
+          },
+          {
+            "label": "Posición 2: →",
+            "text": "La flecha hacia la derecha corresponde al residuo 2."
+          },
+          {
+            "label": "Posición 3: ↓",
+            "text": "La flecha hacia abajo corresponde al residuo 3."
+          },
+          {
+            "label": "Posición 4: ←",
+            "text": "La flecha hacia la izquierda corresponde al residuo 4."
+          },
+          {
+            "label": "Posición 5: ●",
+            "text": "El círculo cierra cada ciclo: posiciones 5, 10, 15…; el residuo es cero."
+          }
+        ]
+      },
+      "id": "patrones-geometricos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un ciclo de tres figuras",
+      "body": [],
+      "prompt": "Se repite, desde la posición 1: cuadrado, círculo, triángulo. ¿Qué figura ocupa la posición 20?",
+      "choices": [
+        {
+          "text": "Círculo",
+          "explanation": "20 = 3 × 6 + 2; corresponde a la segunda figura."
+        },
+        {
+          "text": "Triángulo",
+          "explanation": "Triángulo corresponde a un residuo cero; 20 deja residuo 2."
+        },
+        {
+          "text": "Cuadrado",
+          "explanation": "Cuadrado corresponde a residuo 1, no 2."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide 20 entre la longitud del ciclo.",
+      "solution": [
+        "20 = 18 + 2.",
+        "La posición 20 es la segunda del ciclo: círculo."
+      ],
+      "id": "patrones-geometricos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El caso del residuo cero",
+      "body": [],
+      "prompt": "Se repite A, B, C, D, E, empezando por A en la posición 1. ¿Qué letra ocupa la posición 65?",
+      "choices": [
+        {
+          "text": "A",
+          "explanation": "A inicia el siguiente ciclo en la posición 66, no en la 65."
+        },
+        {
+          "text": "D",
+          "explanation": "D corresponde a residuo 4; aquí el residuo es cero."
+        },
+        {
+          "text": "E",
+          "explanation": "65 es múltiplo de 5; se ubica al final del ciclo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Un residuo cero señala la última figura del ciclo.",
+      "solution": [
+        "65 = 5 × 13 + 0.",
+        "La quinta letra es E."
+      ],
+      "id": "patrones-geometricos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Cuenta una figura en varios ciclos",
+      "body": [],
+      "prompt": "En las primeras 25 posiciones se repite rojo, azul, azul, rojo. ¿Cuántas posiciones son azules?",
+      "choices": [
+        {
+          "text": "6",
+          "explanation": "Seis es el número de ciclos completos, pero cada uno tiene dos azules."
+        },
+        {
+          "text": "12",
+          "explanation": "Hay seis ciclos completos de cuatro con dos azules cada uno; la posición 25 es roja."
+        },
+        {
+          "text": "13",
+          "explanation": "La posición adicional es roja, por lo que no agrega una azul."
+        }
+      ],
+      "correct": 1,
+      "hint": "Separa ciclos completos y la parte sobrante.",
+      "solution": [
+        "25 = 4 × 6 + 1.",
+        "Los seis ciclos aportan 6 × 2 = 12 azules; el resto aporta cero."
+      ],
+      "id": "patrones-geometricos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una rotación periódica",
+      "body": [],
+      "prompt": "Una flecha apunta arriba en la posición 1 y gira 90° en sentido horario en cada paso. ¿Hacia dónde apunta en la posición 10?",
+      "choices": [
+        {
+          "text": "Derecha",
+          "explanation": "Entre posiciones 1 y 10 hay nueve giros; equivalen a un giro horario de 90°."
+        },
+        {
+          "text": "Abajo",
+          "explanation": "Abajo aparece dos giros después del inicio; nueve giros dejan residuo uno."
+        },
+        {
+          "text": "Arriba",
+          "explanation": "Arriba aparece tras múltiplos de cuatro giros; nueve no lo es."
+        }
+      ],
+      "correct": 0,
+      "hint": "Cuenta cambios: en la posición 1 todavía no ha girado.",
+      "solution": [
+        "Giros = 10 − 1 = 9; 9 = 4 × 2 + 1.",
+        "Un giro horario desde arriba apunta a la derecha."
+      ],
+      "id": "patrones-geometricos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "La posición y el número de cambios difieren",
+      "body": [
+        "En una secuencia que empieza con una figura ya dada, llegar a la posición n requiere n − 1 transformaciones. Ese detalle evita errores de una posición.",
+        "Para un ciclo numerado desde 1, residuo cero significa última posición. No inventes una posición cero del ciclo."
+      ],
+      "id": "patrones-geometricos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Cuenta lo que añade cada figura",
+      "body": [
+        "Una fila de cuadrados hechos con palitos comparte lados. El primer cuadrado usa cuatro; cada nuevo cuadrado que comparte un lado añade tres. Para n cuadrados: P(n) = 4 + 3(n − 1) = 3 n + 1.",
+        "La regla depende de la construcción descrita. Si los cuadrados fueran separados usarían 4 n palitos. No apliques una fórmula de figuras conectadas a figuras independientes.",
+        "Un arreglo de n filas por n columnas contiene n² piezas pequeñas. Las diferencias entre cuadrados consecutivos son impares: (n + 1)² − n² = 2 n + 1."
+      ],
+      "id": "patrones-geometricos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Un marco que crece",
+      "body": [
+        "Se forma un cuadrado de n × n baldosas, n ≥ 2, y solo se colorea su borde de una baldosa de grosor. ¿Cuántas baldosas se colorean?"
+      ],
+      "solution": [
+        "El cuadrado completo tiene n² y el interior sin borde tiene (n − 2)².",
+        "Borde = n² − (n − 2)² = 4 n − 4.",
+        "Para n = 6 hay 36 − 16 = 20. Contar 4 n duplicaría las cuatro esquinas."
+      ],
+      "id": "patrones-geometricos-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "La fórmula debe reproducir el inicio",
+      "body": [
+        "Verifica una regla en al menos las primeras figuras y explica por qué se conserva la forma. Ajustar una fórmula a pocos números no prueba que sea la única: la descripción de cómo se construye la figura es la que justifica continuar.",
+        "Si hay una parte fija y otra que se repite, cuéntalas por separado. Si dos piezas comparten un borde o un vértice, evita contarlo dos veces."
+      ],
+      "id": "patrones-geometricos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cuadrados que comparten lados",
+      "body": [],
+      "prompt": "Una fila de 9 cuadrados contiguos se construye con palitos y cada par vecino comparte un lado. ¿Cuántos palitos usa?",
+      "choices": [
+        {
+          "text": "27",
+          "explanation": "27 calcula 3 por cuadrado, pero el primero necesita un palito adicional."
+        },
+        {
+          "text": "28",
+          "explanation": "4 para el primero y 3 por cada uno de los ocho restantes: 4 + 24."
+        },
+        {
+          "text": "36",
+          "explanation": "36 cuenta cuatro por cuadrado y duplica los ocho lados compartidos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue el primer cuadrado de los que se agregan.",
+      "solution": [
+        "P = 4 + 3(9 − 1).",
+        "P = 4 + 24 = 28 palitos."
+      ],
+      "id": "patrones-geometricos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Encuentra la posición desde los palitos",
+      "body": [],
+      "prompt": "En la misma fila de cuadrados contiguos, P(n) = 3 n + 1. Si se usaron 46 palitos, ¿cuántos cuadrados hay?",
+      "choices": [
+        {
+          "text": "15",
+          "explanation": "3 n + 1 = 46 da 3 n = 45 y n = 15."
+        },
+        {
+          "text": "14",
+          "explanation": "14 cuadrados usan 43 palitos, no 46."
+        },
+        {
+          "text": "16",
+          "explanation": "16 cuadrados usan 49 palitos, tres más que el total."
+        }
+      ],
+      "correct": 0,
+      "hint": "Deshaz primero la suma de uno y luego la multiplicación por tres.",
+      "solution": [
+        "3 n = 46 − 1 = 45.",
+        "n = 45/3 = 15."
+      ],
+      "id": "patrones-geometricos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "El borde de un mosaico",
+      "body": [],
+      "prompt": "En un mosaico de 8 × 8 baldosas se pinta solo el borde de una baldosa de grosor. ¿Cuántas se pintan?",
+      "choices": [
+        {
+          "text": "32",
+          "explanation": "32 cuenta ocho por cada lado y duplica las cuatro esquinas."
+        },
+        {
+          "text": "36",
+          "explanation": "36 es el interior, que no se pinta."
+        },
+        {
+          "text": "28",
+          "explanation": "Total 64 menos interior 6 × 6 = 36: borde 28."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resta el cuadrado interior que queda al quitar una fila por cada borde.",
+      "solution": [
+        "Borde = 8² − (8 − 2)² = 64 − 36.",
+        "Se pintan 28 baldosas."
+      ],
+      "id": "patrones-geometricos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "La nueva capa de un cuadrado",
+      "body": [],
+      "prompt": "Un mosaico cuadrado pasa de 7 × 7 a 8 × 8 añadiendo la fila y columna necesarias. ¿Cuántas piezas se agregan?",
+      "choices": [
+        {
+          "text": "1",
+          "explanation": "El lado aumenta uno, pero el número de piezas aumenta quince."
+        },
+        {
+          "text": "15",
+          "explanation": "8² − 7² = 64 − 49 = 15."
+        },
+        {
+          "text": "16",
+          "explanation": "Sumar una fila de ocho y una columna de ocho duplica la esquina compartida."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara cantidades totales o resta una esquina al sumar fila y columna.",
+      "solution": [
+        "Nuevo total = 64; anterior = 49.",
+        "Diferencia = 15 piezas."
+      ],
+      "id": "patrones-geometricos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Las esquinas se cuentan una sola vez",
+      "body": [
+        "En bordes, filas conectadas y nuevas capas, localiza las piezas compartidas. Sumar cantidades de lados sin corregir solapamientos suele sobrecontar.",
+        "Una regla general debe declarar n desde dónde empieza y cómo se construye la figura. Comprueba que el resultado sea entero y coherente con el dibujo descrito."
+      ],
+      "id": "patrones-geometricos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Patrones triangulares y conteo de todas las escalas",
+      "body": [
+        "Si las filas tienen 1, 2, 3, …, n puntos, el total triangular es Tₙ = n(n + 1)/2. Puedes justificarlo al juntar dos arreglos para formar un rectángulo de lados n y n + 1.",
+        "En una cuadrícula de r filas por c columnas, un rectángulo se determina eligiendo dos líneas horizontales y dos verticales. Hay r(r + 1)c(c + 1)/4 rectángulos de todos los tamaños.",
+        "Contar solo celdas pequeñas no equivale a contar todos los cuadrados o rectángulos visibles: también existen figuras que abarcan varias celdas."
+      ],
+      "id": "patrones-geometricos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Todos los cuadrados de una cuadrícula",
+      "body": [
+        "¿Cuántos cuadrados de cualquier tamaño hay en una cuadrícula 3 × 3?"
+      ],
+      "solution": [
+        "De tamaño 1 × 1 hay 9. De tamaño 2 × 2 hay 4, porque la esquina inicial tiene dos opciones por dirección.",
+        "De tamaño 3 × 3 hay 1.",
+        "Total = 9 + 4 + 1 = 14. En una cuadrícula n × n el total es 1² + 2² + … + n² = n(n + 1)(2 n + 1)/6."
+      ],
+      "id": "patrones-geometricos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Prueba estructural frente a una adivinanza",
+      "body": [
+        "El patrón de diferencias ayuda a proponer una fórmula, pero una explicación geométrica la sostiene. Para puntos triangulares, sumar la siguiente fila muestra Tₙ₊₁ − Tₙ = n + 1.",
+        "Al invertir una fórmula, revisa las soluciones admitidas. Resolver n(n + 1)/2 = 45 da una posición positiva y otra negativa; solo la positiva puede contar filas."
+      ],
+      "id": "patrones-geometricos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un arreglo triangular",
+      "body": [],
+      "prompt": "Se forman 12 filas con 1 punto en la primera, 2 en la segunda y así sucesivamente hasta 12. ¿Cuántos puntos hay?",
+      "choices": [
+        {
+          "text": "144",
+          "explanation": "144 correspondería a un cuadrado de 12 filas de 12, no a filas crecientes."
+        },
+        {
+          "text": "66",
+          "explanation": "66 es el total de las primeras once filas; falta la fila de doce."
+        },
+        {
+          "text": "78",
+          "explanation": "T₁₂ = 12 × 13/2 = 78."
+        }
+      ],
+      "correct": 2,
+      "hint": "Empareja la primera y última fila o usa n(n + 1)/2.",
+      "solution": [
+        "T = 12 × 13/2.",
+        "T = 6 × 13 = 78 puntos."
+      ],
+      "id": "patrones-geometricos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Recupera el número de filas",
+      "body": [],
+      "prompt": "Un arreglo triangular de 1 + 2 + … + n puntos tiene 45 puntos. ¿Cuánto vale n?",
+      "choices": [
+        {
+          "text": "8",
+          "explanation": "8 × 9/2 = 36, que no alcanza 45."
+        },
+        {
+          "text": "9",
+          "explanation": "9 × 10/2 = 45."
+        },
+        {
+          "text": "10",
+          "explanation": "10 × 11/2 = 55, que supera 45."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca dos enteros consecutivos cuyo producto sea 90.",
+      "solution": [
+        "n(n + 1) = 90 = 9 × 10.",
+        "Como n debe ser positivo, n = 9."
+      ],
+      "id": "patrones-geometricos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Rectángulos de todos los tamaños",
+      "body": [],
+      "prompt": "¿Cuántos rectángulos de cualquier tamaño contiene una cuadrícula de 2 filas y 3 columnas? Incluye los cuadrados como rectángulos.",
+      "choices": [
+        {
+          "text": "18",
+          "explanation": "Se eligen dos de tres líneas horizontales y dos de cuatro verticales: 3 × 6 = 18."
+        },
+        {
+          "text": "6",
+          "explanation": "6 solo cuenta las celdas pequeñas; faltan rectángulos mayores."
+        },
+        {
+          "text": "12",
+          "explanation": "12 omite algunas elecciones de bordes; cada pareja horizontal debe combinarse con las seis verticales."
+        }
+      ],
+      "correct": 0,
+      "hint": "Elige dos de las tres líneas horizontales y dos de las cuatro verticales.",
+      "solution": [
+        "Hay 3 parejas de líneas horizontales y 6 verticales.",
+        "Total = 3 × 6 = 18 rectángulos."
+      ],
+      "id": "patrones-geometricos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cuadrados de todos los tamaños",
+      "body": [],
+      "prompt": "¿Cuántos cuadrados de cualquier tamaño hay en una cuadrícula de 4 × 4?",
+      "choices": [
+        {
+          "text": "16",
+          "explanation": "16 solo cuenta los cuadrados de una celda y omite los mayores."
+        },
+        {
+          "text": "20",
+          "explanation": "20 no suma todos los tamaños: la cuenta completa incluye 16, 9, 4 y 1."
+        },
+        {
+          "text": "30",
+          "explanation": "Hay 16 de lado 1, 9 de lado 2, 4 de lado 3 y 1 de lado 4; suman 30."
+        }
+      ],
+      "correct": 2,
+      "hint": "Cuenta cada tamaño por separado y luego suma.",
+      "solution": [
+        "Lado 1: 4² = 16; lado 2: 3² = 9; lado 3: 2² = 4; lado 4: 1.",
+        "16 + 9 + 4 + 1 = 30 cuadrados."
+      ],
+      "id": "patrones-geometricos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Completa el conteo antes de generalizar",
+      "body": [
+        "Indica si cuentas unidades pequeñas o todas las figuras posibles. Una misma cuadrícula tiene cantidades distintas de celdas, cuadrados y rectángulos.",
+        "Para contar rectángulos, elegir líneas evita duplicados. Para contar cuadrados, agrupa por longitud de lado. En patrones de crecimiento, una fórmula sin una regla de construcción sigue siendo una conjetura."
+      ],
+      "id": "patrones-geometricos-24",
+      "level": 3
+    }
+  ]
+}

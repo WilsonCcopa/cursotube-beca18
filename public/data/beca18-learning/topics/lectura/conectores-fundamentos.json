@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/conectores-fundamentos",
+  "course": "lectura",
+  "slug": "conectores-fundamentos",
+  "title": "Conectores: fundamentos",
+  "description": "Relaciona adición, contraste, explicación, tiempo y finalidad en mensajes completos.",
+  "version": 1,
+  "order": 6,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Reconocer adición, contraste y reformulación",
+    "Distinguir secuencia temporal, simultaneidad y finalidad",
+    "Elegir enlaces según el sentido global y la construcción"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Un puente entre dos ideas",
+      "body": [
+        "Un conector hace explícita una relación que debe existir entre las ideas. Además suma información compatible; pero introduce contraste; es decir aclara la misma idea con otra formulación.",
+        "Lee primero las ideas sin llenar el espacio. Explica qué hace la segunda respecto de la primera. Solo después busca el enlace y comprueba que la oración completa tenga sentido."
+      ],
+      "id": "conectores-fundamentos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Una adición no es una causa",
+      "body": [
+        "La sala cuenta con ventanas y también con lámparas. Las lámparas añaden un recurso para iluminar; las ventanas no las producen.",
+        "Resolución: Además es pertinente. Por eso inventaría una consecuencia. En cambio exigiría un contraste que este mensaje no desarrolla."
+      ],
+      "passage": {
+        "title": "El salón de lectura",
+        "paragraphs": [
+          "El salón recibe luz por dos ventanas durante la mañana. Además, dispone de lámparas para las últimas horas de la tarde. Los dos recursos permiten adaptar la iluminación a distintos momentos."
+        ]
+      },
+      "id": "conectores-fundamentos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Tres relaciones distintas",
+      "body": [
+        "Toca cada enlace y comprueba qué aporta la segunda idea."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Adición",
+            "text": "El cuaderno tiene hojas numeradas. Además, incluye un índice: se añade otra característica."
+          },
+          {
+            "label": "Contraste",
+            "text": "El cuaderno es pequeño, pero contiene un resumen muy completo: se corrige una expectativa sobre su tamaño."
+          },
+          {
+            "label": "Reformulación",
+            "text": "El préstamo es renovable; es decir, puede prolongarse bajo las condiciones señaladas: se aclara el mismo rasgo."
+          }
+        ]
+      },
+      "id": "conectores-fundamentos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Suma dos ventajas",
+      "body": [],
+      "prompt": "¿Qué enlace añade una ventaja compatible?",
+      "choices": [
+        {
+          "text": "Por el contrario",
+          "explanation": "No hay oposición entre practicar y comparar resultados."
+        },
+        {
+          "text": "Además",
+          "explanation": "Suma otra ventaja de la misma actividad."
+        },
+        {
+          "text": "Es decir",
+          "explanation": "Comparar resultados no es otra forma de decir practicar con herramientas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Determina si la segunda idea se suma, se opone o repite la primera.",
+      "solution": [
+        "Practicar y comparar son aportes distintos y compatibles.",
+        "Además conserva la relación de adición."
+      ],
+      "passage": {
+        "title": "El taller",
+        "paragraphs": [
+          "La actividad permite practicar con herramientas sencillas. ___, ofrece tiempo para comparar los resultados en grupo."
+        ]
+      },
+      "id": "conectores-fundamentos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Aclara una norma",
+      "body": [],
+      "prompt": "¿Qué conector presenta una aclaración?",
+      "choices": [
+        {
+          "text": "Es decir",
+          "explanation": "La segunda parte explica qué significa aforo limitado."
+        },
+        {
+          "text": "En cambio",
+          "explanation": "No se contrastan dos normas o lugares."
+        },
+        {
+          "text": "Después",
+          "explanation": "No se narra una sucesión de acontecimientos."
+        }
+      ],
+      "correct": 0,
+      "hint": "La segunda parte explica el sentido de una expresión previa.",
+      "solution": [
+        "Cantidad máxima desarrolla el significado de aforo limitado.",
+        "Es decir introduce una reformulación aclaratoria."
+      ],
+      "passage": {
+        "title": "El uso de una sala",
+        "paragraphs": [
+          "La sala tiene aforo limitado; ___, solo puede ingresar una cantidad máxima de personas a la vez."
+        ]
+      },
+      "id": "conectores-fundamentos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un contraste real",
+      "body": [],
+      "prompt": "¿Qué enlace conserva la relación?",
+      "choices": [
+        {
+          "text": "Asimismo",
+          "explanation": "Presentaría simple suma y perdería la expectativa que el texto corrige."
+        },
+        {
+          "text": "O sea",
+          "explanation": "La capacidad interior no redefine el aspecto exterior."
+        },
+        {
+          "text": "Sin embargo",
+          "explanation": "Contrasta la apariencia pequeña con una capacidad mayor de la esperada."
+        }
+      ],
+      "correct": 2,
+      "hint": "Piensa qué expectativa genera parecía pequeña.",
+      "solution": [
+        "La apariencia sugiere poca capacidad.",
+        "El espacio suficiente limita esa expectativa: corresponde sin embargo."
+      ],
+      "passage": {
+        "title": "La mochila",
+        "paragraphs": [
+          "La mochila parecía pequeña desde fuera; ___, en su compartimento principal cabían todos los cuadernos del curso."
+        ]
+      },
+      "id": "conectores-fundamentos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "No confundas explicación y ejemplo",
+      "body": [],
+      "prompt": "¿Cuál es el enlace más preciso?",
+      "choices": [
+        {
+          "text": "Por ejemplo",
+          "explanation": "La segunda oración define la condición completa, no un caso particular de ella."
+        },
+        {
+          "text": "En otras palabras",
+          "explanation": "Reformula presencial mediante la presencia de la persona en el local."
+        },
+        {
+          "text": "Mientras tanto",
+          "explanation": "No presenta acciones simultáneas."
+        }
+      ],
+      "correct": 1,
+      "hint": "¿Se menciona un caso o se dice lo mismo de otra forma?",
+      "solution": [
+        "La segunda parte aclara una condición general.",
+        "En otras palabras mantiene la equivalencia entre ambas formulaciones."
+      ],
+      "passage": {
+        "title": "El registro",
+        "paragraphs": [
+          "La entrega debe ser presencial; ___, quien recibe el material debe acudir personalmente al local."
+        ]
+      },
+      "id": "conectores-fundamentos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Comprueba qué relación inventaste",
+      "body": [
+        "Si elegiste un enlace causal, verifica que la primera idea pueda explicar la segunda en el texto. Dos características cercanas no se causan automáticamente.",
+        "Si confundiste ejemplo y aclaración, distingue un miembro de un conjunto de una paráfrasis de la misma afirmación. Un caso introduce algo particular; una reformulación conserva el contenido central."
+      ],
+      "id": "conectores-fundamentos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Tiempo y propósito son relaciones diferentes",
+      "body": [
+        "Antes, después y finalmente ordenan momentos; mientras puede señalar simultaneidad. Primero y segundo también pueden organizar partes de una explicación sin que sean acontecimientos.",
+        "Para que y con el fin de que expresan finalidad: el resultado que se busca. Un propósito todavía puede no cumplirse. No lo conviertas en un efecto ya comprobado."
+      ],
+      "id": "conectores-fundamentos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "La finalidad no prueba el resultado",
+      "body": [
+        "El grupo puso etiquetas con la intención de facilitar la búsqueda. El texto permite identificar el propósito, pero todavía no asegura que las búsquedas se hayan vuelto más rápidas.",
+        "Resolución: para que introduce lo que se busca lograr. Por eso afirmaría una consecuencia que necesitaría evidencia adicional."
+      ],
+      "passage": {
+        "title": "Las etiquetas nuevas",
+        "paragraphs": [
+          "El grupo colocó rótulos grandes en los estantes para que las personas nuevas identificaran las categorías sin abrir cada caja. La semana siguiente revisaría si los rótulos funcionaban como esperaba."
+        ]
+      },
+      "id": "conectores-fundamentos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Sigue el tiempo y la meta",
+      "body": [
+        "Toca las expresiones y distingue cuándo sucede algo de para qué se hace."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Primero, el equipo midió las hojas.",
+            "role": "Inicio de una secuencia temporal"
+          },
+          {
+            "text": "Mientras Elena anotaba las medidas, Hugo ordenaba los materiales.",
+            "role": "Simultaneidad de dos acciones"
+          },
+          {
+            "text": "Después, cortaron las cubiertas.",
+            "role": "Acción posterior a la medición"
+          },
+          {
+            "text": "Dejaron un margen para que las hojas no sobresalieran.",
+            "role": "Finalidad del margen"
+          }
+        ]
+      },
+      "id": "conectores-fundamentos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Dos acciones simultáneas",
+      "body": [],
+      "prompt": "¿Qué palabra corresponde al espacio?",
+      "choices": [
+        {
+          "text": "Después de que",
+          "explanation": "Señala posterioridad, pero las tareas son simultáneas."
+        },
+        {
+          "text": "Antes de que",
+          "explanation": "Señala anterioridad, incompatible con al mismo tiempo."
+        },
+        {
+          "text": "Mientras",
+          "explanation": "Expresa la simultaneidad afirmada en el pasaje."
+        }
+      ],
+      "correct": 2,
+      "hint": "La segunda oración establece la relación temporal de manera explícita.",
+      "solution": [
+        "Las dos tareas ocurrieron durante el mismo intervalo.",
+        "Mientras une acciones simultáneas."
+      ],
+      "passage": {
+        "title": "Preparativos",
+        "paragraphs": [
+          "___ una parte del grupo acomodaba las mesas, la otra repartía las tarjetas. Ambas tareas se realizaron al mismo tiempo para iniciar puntualmente."
+        ]
+      },
+      "id": "conectores-fundamentos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una secuencia necesaria",
+      "body": [],
+      "prompt": "¿Qué enlace ubica la etapa intermedia?",
+      "choices": [
+        {
+          "text": "Luego",
+          "explanation": "Sitúa la ordenación después de reunir y antes de etiquetar."
+        },
+        {
+          "text": "Por el contrario",
+          "explanation": "No hay una idea opuesta a reunir hojas."
+        },
+        {
+          "text": "Es decir",
+          "explanation": "Ordenar por fecha no reformula reunir por curso."
+        }
+      ],
+      "correct": 0,
+      "hint": "Reconstruye los tres momentos del procedimiento.",
+      "solution": [
+        "La ordenación sucede entre reunir y etiquetar.",
+        "Luego mantiene esa progresión temporal."
+      ],
+      "passage": {
+        "title": "El archivador",
+        "paragraphs": [
+          "Primero, Ana reunió las hojas de cada curso. ___, las ordenó por fecha. Finalmente, añadió una etiqueta a cada conjunto."
+        ]
+      },
+      "id": "conectores-fundamentos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una intención reconocible",
+      "body": [],
+      "prompt": "¿Qué enlace expresa el propósito de publicar anticipadamente?",
+      "choices": [
+        {
+          "text": "Aunque",
+          "explanation": "Introduciría una dificultad, pero organizar la asistencia es el objetivo."
+        },
+        {
+          "text": "Para que",
+          "explanation": "Presenta lo que el comité busca facilitar con la anticipación."
+        },
+        {
+          "text": "Así que",
+          "explanation": "Presentaría un efecto y no encaja con pudieran en esta construcción."
+        }
+      ],
+      "correct": 1,
+      "hint": "Pregunta para qué se publicó el horario antes.",
+      "solution": [
+        "La anticipación busca facilitar la organización de las familias.",
+        "Para que introduce esa finalidad sin afirmar su cumplimiento."
+      ],
+      "passage": {
+        "title": "El aviso",
+        "paragraphs": [
+          "El comité publicó el horario con una semana de anticipación ___ las familias pudieran organizar su asistencia."
+        ]
+      },
+      "id": "conectores-fundamentos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Tiempo no significa causa",
+      "body": [],
+      "prompt": "¿Qué relación expresa después de?",
+      "choices": [
+        {
+          "text": "La visita provocó la lluvia",
+          "explanation": "El orden temporal por sí solo no establece una causa."
+        },
+        {
+          "text": "La lluvia era el propósito de la visita",
+          "explanation": "No se atribuye esa intención al grupo."
+        },
+        {
+          "text": "La lluvia comenzó en un momento posterior a la visita",
+          "explanation": "Conserva únicamente la secuencia que el informe registra."
+        }
+      ],
+      "correct": 2,
+      "hint": "Respeta el límite explícito: se informa orden y no explicación.",
+      "solution": [
+        "Después de sitúa un hecho tras otro.",
+        "No añade una dependencia causal entre visita y lluvia."
+      ],
+      "passage": {
+        "title": "La observación",
+        "paragraphs": [
+          "Después de la visita al vivero, comenzó a llover. El informe solo registra el orden de los hechos y no propone una explicación del cambio de tiempo."
+        ]
+      },
+      "id": "conectores-fundamentos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "No transformes deseos en resultados",
+      "body": [
+        "Si fallaste la finalidad, pregunta si el pasaje afirma un objetivo o un resultado observado. Organizó para que participaran puede ser verdadero aunque no todos participen.",
+        "Si fallaste simultaneidad, dibuja una pequeña línea temporal. Mientras superpone intervalos; después y antes los ordenan. Evita deducir causas solo porque una acción ocurrió después de otra."
+      ],
+      "id": "conectores-fundamentos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Conectores en un argumento completo",
+      "body": [
+        "Una opción puede sonar natural en un hueco y desordenar el resto del párrafo. Relee las ideas anteriores y posteriores: debe conservarse una sola interpretación coherente.",
+        "Al sustituir, revisa también la forma: para más infinitivo y para que más verbo conjugado requieren construcciones diferentes. No basta que dos enlaces pertenezcan a una categoría parecida."
+      ],
+      "id": "conectores-fundamentos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Dos enlaces, dos decisiones",
+      "body": [
+        "Primera relación: pequeño contrasta con suficiente. Segunda: los rótulos sirven a una intención.",
+        "Respuesta resuelta: El depósito era pequeño; sin embargo, bastaba para el material. Se dividieron los estantes para que cada grupo reconociera su espacio. No hay oposición entre dividir y reconocer."
+      ],
+      "passage": {
+        "title": "Un depósito organizado",
+        "paragraphs": [
+          "El depósito era pequeño, pero el material también era reducido y pudo guardarse completo. El equipo dividió los estantes con la intención de que cada grupo identificara el espacio que le correspondía."
+        ]
+      },
+      "id": "conectores-fundamentos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "La sustitución debe conservar la fuerza",
+      "body": [
+        "Pero y además pueden cambiar qué espera el lector. En Es económico, pero dura poco, la duración limita una ventaja; además convertiría la poca duración en una simple característica añadida.",
+        "La puntuación acompaña la estructura. No se resuelve una pregunta solo contando comas, pero sí conviene releer el resultado como un mensaje completo."
+      ],
+      "id": "conectores-fundamentos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Dos huecos con un mismo sentido",
+      "body": [],
+      "prompt": "¿Qué pareja completa mejor el párrafo?",
+      "choices": [
+        {
+          "text": "Además / aunque",
+          "explanation": "El segundo enlace convierte la consulta en obstáculo en vez de objetivo."
+        },
+        {
+          "text": "Sin embargo / para que",
+          "explanation": "Contrasta antigüedad con conservación y presenta la finalidad de fotografiar."
+        },
+        {
+          "text": "Es decir / después de que",
+          "explanation": "Legibilidad no reformula antigüedad y consultar no es anterior a fotografiar."
+        }
+      ],
+      "correct": 1,
+      "hint": "Resuelve cada relación por separado y luego comprueba el conjunto.",
+      "solution": [
+        "La legibilidad se mantiene pese a la antigüedad.",
+        "Fotografiar persigue facilitar la consulta: sin embargo y para que."
+      ],
+      "passage": {
+        "title": "Las fichas",
+        "paragraphs": [
+          "Las fichas eran antiguas; ___, conservaban datos legibles. El equipo las fotografió ___ las personas pudieran consultarlas sin manipular los originales."
+        ]
+      },
+      "id": "conectores-fundamentos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una sustitución que mantiene la relación",
+      "body": [],
+      "prompt": "¿Qué expresión puede reemplazar es decir con mayor fidelidad?",
+      "choices": [
+        {
+          "text": "Por consiguiente",
+          "explanation": "Convertiría una aclaración en una consecuencia."
+        },
+        {
+          "text": "Por ejemplo",
+          "explanation": "Reduciría la segunda parte a un caso en vez de la aclaración que el autor anuncia."
+        },
+        {
+          "text": "En otras palabras",
+          "explanation": "Conserva la reformulación del sentido de accesible."
+        }
+      ],
+      "correct": 2,
+      "hint": "El pasaje define expresamente qué función cumple la segunda parte.",
+      "solution": [
+        "Explicar los términos aclara cómo debe entenderse accesible aquí.",
+        "En otras palabras preserva esa función reformulativa."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "El texto es accesible; es decir, explica los términos técnicos antes de usarlos. El redactor quiere aclarar en qué sentido lo considera accesible."
+        ]
+      },
+      "id": "conectores-fundamentos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cuando además altera el mensaje",
+      "body": [],
+      "prompt": "¿Qué hace pero en esta invitación?",
+      "choices": [
+        {
+          "text": "Introduce una condición que limita la facilidad de acceso esperada",
+          "explanation": "La gratuidad no elimina el requisito de inscripción."
+        },
+        {
+          "text": "Afirma que la inscripción tiene un precio",
+          "explanation": "Gratis e inscripción pueden coexistir sin costo."
+        },
+        {
+          "text": "Presenta un segundo sinónimo de gratuita",
+          "explanation": "Exigir inscripción no equivale a no cobrar."
+        }
+      ],
+      "correct": 0,
+      "hint": "La segunda parte limita una posible interpretación de gratuita.",
+      "solution": [
+        "Gratis puede sugerir acceso inmediato, pero aparece un requisito.",
+        "Pero señala ese límite sin negar la gratuidad."
+      ],
+      "passage": {
+        "title": "La invitación",
+        "paragraphs": [
+          "La actividad es gratuita, pero exige inscripción previa porque la sala tiene una capacidad limitada."
+        ]
+      },
+      "id": "conectores-fundamentos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Finalidad y evidencia posterior",
+      "body": [],
+      "prompt": "¿Qué interpretación respeta ambos conectores?",
+      "choices": [
+        {
+          "text": "Abrir dos turnos causó necesariamente menos interés",
+          "explanation": "No se midió interés ni se conoce una causa de las inscripciones."
+        },
+        {
+          "text": "El propósito era reducir el número de participantes",
+          "explanation": "Para que señala la intención contraria: ampliar la asistencia."
+        },
+        {
+          "text": "Se buscó ampliar la participación, pero el registro inicial no mostró ese aumento",
+          "explanation": "Integra la finalidad del cambio y el resultado que contrasta con ella."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue lo que se buscó de lo que se observó.",
+      "solution": [
+        "La apertura de turnos tiene una finalidad explícita de ampliación.",
+        "Sin embargo introduce que ese aumento no se observó en el primer mes."
+      ],
+      "passage": {
+        "title": "La distribución",
+        "paragraphs": [
+          "El colegio abrió dos turnos para que más estudiantes asistieran al taller. Sin embargo, solo se inscribieron las mismas veinte personas que habían asistido al turno único. El informe registra ese primer mes y no menciona otros periodos."
+        ]
+      },
+      "id": "conectores-fundamentos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Un procedimiento de cuatro comprobaciones",
+      "body": [
+        "Primero, nombra la relación entre las ideas. Después, comprueba el alcance: intención, hecho observado o aclaración. Luego, revisa que el enlace encaje con los verbos y la puntuación. Finalmente, relee el párrafo entero.",
+        "Si tu alternativa exige inventar una causa, un caso o una oposición, descártala. El conector debe mostrar una relación sostenida por el mensaje, no crear una historia distinta."
+      ],
+      "id": "conectores-fundamentos-24",
+      "level": 3
+    }
+  ]
+}

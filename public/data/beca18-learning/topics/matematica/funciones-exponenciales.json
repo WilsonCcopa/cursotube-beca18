@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/funciones-exponenciales",
+  "course": "matematica",
+  "slug": "funciones-exponenciales",
+  "title": "Funciones exponenciales",
+  "description": "Modela cambios multiplicativos y evalúa crecimiento, decrecimiento y sus límites.",
+  "version": 1,
+  "order": 28,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Distinguir cambio aditivo de multiplicativo.",
+    "Interpretar base, valor inicial y tasa por periodo.",
+    "Comparar modelos exponenciales y sus gráficas."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Repetir un factor cambia el modelo",
+      "body": [
+        "En un crecimiento exponencial, cada periodo multiplica por el mismo factor. Un valor de 40 que se duplica sigue 40, 80, 160, 320; las diferencias no son constantes.",
+        "Un modelo básico es f(t) = A × bᵗ, con A > 0 y b > 0. A es el valor cuando t = 0. Si b > 1 hay crecimiento; si 0 < b < 1 hay decrecimiento. Para llamarlo exponencial variable se excluye b = 1.",
+        "La unidad de t importa: si b representa un cambio semanal, t cuenta semanas."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-01"
+    },
+    {
+      "type": "example",
+      "title": "Construye el modelo desde una frase",
+      "body": [
+        "Una colonia de un cultivo simulado empieza con 30 unidades y se triplica cada periodo. En t = 0 hay 30; en t = 1 hay 90; en t = 2 hay 270.",
+        "El modelo es N(t) = 30 × 3ᵗ. A los tres periodos: 30 × 27 = 810. El exponente cuenta multiplicaciones desde el instante inicial, no la cantidad de datos escritos."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-02"
+    },
+    {
+      "type": "explore",
+      "title": "Mira cómo cambia una exponencial",
+      "body": [
+        "La gráfica muestra f(x) = a × bˣ + c. Cambia a y la base b. Observa que b > 1 y 0 < b < 1 producen comportamientos distintos.",
+        "La ventana muestra una parte de la gráfica; los valores altos pueden salir del área visible. El modelo se extiende solo donde el contexto lo permita."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "exponential",
+        "a": 1,
+        "b": 2,
+        "c": 0,
+        "min": -3,
+        "max": 3
+      },
+      "level": 1,
+      "id": "funciones-exponenciales-03"
+    },
+    {
+      "type": "question",
+      "title": "Valor inicial",
+      "body": [],
+      "prompt": "En f(t) = 25 × 2ᵗ, ¿cuánto vale f(0)?",
+      "choices": [
+        {
+          "text": "0",
+          "explanation": "2⁰ vale 1, no cero."
+        },
+        {
+          "text": "25",
+          "explanation": "25 × 2⁰ = 25 × 1 = 25."
+        },
+        {
+          "text": "50",
+          "explanation": "Ese es el valor al primer periodo, f(1)."
+        }
+      ],
+      "correct": 1,
+      "hint": "Evalúa la potencia con exponente cero.",
+      "solution": [
+        "2⁰ = 1.",
+        "f(0) = 25."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-04"
+    },
+    {
+      "type": "question",
+      "title": "Tres duplicaciones",
+      "body": [],
+      "prompt": "Una cantidad comienza en 12 y se duplica cada día. ¿Cuánto indica el modelo después de 3 días?",
+      "choices": [
+        {
+          "text": "36",
+          "explanation": "Multiplicar por 3 no equivale a duplicar tres veces."
+        },
+        {
+          "text": "48",
+          "explanation": "48 corresponde a dos duplicaciones."
+        },
+        {
+          "text": "96",
+          "explanation": "12 × 2³ = 96."
+        }
+      ],
+      "correct": 2,
+      "hint": "Escribe 12 → 24 → 48 → 96.",
+      "solution": [
+        "N(3) = 12 × 8.",
+        "El resultado es 96."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-05"
+    },
+    {
+      "type": "question",
+      "title": "Reconoce decrecimiento",
+      "body": [],
+      "prompt": "¿Qué base produce decrecimiento en f(t) = 100 × bᵗ para t creciente?",
+      "choices": [
+        {
+          "text": "0,8",
+          "explanation": "Cada periodo conserva el 80% del anterior, que es menor que el total."
+        },
+        {
+          "text": "1,2",
+          "explanation": "Multiplica por 120%: produce crecimiento."
+        },
+        {
+          "text": "2",
+          "explanation": "Duplica: también produce crecimiento."
+        }
+      ],
+      "correct": 0,
+      "hint": "Una base entre cero y uno reduce el valor positivo.",
+      "solution": [
+        "0 < 0,8 < 1.",
+        "Por eso la cantidad disminuye por periodos."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-06"
+    },
+    {
+      "type": "question",
+      "title": "Aditivo o multiplicativo",
+      "body": [],
+      "prompt": "¿Cuál secuencia corresponde a multiplicar por el mismo factor cada periodo?",
+      "choices": [
+        {
+          "text": "5, 10, 15, 20",
+          "explanation": "Suma 5; el cociente no es constante."
+        },
+        {
+          "text": "5, 10, 20, 40",
+          "explanation": "Cada término es dos veces el anterior."
+        },
+        {
+          "text": "5, 6, 8, 11",
+          "explanation": "Las diferencias y los cocientes cambian."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara cocientes entre términos consecutivos.",
+      "solution": [
+        "10/5 = 20/10 = 40/20 = 2.",
+        "El factor constante es 2."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-07"
+    },
+    {
+      "type": "review",
+      "title": "No cambies periodos sin ajustar el factor",
+      "body": [
+        "Duplicar cada dos días no equivale a duplicar diariamente. En un modelo diario la base sería √2, o puedes mantener base 2 y usar t/2 en el exponente.",
+        "Cuando aparezca después de n periodos parte de t = 0. Distingue valor inicial, valor al primer periodo y número de multiplicaciones."
+      ],
+      "level": 1,
+      "id": "funciones-exponenciales-08"
+    },
+    {
+      "type": "learn",
+      "title": "Porcentajes que se repiten",
+      "body": [
+        "Aumentar r por periodo corresponde al factor 1 + r si r está expresado como decimal. Un 10% de aumento usa 1,10. Disminuir 10% usa 0,90.",
+        "El porcentaje se aplica al valor actualizado cada vez. Dos aumentos de 10% dan factor 1,10² = 1,21: aumento total 21%, no 20%."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-09"
+    },
+    {
+      "type": "example",
+      "title": "Una reducción repetida",
+      "body": [
+        "Un equipo cuesta inicialmente 2000 soles en un modelo y pierde 20% de su valor por año. Conserva el 80%: V(t) = 2000 × 0,8ᵗ.",
+        "Al segundo año: V(2) = 2000 × 0,64 = 1280. No restamos dos veces el 20% de 2000, porque el segundo descuento se aplica al valor de 1600."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-10"
+    },
+    {
+      "type": "learn",
+      "title": "Ubica puntos y una barrera horizontal",
+      "body": [
+        "En A × bᵗ con A > 0, el valor es siempre positivo. Si 0 < b < 1, se acerca a cero al aumentar t, pero no llega a cero en un número finito de periodos según ese modelo.",
+        "Agregar c desplaza la gráfica verticalmente. En f(t) = 8 × (1/2)ᵗ + 3, los valores se acercan a 3 desde arriba, y f(0) = 11."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-11"
+    },
+    {
+      "type": "question",
+      "title": "Aumento compuesto",
+      "body": [],
+      "prompt": "Una cantidad de 100 aumenta 10% por periodo. ¿Cuál es su valor tras dos periodos?",
+      "choices": [
+        {
+          "text": "120",
+          "explanation": "Suma dos veces el 10% del valor inicial, ignorando la actualización."
+        },
+        {
+          "text": "121",
+          "explanation": "100 × 1,1² = 121."
+        },
+        {
+          "text": "110",
+          "explanation": "Corresponde a un solo periodo."
+        }
+      ],
+      "correct": 1,
+      "hint": "El segundo aumento actúa sobre 110.",
+      "solution": [
+        "Primer periodo: 100 × 1,1 = 110.",
+        "Segundo: 110 × 1,1 = 121."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-12"
+    },
+    {
+      "type": "question",
+      "title": "Disminución compuesta",
+      "body": [],
+      "prompt": "Una cantidad de 500 conserva el 80% cada periodo. ¿Cuánto queda tras 2 periodos?",
+      "choices": [
+        {
+          "text": "320",
+          "explanation": "500 × 0,8² = 500 × 0,64 = 320."
+        },
+        {
+          "text": "300",
+          "explanation": "Resta el 20% inicial dos veces y no actualiza la base."
+        },
+        {
+          "text": "400",
+          "explanation": "Ese es el resultado de un solo periodo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conservar 80% equivale a multiplicar por 0,8.",
+      "solution": [
+        "500 × 0,8 = 400.",
+        "400 × 0,8 = 320."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-13"
+    },
+    {
+      "type": "question",
+      "title": "Un desplazamiento",
+      "body": [],
+      "prompt": "En f(t) = 6 × 2ᵗ + 4, ¿cuál es f(0)?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "Falta el término 6 × 2⁰."
+        },
+        {
+          "text": "16",
+          "explanation": "Ese es f(1), no f(0)."
+        },
+        {
+          "text": "10",
+          "explanation": "6 × 1 + 4 = 10."
+        }
+      ],
+      "correct": 2,
+      "hint": "El desplazamiento no reemplaza el valor inicial del término exponencial.",
+      "solution": [
+        "2⁰ = 1.",
+        "6 + 4 = 10."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-14"
+    },
+    {
+      "type": "question",
+      "title": "Un límite del modelo",
+      "body": [],
+      "prompt": "Según f(t) = 80 × (1/2)ᵗ para t ≥ 0, ¿cuál afirmación es correcta?",
+      "choices": [
+        {
+          "text": "En algún periodo entero el modelo vale exactamente cero",
+          "explanation": "Una potencia positiva de 1/2 nunca es cero."
+        },
+        {
+          "text": "Disminuye y permanece positiva para todo t finito",
+          "explanation": "Cada factor es positivo y menor que uno."
+        },
+        {
+          "text": "Disminuye restando siempre 40",
+          "explanation": "Las diferencias son 40, 20, 10…; no son constantes."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue acercarse a cero de alcanzarlo.",
+      "solution": [
+        "80, 40, 20, 10… son positivos.",
+        "El modelo se aproxima a cero sin alcanzarlo en un t finito."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-15"
+    },
+    {
+      "type": "review",
+      "title": "Comprueba el factor, no solo la frase",
+      "body": [
+        "Aumento 15% usa 1,15; conserva 15% usa 0,15; disminuye 15% usa 0,85. Las tres frases definen modelos distintos.",
+        "Una curva puede parecer casi horizontal dentro de una ventana sin ser constante. Evalúa puntos y mira la fórmula antes de concluir."
+      ],
+      "level": 2,
+      "id": "funciones-exponenciales-16"
+    },
+    {
+      "type": "learn",
+      "title": "Comparar modelos exige el mismo instante",
+      "body": [
+        "Un modelo lineal suma una cantidad constante por periodo; uno exponencial multiplica por un factor constante. Para compararlos evalúa ambos en el mismo t.",
+        "Que una exponencial creciente termine superando a una recta no significa que ya sea mayor desde t = 0. El punto de comparación y los valores iniciales importan."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-17"
+    },
+    {
+      "type": "example",
+      "title": "Encuentra un umbral por ensayo ordenado",
+      "body": [
+        "En un modelo, N(t) = 15 × 2ᵗ. Busca el primer periodo entero con al menos 200 unidades.",
+        "t = 3 da 15 × 8 = 120, que no alcanza. t = 4 da 15 × 16 = 240, que sí alcanza. Como la función crece, el primer entero es 4. No se necesita inventar un tiempo decimal ni usar logaritmos en este caso."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-18"
+    },
+    {
+      "type": "learn",
+      "title": "Los datos no garantizan una ley para siempre",
+      "body": [
+        "Un conjunto de datos puede ajustarse a un modelo durante un intervalo. Fuera de él, recursos, espacio y otras condiciones pueden invalidar el crecimiento constante por factor.",
+        "Un modelo con base negativa no es una función exponencial real definida para todo real t: algunos exponentes producirían valores no reales. En la forma usual se exige base positiva."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-19"
+    },
+    {
+      "type": "question",
+      "title": "Compara al tercer periodo",
+      "body": [],
+      "prompt": "A(t) = 10 + 10t y B(t) = 5 × 2ᵗ. ¿Qué ocurre en t = 3?",
+      "choices": [
+        {
+          "text": "A = 40 y B = 40",
+          "explanation": "10 + 30 = 40 y 5 × 8 = 40."
+        },
+        {
+          "text": "B ya supera a A",
+          "explanation": "En ese instante coinciden; no basta citar crecimiento exponencial."
+        },
+        {
+          "text": "A = 30 y B = 40",
+          "explanation": "Se omitió el 10 inicial de A."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sustituye t = 3 en las dos expresiones.",
+      "solution": [
+        "A(3) = 10 + 30 = 40.",
+        "B(3) = 5 × 8 = 40."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-20"
+    },
+    {
+      "type": "question",
+      "title": "Cruza un umbral",
+      "body": [],
+      "prompt": "Si N(t) = 20 × 2ᵗ, ¿cuál es el primer entero t ≥ 0 con N(t) ≥ 300?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "N(3) = 160, todavía menor que 300."
+        },
+        {
+          "text": "4",
+          "explanation": "N(4) = 320 y N(3) = 160: se cruza al cuarto periodo."
+        },
+        {
+          "text": "15",
+          "explanation": "Dividir 300/20 no cuenta duplicaciones."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula potencias de dos hasta rebasar 300/20.",
+      "solution": [
+        "Se necesita 2ᵗ ≥ 15.",
+        "2³ = 8 y 2⁴ = 16.",
+        "El primer entero es t = 4."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-21"
+    },
+    {
+      "type": "question",
+      "title": "Una reducción que llega por debajo",
+      "body": [],
+      "prompt": "Una cantidad sigue V(t) = 160 × (1/2)ᵗ. ¿Cuál es el primer entero t con V(t) < 15?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "V(3) = 20, aún no cumple."
+        },
+        {
+          "text": "4",
+          "explanation": "V(4) = 10 y el valor anterior era 20."
+        },
+        {
+          "text": "5",
+          "explanation": "Cumple, pero no es el primero porque t = 4 ya cumple."
+        }
+      ],
+      "correct": 1,
+      "hint": "La desigualdad es estricta: busca un valor menor que 15.",
+      "solution": [
+        "V(3) = 160/8 = 20.",
+        "V(4) = 160/16 = 10.",
+        "El primer periodo es 4."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-22"
+    },
+    {
+      "type": "question",
+      "title": "Evalúa una predicción",
+      "body": [],
+      "prompt": "Un gráfico de población se ajusta a 50 × 2ᵗ durante cuatro semanas. ¿Qué conclusión es válida?",
+      "choices": [
+        {
+          "text": "El ajuste demuestra duplicación eterna",
+          "explanation": "Un ajuste limitado no prueba que las condiciones continúen."
+        },
+        {
+          "text": "No se puede calcular ningún valor del modelo",
+          "explanation": "Sí se pueden calcular los valores; otra cuestión es su validez contextual."
+        },
+        {
+          "text": "El modelo describe ese patrón; proyectarlo requiere revisar si las condiciones siguen",
+          "explanation": "Distingue cálculo matemático y validez de la hipótesis en contexto."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa la fórmula de la evidencia que sostiene su uso.",
+      "solution": [
+        "La fórmula fija una duplicación por periodo.",
+        "La observación de cuatro semanas no garantiza recursos ilimitados ni estabilidad posterior."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-23"
+    },
+    {
+      "type": "review",
+      "title": "Calcula y después evalúa",
+      "body": [
+        "Para umbrales enteros prueba el candidato y el entero anterior. Para comparar funciones usa el mismo periodo y conserva las unidades.",
+        "Una tasa porcentual constante produce diferencias cambiantes. Valida el intervalo de aplicación y no conviertas una extrapolación en un hecho demostrado."
+      ],
+      "level": 3,
+      "id": "funciones-exponenciales-24"
+    }
+  ]
+}

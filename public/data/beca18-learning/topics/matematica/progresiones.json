@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/progresiones",
+  "course": "matematica",
+  "slug": "progresiones",
+  "title": "Progresiones aritméticas y geométricas",
+  "description": "Calcula términos y sumas de progresiones y elige la fórmula según la razón.",
+  "version": 1,
+  "order": 13,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Resolver diferencias, índices y sumas de progresiones aritméticas.",
+    "Interpolar medias y contar términos de un intervalo.",
+    "Calcular términos, sumas finitas e infinitas de progresiones geométricas."
+  ],
+  "steps": [
+    {
+      "id": "progresiones-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Una diferencia constante",
+      "body": [
+        "Una progresión aritmética, PA, cumple aₙ = a₁ + (n − 1)d. d puede ser positivo, negativo o cero.",
+        "Entre aₘ y aₙ hay n − m saltos: aₙ − aₘ = (n − m)d. Esta forma permite hallar d sin conocer el primer término.",
+        "Si se conoce el último valor, despeja n y verifica que sea entero positivo. Un resultado como 7,5 no indica un medio término válido de la progresión."
+      ]
+    },
+    {
+      "id": "progresiones-02",
+      "level": 1,
+      "type": "example",
+      "title": "Datos en posiciones separadas",
+      "body": [
+        "En una PA, a₃ = 14 y a₇ = 34. Entre ambas posiciones hay 4 saltos, así que 4d = 34 − 14 = 20 y d = 5.",
+        "Para volver al inicio, a₁ = a₃ − 2d = 14 − 10 = 4. El término general es aₙ = 4 + 5(n − 1).",
+        "Comprobación: a₇ = 4 + 30 = 34. El número de términos entre las posiciones, contándolas, no es el número de saltos."
+      ]
+    },
+    {
+      "id": "progresiones-03",
+      "level": 1,
+      "type": "learn",
+      "title": "Cantidad de términos y dirección",
+      "body": [
+        "Si una PA finita tiene primero a₁, último aₙ y diferencia no nula d, entonces n = (aₙ − a₁)/d + 1.",
+        "Con d negativo, tanto la diferencia final − inicial como d serán negativos si la lista decrece, y su cociente puede ser positivo.",
+        "Para listar múltiplos dentro de un intervalo, identifica primero el menor y mayor múltiplo permitidos. Luego usa d igual al divisor para contar posiciones."
+      ]
+    },
+    {
+      "id": "progresiones-04",
+      "level": 1,
+      "type": "question",
+      "title": "Término de una PA",
+      "body": [],
+      "prompt": "Una PA empieza en 3 y tiene diferencia 4. ¿Cuál es a₇?",
+      "choices": [
+        {
+          "text": "24",
+          "explanation": "24 es solo el aumento acumulado; falta el primer término 3."
+        },
+        {
+          "text": "27",
+          "explanation": "a₇ = 3 + 6 × 4 = 27."
+        },
+        {
+          "text": "31",
+          "explanation": "31 corresponde al octavo término: se hicieron siete saltos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Del primero al séptimo hay seis saltos.",
+      "solution": [
+        "a₇ = a₁ + (7 − 1)d.",
+        "a₇ = 3 + 24 = 27."
+      ]
+    },
+    {
+      "id": "progresiones-05",
+      "level": 1,
+      "type": "question",
+      "title": "Diferencia desde dos términos",
+      "body": [],
+      "prompt": "En una PA, a₃ = 11 y a₈ = 31. ¿Cuál es d?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "5 es la distancia entre índices, no el tamaño del salto."
+        },
+        {
+          "text": "20",
+          "explanation": "20 es el cambio total entre los dos términos."
+        },
+        {
+          "text": "4",
+          "explanation": "Hay cinco saltos y un cambio total de 20: d = 20/5."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide el cambio de valores entre el cambio de posiciones.",
+      "solution": [
+        "a₈ − a₃ = (8 − 3)d.",
+        "20 = 5d; d = 4."
+      ]
+    },
+    {
+      "id": "progresiones-06",
+      "level": 1,
+      "type": "question",
+      "title": "Progresión decreciente",
+      "body": [],
+      "prompt": "Una PA tiene a₁ = 50 y d = −3. ¿Cuánto vale a₆?",
+      "choices": [
+        {
+          "text": "35",
+          "explanation": "Se restan 3 cinco veces: 50 − 15 = 35."
+        },
+        {
+          "text": "32",
+          "explanation": "32 usa seis restas, una de más."
+        },
+        {
+          "text": "65",
+          "explanation": "Se cambió d = −3 por +3 y la progresión crece en vez de decrecer."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conserva el signo de d.",
+      "solution": [
+        "a₆ = 50 + (6 − 1)(−3).",
+        "a₆ = 35."
+      ]
+    },
+    {
+      "id": "progresiones-07",
+      "level": 1,
+      "type": "question",
+      "title": "Cuenta términos",
+      "body": [],
+      "prompt": "Una PA empieza en 8, aumenta 5 y termina en 63. ¿Cuántos términos tiene?",
+      "choices": [
+        {
+          "text": "13",
+          "explanation": "Con 13 términos el último sería 68."
+        },
+        {
+          "text": "12",
+          "explanation": "(63 − 8)/5 = 11 saltos, que corresponden a 12 términos."
+        },
+        {
+          "text": "11",
+          "explanation": "11 cuenta los saltos y omite la primera posición."
+        }
+      ],
+      "correct": 1,
+      "hint": "Despeja n − 1 y después suma uno.",
+      "solution": [
+        "63 = 8 + (n − 1)5.",
+        "n − 1 = 11.",
+        "n = 12."
+      ]
+    },
+    {
+      "id": "progresiones-08",
+      "level": 1,
+      "type": "review",
+      "title": "Intervalos y saltos son distintos",
+      "body": [
+        "Una fila con 12 términos tiene 11 saltos entre primero y último. Este detalle explica el n − 1 de la fórmula y el +1 al contar términos.",
+        "Cuando la progresión decrece, conserva el signo negativo en la diferencia. No lo reemplaces por una distancia positiva sin cambiar también el sentido de la cuenta."
+      ]
+    },
+    {
+      "id": "progresiones-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Suma por parejas",
+      "body": [
+        "En una PA finita, primero más último es igual a segundo más penúltimo. Al escribir la suma en ambos órdenes se obtiene 2Sₙ = n(a₁ + aₙ).",
+        "Por tanto, Sₙ = n(a₁ + aₙ)/2. Sustituyendo el último término: Sₙ = n[2a₁ + (n − 1)d]/2.",
+        "La fórmula da la suma de los términos, no el valor del último. En un ahorro creciente, distingue aporte del último día de dinero acumulado."
+      ]
+    },
+    {
+      "id": "progresiones-10",
+      "level": 2,
+      "type": "example",
+      "title": "Aportes de varios días",
+      "body": [
+        "Una persona ahorra 6 soles el primer día, 9 el segundo y aumenta 3 cada día. En 10 días, el último aporte es a₁₀ = 6 + 9 × 3 = 33.",
+        "El total es S₁₀ = 10(6 + 33)/2 = 195 soles.",
+        "Comprobación por parejas: 6 + 33 = 39, 9 + 30 = 39 y hay 5 parejas; 5 × 39 = 195."
+      ]
+    },
+    {
+      "id": "progresiones-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Interpolar y sumar múltiplos",
+      "body": [
+        "Insertar m medias aritméticas entre A y B crea m + 2 términos y m + 1 saltos. La diferencia es (B − A)/(m + 1).",
+        "Para sumar múltiplos de 7 entre 20 y 80, los extremos admisibles son 21 y 77. Cuenta n = (77 − 21)/7 + 1 y luego suma con esos extremos.",
+        "Si la suma es conocida y falta n, puede aparecer una cuadrática. Resuélvela y conserva solo el entero positivo que verifica la situación."
+      ]
+    },
+    {
+      "id": "progresiones-12",
+      "level": 2,
+      "type": "question",
+      "title": "Suma de una PA",
+      "body": [],
+      "prompt": "Una PA tiene a₁ = 4 y d = 3. ¿Cuánto suman sus primeros 20 términos?",
+      "choices": [
+        {
+          "text": "650",
+          "explanation": "a₂₀ = 61 y S₂₀ = 20(4 + 61)/2 = 650."
+        },
+        {
+          "text": "610",
+          "explanation": "Se multiplicó el último término por 10 y se omitió el primer término en el promedio."
+        },
+        {
+          "text": "1 220",
+          "explanation": "20 × 61 supone que todos los términos valen lo mismo que el último."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula el último término y después el promedio de extremos.",
+      "solution": [
+        "a₂₀ = 4 + 19 × 3 = 61.",
+        "S₂₀ = 20 × 65/2 = 650."
+      ]
+    },
+    {
+      "id": "progresiones-13",
+      "level": 2,
+      "type": "question",
+      "title": "Múltiplos en un intervalo",
+      "body": [],
+      "prompt": "¿Cuál es la suma de los múltiplos de 7 mayores que 20 y menores que 80?",
+      "choices": [
+        {
+          "text": "490",
+          "explanation": "490 usa diez términos; hay nueve."
+        },
+        {
+          "text": "441",
+          "explanation": "Son 21, 28, …, 77: nueve términos con promedio 49."
+        },
+        {
+          "text": "392",
+          "explanation": "392 equivale a ocho veces el promedio; se omitió un extremo al contar."
+        }
+      ],
+      "correct": 1,
+      "hint": "El primer múltiplo es 21 y el último es 77.",
+      "solution": [
+        "n = (77 − 21)/7 + 1 = 9.",
+        "S = 9(21 + 77)/2 = 441."
+      ]
+    },
+    {
+      "id": "progresiones-14",
+      "level": 2,
+      "type": "question",
+      "title": "Tres medias aritméticas",
+      "body": [],
+      "prompt": "¿Qué tres números deben insertarse entre 2 y 18 para formar una PA de cinco términos?",
+      "choices": [
+        {
+          "text": "7, 12 y 17",
+          "explanation": "Esos incrementos no terminan en 18 con la misma diferencia."
+        },
+        {
+          "text": "4, 8 y 12",
+          "explanation": "La diferencia desde el primer término 2 hasta 4 no coincide con la siguiente."
+        },
+        {
+          "text": "6, 10 y 14",
+          "explanation": "Hay cuatro saltos de (18 − 2)/4 = 4."
+        }
+      ],
+      "correct": 2,
+      "hint": "Tres términos insertados generan cuatro intervalos.",
+      "solution": [
+        "d = 16/4 = 4.",
+        "La lista es 2, 6, 10, 14, 18."
+      ]
+    },
+    {
+      "id": "progresiones-15",
+      "level": 2,
+      "type": "question",
+      "title": "Encuentra cuántos aportes",
+      "body": [],
+      "prompt": "Los aportes diarios son 5, 10, 15… soles. ¿En cuántos días se acumulan exactamente 275 soles?",
+      "choices": [
+        {
+          "text": "10 días",
+          "explanation": "Sₙ = 5n(n + 1)/2 = 275 da n(n + 1) = 110 y n = 10."
+        },
+        {
+          "text": "11 días",
+          "explanation": "En 11 días se acumulan 330 soles."
+        },
+        {
+          "text": "55 días",
+          "explanation": "55 es el cociente 275/5, pero corresponde a la suma 1 + … + n, no a n."
+        }
+      ],
+      "correct": 0,
+      "hint": "Factoriza n² + n − 110 = 0.",
+      "solution": [
+        "5n(n + 1)/2 = 275.",
+        "n² + n − 110 = (n − 10)(n + 11) = 0.",
+        "Solo n = 10 es un número de días positivo."
+      ]
+    },
+    {
+      "id": "progresiones-16",
+      "level": 2,
+      "type": "review",
+      "title": "Sumar exige saber qué se cuenta",
+      "body": [
+        "Primero define los extremos y la cantidad de términos. Después usa el promedio de extremos; no sustituyas una suma por n veces el término final.",
+        "Al insertar medias, cuenta espacios. Tres medias generan cuatro saltos. En sumas que determinan n, comprueba la solución entera en el total original."
+      ]
+    },
+    {
+      "id": "progresiones-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Progresión geométrica",
+      "body": [
+        "Una PG no nula mantiene razón r entre términos consecutivos y cumple aₙ = a₁rⁿ⁻¹. Si r es negativo, los signos alternan; si 0 < r < 1 y a₁ > 0, los términos disminuyen.",
+        "Para r ≠ 1, la suma finita es Sₙ = a₁(1 − rⁿ)/(1 − r). Se obtiene al restar rSₙ de Sₙ. Si r = 1, todos los términos valen a₁ y Sₙ = na₁.",
+        "Tres términos positivos consecutivos pueden escribirse a/r, a, ar; el medio al cuadrado es producto de extremos. Interpolar medias geométricas positivas exige una razón positiva compatible con los extremos."
+      ]
+    },
+    {
+      "id": "progresiones-18",
+      "level": 3,
+      "type": "example",
+      "title": "Una suma que se multiplica",
+      "body": [
+        "Para sumar 3 + 6 + 12 + 24 + 48, tenemos a₁ = 3, r = 2 y n = 5.",
+        "S₅ = 3(2⁵ − 1)/(2 − 1) = 3 × 31 = 93. La forma con ambos signos invertidos es equivalente a a₁(1 − rⁿ)/(1 − r).",
+        "Comprueba sumando: 3 + 6 + 12 + 24 + 48 = 93. El último término 48 no es la suma total."
+      ]
+    },
+    {
+      "id": "progresiones-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Cuándo hay suma infinita",
+      "body": [
+        "Para una PG infinita con |r| < 1, rⁿ se acerca a cero y la suma converge a S∞ = a₁/(1 − r). El denominador es 1 − r.",
+        "Si r = 1 y a₁ ≠ 0, la suma no converge. Si r = −1, las sumas parciales oscilan y tampoco convergen. No apliques la fórmula infinita sin revisar |r|.",
+        "En modelos por etapas, lee si el valor inicial es etapa 0 o término 1. Una cantidad que se reduce a la mitad durante cuatro cambios usa cuatro factores 1/2, aunque aparezcan cinco registros contando el inicial."
+      ]
+    },
+    {
+      "id": "progresiones-20",
+      "level": 3,
+      "type": "question",
+      "title": "Razón negativa",
+      "body": [],
+      "prompt": "Una PG tiene a₁ = 3 y r = −2. ¿Cuál es su sexto término?",
+      "choices": [
+        {
+          "text": "96",
+          "explanation": "Se omitió el signo negativo de una potencia impar de −2."
+        },
+        {
+          "text": "−192",
+          "explanation": "Se hicieron seis multiplicaciones en lugar de cinco y además se conservó indebidamente el signo negativo: 3(−2)⁶ sería +192."
+        },
+        {
+          "text": "−96",
+          "explanation": "a₆ = 3(−2)⁵ = −96."
+        }
+      ],
+      "correct": 2,
+      "hint": "Desde a₁ hasta a₆ hay cinco factores r.",
+      "solution": [
+        "a₆ = 3 × (−32).",
+        "a₆ = −96."
+      ]
+    },
+    {
+      "id": "progresiones-21",
+      "level": 3,
+      "type": "question",
+      "title": "Suma geométrica finita",
+      "body": [],
+      "prompt": "¿Cuánto suman los primeros cinco términos de una PG con a₁ = 2 y r = 3?",
+      "choices": [
+        {
+          "text": "242",
+          "explanation": "S₅ = 2(3⁵ − 1)/(3 − 1) = 242."
+        },
+        {
+          "text": "162",
+          "explanation": "162 es el quinto término, no la suma."
+        },
+        {
+          "text": "486",
+          "explanation": "486 es el sexto término; no representa la suma de los cinco primeros."
+        }
+      ],
+      "correct": 0,
+      "hint": "La lista es 2, 6, 18, 54, 162.",
+      "solution": [
+        "S₅ = 2(243 − 1)/2.",
+        "S₅ = 242."
+      ]
+    },
+    {
+      "id": "progresiones-22",
+      "level": 3,
+      "type": "question",
+      "title": "Suma infinita admisible",
+      "body": [],
+      "prompt": "Una PG infinita tiene primer término 12 y razón 1/3. ¿Cuál es su suma?",
+      "choices": [
+        {
+          "text": "36",
+          "explanation": "36 divide 12 entre r, pero la suma exige dividir entre 1 − r."
+        },
+        {
+          "text": "18",
+          "explanation": "|1/3| < 1 y 12/(1 − 1/3) = 18."
+        },
+        {
+          "text": "−18",
+          "explanation": "El denominador correcto es 1 − r, no r − 1."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba primero la condición de convergencia.",
+      "solution": [
+        "|r| = 1/3 < 1.",
+        "S∞ = 12/(2/3) = 18."
+      ]
+    },
+    {
+      "id": "progresiones-23",
+      "level": 3,
+      "type": "question",
+      "title": "Cuenta las etapas de cambio",
+      "body": [],
+      "prompt": "Una cantidad inicial es 80 unidades en la etapa 0. Se reduce a la mitad en cada etapa. ¿Cuánto queda después de cuatro cambios?",
+      "choices": [
+        {
+          "text": "10 unidades",
+          "explanation": "10 corresponde a tres cambios; faltaría la cuarta reducción."
+        },
+        {
+          "text": "2,5 unidades",
+          "explanation": "2,5 corresponde a cinco cambios; se efectuó una reducción adicional a las cuatro solicitadas."
+        },
+        {
+          "text": "5 unidades",
+          "explanation": "80 × (1/2)⁴ = 5."
+        }
+      ],
+      "correct": 2,
+      "hint": "La etapa inicial no es un cambio.",
+      "solution": [
+        "Etapas: 0→80, 1→40, 2→20, 3→10, 4→5.",
+        "Después de cuatro cambios quedan 5 unidades."
+      ]
+    },
+    {
+      "id": "progresiones-24",
+      "level": 3,
+      "type": "review",
+      "title": "Tres decisiones antes de usar una fórmula",
+      "body": [
+        "Distingue término de suma, finito de infinito e índice inicial de cantidad de cambios. Para PG infinitas verifica |r| < 1.",
+        "Si r = 1, usa Sₙ = na₁ para una suma finita. Si una razón es negativa, evalúa la paridad de la potencia. La fórmula adecuada depende de estas condiciones, no solo del parecido entre listas."
+      ]
+    }
+  ]
+}

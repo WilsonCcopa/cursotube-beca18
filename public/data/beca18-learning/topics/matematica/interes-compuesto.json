@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/interes-compuesto",
+  "course": "matematica",
+  "slug": "interes-compuesto",
+  "title": "Interés compuesto y capitalización",
+  "description": "Sigue el crecimiento periodo a periodo y compara el interés compuesto con el simple.",
+  "version": 1,
+  "order": 18,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Distinguir la base fija simple de la base acumulada compuesta.",
+    "Calcular montos y tasas efectivas con periodos consistentes.",
+    "Reconstruir capital, tasa o número entero de periodos."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "El interés se incorpora a la base",
+      "body": [
+        "En capitalización compuesta, al terminar cada periodo el interés se suma al saldo. El periodo siguiente calcula interés sobre ese nuevo saldo.",
+        "Si C es el capital, i la tasa efectiva por periodo y n el número de periodos, M = C(1 + i)ⁿ. El interés total sigue siendo I = M − C. En estos ejemplos no hay aportes, retiros, impuestos ni comisiones."
+      ],
+      "id": "interes-compuesto-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Dos años paso a paso",
+      "body": [
+        "Coloca S/ 1000 al 10% efectivo anual durante 2 años, con capitalización anual."
+      ],
+      "solution": [
+        "Al terminar el primer año: 1000 × 1,10 = 1100 soles.",
+        "Al terminar el segundo: 1100 × 1,10 = 1210 soles. El segundo interés es 110, no 100.",
+        "M = 1000(1,10)² = 1210. Interés total: 1210 − 1000 = 210 soles."
+      ],
+      "id": "interes-compuesto-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Observa una curva de crecimiento",
+      "body": [
+        "La gráfica usa el modelo y = 100 × 1,1ˣ: x cuenta periodos y y representa el monto. Mover la base b cambia el factor multiplicativo por periodo; b = 1,1 significa 10% de crecimiento."
+      ],
+      "diagram": {
+        "kind": "function",
+        "mode": "exponential",
+        "a": 100,
+        "b": 1.1,
+        "c": 0,
+        "min": 0,
+        "max": 6
+      },
+      "id": "interes-compuesto-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El primer periodo coincide",
+      "body": [],
+      "prompt": "S/ 600 al 5% efectivo por periodo con capitalización compuesta: ¿cuál es el saldo tras el primer periodo?",
+      "choices": [
+        {
+          "text": "S/ 630",
+          "explanation": "600 × 1,05 = 630; en el primer periodo simple y compuesto coinciden."
+        },
+        {
+          "text": "S/ 30",
+          "explanation": "30 es el interés generado; el saldo incluye los 600 iniciales."
+        },
+        {
+          "text": "S/ 605",
+          "explanation": "Sumar 5 soles interpreta 5% como una cantidad fija de dinero."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica el capital por 1 más la tasa decimal.",
+      "solution": [
+        "5% = 0,05.",
+        "M₁ = 600 × 1,05 = 630 soles."
+      ],
+      "id": "interes-compuesto-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "El segundo periodo usa el nuevo saldo",
+      "body": [],
+      "prompt": "S/ 800 al 10% efectivo anual compuesto durante 2 años dan ¿qué monto?",
+      "choices": [
+        {
+          "text": "S/ 960",
+          "explanation": "960 corresponde a interés simple de dos años: 800 + 80 + 80."
+        },
+        {
+          "text": "S/ 880",
+          "explanation": "880 solo completa un periodo anual."
+        },
+        {
+          "text": "S/ 968",
+          "explanation": "800 × 1,1² = 968."
+        }
+      ],
+      "correct": 2,
+      "hint": "Después del primer año la base es 880.",
+      "solution": [
+        "Primer año: 800 × 1,1 = 880.",
+        "Segundo año: 880 × 1,1 = 968 soles."
+      ],
+      "id": "interes-compuesto-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Separa interés de monto",
+      "body": [],
+      "prompt": "Un capital de S/ 2000 llega a S/ 2420 tras dos periodos. ¿Cuál es el interés total?",
+      "choices": [
+        {
+          "text": "S/ 210",
+          "explanation": "Dividir la ganancia entre dos no da el interés total; además los intereses por periodo pueden ser distintos."
+        },
+        {
+          "text": "S/ 420",
+          "explanation": "Interés total = monto − capital = 2420 − 2000."
+        },
+        {
+          "text": "S/ 2420",
+          "explanation": "2420 es el monto, que incluye el capital."
+        }
+      ],
+      "correct": 1,
+      "hint": "La definición I = M − C vale para ambos tipos de interés.",
+      "solution": [
+        "I = 2420 − 2000.",
+        "I = 420 soles."
+      ],
+      "id": "interes-compuesto-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Del porcentaje al factor",
+      "body": [],
+      "prompt": "¿Qué factor multiplicativo corresponde a una tasa efectiva positiva de 4% por periodo?",
+      "choices": [
+        {
+          "text": "1,04",
+          "explanation": "Se conserva el 100% del saldo y se agrega 4%: 104% = 1,04."
+        },
+        {
+          "text": "0,04",
+          "explanation": "0,04 solo calcula el interés de un periodo; no incluye la base."
+        },
+        {
+          "text": "4",
+          "explanation": "4 multiplica el saldo por cuatro, equivalente a ganar 300%."
+        }
+      ],
+      "correct": 0,
+      "hint": "El factor es 1 + i, no solo i.",
+      "solution": [
+        "i = 4/100 = 0,04.",
+        "1 + i = 1,04."
+      ],
+      "id": "interes-compuesto-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Un exponente cuenta capitalizaciones",
+      "body": [
+        "No sumes i varias veces para un modelo compuesto: cada periodo multiplica por 1 + i. El producto repetido se escribe como potencia.",
+        "La tasa pertenece a un periodo. Si el saldo crece 10% mensual, el exponente cuenta meses, no años."
+      ],
+      "id": "interes-compuesto-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Tasa nominal y tasa efectiva son distintas",
+      "body": [
+        "Una tasa nominal anual j capitalizable m veces por año se reparte como i = j/m por subperiodo. Si transcurren t años, hay n = mt subperiodos: M = C(1 + j/m)ᵐᵗ.",
+        "Una tasa efectiva anual ya incorpora el crecimiento de un año completo. Para obtener una efectiva semestral equivalente se usa (1 + i semestral)² = 1 + i anual; no se divide automáticamente entre dos.",
+        "Con tasa efectiva por subperiodo i y m subperiodos, la tasa efectiva anual es (1 + i)ᵐ − 1."
+      ],
+      "id": "interes-compuesto-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Nominal anual capitalizable por semestres",
+      "body": [
+        "Un capital de S/ 2500 tiene tasa nominal anual de 12%, capitalizable semestralmente, durante un año."
+      ],
+      "solution": [
+        "Hay m = 2 semestres. La tasa de cada semestre es i = 0,12/2 = 0,06.",
+        "M = 2500(1,06)² = 2809 soles.",
+        "La tasa efectiva anual es 1,06² − 1 = 0,1236 = 12,36%, superior al 12% nominal."
+      ],
+      "id": "interes-compuesto-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Compara simple y compuesto con cuidado",
+      "body": [
+        "Para igual capital C, tasa por periodo i positiva y número entero de periodos n ≥ 2, el compuesto genera más que el simple. La diferencia aparece por el interés sobre intereses.",
+        "En un periodo ambos coinciden. No compares tasas efectivas de periodos distintos sin convertirlas a la misma duración."
+      ],
+      "id": "interes-compuesto-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cuenta los periodos correctos",
+      "body": [],
+      "prompt": "S/ 1000 al 10% efectivo semestral se capitalizan durante 18 meses. ¿Qué monto resulta?",
+      "choices": [
+        {
+          "text": "S/ 1300",
+          "explanation": "1300 usa interés simple al 10% en tres semestres."
+        },
+        {
+          "text": "S/ 1331",
+          "explanation": "18 meses son tres semestres: 1000 × 1,1³ = 1331."
+        },
+        {
+          "text": "S/ 1210",
+          "explanation": "1210 corresponde a dos semestres, solo doce meses."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide dieciocho meses entre seis meses por semestre.",
+      "solution": [
+        "n = 18/6 = 3.",
+        "M = 1000 × 1,1 × 1,1 × 1,1 = 1331 soles."
+      ],
+      "id": "interes-compuesto-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Convierte una tasa nominal declarada",
+      "body": [],
+      "prompt": "Una tasa nominal anual de 20% capitalizable semestralmente, aplicada a S/ 2000 por un año, da ¿qué monto?",
+      "choices": [
+        {
+          "text": "S/ 2420",
+          "explanation": "Cada semestre usa 10%; dos capitalizaciones dan 2000 × 1,1² = 2420."
+        },
+        {
+          "text": "S/ 2400",
+          "explanation": "2400 aplica 20% simple o efectivo anual, pero no la tasa nominal semestralmente capitalizable dada."
+        },
+        {
+          "text": "S/ 2880",
+          "explanation": "2880 usa 20% por semestre, duplicando la tasa por subperiodo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Reparte el 20% nominal anual entre los dos semestres.",
+      "solution": [
+        "i = 0,20/2 = 0,10; n = 2.",
+        "M = 2000(1,10)² = 2420 soles."
+      ],
+      "id": "interes-compuesto-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Encuentra una tasa efectiva equivalente",
+      "body": [],
+      "prompt": "Si cada semestre genera 10% compuesto, ¿cuál es la tasa efectiva de un año?",
+      "choices": [
+        {
+          "text": "20%",
+          "explanation": "20% suma las tasas y omite el interés sobre interés."
+        },
+        {
+          "text": "121%",
+          "explanation": "121% es el monto como porcentaje del capital; la ganancia es 21%."
+        },
+        {
+          "text": "21%",
+          "explanation": "1,1² − 1 = 0,21; la segunda mitad también remunera el interés anterior."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula el factor anual y réstale uno.",
+      "solution": [
+        "Factor anual = (1 + 0,10)² = 1,21.",
+        "Tasa efectiva anual = 1,21 − 1 = 0,21 = 21%."
+      ],
+      "id": "interes-compuesto-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cuantifica la diferencia",
+      "body": [],
+      "prompt": "S/ 1500 al 20% por periodo durante dos periodos: ¿cuánto más genera el compuesto que el simple?",
+      "choices": [
+        {
+          "text": "S/ 300",
+          "explanation": "300 es el primer interés, que coincide en ambos modelos."
+        },
+        {
+          "text": "S/ 60",
+          "explanation": "Compuesto: 2160; simple: 2100; la diferencia es 60."
+        },
+        {
+          "text": "S/ 600",
+          "explanation": "600 es el interés simple total; no la diferencia."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula los dos montos y réstalos.",
+      "solution": [
+        "M compuesto = 1500 × 1,2² = 2160.",
+        "M simple = 1500(1 + 0,2 × 2) = 2100. Diferencia = 60 soles."
+      ],
+      "id": "interes-compuesto-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "No dividas una tasa efectiva sin más",
+      "body": [
+        "La tasa nominal indica cómo repartir una tasa declarada; la efectiva indica crecimiento real de un periodo. El enunciado debe decir cuál usa.",
+        "Cuenta capitalizaciones, no solo años: dos años con capitalización trimestral son ocho periodos. Si la tasa ya es trimestral, úsala directamente."
+      ],
+      "id": "interes-compuesto-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Recuperar datos del crecimiento",
+      "body": [
+        "Si conoces M, i y n, el capital es C = M/(1 + i)ⁿ. Para dos periodos, la tasa se recupera con 1 + i = √(M/C).",
+        "Para encontrar un número entero de periodos, compara potencias del factor. Si el problema pide el primer cierre de periodo que alcanza una meta, elige el menor entero n cuyo monto es al menos la meta.",
+        "Con inflación u otro crecimiento de referencia, comparar factores exige dividir, no restar porcentajes automáticamente: factor relativo = factor de monto/factor de precios."
+      ],
+      "id": "interes-compuesto-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "La meta se alcanza en un cierre de periodo",
+      "body": [
+        "S/ 1000 crecen 20% compuesto por periodo. ¿En qué primer cierre el monto alcanza al menos S/ 1700?"
+      ],
+      "solution": [
+        "Tras uno: 1200. Tras dos: 1440. Tras tres: 1728.",
+        "El cierre dos todavía no llega a 1700; el cierre tres sí.",
+        "Se requieren tres periodos completos. No se redondea hacia abajo el tiempo de alcanzar una meta."
+      ],
+      "id": "interes-compuesto-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Un aporte nuevo tiene su propio reloj",
+      "body": [
+        "Si se agrega dinero justo después de una capitalización, ese aporte no gana los intereses anteriores. Puedes llevar saldos periodo a periodo o sumar los valores futuros de cada aporte.",
+        "Describe claramente el instante del aporte. Un depósito al inicio de un periodo recibe interés de ese periodo; uno al final todavía no lo recibe."
+      ],
+      "id": "interes-compuesto-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Reconstruye el capital",
+      "body": [],
+      "prompt": "Un monto de S/ 2420 se obtuvo en dos años al 10% efectivo anual compuesto. ¿Cuál fue el capital?",
+      "choices": [
+        {
+          "text": "S/ 1980",
+          "explanation": "Después de retroceder un año se obtiene 2200; restarle 10% da 1980, pero deshacer un crecimiento de 10% exige dividir entre 1,10."
+        },
+        {
+          "text": "S/ 2200",
+          "explanation": "2200 es el saldo un año antes; falta retroceder otro periodo."
+        },
+        {
+          "text": "S/ 2000",
+          "explanation": "2420/1,1² = 2420/1,21 = 2000."
+        }
+      ],
+      "correct": 2,
+      "hint": "Deshaz las dos multiplicaciones por 1,1.",
+      "solution": [
+        "C = 2420/(1,1 × 1,1).",
+        "C = 2420/1,21 = 2000 soles."
+      ],
+      "id": "interes-compuesto-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Recupera la tasa de dos años",
+      "body": [],
+      "prompt": "S/ 1600 se convierten en S/ 1936 con dos capitalizaciones anuales iguales. ¿Cuál es la tasa efectiva anual?",
+      "choices": [
+        {
+          "text": "10,5%",
+          "explanation": "Dividir 21% entre dos no deshace una capitalización compuesta."
+        },
+        {
+          "text": "10%",
+          "explanation": "1936/1600 = 1,21; su raíz positiva es 1,1, por lo que i = 0,1."
+        },
+        {
+          "text": "21%",
+          "explanation": "21% es el crecimiento total de los dos años."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca el factor que multiplicado por sí mismo da M/C.",
+      "solution": [
+        "(1 + i)² = 1936/1600 = 1,21.",
+        "1 + i = 1,1; i = 0,1 = 10%."
+      ],
+      "id": "interes-compuesto-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una meta entre dos cierres",
+      "body": [],
+      "prompt": "S/ 500 crecen al 20% efectivo por periodo. ¿Cuál es el primer cierre de periodo con al menos S/ 850?",
+      "choices": [
+        {
+          "text": "El tercero",
+          "explanation": "500 × 1,2² = 720 no llega; 500 × 1,2³ = 864 sí llega."
+        },
+        {
+          "text": "El segundo",
+          "explanation": "720 es menor que la meta de 850."
+        },
+        {
+          "text": "El cuarto",
+          "explanation": "En el cuarto también supera la meta, pero ya lo había hecho en el tercero."
+        }
+      ],
+      "correct": 0,
+      "hint": "Revisa los montos de los cierres dos y tres.",
+      "solution": [
+        "M₂ = 500 × 1,44 = 720.",
+        "M₃ = 720 × 1,2 = 864. El primer cierre suficiente es n = 3."
+      ],
+      "id": "interes-compuesto-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un aporte al final del primer año",
+      "body": [],
+      "prompt": "Se depositan S/ 1000 al 10% efectivo anual. Justo después de la primera capitalización se agregan S/ 500. ¿Cuál es el saldo al terminar el segundo año?",
+      "choices": [
+        {
+          "text": "S/ 1815",
+          "explanation": "1815 supone que los 500 aportados también ganaron interés durante el primer año."
+        },
+        {
+          "text": "S/ 1710",
+          "explanation": "1710 añade el aporte al final del segundo año, en vez de al inicio de ese año."
+        },
+        {
+          "text": "S/ 1760",
+          "explanation": "Al primer cierre hay 1100; tras el aporte hay 1600 y el segundo año produce 160 soles."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa primer cierre, aporte y segundo cierre.",
+      "solution": [
+        "Tras el primer año: 1000 × 1,1 = 1100. Después del aporte: 1600.",
+        "Al segundo cierre: 1600 × 1,1 = 1760 soles."
+      ],
+      "id": "interes-compuesto-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Comprueba la línea de tiempo",
+      "body": [
+        "En C(1 + i)ⁿ, C es el saldo al comienzo del tramo. Si hay aportes o retiros, abre nuevos tramos o calcula por separado cuánto tiempo crece cada cantidad.",
+        "Para recuperar el capital divide por el factor acumulado. Para recuperar una tasa efectiva de varios periodos usa raíces; repartir el porcentaje total suele producir un error."
+      ],
+      "id": "interes-compuesto-24",
+      "level": 3
+    }
+  ]
+}

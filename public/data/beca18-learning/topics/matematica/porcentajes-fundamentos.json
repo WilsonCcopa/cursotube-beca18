@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/porcentajes-fundamentos",
+  "course": "matematica",
+  "slug": "porcentajes-fundamentos",
+  "title": "Porcentajes: fundamentos",
+  "description": "Construye el significado del porcentaje y resuelve bases, tasas y variaciones.",
+  "version": 1,
+  "order": 10,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Convertir razones y porcentajes con sentido.",
+    "Hallar parte, total o tasa según el dato desconocido.",
+    "Distinguir variación relativa, puntos porcentuales y cambios geométricos."
+  ],
+  "steps": [
+    {
+      "id": "porcentajes-fundamentos-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Por cada cien",
+      "body": [
+        "Decir 18 % equivale a 18 de cada 100: 18/100 = 0,18. El símbolo % ya incluye la división entre cien.",
+        "El tanto por cuanto generaliza esa idea: 3 de cada 8 equivale a 3/8. Para convertirlo a porcentaje, multiplica el cociente por 100: 3/8 = 37,5 %.",
+        "Un porcentaje siempre necesita una base. El 20 % de 50 son 10; el 20 % de 200 son 40. La tasa es la misma y la cantidad resultante cambia."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-02",
+      "level": 1,
+      "type": "example",
+      "title": "Tres escrituras de una proporción",
+      "body": [
+        "En una bandeja, 9 de 24 tarjetas son verdes. La razón parte/total es 9/24 = 3/8.",
+        "Dividiendo: 3/8 = 0,375. Multiplicando por 100: 37,5 %.",
+        "Comprueba: 0,375 × 24 = 9. La fracción, el decimal y el porcentaje describen la misma proporción, no tres cantidades que se suman."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Una fracción se convierte en porcentaje",
+      "body": [
+        "Representa 1/4, 2/5 y 3/4. Divide numerador entre denominador y multiplica por 100 para expresar la parte coloreada como porcentaje.",
+        "1/4 corresponde a 25 %; 2/5 a 40 %; 3/4 a 75 %. La unidad completa representa siempre 100 %."
+      ],
+      "diagram": {
+        "kind": "fraction",
+        "numerator": 2,
+        "denominator": 5
+      }
+    },
+    {
+      "id": "porcentajes-fundamentos-04",
+      "level": 1,
+      "type": "question",
+      "title": "Del porcentaje al decimal",
+      "body": [],
+      "prompt": "¿Qué decimal equivale a 7 %?",
+      "choices": [
+        {
+          "text": "7",
+          "explanation": "7 equivale a 700 %, porque falta dividir entre 100."
+        },
+        {
+          "text": "0,07",
+          "explanation": "7/100 = 0,07."
+        },
+        {
+          "text": "0,7",
+          "explanation": "0,7 equivale a 70 %, diez veces la tasa pedida."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide 7 entre 100.",
+      "solution": [
+        "7 % = 7/100.",
+        "7/100 = 0,07."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-05",
+      "level": 1,
+      "type": "question",
+      "title": "Tanto por cuanto",
+      "body": [],
+      "prompt": "En un grupo, 7 de cada 20 personas prefieren estudiar temprano. ¿Qué porcentaje representa?",
+      "choices": [
+        {
+          "text": "7 %",
+          "explanation": "7 es la cantidad por cada 20, no por cada 100."
+        },
+        {
+          "text": "28 %",
+          "explanation": "Multiplicar 7 por 4 no lleva el denominador 20 a 100; se necesita un factor 5."
+        },
+        {
+          "text": "35 %",
+          "explanation": "7/20 × 100 = 35."
+        }
+      ],
+      "correct": 2,
+      "hint": "Transforma 20 partes en 100 partes equivalentes.",
+      "solution": [
+        "7/20 = 35/100.",
+        "La proporción es 35 %."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-06",
+      "level": 1,
+      "type": "question",
+      "title": "Fracción equivalente",
+      "body": [],
+      "prompt": "¿Qué fracción irreducible representa 45 %?",
+      "choices": [
+        {
+          "text": "9/20",
+          "explanation": "45/100 se simplifica dividiendo entre 5."
+        },
+        {
+          "text": "9/10",
+          "explanation": "Se dividió 45 entre 5 y 100 entre 10; usar divisores diferentes cambia la proporción."
+        },
+        {
+          "text": "45/10",
+          "explanation": "Se usó 10 como denominador en vez de 100."
+        }
+      ],
+      "correct": 0,
+      "hint": "Escribe 45/100 y simplifica ambos términos por el mismo número.",
+      "solution": [
+        "45 % = 45/100.",
+        "45/100 = 9/20."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-07",
+      "level": 1,
+      "type": "question",
+      "title": "Más que el total de referencia",
+      "body": [],
+      "prompt": "¿Cuánto es el 150 % de 40?",
+      "choices": [
+        {
+          "text": "190",
+          "explanation": "Sumar 150 a 40 confunde tasa con cantidad."
+        },
+        {
+          "text": "60",
+          "explanation": "150 % = 1,5 y 1,5 × 40 = 60."
+        },
+        {
+          "text": "6",
+          "explanation": "Se convirtió 150 % en 0,15, que corresponde a 15 %."
+        }
+      ],
+      "correct": 1,
+      "hint": "150 % es una unidad y media de la base.",
+      "solution": [
+        "100 % de 40 es 40 y 50 % es 20.",
+        "150 % de 40 es 40 + 20 = 60."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-08",
+      "level": 1,
+      "type": "review",
+      "title": "La tasa y la cantidad no se intercambian",
+      "body": [
+        "7 % significa 0,07 de la base, no 7 unidades fijas. Una tasa mayor que 100 % puede ser válida cuando compara una cantidad con otra menor.",
+        "Para convertir una fracción a porcentaje, divide y multiplica por cien. Para aplicar ese porcentaje, vuelve al factor decimal y multiplícalo por la base."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Parte, total y tasa",
+      "body": [
+        "La relación básica es parte = tasa decimal × total. Si falta la parte, multiplica. Si falta el total, divide la parte entre la tasa decimal.",
+        "Si falta la tasa, divide parte entre total y multiplica por 100 %. Para 18 de 60, la tasa es 18/60 = 0,30 = 30 %.",
+        "El complemento corresponde al mismo total: si se usa 35 %, queda 65 %. Esto requiere que las dos partes agoten el total sin superponerse."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-10",
+      "level": 2,
+      "type": "example",
+      "title": "Recupera la base conocida solo en parte",
+      "body": [
+        "En una actividad participaron 42 personas, que representan el 70 % de las inscritas. Sea N el total de inscripciones.",
+        "0,70N = 42, por lo que N = 42/0,70 = 60. Las que no participaron son 60 − 42 = 18, equivalentes al 30 %.",
+        "Calcular 70 % de 42 daría una parte de quienes participaron; no recupera la base original."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Porcentaje dentro de otro grupo",
+      "body": [
+        "Si el 60 % de un grupo va al turno de mañana y el 25 % de ese turno usa bicicleta, quienes cumplen ambas condiciones representan 0,60 × 0,25 = 0,15 del grupo total.",
+        "Al sumar porcentajes, verifica que la base sea la misma. El 10 % de A más el 20 % de B no equivale en general al 30 % de A + B.",
+        "La identidad a % de b = b % de a puede facilitar un cálculo numérico: 16 % de 25 = 25 % de 16 = 4. La igualdad se refiere a cantidades numéricas compatibles, no vuelve intercambiables los papeles en cualquier problema."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-12",
+      "level": 2,
+      "type": "question",
+      "title": "Parte de una cantidad",
+      "body": [],
+      "prompt": "¿Cuánto es el 18 % de 250?",
+      "choices": [
+        {
+          "text": "45",
+          "explanation": "0,18 × 250 = 45."
+        },
+        {
+          "text": "4,5",
+          "explanation": "Se usó 1,8 % en lugar de 18 %."
+        },
+        {
+          "text": "232",
+          "explanation": "Restar 18 a 250 no calcula una proporción."
+        }
+      ],
+      "correct": 0,
+      "hint": "Puedes hallar 10 % y 8 %, o multiplicar por 18/100.",
+      "solution": [
+        "250 × 18/100 = 45.",
+        "Comprobación: 45/250 = 0,18."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-13",
+      "level": 2,
+      "type": "question",
+      "title": "Porcentaje de un porcentaje",
+      "body": [],
+      "prompt": "El 40 % de 300 participantes estudia por la noche. De ese turno, el 25 % usa apuntes digitales. ¿Cuántas personas cumplen ambas condiciones?",
+      "choices": [
+        {
+          "text": "120 personas",
+          "explanation": "120 es todo el turno nocturno, antes de aplicar el 25 %."
+        },
+        {
+          "text": "30 personas",
+          "explanation": "300 × 0,40 × 0,25 = 30."
+        },
+        {
+          "text": "75 personas",
+          "explanation": "75 es el 25 % del grupo completo, pero la segunda tasa corresponde solo al turno nocturno."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula primero el tamaño del turno de noche.",
+      "solution": [
+        "Turno nocturno: 300 × 0,40 = 120.",
+        "Usuarios digitales de ese turno: 120 × 0,25 = 30."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-14",
+      "level": 2,
+      "type": "question",
+      "title": "Total desconocido",
+      "body": [],
+      "prompt": "Si 54 representa el 30 % de una cantidad, ¿cuál es la cantidad completa?",
+      "choices": [
+        {
+          "text": "16,2",
+          "explanation": "16,2 calcula el 30 % de 54 y reduce otra vez la parte conocida."
+        },
+        {
+          "text": "84",
+          "explanation": "Sumar 30 trata una tasa como si fueran unidades."
+        },
+        {
+          "text": "180",
+          "explanation": "54/0,30 = 180."
+        }
+      ],
+      "correct": 2,
+      "hint": "Plantea 0,30N = 54.",
+      "solution": [
+        "N = 54/0,30.",
+        "N = 180; 30 % de 180 = 54."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-15",
+      "level": 2,
+      "type": "question",
+      "title": "Encuentra la tasa",
+      "body": [],
+      "prompt": "Un grupo tiene 80 integrantes y 28 usan bicicleta. ¿Qué porcentaje la usa?",
+      "choices": [
+        {
+          "text": "35 %",
+          "explanation": "28/80 = 0,35 = 35 %."
+        },
+        {
+          "text": "28 %",
+          "explanation": "28 es la cantidad de personas, no la tasa por cada cien."
+        },
+        {
+          "text": "65 %",
+          "explanation": "65 % corresponde a las 52 personas que no usan bicicleta."
+        }
+      ],
+      "correct": 0,
+      "hint": "La base es el grupo completo de 80.",
+      "solution": [
+        "Tasa = 28/80 × 100 %.",
+        "La tasa es 35 %."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-16",
+      "level": 2,
+      "type": "review",
+      "title": "Escribe la base al lado de cada tasa",
+      "body": [
+        "Para recuperar un total, divide por la tasa. Para una parte de otra parte, multiplica las tasas y conserva el total inicial como referencia final.",
+        "No sumes porcentajes de grupos diferentes sin convertirlos primero a cantidades o a una misma base. En complementos, comprueba que no haya personas contadas en ambos grupos."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Variación relativa y puntos porcentuales",
+      "body": [
+        "La variación porcentual de inicial a final es (final − inicial)/inicial × 100 %. La base es el valor inicial, que debe ser distinto de cero.",
+        "Pasar de una tasa de 20 % a otra de 30 % es subir 10 puntos porcentuales. La subida relativa de la tasa es 10/20 = 50 %. Son medidas distintas.",
+        "Una disminución de A a B y el aumento de B a A usan bases diferentes. Por eso no tienen normalmente el mismo porcentaje."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-18",
+      "level": 3,
+      "type": "example",
+      "title": "La vuelta usa otra base",
+      "body": [
+        "Un precio baja de 200 a 160 soles. La disminución es 40/200 = 20 %.",
+        "Para regresar de 160 a 200 necesita aumentar 40/160 = 25 %. El mismo cambio de 40 soles se compara ahora con una base menor.",
+        "El factor de ida es 0,80 y el de vuelta 1,25. Su producto es 1, que permite recuperar el precio inicial."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Cambiar medidas cambia áreas",
+      "body": [
+        "Si un rectángulo aumenta su largo 10 % y reduce su ancho 20 %, el área se multiplica por 1,10 × 0,80 = 0,88. Disminuye 12 %, no 10 %.",
+        "En un círculo, A = πr². Si el radio se multiplica por k, el área se multiplica por k². Para multiplicar el área por 9, el radio positivo se multiplica por 3.",
+        "El porcentaje de cambio del área es (factor de área − 1) × 100 %. Distingue multiplicar por 4 de aumentar 400 %: lo segundo significa multiplicar por 5."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-20",
+      "level": 3,
+      "type": "question",
+      "title": "Aumento sobre el inicial",
+      "body": [],
+      "prompt": "Una cantidad pasa de 120 a 150. ¿Cuál fue el aumento porcentual?",
+      "choices": [
+        {
+          "text": "20 %",
+          "explanation": "30/150 usa como base el valor final."
+        },
+        {
+          "text": "30 %",
+          "explanation": "30 es el aumento absoluto, no automáticamente una tasa."
+        },
+        {
+          "text": "25 %",
+          "explanation": "El aumento 30 se divide entre la base inicial 120."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide el cambio entre 120.",
+      "solution": [
+        "Cambio = 150 − 120 = 30.",
+        "30/120 = 0,25 = 25 %."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-21",
+      "level": 3,
+      "type": "question",
+      "title": "No confundir puntos y proporción",
+      "body": [],
+      "prompt": "Una tasa pasa de 40 % a 50 %. ¿Cuál es su aumento relativo respecto de la tasa inicial?",
+      "choices": [
+        {
+          "text": "25 %",
+          "explanation": "La diferencia es 10 puntos; 10/40 = 0,25."
+        },
+        {
+          "text": "10 %",
+          "explanation": "10 es la diferencia en puntos porcentuales, no el aumento relativo."
+        },
+        {
+          "text": "20 %",
+          "explanation": "10/50 usa la tasa final como base."
+        }
+      ],
+      "correct": 0,
+      "hint": "Compara los 10 puntos de aumento con los 40 iniciales.",
+      "solution": [
+        "Cambio relativo = (50 − 40)/40.",
+        "10/40 = 0,25: aumento relativo de 25 %."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-22",
+      "level": 3,
+      "type": "question",
+      "title": "Recupera una caída",
+      "body": [],
+      "prompt": "Una cantidad disminuye 20 %. ¿Qué porcentaje debe aumentar desde su nuevo valor para recuperar el inicial?",
+      "choices": [
+        {
+          "text": "80 %",
+          "explanation": "80 % es la fracción conservada, no el aumento requerido."
+        },
+        {
+          "text": "25 %",
+          "explanation": "De 100 baja a 80; necesita 20/80 = 25 % para volver."
+        },
+        {
+          "text": "20 %",
+          "explanation": "Aumentar 20 % sobre 80 solo da 96."
+        }
+      ],
+      "correct": 1,
+      "hint": "Puedes usar una base inicial conveniente de 100.",
+      "solution": [
+        "Después de la caída quedan 80.",
+        "Faltan 20 para volver a 100.",
+        "20/80 × 100 % = 25 %."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-23",
+      "level": 3,
+      "type": "question",
+      "title": "Variación del área",
+      "body": [],
+      "prompt": "El largo de un rectángulo aumenta 10 % y su ancho disminuye 20 %. ¿Qué ocurre con su área?",
+      "choices": [
+        {
+          "text": "Disminuye 10 %",
+          "explanation": "Restar 20 − 10 omite el producto de factores."
+        },
+        {
+          "text": "Aumenta 12 %",
+          "explanation": "0,88 es menor que 1; el cambio tiene signo de disminución."
+        },
+        {
+          "text": "Disminuye 12 %",
+          "explanation": "El factor de área es 1,10 × 0,80 = 0,88."
+        }
+      ],
+      "correct": 2,
+      "hint": "Multiplica los factores de las dos dimensiones.",
+      "solution": [
+        "Área final/área inicial = 1,10 × 0,80 = 0,88.",
+        "0,88 − 1 = −0,12: disminución de 12 %."
+      ]
+    },
+    {
+      "id": "porcentajes-fundamentos-24",
+      "level": 3,
+      "type": "review",
+      "title": "Cada cambio tiene una referencia",
+      "body": [
+        "Identifica si se pide diferencia absoluta, puntos porcentuales o variación relativa. Escribe siempre el valor que actúa como base.",
+        "En superficies y volúmenes, aplica los factores a la fórmula geométrica. Duplicar un radio cuadruplica el área, lo que equivale a un aumento de 300 %, no de 400 %."
+      ]
+    }
+  ]
+}

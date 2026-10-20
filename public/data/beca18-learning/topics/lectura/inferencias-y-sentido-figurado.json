@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/inferencias-y-sentido-figurado",
+  "course": "lectura",
+  "slug": "inferencias-y-sentido-figurado",
+  "title": "Inferencias y sentido figurado",
+  "description": "Distingue lo dicho de lo deducido, interpreta recursos expresivos y compara textos con evidencia.",
+  "version": 1,
+  "order": 25,
+  "estimatedMinutes": 30,
+  "objectives": [
+    "Sustentar inferencias sin añadir supuestos.",
+    "Interpretar metáforas, personificación e ironía en contexto.",
+    "Integrar y comparar información de varios textos."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Tres preguntas diferentes",
+      "body": [
+        "Una información explícita aparece directamente en el texto. Una inferencia relaciona pistas del texto para deducir algo que no está formulado de la misma manera. Una suposición añade información que las pistas no sostienen.",
+        "Para evaluar una inferencia escribe qué datos la apoyan y qué paso lógico los conecta. Si necesitas inventar un motivo, una fecha o una intención, probablemente estás agregando algo.",
+        "La inferencia más plausible no siempre es una certeza absoluta. Respeta palabras como puede, algunos y durante la prueba; no las conviertas en siempre, todos o definitivamente."
+      ],
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-01"
+    },
+    {
+      "type": "example",
+      "title": "Relaciona dos pistas",
+      "body": [
+        "El texto no afirma directamente que la hoja salió volando por una corriente. Sin embargo, relaciona una ventana abierta, una ráfaga y hojas que se desplazan.",
+        "La conclusión prudente es que la corriente de aire explica el movimiento de las hojas. No sabemos quién abrió la ventana ni por qué lo hizo."
+      ],
+      "passage": {
+        "title": "La mesa junto a la ventana",
+        "paragraphs": [
+          "Antes de la reunión, las hojas estaban ordenadas sobre una mesa. La ventana de ese lado permanecía abierta. Al entrar una ráfaga, varias hojas se levantaron y cayeron junto a las sillas. El encargado cerró la ventana y recogió los papeles."
+        ]
+      },
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-02"
+    },
+    {
+      "type": "explore",
+      "title": "Separa dato, relación y salto",
+      "body": [
+        "Toca cada fragmento. Una inferencia necesita una relación entre datos, no solo una frase que parezca posible."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Dato 1",
+            "text": "El aviso indica que hoy la biblioteca cierra a las cinco."
+          },
+          {
+            "label": "Dato 2",
+            "text": "La persona llega a las cinco y media y encuentra la puerta cerrada."
+          },
+          {
+            "label": "Inferencia respaldada",
+            "text": "La llegada ocurrió después del horario de cierre indicado."
+          },
+          {
+            "label": "Suposición no respaldada",
+            "text": "No se puede afirmar que el personal haya cerrado antes por una avería. No hay dato de avería."
+          }
+        ]
+      },
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-03"
+    },
+    {
+      "type": "question",
+      "title": "Una conclusión cercana",
+      "body": [],
+      "prompt": "¿Qué se puede deducir del texto?",
+      "choices": [
+        {
+          "text": "Los participantes pudieron advertir que el acceso habitual no estaba disponible",
+          "explanation": "El cartel anuncia el cierre y ofrece una ruta alternativa visible."
+        },
+        {
+          "text": "El cierre durará todo el mes",
+          "explanation": "No se informa esa duración."
+        },
+        {
+          "text": "La puerta lateral está averiada",
+          "explanation": "El texto la presenta como ruta disponible, no como averiada."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conecta el aviso con la ruta que indica.",
+      "solution": [
+        "El acceso principal no está disponible durante la actividad.",
+        "El cartel orienta a una entrada lateral; permite advertir el cambio de acceso."
+      ],
+      "passage": {
+        "title": "Una entrada distinta",
+        "paragraphs": [
+          "Al llegar al centro cultural, los asistentes encontraron un cartel en el acceso principal: Cerrado durante el mantenimiento de hoy. Ingrese por la puerta lateral. Una flecha señalaba el pasillo de la derecha y varias personas siguieron esa indicación."
+        ]
+      },
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-04"
+    },
+    {
+      "type": "question",
+      "title": "No inventes una causa",
+      "body": [],
+      "prompt": "¿Qué afirmación excede la información?",
+      "choices": [
+        {
+          "text": "La entrega se realizó después del plazo previsto",
+          "explanation": "El viernes estaba previsto y la entrega ocurrió el lunes siguiente."
+        },
+        {
+          "text": "El retraso se debió a que la conductora olvidó el paquete",
+          "explanation": "El texto no identifica la causa ni habla de un olvido."
+        },
+        {
+          "text": "La persona recibió un mensaje que avisaba la nueva fecha",
+          "explanation": "Ese mensaje se menciona explícitamente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue qué pasó de por qué pasó.",
+      "solution": [
+        "El texto informa el retraso y el aviso.",
+        "No aporta una explicación causal del retraso."
+      ],
+      "passage": {
+        "title": "La entrega",
+        "paragraphs": [
+          "El pedido debía llegar el viernes. Esa tarde, una notificación anunció que la entrega se reprogramaba para el lunes siguiente. El lunes, la destinataria recibió el paquete y comprobó que los productos coincidían con su pedido. El mensaje no explicó el motivo del cambio."
+        ]
+      },
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-05"
+    },
+    {
+      "type": "question",
+      "title": "Respeta el alcance",
+      "body": [],
+      "prompt": "¿Cuál es la conclusión más precisa?",
+      "choices": [
+        {
+          "text": "Todas las plantas crecerán más con esa mezcla",
+          "explanation": "El ensayo solo observó seis macetas en unas condiciones."
+        },
+        {
+          "text": "La mezcla siempre duplica el crecimiento",
+          "explanation": "No se demuestra universalidad ni una duplicación."
+        },
+        {
+          "text": "En ese ensayo, las macetas con mezcla mostraron mayor crecimiento promedio",
+          "explanation": "La frase conserva el grupo observado, el resultado y el alcance del ensayo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Mantén las expresiones de tiempo y grupo del texto.",
+      "solution": [
+        "Se compararon seis macetas durante cuatro semanas.",
+        "La conclusión se limita a ese ensayo y a sus promedios."
+      ],
+      "passage": {
+        "title": "Un registro de cuatro semanas",
+        "paragraphs": [
+          "En un ensayo escolar, tres macetas recibieron una mezcla de suelo y otras tres conservaron el suelo habitual. Durante cuatro semanas se midió la altura de las plantas. Al terminar, el promedio de crecimiento de las macetas con mezcla fue mayor. El informe aclaró que se trataba de una exploración inicial con pocas macetas."
+        ]
+      },
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-06"
+    },
+    {
+      "type": "question",
+      "title": "Integra dos datos",
+      "body": [],
+      "prompt": "¿Qué dato se obtiene al relacionar las dos indicaciones?",
+      "choices": [
+        {
+          "text": "Las devoluciones pueden realizarse hasta las seis de la tarde por el buzón",
+          "explanation": "El buzón funciona después del cierre de atención y hasta las seis."
+        },
+        {
+          "text": "La atención del mostrador continúa hasta las seis",
+          "explanation": "El mostrador cierra a las cuatro."
+        },
+        {
+          "text": "No se pueden devolver libros después de las cuatro",
+          "explanation": "El segundo aviso habilita el buzón."
+        }
+      ],
+      "correct": 0,
+      "hint": "Una indicación describe atención; la otra, devoluciones.",
+      "solution": [
+        "El mostrador termina a las 16:00.",
+        "El buzón acepta devoluciones hasta las 18:00.",
+        "Después del cierre de atención todavía se pueden devolver libros por el buzón."
+      ],
+      "passage": {
+        "title": "Dos avisos de la biblioteca",
+        "paragraphs": [
+          "El aviso de la entrada dice: Atención en mostrador de 9:00 a 16:00. A su lado, otro aviso indica: El buzón de devolución permanece disponible hasta las 18:00, incluso después del cierre del mostrador. Los libros depositados allí se registrarán al iniciar la siguiente jornada."
+        ]
+      },
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-07"
+    },
+    {
+      "type": "review",
+      "title": "Comprueba el puente entre pistas",
+      "body": [
+        "Una respuesta puede ser posible en la vida real y no estar respaldada por ese texto. Pide datos que sostengan la conclusión específica.",
+        "Revisa alcance, tiempo y grado de certeza. Mayor promedio en una prueba no implica que cada caso mejoró ni que el resultado se repetirá siempre."
+      ],
+      "level": 1,
+      "id": "inferencias-y-sentido-figurado-08"
+    },
+    {
+      "type": "learn",
+      "title": "La expresión puede ir más allá de lo literal",
+      "body": [
+        "Una metáfora presenta una realidad mediante otra: su voz era un hilo puede sugerir debilidad o poco volumen según el contexto. No describe una cuerda física.",
+        "La personificación atribuye acciones o cualidades humanas a lo no humano, como la ciudad despertó. Una comparación explícita suele usar como, pero el sentido exacto depende del contexto.",
+        "La ironía presenta una expresión cuyo sentido pretendido contrasta con su lectura literal. Para justificarla necesitas pistas de situación, tono o contradicción; no basta ver una exclamación."
+      ],
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-09"
+    },
+    {
+      "type": "example",
+      "title": "Una felicitación que no celebra",
+      "body": [
+        "El comentario suena elogioso literalmente, pero el contexto muestra que la tarea está sin hacer y ya venció el plazo. La contradicción sostiene una lectura irónica.",
+        "La intención más respaldada es señalar el incumplimiento. No se deduce que la persona esté satisfecha con la rapidez."
+      ],
+      "passage": {
+        "title": "Un avance invisible",
+        "paragraphs": [
+          "El equipo había acordado terminar el cartel antes del recreo. Al regresar a la última hora, encontraron la cartulina vacía y los materiales aún guardados. Una integrante miró el reloj y comentó: Vaya, qué adelantado está nuestro trabajo. Después abrió el estuche y pidió repartir las tareas pendientes."
+        ]
+      },
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-10"
+    },
+    {
+      "type": "explore",
+      "title": "El contexto activa el recurso",
+      "body": [
+        "Selecciona cada fragmento y compara lo literal con el efecto que produce en el mensaje."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "La noticia fue una chispa en la reunión.",
+            "role": "Metáfora: la noticia inició una reacción rápida, como una chispa enciende algo."
+          },
+          {
+            "text": "Las sillas vacías escuchaban el ensayo.",
+            "role": "Personificación: se atribuye escuchar a objetos que no oyen."
+          },
+          {
+            "text": "¡Qué silencio!, dijo mientras varias personas gritaban.",
+            "role": "Ironía: el ruido contradice literalmente la alabanza del silencio."
+          }
+        ]
+      },
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-11"
+    },
+    {
+      "type": "question",
+      "title": "Una sala convertida en horno",
+      "body": [],
+      "prompt": "¿Qué comunica la expresión la sala era un horno?",
+      "choices": [
+        {
+          "text": "La sala se usaba para cocinar pan",
+          "explanation": "El texto no presenta una cocina ni un uso literal del lugar."
+        },
+        {
+          "text": "El calor de la sala era muy intenso",
+          "explanation": "Las ventanas cerradas, el sol y las personas abanicándose sostienen esa metáfora."
+        },
+        {
+          "text": "La sala estaba a oscuras",
+          "explanation": "La oscuridad no corresponde al rasgo compartido con un horno."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca qué rasgo del horno coincide con las sensaciones descritas.",
+      "solution": [
+        "El texto destaca calor acumulado y dificultad para permanecer allí.",
+        "Horno intensifica esa sensación, no cambia el uso del edificio."
+      ],
+      "passage": {
+        "title": "La reunión de verano",
+        "paragraphs": [
+          "El sol golpeaba el techo de calamina y las ventanas seguían trabadas. Tras diez minutos, varias personas se abanicaban con sus cuadernos. La sala era un horno, pensó Irene, mientras proponía continuar la reunión en el patio cubierto."
+        ]
+      },
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-12"
+    },
+    {
+      "type": "question",
+      "title": "Una ciudad que despierta",
+      "body": [],
+      "prompt": "¿Qué efecto produce decir que el barrio despertó?",
+      "choices": [
+        {
+          "text": "Presenta el inicio de actividad como si el barrio fuera una persona",
+          "explanation": "El lugar recibe una acción humana para expresar el cambio observado."
+        },
+        {
+          "text": "Afirma que los edificios estaban dormidos de verdad",
+          "explanation": "No se trata de sueño biológico literal."
+        },
+        {
+          "text": "Demuestra que todos los habitantes se levantaron a la misma hora",
+          "explanation": "La expresión no permite esa precisión universal."
+        }
+      ],
+      "correct": 0,
+      "hint": "Relaciona la figura con los sonidos y movimientos del pasaje.",
+      "solution": [
+        "Se describe el paso de tranquilidad a actividad.",
+        "Despertó personifica al barrio para resumir esa transición."
+      ],
+      "passage": {
+        "title": "Antes de abrir el mercado",
+        "paragraphs": [
+          "Al amanecer solo se oía una escoba sobre la vereda. Poco después llegaron las primeras carretillas, se levantaron persianas y las voces ocuparon las esquinas. El barrio despertó entre cajas de fruta y pasos apurados. En una ventana aún cerrada permanecía apagada la luz."
+        ]
+      },
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-13"
+    },
+    {
+      "type": "question",
+      "title": "Una rapidez irónica",
+      "body": [],
+      "prompt": "¿Cómo se interpreta mejor el comentario final?",
+      "choices": [
+        {
+          "text": "Celebra sinceramente que el trámite fue inmediato",
+          "explanation": "Tres horas de espera contradicen esa lectura literal."
+        },
+        {
+          "text": "Demuestra que el trámite duró tres minutos",
+          "explanation": "El texto distingue tres horas de espera y una gestión de dos minutos; no registra tres minutos."
+        },
+        {
+          "text": "Critica indirectamente la demora",
+          "explanation": "El elogio de rapidez contrasta con la espera y la expresión de cansancio."
+        }
+      ],
+      "correct": 2,
+      "hint": "La situación contradice el elogio literal.",
+      "solution": [
+        "El grupo esperó tres horas para una gestión breve.",
+        "El comentario sobre rapidez funciona como crítica irónica."
+      ],
+      "passage": {
+        "title": "El trámite",
+        "paragraphs": [
+          "El turno anunciado para las nueve comenzó al mediodía. Durante las tres horas de espera, las personas revisaron varias veces el mismo tablero. Cuando por fin salieron después de una gestión de dos minutos, Omar guardó el documento, suspiró y dijo: Qué rápido nos atendieron."
+        ]
+      },
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-14"
+    },
+    {
+      "type": "question",
+      "title": "Una comparación delimitada",
+      "body": [],
+      "prompt": "¿Qué rasgo se compara en el texto?",
+      "choices": [
+        {
+          "text": "La forma circular de la lámpara y del camino",
+          "explanation": "El pasaje se centra en orientación, no en forma."
+        },
+        {
+          "text": "La capacidad de una explicación y una lámpara para orientar",
+          "explanation": "La comparación se apoya en ayudar a distinguir y avanzar."
+        },
+        {
+          "text": "La explicación produce luz física",
+          "explanation": "La relación no es literal: se refiere a comprender un procedimiento."
+        }
+      ],
+      "correct": 1,
+      "hint": "Identifica qué cambió en quienes escuchaban.",
+      "solution": [
+        "Antes no podían distinguir los pasos.",
+        "La explicación permitió orientarse, como la lámpara facilita ver un camino."
+      ],
+      "passage": {
+        "title": "Después del ejemplo",
+        "paragraphs": [
+          "Antes de la demostración, el procedimiento parecía una lista sin orden. La profesora explicó cada decisión con un caso pequeño. Aquella explicación fue como una lámpara en un camino confuso: el grupo pudo distinguir dónde empezar, qué revisar y cómo comprobar el resultado."
+        ]
+      },
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-15"
+    },
+    {
+      "type": "review",
+      "title": "No busques un diccionario de figuras aisladas",
+      "body": [
+        "La misma imagen puede sugerir rasgos diferentes en otros textos. El contexto selecciona si un hilo expresa fragilidad, continuidad o unión.",
+        "Para ironía explica la contradicción entre el enunciado literal y la situación. Para metáfora señala el rasgo compartido; para personificación identifica la acción humana atribuida."
+      ],
+      "level": 2,
+      "id": "inferencias-y-sentido-figurado-16"
+    },
+    {
+      "type": "learn",
+      "title": "Dos textos: coincidencias y diferencias",
+      "body": [
+        "Compara textos con un criterio común: problema, propuesta, evidencia, destinatario o alcance. Que dos textos hablen del agua no significa que compartan la misma conclusión.",
+        "Al integrar información conserva quién afirma cada idea. Si un texto observa un hecho y otro propone una explicación, no presentes la explicación como si ambos la hubieran demostrado."
+      ],
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-17"
+    },
+    {
+      "type": "example",
+      "title": "Una coincidencia parcial",
+      "body": [
+        "Ambos textos consideran útil ampliar el horario de la biblioteca, pero no sostienen la misma decisión inmediata. El primero informa disponibilidad de personal; el segundo exige evaluar costos antes de extender todos los días.",
+        "Conclusión resuelta: hay acuerdo sobre el valor del acceso y diferencia sobre condiciones de implementación. No existe una oposición absoluta entre abrir y cerrar."
+      ],
+      "passage": {
+        "title": "Dos posiciones sobre el horario",
+        "paragraphs": [
+          "Texto A. El registro de visitas muestra estudiantes que llegan después de las cinco y encuentran cerrada la biblioteca. Dos trabajadores ofrecieron cubrir una tarde adicional por semana durante un mes. El comité propone ensayar esa ampliación y registrar cuántas personas la usan.",
+          "Texto B. Un horario más amplio puede facilitar el acceso de quienes estudian por la tarde. Sin embargo, abrir todos los días hasta tarde requiere revisar presupuesto, seguridad y disponibilidad del personal. Antes de generalizar la medida, conviene medir demanda y costos con una prueba limitada."
+        ]
+      },
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-18"
+    },
+    {
+      "type": "learn",
+      "title": "Una conclusión debe poder rastrearse",
+      "body": [
+        "En textos múltiples, marca primero los datos compartidos y después los exclusivos. Para cada conclusión pregunta qué texto la sostiene y qué condiciones añade.",
+        "Si dos informes usan poblaciones o periodos distintos, una diferencia de cifras no demuestra contradicción. Verifica que comparen la misma variable con el mismo criterio."
+      ],
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-19"
+    },
+    {
+      "type": "question",
+      "title": "Acuerdo sobre el problema",
+      "body": [],
+      "prompt": "¿En qué coinciden los textos?",
+      "choices": [
+        {
+          "text": "El acceso al agua del patio necesita una mejora",
+          "explanation": "Ambos describen una dificultad para usar el punto de agua y proponen revisar su funcionamiento."
+        },
+        {
+          "text": "La única solución es reemplazar toda la tubería",
+          "explanation": "Solo A considera esa opción y todavía pide diagnóstico."
+        },
+        {
+          "text": "La causa ya fue demostrada",
+          "explanation": "A pide una inspección y B aporta observaciones; no existe diagnóstico definitivo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca una afirmación sostenida por ambos, no una propuesta exclusiva.",
+      "solution": [
+        "A informa caudal insuficiente y pide revisión.",
+        "B describe interrupciones y pide revisar el servicio.",
+        "Ambos identifican una dificultad de acceso."
+      ],
+      "passage": {
+        "title": "Un punto de agua",
+        "paragraphs": [
+          "Texto A. Durante el recreo, el caudal del punto de agua del patio fue insuficiente para la fila. El comité pidió una inspección para determinar si existe una obstrucción o si el sistema necesita cambios. Reemplazar la tubería es una opción que solo se evaluará después del diagnóstico.",
+          "Texto B. Tres días de registro muestran que varias personas dejaron la fila al interrumpirse la salida de agua. Mientras se revisa el servicio, el grupo propone habilitar otro punto cercano. No atribuye las interrupciones a una causa específica."
+        ]
+      },
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-20"
+    },
+    {
+      "type": "question",
+      "title": "Diferencia de alcance",
+      "body": [],
+      "prompt": "¿Qué explica mejor la diferencia entre 60% y 40%?",
+      "choices": [
+        {
+          "text": "Uno de los informes necesariamente miente",
+          "explanation": "Los grupos y horarios son distintos; las cifras pueden ser correctas simultáneamente."
+        },
+        {
+          "text": "Los informes describen grupos y franjas horarias diferentes",
+          "explanation": "No existe una contradicción directa sin igualar población y periodo."
+        },
+        {
+          "text": "La lectura disminuyó 20% en toda la ciudad",
+          "explanation": "No son dos mediciones sucesivas de la misma población."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara quiénes fueron observados y en qué momento.",
+      "solution": [
+        "A mide visitantes de la mañana; B, de la tarde.",
+        "Los porcentajes no pueden tratarse como un descenso temporal de toda la ciudad."
+      ],
+      "passage": {
+        "title": "Dos registros de la sala",
+        "paragraphs": [
+          "Texto A. En una semana, 60 de los 100 visitantes de la mañana usaron la sala para leer libros impresos. El informe limita sus resultados a esa franja y a los días observados.",
+          "Texto B. Durante la misma semana, 40 de los 100 visitantes de la tarde usaron libros impresos. El resto utilizó otros materiales o asistió a talleres. El equipo no encuestó a quienes no visitaron la sala."
+        ]
+      },
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-21"
+    },
+    {
+      "type": "question",
+      "title": "Una conclusión integrada y prudente",
+      "body": [],
+      "prompt": "¿Cuál conclusión integra ambos textos sin añadir certeza?",
+      "choices": [
+        {
+          "text": "El ruido es la única causa de cualquier error",
+          "explanation": "A no demuestra exclusividad y B reconoce otros factores."
+        },
+        {
+          "text": "El ambiente no influye en la tarea",
+          "explanation": "Ambos datos son compatibles con alguna influencia."
+        },
+        {
+          "text": "Los datos sugieren revisar el ruido, pero no aíslan todas las causas",
+          "explanation": "A observa una diferencia y B advierte condiciones que impiden una atribución única."
+        }
+      ],
+      "correct": 2,
+      "hint": "Combina el resultado observado con la limitación metodológica.",
+      "solution": [
+        "A registra menos errores en una sesión más silenciosa.",
+        "B señala cambios simultáneos en dificultad y duración.",
+        "El ruido merece estudio, pero no queda aislado como única causa."
+      ],
+      "passage": {
+        "title": "El registro y su límite",
+        "paragraphs": [
+          "Texto A. Un grupo resolvió una lista de operaciones en una sala ruidosa y otra lista, una semana después, en una sala silenciosa. El segundo día cometió menos errores. El docente propuso revisar si reducir el ruido ayuda a concentrarse.",
+          "Texto B. Las dos listas no tenían exactamente la misma dificultad y la segunda sesión duró diez minutos más. Para atribuir la diferencia solo al ruido sería necesario controlar esas condiciones o diseñar otra comparación."
+        ]
+      },
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-22"
+    },
+    {
+      "type": "question",
+      "title": "Extrapolación de una inferencia",
+      "body": [],
+      "prompt": "¿Qué cambio conserva la relación descrita?",
+      "choices": [
+        {
+          "text": "En otra sala se colocan señales legibles en los cruces y se registra si disminuyen consultas",
+          "explanation": "Mantiene la relación entre orientación en puntos de decisión y consultas, y permite comprobarla."
+        },
+        {
+          "text": "Se asegura que cualquier decoración eliminará todas las preguntas",
+          "explanation": "Amplía a decoración en general y garantiza un resultado no demostrado."
+        },
+        {
+          "text": "Se elimina al personal porque ya no habrá dudas",
+          "explanation": "El ensayo no demostró que desaparezcan todas las consultas ni que el personal sea innecesario."
+        }
+      ],
+      "correct": 0,
+      "hint": "Transfiere el mecanismo, manteniendo sus condiciones y la necesidad de comprobar.",
+      "solution": [
+        "Las señales se ubicaron donde había que elegir una dirección.",
+        "Repetir ese mecanismo y observar resultados conserva la inferencia prudente."
+      ],
+      "passage": {
+        "title": "Señales en los cruces",
+        "paragraphs": [
+          "Durante una prueba, el museo colocó señales con letras grandes en los puntos donde los visitantes debían elegir un pasillo. Las consultas sobre ubicación disminuyeron en esos cruces, aunque continuaron preguntas sobre horarios y actividades. El equipo sugirió ensayar la misma estrategia en otro piso, sin afirmar que reemplazara toda la orientación personal."
+        ]
+      },
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-23"
+    },
+    {
+      "type": "review",
+      "title": "La conclusión más amplia no siempre es la mejor",
+      "body": [
+        "Una buena respuesta integra lo necesario y conserva los límites. Rechaza palabras absolutas cuando los textos solo describen una prueba o un grupo.",
+        "Para comparar, fija un criterio común; para integrar, conserva la procedencia; para extrapolar, transfiere el mecanismo bajo condiciones semejantes y comprueba si el contexto nuevo permite aplicarlo."
+      ],
+      "level": 3,
+      "id": "inferencias-y-sentido-figurado-24"
+    }
+  ]
+}

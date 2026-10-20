@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/cuerpos-de-revolucion",
+  "course": "matematica",
+  "slug": "cuerpos-de-revolucion",
+  "title": "Cuerpos de revolución y capacidad",
+  "description": "Mide cilindros, conos y esferas, distingue superficie de volumen y convierte capacidad.",
+  "version": 1,
+  "order": 33,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Calcular volúmenes con radios y alturas identificados.",
+    "Relacionar áreas laterales, totales y generatrices.",
+    "Convertir unidades y resolver recipientes, diferencias y desplazamientos."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "De un área de base a un volumen",
+      "body": [
+        "Un cilindro circular recto tiene dos bases circulares congruentes y altura perpendicular h. Su volumen es V = área de base × altura = πr²h.",
+        "El volumen cuenta unidades cúbicas: cm³, dm³ o m³. La capacidad de un recipiente se refiere a cuánto puede contener en su interior; usa dimensiones interiores si el problema las especifica.",
+        "1 litro = 1 dm³ = 1000 cm³. Como 1 m = 10 dm, 1 m³ = 1000 litros. Para pasar longitudes de metros a centímetros multiplicas por 100; para volúmenes el factor correspondiente es 100³."
+      ],
+      "id": "cuerpos-de-revolucion-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un cilindro con unidades consistentes",
+      "body": [
+        "Un recipiente cilíndrico tiene radio interior 10 cm y altura interior 30 cm. ¿Cuál es su capacidad exacta en litros?"
+      ],
+      "solution": [
+        "V = π(10²)(30) = 3000π cm³.",
+        "Cada litro contiene 1000 cm³, así que capacidad = 3000π/1000 = 3π litros.",
+        "El resultado exacto mantieneπ. Si se solicitara aproximación, recién entonces sustituirías un valor deπ."
+      ],
+      "id": "cuerpos-de-revolucion-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora radio y altura del cilindro",
+      "body": [
+        "El modelo parte de un cilindro recto. Desliza el radio y la altura por separado. El radio aparece al cuadrado y la altura solo como factor. Por eso duplicar el radio cuadruplica el volumen si la altura permanece fija."
+      ],
+      "diagram": {
+        "kind": "geometry",
+        "mode": "solid",
+        "a": 3,
+        "b": 4,
+        "n": 6
+      },
+      "id": "cuerpos-de-revolucion-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Volumen de un cilindro",
+      "body": [],
+      "prompt": "Un cilindro tiene radio 3 cm y altura 8 cm. ¿Cuál es su volumen exacto?",
+      "choices": [
+        {
+          "text": "72π cm³",
+          "explanation": "π × 3² × 8 = 72π."
+        },
+        {
+          "text": "24π cm³",
+          "explanation": "24π usa r en vez de r², olvidando el área circular de la base."
+        },
+        {
+          "text": "48π cm³",
+          "explanation": "48π puede aparecer al usar 2πrh, que es área lateral, no volumen."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica el área de la base por la altura perpendicular.",
+      "solution": [
+        "A base = π × 3² = 9π cm².",
+        "V = 9π × 8 = 72π cm³."
+      ],
+      "id": "cuerpos-de-revolucion-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Primero unifica unidades",
+      "body": [],
+      "prompt": "Un cilindro tiene radio 5 cm y altura 0,2 m. ¿Cuál es su volumen exacto en cm³?",
+      "choices": [
+        {
+          "text": "5π cm³",
+          "explanation": "5π usa 0,2 como si la altura ya estuviera en centímetros."
+        },
+        {
+          "text": "50π cm³",
+          "explanation": "50π correspondería a 2 cm de altura, no 20."
+        },
+        {
+          "text": "500π cm³",
+          "explanation": "0,2 m = 20 cm; π × 25 × 20 = 500π."
+        }
+      ],
+      "correct": 2,
+      "hint": "Convierte 0,2 metros a centímetros antes de multiplicar.",
+      "solution": [
+        "h = 0,2 × 100 = 20 cm.",
+        "V = π × 5² × 20 = 500π cm³."
+      ],
+      "id": "cuerpos-de-revolucion-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "De volumen a litros",
+      "body": [],
+      "prompt": "¿Cuántos litros son 7500 cm³?",
+      "choices": [
+        {
+          "text": "0,75 L",
+          "explanation": "0,75 divide entre 10000, diez veces más de lo debido."
+        },
+        {
+          "text": "7,5 L",
+          "explanation": "7500/1000 = 7,5."
+        },
+        {
+          "text": "75 L",
+          "explanation": "75 divide solo entre 100, que no es la equivalencia de cm³ a litros."
+        }
+      ],
+      "correct": 1,
+      "hint": "Un litro ocupa 1000 centímetros cúbicos.",
+      "solution": [
+        "Capacidad = 7500/1000.",
+        "Capacidad = 7,5 litros."
+      ],
+      "id": "cuerpos-de-revolucion-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Escala del radio",
+      "body": [],
+      "prompt": "Un cilindro conserva la altura y duplica su radio. ¿Por qué factor cambia su volumen?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "V nuevo = π(2 r)²h = 4 V."
+        },
+        {
+          "text": "2",
+          "explanation": "2 solo sería el factor si se duplicara la altura, no el radio."
+        },
+        {
+          "text": "8",
+          "explanation": "8 corresponde a duplicar todas las longitudes: radio y altura."
+        }
+      ],
+      "correct": 0,
+      "hint": "Solo el radio cambia; la altura se mantiene.",
+      "solution": [
+        "(2 r)² = 4 r².",
+        "El volumen se multiplica por 4."
+      ],
+      "id": "cuerpos-de-revolucion-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Convierte antes de calcular",
+      "body": [
+        "No multipliques un radio en centímetros por una altura en metros dentro deπr²h. Lleva todas las longitudes a la misma unidad.",
+        "Un volumen es cúbico y una superficie es cuadrada. Si usaste 2πrh para una capacidad, calculaste la pared lateral, no el espacio interior."
+      ],
+      "id": "cuerpos-de-revolucion-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Cono y esfera: fórmulas con significado",
+      "body": [
+        "Un cono circular recto con radio r y altura h tiene V = πr²h/3: ocupa un tercio del cilindro de igual base y altura. Su generatriz g es el segmento del vértice al borde de la base y cumple g² = r² + h².",
+        "El área lateral del cono esπrg y la total añade la baseπr². La altura no puede sustituir a la generatriz en el área lateral.",
+        "Una esfera de radio r tiene volumen 4πr³/3 y superficie 4πr². No tiene base ni altura independiente: el radio determina todo su tamaño."
+      ],
+      "id": "cuerpos-de-revolucion-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Un cono de medidas exactas",
+      "body": [
+        "Un cono recto tiene radio 3 cm y altura 4 cm. Calcula generatriz, volumen y área total."
+      ],
+      "solution": [
+        "g = √(3² +4²) = 5 cm.",
+        "V = π(3²)(4)/3 = 12π cm³.",
+        "Área lateral = π × 3 × 5 = 15π cm²; base = 9π. Área total = 24π cm²."
+      ],
+      "id": "cuerpos-de-revolucion-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Área de un cilindro cerrado o abierto",
+      "body": [
+        "La pared lateral de un cilindro se despliega como rectángulo de ancho 2πr y altura h; su área lateral es 2πrh.",
+        "Un cilindro cerrado añade dos bases: A total = 2πrh +2πr². Un recipiente sin tapa pero con fondo añade una sola:2πrh +πr². El enunciado decide qué superficies se incluyen."
+      ],
+      "id": "cuerpos-de-revolucion-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Volumen del cono",
+      "body": [],
+      "prompt": "Un cono tiene radio 3 cm y altura 12 cm. ¿Cuál es su volumen exacto?",
+      "choices": [
+        {
+          "text": "12π cm³",
+          "explanation": "12π corresponde a una altura 4 con ese radio, no 12."
+        },
+        {
+          "text": "36π cm³",
+          "explanation": "π × 9 × 12/3 = 36π."
+        },
+        {
+          "text": "108π cm³",
+          "explanation": "108π es el volumen del cilindro de igual base y altura; falta dividir entre 3."
+        }
+      ],
+      "correct": 1,
+      "hint": "Un cono ocupa un tercio del cilindro de iguales base y altura.",
+      "solution": [
+        "V = πr²h/3 = π × 3² × 12/3.",
+        "V = 36π cm³."
+      ],
+      "id": "cuerpos-de-revolucion-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Volumen de una esfera",
+      "body": [],
+      "prompt": "Una esfera tiene radio 3 cm. ¿Cuál es su volumen exacto?",
+      "choices": [
+        {
+          "text": "36π cm³",
+          "explanation": "4π(3³)/3 = 4π × 27/3 = 36π."
+        },
+        {
+          "text": "12π cm³",
+          "explanation": "12π sustituye r² en vez de r³ en el volumen."
+        },
+        {
+          "text": "108π cm³",
+          "explanation": "108π olvida dividir entre 3."
+        }
+      ],
+      "correct": 0,
+      "hint": "El radio aparece al cubo.",
+      "solution": [
+        "r³ = 27.",
+        "V = (4/3)π × 27 = 36π cm³."
+      ],
+      "id": "cuerpos-de-revolucion-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "La generatriz no es la altura",
+      "body": [],
+      "prompt": "Un cono recto tiene radio 5 cm y altura 12 cm. ¿Cuánto mide su generatriz?",
+      "choices": [
+        {
+          "text": "17 cm",
+          "explanation": "17 suma radio y altura; la generatriz es la hipotenusa, no la suma."
+        },
+        {
+          "text": "12 cm",
+          "explanation": "12 es la altura perpendicular, distinta de la generatriz inclinada."
+        },
+        {
+          "text": "13 cm",
+          "explanation": "√(5² +12²) = √169 = 13."
+        }
+      ],
+      "correct": 2,
+      "hint": "Radio y altura forman catetos de un triángulo rectángulo.",
+      "solution": [
+        "g² = 25 +144 = 169.",
+        "g = 13 cm."
+      ],
+      "id": "cuerpos-de-revolucion-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Superficie de una esfera",
+      "body": [],
+      "prompt": "Una esfera tiene radio 4 m. ¿Cuál es su área superficial exacta?",
+      "choices": [
+        {
+          "text": "16π m²",
+          "explanation": "16π es el área del círculo de radio 4, una cuarta parte de la superficie esférica."
+        },
+        {
+          "text": "64π m²",
+          "explanation": "4πr² = 4π × 16 = 64π."
+        },
+        {
+          "text": "256π/3 m²",
+          "explanation": "256π/3 sería su volumen numérico, en m³, no una superficie."
+        }
+      ],
+      "correct": 1,
+      "hint": "El área esférica es 4πr², no su fórmula de volumen.",
+      "solution": [
+        "A = 4π(4²).",
+        "A = 64π m²."
+      ],
+      "id": "cuerpos-de-revolucion-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "Selecciona la dimensión que pide la fórmula",
+      "body": [
+        "Para volumen del cono usa altura perpendicular; para área lateral usa generatriz. Las dos se relacionan por Pitágoras, pero no se intercambian.",
+        "En una esfera, distingue radio y diámetro. Usar el diámetro como radio multiplica la superficie por 4 y el volumen por 8."
+      ],
+      "id": "cuerpos-de-revolucion-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Recipientes y objetos que desplazan agua",
+      "body": [
+        "Para una región hueca, resta volúmenes interiores al exterior solo si ambos modelos y unidades corresponden. Para volumen de material no uses capacidad sin considerar el espesor cuando se proporciona.",
+        "Un objeto totalmente sumergido desplaza su propio volumen. En un recipiente cilíndrico de área de base constante, la subidaΔh = volumen desplazado/área de base, siempre que no se desborde.",
+        "Si todas las longitudes de un sólido se multiplican por k, sus áreas se multiplican por k² y sus volúmenes por k³. Mantener solo una dimensión produce factores distintos."
+      ],
+      "id": "cuerpos-de-revolucion-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Agua que sube por una esfera sumergida",
+      "body": [
+        "Una esfera de radio 3 cm se sumerge completamente en un cilindro de radio 6 cm sin desbordarlo. ¿Cuánto sube el agua?"
+      ],
+      "solution": [
+        "V esfera = 4π(3³)/3 = 36π cm³.",
+        "Área de base del cilindro = π(6²) = 36π cm².",
+        "Δh = 36π/36π = 1 cm. Las unidades cm³/cm² dan cm."
+      ],
+      "id": "cuerpos-de-revolucion-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Comprueba si hay espacio suficiente",
+      "body": [
+        "Una subida de agua es válida si el nivel inicial másΔh no supera la altura interior del recipiente y si el objeto está completamente sumergido. Si hay desborde, el agua retenida ya no cumple la misma cuenta de subida sin pérdidas.",
+        "En un depósito abierto, capacidad y área de material son problemas distintos. Para pintar paredes y fondo cuenta superficies; para llenar de agua cuenta volumen interior."
+      ],
+      "id": "cuerpos-de-revolucion-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Cilindro sin tapa",
+      "body": [],
+      "prompt": "Un recipiente cilíndrico sin tapa, con fondo, tiene radio 3 cm y altura 5 cm. Ignora espesor. ¿Cuál es el área de su material?",
+      "choices": [
+        {
+          "text": "48π cm²",
+          "explanation": "48π añade dos bases, como si tuviera tapa."
+        },
+        {
+          "text": "45π cm²",
+          "explanation": "45π es el volumen numéricoπ × 9 × 5, cuya unidad es cm³."
+        },
+        {
+          "text": "39π cm²",
+          "explanation": "Pared lateral 30π más una base 9π = 39π."
+        }
+      ],
+      "correct": 2,
+      "hint": "Incluye pared lateral y una sola base.",
+      "solution": [
+        "A lateral = 2π × 3 × 5 = 30π.",
+        "A fondo = π × 3² = 9π; total 39π cm²."
+      ],
+      "id": "cuerpos-de-revolucion-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Diferencia entre cilindro y cono",
+      "body": [],
+      "prompt": "Un cilindro y un cono tienen radio 3 cm y altura 6 cm. ¿En cuánto supera el volumen del cilindro al del cono?",
+      "choices": [
+        {
+          "text": "54π cm³",
+          "explanation": "54π es el cilindro completo; falta restar el cono."
+        },
+        {
+          "text": "36π cm³",
+          "explanation": "Cilindro 54π menos cono 18π = 36π."
+        },
+        {
+          "text": "18π cm³",
+          "explanation": "18π es el volumen del cono, no la diferencia."
+        }
+      ],
+      "correct": 1,
+      "hint": "Calcula el cilindro y resta un tercio de ese volumen.",
+      "solution": [
+        "V cilindro = π × 9 × 6 = 54π. V cono = 18π.",
+        "Diferencia = 54π −18π = 36π cm³."
+      ],
+      "id": "cuerpos-de-revolucion-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Subida del agua sin desborde",
+      "body": [],
+      "prompt": "En un cilindro de radio 3 cm y altura 12 cm, el agua está a 7 cm. Se introduce totalmente una esfera de radio 3 cm sin pérdidas. ¿Cuánto sube el agua?",
+      "choices": [
+        {
+          "text": "4 cm",
+          "explanation": "La esfera desplaza 36π y la base tiene 9π: subida 4; el nivel final 11 queda bajo 12."
+        },
+        {
+          "text": "3 cm",
+          "explanation": "3 es el radio de la esfera; no su volumen dividido entre la base del recipiente."
+        },
+        {
+          "text": "6 cm",
+          "explanation": "6 es el diámetro de la esfera; la subida depende del volumen y del área de la base."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide el volumen esférico entre el área de la base y verifica el nivel final.",
+      "solution": [
+        "Δh = (4π × 3³/3)/(π × 3²) = 36π/9π = 4 cm.",
+        "Nivel final = 7 +4 = 11 cm <12, por lo que no se desborda."
+      ],
+      "id": "cuerpos-de-revolucion-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Capacidad exacta con medidas en metros",
+      "body": [],
+      "prompt": "Un tanque cilíndrico tiene radio interior 0,5 m y altura interior 0,8 m. ¿Cuál es su capacidad exacta en litros?",
+      "choices": [
+        {
+          "text": "0,2π L",
+          "explanation": "0,2π es el volumen en m³; todavía falta convertir a litros."
+        },
+        {
+          "text": "400π L",
+          "explanation": "400π usa 0,5 en lugar de 0,5² para el área de base."
+        },
+        {
+          "text": "200π L",
+          "explanation": "V = π(0,5²)(0,8) = 0,2π m³; al multiplicar por 1000 resulta 200π L."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula en m³ y luego usa 1000 litros por m³.",
+      "solution": [
+        "V = π × 0,25 × 0,8 = 0,2π m³.",
+        "Capacidad = 0,2π × 1000 = 200π litros."
+      ],
+      "id": "cuerpos-de-revolucion-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Mantén exactitud y revisa el nivel final",
+      "body": [
+        "π suele cancelarse al dividir volumen desplazado entre área de base. No aproximes antes de simplificar: perderías exactitud sin necesidad.",
+        "Para un objeto sumergido, verifica la hipótesis de inmersión completa y ausencia de desborde. Para un recipiente abierto, añade solo las superficies físicas que tiene."
+      ],
+      "id": "cuerpos-de-revolucion-24",
+      "level": 3
+    }
+  ]
+}

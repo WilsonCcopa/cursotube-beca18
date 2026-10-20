@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/vicios-de-diccion",
+  "course": "lectura",
+  "slug": "vicios-de-diccion",
+  "title": "Vicios de dicción",
+  "description": "Corrige ambigüedad, imprecisión, redundancia y errores de construcción con criterio.",
+  "version": 1,
+  "order": 24,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Detectar anfibología, monotonía y redundancia",
+    "Revisar formas léxicas, concordancia y régimen",
+    "Distinguir norma, estilo y énfasis en una revisión integrada"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Revisar para que el mensaje sea preciso",
+      "body": [
+        "Las etiquetas tradicionales vicios de dicción reúnen problemas distintos. La anfibología produce más de una interpretación no deseada. La monotonía léxica repite palabras vagas o poco precisas. La redundancia innecesaria repite información sin una función útil.",
+        "No toda repetición es un error: puede mantener un referente o producir énfasis deliberado. Evalúa siempre el propósito y el contexto, no solo una lista de expresiones prohibidas."
+      ],
+      "id": "vicios-de-diccion-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Dos lecturas no deseadas",
+      "body": [
+        "Vi a Elena con los binoculares puede significar que yo usé binoculares para verla o que Elena los llevaba. Sin contexto, no podemos decidir.",
+        "Si la intención es decir que yo los utilicé: Con los binoculares, vi a Elena. Si los llevaba ella: Vi a Elena, que llevaba los binoculares. La revisión debe conservar el hecho que el autor confirme."
+      ],
+      "passage": {
+        "title": "La observación ambigua",
+        "paragraphs": [
+          "El borrador dice: Vi a Elena con los binoculares. El redactor todavía no ha indicado quién tenía o utilizaba ese objeto."
+        ]
+      },
+      "id": "vicios-de-diccion-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Diagnostica antes de sustituir",
+      "body": [
+        "Toca los problemas y distingue qué intervención necesitan."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Ambigüedad",
+            "text": "Nombra o reordena el referente para que quede una interpretación intencional."
+          },
+          {
+            "label": "Imprecisión",
+            "text": "Sustituye cosa o hacer por un término que describa la acción real."
+          },
+          {
+            "label": "Redundancia sin función",
+            "text": "Elimina información repetida si no cumple énfasis, contraste ni continuidad necesarios."
+          },
+          {
+            "label": "Repetición útil",
+            "text": "Conserva una palabra cuando evita confundir referentes o mantiene una distinción importante."
+          }
+        ]
+      },
+      "id": "vicios-de-diccion-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una ambigüedad real",
+      "body": [],
+      "prompt": "¿Qué versión aclara la intención?",
+      "choices": [
+        {
+          "text": "Busco una tienda para un ayudante con experiencia",
+          "explanation": "Cambia qué se busca y altera la solicitud."
+        },
+        {
+          "text": "Busco un ayudante con experiencia para una tienda",
+          "explanation": "Acerca el complemento a la persona que debe tener experiencia."
+        },
+        {
+          "text": "Busco con experiencia para tienda ayudante",
+          "explanation": "Desordena los constituyentes y dificulta la comprensión."
+        }
+      ],
+      "correct": 1,
+      "hint": "Haz inequívoco qué nombre modifica con experiencia.",
+      "solution": [
+        "La experiencia pertenece al ayudante.",
+        "Situar el complemento junto a él conserva la intención."
+      ],
+      "passage": {
+        "title": "La frase",
+        "paragraphs": [
+          "El aviso dice: Busco un ayudante para una tienda con experiencia. La intención confirmada es que la persona tenga experiencia; no se describe una cualidad del local."
+        ]
+      },
+      "id": "vicios-de-diccion-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una palabra más precisa",
+      "body": [],
+      "prompt": "¿Qué revisión gana precisión?",
+      "choices": [
+        {
+          "text": "El equipo diseñó una tabla para registrar los préstamos",
+          "explanation": "Nombra la acción y el producto en lugar de expresiones vagas."
+        },
+        {
+          "text": "El equipo hizo algo de una cosa para el asunto",
+          "explanation": "Mantiene la vaguedad y añade palabras sin contenido."
+        },
+        {
+          "text": "El equipo destruyó todos los registros",
+          "explanation": "Cambia el hecho confirmado y no es una corrección de estilo."
+        }
+      ],
+      "correct": 0,
+      "hint": "La precisión debe expresar el hecho real sin inventar otra acción.",
+      "solution": [
+        "Diseñó y tabla describen lo que se realizó.",
+        "La revisión sustituye vaguedad por información comprobada."
+      ],
+      "passage": {
+        "title": "El informe",
+        "paragraphs": [
+          "El borrador dice: El equipo hizo una cosa para ordenar los préstamos. El dato confirmado es que diseñó una tabla con fecha, herramienta y responsable."
+        ]
+      },
+      "id": "vicios-de-diccion-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una redundancia sin propósito",
+      "body": [],
+      "prompt": "¿Qué versión elimina la repetición innecesaria?",
+      "choices": [
+        {
+          "text": "El plazo el viernes termina al final al final",
+          "explanation": "Añade repeticiones y no mejora la información."
+        },
+        {
+          "text": "El plazo nunca termina el viernes",
+          "explanation": "Cambia el dato en lugar de depurar la expresión."
+        },
+        {
+          "text": "El plazo termina el viernes",
+          "explanation": "Conserva el dato y elimina al final, ya contenido en termina en este contexto."
+        }
+      ],
+      "correct": 2,
+      "hint": "Elimina solo la expresión que no añade información aquí.",
+      "solution": [
+        "Termina ya señala el final del plazo.",
+        "El viernes mantiene el dato temporal relevante."
+      ],
+      "passage": {
+        "title": "El aviso",
+        "paragraphs": [
+          "En un aviso puramente informativo, sin intención de contraste ni énfasis, aparece: El plazo termina al final el viernes. La fecha relevante es el viernes y la frase no compara distintos finales."
+        ]
+      },
+      "id": "vicios-de-diccion-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Un posesivo ambiguo",
+      "body": [],
+      "prompt": "¿Qué diagnóstico es correcto?",
+      "choices": [
+        {
+          "text": "El informe es necesariamente de Eva por proximidad",
+          "explanation": "La cercanía no descarta la referencia a Alma."
+        },
+        {
+          "text": "Su admite más de una interpretación y debe aclararse con el nombre",
+          "explanation": "Identifica el problema sin inventar la autoría."
+        },
+        {
+          "text": "La frase demuestra que no existe informe",
+          "explanation": "La oración presenta uno; la duda es su autora."
+        }
+      ],
+      "correct": 1,
+      "hint": "La corrección requiere confirmar el referente, no adivinarlo.",
+      "solution": [
+        "El posesivo puede vincularse con cualquiera de las dos personas.",
+        "Debe nombrarse a la autora confirmada."
+      ],
+      "passage": {
+        "title": "La conversación",
+        "paragraphs": [
+          "Alma habló con Eva sobre su informe. No existe más contexto que permita saber quién escribió el documento. El redactor necesita precisión para asignar la revisión."
+        ]
+      },
+      "id": "vicios-de-diccion-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "No corrijas alterando el contenido",
+      "body": [
+        "Una frase más corta no es mejor si cambia quién hizo algo. Una sustitución más elegante no es precisa si inventa una acción.",
+        "Si el problema es ambigüedad y no hay contexto, señala qué dato se necesita. Si es vaguedad, consulta el hecho para nombrarlo. Si es repetición, comprueba primero que no cumpla una función útil."
+      ],
+      "id": "vicios-de-diccion-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Forma de palabra y construcción",
+      "body": [
+        "Un barbarismo, en el uso tradicional del término, puede consistir en una forma no normativa como preveer por prever. Un solecismo afecta la construcción: concordancia o preposición requerida.",
+        "No toda palabra de origen extranjero es incorrecta. Existen préstamos adaptados y aceptados; chatear, por ejemplo, forma parte del español. La adecuación de registro y la corrección léxica son preguntas distintas."
+      ],
+      "id": "vicios-de-diccion-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Prever no sigue a proveer",
+      "body": [
+        "Prever se forma y conjuga siguiendo ver: prever, prevé, previó. Proveer es otro verbo y no autoriza añadir una e a prever.",
+        "Versión resuelta: El equipo debe prever los materiales que faltarán. La corrección conserva la idea de anticipar una necesidad."
+      ],
+      "passage": {
+        "title": "El borrador",
+        "paragraphs": [
+          "El equipo debe preveer los materiales que faltarán. La actividad exige la forma normativa del verbo que significa anticipar o disponer lo necesario para una situación futura."
+        ]
+      },
+      "id": "vicios-de-diccion-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "La construcción define la preposición",
+      "body": [
+        "Toca cada frase y comprueba si la preposición forma parte del régimen."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "Pienso que el registro está completo.",
+            "role": "Pensar algo: no se añade de ante que en esta construcción"
+          },
+          {
+            "text": "Me acuerdo de que falta una ficha.",
+            "role": "Acordarse de algo: se conserva la preposición de"
+          },
+          {
+            "text": "Había tres cajas en el depósito.",
+            "role": "Haber existencial es impersonal y se mantiene en singular"
+          },
+          {
+            "text": "Las responsables llegaron temprano.",
+            "role": "El verbo concuerda con el sujeto plural"
+          }
+        ]
+      },
+      "id": "vicios-de-diccion-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una forma no normativa",
+      "body": [],
+      "prompt": "¿Qué corrección corresponde?",
+      "choices": [
+        {
+          "text": "Proveer, porque siempre significa anticipar",
+          "explanation": "Proveer significa suministrar en su uso central y no sustituye necesariamente el sentido."
+        },
+        {
+          "text": "Preveher",
+          "explanation": "Añade una grafía no normativa."
+        },
+        {
+          "text": "Prever",
+          "explanation": "Es la forma normativa del verbo de anticipación."
+        }
+      ],
+      "correct": 2,
+      "hint": "El verbo se relaciona con ver, no con la conjugación de proveer.",
+      "solution": [
+        "La forma de infinitivo es prever.",
+        "Preveer añade una e que no corresponde."
+      ],
+      "passage": {
+        "title": "La previsión",
+        "paragraphs": [
+          "El redactor quiere expresar que es necesario anticipar una dificultad. El borrador usa el infinitivo preveer."
+        ]
+      },
+      "id": "vicios-de-diccion-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Concordancia verbal",
+      "body": [],
+      "prompt": "¿Qué forma conserva el sentido y la concordancia?",
+      "choices": [
+        {
+          "text": "El techo y la puerta quedaron dañados",
+          "explanation": "El sujeto coordinado exige plural; el adjetivo concuerda en masculino plural con los dos nombres."
+        },
+        {
+          "text": "El techo y la puerta quedó dañadas",
+          "explanation": "Mantiene el verbo singular y no concuerda con el conjunto."
+        },
+        {
+          "text": "La puerta quedó dañada",
+          "explanation": "Es correcta como frase aislada, pero elimina el techo y cambia el hecho."
+        }
+      ],
+      "correct": 0,
+      "hint": "La corrección debe mantener a los dos elementos afectados.",
+      "solution": [
+        "Techo y puerta forman un sujeto plural.",
+        "Quedaron dañados conserva ambos y concuerda con la coordinación."
+      ],
+      "passage": {
+        "title": "La oración",
+        "paragraphs": [
+          "El techo y la puerta quedaron dañados durante la filtración. El borrador que debe corregirse dice: El techo y la puerta quedó dañado. Se habla de los dos elementos y no de uno solo."
+        ]
+      },
+      "id": "vicios-de-diccion-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Dequeísmo",
+      "body": [],
+      "prompt": "¿Qué versión es normativa?",
+      "choices": [
+        {
+          "text": "Pienso en de que el horario debe revisarse",
+          "explanation": "Añade preposiciones que la construcción no requiere."
+        },
+        {
+          "text": "Pienso que el horario debe revisarse",
+          "explanation": "Elimina de, que no está justificado ante esta subordinada."
+        },
+        {
+          "text": "Pienso el de que horario debe revisarse",
+          "explanation": "Desordena la construcción y no resuelve el problema."
+        }
+      ],
+      "correct": 1,
+      "hint": "Sustituye la subordinada por eso para comprobar el régimen de este uso.",
+      "solution": [
+        "Se dice pienso eso en esta construcción.",
+        "Corresponde pienso que, sin de."
+      ],
+      "passage": {
+        "title": "El mensaje",
+        "paragraphs": [
+          "La coordinadora quiere afirmar su opinión: Pienso de que el horario debe revisarse. En este uso, pensar se construye con un contenido directo: pienso eso."
+        ]
+      },
+      "id": "vicios-de-diccion-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una preposición necesaria",
+      "body": [],
+      "prompt": "¿Qué corrección corresponde?",
+      "choices": [
+        {
+          "text": "Me acuerdo en que dejé el cuaderno",
+          "explanation": "Sustituye la preposición exigida por otra que no corresponde aquí."
+        },
+        {
+          "text": "Me acuerdo de dejé el cuaderno",
+          "explanation": "No permite introducir la oración con verbo conjugado de esa forma."
+        },
+        {
+          "text": "Me acuerdo de que dejé el cuaderno en el aula",
+          "explanation": "Conserva de y usa que para introducir el contenido recordado."
+        }
+      ],
+      "correct": 2,
+      "hint": "No elimines de en todas las construcciones por evitar dequeísmo.",
+      "solution": [
+        "Acordarse requiere de en este uso.",
+        "La secuencia de que es necesaria y no constituye dequeísmo."
+      ],
+      "passage": {
+        "title": "El recuerdo",
+        "paragraphs": [
+          "La expresión es Me acuerdo que dejé el cuaderno en el aula. La actividad mantiene el verbo pronominal acordarse, que en esta construcción exige de: me acuerdo de eso."
+        ]
+      },
+      "id": "vicios-de-diccion-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "La regla no se aplica a todas las palabras parecidas",
+      "body": [
+        "No todas las secuencias de que son incorrectas. Pienso que y me acuerdo de que responden a construcciones distintas. Comprueba el verbo y el sentido.",
+        "No llames error a una palabra solo por su origen. Distingue una forma no normativa de un préstamo aceptado, y una preferencia de estilo de una regla gramatical."
+      ],
+      "id": "vicios-de-diccion-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Norma, estilo y énfasis requieren criterios distintos",
+      "body": [
+        "La cacofonía se refiere a una repetición sonora que puede resultar poco fluida en cierto contexto. Su evaluación suele ser estilística: repetir un sonido no vuelve una oración automáticamente agramatical.",
+        "La monotonía se mejora con vocabulario preciso, no sustituyendo cada palabra por un sinónimo distinto. Una repetición deliberada puede producir énfasis o mantener dos referentes bien separados.",
+        "En el estándar escrito, haber existencial se usa en singular: había varias cajas. En cambio, como auxiliar concuerda con su sujeto: las personas habían llegado."
+      ],
+      "id": "vicios-de-diccion-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "El agua sigue siendo femenino",
+      "body": [
+        "Agua comienza por a tónica y usa la forma el cuando el artículo va inmediatamente delante. El sustantivo no se vuelve masculino: el adjetivo mantiene femenino.",
+        "Versión resuelta: El agua está fría. También se dice esta agua, no este agua, en la construcción usual. La regla se refiere al artículo y no autoriza masculinizar todos los acompañantes."
+      ],
+      "passage": {
+        "title": "La revisión del ejemplo",
+        "paragraphs": [
+          "El borrador dice: El agua está frío. Se quiere describir la temperatura del agua y conservar el artículo inmediatamente antes del sustantivo."
+        ]
+      },
+      "id": "vicios-de-diccion-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Una revisión mínima y suficiente",
+      "body": [
+        "Identifica el problema, confirma el significado y aplica una corrección que lo resuelva. Después comprueba que no introdujiste otro error de concordancia o un referente nuevo.",
+        "No necesitas eliminar cada repetición ni reemplazar un término técnico claro. La precisión y la interpretación del lector son la meta, no una variedad léxica forzada."
+      ],
+      "id": "vicios-de-diccion-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Haber existencial",
+      "body": [],
+      "prompt": "¿Qué corrección corresponde?",
+      "choices": [
+        {
+          "text": "En el depósito habías cinco cajas",
+          "explanation": "Cambia a segunda persona y no resuelve la construcción impersonal."
+        },
+        {
+          "text": "En el depósito había cinco cajas",
+          "explanation": "Haber existencial se mantiene en tercera persona singular."
+        },
+        {
+          "text": "En el depósito habían habido cinco cajas",
+          "explanation": "Conserva la pluralización indebida del haber impersonal."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue había cajas de las personas habían llegado.",
+      "solution": [
+        "Cinco cajas no es sujeto que fuerce plural al haber existencial.",
+        "La forma estándar es había."
+      ],
+      "passage": {
+        "title": "El inventario",
+        "paragraphs": [
+          "El borrador dice: En el depósito habían cinco cajas. La frase expresa existencia, no forma un tiempo compuesto con un participio. Se pide ajustarla al estándar escrito."
+        ]
+      },
+      "id": "vicios-de-diccion-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Género y artículo",
+      "body": [],
+      "prompt": "¿Qué frase conserva la concordancia normativa?",
+      "choices": [
+        {
+          "text": "La agua está fría",
+          "explanation": "Agua empieza por a tónica y en esta posición exige la forma el del artículo determinado."
+        },
+        {
+          "text": "El agua está frío",
+          "explanation": "El artículo no convierte al sustantivo femenino en masculino."
+        },
+        {
+          "text": "El agua está fría",
+          "explanation": "Conserva el artículo exigido y el adjetivo femenino."
+        }
+      ],
+      "correct": 2,
+      "hint": "La forma del artículo y el género del sustantivo son cuestiones distintas.",
+      "solution": [
+        "Se usa el delante de agua en esa posición.",
+        "El adjetivo sigue concordando en femenino: fría."
+      ],
+      "passage": {
+        "title": "La concordancia",
+        "paragraphs": [
+          "El contexto habla del agua de un recipiente y requiere un adjetivo que describa su temperatura. El artículo aparece inmediatamente antes de agua."
+        ]
+      },
+      "id": "vicios-de-diccion-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Una repetición deliberada",
+      "body": [],
+      "prompt": "¿Qué evaluación es más precisa?",
+      "choices": [
+        {
+          "text": "La repetición cumple una función de énfasis y no debe eliminarse automáticamente",
+          "explanation": "El contexto declara una intención retórica compatible con el mensaje."
+        },
+        {
+          "text": "Toda repetición es un error gramatical",
+          "explanation": "Confunde una decisión estilística con una regla absoluta."
+        },
+        {
+          "text": "La frase es incomprensible porque no usa tres sinónimos",
+          "explanation": "Las tres acciones y la palabra repetida son comprensibles."
+        }
+      ],
+      "correct": 0,
+      "hint": "El propósito y el efecto buscado forman parte del diagnóstico.",
+      "solution": [
+        "La repetición estructura tres acciones distintas.",
+        "Puede conservarse por su énfasis deliberado."
+      ],
+      "passage": {
+        "title": "El discurso",
+        "paragraphs": [
+          "La oradora cierra: Necesitamos tiempo para escuchar, tiempo para comparar y tiempo para decidir. El texto confirma que repite tiempo de forma deliberada para destacar tres necesidades distintas; no está redactando una lista de requisitos de máxima brevedad."
+        ]
+      },
+      "id": "vicios-de-diccion-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Préstamo aceptado y revisión pertinente",
+      "body": [],
+      "prompt": "¿Qué criterio debe aplicarse?",
+      "choices": [
+        {
+          "text": "Cambiar habían por había porque haber siempre es singular",
+          "explanation": "Aquí haber es auxiliar con sujeto plural, no existencial."
+        },
+        {
+          "text": "No rechazar chatear por su origen; evaluar si el término se adecua al destinatario",
+          "explanation": "Separa aceptación léxica, registro y concordancia correcta."
+        },
+        {
+          "text": "Eliminar todos los verbos para evitar extranjerismos",
+          "explanation": "No mejora la construcción ni responde a un problema real."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue los usos de haber y evita prohibiciones automáticas por origen.",
+      "solution": [
+        "Habían llegado concuerda como tiempo compuesto de un sujeto plural.",
+        "Chatear es un término aceptado; su adecuación depende del contexto."
+      ],
+      "passage": {
+        "title": "El aviso digital",
+        "paragraphs": [
+          "El equipo escribe: Las responsables habían llegado y acordaron chatear después de la reunión para revisar el documento. La actividad pregunta si hay que reemplazar chatear solo por su origen. El verbo se utiliza para conversar por mensajes en línea y está aceptado en español."
+        ]
+      },
+      "id": "vicios-de-diccion-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Corrige con una razón específica",
+      "body": [
+        "Di si resolviste una ambigüedad, una forma no normativa, una concordancia, un régimen o una imprecisión. Si solo prefieres otra sonoridad, exprésalo como ajuste de estilo.",
+        "Después relee el contenido: debe conservar autores, acciones, cantidades y condiciones. Una norma mal generalizada puede crear errores nuevos, como quitar de en acordarse o usar frío con agua."
+      ],
+      "id": "vicios-de-diccion-24",
+      "level": 3
+    }
+  ]
+}

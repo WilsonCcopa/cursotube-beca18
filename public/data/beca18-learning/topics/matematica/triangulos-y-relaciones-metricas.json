@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/triangulos-y-relaciones-metricas",
+  "course": "matematica",
+  "slug": "triangulos-y-relaciones-metricas",
+  "title": "Triángulos y relaciones métricas",
+  "description": "Relaciona lados, áreas y proyecciones; reconoce las líneas y centros notables del triángulo.",
+  "version": 1,
+  "order": 29,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Usar ángulos, desigualdad triangular, área y Pitágoras.",
+    "Aplicar relaciones entre hipotenusa, proyecciones y altura.",
+    "Distinguir medianas, bisectrices, mediatrices, alturas y sus centros."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Un triángulo necesita tres lados compatibles",
+      "body": [
+        "Los ángulos interiores de un triángulo suman 180°. Cada lado es menor que la suma de los otros dos y mayor que su diferencia. Tres segmentos con 2 + 3 = 5 no forman un triángulo: quedarían alineados.",
+        "Por lados, un equilátero tiene tres lados iguales; un isósceles tiene al menos dos; un escaleno, tres diferentes. Por ángulos, puede ser acutángulo, rectángulo u obtusángulo.",
+        "El perímetro suma los tres lados. El área es base × altura/2: la altura debe ser perpendicular a la base o a su prolongación, no simplemente un lado inclinado."
+      ],
+      "id": "triangulos-y-relaciones-metricas-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un triángulo rectángulo de 5 y 12",
+      "body": [
+        "Los catetos de un triángulo rectángulo miden 5 y 12 cm. Halla hipotenusa, perímetro y área."
+      ],
+      "solution": [
+        "Pitágoras: c² = 5² + 12² = 25 + 144 = 169, por lo que c = 13 cm.",
+        "Perímetro = 5 + 12 + 13 = 30 cm.",
+        "Los catetos son perpendiculares, así que uno puede ser base y el otro altura: área = 5 × 12/2 = 30 cm²."
+      ],
+      "id": "triangulos-y-relaciones-metricas-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Cambia los catetos, observa la hipotenusa",
+      "body": [
+        "El explorador muestra un triángulo rectángulo. Sus catetos a y b son perpendiculares; la hipotenusa c se calcula como √(a² + b²). El área se calcula con ab/2. Esta relación necesita un ángulo de 90°."
+      ],
+      "diagram": {
+        "kind": "geometry",
+        "mode": "triangle",
+        "a": 3,
+        "b": 4,
+        "n": 3
+      },
+      "id": "triangulos-y-relaciones-metricas-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Ángulo interior faltante",
+      "body": [],
+      "prompt": "Dos ángulos interiores de un triángulo miden 47° y 68°. ¿Cuánto mide el tercero?",
+      "choices": [
+        {
+          "text": "75°",
+          "explanation": "75 daría una suma de 190°, que no corresponde a un triángulo."
+        },
+        {
+          "text": "65°",
+          "explanation": "180 − 47 − 68 = 65."
+        },
+        {
+          "text": "115°",
+          "explanation": "115 es la suma de los dos conocidos, no el faltante."
+        }
+      ],
+      "correct": 1,
+      "hint": "Resta de 180° la suma de los otros dos.",
+      "solution": [
+        "47 + 68 = 115.",
+        "Tercer ángulo = 180 − 115 = 65°."
+      ],
+      "id": "triangulos-y-relaciones-metricas-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Qué longitudes forman un triángulo",
+      "body": [],
+      "prompt": "¿Qué terna de longitudes sí forma un triángulo?",
+      "choices": [
+        {
+          "text": "4, 6 y 9 cm",
+          "explanation": "4 + 6 = 10 > 9; las otras dos desigualdades también se cumplen."
+        },
+        {
+          "text": "2, 5 y 7 cm",
+          "explanation": "2 + 5 = 7 da una figura alineada, sin área."
+        },
+        {
+          "text": "3, 4 y 8 cm",
+          "explanation": "3 + 4 = 7 es menor que 8; los segmentos no cierran."
+        }
+      ],
+      "correct": 0,
+      "hint": "Compara el lado mayor con la suma de los otros dos.",
+      "solution": [
+        "Para 4, 6 y 9: 9 < 4 + 6 = 10 y 9 > 6 − 4 = 2.",
+        "La desigualdad es estricta, así que forman un triángulo."
+      ],
+      "id": "triangulos-y-relaciones-metricas-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Hipotenusa y raíz positiva",
+      "body": [],
+      "prompt": "Un triángulo rectángulo tiene catetos de 8 y 15 cm. ¿Cuánto mide su hipotenusa?",
+      "choices": [
+        {
+          "text": "23 cm",
+          "explanation": "23 suma catetos, pero la hipotenusa es menor que esa suma."
+        },
+        {
+          "text": "289 cm",
+          "explanation": "289 es c² en cm²; todavía falta la raíz para obtener una longitud."
+        },
+        {
+          "text": "17 cm",
+          "explanation": "8² + 15² = 64 + 225 = 289; √289 = 17."
+        }
+      ],
+      "correct": 2,
+      "hint": "Suma cuadrados y luego toma la raíz positiva.",
+      "solution": [
+        "c² = 8² + 15² = 289.",
+        "c = 17 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Área con altura perpendicular",
+      "body": [],
+      "prompt": "Un triángulo tiene base de 14 cm y altura perpendicular de 9 cm. ¿Cuál es su área?",
+      "choices": [
+        {
+          "text": "46 cm²",
+          "explanation": "46 corresponde a duplicar una suma de longitudes, no a un área."
+        },
+        {
+          "text": "63 cm²",
+          "explanation": "14 × 9/2 = 63."
+        },
+        {
+          "text": "126 cm²",
+          "explanation": "126 es base por altura, el doble del área triangular."
+        }
+      ],
+      "correct": 1,
+      "hint": "La mitad del rectángulo con igual base y altura tiene el área del triángulo.",
+      "solution": [
+        "A = bh/2 = 14 × 9/2.",
+        "A = 7 × 9 = 63 cm²."
+      ],
+      "id": "triangulos-y-relaciones-metricas-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Antes de usar Pitágoras, localiza el ángulo recto",
+      "body": [
+        "Pitágoras no se aplica a cualquier triángulo. Identifica la hipotenusa frente al ángulo de 90° y evita restar o sumar lados sin elevarlos al cuadrado.",
+        "Las unidades ayudan: perímetro en cm, área en cm². Una altura corresponde a la base elegida y forma con ella un ángulo recto."
+      ],
+      "id": "triangulos-y-relaciones-metricas-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "La altura a la hipotenusa crea dos proyecciones",
+      "body": [
+        "En un triángulo rectángulo, traza desde el ángulo recto la altura h a la hipotenusa c. El pie divide c en p y q, de modo que c = p + q.",
+        "Si el cateto a tiene proyección p y el cateto b tiene proyección q, entonces a² = cp, b² = cq y h² = pq. Además, igualar las áreas da ab = ch.",
+        "Las proyecciones se emparejan con el cateto que llega a ese extremo de la hipotenusa. Estas identidades nacen de los triángulos semejantes formados por la altura."
+      ],
+      "id": "triangulos-y-relaciones-metricas-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "De las proyecciones al triángulo completo",
+      "body": [
+        "La altura a la hipotenusa la divide en segmentos p = 9 y q = 16 cm. Encuentra c y h."
+      ],
+      "solution": [
+        "c = p + q = 25 cm.",
+        "h² = pq = 9 × 16 = 144, de modo que h = 12 cm.",
+        "Los catetos son √(25 × 9) = 15 y √(25 × 16) = 20 cm. Comprueba 15 × 20 = 25 × 12."
+      ],
+      "id": "triangulos-y-relaciones-metricas-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Una relación para cada dato",
+      "body": [
+        "Si conoces los dos catetos, primero halla c con Pitágoras y después h = ab/c. Si conoces p y q, usa c = p + q y h = √pq.",
+        "Si conoces un cateto a y c, su proyección es p = a²/c; la otra es q = c − p. No confundas la altura con una proyección: representan segmentos distintos."
+      ],
+      "id": "triangulos-y-relaciones-metricas-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Suma de proyecciones",
+      "body": [],
+      "prompt": "En un triángulo rectángulo, la altura divide la hipotenusa en 4 y 9 cm. ¿Cuánto mide la hipotenusa?",
+      "choices": [
+        {
+          "text": "√97 cm",
+          "explanation": "Aplicar Pitágoras a 4 y 9 los trata como catetos, aunque son segmentos alineados."
+        },
+        {
+          "text": "6 cm",
+          "explanation": "6 es la altura √(4 × 9), no la hipotenusa."
+        },
+        {
+          "text": "13 cm",
+          "explanation": "Las proyecciones son partes de la misma hipotenusa: 4 + 9 = 13."
+        }
+      ],
+      "correct": 2,
+      "hint": "Las dos proyecciones se unen extremo con extremo.",
+      "solution": [
+        "c = p + q.",
+        "c = 4 + 9 = 13 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Altura desde las proyecciones",
+      "body": [],
+      "prompt": "Las proyecciones sobre la hipotenusa son p = 4 y q = 9 cm. ¿Cuál es la altura desde el ángulo recto?",
+      "choices": [
+        {
+          "text": "36 cm",
+          "explanation": "36 es h²; falta sacar la raíz positiva."
+        },
+        {
+          "text": "6 cm",
+          "explanation": "h² = 4 × 9 = 36; h = 6."
+        },
+        {
+          "text": "13 cm",
+          "explanation": "13 es la hipotenusa, suma de las proyecciones."
+        }
+      ],
+      "correct": 1,
+      "hint": "Usa la media geométrica de las proyecciones: h = √pq.",
+      "solution": [
+        "h² = 4 × 9 = 36.",
+        "h = 6 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cateto desde su proyección",
+      "body": [],
+      "prompt": "Una hipotenusa mide 25 cm y la proyección de un cateto sobre ella mide 9 cm. ¿Cuánto mide ese cateto?",
+      "choices": [
+        {
+          "text": "15 cm",
+          "explanation": "a² = cp = 25 × 9 = 225; a = 15."
+        },
+        {
+          "text": "16 cm",
+          "explanation": "16 es la otra proyección, obtenida al restar 25 − 9."
+        },
+        {
+          "text": "34 cm",
+          "explanation": "34 suma hipotenusa y proyección; un cateto no puede superar a la hipotenusa."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica la hipotenusa por la proyección correspondiente.",
+      "solution": [
+        "a² = 25 × 9 = 225.",
+        "a = √225 = 15 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Altura igualando áreas",
+      "body": [],
+      "prompt": "Un triángulo rectángulo tiene catetos 6 y 8 cm e hipotenusa 10 cm. ¿Cuánto mide la altura a la hipotenusa?",
+      "choices": [
+        {
+          "text": "5 cm",
+          "explanation": "5 es la mitad de la hipotenusa, que corresponde a su mediana, no a esta altura."
+        },
+        {
+          "text": "24 cm",
+          "explanation": "24 es el área en cm²; no una altura en cm."
+        },
+        {
+          "text": "4,8 cm",
+          "explanation": "ab = ch da h = 6 × 8/10 = 4,8."
+        }
+      ],
+      "correct": 2,
+      "hint": "Calcula el área con catetos y con base igual a la hipotenusa.",
+      "solution": [
+        "6 × 8/2 = 10 h/2.",
+        "h = 48/10 = 4,8 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "No intercambies segmentos diferentes",
+      "body": [
+        "En c = p + q, p y q son proyecciones, no catetos. En a² = cp, p pertenece al mismo extremo que a.",
+        "Una comprobación independiente es igualar áreas: ab/2 y ch/2 deben dar lo mismo. Así detectas una altura que se calculó como mediana o como proyección."
+      ],
+      "id": "triangulos-y-relaciones-metricas-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Cuatro líneas, cuatro centros",
+      "body": [
+        "Una mediana une un vértice con el punto medio del lado opuesto. Las tres se encuentran en el baricentro, que divide cada mediana en razón 2:1 desde el vértice.",
+        "Una bisectriz divide un ángulo en dos iguales; sus intersecciones forman el incentro, equidistante de los tres lados y centro del círculo inscrito. Una mediatriz es perpendicular a un lado en su punto medio; las tres concurren en el circuncentro, equidistante de los vértices.",
+        "Una altura pasa por un vértice y es perpendicular al lado opuesto o su prolongación; las alturas concurren en el ortocentro. Puede quedar fuera en un triángulo obtusángulo. El incentro y el baricentro siempre quedan dentro."
+      ],
+      "id": "triangulos-y-relaciones-metricas-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Una mediana dividida por el baricentro",
+      "body": [
+        "Una mediana AM mide 15 cm y G es el baricentro. Encuentra AG y GM."
+      ],
+      "solution": [
+        "Desde el vértice, AG:GM = 2:1. Hay tres partes iguales a lo largo de la mediana.",
+        "Cada parte mide 15/3 = 5 cm. Por tanto AG = 10 y GM = 5 cm.",
+        "No dividas la mediana por la mitad: el punto medio M está en el lado opuesto; G es otra clase de punto."
+      ],
+      "id": "triangulos-y-relaciones-metricas-18",
+      "level": 3
+    },
+    {
+      "type": "explore",
+      "title": "Relaciones especiales que conviene reconocer",
+      "body": [
+        "En un triángulo rectángulo el circuncentro es el punto medio de la hipotenusa y su radio circunscrito es c/2. La mediana desde el ángulo recto también mide c/2.",
+        "La bisectriz interior de A divide BC en D cumpliendo BD/DC = AB/AC. En un isósceles, la línea desde el vértice principal al punto medio de la base coincide con mediana, altura y bisectriz; esto no ocurre en todo triángulo."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Baricentro",
+            "text": "Intersección de medianas; divide cada una 2:1 desde el vértice."
+          },
+          {
+            "label": "Incentro",
+            "text": "Intersección de bisectrices interiores; igual distancia perpendicular a los lados."
+          },
+          {
+            "label": "Circuncentro",
+            "text": "Intersección de mediatrices; igual distancia a los tres vértices."
+          },
+          {
+            "label": "Ortocentro",
+            "text": "Intersección de alturas; en un triángulo rectángulo es el vértice del ángulo recto."
+          }
+        ]
+      },
+      "id": "triangulos-y-relaciones-metricas-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Distancia desde el vértice al baricentro",
+      "body": [],
+      "prompt": "Una mediana mide 18 cm. ¿Qué distancia hay desde su vértice hasta el baricentro?",
+      "choices": [
+        {
+          "text": "12 cm",
+          "explanation": "El tramo desde el vértice ocupa 2/3 de la mediana: 18 × 2/3."
+        },
+        {
+          "text": "9 cm",
+          "explanation": "9 es la mitad; el baricentro no divide la mediana en partes iguales."
+        },
+        {
+          "text": "6 cm",
+          "explanation": "6 es el tramo del baricentro al punto medio del lado, no el que parte del vértice."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa la razón 2:1 desde el vértice.",
+      "solution": [
+        "18/3 = 6 cm por parte.",
+        "Desde el vértice hay dos partes: 12 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Identifica el centro por su propiedad",
+      "body": [],
+      "prompt": "¿Qué punto está a igual distancia perpendicular de los tres lados de un triángulo?",
+      "choices": [
+        {
+          "text": "Circuncentro",
+          "explanation": "El circuncentro está a igual distancia de los vértices, no en general de los lados."
+        },
+        {
+          "text": "Baricentro",
+          "explanation": "El baricentro distribuye medianas en razón 2:1; no tiene en general distancias iguales a los lados."
+        },
+        {
+          "text": "Incentro",
+          "explanation": "El incentro es el centro del círculo inscrito, tangente a los tres lados."
+        }
+      ],
+      "correct": 2,
+      "hint": "Piensa en un círculo que toca los tres lados desde dentro.",
+      "solution": [
+        "Los radios a los puntos de tangencia son perpendiculares a cada lado y tienen igual longitud.",
+        "Su centro es el incentro, intersección de las bisectrices interiores."
+      ],
+      "id": "triangulos-y-relaciones-metricas-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Teorema de la bisectriz",
+      "body": [],
+      "prompt": "La bisectriz interior de A corta BC en D. Si AB = 6 cm, AC = 9 cm y BC = 10 cm, ¿cuánto mide BD?",
+      "choices": [
+        {
+          "text": "6 cm",
+          "explanation": "6 corresponde a DC; BD es el tramo asociado al lado menor AB."
+        },
+        {
+          "text": "4 cm",
+          "explanation": "BD:DC = 6:9 = 2:3; de las cinco partes totales, BD toma dos."
+        },
+        {
+          "text": "5 cm",
+          "explanation": "5 supondría que la bisectriz también es mediana, lo cual requiere lados AB y AC iguales."
+        }
+      ],
+      "correct": 1,
+      "hint": "Reparte BC en la razón de los lados adyacentes al ángulo bisecado.",
+      "solution": [
+        "BD/DC = 2/3; toma BD = 2 k y DC = 3 k.",
+        "5 k = 10 da k = 2; BD = 4 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Circuncentro en un triángulo rectángulo",
+      "body": [],
+      "prompt": "Un triángulo rectángulo tiene hipotenusa 26 cm. ¿Cuál es el radio de su circunferencia circunscrita?",
+      "choices": [
+        {
+          "text": "13 cm",
+          "explanation": "El circuncentro es el punto medio de la hipotenusa; el radio es c/2."
+        },
+        {
+          "text": "26 cm",
+          "explanation": "26 es el diámetro de esa circunferencia, no su radio."
+        },
+        {
+          "text": "6,5 cm",
+          "explanation": "Dividir entre cuatro no corresponde a la relación entre hipotenusa y radio."
+        }
+      ],
+      "correct": 0,
+      "hint": "La hipotenusa es un diámetro de la circunferencia que pasa por los tres vértices.",
+      "solution": [
+        "R = c/2.",
+        "R = 26/2 = 13 cm."
+      ],
+      "id": "triangulos-y-relaciones-metricas-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Nombra la línea antes de usar su propiedad",
+      "body": [
+        "Mediana no significa perpendicular y bisectriz no significa que parte el lado por la mitad. La mediatriz no necesita pasar por un vértice.",
+        "Distingue centros por lo que igualan: incentro a lados, circuncentro a vértices. El baricentro usa medianas y el ortocentro alturas. En casos simétricos pueden coincidir, pero sus definiciones siguen siendo diferentes."
+      ],
+      "id": "triangulos-y-relaciones-metricas-24",
+      "level": 3
+    }
+  ]
+}

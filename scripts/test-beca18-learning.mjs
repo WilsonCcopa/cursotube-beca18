@@ -34,8 +34,13 @@ const future = structuredClone(baseline);
 future.slug = 'tema-futuro'; future.id = `${future.course}/${future.slug}`; future.version = 2;
 assert.deepEqual(validateTopic(future), [], 'El contrato admite nuevos temas sin cambiar el reproductor');
 const code = await readFile(join(packageRoot, 'public/js/beca18-learning.js'), 'utf8');
-assert.doesNotMatch(code, /\b(?:alert|confirm|prompt)\s*\(|window\.open\s*\(|target\s*=\s*["']_blank/);
+const diagramsCode = await readFile(join(packageRoot, 'public/js/beca18-learning-diagrams.js'), 'utf8');
+assert.doesNotMatch(code+diagramsCode, /\b(?:alert|confirm|prompt)\s*\(|window\.open\s*\(|target\s*=\s*["']_blank/);
 assert.ok(code.includes('window.location.href = "whatsapp://send?text=" + tu_variable_texto;'));
+for(const diagram of [{kind:'function',mode:'exponential',a:1,b:0,c:0,min:-3,max:3},{kind:'bars',labels:['A','B'],values:[10]},{kind:'interval',a:4,b:2,leftClosed:true,rightClosed:true}]){
+  const broken=structuredClone(baseline);broken.steps.find(step=>step.type==='explore').diagram=diagram;
+  assert.ok(validateTopic(broken).length>0,'Se rechaza un diagrama nuevo incompleto o inválido');
+}
 // Independent boundary checks for the highest-risk numeric content.
 for (let x = -20; x <= 20; x++) assert.equal(-3 * x + 6 >= 15, x <= -3);
 const validDigits = Array.from({ length: 10 }, (_, digit) => digit).filter((digit) => (306 + digit * 10) % 4 === 0 && (306 + digit * 10) % 9 === 0);
@@ -45,4 +50,6 @@ const coincidences = Array.from({ length: 180 }, (_, index) => index + 1).filter
 assert.deepEqual(coincidences, [60, 120, 180]);
 for (const n of [3, 4, 6]) assert.ok(2 * Math.cos(Math.PI / n) < 2);
 assert.ok(Math.abs(2 * Math.cos(Math.PI / 4) - Math.sqrt(2)) < 1e-12);
+assert.equal((1*1000)%3===0,false,'1/3 necesita aproximación a tres decimales');
+assert.equal((1*1000)%2===0,true,'1/2 tiene decimal exacto a esa precisión');
 console.log(JSON.stringify({ passed: true, topics: topics.length, steps: topics.reduce((sum, { topic }) => sum + topic.steps.length, 0), questions: entries.reduce((sum, entry) => sum + entry.questionCount, 0), checks: ['manifest completeness and SHA-256', 'reject invalid answers and duplicate IDs', 'require alternative explanations and bounded diagrams', 'future content contract', 'WhatsApp and native-dialog restrictions', 'numeric boundary checks'] }, null, 2));

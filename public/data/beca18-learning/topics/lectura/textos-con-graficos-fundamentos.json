@@ -1,0 +1,744 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-con-graficos-fundamentos",
+  "course": "lectura",
+  "slug": "textos-con-graficos-fundamentos",
+  "title": "Textos con gráficos: fundamentos",
+  "description": "Lee títulos, unidades, escalas, leyendas y datos; integra figuras y explicación.",
+  "version": 1,
+  "order": 17,
+  "estimatedMinutes": 27,
+  "objectives": [
+    "Leer categorías, cantidades, unidades y comparaciones",
+    "Interpretar distribución, evolución y leyendas",
+    "Integrar gráficos, mapas y texto sin exceder sus datos"
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Antes de comparar barras",
+      "body": [
+        "Identifica título, categorías, unidad, periodo y procedencia. La altura o longitud de una barra representa una cantidad según una escala; el color solo tiene significado si una leyenda lo define.",
+        "Todos los datos de estas actividades son simulados para practicar. Una gráfica permite comparar lo representado, pero no explica por sí sola por qué hay diferencias."
+      ],
+      "id": "textos-con-graficos-fundamentos-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Lee cantidad y diferencia",
+      "body": [
+        "El registro simulado muestra 12 asistentes en dibujo, 18 en lectura y 10 en ajedrez. Lectura es la categoría mayor. La diferencia entre lectura y dibujo es 18 − 12 = 6 asistentes.",
+        "No se puede afirmar que lectura sea mejor actividad: el gráfico informa asistencia, no calidad."
+      ],
+      "passage": {
+        "title": "Talleres del sábado",
+        "paragraphs": [
+          "Durante una jornada se registró a cada asistente en un solo taller: dibujo, 12; lectura, 18; ajedrez, 10. Las categorías no se superponen y corresponden al mismo sábado."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Asistencia por taller",
+        "labels": [
+          "Dibujo",
+          "Lectura",
+          "Ajedrez"
+        ],
+        "values": [
+          12,
+          18,
+          10
+        ],
+        "unit": "asistentes"
+      },
+      "id": "textos-con-graficos-fundamentos-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "Explora las cantidades",
+      "body": [
+        "Toca cada barra y verifica su valor en la tabla. Compara la mayor y la menor sin atribuirles causas. Datos simulados de una misma jornada."
+      ],
+      "diagram": {
+        "kind": "bars",
+        "title": "Explora las cantidades",
+        "labels": [
+          "Dibujo",
+          "Lectura",
+          "Ajedrez"
+        ],
+        "values": [
+          12,
+          18,
+          10
+        ],
+        "unit": "asistentes"
+      },
+      "id": "textos-con-graficos-fundamentos-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Ubica la categoría mayor",
+      "body": [],
+      "prompt": "¿Qué categoría registró más préstamos?",
+      "choices": [
+        {
+          "text": "Ciencia",
+          "explanation": "Tiene 9, menos que las otras dos categorías."
+        },
+        {
+          "text": "Narrativa",
+          "explanation": "Tiene 16, el valor mayor entre 16, 9 y 12."
+        },
+        {
+          "text": "Historia",
+          "explanation": "Tiene 12, menos que los 16 de narrativa."
+        }
+      ],
+      "correct": 1,
+      "hint": "Compara los valores y conserva la unidad préstamos.",
+      "solution": [
+        "Los tres valores pertenecen al mismo día y unidad.",
+        "16 es el mayor: corresponde a narrativa."
+      ],
+      "passage": {
+        "title": "Préstamos del lunes",
+        "paragraphs": [
+          "Datos simulados: narrativa, 16 préstamos; ciencia, 9; historia, 12. Se cuenta cada préstamo una vez y todas las categorías corresponden al mismo día."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Préstamos del lunes",
+        "labels": [
+          "Narrativa",
+          "Ciencia",
+          "Historia"
+        ],
+        "values": [
+          16,
+          9,
+          12
+        ],
+        "unit": "préstamos"
+      },
+      "id": "textos-con-graficos-fundamentos-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Calcula una diferencia",
+      "body": [],
+      "prompt": "¿Cuántas cajas más ordenó A que B?",
+      "choices": [
+        {
+          "text": "7 cajas",
+          "explanation": "24 − 17 = 7 conserva la comparación solicitada."
+        },
+        {
+          "text": "41 cajas",
+          "explanation": "24 + 17 suma los equipos en vez de calcular la diferencia."
+        },
+        {
+          "text": "3 cajas",
+          "explanation": "Es la diferencia entre C y B, no entre A y B."
+        }
+      ],
+      "correct": 0,
+      "hint": "Identifica primero las dos categorías mencionadas en la pregunta.",
+      "solution": [
+        "A tiene 24 y B, 17.",
+        "La diferencia solicitada es 7 cajas."
+      ],
+      "passage": {
+        "title": "Cajas ordenadas",
+        "paragraphs": [
+          "Datos simulados de una jornada: equipo A, 24 cajas; equipo B, 17 cajas; equipo C, 20 cajas. Se cuentan cajas distintas ya terminadas."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Cajas ordenadas por equipo",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "values": [
+          24,
+          17,
+          20
+        ],
+        "unit": "cajas"
+      },
+      "id": "textos-con-graficos-fundamentos-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Conserva la unidad",
+      "body": [],
+      "prompt": "¿Qué significa el valor 35 de práctica?",
+      "choices": [
+        {
+          "text": "Que participaron 35 personas",
+          "explanation": "La unidad no es personas, sino minutos."
+        },
+        {
+          "text": "Que hubo 35 sesiones",
+          "explanation": "No se cuentan sesiones en el registro."
+        },
+        {
+          "text": "Que la práctica duró 35 minutos",
+          "explanation": "Interpreta la categoría con la unidad señalada."
+        }
+      ],
+      "correct": 2,
+      "hint": "Título y unidad deciden cómo leer un número.",
+      "solution": [
+        "La variable registrada es duración.",
+        "Por tanto, 35 representa minutos de práctica."
+      ],
+      "passage": {
+        "title": "Duración de actividades",
+        "paragraphs": [
+          "Datos simulados: presentación, 15 minutos; práctica, 35 minutos; preguntas, 10 minutos. El registro representa duración, no número de personas."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Duración de una sesión",
+        "labels": [
+          "Presentación",
+          "Práctica",
+          "Preguntas"
+        ],
+        "values": [
+          15,
+          35,
+          10
+        ],
+        "unit": "minutos"
+      },
+      "id": "textos-con-graficos-fundamentos-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Una suma permitida",
+      "body": [],
+      "prompt": "¿Cuántas llegaron en bus o bicicleta?",
+      "choices": [
+        {
+          "text": "20 personas",
+          "explanation": "Ese es el total de todas las categorías, incluidas las que llegaron a pie."
+        },
+        {
+          "text": "12 personas",
+          "explanation": "Las categorías no se superponen: 7 + 5 = 12."
+        },
+        {
+          "text": "2 personas",
+          "explanation": "7 − 5 compara los grupos, pero no los reúne."
+        }
+      ],
+      "correct": 1,
+      "hint": "La ausencia de superposición permite sumar las dos categorías.",
+      "solution": [
+        "Bus aporta 7 y bicicleta 5.",
+        "Como cada persona pertenece a una sola categoría, son 12 en conjunto."
+      ],
+      "passage": {
+        "title": "Encuesta de transporte",
+        "paragraphs": [
+          "Datos simulados de veinte participantes: ocho llegaron a pie, siete en bus y cinco en bicicleta. Cada persona eligió solo el medio principal usado ese día."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Medio principal de llegada",
+        "labels": [
+          "A pie",
+          "Bus",
+          "Bicicleta"
+        ],
+        "values": [
+          8,
+          7,
+          5
+        ],
+        "unit": "personas"
+      },
+      "id": "textos-con-graficos-fundamentos-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Número sin unidad es información incompleta",
+      "body": [
+        "Si confundiste 35 minutos con 35 personas, vuelve a la variable. Si sumaste cuando pedían diferencia, expresa primero la operación en palabras.",
+        "Solo suma grupos como personas distintas cuando el texto asegure que no se superponen. Un estudiante que asiste a dos talleres puede contarse dos veces si la gráfica registra asistencias."
+      ],
+      "id": "textos-con-graficos-fundamentos-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "La forma del gráfico orienta la lectura",
+      "body": [
+        "Las barras comparan categorías. Una representación de evolución ordena momentos y permite observar cambios registrados entre ellos. No informa necesariamente qué ocurrió en cada instante intermedio.",
+        "Una distribución porcentual describe partes de un total. Para un gráfico circular, las partes deben corresponder al mismo total y sumar 100 %. Aquí usaremos los porcentajes escritos para practicar sin deformar sectores. Una leyenda explica códigos y símbolos."
+      ],
+      "id": "textos-con-graficos-fundamentos-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Partes de un mismo total",
+      "body": [
+        "Datos simulados: de 40 libros, 20 son cuentos, 12 novelas y 8 poesía. Los porcentajes son 50 %, 30 % y 20 %, respectivamente. Suman 100 % porque las categorías cubren el total y no se superponen.",
+        "Resolución: el 30 % no significa 30 libros; significa 30 de cada 100 partes equivalentes del total. Aquí equivale a 12 de 40."
+      ],
+      "passage": {
+        "title": "La selección",
+        "paragraphs": [
+          "Tabla del total de 40 libros: cuentos, 20 libros, 50 %; novelas, 12 libros, 30 %; poesía, 8 libros, 20 %. Cada libro se clasificó en una sola categoría."
+        ]
+      },
+      "id": "textos-con-graficos-fundamentos-10",
+      "level": 2
+    },
+    {
+      "type": "explore",
+      "title": "Lee una representación completa",
+      "body": [
+        "Toca cada elemento para comprobar su función."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Título",
+            "text": "Indica qué se representa, por ejemplo préstamos por mes."
+          },
+          {
+            "label": "Unidad",
+            "text": "Permite interpretar cantidades: préstamos, minutos, personas o porcentaje."
+          },
+          {
+            "label": "Leyenda",
+            "text": "Define qué representa cada color o símbolo, sin depender de intuiciones."
+          },
+          {
+            "label": "Fuente y periodo",
+            "text": "Delimitan de dónde proceden los datos y a qué intervalo corresponden."
+          }
+        ]
+      },
+      "id": "textos-con-graficos-fundamentos-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Porcentaje y cantidad",
+      "body": [],
+      "prompt": "¿Qué significa el 20 % de mapas?",
+      "choices": [
+        {
+          "text": "Que hay necesariamente 20 mapas",
+          "explanation": "El porcentaje no es la cantidad absoluta: el total es 60."
+        },
+        {
+          "text": "Que hay 20 materiales en todas las categorías",
+          "explanation": "El total informado es 60 y no debe cambiarse."
+        },
+        {
+          "text": "Que los 12 mapas representan veinte de cada cien partes del total",
+          "explanation": "12 ÷ 60 = 0,20 conserva proporción y cantidad."
+        }
+      ],
+      "correct": 2,
+      "hint": "Relaciona porcentaje, cantidad de la categoría y total.",
+      "solution": [
+        "Los mapas son 12 de 60.",
+        "Esa fracción equivale al 20 % del conjunto."
+      ],
+      "passage": {
+        "title": "El catálogo",
+        "paragraphs": [
+          "Datos simulados: de 60 materiales, 30 son cuadernos de actividades, 18 fichas y 12 mapas. La tabla porcentual indica 50 %, 30 % y 20 %, respectivamente."
+        ]
+      },
+      "id": "textos-con-graficos-fundamentos-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Una evolución registrada",
+      "body": [],
+      "prompt": "¿Qué afirmación es correcta?",
+      "choices": [
+        {
+          "text": "Aumentaron de enero a febrero y disminuyeron de febrero a marzo",
+          "explanation": "20 a 28 es aumento; 28 a 24 es disminución."
+        },
+        {
+          "text": "Aumentaron en todos los meses",
+          "explanation": "El valor de marzo es menor que el de febrero."
+        },
+        {
+          "text": "En marzo solo hubo 4 préstamos",
+          "explanation": "4 es la diferencia entre febrero y marzo, no el valor mensual."
+        }
+      ],
+      "correct": 0,
+      "hint": "Compara pares de meses consecutivos.",
+      "solution": [
+        "Febrero supera a enero en 8.",
+        "Marzo queda 4 por debajo de febrero; la tendencia no es siempre ascendente."
+      ],
+      "passage": {
+        "title": "Préstamos por mes",
+        "paragraphs": [
+          "Datos simulados: enero, 20 préstamos; febrero, 28; marzo, 24. Son cantidades mensuales, no acumuladas."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Préstamos mensuales",
+        "labels": [
+          "Enero",
+          "Febrero",
+          "Marzo"
+        ],
+        "values": [
+          20,
+          28,
+          24
+        ],
+        "unit": "préstamos"
+      },
+      "id": "textos-con-graficos-fundamentos-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Interpreta una leyenda",
+      "body": [],
+      "prompt": "¿Qué indica ese símbolo?",
+      "choices": [
+        {
+          "text": "Una salida",
+          "explanation": "La salida está representada por un triángulo."
+        },
+        {
+          "text": "Un punto de agua",
+          "explanation": "El círculo tiene ese significado según la leyenda."
+        },
+        {
+          "text": "Un aula",
+          "explanation": "El aula corresponde al cuadrado, no al círculo."
+        }
+      ],
+      "correct": 1,
+      "hint": "El código lo define la leyenda, no tu asociación personal.",
+      "solution": [
+        "La leyenda asigna un significado a cada forma.",
+        "Círculo corresponde a punto de agua."
+      ],
+      "passage": {
+        "title": "Un plano textual",
+        "paragraphs": [
+          "La leyenda de un plano establece: círculo = punto de agua; cuadrado = aula; triángulo = salida. El símbolo que aparece junto al huerto es un círculo. No se utilizan colores para añadir otro significado."
+        ]
+      },
+      "id": "textos-con-graficos-fundamentos-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "No inventes valores intermedios",
+      "body": [],
+      "prompt": "¿Qué puede afirmarse?",
+      "choices": [
+        {
+          "text": "El miércoles hubo exactamente 17 plantas",
+          "explanation": "Sería una interpolación no comprobada por el registro."
+        },
+        {
+          "text": "Cada día ingresó siempre la misma cantidad",
+          "explanation": "Los dos datos no describen el ritmo diario."
+        },
+        {
+          "text": "El viernes se registraron seis plantas más que el lunes",
+          "explanation": "Compara los dos valores disponibles sin inventar el recorrido intermedio."
+        }
+      ],
+      "correct": 2,
+      "hint": "Dos puntos permiten comparar extremos, no conocer cada momento.",
+      "solution": [
+        "20 − 14 = 6.",
+        "No hay datos para fijar cantidades o cambios diarios intermedios."
+      ],
+      "passage": {
+        "title": "Dos registros",
+        "paragraphs": [
+          "Un vivero registró 14 plantas el lunes y 20 el viernes. El documento no tiene mediciones del martes, miércoles o jueves ni describe ingresos y salidas durante esos días."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Plantas registradas",
+        "labels": [
+          "Lunes",
+          "Viernes"
+        ],
+        "values": [
+          14,
+          20
+        ],
+        "unit": "plantas"
+      },
+      "id": "textos-con-graficos-fundamentos-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "La gráfica muestra un recorte de información",
+      "body": [
+        "Si convertiste un porcentaje en cantidad, vuelve al total. Si supusiste valores entre dos mediciones, distingue lo observado de una estimación.",
+        "Revisa leyenda, periodo y unidad antes de interpretar. Un mismo símbolo puede tener otro significado en otro plano; no existe un código universal para todos los materiales."
+      ],
+      "id": "textos-con-graficos-fundamentos-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Integra texto y representación",
+      "body": [
+        "El texto puede explicar qué se contó, cómo se seleccionaron categorías y qué límites tiene el gráfico. La representación permite comparar datos, pero ambas piezas deben concordar.",
+        "Un afiche prioriza una invitación o aviso; una infografía combina explicaciones y elementos visuales; un mapa conceptual relaciona ideas mediante enlaces. Leerlos exige reconocer jerarquías y códigos, no solo mirar dibujos."
+      ],
+      "id": "textos-con-graficos-fundamentos-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "El texto precisa qué se contó",
+      "body": [
+        "La gráfica compara asistencias por sesión, no personas distintas del mes. Una misma persona pudo asistir varios días.",
+        "Resolución: las cifras suman 45 asistencias registradas, pero no permiten asegurar 45 personas diferentes. El texto cambia cómo interpretamos la suma."
+      ],
+      "passage": {
+        "title": "Tres sesiones",
+        "paragraphs": [
+          "Datos simulados: sesión 1, 12 asistencias; sesión 2, 18; sesión 3, 15. El registro cuenta cada presencia en una sesión. Algunas personas participaron en más de una, pero no se informa cuántas repitieron."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Asistencias por sesión",
+        "labels": [
+          "Sesión 1",
+          "Sesión 2",
+          "Sesión 3"
+        ],
+        "values": [
+          12,
+          18,
+          15
+        ],
+        "unit": "asistencias"
+      },
+      "id": "textos-con-graficos-fundamentos-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "Distingue dato, explicación y diseño",
+      "body": [
+        "Una barra mayor indica mayor valor bajo la misma escala. No significa mejor calidad ni prueba una causa. Una imagen decorativa no modifica una cantidad indicada.",
+        "En un mapa conceptual, cada enlace debe formar una afirmación comprensible. En un afiche, distingue el dato del evento de una frase que solo busca llamar la atención."
+      ],
+      "id": "textos-con-graficos-fundamentos-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Texto y gráfico juntos",
+      "body": [],
+      "prompt": "¿Qué afirmación está respaldada?",
+      "choices": [
+        {
+          "text": "Hubo exactamente 40 personas distintas",
+          "explanation": "La suma de consultas no identifica personas ni elimina repeticiones."
+        },
+        {
+          "text": "Se registraron 40 consultas en los tres días",
+          "explanation": "10 + 16 + 14 suma correctamente la unidad contada."
+        },
+        {
+          "text": "El martes la calidad de atención fue superior",
+          "explanation": "El número de consultas no mide calidad del servicio."
+        }
+      ],
+      "correct": 1,
+      "hint": "Mantén la unidad consultas al sumar.",
+      "solution": [
+        "El registro suma 40 acciones de consulta.",
+        "Sin identidades, no puede transformarse esa suma en personas diferentes."
+      ],
+      "passage": {
+        "title": "La lectura semanal",
+        "paragraphs": [
+          "Datos simulados de un grupo: lunes, 10 consultas; martes, 16; miércoles, 14. El informe aclara que cuenta consultas realizadas y que una persona podía formular varias en un mismo día. No se registraron identidades."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Consultas registradas",
+        "labels": [
+          "Lunes",
+          "Martes",
+          "Miércoles"
+        ],
+        "values": [
+          10,
+          16,
+          14
+        ],
+        "unit": "consultas"
+      },
+      "id": "textos-con-graficos-fundamentos-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Un gráfico no demuestra la causa",
+      "body": [],
+      "prompt": "¿Qué conclusión evita exceder los datos?",
+      "choices": [
+        {
+          "text": "A fue mejor porque tuvo más asistentes",
+          "explanation": "Mayor asistencia no demuestra mejor calidad ni aísla horarios y salas."
+        },
+        {
+          "text": "B tuvo menos asistentes porque su docente era peor",
+          "explanation": "No se informa esa valoración ni su causa."
+        },
+        {
+          "text": "A registró diez asistentes más que B; no se conoce la causa de la diferencia",
+          "explanation": "Conserva la comparación y el límite explicativo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa la diferencia observada de su posible explicación.",
+      "solution": [
+        "30 − 20 = 10 asistentes.",
+        "Las razones y la calidad no se midieron."
+      ],
+      "passage": {
+        "title": "La participación",
+        "paragraphs": [
+          "Datos simulados: taller A, 30 asistentes; taller B, 20. Ambos ocurrieron el mismo día, pero en horarios y salas diferentes. El documento no registra las razones de elección ni la satisfacción de los asistentes."
+        ]
+      },
+      "diagram": {
+        "kind": "bars",
+        "title": "Asistencia a dos talleres",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "values": [
+          30,
+          20
+        ],
+        "unit": "asistentes"
+      },
+      "id": "textos-con-graficos-fundamentos-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Afiche y dato práctico",
+      "body": [],
+      "prompt": "¿Qué información permite organizar la asistencia?",
+      "choices": [
+        {
+          "text": "Fecha, horario, lugar y material solicitado",
+          "explanation": "Son los datos prácticos para acudir preparado."
+        },
+        {
+          "text": "Solo el tamaño de las letras del lema",
+          "explanation": "Llama la atención, pero no reemplaza los datos del evento."
+        },
+        {
+          "text": "Que todos los daños serán reparados con seguridad",
+          "explanation": "El afiche no ofrece esa garantía ni enumera todos los daños."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue el lema de los requisitos para asistir.",
+      "solution": [
+        "La primera frase atrae interés.",
+        "Los datos posteriores indican cuándo, dónde y con qué participar."
+      ],
+      "passage": {
+        "title": "El afiche",
+        "paragraphs": [
+          "Un afiche dice: Dale nueva vida a tus cuadernos. Taller de reparación, sábado 14, de 9:00 a 11:00, aula comunal. Trae un cuaderno con tapa despegada. La frase inicial aparece con letras mayores que los demás datos."
+        ]
+      },
+      "id": "textos-con-graficos-fundamentos-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Comprueba una flecha conceptual",
+      "body": [],
+      "prompt": "¿Qué revisión corresponde?",
+      "choices": [
+        {
+          "text": "Conservar la flecha porque toda figura visual es una prueba",
+          "explanation": "La representación también debe ser fiel al texto."
+        },
+        {
+          "text": "Cambiarla por Registro actualizado → ayuda a seguir → entregas",
+          "explanation": "Conserva función y condición sin prometer eliminación total de errores."
+        },
+        {
+          "text": "Cambiar registro por dibujo y mantener elimina siempre",
+          "explanation": "Modifica un término sin resolver la exageración de la relación."
+        }
+      ],
+      "correct": 1,
+      "hint": "La afirmación que forma la flecha debe conservar el límite del texto.",
+      "solution": [
+        "El registro ayuda bajo una condición de actualización.",
+        "No se afirma que elimine todo error, por lo que debe corregirse el enlace."
+      ],
+      "passage": {
+        "title": "El esquema",
+        "paragraphs": [
+          "Un mapa conceptual resume el siguiente texto: Un registro permite seguir las entregas si se actualiza después de cada movimiento. Los errores pueden persistir cuando se omiten datos. El mapa propone la flecha Registro → elimina siempre → errores."
+        ]
+      },
+      "id": "textos-con-graficos-fundamentos-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "Lee también lo que limita la figura",
+      "body": [
+        "Explica cada dato con categoría, cantidad y unidad. Después añade el periodo y la condición que el texto fija. Solo entonces formula una comparación.",
+        "Si fallaste una suma, revisa si contó personas o asistencias. Si fallaste una conclusión, comprueba si transformaste una diferencia en causa o una cantidad en calidad. Leer un gráfico también exige controlar inferencias."
+      ],
+      "id": "textos-con-graficos-fundamentos-24",
+      "level": 3
+    }
+  ]
+}

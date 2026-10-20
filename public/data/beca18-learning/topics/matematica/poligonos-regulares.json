@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/poligonos-regulares",
+  "course": "matematica",
+  "slug": "poligonos-regulares",
+  "title": "Polígonos regulares",
+  "description": "Conecta ángulos, diagonales, radio y apotema para medir figuras regulares y justificar fórmulas.",
+  "version": 1,
+  "order": 32,
+  "estimatedMinutes": 28,
+  "objectives": [
+    "Calcular ángulos y diagonales según el número de lados.",
+    "Relacionar radio, apotema y lado con triángulos centrales.",
+    "Calcular áreas y recuperar un número de lados desde sus propiedades."
+  ],
+  "steps": [
+    {
+      "type": "learn",
+      "title": "Regular significa lados y ángulos iguales",
+      "body": [
+        "Un polígono regular convexo tiene n lados iguales y n ángulos interiores iguales, con n entero y n ≥ 3. Que solo los lados sean iguales no basta: un rombo no cuadrado no es regular.",
+        "La suma de ángulos interiores es (n − 2)180°. Cada interior mide esa suma dividida entre n. Cada exterior, tomado como el giro menor al continuar un lado, mide 360°/n; interior y exterior suman 180°.",
+        "Desde un vértice salen n − 3 diagonales. Al multiplicar por n se cuenta cada diagonal dos veces, así que el número total es n(n − 3)/2."
+      ],
+      "id": "poligonos-regulares-01",
+      "level": 1
+    },
+    {
+      "type": "example",
+      "title": "Un octágono bajo tres miradas",
+      "body": [
+        "Describe ángulos y diagonales de un octágono regular."
+      ],
+      "solution": [
+        "n = 8. La suma interior es (8 − 2)180 = 1080°. Cada interior mide 1080/8 = 135°.",
+        "Cada exterior mide 360/8 = 45°, y 135 + 45 = 180.",
+        "Diagonales = 8(8 − 3)/2 = 20. Los ocho lados no cuentan como diagonales."
+      ],
+      "id": "poligonos-regulares-02",
+      "level": 1
+    },
+    {
+      "type": "explore",
+      "title": "El centro divide la figura en triángulos",
+      "body": [
+        "Un polígono regular de n lados se divide uniendo el centro a cada vértice en n triángulos isósceles. Cada ángulo central mide 360°/n. Cambia el número de lados y desliza el radio para observar cómo los vértices siguen sobre la misma circunferencia."
+      ],
+      "diagram": {
+        "kind": "geometry",
+        "mode": "polygon",
+        "a": 3,
+        "b": 4,
+        "n": 6
+      },
+      "id": "poligonos-regulares-03",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Suma de ángulos interiores",
+      "body": [],
+      "prompt": "¿Cuál es la suma de ángulos interiores de un heptágono convexo?",
+      "choices": [
+        {
+          "text": "360°",
+          "explanation": "360° es la suma de los giros exteriores, no de los interiores."
+        },
+        {
+          "text": "900°",
+          "explanation": "(7 − 2) × 180 = 900°."
+        },
+        {
+          "text": "1260°",
+          "explanation": "1260 multiplica 7 por 180 sin descontar dos triángulos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Un heptágono tiene siete lados.",
+      "solution": [
+        "S = (n − 2)180° = (7 − 2)180°.",
+        "S = 900°."
+      ],
+      "id": "poligonos-regulares-04",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Ángulo central",
+      "body": [],
+      "prompt": "¿Cuánto mide cada ángulo central de un decágono regular?",
+      "choices": [
+        {
+          "text": "36°",
+          "explanation": "Los diez ángulos iguales completan 360°: 360/10 = 36."
+        },
+        {
+          "text": "144°",
+          "explanation": "144° es cada ángulo interior del decágono, no el central."
+        },
+        {
+          "text": "18°",
+          "explanation": "18° es la mitad de cada ángulo central."
+        }
+      ],
+      "correct": 0,
+      "hint": "Reparte una vuelta completa entre los diez triángulos centrales.",
+      "solution": [
+        "Ángulo central = 360°/10.",
+        "Cada uno mide 36°."
+      ],
+      "id": "poligonos-regulares-05",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Ángulo interior",
+      "body": [],
+      "prompt": "¿Cuánto mide cada ángulo interior de un hexágono regular?",
+      "choices": [
+        {
+          "text": "60°",
+          "explanation": "60° es su ángulo central y exterior, no el interior."
+        },
+        {
+          "text": "720°",
+          "explanation": "720° es la suma de los seis interiores, no cada uno."
+        },
+        {
+          "text": "120°",
+          "explanation": "(6 − 2)180/6 = 120°."
+        }
+      ],
+      "correct": 2,
+      "hint": "Puedes calcular 180° menos el exterior de 360°/6.",
+      "solution": [
+        "Exterior = 60°.",
+        "Interior = 180° − 60° = 120°."
+      ],
+      "id": "poligonos-regulares-06",
+      "level": 1
+    },
+    {
+      "type": "question",
+      "title": "Cuenta diagonales",
+      "body": [],
+      "prompt": "¿Cuántas diagonales tiene un nonágono convexo?",
+      "choices": [
+        {
+          "text": "36",
+          "explanation": "36 cuenta todas las parejas de vértices, incluyendo los nueve lados."
+        },
+        {
+          "text": "27",
+          "explanation": "9(9 − 3)/2 = 9 × 6/2 = 27."
+        },
+        {
+          "text": "54",
+          "explanation": "54 cuenta cada diagonal desde sus dos extremos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Desde cada vértice excluye a sí mismo y a sus dos vecinos; luego corrige el doble conteo.",
+      "solution": [
+        "9 × 6 = 54 conteos desde vértices.",
+        "Cada diagonal aparece dos veces: 54/2 = 27."
+      ],
+      "id": "poligonos-regulares-07",
+      "level": 1
+    },
+    {
+      "type": "review",
+      "title": "Central, interior y exterior son ángulos distintos",
+      "body": [
+        "Central y exterior miden 360°/n en un polígono regular convexo. El interior es su suplementario, no el mismo ángulo.",
+        "Al contar diagonales, excluye lados y evita contar cada segmento dos veces. Un triángulo da 3(0)/2 = 0, una comprobación útil del inicio."
+      ],
+      "id": "poligonos-regulares-08",
+      "level": 1
+    },
+    {
+      "type": "learn",
+      "title": "Radio y apotema no son sinónimos",
+      "body": [
+        "El radio R va del centro a un vértice. La apotema a va perpendicularmente del centro al punto medio de un lado. Si el lado mide s, un medio triángulo central cumple R² = a² + (s/2)².",
+        "Cada triángulo central tiene base s y altura a. Sumarlos da área = nsa/2 = Pa/2, donde P es el perímetro. El área depende de la apotema, no directamente del radio.",
+        "En un hexágono regular, s = R y a = R√3/2. En un cuadrado, R es media diagonal y a es medio lado. En un triángulo equilátero, la apotema es R/2."
+      ],
+      "id": "poligonos-regulares-09",
+      "level": 2
+    },
+    {
+      "type": "example",
+      "title": "Área desde lado y apotema",
+      "body": [
+        "Un hexágono regular tiene lado 6 cm y apotema 3√3 cm. Calcula su área exacta."
+      ],
+      "solution": [
+        "Perímetro P = 6 × 6 = 36 cm.",
+        "Cada triángulo central tiene área 6 × 3√3/2 = 9√3 cm². Hay seis: área total 54√3 cm².",
+        "La fórmula reúne la misma cuenta: A = Pa/2 = 36 × 3√3/2 = 54√3 cm². La apotema 3√3 es compatible con el lado 6 porque cada triángulo central es equilátero."
+      ],
+      "id": "poligonos-regulares-10",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Un cálculo exacto debe usar datos compatibles",
+      "body": [
+        "En una figura regular exacta, n, lado, radio y apotema no son independientes. Se relacionan mediante s = 2 R sen(π/n) y a = R cos(π/n), usando radianes.",
+        "Por eso no puedes asignar cualquier lado y apotema y afirmar que describen un polígono regular exacto. Si el problema entrega medidas redondeadas, el área calculada también es aproximada. En los ejercicios exactos siguientes usaremos datos geométricamente compatibles."
+      ],
+      "id": "poligonos-regulares-11",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Perímetro del hexágono",
+      "body": [],
+      "prompt": "Un hexágono regular tiene lado 5 cm. ¿Cuál es su perímetro?",
+      "choices": [
+        {
+          "text": "25 cm",
+          "explanation": "25 confunde un producto de longitudes con el perímetro."
+        },
+        {
+          "text": "15 cm",
+          "explanation": "15 cuenta solo tres de los seis lados."
+        },
+        {
+          "text": "30 cm",
+          "explanation": "Los seis lados son iguales: 6 × 5 = 30."
+        }
+      ],
+      "correct": 2,
+      "hint": "Perímetro es número de lados por longitud de cada lado.",
+      "solution": [
+        "P = ns = 6 × 5.",
+        "P = 30 cm."
+      ],
+      "id": "poligonos-regulares-12",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Área de un cuadrado mediante su apotema",
+      "body": [],
+      "prompt": "Un cuadrado tiene perímetro 40 cm y apotema 5 cm. ¿Cuál es su área?",
+      "choices": [
+        {
+          "text": "25 cm²",
+          "explanation": "25 usa la apotema como lado, pero el lado mide 10."
+        },
+        {
+          "text": "100 cm²",
+          "explanation": "A = Pa/2 = 40 × 5/2 = 100; su lado es 10 y la apotema es su mitad."
+        },
+        {
+          "text": "200 cm²",
+          "explanation": "200 omite dividir entre dos la suma de áreas triangulares."
+        }
+      ],
+      "correct": 1,
+      "hint": "La fórmula para cualquier polígono regular es Pa/2.",
+      "solution": [
+        "A = 40 × 5/2.",
+        "A = 100 cm², igual que 10²."
+      ],
+      "id": "poligonos-regulares-13",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Cuadrado inscrito desde su radio",
+      "body": [],
+      "prompt": "Un cuadrado está inscrito en una circunferencia de radio 3√2 cm. ¿Cuál es su área?",
+      "choices": [
+        {
+          "text": "36 cm²",
+          "explanation": "Su diagonal es 6√2; lado = 6 y área = 36."
+        },
+        {
+          "text": "18 cm²",
+          "explanation": "18 es R², pero el área del cuadrado es 2 R²."
+        },
+        {
+          "text": "72 cm²",
+          "explanation": "72 es el cuadrado de la diagonal; el área es la mitad."
+        }
+      ],
+      "correct": 0,
+      "hint": "El diámetro de la circunferencia es la diagonal del cuadrado.",
+      "solution": [
+        "d = 2 R = 6√2.",
+        "A = d²/2 = 72/2 = 36 cm²."
+      ],
+      "id": "poligonos-regulares-14",
+      "level": 2
+    },
+    {
+      "type": "question",
+      "title": "Hexágono inscrito",
+      "body": [],
+      "prompt": "Un hexágono regular tiene radio circunscrito de 4 cm. ¿Cuál es su área exacta?",
+      "choices": [
+        {
+          "text": "16π cm²",
+          "explanation": "16π es el área del círculo circunscrito; el polígono ocupa menos."
+        },
+        {
+          "text": "48√3 cm²",
+          "explanation": "48√3 omite dividir entre dos al usar perímetro por apotema."
+        },
+        {
+          "text": "24√3 cm²",
+          "explanation": "Lado 4, perímetro 24 y apotema 2√3: A = 24 × 2√3/2 = 24√3."
+        }
+      ],
+      "correct": 2,
+      "hint": "En un hexágono regular cada triángulo central es equilátero.",
+      "solution": [
+        "s = R = 4; P = 24; a = 4√3/2 = 2√3.",
+        "A = Pa/2 = 24√3 cm²."
+      ],
+      "id": "poligonos-regulares-15",
+      "level": 2
+    },
+    {
+      "type": "review",
+      "title": "La apotema es la altura de cada triángulo central",
+      "body": [
+        "Sustituir radio por apotema en Pa/2 sobrestima el área. El radio llega al vértice y es la hipotenusa del medio triángulo central.",
+        "Comprueba compatibilidad si trabajas con datos exactos. En un cuadrado de lado 10, apotema 5 es exacta; en un pentágono, lado 6 y apotema 4 serían solo medidas redondeadas, no una igualdad exacta."
+      ],
+      "id": "poligonos-regulares-16",
+      "level": 2
+    },
+    {
+      "type": "learn",
+      "title": "Recupera el número de lados",
+      "body": [
+        "Si conoces el ángulo exterior e, n = 360/e. Si conoces un interior i, primero e = 180 − i y luego n = 360/e. El resultado debe ser un entero de al menos tres.",
+        "Si conoces el número de diagonales D, resuelve n(n − 3)/2 = D y descarta la raíz negativa. No todo ángulo o número D produce un polígono regular convexo posible.",
+        "Un círculo y un polígono inscrito comparten radio, pero sus áreas son diferentes. Para una región entre ambos, resta el área del polígono al área del círculo."
+      ],
+      "id": "poligonos-regulares-17",
+      "level": 3
+    },
+    {
+      "type": "example",
+      "title": "Un ángulo que revela el polígono",
+      "body": [
+        "Cada ángulo interior de un polígono regular mide 150°. ¿Cuántos lados tiene?"
+      ],
+      "solution": [
+        "El ángulo exterior es 180 − 150 = 30°.",
+        "n = 360/30 = 12. Es un dodecágono.",
+        "Comprueba: (12 − 2)180/12 = 150°. No dividas 360 entre el interior, porque los interiores no son los giros exteriores."
+      ],
+      "id": "poligonos-regulares-18",
+      "level": 3
+    },
+    {
+      "type": "learn",
+      "title": "De la mitad del triángulo central al área",
+      "body": [
+        "En un triángulo equilátero con radio circunscrito R, la apotema es R/2 y el lado es R√3. Eso da A = (3 R√3)(R/2)/2 = 3√3 R²/4.",
+        "Para cualquier n regular convexo, A = (n/2)R² sen(2π/n). Es otra forma de sumar los triángulos centrales: dos radios forman el ángulo incluido 2π/n. Usa radianes si aplicas esta expresión."
+      ],
+      "id": "poligonos-regulares-19",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Desde el ángulo interior",
+      "body": [],
+      "prompt": "Cada ángulo interior de un polígono regular convexo mide 156°. ¿Cuántos lados tiene?",
+      "choices": [
+        {
+          "text": "15",
+          "explanation": "El exterior es 24° y 360/24 = 15."
+        },
+        {
+          "text": "13",
+          "explanation": "13 lados no dan un exterior de 24°; no reproduce el dato."
+        },
+        {
+          "text": "24",
+          "explanation": "24 es el ángulo exterior en grados, no el número de lados."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula primero el exterior suplementario.",
+      "solution": [
+        "e = 180 − 156 = 24°.",
+        "n = 360/24 = 15."
+      ],
+      "id": "poligonos-regulares-20",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Desde la suma interior",
+      "body": [],
+      "prompt": "La suma de los ángulos interiores de un polígono convexo es 1980°. ¿Cuántos lados tiene?",
+      "choices": [
+        {
+          "text": "11",
+          "explanation": "11 es n − 2; faltan los dos lados descontados en la fórmula."
+        },
+        {
+          "text": "12",
+          "explanation": "12 produciría una suma de 1800°, no 1980°."
+        },
+        {
+          "text": "13",
+          "explanation": "(n − 2)180 = 1980 da n − 2 = 11 y n = 13."
+        }
+      ],
+      "correct": 2,
+      "hint": "Divide entre 180 y recupera los dos lados de la fórmula.",
+      "solution": [
+        "n − 2 = 1980/180 = 11.",
+        "n = 13."
+      ],
+      "id": "poligonos-regulares-21",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Desde el número de diagonales",
+      "body": [],
+      "prompt": "Un polígono convexo tiene 35 diagonales. ¿Cuántos lados tiene?",
+      "choices": [
+        {
+          "text": "12",
+          "explanation": "12(12 − 3)/2 = 54, no 35."
+        },
+        {
+          "text": "10",
+          "explanation": "10(10 − 3)/2 = 35."
+        },
+        {
+          "text": "7",
+          "explanation": "7(7 − 3)/2 = 14, no 35."
+        }
+      ],
+      "correct": 1,
+      "hint": "Prueba n en n(n − 3) = 70 o factoriza la ecuación.",
+      "solution": [
+        "n² − 3 n − 70 = 0 = (n − 10)(n + 7).",
+        "Descarta n = −7; quedan 10 lados."
+      ],
+      "id": "poligonos-regulares-22",
+      "level": 3
+    },
+    {
+      "type": "question",
+      "title": "Área entre círculo y hexágono",
+      "body": [],
+      "prompt": "Un hexágono regular está inscrito en un círculo de radio 2 cm. ¿Qué área queda dentro del círculo y fuera del hexágono?",
+      "choices": [
+        {
+          "text": "4π − 6√3 cm²",
+          "explanation": "Círculo 4π menos hexágono de área(3√3/2)(2²) = 6√3."
+        },
+        {
+          "text": "4π cm²",
+          "explanation": "4π es el círculo completo; no se restó el polígono."
+        },
+        {
+          "text": "4π − 12 cm²",
+          "explanation": "12 usa una apotema incorrecta de 2; la correcta es √3."
+        }
+      ],
+      "correct": 0,
+      "hint": "Calcula ambas áreas con el mismo radio y luego resta.",
+      "solution": [
+        "A círculo = π(2²) = 4π. A hexágono = 6(2 × √3/2) = 6√3.",
+        "Área restante = 4π − 6√3 cm², positiva porque el hexágono está dentro."
+      ],
+      "id": "poligonos-regulares-23",
+      "level": 3
+    },
+    {
+      "type": "review",
+      "title": "El resultado inverso debe ser un entero válido",
+      "body": [
+        "Si n no es entero o es menor que tres, revisa los datos o concluye que no hay tal polígono regular convexo bajo esas condiciones.",
+        "No confundas área inscrita con circunscrita. Un polígono inscrito queda dentro del círculo; la diferencia círculo menos polígono debe resultar positiva."
+      ],
+      "id": "poligonos-regulares-24",
+      "level": 3
+    }
+  ]
+}
