@@ -1,0 +1,16 @@
+{
+  "name": "cursotube-beca18",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Módulo de minilecciones gratuitas Beca 18 de CursoTube y sus herramientas de contenido.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build-beca18-learning.mjs",
+    "validate": "node scripts/validate-beca18-learning.mjs",
+    "check:manifest": "node scripts/build-beca18-learning.mjs --check",
+    "test": "npm run validate && npm run check:manifest && node scripts/test-beca18-learning.mjs"
+  }
+}

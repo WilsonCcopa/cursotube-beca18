@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/antonimia-contextual",
+  "course": "lectura",
+  "slug": "antonimia-contextual",
+  "title": "Antonimia contextual",
+  "description": "Reconoce la oposición pertinente y distingue escalas, complementos y relaciones recíprocas.",
+  "version": 1,
+  "order": 4,
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Identificar el eje contextual de oposición.",
+    "Diferenciar antonimia gradual, complementaria y recíproca.",
+    "Interpretar oposiciones figuradas sin cambiar de sentido."
+  ],
+  "steps": [
+    {
+      "level": 1,
+      "type": "learn",
+      "title": "El opuesto depende del sentido",
+      "body": [
+        "Dos expresiones son antónimas cuando se oponen dentro de un aspecto compartido. El contexto indica cuál es ese aspecto: cantidad, claridad, movimiento, valoración o relación entre participantes.",
+        "Una caja ligera se opone a una pesada; un sueño ligero se opone a uno profundo. Buscar una pareja memorizada sin leer puede llevarte al opuesto de otro sentido.",
+        "Procedimiento: interpreta la palabra, nombra la escala o relación y cambia solo esa propiedad. No conviertas el contrario en una oración sobre otro asunto."
+      ],
+      "id": "antonimia-contextual-01"
+    },
+    {
+      "level": 1,
+      "type": "example",
+      "title": "La oposición de una habitación clara",
+      "body": [
+        "Aquí clara se refiere a la iluminación porque se mencionan ventanas y luz. Su opuesto pertinente es oscura.",
+        "Confusa se opone a clara cuando se habla de una explicación o idea, pero no expresa lo contrario de esta habitación iluminada."
+      ],
+      "passage": {
+        "title": "El salón",
+        "paragraphs": [
+          "El salón era claro: dos ventanas amplias dejaban entrar la luz de la mañana. Para proyectar imágenes tuvieron que cerrar las cortinas."
+        ]
+      },
+      "id": "antonimia-contextual-02"
+    },
+    {
+      "level": 1,
+      "type": "explore",
+      "title": "Cambia el contexto, cambia el opuesto",
+      "body": [
+        "Toca cada uso de abierto. Identifica la propiedad que se opone, sin cambiar el tema."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Una puerta abierta",
+            "text": "Opuesto pertinente: cerrada. Se trata del acceso físico."
+          },
+          {
+            "label": "Una persona abierta al diálogo",
+            "text": "Opuesto pertinente: cerrada al diálogo. Se trata de disposición a escuchar."
+          },
+          {
+            "label": "Una competencia abierta a todos",
+            "text": "Opuesto pertinente: restringida a un grupo. Se trata de quiénes pueden participar."
+          },
+          {
+            "label": "Un asunto abierto",
+            "text": "Opuesto pertinente: resuelto o cerrado, si el contexto indica que la decisión está pendiente."
+          }
+        ]
+      },
+      "id": "antonimia-contextual-03"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Cantidad disponible",
+      "body": [],
+      "passage": {
+        "title": "Después de la entrega",
+        "paragraphs": [
+          "Los materiales eran abundantes: quedaron cajas completas aun después de repartir lo necesario a todos los grupos."
+        ]
+      },
+      "prompt": "¿Qué palabra expresa el opuesto de abundantes en ese contexto?",
+      "choices": [
+        {
+          "text": "Escasos",
+          "explanation": "Se opone en la misma dimensión de cantidad disponible."
+        },
+        {
+          "text": "Livianos",
+          "explanation": "Se refiere al peso, una propiedad distinta."
+        },
+        {
+          "text": "Desordenados",
+          "explanation": "Se refiere a la organización, no a la cantidad."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca el cambio contrario en cantidad, no en peso ni orden.",
+      "solution": [
+        "Abundantes indica que hay una cantidad grande respecto de la necesidad.",
+        "Escasos invierte esa disponibilidad y mantiene el mismo eje."
+      ],
+      "id": "antonimia-contextual-04"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Comprensión de un mensaje",
+      "body": [],
+      "passage": {
+        "title": "La indicación",
+        "paragraphs": [
+          "La indicación fue precisa: especificó la fecha, la hora y el lugar de la reunión sin dejar datos por definir."
+        ]
+      },
+      "prompt": "¿Cuál es el antónimo más adecuado de precisa?",
+      "choices": [
+        {
+          "text": "Breve",
+          "explanation": "Una indicación puede ser breve y precisa a la vez."
+        },
+        {
+          "text": "Imprecisa",
+          "explanation": "Expresa falta de exactitud o delimitación, la propiedad opuesta."
+        },
+        {
+          "text": "Amable",
+          "explanation": "Se refiere al trato y puede coexistir con precisión."
+        }
+      ],
+      "correct": 1,
+      "hint": "Identifica la cualidad que demuestran los datos bien delimitados.",
+      "solution": [
+        "Precisa significa exacta y bien determinada en este mensaje.",
+        "Imprecisa niega esa delimitación; breve y amable hablan de otros aspectos."
+      ],
+      "id": "antonimia-contextual-05"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Una superficie",
+      "body": [],
+      "passage": {
+        "title": "La mesa del taller",
+        "paragraphs": [
+          "La superficie de la mesa era áspera. Al deslizar la mano, se notaban pequeñas irregularidades y fibras levantadas."
+        ]
+      },
+      "prompt": "¿Cuál es el opuesto contextual de áspera?",
+      "choices": [
+        {
+          "text": "Dura",
+          "explanation": "La dureza no determina si una superficie tiene irregularidades al tacto."
+        },
+        {
+          "text": "Clara",
+          "explanation": "El color o la iluminación no se oponen a la textura mencionada."
+        },
+        {
+          "text": "Lisa",
+          "explanation": "Se opone a la presencia de irregularidades en la textura de la superficie."
+        }
+      ],
+      "correct": 2,
+      "hint": "La pista es la sensación al deslizar la mano.",
+      "solution": [
+        "El texto activa el sentido táctil de áspera.",
+        "Lisa expresa la textura contraria; no cambia la dureza ni el color."
+      ],
+      "id": "antonimia-contextual-06"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Una decisión temporal",
+      "body": [],
+      "passage": {
+        "title": "El cambio de horario",
+        "paragraphs": [
+          "El cambio era provisional: se mantendría solo durante las reparaciones y luego se volvería al horario habitual."
+        ]
+      },
+      "prompt": "¿Qué palabra se opone mejor a provisional?",
+      "choices": [
+        {
+          "text": "Permanente",
+          "explanation": "Invierte el carácter temporal y limitado del cambio."
+        },
+        {
+          "text": "Reciente",
+          "explanation": "Se refiere a cuánto tiempo pasó desde que ocurrió, no a cuánto durará."
+        },
+        {
+          "text": "Inesperado",
+          "explanation": "Se refiere a si estaba previsto y puede coexistir con ser provisional."
+        }
+      ],
+      "correct": 0,
+      "hint": "Piensa en la duración prevista del cambio.",
+      "solution": [
+        "Solo durante las reparaciones define su carácter temporal.",
+        "Permanente expresa continuidad sin ese límite previsto."
+      ],
+      "id": "antonimia-contextual-07"
+    },
+    {
+      "level": 1,
+      "type": "review",
+      "title": "Cambia una propiedad, no todo el escenario",
+      "body": [
+        "El antónimo debe responder al mismo eje del significado. Áspera y frágil no se oponen: una superficie puede ser ambas. Abundante y desordenado tampoco.",
+        "La negación lógica y el opuesto léxico no siempre coinciden. No grande incluye tamaños medianos o pequeños; pequeño señala el extremo contrario de esa escala.",
+        "Si dudaste, redacta la oración con cada opción y verifica qué propiedad concreta cambia."
+      ],
+      "id": "antonimia-contextual-08"
+    },
+    {
+      "level": 2,
+      "type": "learn",
+      "title": "Tres formas de oposición",
+      "body": [
+        "Gradual: hay estados intermedios entre los extremos, como frío y caliente. Complementaria: en el marco definido, las categorías se excluyen y agotan las posibilidades, como encendido y apagado en un interruptor de dos estados.",
+        "Recíproca o relacional: el mismo vínculo se observa desde participantes distintos, como comprar y vender, o prestar y tomar prestado. No son simples grados de una escala.",
+        "El contexto fija el marco. Una clasificación binaria de aprobado y desaprobado funciona como complementaria si no existe una tercera categoría pendiente."
+      ],
+      "id": "antonimia-contextual-09"
+    },
+    {
+      "level": 2,
+      "type": "example",
+      "title": "Comprar y vender miran la misma transacción",
+      "body": [
+        "Si Ana compra una mochila a Luis, Luis vende esa mochila a Ana. El hecho es el mismo, pero cambian el punto de vista y las funciones de sus participantes.",
+        "Esta oposición es recíproca. No implica que Ana no compre o que Luis compre menos: presenta la misma transacción desde quien adquiere el bien y desde quien lo entrega, conservando quién realiza cada acción."
+      ],
+      "passage": {
+        "title": "La transacción",
+        "paragraphs": [
+          "Ana pagó por una mochila que Luis había puesto en venta. Ana la compró a Luis; desde la perspectiva de Luis, él la vendió a Ana."
+        ]
+      },
+      "id": "antonimia-contextual-10"
+    },
+    {
+      "level": 2,
+      "type": "explore",
+      "title": "Explora el tipo de oposición",
+      "body": [
+        "Toca cada relación y busca su prueba. La etiqueta solo es útil cuando puedes explicar cómo funciona."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Alto / bajo",
+            "text": "Gradual: existen alturas intermedias y la evaluación depende del referente."
+          },
+          {
+            "label": "Par / impar en números enteros",
+            "text": "Complementaria: todo entero pertenece a una de estas categorías y no a ambas."
+          },
+          {
+            "label": "Dar / recibir el mismo objeto",
+            "text": "Recíproca: si una persona lo da a otra, la otra lo recibe de ella."
+          },
+          {
+            "label": "Caliente / frío",
+            "text": "Gradual: un objeto puede estar tibio, entre los dos extremos."
+          }
+        ]
+      },
+      "id": "antonimia-contextual-11"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una escala con intermedios",
+      "body": [],
+      "passage": {
+        "title": "Las bebidas",
+        "paragraphs": [
+          "Una taza estaba caliente y otra fría. Entre ellas, una tercera conservaba una temperatura tibia, por lo que nadie la describió con ninguno de los dos extremos."
+        ]
+      },
+      "prompt": "¿Qué tipo de oposición existe entre caliente y fría?",
+      "choices": [
+        {
+          "text": "Complementaria",
+          "explanation": "La existencia de tibia muestra que no agotan las posibilidades."
+        },
+        {
+          "text": "Recíproca",
+          "explanation": "No cambia el papel de dos participantes de una relación."
+        },
+        {
+          "text": "Gradual",
+          "explanation": "Las temperaturas pueden ubicarse entre ambos extremos."
+        }
+      ],
+      "correct": 2,
+      "hint": "La tercera taza es la prueba decisiva.",
+      "solution": [
+        "Tibia es un estado intermedio.",
+        "La presencia de grados entre los extremos permite clasificar la oposición como gradual."
+      ],
+      "id": "antonimia-contextual-12"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Un marco binario explícito",
+      "body": [],
+      "passage": {
+        "title": "El registro de piezas",
+        "paragraphs": [
+          "En ese registro solo se aceptan dos estados: presente si la pieza está en la caja, o ausente si no está. No se admite una categoría intermedia ni un registro pendiente."
+        ]
+      },
+      "prompt": "¿Cómo se oponen presente y ausente en este sistema?",
+      "choices": [
+        {
+          "text": "De forma complementaria",
+          "explanation": "El marco define dos categorías excluyentes que cubren todos los estados admitidos."
+        },
+        {
+          "text": "De forma gradual",
+          "explanation": "No hay un grado intermedio aceptado entre las dos categorías."
+        },
+        {
+          "text": "De forma recíproca",
+          "explanation": "No se describe el mismo vínculo desde dos participantes distintos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa las condiciones explícitas de ese registro.",
+      "solution": [
+        "El sistema establece exactamente dos posibilidades.",
+        "No pueden coincidir y no hay una tercera: la oposición es complementaria en ese marco."
+      ],
+      "id": "antonimia-contextual-13"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Invierte los participantes",
+      "body": [],
+      "passage": {
+        "title": "El cuaderno",
+        "paragraphs": [
+          "Marta prestó su cuaderno a Joel durante una tarde. Joel lo recibió con el compromiso de devolverlo al día siguiente."
+        ]
+      },
+      "prompt": "¿Qué oración expresa la relación recíproca de prestar?",
+      "choices": [
+        {
+          "text": "Joel regaló el cuaderno a Marta",
+          "explanation": "Introduce una transferencia definitiva y cambia el hecho narrado."
+        },
+        {
+          "text": "Joel tomó prestado el cuaderno de Marta",
+          "explanation": "Presenta la misma relación temporal desde quien recibe el préstamo."
+        },
+        {
+          "text": "Marta perdió el cuaderno de Joel",
+          "explanation": "Cambia propietario, acción y relación: no es el mismo hecho."
+        }
+      ],
+      "correct": 1,
+      "hint": "Conserva el objeto y el préstamo; cambia solo la perspectiva.",
+      "solution": [
+        "Marta es quien entrega temporalmente su cuaderno.",
+        "Joel lo toma prestado: los papeles se invierten sin alterar la relación."
+      ],
+      "id": "antonimia-contextual-14"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Distingue diferencia de oposición",
+      "body": [],
+      "passage": {
+        "title": "Las piezas",
+        "paragraphs": [
+          "Dos piezas tenían el mismo tamaño y distinto color: una era verde y otra amarilla. Ambas eran ligeras, aunque la verde soportaba más peso antes de deformarse."
+        ]
+      },
+      "prompt": "¿Qué par sí presenta una oposición en una escala de peso?",
+      "choices": [
+        {
+          "text": "Verde y amarilla",
+          "explanation": "Son colores diferentes, pero no extremos de una escala de peso."
+        },
+        {
+          "text": "Verde y resistente",
+          "explanation": "Pertenecen a propiedades distintas y no se oponen."
+        },
+        {
+          "text": "Ligera y pesada",
+          "explanation": "Se sitúan en extremos de la dimensión de peso de una pieza."
+        }
+      ],
+      "correct": 2,
+      "hint": "No toda diferencia constituye antonimia.",
+      "solution": [
+        "El eje pedido es peso.",
+        "Ligera y pesada contrastan en ese mismo eje; los colores solo difieren entre sí."
+      ],
+      "id": "antonimia-contextual-15"
+    },
+    {
+      "level": 2,
+      "type": "review",
+      "title": "La prueba cambia según la relación",
+      "body": [
+        "Para una oposición gradual, busca un intermedio posible. Para una complementaria, revisa si el marco admite solo dos categorías. Para una recíproca, intercambia a los participantes sin cambiar la relación.",
+        "No uses complementario como sinónimo de cualquier opuesto. Que dos palabras sean contrarias no demuestra que cubran todas las posibilidades.",
+        "No fuerces parejas de distintos ejes. Comprar y barato hablan de una actividad y un precio, no de perspectivas inversas de una misma transacción."
+      ],
+      "id": "antonimia-contextual-16"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Opuestos en sentidos figurados",
+      "body": [
+        "Cuando el texto usa un sentido figurado, la oposición debe conservar ese uso. Una recepción fría puede oponerse a una acogedora o cordial si se habla de trato, no de temperatura.",
+        "También importa el alcance. Refutar un argumento se opone a respaldarlo en una discusión, pero no equivale a criticar cualquier aspecto del autor.",
+        "Define el rasgo contextual antes de buscar la palabra contraria. Eso evita elegir un antónimo correcto en otro sentido."
+      ],
+      "id": "antonimia-contextual-17"
+    },
+    {
+      "level": 3,
+      "type": "example",
+      "title": "Una actitud abierta",
+      "body": [
+        "El texto define abierta por la disposición de Sara a escuchar y revisar. La oposición pertinente es cerrada a considerar otras razones.",
+        "Descortés no es equivalente: alguien puede escuchar ideas con un trato poco amable, o ser muy cortés sin reconsiderar su postura."
+      ],
+      "passage": {
+        "title": "La revisión",
+        "paragraphs": [
+          "Sara mantuvo una actitud abierta durante la revisión. Escuchó objeciones, pidió ejemplos y estuvo dispuesta a modificar su propuesta si aparecían razones suficientes."
+        ]
+      },
+      "id": "antonimia-contextual-18"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "No siempre basta añadir no",
+      "body": [
+        "Negar una palabra puede producir un conjunto más amplio que su antónimo. Una respuesta no convincente puede ser dudosa o débil; una respuesta refutada ya ha recibido una objeción que la invalida.",
+        "En ejercicios contextuales, conserva lo que el texto dice y cambia el rasgo solicitado. No añadas causas, intenciones o resultados que no pertenecen al eje de oposición."
+      ],
+      "id": "antonimia-contextual-19"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una acogida fría",
+      "body": [],
+      "passage": {
+        "title": "La visita",
+        "paragraphs": [
+          "La bienvenida fue fría: apenas saludaron a la delegación y continuaron conversando entre ellos. El salón tenía buena temperatura; la incomodidad provenía del trato distante."
+        ]
+      },
+      "prompt": "¿Cuál es el antónimo contextual más preciso de fría?",
+      "choices": [
+        {
+          "text": "Ardiente",
+          "explanation": "Activa un sentido térmico o de gran intensidad que no corresponde al trato descrito."
+        },
+        {
+          "text": "Cordial",
+          "explanation": "Se opone al trato distante mediante una disposición amable y acogedora."
+        },
+        {
+          "text": "Ruidosa",
+          "explanation": "El volumen del saludo no determina si el trato es cercano o distante."
+        }
+      ],
+      "correct": 1,
+      "hint": "La última oración descarta la temperatura.",
+      "solution": [
+        "Fría describe distancia en la relación social.",
+        "Cordial conserva ese eje y expresa el trato contrario."
+      ],
+      "id": "antonimia-contextual-20"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una medida flexible",
+      "body": [],
+      "passage": {
+        "title": "La organización",
+        "paragraphs": [
+          "La regla era flexible: permitía cambiar el orden de las tareas cuando una necesidad concreta lo justificaba, sin abandonar el objetivo del trabajo."
+        ]
+      },
+      "prompt": "¿Qué palabra expresa mejor la propiedad opuesta a flexible?",
+      "choices": [
+        {
+          "text": "Rígida",
+          "explanation": "Se opone a la posibilidad de adaptar la regla según las circunstancias."
+        },
+        {
+          "text": "Inútil",
+          "explanation": "Una regla flexible o rígida puede ser útil o inútil; es otra evaluación."
+        },
+        {
+          "text": "Física",
+          "explanation": "No se habla de un material que se doble, sino de una norma adaptable."
+        }
+      ],
+      "correct": 0,
+      "hint": "Busca la oposición dentro de la adaptación de normas.",
+      "solution": [
+        "Flexible significa adaptable en el contexto de una regla.",
+        "Rígida mantiene el mismo ámbito e invierte su capacidad de ajuste."
+      ],
+      "id": "antonimia-contextual-21"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Transparencia de una gestión",
+      "body": [],
+      "passage": {
+        "title": "El fondo común",
+        "paragraphs": [
+          "La gestión del fondo era transparente: los ingresos, los gastos y sus comprobantes estaban disponibles para cualquier integrante. Cada movimiento podía revisarse y relacionarse con una actividad aprobada."
+        ]
+      },
+      "prompt": "¿Qué expresión se opone a transparente en este contexto?",
+      "choices": [
+        {
+          "text": "De color oscuro",
+          "explanation": "Escoge el sentido óptico, pero el texto trata de acceso a información."
+        },
+        {
+          "text": "Muy costosa",
+          "explanation": "El costo no es el eje de la transparencia de una gestión."
+        },
+        {
+          "text": "Opaca en el manejo de información",
+          "explanation": "Se opone a la disponibilidad y claridad de los registros de la gestión."
+        }
+      ],
+      "correct": 2,
+      "hint": "El rasgo definido por el texto es la posibilidad de revisar los movimientos.",
+      "solution": [
+        "Transparente significa que la información de gestión es accesible y verificable.",
+        "Opaca en el manejo de información invierte ese rasgo sin cambiarlo por color o costo."
+      ],
+      "id": "antonimia-contextual-22"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una conclusión cauta",
+      "body": [],
+      "passage": {
+        "title": "El resultado",
+        "paragraphs": [
+          "La conclusión del informe fue cauta. Reconoció que el ensayo aportaba una señal favorable, pero evitó asegurar que el efecto se repetiría en todas las condiciones. Solicitó más observaciones antes de formular una afirmación general."
+        ]
+      },
+      "prompt": "¿Qué expresión funciona como opuesto contextual de cauta?",
+      "choices": [
+        {
+          "text": "Extensa",
+          "explanation": "La longitud no se opone al cuidado con que se limita una conclusión."
+        },
+        {
+          "text": "Tajante y sin reservas",
+          "explanation": "Invierte la prudencia de no asegurar más de lo que muestran los datos."
+        },
+        {
+          "text": "Comprensible",
+          "explanation": "Una conclusión puede ser comprensible y cauta a la vez."
+        }
+      ],
+      "correct": 1,
+      "hint": "Observa cómo se limita el grado de seguridad de la afirmación.",
+      "solution": [
+        "Cauta se concreta en evitar generalizaciones y pedir más observaciones.",
+        "Tajante y sin reservas expresa el extremo contrario en la forma de afirmar."
+      ],
+      "id": "antonimia-contextual-23"
+    },
+    {
+      "level": 3,
+      "type": "review",
+      "title": "Explica tu elección con un eje",
+      "body": [
+        "Si puedes decir se oponen en ___ y completar con un mismo rasgo, tienes una buena base: cordial y fría en el trato; flexible y rígida en adaptación; transparente y opaca en acceso a información.",
+        "Si fallaste, revisa si elegiste otro sentido de la palabra, cambiaste de propiedad o tomaste una diferencia cualquiera como oposición.",
+        "Al volver a practicar, conserva la oración y modifica solo una palabra o expresión. La oposición correcta debe cambiar el rasgo pedido sin inventar otra historia."
+      ],
+      "id": "antonimia-contextual-24"
+    }
+  ]
+}

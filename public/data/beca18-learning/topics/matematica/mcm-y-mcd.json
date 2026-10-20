@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/mcm-y-mcd",
+  "course": "matematica",
+  "slug": "mcm-y-mcd",
+  "title": "MCM y MCD",
+  "description": "Elige entre agrupar sin sobrantes y encontrar coincidencias periódicas.",
+  "version": 1,
+  "order": 4,
+  "estimatedMinutes": 24,
+  "objectives": [
+    "Distinguir divisor común de múltiplo común.",
+    "Calcular MCD y MCM con factores primos.",
+    "Resolver agrupaciones, coincidencias y condiciones mixtas."
+  ],
+  "steps": [
+    {
+      "id": "mcm-y-mcd-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Dos preguntas diferentes",
+      "body": [
+        "El máximo común divisor, MCD, es el mayor número natural que divide exactamente a dos o más cantidades. Sirve para buscar el mayor tamaño común de grupos o piezas.",
+        "El mínimo común múltiplo, MCM, es el menor múltiplo positivo compartido. Sirve para encontrar la primera coincidencia de ciclos o la menor cantidad que admite varios tamaños de grupo.",
+        "Para 6 y 8, el MCD es 2 y el MCM es 24. Uno no puede reemplazar al otro."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-02",
+      "level": 1,
+      "type": "example",
+      "title": "Agrupar o esperar",
+      "body": [
+        "Con 12 lápices y 18 borradores quieres armar paquetes idénticos usando todo. Para maximizar el número de paquetes, ese número debe dividir a 12 y a 18: MCD(12,18) = 6. Cada paquete tendrá 2 lápices y 3 borradores.",
+        "Si una luz destella cada 12 segundos y otra cada 18, y destellan juntas ahora, la siguiente coincidencia ocurre en MCM(12,18) = 36 segundos.",
+        "La palabra mayor no basta para elegir: identifica qué debe dividir a qué."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Compara divisores",
+      "body": [
+        "Prueba 12 y luego 18 en el explorador. Anota qué divisores aparecen en ambos casos. El mayor de ellos es 6.",
+        "Ahora piensa en sus múltiplos: 12, 24, 36… y 18, 36… La primera coincidencia positiva es 36."
+      ],
+      "diagram": {
+        "kind": "factors",
+        "value": 12
+      }
+    },
+    {
+      "id": "mcm-y-mcd-04",
+      "level": 1,
+      "type": "question",
+      "title": "Divisores compartidos",
+      "body": [],
+      "prompt": "¿Cuál es el MCD de 8 y 12?",
+      "choices": [
+        {
+          "text": "2",
+          "explanation": "2 divide a ambos, pero no es el mayor divisor común."
+        },
+        {
+          "text": "4",
+          "explanation": "4 divide a 8 y a 12, y ningún divisor común es mayor."
+        },
+        {
+          "text": "24",
+          "explanation": "24 es el MCM, no un divisor de 8 y 12."
+        }
+      ],
+      "correct": 1,
+      "hint": "Lista los divisores de ambos números y busca el mayor compartido.",
+      "solution": [
+        "Divisores de 8: 1, 2, 4, 8.",
+        "Divisores de 12: 1, 2, 3, 4, 6, 12.",
+        "El mayor compartido es 4."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-05",
+      "level": 1,
+      "type": "question",
+      "title": "Primera coincidencia",
+      "body": [],
+      "prompt": "¿Cuál es el MCM de 4 y 6?",
+      "choices": [
+        {
+          "text": "2",
+          "explanation": "2 es el MCD; no es múltiplo de 4 ni de 6."
+        },
+        {
+          "text": "24",
+          "explanation": "24 es común, pero existe uno positivo menor: 12."
+        },
+        {
+          "text": "12",
+          "explanation": "12 = 4 × 3 = 6 × 2 y es la primera coincidencia positiva."
+        }
+      ],
+      "correct": 2,
+      "hint": "Escribe múltiplos de 4 y de 6.",
+      "solution": [
+        "Múltiplos de 4: 4, 8, 12…",
+        "Múltiplos de 6: 6, 12…",
+        "MCM = 12."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-06",
+      "level": 1,
+      "type": "question",
+      "title": "Todo en paquetes iguales",
+      "body": [],
+      "prompt": "Tienes 15 fichas verdes y 25 azules. Quieres el mayor número de paquetes idénticos sin que sobre ninguna. ¿Cuántos paquetes formas?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "5 es el mayor número que divide tanto a 15 como a 25."
+        },
+        {
+          "text": "15",
+          "explanation": "25 no se puede repartir exactamente entre 15 paquetes idénticos."
+        },
+        {
+          "text": "75",
+          "explanation": "75 es el MCM y excede las cantidades disponibles para cada color."
+        }
+      ],
+      "correct": 0,
+      "hint": "El número de paquetes debe ser divisor de ambas cantidades.",
+      "solution": [
+        "MCD(15,25) = 5.",
+        "En cada paquete: 15/5 = 3 verdes y 25/5 = 5 azules."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-07",
+      "level": 1,
+      "type": "question",
+      "title": "Ritmos que se encuentran",
+      "body": [],
+      "prompt": "Dos campanas suenan juntas ahora. Una repite cada 5 minutos y otra cada 8. ¿Dentro de cuántos minutos volverán a coincidir por primera vez?",
+      "choices": [
+        {
+          "text": "13",
+          "explanation": "Sumar los periodos no garantiza una coincidencia."
+        },
+        {
+          "text": "40",
+          "explanation": "40 es el menor múltiplo positivo de 5 y de 8."
+        },
+        {
+          "text": "3",
+          "explanation": "Restar los periodos no da el tiempo de coincidencia."
+        }
+      ],
+      "correct": 1,
+      "hint": "El tiempo transcurrido debe ser un múltiplo de ambos periodos.",
+      "solution": [
+        "Múltiplos de 5: 5, 10, 15, …, 40.",
+        "El primer múltiplo de 8 también múltiplo de 5 es 40."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-08",
+      "level": 1,
+      "type": "review",
+      "title": "Elige por la relación",
+      "body": [
+        "Para paquetes idénticos usando todo, el número de paquetes divide a cada cantidad: busca un divisor común. Para la primera coincidencia futura, el tiempo contiene periodos completos: busca un múltiplo común.",
+        "El MCD puede ser 1; el MCM siempre es positivo. El instante cero puede ser una coincidencia, pero no es el MCM ni la siguiente coincidencia futura."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Factores primos: menores y mayores exponentes",
+      "body": [
+        "Para hallar el MCD, conserva solo los primos que aparecen en todas las cantidades, cada uno con su menor exponente.",
+        "Para hallar el MCM, incluye todos los primos presentes, cada uno con su mayor exponente.",
+        "Ejemplo: 24 = 2³ × 3 y 36 = 2² × 3². MCD = 2² × 3 = 12; MCM = 2³ × 3² = 72."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-10",
+      "level": 2,
+      "type": "example",
+      "title": "Tres longitudes, un mismo corte",
+      "body": [
+        "Se cortarán cintas de 48, 60 y 84 cm en trozos iguales lo más largos posible, sin desperdicio.",
+        "48 = 2⁴ × 3; 60 = 2² × 3 × 5; 84 = 2² × 3 × 7. Los factores presentes en las tres son 2² y 3.",
+        "MCD = 2² × 3 = 12 cm. Se obtienen 4 + 5 + 7 = 16 trozos. La longitud de cada trozo y la cantidad de trozos son respuestas distintas."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Comprobaciones que detectan errores",
+      "body": [
+        "El MCD debe dividir a cada cantidad; el MCM debe ser divisible entre cada una. Para dos naturales positivos a y b, MCD(a,b) × MCM(a,b) = a × b.",
+        "La identidad anterior corresponde a dos números; no se aplica multiplicando sin cambios tres números.",
+        "Si uno de los números divide al otro, el menor es el MCD y el mayor es el MCM. Si son coprimos, el MCD es 1 y el MCM es su producto."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-12",
+      "level": 2,
+      "type": "question",
+      "title": "Aplica exponentes menores",
+      "body": [],
+      "prompt": "Si 40 = 2³ × 5 y 60 = 2² × 3 × 5, ¿cuál es su MCD?",
+      "choices": [
+        {
+          "text": "10",
+          "explanation": "10 es común, pero se puede conservar 2², no solo un factor 2."
+        },
+        {
+          "text": "20",
+          "explanation": "Los factores compartidos con menor exponente son 2² y 5; su producto es 20."
+        },
+        {
+          "text": "120",
+          "explanation": "120 incluye todos los factores con exponentes mayores: es el MCM."
+        }
+      ],
+      "correct": 1,
+      "hint": "Para el MCD, el primo 3 queda fuera porque falta en 40.",
+      "solution": [
+        "MCD = 2² × 5.",
+        "MCD = 4 × 5 = 20."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-13",
+      "level": 2,
+      "type": "question",
+      "title": "Incluye lo necesario",
+      "body": [],
+      "prompt": "¿Cuál es el MCM de 18 y 24?",
+      "choices": [
+        {
+          "text": "6",
+          "explanation": "6 es el MCD y no contiene ambos números como divisores."
+        },
+        {
+          "text": "72",
+          "explanation": "18 = 2 × 3² y 24 = 2³ × 3; con exponentes máximos: 2³ × 3² = 72."
+        },
+        {
+          "text": "432",
+          "explanation": "El producto 18 × 24 es común, pero cuenta factores compartidos de más."
+        }
+      ],
+      "correct": 1,
+      "hint": "Toma la mayor potencia de 2 y la mayor potencia de 3.",
+      "solution": [
+        "18 = 2 × 3². 24 = 2³ × 3.",
+        "MCM = 2³ × 3² = 8 × 9 = 72."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-14",
+      "level": 2,
+      "type": "question",
+      "title": "Un número contiene al otro",
+      "body": [],
+      "prompt": "¿Cuáles son el MCD y el MCM de 14 y 42, en ese orden?",
+      "choices": [
+        {
+          "text": "14 y 42",
+          "explanation": "14 divide a 42; el menor es el mayor divisor compartido y el mayor es el menor múltiplo compartido."
+        },
+        {
+          "text": "7 y 84",
+          "explanation": "7 es un divisor común y 84 un múltiplo común, pero ninguno es el extremo solicitado."
+        },
+        {
+          "text": "42 y 14",
+          "explanation": "El orden está invertido: 42 no divide a 14."
+        }
+      ],
+      "correct": 0,
+      "hint": "Comprueba si el mayor es un múltiplo entero del menor.",
+      "solution": [
+        "42 = 14 × 3.",
+        "MCD = 14 y MCM = 42."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-15",
+      "level": 2,
+      "type": "question",
+      "title": "Tres cantidades",
+      "body": [],
+      "prompt": "¿Cuál es el MCD de 36, 54 y 90?",
+      "choices": [
+        {
+          "text": "6",
+          "explanation": "6 es común, pero 18 también divide a las tres cantidades."
+        },
+        {
+          "text": "18",
+          "explanation": "36 = 2² × 3², 54 = 2 × 3³ y 90 = 2 × 3² × 5: se comparte 2 × 3²."
+        },
+        {
+          "text": "54",
+          "explanation": "54 no divide a 36 ni a 90."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca los factores comunes a las tres, no solo a dos.",
+      "solution": [
+        "Los mínimos exponentes comunes son 2¹ y 3².",
+        "MCD = 2 × 9 = 18."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-16",
+      "level": 2,
+      "type": "review",
+      "title": "Revisa el resultado por división",
+      "body": [
+        "Si afirmas que el MCD de 24 y 36 es 18, prueba 24 ÷ 18: no es entero y detecta el error. Si afirmas que su MCM es 48, prueba 48 ÷ 36: tampoco es entero.",
+        "Una respuesta que cumple ser común aún puede no ser la mayor o la menor. La factorización prima permite justificar el extremo buscado.",
+        "Cuando hay tres cantidades, exige la condición en todas ellas. No basta con resolver una pareja."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Del resultado a la pregunta real",
+      "body": [
+        "En un problema de cortes, hallar la longitud máxima no responde cuántas piezas hay. Divide cada longitud inicial entre el MCD y suma los cocientes si piden el total de piezas.",
+        "En ciclos, distingue tiempo transcurrido de hora del reloj. Si coinciden a las 8:10 y vuelven a coincidir 45 minutos después, la respuesta horaria es 8:55.",
+        "Si preguntan coincidencias dentro de un intervalo, decide si se incluye el momento inicial y si el extremo final se cuenta."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-18",
+      "level": 3,
+      "type": "example",
+      "title": "Coincidencias en un intervalo",
+      "body": [
+        "Dos señales coinciden a las 9:00. Sus periodos son 12 y 20 minutos. ¿Cuántas veces coinciden después de las 9:00 y hasta las 12:00 inclusive?",
+        "MCM(12,20) = 60 minutos. El intervalo dura 180 minutos. Las coincidencias futuras ocurren a los 60, 120 y 180 minutos.",
+        "Hay 3 coincidencias. No contamos las 9:00 porque el enunciado dice después; sí contamos las 12:00 porque está incluida."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Combina condiciones",
+      "body": [
+        "Si una cantidad debe repartirse en grupos de 8 o de 12 sin sobrar, es múltiplo de MCM(8,12) = 24. Si además debe superar 100, busca el primer múltiplo de 24 mayor que 100: 120.",
+        "Si conoces MCD y MCM de dos números y uno de ellos, el otro se obtiene con la identidad del producto. Después verifica que el MCD y el MCM sí coincidan con los datos.",
+        "Traducir todas las restricciones antes de calcular evita elegir un múltiplo válido que quede fuera del intervalo pedido."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-20",
+      "level": 3,
+      "type": "question",
+      "title": "Longitud y cantidad",
+      "body": [],
+      "prompt": "Cortas cintas de 72 y 120 cm en trozos iguales de máxima longitud, sin sobrantes. ¿Cuántos trozos obtienes en total?",
+      "choices": [
+        {
+          "text": "24",
+          "explanation": "24 cm es la longitud de cada trozo, pero se pregunta la cantidad total."
+        },
+        {
+          "text": "8",
+          "explanation": "El MCD es 24; se obtienen 72/24 = 3 y 120/24 = 5: en total 8."
+        },
+        {
+          "text": "192",
+          "explanation": "192 cm es la longitud acumulada antes de cortar, no el número de trozos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Primero halla el MCD y luego divide ambas longitudes entre él.",
+      "solution": [
+        "MCD(72,120) = 24 cm.",
+        "72/24 + 120/24 = 3 + 5 = 8 trozos."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-21",
+      "level": 3,
+      "type": "question",
+      "title": "Cuenta coincidencias",
+      "body": [],
+      "prompt": "Dos relojes emiten una señal juntos ahora y después cada 15 y 20 minutos. En los próximos 180 minutos, sin contar ahora e incluyendo el minuto 180, ¿cuántas veces coinciden?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "Coinciden cada 60 minutos: en 60, 120 y 180."
+        },
+        {
+          "text": "4",
+          "explanation": "4 incluye el momento inicial, que el enunciado excluye."
+        },
+        {
+          "text": "9",
+          "explanation": "9 cuenta las señales de uno de los relojes, no las coincidencias."
+        }
+      ],
+      "correct": 0,
+      "hint": "Primero encuentra el periodo común y revisa los extremos.",
+      "solution": [
+        "MCM(15,20) = 60 minutos.",
+        "180/60 = 3 coincidencias futuras, incluida la del minuto 180."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-22",
+      "level": 3,
+      "type": "question",
+      "title": "La menor cantidad permitida",
+      "body": [],
+      "prompt": "Una colección de más de 100 tarjetas puede agruparse de 8 en 8 o de 12 en 12 sin sobrar. ¿Cuál es la menor cantidad posible?",
+      "choices": [
+        {
+          "text": "96",
+          "explanation": "96 cumple ambas agrupaciones, pero no es mayor que 100."
+        },
+        {
+          "text": "108",
+          "explanation": "108 es múltiplo de 12, pero no de 8."
+        },
+        {
+          "text": "120",
+          "explanation": "Los múltiplos comunes son múltiplos de 24; el primero mayor que 100 es 120."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca múltiplos del MCM hasta superar 100.",
+      "solution": [
+        "MCM(8,12) = 24.",
+        "24 × 4 = 96 y 24 × 5 = 120.",
+        "La menor cantidad admisible es 120."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-23",
+      "level": 3,
+      "type": "question",
+      "title": "Recupera un dato",
+      "body": [],
+      "prompt": "Dos números positivos tienen MCD 6 y MCM 180. Uno es 30. ¿Cuál es el otro?",
+      "choices": [
+        {
+          "text": "36",
+          "explanation": "6 × 180 = 30 × b da b = 36; además MCD(30,36) = 6 y MCM = 180."
+        },
+        {
+          "text": "6",
+          "explanation": "6 es el MCD dado; con 30 tendría MCM 30, no 180."
+        },
+        {
+          "text": "180",
+          "explanation": "180 junto con 30 tendría MCD 30, distinto del dato."
+        }
+      ],
+      "correct": 0,
+      "hint": "Usa MCD × MCM = producto de los dos números.",
+      "solution": [
+        "6 × 180 = 30 × b.",
+        "b = 1 080/30 = 36.",
+        "Comprobamos MCD(30,36) = 6 y MCM(30,36) = 180."
+      ]
+    },
+    {
+      "id": "mcm-y-mcd-24",
+      "level": 3,
+      "type": "review",
+      "title": "Una lista de control útil",
+      "body": [
+        "Identifica si buscas divisor o múltiplo; calcula el extremo correcto; vuelve a la unidad pedida; y revisa cada condición de intervalo o cantidad.",
+        "El MCD puede representar longitud de un corte o cantidad de paquetes, según la relación que divide. No memorices una sola palabra clave.",
+        "Para periodos, escribe las horas de coincidencia si te ayuda a comprobar inclusiones y evitar contar el instante inicial dos veces."
+      ]
+    }
+  ]
+}

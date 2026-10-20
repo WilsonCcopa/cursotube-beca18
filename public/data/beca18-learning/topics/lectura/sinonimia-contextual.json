@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/sinonimia-contextual",
+  "course": "lectura",
+  "slug": "sinonimia-contextual",
+  "title": "Sinonimia contextual",
+  "description": "Elige palabras equivalentes según el contexto, el matiz y la construcción.",
+  "version": 1,
+  "order": 3,
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Seleccionar el sentido activo de una palabra.",
+    "Sustituir expresiones sin cambiar el mensaje.",
+    "Conservar grado de certeza, intensidad y tono."
+  ],
+  "steps": [
+    {
+      "level": 1,
+      "type": "learn",
+      "title": "El contexto elige el sentido",
+      "body": [
+        "Dos expresiones son sinónimas en un contexto si pueden intercambiarse sin alterar el sentido relevante del mensaje. No basta recordar que alguna vez significaron algo parecido.",
+        "Una palabra puede tener varios sentidos. En una solución clara, clara significa comprensible; en agua clara puede aludir a su transparencia. El reemplazo depende de lo que se afirma.",
+        "Método: lee la oración completa, explica la palabra con tus términos, prueba cada alternativa y comprueba significado, gramática y tono."
+      ],
+      "id": "sinonimia-contextual-01"
+    },
+    {
+      "level": 1,
+      "type": "example",
+      "title": "Una mesa firme",
+      "body": [
+        "Firme no se refiere aquí a una voluntad decidida, sino a la estabilidad de un objeto. El contexto añade sin oscilar para fijar ese sentido.",
+        "Sustitución resuelta: la mesa quedó estable. Dura se referiría a la resistencia del material, que no es lo que demuestra la ausencia de movimiento; decidida describiría una actitud humana."
+      ],
+      "passage": {
+        "title": "El ajuste",
+        "paragraphs": [
+          "El equipo ajustó las patas y comprobó que todas apoyaran en el suelo. Después del arreglo, la mesa quedó firme: sostuvo los materiales sin oscilar cuando alguien se apoyó suavemente en un borde."
+        ]
+      },
+      "id": "sinonimia-contextual-02"
+    },
+    {
+      "level": 1,
+      "type": "explore",
+      "title": "Una palabra, varios contextos",
+      "body": [
+        "Toca cada contexto de ligero y observa qué significado selecciona. El contexto completo tiene prioridad sobre la semejanza entre palabras."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Mochila ligera",
+            "text": "Pesa poco. Un reemplazo pertinente es liviana."
+          },
+          {
+            "label": "Comida ligera",
+            "text": "En este uso, poco abundante o fácil de digerir según lo que añada el texto."
+          },
+          {
+            "label": "Sueño ligero",
+            "text": "Se interrumpe con facilidad. No significa que el sueño pese poco."
+          },
+          {
+            "label": "Revisión ligera",
+            "text": "Puede ser superficial o poco detenida. Hace falta leer el resto para precisar."
+          }
+        ]
+      },
+      "id": "sinonimia-contextual-03"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Clara por lo que permite entender",
+      "body": [],
+      "passage": {
+        "title": "La explicación",
+        "paragraphs": [
+          "La explicación fue clara: cada término nuevo apareció acompañado de un ejemplo sencillo. Al terminar, el grupo pudo seguir el procedimiento sin pedir que se repitieran las instrucciones."
+        ]
+      },
+      "prompt": "¿Qué palabra sustituye mejor a clara?",
+      "choices": [
+        {
+          "text": "Visible",
+          "explanation": "Que algo pueda verse no implica que su contenido sea comprensible. Aquí se destaca que el grupo entendió la explicación."
+        },
+        {
+          "text": "Comprensible",
+          "explanation": "Los ejemplos y la comprensión del procedimiento fijan este sentido."
+        },
+        {
+          "text": "Brillante",
+          "explanation": "Puede valorar la calidad de una idea, pero no garantiza que se entienda con facilidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "Relaciona la palabra con el efecto descrito en los oyentes.",
+      "solution": [
+        "La explicación permitió entender y seguir un procedimiento.",
+        "Comprensible conserva ese sentido y encaja en explicación comprensible."
+      ],
+      "id": "sinonimia-contextual-04"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Un registro breve",
+      "body": [],
+      "passage": {
+        "title": "La nota del encargado",
+        "paragraphs": [
+          "El encargado dejó una nota breve en la puerta. En solo dos líneas indicó el nuevo horario y el lugar donde se atenderían las devoluciones."
+        ]
+      },
+      "prompt": "¿Cuál es el reemplazo más preciso de breve?",
+      "choices": [
+        {
+          "text": "Corta",
+          "explanation": "La referencia a dos líneas señala poca extensión del escrito."
+        },
+        {
+          "text": "Apresurada",
+          "explanation": "Una nota puede ser corta sin haber sido escrita con prisa."
+        },
+        {
+          "text": "Temporal",
+          "explanation": "Breve puede aludir a duración, pero aquí se refiere a la extensión de la nota."
+        }
+      ],
+      "correct": 0,
+      "hint": "Las dos líneas son la pista que delimita el sentido.",
+      "solution": [
+        "El texto mide la extensión de la nota por sus líneas.",
+        "Corta conserva ese rasgo; no se informa cómo ni cuánto tiempo tardó en escribirla."
+      ],
+      "id": "sinonimia-contextual-05"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Una tarea compleja",
+      "body": [],
+      "passage": {
+        "title": "El armado",
+        "paragraphs": [
+          "El armado era complejo: había que ajustar piezas de tamaños distintos y seguir varias relaciones entre ellas. Por eso, el grupo decidió revisar el esquema antes de comenzar."
+        ]
+      },
+      "prompt": "¿Qué significa complejo en este contexto?",
+      "choices": [
+        {
+          "text": "Completo",
+          "explanation": "Completo indica que no falta ninguna parte; el texto habla de dificultad y relaciones."
+        },
+        {
+          "text": "Enorme",
+          "explanation": "La dificultad no implica necesariamente un gran tamaño."
+        },
+        {
+          "text": "Complicado",
+          "explanation": "Las piezas y relaciones múltiples hacen que la tarea requiera atención y resulte difícil."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue cantidad de partes, totalidad y dificultad de coordinarlas.",
+      "solution": [
+        "La explicación destaca relaciones que dificultan el armado.",
+        "Complicado conserva el sentido contextual sin añadir tamaño ni ausencia de partes."
+      ],
+      "id": "sinonimia-contextual-06"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Un recurso escaso",
+      "body": [],
+      "passage": {
+        "title": "Los materiales",
+        "paragraphs": [
+          "El papel era escaso en el taller: quedaban unas pocas hojas y aún faltaban varios carteles. El grupo aprovechó los reversos limpios de borradores antiguos."
+        ]
+      },
+      "prompt": "¿Qué expresión equivale mejor a escaso?",
+      "choices": [
+        {
+          "text": "De mala calidad",
+          "explanation": "No se describe el estado del papel, sino cuánto quedaba."
+        },
+        {
+          "text": "Poco abundante",
+          "explanation": "Unas pocas hojas fija un sentido relacionado con cantidad limitada."
+        },
+        {
+          "text": "Muy caro",
+          "explanation": "La escasez puede influir en un precio, pero el texto no informa costos."
+        }
+      ],
+      "correct": 1,
+      "hint": "No conviertas una consecuencia posible en significado de la palabra.",
+      "solution": [
+        "La oración explica escaso mediante quedaban unas pocas hojas.",
+        "Poco abundante conserva la información sobre disponibilidad, sin añadir precio o calidad."
+      ],
+      "id": "sinonimia-contextual-07"
+    },
+    {
+      "level": 1,
+      "type": "review",
+      "title": "Evita asociaciones automáticas",
+      "body": [
+        "Si elegiste una palabra vinculada al tema pero no equivalente, prueba la sustitución en voz baja. Papel caro y papel escaso pueden relacionarse, pero no comunican lo mismo.",
+        "Si una opción sirve en otro sentido de la palabra, vuelve a las pistas: dos líneas define extensión; pocos materiales define disponibilidad; seguir instrucciones define comprensión.",
+        "La mejor sustitución mantiene la idea y la relación de la palabra con sus complementos."
+      ],
+      "id": "sinonimia-contextual-08"
+    },
+    {
+      "level": 2,
+      "type": "learn",
+      "title": "Polisemia y expresiones completas",
+      "body": [
+        "La polisemia es la presencia de varios sentidos relacionados en una palabra. Resolver sinonimia contextual exige identificar cuál está activo y descartar los demás.",
+        "El significado también puede pertenecer a una expresión completa: dar con una solución equivale a encontrarla, no a entregársela a alguien.",
+        "Conserva la construcción gramatical. Sustituir la palabra con una forma que no combina con sus acompañantes cambia o rompe la oración, aunque exista una relación de significado."
+      ],
+      "id": "sinonimia-contextual-09"
+    },
+    {
+      "level": 2,
+      "type": "example",
+      "title": "Abordar un problema",
+      "body": [
+        "Abordar puede referirse a subir a un medio de transporte o a tratar un asunto. Aquí, problema y antes de calcular seleccionan la acción de estudiar cómo enfrentarlo.",
+        "Sustitución resuelta: Antes de calcular, el grupo decidió tratar el problema desde sus datos. Embarcar el problema no conserva el sentido; rodearlo sugeriría evitar una respuesta directa."
+      ],
+      "passage": {
+        "title": "Antes de calcular",
+        "paragraphs": [
+          "Antes de calcular, el grupo decidió abordar el problema desde sus datos: separó la información útil, representó las cantidades y acordó qué debía averiguar."
+        ]
+      },
+      "id": "sinonimia-contextual-10"
+    },
+    {
+      "level": 2,
+      "type": "explore",
+      "title": "Prueba el sentido de sostener",
+      "body": [
+        "Toca las frases. Una sustitución adecuada debe responder a la relación que establece la palabra en cada una."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Sostener una caja",
+            "text": "Sujetarla para impedir que caiga."
+          },
+          {
+            "label": "Sostener una opinión",
+            "text": "Mantenerla o defenderla con razones."
+          },
+          {
+            "label": "Sostener un gasto",
+            "text": "Asumirlo o cubrirlo económicamente, según el contexto."
+          },
+          {
+            "label": "Sostener un ritmo",
+            "text": "Mantenerlo durante un periodo."
+          }
+        ]
+      },
+      "id": "sinonimia-contextual-11"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una postura respaldada",
+      "body": [],
+      "passage": {
+        "title": "La reunión",
+        "paragraphs": [
+          "Lucía sostuvo que el laboratorio debía ampliar sus horarios. Para respaldar su postura, mostró un registro de estudiantes que no habían encontrado turno durante la semana."
+        ]
+      },
+      "prompt": "En este texto, sostuvo puede reemplazarse mejor por…",
+      "choices": [
+        {
+          "text": "Sujetó",
+          "explanation": "Corresponde al sentido físico de impedir que algo caiga."
+        },
+        {
+          "text": "Soportó",
+          "explanation": "Introduciría la idea de tolerar algo molesto, que no se desarrolla aquí."
+        },
+        {
+          "text": "Defendió la idea de",
+          "explanation": "La postura y su respaldo fijan el sentido de afirmar y apoyar una opinión."
+        }
+      ],
+      "correct": 2,
+      "hint": "Observa qué se sostiene: una cosa, una molestia o una afirmación.",
+      "solution": [
+        "El complemento es una afirmación sobre horarios.",
+        "La presentación de evidencia indica que Lucía defendió esa idea."
+      ],
+      "id": "sinonimia-contextual-12"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Dar con una solución",
+      "body": [],
+      "passage": {
+        "title": "El cierre de la caja",
+        "paragraphs": [
+          "Después de comparar varios diseños, el equipo dio con una solución: reemplazar la pestaña débil por un cierre doble. El nuevo diseño resistió las pruebas sin abrirse."
+        ]
+      },
+      "prompt": "¿Qué reemplaza a dio con sin cambiar el sentido?",
+      "choices": [
+        {
+          "text": "Encontró",
+          "explanation": "La expresión indica que el equipo halló una respuesta tras buscarla."
+        },
+        {
+          "text": "Entregó",
+          "explanation": "El equipo no le dio una solución a un destinatario: la encontró."
+        },
+        {
+          "text": "Chocó con",
+          "explanation": "Aunque dar con puede expresar un encuentro físico en otros usos, aquí se trata de resolver."
+        }
+      ],
+      "correct": 0,
+      "hint": "Interpreta dio con como una unidad.",
+      "solution": [
+        "La comparación de diseños es una búsqueda.",
+        "El cierre doble es la respuesta encontrada, por lo que encontró conserva la acción."
+      ],
+      "id": "sinonimia-contextual-13"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Un argumento sólido",
+      "body": [],
+      "passage": {
+        "title": "La propuesta",
+        "paragraphs": [
+          "El argumento resultó sólido porque vinculaba la propuesta con datos pertinentes y respondía a las principales objeciones. No dependía solo del entusiasmo de quien lo presentaba."
+        ]
+      },
+      "prompt": "¿Qué sustituto conserva mejor sólido?",
+      "choices": [
+        {
+          "text": "Compacto",
+          "explanation": "Es un sentido físico que no explica la calidad del razonamiento."
+        },
+        {
+          "text": "Bien fundamentado",
+          "explanation": "Los datos pertinentes y la respuesta a objeciones describen su respaldo racional."
+        },
+        {
+          "text": "Muy extenso",
+          "explanation": "La extensión no garantiza la calidad del argumento ni se menciona como causa."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca la cualidad que explican los datos y las respuestas a objeciones.",
+      "solution": [
+        "El texto evalúa el sustento del argumento.",
+        "Bien fundamentado conserva esa evaluación sin aludir al tamaño ni a la materia."
+      ],
+      "id": "sinonimia-contextual-14"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Un margen estrecho",
+      "body": [],
+      "passage": {
+        "title": "La entrega",
+        "paragraphs": [
+          "Quedaba un margen estrecho para terminar el informe: apenas veinte minutos antes del cierre. El grupo priorizó revisar los datos esenciales y enviar una versión completa."
+        ]
+      },
+      "prompt": "¿Qué expresión equivale a margen estrecho en este contexto?",
+      "choices": [
+        {
+          "text": "Borde delgado de una hoja",
+          "explanation": "Escoge un sentido espacial incompatible con el tiempo disponible."
+        },
+        {
+          "text": "Libertad ilimitada",
+          "explanation": "Contradice la restricción expresada por apenas veinte minutos."
+        },
+        {
+          "text": "Plazo disponible muy reducido",
+          "explanation": "La medida temporal y la urgencia precisan que queda poco tiempo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Lee la explicación después de los dos puntos.",
+      "solution": [
+        "Apenas veinte minutos delimita la expresión como tiempo restante.",
+        "Plazo disponible muy reducido conserva esa limitación temporal."
+      ],
+      "id": "sinonimia-contextual-15"
+    },
+    {
+      "level": 2,
+      "type": "review",
+      "title": "Comprueba la oración completa",
+      "body": [
+        "Una sustitución puede conservar un sentido de diccionario y fallar en el texto: sujetó una opinión no funciona como sostuvo una opinión. Debes conservar también la relación entre verbo y complemento.",
+        "En expresiones como dar con, echa de menos o llevar a cabo, prueba primero una paráfrasis de toda la unidad. Reemplazar palabra por palabra suele producir un significado falso.",
+        "Si dos opciones parecen cercanas, elige la que mantenga la información afirmada con menos matices añadidos."
+      ],
+      "id": "sinonimia-contextual-16"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Precisión, intensidad y registro",
+      "body": [
+        "Los sinónimos no siempre coinciden en todos sus matices. Un cambio puede añadir certeza, intensidad, valoración o formalidad que el original no tenía.",
+        "Posible no equivale a seguro; reservar no siempre equivale a esconder; discutir una idea no necesariamente es pelear. Debes conservar la intención que las demás palabras establecen.",
+        "En una pregunta de sustitución, busca equivalencia en ese pasaje, no identidad absoluta para todos los usos de la lengua."
+      ],
+      "id": "sinonimia-contextual-17"
+    },
+    {
+      "level": 3,
+      "type": "example",
+      "title": "Una hipótesis plausible",
+      "body": [
+        "El texto aclara que la explicación coincide con los datos disponibles, pero todavía debe probarse. Plausible expresa que puede aceptarse como razonable en esta etapa.",
+        "Sustitución resuelta: razonable conserva ese grado de respaldo. Demostrada lo aumenta sin base; imaginaria lo reduce e introduce falta de realidad."
+      ],
+      "passage": {
+        "title": "Primera explicación",
+        "paragraphs": [
+          "El equipo consideró plausible que la pérdida de agua se debiera a una pequeña grieta: había encontrado humedad justo debajo del recipiente. Sin embargo, decidió probarlo antes de descartar otras causas."
+        ]
+      },
+      "id": "sinonimia-contextual-18"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "No confundas relación temática con equivalencia",
+      "body": [
+        "Causa y consecuencia están relacionadas, pero no son sinónimas. Investigar y descubrir también pueden formar parte de un proceso, aunque investigar no garantiza descubrir.",
+        "Comprueba el alcance: una alternativa más general puede perder información; una más específica puede añadirla. Examinar un documento no siempre significa leerlo por completo ni aprobarlo."
+      ],
+      "id": "sinonimia-contextual-19"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Conserva el grado de certeza",
+      "body": [],
+      "passage": {
+        "title": "Una señal inicial",
+        "paragraphs": [
+          "La coordinadora consideró viable la propuesta: el equipo contaba con los materiales y el tiempo mínimos para realizarla. Aclaró, sin embargo, que aún debían repartirse las tareas y revisar algunos riesgos antes de comenzar."
+        ]
+      },
+      "prompt": "¿Qué sustituto es más preciso para viable?",
+      "choices": [
+        {
+          "text": "Segura en todos sus resultados",
+          "explanation": "Añade una garantía que la revisión pendiente de riesgos no permite."
+        },
+        {
+          "text": "Posible de realizar",
+          "explanation": "La disponibilidad de recursos apoya la posibilidad práctica, sin garantizar resultados."
+        },
+        {
+          "text": "Ya ejecutada",
+          "explanation": "La propuesta todavía no se ha iniciado; la oración habla de su factibilidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "Diferencia poder realizar algo de tener asegurado su éxito.",
+      "solution": [
+        "Materiales y tiempo mínimos permiten llevarla a cabo.",
+        "Posible de realizar conserva esa factibilidad y respeta las tareas pendientes."
+      ],
+      "id": "sinonimia-contextual-20"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una discusión sin pelea",
+      "body": [],
+      "passage": {
+        "title": "El informe",
+        "paragraphs": [
+          "Durante la reunión discutieron el informe con calma. Compararon los criterios usados, señalaron dos datos incompletos y acordaron qué aspectos revisar. Nadie elevó la voz ni formuló ataques personales."
+        ]
+      },
+      "prompt": "En este contexto, discutieron equivale mejor a…",
+      "choices": [
+        {
+          "text": "Analizaron mediante un intercambio de ideas",
+          "explanation": "Las acciones descritas delimitan una deliberación sobre el contenido."
+        },
+        {
+          "text": "Pelearon agresivamente por",
+          "explanation": "El texto excluye expresamente los ataques y el tono de confrontación."
+        },
+        {
+          "text": "Dieron por aprobado sin revisión",
+          "explanation": "Compararon criterios y detectaron datos incompletos; no omitieron el análisis."
+        }
+      ],
+      "correct": 0,
+      "hint": "No selecciones el sentido conflictivo si las acciones lo descartan.",
+      "solution": [
+        "Discutir puede significar debatir o examinar un asunto.",
+        "Comparar criterios y acordar revisiones fijan ese sentido deliberativo."
+      ],
+      "id": "sinonimia-contextual-21"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una reserva en la conclusión",
+      "body": [],
+      "passage": {
+        "title": "El comentario",
+        "paragraphs": [
+          "Aunque valoró el proyecto, Elena expresó una reserva respecto del presupuesto: faltaba precisar el costo del transporte. Su observación no rechazaba la propuesta completa; pedía aclarar ese punto antes de decidir."
+        ]
+      },
+      "prompt": "¿Qué palabra sustituye mejor a reserva?",
+      "choices": [
+        {
+          "text": "Almacenamiento",
+          "explanation": "Se aplica a bienes guardados, no a la evaluación de un presupuesto."
+        },
+        {
+          "text": "Aprobación absoluta",
+          "explanation": "Contradice la aclaración solicitada antes de decidir."
+        },
+        {
+          "text": "Reparo",
+          "explanation": "Una observación que limita o condiciona la aceptación conserva el sentido contextual."
+        }
+      ],
+      "correct": 2,
+      "hint": "El texto dice que no hay rechazo total, pero sí una objeción concreta.",
+      "solution": [
+        "La reserva consiste en señalar un punto que requiere aclaración.",
+        "Reparo mantiene ese matiz de objeción parcial, sin convertirla en rechazo total."
+      ],
+      "id": "sinonimia-contextual-22"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Un cambio paulatino",
+      "body": [],
+      "passage": {
+        "title": "El nuevo sistema",
+        "paragraphs": [
+          "La adopción del nuevo sistema fue paulatina. Durante la primera semana lo usó un solo grupo; después se incorporaron otros dos y, al final del mes, todos trabajaban con él. La coordinación prefirió ese ritmo para resolver dificultades antes de extender el cambio."
+        ]
+      },
+      "prompt": "¿Qué reemplazo conserva mejor paulatina?",
+      "choices": [
+        {
+          "text": "Improvisada",
+          "explanation": "Un cambio gradual puede estar planificado; el texto incluso explica la elección del ritmo."
+        },
+        {
+          "text": "Gradual",
+          "explanation": "La incorporación por etapas expresa un avance progresivo en el tiempo."
+        },
+        {
+          "text": "Inmediata",
+          "explanation": "Contradice la distribución del cambio a lo largo de varias semanas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Reconstruye el ritmo del proceso descrito.",
+      "solution": [
+        "La adopción pasa de un grupo a varios y luego a todos.",
+        "Gradual expresa esa progresión, sin añadir desorden o rapidez."
+      ],
+      "id": "sinonimia-contextual-23"
+    },
+    {
+      "level": 3,
+      "type": "review",
+      "title": "Tu lista de control para sustituir",
+      "body": [
+        "Antes de elegir: 1) identifica el sentido activo; 2) reemplaza la palabra en la oración; 3) revisa la construcción; 4) conserva intensidad, certeza y valoración.",
+        "Si fallaste viable, revisa si confundiste posibilidad y garantía. Si fallaste reserva, distingue reparo parcial y rechazo total. Si fallaste discutieron, deja que las acciones descritas definan el tono.",
+        "El objetivo es leer con precisión. Memorizar parejas aisladas ayuda menos que explicar por qué una sustitución funciona justamente aquí."
+      ],
+      "id": "sinonimia-contextual-24"
+    }
+  ]
+}

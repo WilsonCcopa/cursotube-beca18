@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/relaciones-logicas",
+  "course": "lectura",
+  "slug": "relaciones-logicas",
+  "title": "Relaciones lógicas de textos",
+  "description": "Une ideas con conectores, referencias y condiciones sin perder la coherencia.",
+  "version": 1,
+  "order": 5,
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Reconocer causa, consecuencia, adición y ejemplo.",
+    "Distinguir contraste, concesión, reformulación y rectificación.",
+    "Resolver coherencia global, referencias y condiciones necesarias."
+  ],
+  "steps": [
+    {
+      "level": 1,
+      "type": "learn",
+      "title": "Las ideas se relacionan",
+      "body": [
+        "Un texto no es una suma de oraciones sueltas. Cada idea puede añadir información, explicar una causa, presentar un efecto, contrastar, ejemplificar o reformular lo anterior.",
+        "Los conectores ayudan a expresar esas relaciones: además añade; porque introduce una causa; por eso una consecuencia; sin embargo contrasta con una expectativa; por ejemplo concreta un caso.",
+        "Para elegir un conector, primero explica la relación con tus palabras. Después comprueba que encaje en la construcción de la oración."
+      ],
+      "id": "relaciones-logicas-01"
+    },
+    {
+      "level": 1,
+      "type": "example",
+      "title": "De la causa al efecto",
+      "body": [
+        "Causa: el local cerró por mantenimiento. Consecuencia: el equipo se reunió en el patio. Por eso presenta el efecto; porque podría introducir la causa si se reorganizara la oración.",
+        "Resolución: El local estaba cerrado por mantenimiento; por eso, el equipo se reunió en el patio. En cambio no expresa la relación causal indicada."
+      ],
+      "passage": {
+        "title": "La reunión",
+        "paragraphs": [
+          "El local estaba cerrado por mantenimiento. El equipo se reunió en el patio para continuar el trabajo."
+        ]
+      },
+      "id": "relaciones-logicas-02"
+    },
+    {
+      "level": 1,
+      "type": "explore",
+      "title": "Toca la función de cada tramo",
+      "body": [
+        "Lee la pequeña cadena y revela qué aporta cada fragmento. La misma situación puede contener causa, consecuencia y contraste."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "La sala tenía pocas mesas disponibles.",
+            "role": "Situación que explica la decisión siguiente"
+          },
+          {
+            "text": "Por eso, el grupo dividió la actividad en dos turnos.",
+            "role": "Consecuencia o respuesta a la disponibilidad limitada"
+          },
+          {
+            "text": "Además, preparó materiales para ambos turnos.",
+            "role": "Adición de otra acción compatible"
+          },
+          {
+            "text": "Sin embargo, conservó una reunión final conjunta.",
+            "role": "Contraste con la posible expectativa de trabajar siempre separados"
+          }
+        ]
+      },
+      "id": "relaciones-logicas-03"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Añadir información",
+      "body": [],
+      "passage": {
+        "title": "El espacio de estudio",
+        "paragraphs": [
+          "La sala dispone de mesas amplias. ___, tiene lámparas que permiten leer cuando disminuye la luz natural."
+        ]
+      },
+      "prompt": "¿Qué conector completa mejor la relación de adición?",
+      "choices": [
+        {
+          "text": "Además",
+          "explanation": "Añade una segunda característica favorable de la sala."
+        },
+        {
+          "text": "Por el contrario",
+          "explanation": "No existe una oposición entre mesas y lámparas."
+        },
+        {
+          "text": "Por esa causa",
+          "explanation": "No se afirma que las mesas causen la existencia de lámparas."
+        }
+      ],
+      "correct": 0,
+      "hint": "Las dos características son compatibles y se suman.",
+      "solution": [
+        "La segunda oración incorpora otra característica del mismo espacio.",
+        "Además expresa esa suma sin inventar una causa ni una oposición."
+      ],
+      "id": "relaciones-logicas-04"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Explicar la causa",
+      "body": [],
+      "passage": {
+        "title": "La elección de ruta",
+        "paragraphs": [
+          "El equipo cambió de ruta ___ el sendero habitual estaba bloqueado por piedras."
+        ]
+      },
+      "prompt": "¿Qué conector expresa la causa del cambio?",
+      "choices": [
+        {
+          "text": "Aunque",
+          "explanation": "Convertiría el bloqueo en una dificultad que no impide lo afirmado; no expresa la causa buscada."
+        },
+        {
+          "text": "Porque",
+          "explanation": "Introduce el bloqueo como razón del cambio de ruta."
+        },
+        {
+          "text": "Además",
+          "explanation": "Añade información, pero no encaja en esta construcción ni expresa causalidad."
+        }
+      ],
+      "correct": 1,
+      "hint": "El bloqueo responde a ¿por qué cambiaron de ruta?",
+      "solution": [
+        "La primera parte presenta una decisión.",
+        "La segunda la explica; porque enlaza la decisión con su causa."
+      ],
+      "id": "relaciones-logicas-05"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Reconocer una consecuencia",
+      "body": [],
+      "passage": {
+        "title": "El registro",
+        "paragraphs": [
+          "Faltaban dos comprobantes de gasto; ___, el balance quedó pendiente de revisión."
+        ]
+      },
+      "prompt": "¿Qué conector mantiene la relación lógica?",
+      "choices": [
+        {
+          "text": "Por ejemplo",
+          "explanation": "El balance pendiente no es un ejemplo de comprobante."
+        },
+        {
+          "text": "Sin embargo",
+          "explanation": "La revisión pendiente es esperable por los comprobantes faltantes, no contraria a ello."
+        },
+        {
+          "text": "Por lo tanto",
+          "explanation": "Presenta el balance pendiente como consecuencia de la falta de documentos."
+        }
+      ],
+      "correct": 2,
+      "hint": "Decide si la segunda idea resulta de la primera o la contradice.",
+      "solution": [
+        "La ausencia de comprobantes impide cerrar el balance.",
+        "Por lo tanto introduce esa consecuencia de manera coherente."
+      ],
+      "id": "relaciones-logicas-06"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Introducir un ejemplo",
+      "body": [],
+      "passage": {
+        "title": "Nuevos usos",
+        "paragraphs": [
+          "Algunos objetos pueden tener un segundo uso. ___, un frasco limpio puede servir para guardar botones."
+        ]
+      },
+      "prompt": "¿Qué conector corresponde?",
+      "choices": [
+        {
+          "text": "Por ejemplo",
+          "explanation": "El frasco concreta la afirmación general sobre segundos usos."
+        },
+        {
+          "text": "A pesar de ello",
+          "explanation": "No hay una dificultad que el segundo uso supere contra lo esperado."
+        },
+        {
+          "text": "En conclusión",
+          "explanation": "El frasco aporta un caso particular, no sintetiza un razonamiento previo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Relaciona la afirmación general con el caso particular.",
+      "solution": [
+        "La primera oración enuncia una posibilidad general.",
+        "La segunda ofrece un caso: por ejemplo marca esa función."
+      ],
+      "id": "relaciones-logicas-07"
+    },
+    {
+      "level": 1,
+      "type": "review",
+      "title": "Causa y consecuencia miran direcciones distintas",
+      "body": [
+        "Porque suele ir hacia la razón: cambiamos porque llovió. Por eso suele ir hacia el efecto: llovió; por eso cambiamos. El hecho puede ser el mismo, pero la dirección del enlace cambia.",
+        "Una adición no demuestra causalidad. Que una sala tenga mesas y lámparas no significa que unas causen las otras.",
+        "Si elegiste un conector solo por sonar familiar, vuelve a nombrar la relación antes de sustituirlo."
+      ],
+      "id": "relaciones-logicas-08"
+    },
+    {
+      "level": 2,
+      "type": "learn",
+      "title": "Contraste, concesión y reformulación",
+      "body": [
+        "El contraste presenta diferencias o una idea que corrige una expectativa: parecía difícil; sin embargo, se resolvió. La concesión admite una dificultad que no impide lo principal: aunque parecía difícil, se resolvió.",
+        "La reformulación expresa una idea de otra manera para aclararla: es decir, en otras palabras. La rectificación corrige una formulación: no fue una cancelación, sino una reprogramación.",
+        "No todas las oposiciones son contradicciones. Dos datos pueden diferir y ser verdaderos a la vez."
+      ],
+      "id": "relaciones-logicas-09"
+    },
+    {
+      "level": 2,
+      "type": "example",
+      "title": "Aunque y sin embargo se organizan diferente",
+      "body": [
+        "Aunque introduce la dificultad dentro de una construcción subordinada: Aunque llovía, salieron. Sin embargo enlaza una segunda afirmación que contrasta con la expectativa: Llovía; sin embargo, salieron.",
+        "Ambas formulaciones presentan una dificultad que no impide salir, pero no se intercambian palabra por palabra conservando siempre la puntuación y la estructura."
+      ],
+      "passage": {
+        "title": "La jornada",
+        "paragraphs": [
+          "La mañana fue lluviosa. El equipo contaba con un techo portátil y realizó la jornada de lectura en el patio sin mojar los materiales."
+        ]
+      },
+      "id": "relaciones-logicas-10"
+    },
+    {
+      "level": 2,
+      "type": "explore",
+      "title": "Una idea puede aclararse o corregirse",
+      "body": [
+        "Toca los tramos y diferencia reformulación, ejemplo y rectificación."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "La inscripción es gratuita.",
+            "role": "Afirmación inicial"
+          },
+          {
+            "text": "Es decir, no se paga por registrar la participación.",
+            "role": "Reformulación que aclara el significado de gratuita"
+          },
+          {
+            "text": "Por ejemplo, una familia puede inscribirse sin entregar dinero.",
+            "role": "Caso particular compatible con la afirmación"
+          },
+          {
+            "text": "El taller no fue cancelado, sino trasladado al sábado.",
+            "role": "Rectificación: se rechaza una formulación y se presenta la correcta"
+          }
+        ]
+      },
+      "id": "relaciones-logicas-11"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una dificultad que no impide",
+      "body": [],
+      "passage": {
+        "title": "El ensayo",
+        "paragraphs": [
+          "___ el equipo disponía de pocos instrumentos, logró completar la observación con un procedimiento sencillo."
+        ]
+      },
+      "prompt": "¿Qué conector expresa una concesión y encaja en la oración?",
+      "choices": [
+        {
+          "text": "Por eso",
+          "explanation": "No puede introducir aquí la dificultad como subordinada concesiva."
+        },
+        {
+          "text": "Aunque",
+          "explanation": "Admite la limitación y afirma que no impidió completar el trabajo."
+        },
+        {
+          "text": "Es decir",
+          "explanation": "La falta de instrumentos no reformula el logro posterior."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca la forma que admita la dificultad sin convertirla en impedimento definitivo.",
+      "solution": [
+        "Pocos instrumentos podría dificultar la observación.",
+        "El logro ocurre pese a ello; aunque construye esa relación concesiva."
+      ],
+      "id": "relaciones-logicas-12"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una aclaración equivalente",
+      "body": [],
+      "passage": {
+        "title": "Las visitas",
+        "paragraphs": [
+          "El acceso está restringido al personal autorizado; ___, solo pueden entrar quienes cuentan con la autorización correspondiente."
+        ]
+      },
+      "prompt": "¿Qué conector expresa la relación entre ambas partes?",
+      "choices": [
+        {
+          "text": "Por el contrario",
+          "explanation": "La segunda parte mantiene la idea de la primera, no la invierte."
+        },
+        {
+          "text": "Además",
+          "explanation": "No se agrega una condición nueva: se explica la ya formulada."
+        },
+        {
+          "text": "Es decir",
+          "explanation": "Reexpresa la restricción para aclarar quiénes pueden ingresar."
+        }
+      ],
+      "correct": 2,
+      "hint": "Comprueba si la segunda idea agrega algo distinto o explica la misma regla.",
+      "solution": [
+        "Ambas partes expresan la misma condición de acceso.",
+        "Es decir introduce una reformulación aclaratoria."
+      ],
+      "id": "relaciones-logicas-13"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Corrige sin sumar",
+      "body": [],
+      "passage": {
+        "title": "El aviso",
+        "paragraphs": [
+          "La actividad no se suspendió definitivamente, ___ se reprogramó para el viernes siguiente."
+        ]
+      },
+      "prompt": "¿Qué enlace completa la corrección?",
+      "choices": [
+        {
+          "text": "Sino que",
+          "explanation": "Tras la negación, introduce la alternativa correcta: reprogramación y no suspensión definitiva."
+        },
+        {
+          "text": "Además",
+          "explanation": "Sumaría una afirmación en vez de corregir la negada."
+        },
+        {
+          "text": "Porque",
+          "explanation": "Presentaría una causa, pero la segunda parte precisa qué ocurrió realmente."
+        }
+      ],
+      "correct": 0,
+      "hint": "La estructura es no ocurrió X, ocurrió Y.",
+      "solution": [
+        "La primera parte rechaza la suspensión definitiva.",
+        "Sino que introduce lo que sí ocurrió: una reprogramación."
+      ],
+      "id": "relaciones-logicas-14"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una expectativa que no se cumple",
+      "body": [],
+      "passage": {
+        "title": "El archivo",
+        "paragraphs": [
+          "El archivo había incorporado un buscador nuevo. ___, varios documentos seguían siendo difíciles de localizar porque no tenían etiquetas completas."
+        ]
+      },
+      "prompt": "¿Qué conector conserva el contraste?",
+      "choices": [
+        {
+          "text": "Por lo tanto",
+          "explanation": "Haría parecer que el buscador causó la dificultad, algo que el texto no afirma."
+        },
+        {
+          "text": "Sin embargo",
+          "explanation": "Contrasta la mejora esperada con una dificultad que persistió."
+        },
+        {
+          "text": "De igual modo",
+          "explanation": "Presentaría una semejanza y no la limitación de la mejora."
+        }
+      ],
+      "correct": 1,
+      "hint": "La novedad permite esperar facilidad; observa qué sucede realmente.",
+      "solution": [
+        "Un buscador nuevo sugiere una mejora en la localización.",
+        "La dificultad persistente limita esa expectativa; sin embargo expresa el contraste."
+      ],
+      "id": "relaciones-logicas-15"
+    },
+    {
+      "level": 2,
+      "type": "review",
+      "title": "Comprueba relación y construcción",
+      "body": [
+        "Si te equivocaste con aunque, revisa que introduce una dificultad dentro de la oración. Sin embargo suele enlazar una afirmación completa con otra y requiere una organización distinta.",
+        "Si elegiste además donde había es decir, pregunta si aparece información nueva o la misma idea aclarada. Si elegiste porque donde había sino que, observa si se explica una causa o se corrige una formulación.",
+        "Cambiar un conector puede cambiar el sentido del texto. No se trata de completar espacios con palabras decorativas."
+      ],
+      "id": "relaciones-logicas-16"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Coherencia entre varias oraciones",
+      "body": [
+        "En un párrafo, cada enlace debe respetar la relación local y contribuir al sentido global. Una alternativa puede encajar gramaticalmente en un hueco y volver incoherente el conjunto.",
+        "Las referencias también unen ideas: esa medida debe retomar una acción identificable; este resultado, un hallazgo previo. Si hay varios antecedentes posibles, revisa cuál hace coherente la continuación.",
+        "Al ordenar oraciones, ubica primero las que presentan un asunto sin depender de referencias previas. Después coloca explicaciones, efectos y cierres según sus enlaces."
+      ],
+      "id": "relaciones-logicas-17"
+    },
+    {
+      "level": 3,
+      "type": "example",
+      "title": "Reconstruye una secuencia",
+      "body": [
+        "Orden resuelto: primero se presenta el problema de etiquetas; luego se introduce la medida; después se explica su resultado. Esa medida necesita que antes aparezca revisar las etiquetas.",
+        "Una referencia como ese cambio no debe colocarse antes de que el lector sepa qué cambio ocurrió."
+      ],
+      "passage": {
+        "title": "Las etiquetas",
+        "paragraphs": [
+          "Varias cajas tenían rótulos ilegibles. El equipo decidió revisar las etiquetas y reemplazar las dañadas. Esa medida permitió identificar el contenido sin abrir cada caja."
+        ]
+      },
+      "id": "relaciones-logicas-18"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Necesario no significa suficiente",
+      "body": [
+        "Si una regla establece que para participar es necesario inscribirse, no dice por sí sola que toda persona inscrita podrá participar: podrían existir otras condiciones. Si afirma que la inscripción garantiza el ingreso, sí presenta una condición suficiente.",
+        "En textos cotidianos, observa palabras como solo, siempre que, basta con y a menos que. Evita invertir automáticamente la relación. Para resolver, conserva exactamente la dirección que expresa el texto."
+      ],
+      "id": "relaciones-logicas-19"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Dos relaciones en un párrafo",
+      "body": [],
+      "passage": {
+        "title": "La sala compartida",
+        "paragraphs": [
+          "El centro amplió el horario de la sala; ___, no todos pudieron usarla. Algunas personas seguían trabajando durante las horas añadidas. ___, el equipo propuso reservar también un turno temprano el domingo."
+        ]
+      },
+      "prompt": "¿Qué pareja conserva las relaciones del párrafo?",
+      "choices": [
+        {
+          "text": "Por lo tanto / Sin embargo",
+          "explanation": "Presentaría la exclusión como consecuencia de ampliar el horario y luego negaría la respuesta lógica."
+        },
+        {
+          "text": "Es decir / Por ejemplo",
+          "explanation": "No hay equivalencia entre ampliación y acceso incompleto, ni el turno es un ejemplo de horarios de trabajo."
+        },
+        {
+          "text": "Sin embargo / Por ello",
+          "explanation": "Primero contrasta una mejora con su límite; después presenta una respuesta a la dificultad restante."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resuelve cada hueco y luego relee el conjunto.",
+      "solution": [
+        "No todos accedieron pese a la ampliación: contraste.",
+        "La dificultad restante motiva otra propuesta: consecuencia o respuesta introducida por por ello."
+      ],
+      "id": "relaciones-logicas-20"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "El antecedente de una medida",
+      "body": [],
+      "passage": {
+        "title": "La organización del depósito",
+        "paragraphs": [
+          "Las cajas ocupaban el pasillo y sus etiquetas estaban desgastadas. El equipo trasladó las cajas a estantes numerados y dejó para otra jornada la renovación de los rótulos. Esa medida despejó la zona de paso, aunque aún era necesario abrir algunas cajas para reconocer su contenido."
+        ]
+      },
+      "prompt": "¿A qué se refiere esa medida?",
+      "choices": [
+        {
+          "text": "Al traslado de las cajas a estantes numerados",
+          "explanation": "Es la acción realizada que explica el pasillo despejado; renovar rótulos quedó pendiente."
+        },
+        {
+          "text": "A la renovación ya terminada de todos los rótulos",
+          "explanation": "El texto dice que se dejó para otra jornada."
+        },
+        {
+          "text": "Al desgaste de las etiquetas",
+          "explanation": "Es un problema descrito, no la medida aplicada para despejar el pasillo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Relaciona el efecto de la medida con la acción que sí se realizó.",
+      "solution": [
+        "Despejar la zona de paso depende de mover las cajas.",
+        "La renovación de rótulos estaba pendiente y no puede ser el antecedente realizado."
+      ],
+      "id": "relaciones-logicas-21"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Ordena con referencias",
+      "body": [],
+      "passage": {
+        "title": "Tres oraciones desordenadas",
+        "paragraphs": [
+          "I. Esa adaptación redujo el esfuerzo de moverla entre dos personas.\nII. La mesa del taller era demasiado pesada para trasladarla con frecuencia.\nIII. Por ello, el grupo le añadió ruedas con seguro en las patas."
+        ]
+      },
+      "prompt": "¿Qué orden forma un párrafo coherente?",
+      "choices": [
+        {
+          "text": "I - II - III",
+          "explanation": "Esa adaptación aparece antes de que se explique cuál fue la adaptación."
+        },
+        {
+          "text": "II - III - I",
+          "explanation": "Presenta el problema, luego la respuesta y finalmente el resultado de esa respuesta."
+        },
+        {
+          "text": "III - I - II",
+          "explanation": "Por ello aparece sin una causa anterior y el problema se presenta después del resultado."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca una oración inicial independiente y sigue los antecedentes.",
+      "solution": [
+        "II presenta el problema sin referencias previas.",
+        "III responde al problema mediante por ello; I retoma las ruedas como esa adaptación."
+      ],
+      "id": "relaciones-logicas-22"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "No inviertas la condición",
+      "body": [],
+      "passage": {
+        "title": "La visita guiada",
+        "paragraphs": [
+          "El aviso establece: Para ingresar a la visita guiada es necesario tener una reserva confirmada. También aclara que el ingreso depende de llegar antes de que comience el recorrido y de presentar el documento solicitado. Luis tiene reserva confirmada, pero el texto no informa su hora de llegada ni si lleva ese documento."
+        ]
+      },
+      "prompt": "¿Qué conclusión está justificada?",
+      "choices": [
+        {
+          "text": "Luis ingresará con seguridad porque tiene reserva",
+          "explanation": "La reserva es necesaria, pero el aviso añade otras condiciones que no conocemos."
+        },
+        {
+          "text": "Luis no podrá ingresar en ningún caso",
+          "explanation": "Tampoco sabemos que incumpla las condiciones restantes."
+        },
+        {
+          "text": "La reserva de Luis cumple una condición, pero no basta para asegurar su ingreso",
+          "explanation": "Respeta la dirección de la regla y la información pendiente sobre las demás condiciones."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distingue cumplir una condición necesaria de cumplir todos los requisitos.",
+      "solution": [
+        "Tener reserva es obligatorio, pero no es el único requisito.",
+        "Como faltan datos sobre llegada y documento, el ingreso de Luis no puede asegurarse ni negarse."
+      ],
+      "id": "relaciones-logicas-23"
+    },
+    {
+      "level": 3,
+      "type": "review",
+      "title": "Revisa el vínculo que falló",
+      "body": [
+        "En conectores dobles, verifica cada relación y luego la coherencia global. En referencias, identifica un antecedente explícito compatible con el efecto que se menciona. En ordenamiento, exige que las referencias tengan algo que retomar.",
+        "En condiciones, no inviertas la flecha: si ingresar requiere reserva, ingresar implica tener reserva; tener reserva por sí solo no asegura ingresar cuando existen otros requisitos.",
+        "Para repasar un error, escribe dos ideas y nombra su vínculo antes de mirar las alternativas. Ese paso hace visible si confundiste causa, contraste, aclaración o condición."
+      ],
+      "id": "relaciones-logicas-24"
+    }
+  ]
+}

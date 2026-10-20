@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/ecuaciones-e-inecuaciones",
+  "course": "matematica",
+  "slug": "ecuaciones-e-inecuaciones",
+  "title": "Ecuaciones e inecuaciones lineales",
+  "description": "Despeja una incógnita, interpreta límites y comprueba soluciones con sentido.",
+  "version": 1,
+  "order": 5,
+  "estimatedMinutes": 24,
+  "objectives": [
+    "Mantener la igualdad al operar en ambos miembros.",
+    "Resolver ecuaciones con paréntesis y fracciones.",
+    "Resolver inecuaciones y aplicar sus soluciones al contexto."
+  ],
+  "steps": [
+    {
+      "id": "ecuaciones-e-inecuaciones-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Una igualdad que debe equilibrarse",
+      "body": [
+        "Una ecuación afirma que dos expresiones son iguales. Resolver x + 3 = 11 significa encontrar los valores de x que hacen verdadera esa igualdad.",
+        "Puedes sumar o restar la misma cantidad en ambos miembros sin cambiar las soluciones. También puedes multiplicar o dividir ambos por el mismo número distinto de cero.",
+        "La incógnita es una cantidad desconocida. El signo igual expresa equilibrio entre dos valores, no una orden para escribir el siguiente cálculo."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-02",
+      "level": 1,
+      "type": "example",
+      "title": "Deshacer una suma",
+      "body": [
+        "Resuelve x + 5 = 13. Restamos 5 a ambos miembros: x + 5 − 5 = 13 − 5. Queda x = 8.",
+        "Comprobamos sustituyendo en la ecuación original: 8 + 5 = 13. La igualdad es verdadera.",
+        "Decir que el 5 pasa restando es un atajo de lenguaje. La razón es que restamos 5 a ambos lados."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-03",
+      "level": 1,
+      "type": "explore",
+      "title": "La balanza de una ecuación",
+      "body": [
+        "Explora la relación x + 3 = 11. La cantidad desconocida debe completar el total después de sumar 3.",
+        "Encuentra x y comprueba la igualdad. Una misma operación aplicada a ambos miembros mantiene el equilibrio; una aplicada solo a uno lo rompe."
+      ],
+      "diagram": {
+        "kind": "balance",
+        "offset": 3,
+        "total": 11
+      }
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-04",
+      "level": 1,
+      "type": "question",
+      "title": "Deshaz la resta",
+      "body": [],
+      "prompt": "Resuelve x − 7 = 12.",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "5 resulta de restar 7 a 12; para deshacer −7 hay que sumar 7."
+        },
+        {
+          "text": "19",
+          "explanation": "Al sumar 7 en ambos miembros queda x = 12 + 7 = 19."
+        },
+        {
+          "text": "−19",
+          "explanation": "El signo negativo no aparece al deshacer correctamente la resta."
+        }
+      ],
+      "correct": 1,
+      "hint": "Suma 7 a ambos miembros.",
+      "solution": [
+        "x − 7 + 7 = 12 + 7.",
+        "x = 19; comprobación: 19 − 7 = 12."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-05",
+      "level": 1,
+      "type": "question",
+      "title": "Deshaz un producto",
+      "body": [],
+      "prompt": "¿Qué valor satisface 4x = 28?",
+      "choices": [
+        {
+          "text": "7",
+          "explanation": "Dividir ambos miembros entre 4 da x = 7."
+        },
+        {
+          "text": "24",
+          "explanation": "24 corresponde a restar 4, pero 4x indica multiplicación."
+        },
+        {
+          "text": "112",
+          "explanation": "112 resulta de multiplicar por 4, cuando se necesita dividir."
+        }
+      ],
+      "correct": 0,
+      "hint": "4x significa 4 multiplicado por x.",
+      "solution": [
+        "4x/4 = 28/4.",
+        "x = 7 y 4 × 7 = 28."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-06",
+      "level": 1,
+      "type": "question",
+      "title": "Una incógnita negativa",
+      "body": [],
+      "prompt": "Resuelve x + 9 = 4.",
+      "choices": [
+        {
+          "text": "13",
+          "explanation": "13 surge de sumar 9 a 4, pero necesitamos quitar 9 a ambos miembros."
+        },
+        {
+          "text": "5",
+          "explanation": "El valor debe ser negativo porque 4 − 9 < 0."
+        },
+        {
+          "text": "−5",
+          "explanation": "x = 4 − 9 = −5 y −5 + 9 = 4."
+        }
+      ],
+      "correct": 2,
+      "hint": "Resta 9 en ambos miembros y conserva el signo.",
+      "solution": [
+        "x = 4 − 9.",
+        "x = −5; al sustituir, −5 + 9 = 4."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-07",
+      "level": 1,
+      "type": "question",
+      "title": "Elige una comprobación válida",
+      "body": [],
+      "prompt": "Si crees que x = 6 resuelve 3x − 2 = 16, ¿qué comprobación es correcta?",
+      "choices": [
+        {
+          "text": "3 × 6 − 2 = 16",
+          "explanation": "Se sustituye x por 6 en la expresión original; 18 − 2 = 16."
+        },
+        {
+          "text": "3 + 6 − 2 = 7",
+          "explanation": "3x es multiplicación, no suma."
+        },
+        {
+          "text": "6 − 2 = 4",
+          "explanation": "Se omitió el coeficiente 3 de la incógnita."
+        }
+      ],
+      "correct": 0,
+      "hint": "Sustituye el valor sin cambiar ninguna operación original.",
+      "solution": [
+        "3x − 2 con x = 6 es 3 × 6 − 2.",
+        "18 − 2 = 16; por tanto, sí es solución."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-08",
+      "level": 1,
+      "type": "review",
+      "title": "Igualdad en cada renglón",
+      "body": [
+        "No escribas 4x = 28 = 7: eso afirmaría que 28 y 7 son iguales. Escribe 4x = 28 y, en otro paso, x = 7.",
+        "Para comprobar una solución, vuelve a la ecuación original y sustituye cada aparición de la incógnita. Si ambos miembros dan el mismo valor, funciona.",
+        "Un resultado negativo puede ser correcto; el contexto decidirá si se admite, por ejemplo en una temperatura o una deuda."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Paréntesis y términos semejantes",
+      "body": [
+        "La distributiva multiplica cada término: 3(x − 2) = 3x − 6. Un signo menos delante de un paréntesis cambia el signo de todos sus términos.",
+        "Cuando hay x en ambos miembros, resta una misma expresión para reunirlas en un lado. Después reúne los números en el otro.",
+        "En una ecuación con fracciones puedes multiplicar ambos miembros por un denominador común para eliminarlas. Multiplica todos los términos, no solo algunos."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-10",
+      "level": 2,
+      "type": "example",
+      "title": "Incógnitas en ambos miembros",
+      "body": [
+        "Resuelve 3(x − 2) + 4 = 2x + 9.",
+        "Distribuye: 3x − 6 + 4 = 2x + 9; simplifica: 3x − 2 = 2x + 9. Resta 2x y suma 2 en ambos miembros: x = 11.",
+        "Comprobación: 3(11 − 2) + 4 = 31 y 2(11) + 9 = 31."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Una ecuación puede tener distinto tipo de solución",
+      "body": [
+        "Si al simplificar aparece 0x = 0, la igualdad es verdadera para cualquier x: tiene infinitas soluciones. Ejemplo: 2(x + 1) = 2x + 2.",
+        "Si aparece 0x = 5, ningún valor de x funciona: no tiene solución. Ejemplo: 2x + 1 = 2x + 6.",
+        "No dividas entre el coeficiente si es cero. Primero interpreta la igualdad que quedó."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-12",
+      "level": 2,
+      "type": "question",
+      "title": "Distribuye a cada término",
+      "body": [],
+      "prompt": "Resuelve 2(x + 3) = 18.",
+      "choices": [
+        {
+          "text": "6",
+          "explanation": "2x + 6 = 18 da 2x = 12 y x = 6."
+        },
+        {
+          "text": "7,5",
+          "explanation": "7,5 sale de 2x + 3 = 18: faltó multiplicar el 3 por 2."
+        },
+        {
+          "text": "12",
+          "explanation": "12 es el valor de 2x después de restar 6, no el de x."
+        }
+      ],
+      "correct": 0,
+      "hint": "Puedes dividir ambos miembros entre 2 antes de restar 3.",
+      "solution": [
+        "x + 3 = 9.",
+        "x = 6; comprobación: 2(6 + 3) = 18."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-13",
+      "level": 2,
+      "type": "question",
+      "title": "Reúne las incógnitas",
+      "body": [],
+      "prompt": "¿Qué valor resuelve 5x − 4 = 2x + 11?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "Al restar 2x y sumar 4 obtenemos 3x = 15; x = 5."
+        },
+        {
+          "text": "3",
+          "explanation": "3 es el coeficiente restante de x, no el valor de la incógnita."
+        },
+        {
+          "text": "7/3",
+          "explanation": "7/3 resulta de restar 4 en el miembro derecho en vez de sumarlo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Resta 2x a ambos lados y luego suma 4.",
+      "solution": [
+        "5x − 2x = 11 + 4.",
+        "3x = 15; x = 5."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-14",
+      "level": 2,
+      "type": "question",
+      "title": "Una fracción de la incógnita",
+      "body": [],
+      "prompt": "Resuelve x/3 + 2 = 7.",
+      "choices": [
+        {
+          "text": "5/3",
+          "explanation": "Después de restar 2 queda x/3 = 5; dividir otra vez entre 3 no despeja x."
+        },
+        {
+          "text": "15",
+          "explanation": "x/3 = 5; multiplicar ambos miembros por 3 da x = 15."
+        },
+        {
+          "text": "9",
+          "explanation": "9 puede surgir de 7 + 2; no se han aplicado las operaciones inversas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Primero quita el 2; luego deshaz la división entre 3.",
+      "solution": [
+        "x/3 = 7 − 2 = 5.",
+        "x = 5 × 3 = 15."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-15",
+      "level": 2,
+      "type": "question",
+      "title": "¿Siempre, nunca o a veces?",
+      "body": [],
+      "prompt": "¿Cuántas soluciones tiene 4(x − 1) = 4x + 2?",
+      "choices": [
+        {
+          "text": "Una: x = 6",
+          "explanation": "Tras distribuir, las x se cancelan y no queda una ecuación con solución única."
+        },
+        {
+          "text": "Infinitas",
+          "explanation": "Eso ocurriría si ambos miembros se redujeran a la misma expresión."
+        },
+        {
+          "text": "Ninguna",
+          "explanation": "Al restar 4x queda −4 = 2, una afirmación falsa para cualquier x."
+        }
+      ],
+      "correct": 2,
+      "hint": "Distribuye y observa qué ocurre al restar 4x.",
+      "solution": [
+        "4x − 4 = 4x + 2.",
+        "−4 = 2 es falso.",
+        "La ecuación no tiene solución."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-16",
+      "level": 2,
+      "type": "review",
+      "title": "No pierdas términos en el camino",
+      "body": [
+        "En −2(x − 3), el producto es −2x + 6. El negativo afecta a cada término del paréntesis.",
+        "Una ecuación no garantiza una única solución: puede ser siempre verdadera o imposible. La comprobación algebraica distingue estos casos.",
+        "Si quitas denominadores multiplicando por 6 en x/2 + 1 = 4, debes obtener 3x + 6 = 24. El término 1 también se multiplica."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-17",
+      "level": 3,
+      "type": "learn",
+      "title": "De la igualdad al límite",
+      "body": [
+        "Una inecuación expresa una comparación: <, >, ≤ o ≥. Su solución suele ser un conjunto de valores, no un único número.",
+        "Sumar o restar lo mismo conserva la comparación. Multiplicar o dividir por un número positivo también la conserva. Si el número es negativo, invierte el signo: de −2x < 6 resulta x > −3.",
+        "≤ y ≥ incluyen la igualdad. En una recta se usa punto cerrado para incluir el extremo y abierto para excluirlo."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-18",
+      "level": 3,
+      "type": "example",
+      "title": "Un presupuesto como límite",
+      "body": [
+        "Tienes 50 soles. Una inscripción cuesta 8 y cada taller adicional cuesta 6. Si x es el número de talleres, el gasto cumple 8 + 6x ≤ 50.",
+        "Restamos 8: 6x ≤ 42. Dividimos entre 6: x ≤ 7. Como x cuenta talleres, solo se admiten enteros no negativos.",
+        "El máximo es 7. Comprobamos: 8 + 6 × 7 = 50; un taller más costaría 56 y supera el presupuesto."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Dos límites y el contexto",
+      "body": [
+        "La condición −2 < x ≤ 4 exige cumplir ambos límites al mismo tiempo. El extremo −2 se excluye y el 4 se incluye.",
+        "Si 2 < x < 7 y x cuenta personas, las opciones son 3, 4, 5 y 6. Si x es una longitud real, también se admiten decimales entre los límites.",
+        "Antes de redondear una solución, decide si buscas mínimo o máximo y qué valores permite la variable. No puede haber una fracción de persona en un conteo."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-20",
+      "level": 3,
+      "type": "question",
+      "title": "Invierte al dividir por negativo",
+      "body": [],
+      "prompt": "Resuelve −3x + 6 ≥ 15.",
+      "choices": [
+        {
+          "text": "x ≥ −3",
+          "explanation": "Se olvidó invertir la comparación al dividir entre −3."
+        },
+        {
+          "text": "x ≤ −3",
+          "explanation": "−3x ≥ 9; dividir entre −3 invierte ≥ y da x ≤ −3."
+        },
+        {
+          "text": "x ≤ 3",
+          "explanation": "El cociente 9 ÷ (−3) es −3, no 3."
+        }
+      ],
+      "correct": 1,
+      "hint": "Después de restar 6, divide por un coeficiente negativo.",
+      "solution": [
+        "−3x ≥ 9.",
+        "x ≤ −3.",
+        "Comprueba el extremo: −3(−3) + 6 = 15."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-21",
+      "level": 3,
+      "type": "question",
+      "title": "Máximo que puedes comprar",
+      "body": [],
+      "prompt": "Tienes 47 soles. Pagas 5 de envío y cada libro cuesta 8. ¿Cuál es el máximo número entero de libros que puedes comprar?",
+      "choices": [
+        {
+          "text": "5",
+          "explanation": "5 + 8x ≤ 47 da x ≤ 5,25; el máximo entero admisible es 5."
+        },
+        {
+          "text": "6",
+          "explanation": "Con 6 libros gastarías 5 + 48 = 53 soles, más de 47."
+        },
+        {
+          "text": "5,25",
+          "explanation": "La solución real del límite es 5,25, pero los libros se compran completos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Primero separa el costo fijo y luego interpreta el límite entero.",
+      "solution": [
+        "5 + 8x ≤ 47.",
+        "8x ≤ 42; x ≤ 5,25.",
+        "El máximo entero no negativo es 5."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-22",
+      "level": 3,
+      "type": "question",
+      "title": "Dos extremos distintos",
+      "body": [],
+      "prompt": "Si x es entero y −2 < x ≤ 3, ¿cuál es la lista completa de soluciones?",
+      "choices": [
+        {
+          "text": "−2, −1, 0, 1, 2, 3",
+          "explanation": "El extremo −2 está excluido por la desigualdad estricta."
+        },
+        {
+          "text": "−1, 0, 1, 2",
+          "explanation": "Falta 3, que sí se incluye por el símbolo ≤."
+        },
+        {
+          "text": "−1, 0, 1, 2, 3",
+          "explanation": "Incluye todos los enteros mayores que −2 y no mayores que 3."
+        }
+      ],
+      "correct": 2,
+      "hint": "Revisa por separado si cada extremo se incluye.",
+      "solution": [
+        "−2 no entra porque se exige ser mayor que −2.",
+        "3 sí entra porque se permite ser igual a 3.",
+        "Los enteros son −1, 0, 1, 2 y 3."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-23",
+      "level": 3,
+      "type": "question",
+      "title": "Una ecuación dentro de una situación",
+      "body": [],
+      "prompt": "Un servicio cobra 12 soles fijos y 4 por cada hora. Si pagaste 44 soles, ¿cuántas horas usaste?",
+      "choices": [
+        {
+          "text": "8 horas",
+          "explanation": "12 + 4h = 44 lleva a 4h = 32 y h = 8."
+        },
+        {
+          "text": "11 horas",
+          "explanation": "44/4 = 11 omite el cobro fijo de 12 soles."
+        },
+        {
+          "text": "14 horas",
+          "explanation": "(44 + 12)/4 suma el cobro fijo en vez de retirarlo."
+        }
+      ],
+      "correct": 0,
+      "hint": "El total incluye una parte fija y otra que depende de las horas.",
+      "solution": [
+        "12 + 4h = 44.",
+        "4h = 44 − 12 = 32.",
+        "h = 8; comprobación: 12 + 4 × 8 = 44."
+      ]
+    },
+    {
+      "id": "ecuaciones-e-inecuaciones-24",
+      "level": 3,
+      "type": "review",
+      "title": "Valida el extremo y un valor de prueba",
+      "body": [
+        "En una inecuación, comprueba el extremo y al menos un valor a cada lado para verificar la dirección. Para x ≤ −3, −4 debe funcionar y −2 debe fallar en el problema original.",
+        "Al dividir o multiplicar por un negativo, invierte la comparación. Restar un número negativo no obliga a invertirla: lo que importa es la operación aplicada a ambos miembros.",
+        "Expresa la respuesta en el contexto: máximo entero de libros, intervalo real de temperaturas o cantidad exacta de horas. Despejar es parte del trabajo; interpretar completa la solución."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "revision": "46810dedd3fe9699d57f",
+  "courses": [
+    {
+      "slug": "matematica",
+      "title": "Matemática",
+      "shortTitle": "Matemática",
+      "description": "De los números al álgebra: entiende las bases y úsalas para resolver problemas.",
+      "topics": [
+        {
+          "id": "matematica/numeros-y-operaciones",
+          "course": "matematica",
+          "slug": "numeros-y-operaciones",
+          "title": "Números y operaciones",
+          "description": "Entiende el valor de los números, opera con signos y decide un orden de cálculo.",
+          "version": 1,
+          "order": 1,
+          "estimatedMinutes": 24,
+          "objectives": [
+            "Interpretar el valor posicional y los números negativos.",
+            "Aplicar la jerarquía de operaciones y las reglas de signos.",
+            "Modelar situaciones de varios pasos y comprobar el resultado."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/numeros-y-operaciones.json",
+          "sha256": "467e8a419d81968cd3e63364c531231148d5329fbc1b186e8e5cbfbc952d3d07"
+        },
+        {
+          "id": "matematica/fracciones",
+          "course": "matematica",
+          "slug": "fracciones",
+          "title": "Fracciones",
+          "description": "Representa partes del mismo todo y opera con cantidades fraccionarias en situaciones reales.",
+          "version": 1,
+          "order": 2,
+          "estimatedMinutes": 24,
+          "objectives": [
+            "Relacionar numerador, denominador y unidad de referencia.",
+            "Sumar, multiplicar y dividir fracciones con sentido.",
+            "Resolver problemas de lo que queda y de fracciones de cantidades."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/fracciones.json",
+          "sha256": "f73aeea3154b70cc7e32cc08fbcb89272f855db9e11e58afd8a1019ed1fbff29"
+        },
+        {
+          "id": "matematica/divisibilidad",
+          "course": "matematica",
+          "slug": "divisibilidad",
+          "title": "Divisibilidad",
+          "description": "Detecta divisiones exactas, usa criterios y descompón números en factores primos.",
+          "version": 1,
+          "order": 3,
+          "estimatedMinutes": 24,
+          "objectives": [
+            "Distinguir divisores, múltiplos y números primos.",
+            "Aplicar y justificar criterios de divisibilidad habituales.",
+            "Usar restos y factores para resolver condiciones simultáneas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/divisibilidad.json",
+          "sha256": "72d442614cdcf9a825518b1f3e1635250315ecacc1afa740133cbea270bc5640"
+        },
+        {
+          "id": "matematica/mcm-y-mcd",
+          "course": "matematica",
+          "slug": "mcm-y-mcd",
+          "title": "MCM y MCD",
+          "description": "Elige entre agrupar sin sobrantes y encontrar coincidencias periódicas.",
+          "version": 1,
+          "order": 4,
+          "estimatedMinutes": 24,
+          "objectives": [
+            "Distinguir divisor común de múltiplo común.",
+            "Calcular MCD y MCM con factores primos.",
+            "Resolver agrupaciones, coincidencias y condiciones mixtas."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/mcm-y-mcd.json",
+          "sha256": "635caec9f7663ead608f4a9df065a2faf27d2403190451fb30633c2444f4652b"
+        },
+        {
+          "id": "matematica/ecuaciones-e-inecuaciones",
+          "course": "matematica",
+          "slug": "ecuaciones-e-inecuaciones",
+          "title": "Ecuaciones e inecuaciones lineales",
+          "description": "Despeja una incógnita, interpreta límites y comprueba soluciones con sentido.",
+          "version": 1,
+          "order": 5,
+          "estimatedMinutes": 24,
+          "objectives": [
+            "Mantener la igualdad al operar en ambos miembros.",
+            "Resolver ecuaciones con paréntesis y fracciones.",
+            "Resolver inecuaciones y aplicar sus soluciones al contexto."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/matematica/ecuaciones-e-inecuaciones.json",
+          "sha256": "69f97ebbf315b51f1e9acba5dc6eb75f3bb142f87fdfef0cc9755afc9782e744"
+        }
+      ]
+    },
+    {
+      "slug": "lectura",
+      "title": "Competencia lectora y razonamiento verbal",
+      "shortTitle": "Lectura y verbal",
+      "description": "Lee con intención, interpreta el contexto y descubre las relaciones entre ideas.",
+      "topics": [
+        {
+          "id": "lectura/tipos-de-texto",
+          "course": "lectura",
+          "slug": "tipos-de-texto",
+          "title": "Tipos de texto",
+          "description": "Reconoce propósitos, secuencias y formatos con evidencia del texto.",
+          "version": 1,
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectives": [
+            "Distinguir cinco propósitos textuales.",
+            "Separar tipo, tema y formato.",
+            "Interpretar textos combinados sin confundir las voces."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/tipos-de-texto.json",
+          "sha256": "09273fb5becdd9ecda5475f67aef427ead5b3cd69b9013d6592cd61ae92bcbed"
+        },
+        {
+          "id": "lectura/textos-expositivos",
+          "course": "lectura",
+          "slug": "textos-expositivos",
+          "title": "Textos expositivos",
+          "description": "Comprende ideas principales, estructuras explicativas y límites de las inferencias.",
+          "version": 1,
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectives": [
+            "Distinguir tema, idea principal y detalle.",
+            "Reconocer comparación, clasificación, causa y problema-solución.",
+            "Resumir e inferir sin exagerar la evidencia."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/textos-expositivos.json",
+          "sha256": "acd02fff2fa5749310ec578b01bf64940a5141567b13e8b9f95188c7ea031f74"
+        },
+        {
+          "id": "lectura/sinonimia-contextual",
+          "course": "lectura",
+          "slug": "sinonimia-contextual",
+          "title": "Sinonimia contextual",
+          "description": "Elige palabras equivalentes según el contexto, el matiz y la construcción.",
+          "version": 1,
+          "order": 3,
+          "estimatedMinutes": 25,
+          "objectives": [
+            "Seleccionar el sentido activo de una palabra.",
+            "Sustituir expresiones sin cambiar el mensaje.",
+            "Conservar grado de certeza, intensidad y tono."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/sinonimia-contextual.json",
+          "sha256": "a6816cb5196de670a7ac4dcb5db77d73febb87717f5e4994040ebc4268fbcf92"
+        },
+        {
+          "id": "lectura/antonimia-contextual",
+          "course": "lectura",
+          "slug": "antonimia-contextual",
+          "title": "Antonimia contextual",
+          "description": "Reconoce la oposición pertinente y distingue escalas, complementos y relaciones recíprocas.",
+          "version": 1,
+          "order": 4,
+          "estimatedMinutes": 25,
+          "objectives": [
+            "Identificar el eje contextual de oposición.",
+            "Diferenciar antonimia gradual, complementaria y recíproca.",
+            "Interpretar oposiciones figuradas sin cambiar de sentido."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/antonimia-contextual.json",
+          "sha256": "3089a7501e4607cc0d138f1035173b208544603fa3a5154fe5505e84571816eb"
+        },
+        {
+          "id": "lectura/relaciones-logicas",
+          "course": "lectura",
+          "slug": "relaciones-logicas",
+          "title": "Relaciones lógicas de textos",
+          "description": "Une ideas con conectores, referencias y condiciones sin perder la coherencia.",
+          "version": 1,
+          "order": 5,
+          "estimatedMinutes": 25,
+          "objectives": [
+            "Reconocer causa, consecuencia, adición y ejemplo.",
+            "Distinguir contraste, concesión, reformulación y rectificación.",
+            "Resolver coherencia global, referencias y condiciones necesarias."
+          ],
+          "steps": 24,
+          "questionCount": 12,
+          "file": "topics/lectura/relaciones-logicas.json",
+          "sha256": "16115ed3d02649aebada2744fafd1bf02766af23aa6230ab855e6092d67b9e89"
+        }
+      ]
+    }
+  ]
+}

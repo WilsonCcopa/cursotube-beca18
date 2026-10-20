@@ -1,0 +1,49 @@
+# Dependencias y archivos temporales
+node_modules/
+.npm/
+.npm-cache/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
+playwright-report/
+test-results/
+
+# Configuración local, secretos y credenciales
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+*serviceAccount*.json
+*credentials*.json
+*credential*.json
+*secret*.json
+.netrc
+.npmrc
+
+# Infraestructura y configuraciones del sitio principal
+.firebase/
+.firebaserc
+firebase.json
+firestore.rules
+firestore.indexes.json
+functions/
+public/js/analytics.js
+public/js/ad-slots.js
+public/js/shared.js
+
+# Materiales externos y pruebas locales
+*.pdf
+*.zip
+books/
+source-data/
+qa/
+work/
+outputs/

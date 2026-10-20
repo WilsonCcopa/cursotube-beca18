@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/fracciones",
+  "course": "matematica",
+  "slug": "fracciones",
+  "title": "Fracciones",
+  "description": "Representa partes del mismo todo y opera con cantidades fraccionarias en situaciones reales.",
+  "version": 1,
+  "order": 2,
+  "estimatedMinutes": 24,
+  "objectives": [
+    "Relacionar numerador, denominador y unidad de referencia.",
+    "Sumar, multiplicar y dividir fracciones con sentido.",
+    "Resolver problemas de lo que queda y de fracciones de cantidades."
+  ],
+  "steps": [
+    {
+      "id": "fracciones-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Una parte necesita un todo",
+      "body": [
+        "En 3/4, el denominador 4 indica cuatro partes iguales de una unidad y el numerador 3 indica cuántas tomamos. Las partes deben tener el mismo tamaño.",
+        "La misma fracción puede representar cantidades distintas si cambia el todo: la mitad de 10 es 5 y la mitad de 30 es 15.",
+        "Una fracción impropia tiene numerador mayor o igual que el denominador. 7/4 = 1 + 3/4: contiene una unidad completa y tres cuartos."
+      ]
+    },
+    {
+      "id": "fracciones-02",
+      "level": 1,
+      "type": "example",
+      "title": "Distinta escritura, misma cantidad",
+      "body": [
+        "Una tira está dividida en 6 partes iguales y 4 están pintadas: 4/6. Agrupa cada dos partes pequeñas en una grande.",
+        "Ahora hay 3 grupos iguales y 2 pintados: 2/3. Por eso 4/6 = 2/3. Dividimos numerador y denominador entre el mismo número, 2.",
+        "La cantidad pintada no cambia; solo cambia el tamaño de las partes con que la contamos."
+      ]
+    },
+    {
+      "id": "fracciones-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Construye una fracción",
+      "body": [
+        "Cambia cuántas partes tiene la unidad y cuántas están coloreadas. El dibujo representa una unidad completa como referencia.",
+        "Busca dos representaciones equivalentes, por ejemplo 1/2 y 2/4. Observa que se colorea la misma proporción de la unidad."
+      ],
+      "diagram": {
+        "kind": "fraction",
+        "numerator": 3,
+        "denominator": 4
+      }
+    },
+    {
+      "id": "fracciones-04",
+      "level": 1,
+      "type": "question",
+      "title": "Lee una fracción",
+      "body": [],
+      "prompt": "Una barra se divide en 8 partes iguales y se usan 3. ¿Qué fracción se usó?",
+      "choices": [
+        {
+          "text": "8/3",
+          "explanation": "Se intercambiaron el total de partes y las partes utilizadas."
+        },
+        {
+          "text": "3/8",
+          "explanation": "Se tomaron 3 partes de las 8 partes iguales de la unidad."
+        },
+        {
+          "text": "5/8",
+          "explanation": "5/8 representa lo que queda, no lo que se usó."
+        }
+      ],
+      "correct": 1,
+      "hint": "El numerador cuenta las partes tomadas.",
+      "solution": [
+        "Partes tomadas: 3. Partes de la unidad: 8.",
+        "La fracción usada es 3/8."
+      ]
+    },
+    {
+      "id": "fracciones-05",
+      "level": 1,
+      "type": "question",
+      "title": "Simplifica sin alterar",
+      "body": [],
+      "prompt": "¿Cuál es la forma irreducible de 18/24?",
+      "choices": [
+        {
+          "text": "3/8",
+          "explanation": "Se dividió el numerador entre 6 y el denominador entre 3. Usar divisores distintos altera la cantidad."
+        },
+        {
+          "text": "3/4",
+          "explanation": "Al dividir 18 y 24 entre su MCD, 6, obtenemos 3/4."
+        },
+        {
+          "text": "4/3",
+          "explanation": "4/3 invierte la fracción simplificada. Es mayor que 1, mientras que 18/24 es menor que 1."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca un divisor común que elimine todos los factores compartidos.",
+      "solution": [
+        "18 = 6 × 3 y 24 = 6 × 4.",
+        "18/24 = 3/4; 3 y 4 ya no tienen divisor común mayor que 1."
+      ]
+    },
+    {
+      "id": "fracciones-06",
+      "level": 1,
+      "type": "question",
+      "title": "Compara partes",
+      "body": [],
+      "prompt": "¿Qué fracción es mayor: 5/8 o 3/4?",
+      "choices": [
+        {
+          "text": "5/8",
+          "explanation": "5/8 es menor que 6/8, que equivale a 3/4."
+        },
+        {
+          "text": "3/4",
+          "explanation": "3/4 = 6/8 y 6/8 > 5/8."
+        },
+        {
+          "text": "Son iguales",
+          "explanation": "Sus numeradores se ven cercanos, pero al usar octavos difieren en 1/8."
+        }
+      ],
+      "correct": 1,
+      "hint": "Expresa ambas fracciones con denominador 8.",
+      "solution": [
+        "3/4 = 6/8.",
+        "Comparamos 5 octavos con 6 octavos: gana 3/4."
+      ]
+    },
+    {
+      "id": "fracciones-07",
+      "level": 1,
+      "type": "question",
+      "title": "Más de una unidad",
+      "body": [],
+      "prompt": "¿Cómo se escribe 11/4 como número mixto?",
+      "choices": [
+        {
+          "text": "2 3/4",
+          "explanation": "11 = 4 × 2 + 3: hay 2 unidades y 3/4."
+        },
+        {
+          "text": "3 1/4",
+          "explanation": "3 1/4 equivale a 13/4, no a 11/4."
+        },
+        {
+          "text": "2 1/4",
+          "explanation": "2 1/4 equivale a 9/4: faltan dos cuartos."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide 11 entre 4 y conserva el residuo como numerador.",
+      "solution": [
+        "11 ÷ 4 da cociente 2 y residuo 3.",
+        "11/4 = 2 + 3/4 = 2 3/4."
+      ]
+    },
+    {
+      "id": "fracciones-08",
+      "level": 1,
+      "type": "review",
+      "title": "Dos trampas al representar",
+      "body": [
+        "No basta con contar partes: tienen que ser iguales. Dos trozos de tamaños distintos no son automáticamente dos mitades.",
+        "Para comparar fracciones, usa un mismo denominador o una referencia como 1/2. Un denominador mayor no garantiza una fracción mayor.",
+        "Simplificar exige dividir arriba y abajo entre el mismo número distinto de cero. Sumar o restar la misma cantidad a ambos no conserva la fracción."
+      ]
+    },
+    {
+      "id": "fracciones-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Sumar partes del mismo tamaño",
+      "body": [
+        "Para sumar 1/3 + 1/4, convierte a doceavos: 4/12 + 3/12 = 7/12. No sumes los denominadores: el tamaño de la parte debe mantenerse.",
+        "Para multiplicar, toma una fracción de otra: 2/3 de 3/5 = (2 × 3)/(3 × 5) = 2/5.",
+        "Dividir por una fracción pregunta cuántas veces cabe esa cantidad. Dividir por 2/3 equivale a multiplicar por 3/2. La fracción divisora debe ser distinta de cero."
+      ]
+    },
+    {
+      "id": "fracciones-10",
+      "level": 2,
+      "type": "example",
+      "title": "Una cantidad repartida en porciones",
+      "body": [
+        "Tenemos 3/2 litros de jugo y cada vaso contiene 1/4 litro. ¿Cuántos vasos completos llenamos?",
+        "3/2 ÷ 1/4 = 3/2 × 4/1 = 12/2 = 6.",
+        "Comprobación: 6 vasos × 1/4 litro por vaso = 6/4 = 3/2 litros. El resultado cuenta vasos, no litros."
+      ]
+    },
+    {
+      "id": "fracciones-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Cancela factores, no sumandos",
+      "body": [
+        "En (4/9) × (3/8), puedes simplificar 4 con 8 y 3 con 9 antes de multiplicar: (1/3) × (1/2) = 1/6.",
+        "Esta simplificación funciona porque hay factores multiplicándose. No puedes cancelar el 3 de (3 + 2)/3: primero suma para obtener 5/3.",
+        "En sumas y restas, conserva el denominador común y opera los numeradores. Simplifica al terminar para comprobar mejor."
+      ]
+    },
+    {
+      "id": "fracciones-12",
+      "level": 2,
+      "type": "question",
+      "title": "Suma con un todo común",
+      "body": [],
+      "prompt": "Calcula 2/3 + 1/6.",
+      "choices": [
+        {
+          "text": "3/9",
+          "explanation": "Sumar los denominadores cambia el tamaño de las partes y no es la regla de suma."
+        },
+        {
+          "text": "5/6",
+          "explanation": "2/3 = 4/6; luego 4/6 + 1/6 = 5/6."
+        },
+        {
+          "text": "1/2",
+          "explanation": "1/2 corresponde a 2/3 − 1/6, no a la suma."
+        }
+      ],
+      "correct": 1,
+      "hint": "Convierte los tercios en sextos.",
+      "solution": [
+        "2/3 = 4/6.",
+        "4/6 + 1/6 = 5/6."
+      ]
+    },
+    {
+      "id": "fracciones-13",
+      "level": 2,
+      "type": "question",
+      "title": "Resta sin cambiar la unidad",
+      "body": [],
+      "prompt": "¿Cuánto queda al restar 3/10 de 7/10?",
+      "choices": [
+        {
+          "text": "4/10 = 2/5",
+          "explanation": "Ambas cantidades están en décimos; restamos 7 − 3 y simplificamos."
+        },
+        {
+          "text": "4/0",
+          "explanation": "Los denominadores no se restan; indican la unidad de medida común."
+        },
+        {
+          "text": "1/2",
+          "explanation": "1/2 equivale a 5/10, pero aquí quedan 4/10."
+        }
+      ],
+      "correct": 0,
+      "hint": "El tamaño de las partes sigue siendo un décimo.",
+      "solution": [
+        "7/10 − 3/10 = 4/10.",
+        "4/10 = 2/5."
+      ]
+    },
+    {
+      "id": "fracciones-14",
+      "level": 2,
+      "type": "question",
+      "title": "Fracción de otra fracción",
+      "body": [],
+      "prompt": "Calcula (3/5) × (10/9).",
+      "choices": [
+        {
+          "text": "2/3",
+          "explanation": "30/45 se simplifica a 2/3; también puedes cancelar factores antes."
+        },
+        {
+          "text": "13/14",
+          "explanation": "Sumar numeradores y denominadores no calcula un producto."
+        },
+        {
+          "text": "6/5",
+          "explanation": "6/5 no equivale a 30/45; se simplificó de manera desigual."
+        }
+      ],
+      "correct": 0,
+      "hint": "Multiplica numeradores y denominadores, o cancela factores cruzados.",
+      "solution": [
+        "(3 × 10)/(5 × 9) = 30/45.",
+        "Dividimos arriba y abajo entre 15: 2/3."
+      ]
+    },
+    {
+      "id": "fracciones-15",
+      "level": 2,
+      "type": "question",
+      "title": "Cuántas porciones caben",
+      "body": [],
+      "prompt": "¿Cuánto vale (4/5) ÷ (2/3)?",
+      "choices": [
+        {
+          "text": "8/15",
+          "explanation": "8/15 es el producto directo (4/5) × (2/3); faltó invertir la divisora."
+        },
+        {
+          "text": "6/5",
+          "explanation": "(4/5) × (3/2) = 12/10 = 6/5."
+        },
+        {
+          "text": "5/6",
+          "explanation": "5/6 invierte el resultado o cambia el orden de la división."
+        }
+      ],
+      "correct": 1,
+      "hint": "Conserva 4/5 e invierte solamente 2/3.",
+      "solution": [
+        "4/5 ÷ 2/3 = 4/5 × 3/2.",
+        "12/10 = 6/5."
+      ]
+    },
+    {
+      "id": "fracciones-16",
+      "level": 2,
+      "type": "review",
+      "title": "El denominador cuenta tamaños",
+      "body": [
+        "En 2/7 + 3/7 el resultado es 5/7: se conservan los séptimos. En 2/7 × 3/7 el resultado es 6/49: estás tomando una parte de otra parte.",
+        "Invertir una fracción solo aparece al transformar una división en multiplicación. No inviertas fracciones para sumarlas.",
+        "Comprueba con sentido: dividir una cantidad positiva entre un número positivo menor que 1 produce un resultado mayor que la cantidad inicial."
+      ]
+    },
+    {
+      "id": "fracciones-17",
+      "level": 3,
+      "type": "learn",
+      "title": "La base puede cambiar en cada paso",
+      "body": [
+        "Si usas 1/3 de una cantidad y luego 1/4 de lo que queda, la segunda fracción no se aplica a la cantidad inicial.",
+        "Después de usar 1/3 queda 2/3. Usar 1/4 de ese resto significa usar (1/4) × (2/3) = 1/6 del total inicial.",
+        "Antes de operar, escribe al lado de cada fracción cuál es su todo: total inicial, resto o nuevo total."
+      ]
+    },
+    {
+      "id": "fracciones-18",
+      "level": 3,
+      "type": "example",
+      "title": "Lo que queda también es una fracción",
+      "body": [
+        "Una biblioteca recibe 120 libros. Presta 1/4 del total y después 1/3 de los que quedan.",
+        "Primer préstamo: 120 × 1/4 = 30. Quedan 90. Segundo préstamo: 90 × 1/3 = 30. Quedan 60 libros.",
+        "También: 120 × (3/4) × (2/3) = 60. Se conserva 1/2 del total, no 1 − 1/4 − 1/3."
+      ]
+    },
+    {
+      "id": "fracciones-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Recupera el total y compara razones",
+      "body": [
+        "Si 3/5 de una colección son 42 objetos, el total es 42 ÷ (3/5) = 70. Multiplicar 42 por 3/5 hallaría una parte de la parte conocida.",
+        "Una proporción siempre debe indicar su referencia. Si la razón entre rojas y azules es 2:3, las rojas son 2/5 del total, porque el total contiene 2 + 3 partes.",
+        "Cuando conviertas un enunciado a fracciones, comprueba que la suma de partes del mismo total no exceda 1, salvo que el problema describa varias unidades."
+      ]
+    },
+    {
+      "id": "fracciones-20",
+      "level": 3,
+      "type": "question",
+      "title": "Dos usos consecutivos",
+      "body": [],
+      "prompt": "Un depósito tiene 80 L. Se consume 1/4 y luego 1/3 de lo que queda. ¿Cuántos litros quedan?",
+      "choices": [
+        {
+          "text": "100/3 L",
+          "explanation": "Esto resta 1/4 y 1/3 del total inicial; la segunda fracción se aplica al resto."
+        },
+        {
+          "text": "40 L",
+          "explanation": "Tras consumir 20 L quedan 60; luego se consumen 20 y quedan 40."
+        },
+        {
+          "text": "20 L",
+          "explanation": "20 es cada consumo, no la cantidad final disponible."
+        }
+      ],
+      "correct": 1,
+      "hint": "Actualiza la cantidad antes de calcular el segundo consumo.",
+      "solution": [
+        "80 × 1/4 = 20; quedan 60 L.",
+        "60 × 1/3 = 20; quedan 40 L."
+      ]
+    },
+    {
+      "id": "fracciones-21",
+      "level": 3,
+      "type": "question",
+      "title": "Encuentra el total",
+      "body": [],
+      "prompt": "Los 3/7 de las fichas de una caja son 27 fichas. ¿Cuántas fichas contiene la caja?",
+      "choices": [
+        {
+          "text": "63",
+          "explanation": "Si 3 partes valen 27, una parte vale 9 y 7 partes valen 63."
+        },
+        {
+          "text": "81/7",
+          "explanation": "81/7 es 27 × 3/7; calcula una fracción de las 27 fichas, no el total."
+        },
+        {
+          "text": "9",
+          "explanation": "9 representa solo 1/7 del total."
+        }
+      ],
+      "correct": 0,
+      "hint": "Divide la cantidad conocida entre la fracción que representa.",
+      "solution": [
+        "Total = 27 ÷ (3/7) = 27 × 7/3.",
+        "El total es 63; 3/7 de 63 son 27."
+      ]
+    },
+    {
+      "id": "fracciones-22",
+      "level": 3,
+      "type": "question",
+      "title": "Parte y total en una razón",
+      "body": [],
+      "prompt": "En una bolsa, la razón de fichas rojas a azules es 3:5. Si hay 64 fichas en total, ¿cuántas son rojas?",
+      "choices": [
+        {
+          "text": "24",
+          "explanation": "Hay 8 partes en total; cada parte vale 8 fichas y las rojas ocupan 3 partes."
+        },
+        {
+          "text": "38,4",
+          "explanation": "38,4 se obtiene con 3/5 del total; 3:5 compara rojas con azules, no con todas."
+        },
+        {
+          "text": "40",
+          "explanation": "40 es la cantidad de fichas azules."
+        }
+      ],
+      "correct": 0,
+      "hint": "El denominador que representa el total es 3 + 5.",
+      "solution": [
+        "Total de partes: 3 + 5 = 8.",
+        "Fichas rojas: 64 × 3/8 = 24."
+      ]
+    },
+    {
+      "id": "fracciones-23",
+      "level": 3,
+      "type": "question",
+      "title": "Combina resta y división",
+      "body": [],
+      "prompt": "Resuelve (3/4 − 1/6) ÷ (7/12).",
+      "choices": [
+        {
+          "text": "1",
+          "explanation": "3/4 − 1/6 = 7/12; una cantidad no nula dividida por sí misma vale 1."
+        },
+        {
+          "text": "7/144",
+          "explanation": "Ese valor no resulta de una resta con denominador común ni de invertir la divisora."
+        },
+        {
+          "text": "49/144",
+          "explanation": "49/144 multiplica 7/12 por 7/12; aquí hay una división."
+        }
+      ],
+      "correct": 0,
+      "hint": "Primero expresa la resta en doceavos.",
+      "solution": [
+        "3/4 − 1/6 = 9/12 − 2/12 = 7/12.",
+        "(7/12) ÷ (7/12) = 1."
+      ]
+    },
+    {
+      "id": "fracciones-24",
+      "level": 3,
+      "type": "review",
+      "title": "Pon nombre al todo",
+      "body": [
+        "El error más frecuente en problemas consecutivos es aplicar todas las fracciones al total inicial. Escribe el nuevo resto después de cada acción.",
+        "Para recuperar un total a partir de una parte, divide entre la fracción conocida. Para hallar una parte a partir del total, multiplica.",
+        "En una razón 3:5, hay 8 partes en conjunto. Distinguir parte/parte de parte/total evita una respuesta aparentemente razonable pero incorrecta."
+      ]
+    }
+  ]
+}

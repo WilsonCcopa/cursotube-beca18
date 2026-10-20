@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/tipos-de-texto",
+  "course": "lectura",
+  "slug": "tipos-de-texto",
+  "title": "Tipos de texto",
+  "description": "Reconoce propósitos, secuencias y formatos con evidencia del texto.",
+  "version": 1,
+  "order": 1,
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Distinguir cinco propósitos textuales.",
+    "Separar tipo, tema y formato.",
+    "Interpretar textos combinados sin confundir las voces."
+  ],
+  "steps": [
+    {
+      "level": 1,
+      "type": "learn",
+      "title": "Primero, para qué se escribió",
+      "body": [
+        "Un texto es un mensaje organizado con un propósito. Antes de ponerle una etiqueta, pregunta: ¿qué busca conseguir en el lector?",
+        "Narrar: contar hechos que cambian en el tiempo. Describir: mostrar cómo es algo. Exponer: explicar un tema. Argumentar: defender una postura con razones. Instruir: orientar acciones para lograr un resultado.",
+        "El tema no determina el tipo. Sobre una bicicleta se puede contar una aventura, explicar sus partes, recomendar su uso o indicar cómo repararla."
+      ],
+      "id": "tipos-de-texto-01"
+    },
+    {
+      "level": 1,
+      "type": "example",
+      "title": "Un cambio en el tiempo revela una narración",
+      "body": [
+        "Lee el texto y ubica los hechos: primero Inés olvida el mapa; después sigue el río; finalmente reconoce el puente. Hay una situación que se transforma.",
+        "Respuesta resuelta: predomina la narración. La mención del puente viejo describe un lugar, pero sirve de escenario a una secuencia de acciones."
+      ],
+      "passage": {
+        "title": "El regreso",
+        "paragraphs": [
+          "Inés salió del pueblo sin el mapa. Al descubrirlo, dudó en volver, pero escuchó el río y siguió su curso. Tras una curva apareció el puente viejo. Entonces supo que todavía podía llegar a la casa de su abuela antes del anochecer."
+        ]
+      },
+      "id": "tipos-de-texto-02"
+    },
+    {
+      "level": 1,
+      "type": "explore",
+      "title": "Explora los propósitos",
+      "body": [
+        "Toca cada tarjeta y compara qué haría un texto sobre el mismo tema: un huerto. Una palabra aislada no clasifica el texto; el propósito del conjunto sí."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Narrar",
+            "text": "Cuenta cómo una familia recuperó su huerto después de una helada."
+          },
+          {
+            "label": "Describir",
+            "text": "Detalla el tamaño, el color y la distribución de las plantas del huerto."
+          },
+          {
+            "label": "Exponer",
+            "text": "Explica cómo el compost modifica las condiciones del suelo."
+          },
+          {
+            "label": "Argumentar",
+            "text": "Defiende que el barrio destine un espacio común a un huerto."
+          },
+          {
+            "label": "Instruir",
+            "text": "Ordena los pasos para sembrar y regar una semilla."
+          }
+        ]
+      },
+      "id": "tipos-de-texto-03"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Reconoce una descripción",
+      "body": [],
+      "passage": {
+        "title": "El taller",
+        "paragraphs": [
+          "El taller ocupa un cuarto estrecho. Junto a la ventana hay una mesa de madera con marcas de pintura. En la pared del fondo cuelgan llaves de distintos tamaños; debajo, tres cajas azules guardan tornillos y tuercas."
+        ]
+      },
+      "prompt": "¿Qué tipo de texto predomina?",
+      "choices": [
+        {
+          "text": "Narrativo",
+          "explanation": "No hay una sucesión de hechos ni un cambio de situación."
+        },
+        {
+          "text": "Descriptivo",
+          "explanation": "Se presentan la distribución y los rasgos visibles de un lugar."
+        },
+        {
+          "text": "Instructivo",
+          "explanation": "No se ordena realizar acciones para construir o reparar algo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Observa si ocurren acontecimientos o si se muestran características.",
+      "solution": [
+        "El texto ubica objetos y señala cualidades: estrecho, de madera, azules.",
+        "Esos detalles construyen la imagen de un espacio: predomina la descripción."
+      ],
+      "id": "tipos-de-texto-04"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Reconoce una instrucción",
+      "body": [],
+      "passage": {
+        "title": "Organiza tus apuntes",
+        "paragraphs": [
+          "Escribe la fecha en la esquina de cada hoja. Luego reúne las hojas de un mismo curso y ordénalas de la más antigua a la más reciente. Finalmente, añade una etiqueta con el nombre del curso a cada carpeta."
+        ]
+      },
+      "prompt": "¿Cuál es el propósito principal?",
+      "choices": [
+        {
+          "text": "Guiar una tarea en pasos",
+          "explanation": "Los verbos indican qué hacer y en qué orden para organizar apuntes."
+        },
+        {
+          "text": "Contar una experiencia escolar",
+          "explanation": "No se relata lo que hizo un personaje en una ocasión concreta."
+        },
+        {
+          "text": "Defender el uso de carpetas",
+          "explanation": "No se ofrecen razones para persuadir sobre su conveniencia."
+        }
+      ],
+      "correct": 0,
+      "hint": "Relaciona los verbos con un resultado práctico.",
+      "solution": [
+        "Escribe, reúne, ordénalas y añade orientan acciones del lector.",
+        "La secuencia permite lograr un resultado: es un texto instructivo."
+      ],
+      "id": "tipos-de-texto-05"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Reconoce una explicación",
+      "body": [],
+      "passage": {
+        "title": "La sombra cambia",
+        "paragraphs": [
+          "Una sombra aparece cuando un objeto bloquea parte de la luz. Su longitud depende de la posición de la fuente luminosa: cuando la luz llega desde un ángulo bajo, la sombra se alarga; cuando llega más cerca de la vertical, se acorta."
+        ]
+      },
+      "prompt": "¿Qué tipo predomina?",
+      "choices": [
+        {
+          "text": "Argumentativo",
+          "explanation": "No se defiende una propuesta ni se busca convencer de adoptarla."
+        },
+        {
+          "text": "Descriptivo",
+          "explanation": "Incluye rasgos, pero su centro es explicar una relación entre luz y sombra."
+        },
+        {
+          "text": "Expositivo",
+          "explanation": "Presenta un fenómeno y explica de qué depende uno de sus cambios."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca si el texto responde cómo o por qué sucede algo.",
+      "solution": [
+        "El texto define la formación de una sombra y explica su longitud.",
+        "Su propósito central es hacer comprensible un fenómeno: exponer."
+      ],
+      "id": "tipos-de-texto-06"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Reconoce una postura",
+      "body": [],
+      "passage": {
+        "title": "Una hora para leer",
+        "paragraphs": [
+          "La biblioteca debería abrir una hora antes los sábados. Muchos estudiantes ayudan en sus casas durante la tarde y solo disponen de la mañana para estudiar. Ampliar ese horario les daría una oportunidad real de usar los libros y las mesas de trabajo."
+        ]
+      },
+      "prompt": "¿Qué hace principalmente el autor?",
+      "choices": [
+        {
+          "text": "Indica cómo abrir una biblioteca",
+          "explanation": "No presenta pasos para que un encargado abra el local."
+        },
+        {
+          "text": "Defiende una propuesta con razones",
+          "explanation": "Propone un horario y explica a quién beneficiaría y por qué."
+        },
+        {
+          "text": "Narra un sábado en la biblioteca",
+          "explanation": "No cuenta una jornada con hechos situados en el tiempo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Encuentra la propuesta y la razón que la sostiene.",
+      "solution": [
+        "La propuesta aparece en debería abrir una hora antes.",
+        "El beneficio para los estudiantes funciona como razón: predomina la argumentación."
+      ],
+      "id": "tipos-de-texto-07"
+    },
+    {
+      "level": 1,
+      "type": "review",
+      "title": "Evita confundir tema y propósito",
+      "body": [
+        "Error frecuente: si menciona estudiantes, es narrativo. Corrección: estudiantes es el tema o parte de él, no un propósito. Revisa lo que el texto hace con esa información.",
+        "Otra confusión: todo texto que informa es expositivo. Una descripción y una narración también informan; el expositivo organiza definiciones, relaciones o explicaciones para desarrollar un tema.",
+        "Prueba rápida: completa una frase con evidencia: este texto busca ___ porque ___. Si tu evidencia solo repite el tema, vuelve a leer."
+      ],
+      "id": "tipos-de-texto-08"
+    },
+    {
+      "level": 2,
+      "type": "learn",
+      "title": "Tipo y formato son preguntas distintas",
+      "body": [
+        "El tipo responde a la función predominante; el formato responde a cómo está organizada visualmente la información. Un relato suele ser narrativo y continuo, pero son dos clasificaciones diferentes.",
+        "Continuo: oraciones enlazadas en párrafos. Discontinuo: información en listas, cuadros, mapas, gráficos u otros bloques que no siguen solo párrafos. Mixto: combina, dentro de una unidad, un tramo continuo con elementos discontinuos.",
+        "Varios textos independientes reunidos para una tarea forman un conjunto de textos múltiples. No llames mixto a un texto solo porque tenga dos párrafos o dos tipos de secuencia."
+      ],
+      "id": "tipos-de-texto-09"
+    },
+    {
+      "level": 2,
+      "type": "example",
+      "title": "Una narración puede contener descripción",
+      "body": [
+        "El primer párrafo sitúa el ambiente; el segundo cuenta un hecho que cambia la situación. Para decidir el tipo predominante, observa la función del conjunto, no cuentes adjetivos.",
+        "Respuesta resuelta: es una narración con una secuencia descriptiva. La descripción prepara el escenario del hallazgo. El formato es continuo porque ambos tramos están escritos en párrafos."
+      ],
+      "passage": {
+        "title": "Una caja en el andén",
+        "paragraphs": [
+          "La estación tenía paredes amarillas y bancas gastadas. En el extremo del andén, una caja pequeña descansaba junto a una columna.",
+          "Mara se acercó, leyó el nombre escrito en la tapa y reconoció el de su maestra. Tomó la caja y corrió hacia la salida para devolvérsela antes de que partiera el último bus."
+        ]
+      },
+      "id": "tipos-de-texto-10"
+    },
+    {
+      "level": 2,
+      "type": "explore",
+      "title": "Elige la pista que clasifica",
+      "body": [
+        "Toca las tarjetas. Clasificar exige separar el asunto, la intención y la forma de presentación."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Tema",
+            "text": "El uso de agua en un colegio: aquello de lo que se habla."
+          },
+          {
+            "label": "Propósito",
+            "text": "Convencer de reparar los caños: la intención dirige la clasificación argumentativa."
+          },
+          {
+            "label": "Evidencia",
+            "text": "Una propuesta y razones sobre el desperdicio sostienen esa clasificación."
+          },
+          {
+            "label": "Formato",
+            "text": "Si aparecen párrafos y una tabla de consumo en una sola pieza, el formato es mixto."
+          }
+        ]
+      },
+      "id": "tipos-de-texto-11"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Distingue explicar de persuadir",
+      "body": [],
+      "passage": {
+        "title": "Dos formas de guardar semillas",
+        "paragraphs": [
+          "Algunas semillas se conservan secas en recipientes cerrados; otras requieren condiciones diferentes porque pierden viabilidad al secarse. La elección del almacenamiento depende de la especie y de la humedad que tolera. Por eso, un método útil para una semilla puede resultar inadecuado para otra."
+        ]
+      },
+      "prompt": "¿Qué clasificación se justifica mejor?",
+      "choices": [
+        {
+          "text": "Expositivo, porque explica una diferencia y su causa",
+          "explanation": "Desarrolla una relación entre características de las semillas y conservación."
+        },
+        {
+          "text": "Argumentativo, porque usa por eso",
+          "explanation": "Un conector de consecuencia también aparece en explicaciones sin postura persuasiva."
+        },
+        {
+          "text": "Instructivo, porque menciona un método",
+          "explanation": "No ofrece una secuencia de acciones para almacenar una especie concreta."
+        }
+      ],
+      "correct": 0,
+      "hint": "Un conector por sí solo no decide el propósito.",
+      "solution": [
+        "Se explican condiciones y diferencias de almacenamiento.",
+        "No se defiende una opción universal ni se dan pasos: predomina la exposición."
+      ],
+      "id": "tipos-de-texto-12"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Dos ejes a la vez",
+      "body": [],
+      "passage": {
+        "title": "Tarjeta de préstamo",
+        "paragraphs": [
+          "Una tarjeta presenta, en casillas separadas, los campos Nombre del lector, Código del libro, Fecha de préstamo y Fecha de devolución. Debajo aparece una única indicación: Completa todas las casillas con letra legible."
+        ]
+      },
+      "prompt": "Si clasificas la organización de la tarjeta, ¿qué formato predomina?",
+      "choices": [
+        {
+          "text": "Continuo",
+          "explanation": "Los campos en casillas no se organizan principalmente como párrafos enlazados."
+        },
+        {
+          "text": "Múltiple",
+          "explanation": "Se describe una sola tarjeta; sus casillas no son textos independientes reunidos."
+        },
+        {
+          "text": "Discontinuo",
+          "explanation": "La información se distribuye en campos y casillas que el lector localiza."
+        }
+      ],
+      "correct": 2,
+      "hint": "La pregunta pide formato, no finalidad.",
+      "solution": [
+        "La tarjeta se recorre mediante campos separados.",
+        "Una indicación breve no cambia el predominio discontinuo de su organización."
+      ],
+      "id": "tipos-de-texto-13"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Un relato dentro de una propuesta",
+      "body": [],
+      "passage": {
+        "title": "Recuperemos el patio",
+        "paragraphs": [
+          "El lunes, una pelota cayó en el charco del patio y tres estudiantes se mojaron al recuperarla. Esa escena muestra un problema que se repite cada temporada. El colegio debería reparar el drenaje antes de las próximas lluvias: evitaría caídas y permitiría usar el espacio durante más días."
+        ]
+      },
+      "prompt": "¿Cuál es la función del relato inicial?",
+      "choices": [
+        {
+          "text": "Convertir todo el texto en narrativo",
+          "explanation": "La anécdota sirve a la propuesta que se desarrolla después."
+        },
+        {
+          "text": "Apoyar una argumentación con un caso concreto",
+          "explanation": "El hecho introduce el problema que justifica reparar el drenaje."
+        },
+        {
+          "text": "Dar instrucciones para recuperar una pelota",
+          "explanation": "No se ordenan acciones al lector para sacar la pelota."
+        }
+      ],
+      "correct": 1,
+      "hint": "Lee lo que ocurre después de la anécdota.",
+      "solution": [
+        "El cierre propone reparar el drenaje y da razones.",
+        "El relato funciona como evidencia o ilustración dentro de una argumentación."
+      ],
+      "id": "tipos-de-texto-14"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una pieza con dos formas",
+      "body": [],
+      "passage": {
+        "title": "Informe del vivero",
+        "paragraphs": [
+          "La primera parte de una misma página contiene dos párrafos que explican por qué se cambió el horario de riego del vivero. Debajo, una tabla relaciona cada parcela con su nuevo horario y la persona responsable."
+        ]
+      },
+      "prompt": "¿Qué formato tiene esa página?",
+      "choices": [
+        {
+          "text": "Mixto",
+          "explanation": "Integra párrafos explicativos y una tabla dentro de una misma pieza."
+        },
+        {
+          "text": "Continuo",
+          "explanation": "La tabla incorpora una organización distinta de la de los párrafos."
+        },
+        {
+          "text": "Múltiple",
+          "explanation": "Los componentes pertenecen al mismo informe; no se presentan documentos independientes."
+        }
+      ],
+      "correct": 0,
+      "hint": "Distingue una unidad combinada de varios documentos.",
+      "solution": [
+        "Hay un tramo continuo: dos párrafos.",
+        "Hay un elemento discontinuo: la tabla. Su integración produce formato mixto."
+      ],
+      "id": "tipos-de-texto-15"
+    },
+    {
+      "level": 2,
+      "type": "review",
+      "title": "La pista local no reemplaza al conjunto",
+      "body": [
+        "Un adjetivo no vuelve descriptivo a todo un texto. Un imperativo citado no convierte una noticia en instructivo. Un conector como porque puede explicar un fenómeno o justificar una opinión.",
+        "Separa las preguntas: propósito dominante, secuencias que lo apoyan y formato. Puedes responder: argumentativo, con una anécdota narrativa, en formato continuo.",
+        "Para corregir una clasificación, cambia la evidencia y revisa qué explicación cubre más partes del texto con menos excepciones."
+      ],
+      "id": "tipos-de-texto-16"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Cuando se combinan voces",
+      "body": [
+        "En un conjunto de textos, cada documento puede tener un propósito propio. Una noticia, un aviso y una carta pueden hablar del mismo asunto sin ser del mismo tipo.",
+        "La intención de un personaje citado tampoco equivale automáticamente a la del autor. Un relato puede incluir una orden dentro de un diálogo y seguir siendo narrativo.",
+        "Para resolver casos difíciles, identifica quién habla, a quién se dirige, qué acción busca y qué partes sostienen esa interpretación."
+      ],
+      "id": "tipos-de-texto-17"
+    },
+    {
+      "level": 3,
+      "type": "example",
+      "title": "Una orden citada no cambia el tipo",
+      "body": [
+        "La frase de la coordinadora es una instrucción dentro de la historia. Sin embargo, el narrador organiza hechos: llegan, reciben una indicación y descubren una pista.",
+        "Respuesta resuelta: predomina la narración. No está dirigido al lector para que participe en una búsqueda; cuenta lo que hizo un grupo."
+      ],
+      "passage": {
+        "title": "La pista",
+        "paragraphs": [
+          "Al llegar al museo, el grupo recibió una hoja vacía. La coordinadora dijo: Busquen una palabra debajo de cada banco. Los estudiantes revisaron la sala y descubrieron cinco notas que, juntas, formaban el nombre de una artista. Entonces comprendieron el motivo de la visita."
+        ]
+      },
+      "id": "tipos-de-texto-18"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "El destinatario permite afinar la intención",
+      "body": [
+        "Una instrucción directa suele permitir que su destinatario ejecute algo. Un texto argumentativo espera que evalúe o adopte una postura. Un expositivo busca ampliar su comprensión.",
+        "No confundas efecto posible con finalidad. Una explicación puede entretener; eso no demuestra que su finalidad dominante sea entretener. Elige lo que está sostenido por la organización y las marcas del texto."
+      ],
+      "id": "tipos-de-texto-19"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Voces y finalidad",
+      "body": [],
+      "passage": {
+        "title": "Una visita al observatorio",
+        "paragraphs": [
+          "La guía señaló el panel y dijo: Comparen las dos imágenes antes de responder. Los visitantes guardaron silencio. Después de unos minutos, Samuel advirtió que una mancha había cambiado de posición y levantó la mano. La guía sonrió: era la primera pista que esperaba que descubrieran."
+        ]
+      },
+      "prompt": "¿Por qué el texto completo es principalmente narrativo?",
+      "choices": [
+        {
+          "text": "Porque toda mención de personas produce una narración",
+          "explanation": "Las personas también aparecen en textos expositivos, descriptivos o argumentativos."
+        },
+        {
+          "text": "Porque contiene una instrucción dirigida a los visitantes",
+          "explanation": "Esa instrucción es solo una intervención citada dentro de los hechos."
+        },
+        {
+          "text": "Porque organiza acontecimientos y un descubrimiento en una secuencia",
+          "explanation": "La llegada de la indicación, la observación y el hallazgo hacen avanzar la historia."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa las palabras de la guía de la organización del narrador.",
+      "solution": [
+        "La instrucción ocurre dentro de una serie de acontecimientos.",
+        "El conjunto cuenta un descubrimiento: la secuencia narrativa domina."
+      ],
+      "id": "tipos-de-texto-20"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Documentos sobre un asunto",
+      "body": [],
+      "passage": {
+        "title": "La ciclovía en debate",
+        "paragraphs": [
+          "Para una tarea se reúnen tres documentos completos: una nota periodística sobre la apertura de una ciclovía, un plano con su recorrido y una carta de una vecina que propone mejorar los cruces. Cada documento conserva su título, autor y propósito."
+        ]
+      },
+      "prompt": "¿Cómo se clasifica el conjunto por su formato?",
+      "choices": [
+        {
+          "text": "Textos múltiples",
+          "explanation": "Son documentos independientes reunidos para compararlos o usarlos en una tarea."
+        },
+        {
+          "text": "Un único texto continuo",
+          "explanation": "El plano no sigue párrafos y los documentos conservan su independencia."
+        },
+        {
+          "text": "Un único texto descriptivo",
+          "explanation": "Se confunde el tipo con el formato y se ignoran las diferentes intenciones."
+        }
+      ],
+      "correct": 0,
+      "hint": "Observa si se integraron como una sola pieza o mantienen identidad propia.",
+      "solution": [
+        "La nota, el plano y la carta conservan autonomía.",
+        "Su reunión forma un conjunto de textos múltiples, aunque compartan tema."
+      ],
+      "id": "tipos-de-texto-21"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una explicación con una opinión citada",
+      "body": [],
+      "passage": {
+        "title": "La reunión vecinal",
+        "paragraphs": [
+          "En una reunión, Rosa sostuvo que el barrio debía plantar árboles para reducir el calor. Un vecino le preguntó cómo funcionaba ese efecto. Ella explicó que las copas interceptan parte de la radiación solar y que la evaporación del agua de las hojas contribuye al intercambio de energía. El redactor de esta nota se centra en explicar esos dos procesos; no evalúa el plan de siembra."
+        ]
+      },
+      "prompt": "Según la delimitación del propio texto, ¿qué propósito predomina en la nota?",
+      "choices": [
+        {
+          "text": "Instruir sobre la plantación",
+          "explanation": "No presenta materiales, acciones ordenadas ni condiciones de siembra."
+        },
+        {
+          "text": "Exponer dos procesos relacionados con los árboles",
+          "explanation": "La nota desarrolla la explicación física y delimita ese objetivo."
+        },
+        {
+          "text": "Convencer al lector de aprobar el plan vecinal",
+          "explanation": "La propuesta se atribuye a Rosa; el redactor no la desarrolla como tesis propia."
+        }
+      ],
+      "correct": 1,
+      "hint": "La postura de una fuente citada puede ser contexto y no tesis del redactor.",
+      "solution": [
+        "La propuesta de Rosa sitúa la conversación.",
+        "El desarrollo se dedica a explicar dos mecanismos: el propósito es expositivo."
+      ],
+      "id": "tipos-de-texto-22"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Evalúa la clasificación con evidencia",
+      "body": [],
+      "passage": {
+        "title": "Reparar antes de reemplazar",
+        "paragraphs": [
+          "El centro estudiantil debería organizar una jornada mensual de reparación. Un cierre roto o una pata floja no siempre vuelve inútil un objeto. Si contamos con orientación y herramientas compartidas, podríamos prolongar su uso y reducir gastos. La jornada no resolvería todas las averías, pero permitiría atender las más sencillas antes de comprar algo nuevo."
+        ]
+      },
+      "prompt": "¿Qué evidencia respalda mejor la clasificación argumentativa?",
+      "choices": [
+        {
+          "text": "Menciona objetos con características físicas",
+          "explanation": "Esas características por sí solas solo aportan detalles al tema."
+        },
+        {
+          "text": "Tiene cuatro oraciones y un solo párrafo",
+          "explanation": "La cantidad de oraciones no decide la finalidad de un texto."
+        },
+        {
+          "text": "Formula una propuesta, aporta razones y reconoce un límite",
+          "explanation": "Esos elementos organizan una defensa razonada de la jornada de reparación."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca una estructura que conecte postura y razones.",
+      "solution": [
+        "Debería organizar expresa la tesis.",
+        "Prolongar el uso y reducir gastos son razones; reconocer límites matiza la defensa."
+      ],
+      "id": "tipos-de-texto-23"
+    },
+    {
+      "level": 3,
+      "type": "review",
+      "title": "Tu procedimiento para textos combinados",
+      "body": [
+        "Paso 1: expresa el tema sin clasificar. Paso 2: formula la finalidad dominante con un verbo. Paso 3: respáldala con al menos dos partes del texto.",
+        "Paso 4: distingue las voces citadas y las secuencias secundarias. Paso 5: solo si lo preguntan, clasifica el formato en continuo, discontinuo, mixto o múltiple.",
+        "Si fallaste una pregunta, vuelve a su alternativa elegida y verifica qué pista local convertiste en regla general. Ese registro ayuda a no repetir el mismo error."
+      ],
+      "id": "tipos-de-texto-24"
+    }
+  ]
+}

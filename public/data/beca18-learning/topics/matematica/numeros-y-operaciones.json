@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/numeros-y-operaciones",
+  "course": "matematica",
+  "slug": "numeros-y-operaciones",
+  "title": "Números y operaciones",
+  "description": "Entiende el valor de los números, opera con signos y decide un orden de cálculo.",
+  "version": 1,
+  "order": 1,
+  "estimatedMinutes": 24,
+  "objectives": [
+    "Interpretar el valor posicional y los números negativos.",
+    "Aplicar la jerarquía de operaciones y las reglas de signos.",
+    "Modelar situaciones de varios pasos y comprobar el resultado."
+  ],
+  "steps": [
+    {
+      "id": "numeros-y-operaciones-01",
+      "level": 1,
+      "type": "learn",
+      "title": "El lugar cambia el valor",
+      "body": [
+        "En 4 307, el 4 representa cuatro millares: 4 × 1 000. El 3 representa tres centenas: 3 × 100. El 0 conserva el lugar de las decenas.",
+        "Un número negativo indica una posición por debajo de una referencia: −3 °C está tres grados debajo de 0 °C. En la recta numérica, avanzar a la derecha aumenta el valor."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-02",
+      "level": 1,
+      "type": "example",
+      "title": "De una temperatura a otra",
+      "body": [
+        "A las seis, la temperatura es −4 °C. Más tarde aumenta 7 °C.",
+        "Partimos de −4 y avanzamos siete unidades: −3, −2, −1, 0, 1, 2, 3. Por tanto, −4 + 7 = 3 °C.",
+        "El aumento es 7, pero la temperatura final es 3: no representan lo mismo."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Recorre la recta",
+      "body": [
+        "Mueve el punto entre −10 y 10. Observa que los números de mayor valor quedan a la derecha, incluso cuando ambos son negativos.",
+        "Ubica −5 y luego −2. Aunque 5 es mayor que 2, −5 es menor que −2 porque queda más a la izquierda."
+      ],
+      "diagram": {
+        "kind": "numberline",
+        "min": -10,
+        "max": 10,
+        "value": -4
+      }
+    },
+    {
+      "id": "numeros-y-operaciones-04",
+      "level": 1,
+      "type": "question",
+      "title": "Una cifra, un valor",
+      "body": [],
+      "prompt": "¿Qué valor representa el 7 en 27 405?",
+      "choices": [
+        {
+          "text": "7",
+          "explanation": "7 sería su valor si ocupara el lugar de las unidades."
+        },
+        {
+          "text": "700",
+          "explanation": "700 corresponde a siete centenas; aquí la cifra está en los millares."
+        },
+        {
+          "text": "7 000",
+          "explanation": "Está en la posición de los millares: 7 × 1 000 = 7 000."
+        },
+        {
+          "text": "70 000",
+          "explanation": "Las decenas de millar las ocupa el 2, no el 7."
+        }
+      ],
+      "correct": 2,
+      "hint": "Descompón 27 405 por posiciones.",
+      "solution": [
+        "27 405 = 20 000 + 7 000 + 400 + 5.",
+        "El 7 aporta 7 000 al número."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-05",
+      "level": 1,
+      "type": "question",
+      "title": "Deuda y abono",
+      "body": [],
+      "prompt": "Tu saldo es −18 soles y recibes un abono de 25 soles. ¿Cuál es el nuevo saldo?",
+      "choices": [
+        {
+          "text": "−43 soles",
+          "explanation": "Sumar un abono no aumenta la deuda; −43 saldría de restar 25 a −18."
+        },
+        {
+          "text": "7 soles",
+          "explanation": "El abono cancela 18 soles de deuda y quedan 7 soles."
+        },
+        {
+          "text": "43 soles",
+          "explanation": "43 suma las magnitudes y pierde el signo del saldo inicial."
+        }
+      ],
+      "correct": 1,
+      "hint": "Primero utiliza parte del abono para cubrir la deuda.",
+      "solution": [
+        "Saldo final = −18 + 25.",
+        "25 − 18 = 7: el saldo queda positivo."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-06",
+      "level": 1,
+      "type": "question",
+      "title": "Compara negativos",
+      "body": [],
+      "prompt": "¿Cuál de estos números es mayor?",
+      "choices": [
+        {
+          "text": "−8",
+          "explanation": "−8 está más a la izquierda que −3 y −1."
+        },
+        {
+          "text": "−3",
+          "explanation": "−3 es mayor que −8, pero menor que −1."
+        },
+        {
+          "text": "−1",
+          "explanation": "Es el negativo más cercano a cero y queda más a la derecha."
+        }
+      ],
+      "correct": 2,
+      "hint": "Piensa en su posición en la recta, no solo en sus cifras.",
+      "solution": [
+        "El orden es −8 < −3 < −1.",
+        "Por tanto, el mayor es −1."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-07",
+      "level": 1,
+      "type": "question",
+      "title": "Cambio entre dos valores",
+      "body": [],
+      "prompt": "Una temperatura pasa de −6 °C a 4 °C. ¿Cuántos grados aumentó?",
+      "choices": [
+        {
+          "text": "2 °C",
+          "explanation": "2 es la diferencia entre las magnitudes 6 y 4, pero omite el cruce por cero."
+        },
+        {
+          "text": "−10 °C",
+          "explanation": "El cambio fue un aumento, por lo que su signo es positivo."
+        },
+        {
+          "text": "10 °C",
+          "explanation": "Sube 6 grados hasta cero y 4 grados más: 10 en total."
+        }
+      ],
+      "correct": 2,
+      "hint": "Separa el recorrido en −6 a 0 y 0 a 4.",
+      "solution": [
+        "Cambio = valor final − valor inicial.",
+        "4 − (−6) = 4 + 6 = 10 °C."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-08",
+      "level": 1,
+      "type": "review",
+      "title": "Evita confundir signo y tamaño",
+      "body": [
+        "−9 tiene una cifra de mayor magnitud que −2, pero −9 < −2. La posición en la recta decide el orden.",
+        "Para hallar un cambio, resta final menos inicial. Para hallar un saldo final, aplica el cambio al saldo de partida. Revisa siempre qué cantidad pide el problema."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Cada operación tiene su turno",
+      "body": [
+        "Primero resuelve agrupaciones. Después, potencias y raíces; luego multiplicaciones y divisiones; al final, sumas y restas.",
+        "Dentro de un mismo nivel, trabaja de izquierda a derecha. Por eso, 24 ÷ 6 × 2 = 4 × 2 = 8. No equivale a 24 ÷ (6 × 2).",
+        "En productos y cocientes: signos iguales dan positivo y signos diferentes dan negativo. Restar un negativo equivale a sumar su opuesto."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-10",
+      "level": 2,
+      "type": "example",
+      "title": "Orden y signos en una expresión",
+      "body": [
+        "Calcula 18 − 3 × (2 − 5).",
+        "Agrupación: 2 − 5 = −3. Producto: 3 × (−3) = −9. Resta: 18 − (−9) = 18 + 9 = 27.",
+        "Comprobación mental: al restar una cantidad negativa, el resultado debe ser mayor que 18."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-11",
+      "level": 2,
+      "type": "learn",
+      "title": "El paréntesis también afecta a la potencia",
+      "body": [
+        "En (−3)², la base es −3 completa: (−3) × (−3) = 9. En −3², la potencia se aplica a 3 y luego aparece el signo menos: −(3 × 3) = −9.",
+        "La división entre cero no está definida. Si una operación exige dividir por cero, no hay un resultado numérico válido. No la reemplaces por cero."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-12",
+      "level": 2,
+      "type": "question",
+      "title": "Prioriza la multiplicación",
+      "body": [],
+      "prompt": "¿Cuánto vale 8 + 4 × 3?",
+      "choices": [
+        {
+          "text": "36",
+          "explanation": "36 resulta de agrupar (8 + 4) × 3; esos paréntesis no están en la expresión."
+        },
+        {
+          "text": "20",
+          "explanation": "Primero 4 × 3 = 12; después 8 + 12 = 20."
+        },
+        {
+          "text": "24",
+          "explanation": "24 es solo 8 × 3 y deja fuera el sumando 4."
+        }
+      ],
+      "correct": 1,
+      "hint": "Multiplica antes de sumar.",
+      "solution": [
+        "4 × 3 = 12.",
+        "8 + 12 = 20."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-13",
+      "level": 2,
+      "type": "question",
+      "title": "Dividir y multiplicar",
+      "body": [],
+      "prompt": "Resuelve 36 ÷ 6 × 2.",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "3 corresponde a 36 ÷ (6 × 2), que tiene otra agrupación."
+        },
+        {
+          "text": "12",
+          "explanation": "Operando de izquierda a derecha: 36 ÷ 6 = 6 y 6 × 2 = 12."
+        },
+        {
+          "text": "30",
+          "explanation": "Restar 6 a 36 no corresponde al signo de división."
+        }
+      ],
+      "correct": 1,
+      "hint": "División y multiplicación tienen la misma prioridad.",
+      "solution": [
+        "36 ÷ 6 × 2 = 6 × 2.",
+        "6 × 2 = 12."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-14",
+      "level": 2,
+      "type": "question",
+      "title": "Restar un negativo",
+      "body": [],
+      "prompt": "¿Cuánto es −7 − (−12)?",
+      "choices": [
+        {
+          "text": "−19",
+          "explanation": "−19 sería −7 + (−12); aquí estamos restando el negativo."
+        },
+        {
+          "text": "19",
+          "explanation": "Cambiar el signo de ambos números sin justificación altera la expresión."
+        },
+        {
+          "text": "5",
+          "explanation": "Restar −12 equivale a sumar 12: −7 + 12 = 5."
+        }
+      ],
+      "correct": 2,
+      "hint": "Sustituye la resta de −12 por la suma de su opuesto.",
+      "solution": [
+        "−7 − (−12) = −7 + 12.",
+        "El resultado es 5."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-15",
+      "level": 2,
+      "type": "question",
+      "title": "Una potencia bien interpretada",
+      "body": [],
+      "prompt": "¿Qué pareja da los valores de (−4)² y −4², en ese orden?",
+      "choices": [
+        {
+          "text": "16 y −16",
+          "explanation": "El primer cuadrado incluye el signo; el segundo tiene el signo menos fuera de la potencia."
+        },
+        {
+          "text": "16 y 16",
+          "explanation": "El segundo valor conserva un menos exterior: −(4²)."
+        },
+        {
+          "text": "−16 y −16",
+          "explanation": "En el primero se multiplican dos negativos, lo que da positivo."
+        }
+      ],
+      "correct": 0,
+      "hint": "Identifica la base exacta de cada potencia.",
+      "solution": [
+        "(−4)² = (−4) × (−4) = 16.",
+        "−4² = −(4 × 4) = −16."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-16",
+      "level": 2,
+      "type": "review",
+      "title": "Tres comprobaciones rápidas",
+      "body": [
+        "Antes de calcular, identifica agrupaciones y operaciones del mismo nivel. No supongas que la multiplicación siempre va antes que la división.",
+        "Distingue la base de la potencia y los signos que quedan fuera. Al terminar, una estimación puede detectar un signo imposible o un resultado desproporcionado."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Traducir una situación completa",
+      "body": [
+        "Una expresión debe conservar tanto las cantidades como el orden de los hechos. Si se compra un paquete y luego se aplica un descuento al total, el descuento no se repite en cada unidad.",
+        "La propiedad distributiva permite agrupar: 19 × 25 + 19 × 75 = 19 × (25 + 75). Es útil cuando revela una cuenta más sencilla.",
+        "Para una división con sobrante, escribe cantidad = divisor × cociente + residuo, con 0 ≤ residuo < divisor."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-18",
+      "level": 3,
+      "type": "example",
+      "title": "Viaje con gastos compartidos",
+      "body": [
+        "Cinco amigos reúnen 30 soles cada uno. Pagan 96 soles de movilidad y 24 soles de materiales. Reparten el dinero sobrante por igual.",
+        "Recaudan 5 × 30 = 150 soles. Gastan 96 + 24 = 120. Quedan 150 − 120 = 30. Cada uno recibe 30 ÷ 5 = 6 soles.",
+        "La expresión completa es [5 × 30 − (96 + 24)] ÷ 5 = 6."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Estimar y verificar no es adivinar",
+      "body": [
+        "Si 203 personas viajarán en buses de 40 asientos, 203 ÷ 40 = 5 con residuo 3. Cinco buses transportan solo 200 personas: se necesitan seis.",
+        "El cociente responde cuántos grupos completos hay; la situación determina si el sobrante exige un grupo adicional. Una respuesta puede ser aritméticamente correcta y no resolver la necesidad real."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-20",
+      "level": 3,
+      "type": "question",
+      "title": "Un solo descuento",
+      "body": [],
+      "prompt": "Compras 4 cuadernos de 7 soles cada uno y recibes 5 soles de descuento sobre toda la compra. ¿Cuánto pagas?",
+      "choices": [
+        {
+          "text": "8 soles",
+          "explanation": "8 aplica el descuento de 5 a cada cuaderno: 4 × (7 − 5). El descuento se aplica una sola vez."
+        },
+        {
+          "text": "23 soles",
+          "explanation": "El total es 4 × 7 − 5 = 28 − 5 = 23."
+        },
+        {
+          "text": "33 soles",
+          "explanation": "33 suma el descuento en vez de restarlo."
+        }
+      ],
+      "correct": 1,
+      "hint": "Primero calcula el total de los cuatro cuadernos.",
+      "solution": [
+        "4 × 7 = 28 soles.",
+        "28 − 5 = 23 soles."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-21",
+      "level": 3,
+      "type": "question",
+      "title": "Agrupa con intención",
+      "body": [],
+      "prompt": "¿Cuál es el valor de 37 × 18 + 37 × 82?",
+      "choices": [
+        {
+          "text": "3 700",
+          "explanation": "Extraer 37 como factor común deja 18 + 82 = 100; luego 37 × 100 = 3 700."
+        },
+        {
+          "text": "1 369",
+          "explanation": "1 369 es 37² y no corresponde a la suma dada."
+        },
+        {
+          "text": "7 400",
+          "explanation": "Contar dos veces el factor 37 después de agrupar duplica el resultado."
+        }
+      ],
+      "correct": 0,
+      "hint": "Ambos productos contienen el factor 37.",
+      "solution": [
+        "37 × 18 + 37 × 82 = 37 × (18 + 82).",
+        "37 × 100 = 3 700."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-22",
+      "level": 3,
+      "type": "question",
+      "title": "Capacidad y sobrante",
+      "body": [],
+      "prompt": "Deben viajar 157 estudiantes en vehículos de 12 asientos. ¿Cuál es el mínimo de vehículos?",
+      "choices": [
+        {
+          "text": "13",
+          "explanation": "13 vehículos ofrecen 156 asientos: falta uno."
+        },
+        {
+          "text": "14",
+          "explanation": "Con 14 hay 168 asientos; 13 no alcanzan."
+        },
+        {
+          "text": "12",
+          "explanation": "12 vehículos solo tienen 144 asientos."
+        }
+      ],
+      "correct": 1,
+      "hint": "Comprueba la capacidad total del entero que elijas.",
+      "solution": [
+        "157 = 12 × 13 + 1.",
+        "El estudiante que sobra requiere un vehículo adicional: 14."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-23",
+      "level": 3,
+      "type": "question",
+      "title": "Combina todo lo aprendido",
+      "body": [],
+      "prompt": "Evalúa 5² − [18 ÷ (−3) + 4] × 2.",
+      "choices": [
+        {
+          "text": "29",
+          "explanation": "18 ÷ (−3) = −6; el corchete es −2, su doble es −4 y 25 − (−4) = 29."
+        },
+        {
+          "text": "21",
+          "explanation": "21 se obtiene si pierdes el signo negativo del producto −2 × 2."
+        },
+        {
+          "text": "5",
+          "explanation": "5 procede de usar +6 en lugar de −6 dentro del corchete."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conserva los signos al pasar del corchete al producto.",
+      "solution": [
+        "5² = 25 y 18 ÷ (−3) = −6.",
+        "[−6 + 4] × 2 = (−2) × 2 = −4.",
+        "25 − (−4) = 29."
+      ]
+    },
+    {
+      "id": "numeros-y-operaciones-24",
+      "level": 3,
+      "type": "review",
+      "title": "Tu rutina para cuentas largas",
+      "body": [
+        "Lee qué se pide; escribe una expresión; resuelve agrupaciones; respeta la prioridad; y comprueba el resultado en el contexto.",
+        "Cuando haya cupos o envases, verifica si el sobrante necesita otro grupo. Cuando haya dinero, comprueba que ingresos menos gastos coincida con el saldo.",
+        "Ya puedes reconocer errores de valor posicional, signos, prioridad y redondeo por capacidad. Vuelve a practicar cualquier paso que todavía no puedas explicar con tus palabras."
+      ]
+    }
+  ]
+}

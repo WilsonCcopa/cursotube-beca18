@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "id": "matematica/divisibilidad",
+  "course": "matematica",
+  "slug": "divisibilidad",
+  "title": "Divisibilidad",
+  "description": "Detecta divisiones exactas, usa criterios y descompón números en factores primos.",
+  "version": 1,
+  "order": 3,
+  "estimatedMinutes": 24,
+  "objectives": [
+    "Distinguir divisores, múltiplos y números primos.",
+    "Aplicar y justificar criterios de divisibilidad habituales.",
+    "Usar restos y factores para resolver condiciones simultáneas."
+  ],
+  "steps": [
+    {
+      "id": "divisibilidad-01",
+      "level": 1,
+      "type": "learn",
+      "title": "Dividir exactamente",
+      "body": [
+        "Decimos que 24 es divisible entre 6 porque 24 = 6 × 4: la división tiene residuo cero. Entonces 6 es divisor de 24 y 24 es múltiplo de 6.",
+        "Un divisor positivo de un número natural positivo no puede superarlo. Sus múltiplos positivos continúan sin fin: los de 6 son 6, 12, 18, 24…",
+        "Al dividir 25 entre 6, obtenemos 4 y sobra 1. La igualdad 25 = 6 × 4 + 1 muestra por qué 6 no divide exactamente a 25."
+      ]
+    },
+    {
+      "id": "divisibilidad-02",
+      "level": 1,
+      "type": "example",
+      "title": "Busca divisores por parejas",
+      "body": [
+        "Para encontrar los divisores positivos de 18, busca productos que den 18: 1 × 18, 2 × 9 y 3 × 6.",
+        "Los divisores son 1, 2, 3, 6, 9 y 18. Cada pareja aporta dos divisores.",
+        "No hace falta probar hasta 18: después de pasar la raíz cuadrada, las parejas se repiten en orden contrario."
+      ]
+    },
+    {
+      "id": "divisibilidad-03",
+      "level": 1,
+      "type": "explore",
+      "title": "Haz visibles los factores",
+      "body": [
+        "Cambia el número del explorador y observa sus parejas de factores. Cada pareja forma un producto exacto.",
+        "Compara 12 y 13. El primero tiene varias parejas; 13 solo tiene 1 × 13. Esa diferencia prepara la idea de número primo."
+      ],
+      "diagram": {
+        "kind": "factors",
+        "value": 24
+      }
+    },
+    {
+      "id": "divisibilidad-04",
+      "level": 1,
+      "type": "question",
+      "title": "Divisor o múltiplo",
+      "body": [],
+      "prompt": "¿Qué afirmación sobre 7 y 42 es correcta?",
+      "choices": [
+        {
+          "text": "42 es divisor de 7",
+          "explanation": "42 no cabe un número entero de veces en 7; la relación va al revés."
+        },
+        {
+          "text": "7 es divisor de 42",
+          "explanation": "42 = 7 × 6, por lo que 7 divide exactamente a 42."
+        },
+        {
+          "text": "7 es múltiplo de 42",
+          "explanation": "Los múltiplos positivos de 42 empiezan en 42, 84, 126…"
+        }
+      ],
+      "correct": 1,
+      "hint": "Escribe una multiplicación que relacione ambos números.",
+      "solution": [
+        "42 = 7 × 6.",
+        "7 es divisor de 42 y 42 es múltiplo de 7."
+      ]
+    },
+    {
+      "id": "divisibilidad-05",
+      "level": 1,
+      "type": "question",
+      "title": "Reconoce una división exacta",
+      "body": [],
+      "prompt": "¿Cuál de estos números es divisor de 30?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "30 ÷ 4 deja residuo 2."
+        },
+        {
+          "text": "7",
+          "explanation": "30 ÷ 7 deja residuo 2."
+        },
+        {
+          "text": "6",
+          "explanation": "30 = 6 × 5; la división es exacta."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca un número entero que complete el producto.",
+      "solution": [
+        "6 × 5 = 30.",
+        "Por tanto, 6 es divisor de 30."
+      ]
+    },
+    {
+      "id": "divisibilidad-06",
+      "level": 1,
+      "type": "question",
+      "title": "Cuenta divisores",
+      "body": [],
+      "prompt": "¿Cuántos divisores positivos tiene 16?",
+      "choices": [
+        {
+          "text": "4",
+          "explanation": "Contar 1, 2, 8 y 16 omite el divisor 4."
+        },
+        {
+          "text": "5",
+          "explanation": "Son 1, 2, 4, 8 y 16; la pareja 4 × 4 aporta un solo divisor distinto."
+        },
+        {
+          "text": "6",
+          "explanation": "Se estaría contando dos veces el 4 de la pareja central."
+        }
+      ],
+      "correct": 1,
+      "hint": "Lista las parejas de factores sin repetir el mismo número.",
+      "solution": [
+        "16 = 1 × 16 = 2 × 8 = 4 × 4.",
+        "Los divisores distintos son cinco: 1, 2, 4, 8 y 16."
+      ]
+    },
+    {
+      "id": "divisibilidad-07",
+      "level": 1,
+      "type": "question",
+      "title": "Usa cociente y residuo",
+      "body": [],
+      "prompt": "Al dividir 47 entre 6, ¿cuáles son el cociente entero y el residuo?",
+      "choices": [
+        {
+          "text": "7 y 5",
+          "explanation": "47 = 6 × 7 + 5, y 5 es menor que el divisor 6."
+        },
+        {
+          "text": "8 y −1",
+          "explanation": "Aunque 6 × 8 − 1 = 47, el residuo de esta división debe ser no negativo."
+        },
+        {
+          "text": "6 y 11",
+          "explanation": "11 no puede ser residuo porque es mayor o igual que 6."
+        }
+      ],
+      "correct": 0,
+      "hint": "El residuo debe estar entre 0 y 5.",
+      "solution": [
+        "6 × 7 = 42 y 47 − 42 = 5.",
+        "Cociente 7, residuo 5."
+      ]
+    },
+    {
+      "id": "divisibilidad-08",
+      "level": 1,
+      "type": "review",
+      "title": "Una relación en dos direcciones",
+      "body": [
+        "Si 35 = 5 × 7, 5 es divisor de 35 y 35 es múltiplo de 5. Intercambiar esas palabras cambia la afirmación.",
+        "En una división entera, el residuo siempre cumple 0 ≤ residuo < divisor. Si el residuo es cero, la división es exacta.",
+        "Al listar divisores de un cuadrado como 25, la pareja 5 × 5 aporta un solo divisor distinto."
+      ]
+    },
+    {
+      "id": "divisibilidad-09",
+      "level": 2,
+      "type": "learn",
+      "title": "Criterios que ahorran trabajo",
+      "body": [
+        "Un número es divisible entre 2 si su última cifra es par; entre 5 si termina en 0 o 5; y entre 10 si termina en 0.",
+        "Es divisible entre 3 si la suma de sus cifras es múltiplo de 3, y entre 9 si esa suma es múltiplo de 9.",
+        "Para divisibilidad entre 4, revisa las dos últimas cifras; para 8, las tres últimas. Para 6, debe ser divisible a la vez entre 2 y 3."
+      ]
+    },
+    {
+      "id": "divisibilidad-10",
+      "level": 2,
+      "type": "example",
+      "title": "Comprueba varias condiciones",
+      "body": [
+        "¿Es 2 376 divisible entre 6 y entre 8?",
+        "Para 6: termina en 6, así que es par. La suma 2 + 3 + 7 + 6 = 18 es múltiplo de 3. Cumple ambos criterios, por lo que es divisible entre 6.",
+        "Para 8: sus tres últimas cifras forman 376 = 8 × 47. También es divisible entre 8. Son dos comprobaciones diferentes."
+      ]
+    },
+    {
+      "id": "divisibilidad-11",
+      "level": 2,
+      "type": "learn",
+      "title": "Primos y factorización",
+      "body": [
+        "Un número primo es un natural mayor que 1 con exactamente dos divisores positivos: 1 y él mismo. El 1 no es primo. El 2 es el único primo par.",
+        "Un compuesto tiene más de dos divisores positivos. Para factorizar 84: 84 = 2 × 42 = 2 × 2 × 21 = 2² × 3 × 7.",
+        "Para decidir si 29 es primo, basta probar primos hasta su raíz cuadrada: 2, 3 y 5. Ninguno lo divide, así que 29 es primo."
+      ]
+    },
+    {
+      "id": "divisibilidad-12",
+      "level": 2,
+      "type": "question",
+      "title": "Divisibilidad entre 9",
+      "body": [],
+      "prompt": "¿Cuál de estos números es divisible entre 9?",
+      "choices": [
+        {
+          "text": "4 203",
+          "explanation": "Sus cifras suman 9, por lo que es divisible entre 9."
+        },
+        {
+          "text": "4 205",
+          "explanation": "Sus cifras suman 11, que no es múltiplo de 9."
+        },
+        {
+          "text": "4 206",
+          "explanation": "Sus cifras suman 12: es divisible entre 3, pero no entre 9."
+        }
+      ],
+      "correct": 0,
+      "hint": "Suma las cifras de cada opción.",
+      "solution": [
+        "4 + 2 + 0 + 3 = 9.",
+        "4 203 = 9 × 467."
+      ]
+    },
+    {
+      "id": "divisibilidad-13",
+      "level": 2,
+      "type": "question",
+      "title": "Dos condiciones a la vez",
+      "body": [],
+      "prompt": "¿Qué número es divisible entre 6?",
+      "choices": [
+        {
+          "text": "125",
+          "explanation": "No es par y sus cifras suman 8; falla ambos criterios."
+        },
+        {
+          "text": "234",
+          "explanation": "Es par y 2 + 3 + 4 = 9 es múltiplo de 3."
+        },
+        {
+          "text": "248",
+          "explanation": "Es par, pero sus cifras suman 14; no es divisible entre 3."
+        }
+      ],
+      "correct": 1,
+      "hint": "Debe ser divisible entre 2 y entre 3.",
+      "solution": [
+        "234 es par.",
+        "2 + 3 + 4 = 9 es múltiplo de 3.",
+        "234 ÷ 6 = 39."
+      ]
+    },
+    {
+      "id": "divisibilidad-14",
+      "level": 2,
+      "type": "question",
+      "title": "Reconoce un primo",
+      "body": [],
+      "prompt": "¿Cuál de estos números es primo?",
+      "choices": [
+        {
+          "text": "1",
+          "explanation": "El 1 solo tiene un divisor positivo; un primo debe tener exactamente dos."
+        },
+        {
+          "text": "21",
+          "explanation": "21 = 3 × 7, de modo que es compuesto."
+        },
+        {
+          "text": "29",
+          "explanation": "No es divisible entre 2, 3 ni 5; basta revisar esos primos menores que su raíz cuadrada."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca divisores distintos de 1 y del propio número.",
+      "solution": [
+        "La raíz cuadrada de 29 está entre 5 y 6.",
+        "29 no es divisible entre los primos 2, 3 o 5.",
+        "Por tanto, 29 es primo."
+      ]
+    },
+    {
+      "id": "divisibilidad-15",
+      "level": 2,
+      "type": "question",
+      "title": "Descompón sin perder factores",
+      "body": [],
+      "prompt": "¿Cuál es la factorización prima de 180?",
+      "choices": [
+        {
+          "text": "2 × 3 × 30",
+          "explanation": "El producto vale 180, pero 30 todavía no es primo."
+        },
+        {
+          "text": "2² × 3² × 5",
+          "explanation": "4 × 9 × 5 = 180 y todos los factores de las potencias son primos."
+        },
+        {
+          "text": "2² × 3 × 5",
+          "explanation": "Ese producto vale 60; falta un factor 3."
+        }
+      ],
+      "correct": 1,
+      "hint": "Divide sucesivamente entre primos y verifica multiplicando.",
+      "solution": [
+        "180 = 2 × 90 = 2² × 45.",
+        "45 = 3² × 5.",
+        "180 = 2² × 3² × 5."
+      ]
+    },
+    {
+      "id": "divisibilidad-16",
+      "level": 2,
+      "type": "review",
+      "title": "Un criterio no reemplaza a otro",
+      "body": [
+        "Ser divisible entre 3 no garantiza ser divisible entre 9: 12 es un contraejemplo. Ser par tampoco garantiza divisibilidad entre 6.",
+        "Divisible entre 4 y entre 6 no implica divisible entre 24: 12 cumple lo primero, pero no lo segundo. Los factores compartidos no se cuentan dos veces sin revisar.",
+        "Una factorización prima debe usar únicamente primos y reconstruir exactamente el número original."
+      ]
+    },
+    {
+      "id": "divisibilidad-17",
+      "level": 3,
+      "type": "learn",
+      "title": "Cifras desconocidas y restos",
+      "body": [
+        "Para encontrar una cifra, combina todas las condiciones. Si 5a2 debe ser múltiplo de 9, su suma de cifras 7 + a debe ser 9 o 18. Solo a = 2 es una cifra posible.",
+        "Si un número deja residuo r al dividirse entre d, se puede escribir d × k + r. El siguiente múltiplo de d se encuentra a d − r unidades, si r no es cero.",
+        "Los criterios sirven como filtros. Al terminar, sustituye la cifra y comprueba el número completo."
+      ]
+    },
+    {
+      "id": "divisibilidad-18",
+      "level": 3,
+      "type": "example",
+      "title": "Una cifra que cumple dos criterios",
+      "body": [
+        "Busca la cifra a para que 4a8 sea divisible entre 3 y entre 4.",
+        "Para 4, las dos últimas cifras a8 deben ser múltiplo de 4: a puede ser 0, 2, 4, 6 u 8.",
+        "Para 3, 4 + a + 8 = 12 + a debe ser múltiplo de 3: a puede ser 0, 3, 6 o 9. Las coincidencias son 0 y 6. Los números son 408 y 468."
+      ]
+    },
+    {
+      "id": "divisibilidad-19",
+      "level": 3,
+      "type": "learn",
+      "title": "Cuenta divisores con exponentes",
+      "body": [
+        "Si n = p² × q³ con primos distintos p y q, un divisor elige exponente 0, 1 o 2 para p, y 0, 1, 2 o 3 para q.",
+        "Hay 3 × 4 = 12 combinaciones. En general, para n = p^a × q^b, el número de divisores positivos es (a + 1)(b + 1).",
+        "Esta regla cuenta todos los divisores positivos, incluidos 1 y el propio n. No cuenta solo divisores primos."
+      ]
+    },
+    {
+      "id": "divisibilidad-20",
+      "level": 3,
+      "type": "question",
+      "title": "Encuentra una cifra",
+      "body": [],
+      "prompt": "¿Cuál de estas cifras a hace que 7a2 sea divisible entre 9?",
+      "choices": [
+        {
+          "text": "0",
+          "explanation": "7 + 0 + 2 = 9, que es múltiplo de 9."
+        },
+        {
+          "text": "3",
+          "explanation": "7 + 3 + 2 = 12; alcanza para divisibilidad entre 3, pero no entre 9."
+        },
+        {
+          "text": "6",
+          "explanation": "7 + 6 + 2 = 15, que no es múltiplo de 9."
+        }
+      ],
+      "correct": 0,
+      "hint": "La suma de cifras es 9 + a. Recuerda que a es una cifra entre 0 y 9.",
+      "solution": [
+        "9 + a debe ser 9 o 18.",
+        "Entre las opciones dadas, a = 0 funciona: 702 = 9 × 78.",
+        "También a = 9 funcionaría si se ofreciera; la pregunta pide elegir entre las alternativas."
+      ]
+    },
+    {
+      "id": "divisibilidad-21",
+      "level": 3,
+      "type": "question",
+      "title": "Llega al siguiente múltiplo",
+      "body": [],
+      "prompt": "Un número deja residuo 4 al dividirse entre 7. ¿Cuál es la menor cantidad positiva que debes sumarle para obtener un múltiplo de 7?",
+      "choices": [
+        {
+          "text": "3",
+          "explanation": "Faltan 7 − 4 = 3 para completar un grupo de 7."
+        },
+        {
+          "text": "4",
+          "explanation": "Sumar 4 deja un nuevo residuo 1, porque 4 + 4 = 8."
+        },
+        {
+          "text": "7",
+          "explanation": "Sumar 7 conserva el residuo original 4."
+        }
+      ],
+      "correct": 0,
+      "hint": "Piensa cuánto falta desde el residuo hasta un grupo completo.",
+      "solution": [
+        "El número tiene forma 7k + 4.",
+        "Al sumar 3 queda 7k + 7 = 7(k + 1)."
+      ]
+    },
+    {
+      "id": "divisibilidad-22",
+      "level": 3,
+      "type": "question",
+      "title": "Cuenta sin listar todos",
+      "body": [],
+      "prompt": "¿Cuántos divisores positivos tiene 72 = 2³ × 3²?",
+      "choices": [
+        {
+          "text": "6",
+          "explanation": "3 × 2 usa los exponentes sin incluir la posibilidad de exponente cero."
+        },
+        {
+          "text": "12",
+          "explanation": "Para 2 hay 4 exponentes posibles y para 3 hay 3: 4 × 3 = 12."
+        },
+        {
+          "text": "9",
+          "explanation": "9 no cuenta las 4 posibilidades del exponente de 2 combinadas con las 3 del de 3."
+        }
+      ],
+      "correct": 1,
+      "hint": "Cada exponente puede tomar también el valor cero.",
+      "solution": [
+        "Exponente de 2: 0, 1, 2 o 3; son 4 opciones.",
+        "Exponente de 3: 0, 1 o 2; son 3 opciones.",
+        "Número de divisores = 4 × 3 = 12."
+      ]
+    },
+    {
+      "id": "divisibilidad-23",
+      "level": 3,
+      "type": "question",
+      "title": "Condiciones simultáneas",
+      "body": [],
+      "prompt": "¿Cuántas cifras a hacen que 3a6 sea divisible entre 4 y entre 9?",
+      "choices": [
+        {
+          "text": "Ninguna",
+          "explanation": "Sí existe una cifra que cumple ambos criterios: 9, pues produce 396."
+        },
+        {
+          "text": "Una: a = 0",
+          "explanation": "Con a = 0 aparece 306. Su suma de cifras es 9, pero termina en 06, que no es divisible entre 4."
+        },
+        {
+          "text": "Dos: a = 0 y a = 9",
+          "explanation": "306 no es divisible entre 4 porque 06 = 6 no lo es. Aunque 396 sí lo es, esta opción incluye un número inválido."
+        },
+        {
+          "text": "Una: a = 9",
+          "explanation": "La suma 3 + 9 + 6 = 18 cumple el criterio de 9 y 96 es divisible entre 4."
+        }
+      ],
+      "correct": 3,
+      "hint": "Primero filtra por la suma de cifras; luego revisa las dos últimas.",
+      "solution": [
+        "Para 9, 3 + a + 6 = 9 + a: a puede ser 0 o 9.",
+        "306 termina en 06, que no es divisible entre 4.",
+        "396 termina en 96 = 4 × 24. Solo a = 9 cumple ambas condiciones."
+      ]
+    },
+    {
+      "id": "divisibilidad-24",
+      "level": 3,
+      "type": "review",
+      "title": "Verifica cada condición por separado",
+      "body": [
+        "Una cifra puede cumplir la suma de cifras y fallar el criterio de las últimas dos cifras. No te quedes con el primer filtro.",
+        "Cuando busques una cifra, revisa los valores de 0 a 9 y no supongas que la solución es única. En ocasiones hay varias o ninguna.",
+        "Para contar divisores, suma uno a cada exponente de la factorización prima y multiplica. Comprueba con un número pequeño si necesitas recordar por qué."
+      ]
+    }
+  ]
+}

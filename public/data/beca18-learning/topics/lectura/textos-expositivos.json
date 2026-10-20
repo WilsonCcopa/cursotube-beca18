@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "id": "lectura/textos-expositivos",
+  "course": "lectura",
+  "slug": "textos-expositivos",
+  "title": "Textos expositivos",
+  "description": "Comprende ideas principales, estructuras explicativas y límites de las inferencias.",
+  "version": 1,
+  "order": 2,
+  "estimatedMinutes": 25,
+  "objectives": [
+    "Distinguir tema, idea principal y detalle.",
+    "Reconocer comparación, clasificación, causa y problema-solución.",
+    "Resumir e inferir sin exagerar la evidencia."
+  ],
+  "steps": [
+    {
+      "level": 1,
+      "type": "learn",
+      "title": "Exponer es hacer comprensible",
+      "body": [
+        "Un texto expositivo desarrolla información sobre un tema para que el lector la comprenda. Puede definir, ejemplificar, comparar, clasificar o explicar causas y consecuencias.",
+        "El tema responde ¿de qué trata? La idea principal responde ¿qué afirma principalmente sobre ese tema? Un título de una o dos palabras suele nombrar el tema, pero no basta como idea principal.",
+        "Los detalles sostienen la idea principal: explican una parte, ofrecen un caso o aportan un dato. La idea principal debe cubrir el conjunto sin afirmar más de lo que permite."
+      ],
+      "id": "textos-expositivos-01"
+    },
+    {
+      "level": 1,
+      "type": "example",
+      "title": "Del tema a una oración completa",
+      "body": [
+        "Tema: los bebederos de un vivero. Idea principal: su diseño permite suministrar agua poco a poco a las plantas.",
+        "La forma de la botella y el pequeño orificio son detalles que explican cómo se logra. Resumen resuelto: Una botella perforada puede liberar agua gradualmente junto a una planta."
+      ],
+      "passage": {
+        "title": "Un riego lento",
+        "paragraphs": [
+          "En el vivero se colocan botellas con pequeños orificios cerca de algunas plantas. El agua sale lentamente por esos agujeros y humedece el suelo próximo a las raíces. Este diseño permite distribuir una cantidad de agua durante un periodo más largo que un vertido de una sola vez."
+        ]
+      },
+      "id": "textos-expositivos-02"
+    },
+    {
+      "level": 1,
+      "type": "explore",
+      "title": "Arma la jerarquía de ideas",
+      "body": [
+        "Toca cada tarjeta. Observa cómo el tema se convierte en una afirmación y cómo un ejemplo concreta esa afirmación."
+      ],
+      "diagram": {
+        "kind": "textmap",
+        "nodes": [
+          {
+            "label": "Tema",
+            "text": "Las etiquetas de una colección de semillas."
+          },
+          {
+            "label": "Idea principal",
+            "text": "Registrar el origen y la fecha ayuda a interpretar y comparar una colección de semillas."
+          },
+          {
+            "label": "Detalle",
+            "text": "La fecha permite distinguir recolecciones de distintas temporadas."
+          },
+          {
+            "label": "Ejemplo",
+            "text": "Dos sobres de la misma especie pueden proceder de lugares diferentes; la etiqueta conserva esa diferencia."
+          }
+        ]
+      },
+      "id": "textos-expositivos-03"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Encuentra el tema",
+      "body": [],
+      "passage": {
+        "title": "Bancos de arena",
+        "paragraphs": [
+          "Cuando un río pierde velocidad, parte de los materiales que transporta se deposita en su lecho. La acumulación puede formar bancos de arena. Estos bancos cambian de tamaño o posición si el caudal modifica su fuerza durante otra temporada."
+        ]
+      },
+      "prompt": "¿Cuál es el tema específico?",
+      "choices": [
+        {
+          "text": "La formación y el cambio de los bancos de arena fluviales",
+          "explanation": "Incluye el fenómeno desarrollado en todas las oraciones."
+        },
+        {
+          "text": "Todos los usos del agua de los ríos",
+          "explanation": "El texto no trata del consumo, del riego ni de otros usos."
+        },
+        {
+          "text": "La navegación por mares profundos",
+          "explanation": "No se habla de mares ni se explica la navegación."
+        }
+      ],
+      "correct": 0,
+      "hint": "Nombra el asunto común de las tres oraciones.",
+      "solution": [
+        "Las tres oraciones desarrollan bancos de arena asociados al río.",
+        "El tema debe incluir formación y cambio, sin ampliar a todos los usos del agua."
+      ],
+      "id": "textos-expositivos-04"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Una idea principal suficiente",
+      "body": [],
+      "passage": {
+        "title": "Un archivo compartido",
+        "paragraphs": [
+          "En un archivo comunitario, cada fotografía se registra con una fecha aproximada, un lugar y los nombres que se conocen. Estos datos ayudan a relacionar imágenes y reconocer cambios en el barrio. Una foto sin esos datos puede conservar valor, pero resulta más difícil ubicarla en una historia común."
+        ]
+      },
+      "prompt": "¿Qué expresa mejor la idea principal?",
+      "choices": [
+        {
+          "text": "Toda fotografía antigua tiene una fecha exacta",
+          "explanation": "El texto admite fechas aproximadas y nombres parcialmente conocidos."
+        },
+        {
+          "text": "Registrar información contextual facilita interpretar las fotografías del archivo",
+          "explanation": "Resume para qué sirven fecha, lugar y nombres en el conjunto."
+        },
+        {
+          "text": "Las fotografías sin datos deben eliminarse",
+          "explanation": "El texto reconoce su valor; no propone descartarlas."
+        }
+      ],
+      "correct": 1,
+      "hint": "Busca una afirmación que explique para qué sirven los tres datos.",
+      "solution": [
+        "Fecha, lugar y nombres son ejemplos de información contextual.",
+        "La relación central es que esa información facilita ubicar e interpretar las fotos."
+      ],
+      "id": "textos-expositivos-05"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Distingue un ejemplo",
+      "body": [],
+      "passage": {
+        "title": "Materiales porosos",
+        "paragraphs": [
+          "Un material poroso contiene espacios diminutos en su estructura. Según la conexión entre esos espacios, puede absorber o dejar pasar determinadas sustancias. Una esponja es un ejemplo cotidiano: el agua entra en sus cavidades y puede ser expulsada al presionarla."
+        ]
+      },
+      "prompt": "¿Qué función cumple la esponja?",
+      "choices": [
+        {
+          "text": "Refutar la definición inicial",
+          "explanation": "Su estructura es compatible con la explicación de porosidad."
+        },
+        {
+          "text": "Defender que todos los materiales son esponjas",
+          "explanation": "El texto no convierte un ejemplo en una clase universal."
+        },
+        {
+          "text": "Concretar la explicación mediante un caso familiar",
+          "explanation": "El caso muestra cómo espacios internos pueden recibir agua."
+        }
+      ],
+      "correct": 2,
+      "hint": "Mira cómo un caso particular se vincula con la explicación general.",
+      "solution": [
+        "Primero se presenta una propiedad general de los materiales porosos.",
+        "La esponja permite observarla en un objeto conocido: es una ejemplificación."
+      ],
+      "id": "textos-expositivos-06"
+    },
+    {
+      "level": 1,
+      "type": "question",
+      "title": "Definición y rasgo distintivo",
+      "body": [],
+      "passage": {
+        "title": "Un inventario",
+        "paragraphs": [
+          "Un inventario es un registro organizado de bienes o materiales disponibles en un lugar. Suele indicar qué hay y en qué cantidad. En un taller escolar, por ejemplo, permite saber cuántas tijeras y reglas están disponibles antes de comenzar una actividad."
+        ]
+      },
+      "prompt": "¿Qué información define inventario?",
+      "choices": [
+        {
+          "text": "Es un registro organizado de los bienes o materiales disponibles",
+          "explanation": "Presenta la categoría y el rasgo que delimita el concepto."
+        },
+        {
+          "text": "Solo puede usarse en un taller escolar",
+          "explanation": "El taller es un ejemplo de uso y no una restricción de la definición."
+        },
+        {
+          "text": "Es una actividad para aprender a recortar",
+          "explanation": "Las tijeras aparecen como bienes registrados, no como objetivo del inventario."
+        }
+      ],
+      "correct": 0,
+      "hint": "No confundas el concepto con un lugar donde se aplica.",
+      "solution": [
+        "La primera oración define el término mediante registro y disponibilidad.",
+        "Las siguientes explican su contenido y aportan un ejemplo."
+      ],
+      "id": "textos-expositivos-07"
+    },
+    {
+      "level": 1,
+      "type": "review",
+      "title": "No reduzcas ni exageres",
+      "body": [
+        "Una alternativa demasiado estrecha recoge un detalle y olvida el resto. Una demasiado amplia incorpora asuntos que el texto nunca desarrolla. Una falsa contradice o deforma lo leído.",
+        "Para encontrar la principal, pregunta si la oración propuesta abarca todas las partes. Luego comprueba que cada parte la desarrolla y que no necesita datos externos para sostenerse.",
+        "Una palabra clave repetida suele señalar el tema, pero la idea principal necesita decir algo de ese tema."
+      ],
+      "id": "textos-expositivos-08"
+    },
+    {
+      "level": 2,
+      "type": "learn",
+      "title": "Las relaciones organizan la explicación",
+      "body": [
+        "Causa y consecuencia: explica por qué ocurre algo y qué produce. Comparación: examina semejanzas y diferencias bajo criterios compartidos. Clasificación: agrupa elementos según un criterio. Problema y solución: presenta una dificultad y una respuesta para atenderla.",
+        "Un texto también puede describir un proceso por etapas. En ese caso, la secuencia temporal o de funcionamiento es parte de la explicación; no necesariamente instruye al lector a ejecutarlo.",
+        "Los conectores dan pistas, pero la relación debe existir entre las ideas: por eso suele marcar consecuencia; en cambio, contraste; por ejemplo, un caso."
+      ],
+      "id": "textos-expositivos-09"
+    },
+    {
+      "level": 2,
+      "type": "example",
+      "title": "Sigue la cadena causal",
+      "body": [
+        "Condición inicial: hay poca ventilación. Efecto posible: se acumula vapor. Condición adicional: una superficie está suficientemente fría. Resultado: parte del vapor se condensa.",
+        "La explicación no afirma que toda pared húmeda tenga esa única causa. Respuesta resuelta: el texto organiza una cadena de condiciones y efectos, no una comparación de habitaciones."
+      ],
+      "passage": {
+        "title": "Vaho en la ventana",
+        "paragraphs": [
+          "En un cuarto poco ventilado puede acumularse vapor de agua procedente de distintas actividades. Si ese aire entra en contacto con una ventana suficientemente fría, parte del vapor pasa al estado líquido sobre el vidrio. Por ello se observan pequeñas gotas, aunque no haya llovido dentro del cuarto."
+        ]
+      },
+      "id": "textos-expositivos-10"
+    },
+    {
+      "level": 2,
+      "type": "explore",
+      "title": "Localiza las relaciones",
+      "body": [
+        "Toca cada fragmento para revelar su papel. No basta reconocer el conector: identifica qué idea depende de cuál."
+      ],
+      "diagram": {
+        "kind": "highlight",
+        "fragments": [
+          {
+            "text": "El depósito quedó destapado durante la noche.",
+            "role": "Condición que inicia la explicación"
+          },
+          {
+            "text": "Por ello, parte del agua se evaporó.",
+            "role": "Consecuencia del contacto del agua con el aire"
+          },
+          {
+            "text": "En cambio, el depósito cerrado perdió menos agua en esa comparación.",
+            "role": "Contraste entre las dos condiciones observadas"
+          },
+          {
+            "text": "El resultado corresponde a esos depósitos y a esa noche.",
+            "role": "Límite del alcance de la observación"
+          }
+        ]
+      },
+      "id": "textos-expositivos-11"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Una comparación bien leída",
+      "body": [],
+      "passage": {
+        "title": "Dos cubiertas para un cuaderno",
+        "paragraphs": [
+          "La cubierta de cartón es ligera y puede doblarse si recibe presión. La de plástico flexible tolera mejor las salpicaduras, aunque su resistencia depende del espesor. Ambas protegen las hojas durante el uso cotidiano, pero ninguna garantiza que el cuaderno permanezca intacto bajo cualquier golpe o exposición al agua."
+        ]
+      },
+      "prompt": "¿Qué organización predomina?",
+      "choices": [
+        {
+          "text": "Problema y solución definitiva",
+          "explanation": "No se plantea una dificultad seguida de una respuesta que la elimine."
+        },
+        {
+          "text": "Comparación según propiedades y límites",
+          "explanation": "Se contrastan peso, flexibilidad y tolerancia al agua y se menciona una función común."
+        },
+        {
+          "text": "Narración de la fabricación de un cuaderno",
+          "explanation": "No hay acontecimientos ni etapas de fabricación."
+        }
+      ],
+      "correct": 1,
+      "hint": "Observa si se usan criterios comunes para hablar de dos opciones.",
+      "solution": [
+        "Se presentan dos materiales y se comparan sus propiedades.",
+        "También se indican semejanzas y límites: la organización es comparativa."
+      ],
+      "id": "textos-expositivos-12"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Un criterio de clasificación",
+      "body": [],
+      "passage": {
+        "title": "Ordenar las hojas",
+        "paragraphs": [
+          "Para observar una colección botánica, un grupo separa las hojas según la forma de su borde. Reúne en una categoría las de borde liso y en otra las que presentan dientes visibles. El color se registra después como una característica adicional, sin cambiar esa primera agrupación."
+        ]
+      },
+      "prompt": "¿Cuál es el criterio de la clasificación inicial?",
+      "choices": [
+        {
+          "text": "El color de cada hoja",
+          "explanation": "El color se registra después y no determina los primeros grupos."
+        },
+        {
+          "text": "El lugar de recolección",
+          "explanation": "No se menciona como criterio en el texto."
+        },
+        {
+          "text": "La forma del borde",
+          "explanation": "Liso o con dientes son las dos categorías establecidas por ese rasgo."
+        }
+      ],
+      "correct": 2,
+      "hint": "Encuentra la propiedad que decide a qué grupo va cada elemento.",
+      "solution": [
+        "Las categorías iniciales son borde liso y borde con dientes.",
+        "Ambas dependen de la forma del borde; el color es un dato posterior."
+      ],
+      "id": "textos-expositivos-13"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Problema y respuesta",
+      "body": [],
+      "passage": {
+        "title": "Devolver libros sin filas",
+        "paragraphs": [
+          "Al terminar el recreo, muchas personas intentaban devolver libros a la vez y se formaba una fila que bloqueaba la puerta. La biblioteca instaló una caja de devoluciones junto al pasillo y fijó dos momentos para registrar lo recibido. Así separó la entrega de la revisión y redujo la acumulación en la entrada."
+        ]
+      },
+      "prompt": "¿Qué relación organiza el texto?",
+      "choices": [
+        {
+          "text": "Un problema y una medida para atenderlo",
+          "explanation": "La congestión inicial da lugar a una modificación que reduce esa dificultad."
+        },
+        {
+          "text": "Dos opiniones opuestas sin solución",
+          "explanation": "No se enfrentan posturas: se describe una medida y su resultado."
+        },
+        {
+          "text": "Una clasificación de libros por tema",
+          "explanation": "Los libros no se agrupan por contenidos ni por categorías."
+        }
+      ],
+      "correct": 0,
+      "hint": "Señala la dificultad inicial y la función de la caja.",
+      "solution": [
+        "La fila que bloqueaba la puerta es el problema.",
+        "Separar entrega y revisión es la respuesta que busca aliviarlo."
+      ],
+      "id": "textos-expositivos-14"
+    },
+    {
+      "level": 2,
+      "type": "question",
+      "title": "Proceso o instrucción",
+      "body": [],
+      "passage": {
+        "title": "Del charco al aire",
+        "paragraphs": [
+          "Después de una lluvia, el agua de un charco intercambia energía con su entorno. Algunas moléculas de la superficie pasan al aire como vapor. El proceso continúa aunque el agua no hierva; su rapidez cambia con condiciones como la temperatura, el movimiento del aire y la humedad ambiental."
+        ]
+      },
+      "prompt": "¿Por qué este texto es expositivo y no instructivo?",
+      "choices": [
+        {
+          "text": "Porque nunca menciona acciones",
+          "explanation": "Pasar al aire es un proceso; el criterio no es la ausencia de acciones."
+        },
+        {
+          "text": "Porque explica un proceso sin ordenar al lector que lo ejecute",
+          "explanation": "Describe qué ocurre y de qué condiciones depende."
+        },
+        {
+          "text": "Porque todos los textos sobre agua son expositivos",
+          "explanation": "El tema no determina el tipo: también puede aparecer en relatos o instrucciones."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue explicar cómo sucede de indicar qué debes hacer.",
+      "solution": [
+        "No hay una tarea que el lector deba realizar siguiendo pasos.",
+        "Se desarrolla el funcionamiento de la evaporación y sus condiciones: exposición."
+      ],
+      "id": "textos-expositivos-15"
+    },
+    {
+      "level": 2,
+      "type": "review",
+      "title": "Conector más ideas, nunca conector solo",
+      "body": [
+        "Si leíste por eso y elegiste causa, revisa el sentido: la expresión suele introducir la consecuencia. La causa puede estar en la oración anterior.",
+        "Si confundiste clasificación y comparación, observa la operación: clasificar distribuye en grupos según un criterio; comparar relaciona elementos usando uno o más criterios.",
+        "Si elegiste una solución definitiva, comprueba el alcance. Reducir una dificultad no equivale a eliminarla en todos los casos."
+      ],
+      "id": "textos-expositivos-16"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Información explícita e inferencia controlada",
+      "body": [
+        "Una información explícita está afirmada en el texto, aunque la alternativa la parafrasee. Una inferencia une pistas para obtener una conclusión que el texto permite, sin añadir supuestos innecesarios.",
+        "Palabras como algunos, puede, en estas condiciones y durante el ensayo delimitan el alcance. Sustituirlas por todos, siempre o demuestra definitivamente suele producir una conclusión exagerada.",
+        "La idea principal puede aparecer al inicio, al final o construirse al integrar el texto. La posición orienta, pero no reemplaza la comprensión."
+      ],
+      "id": "textos-expositivos-17"
+    },
+    {
+      "level": 3,
+      "type": "example",
+      "title": "Concluye solo hasta donde alcanza",
+      "body": [
+        "Dato: el grupo con pantalla usó menos agua durante cuatro días. Límite: se observaron solo dos macetas en esas condiciones.",
+        "Inferencia válida: la pantalla pudo influir en la pérdida de agua del ensayo y conviene ampliar la observación. Inferencia inválida: toda planta del mundo necesita una pantalla. Esa generalización sobrepasa la evidencia."
+      ],
+      "passage": {
+        "title": "Dos macetas",
+        "paragraphs": [
+          "En un ensayo escolar se colocaron dos macetas semejantes cerca de una ventana. Una recibió una pantalla que reducía la luz directa. Durante cuatro días, el grupo repuso menos agua en esa maceta. Los estudiantes registraron el resultado y propusieron repetir la observación con más macetas antes de atribuir la diferencia únicamente a la pantalla."
+        ]
+      },
+      "id": "textos-expositivos-18"
+    },
+    {
+      "level": 3,
+      "type": "learn",
+      "title": "Resume la explicación sin inventar una tesis",
+      "body": [
+        "Para resumir, conserva el tema y la relación principal; elimina ejemplos repetidos y detalles secundarios. Si el texto compara, el resumen debe conservar el criterio de comparación. Si explica causas, debe conservar el vínculo causal.",
+        "En una exposición, recomendar una política puede exceder el texto. Que una propiedad sea útil no demuestra que el autor pida comprar, prohibir o imponer algo."
+      ],
+      "id": "textos-expositivos-19"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Una conclusión proporcionada",
+      "body": [],
+      "passage": {
+        "title": "Una prueba con recipientes",
+        "paragraphs": [
+          "Un grupo dejó dos recipientes con igual cantidad inicial de agua en el mismo patio. Uno tenía una tapa ajustada y el otro permaneció abierto. Después de seis horas, el nivel del recipiente abierto había descendido más. Los estudiantes repitieron el procedimiento una vez y obtuvieron una diferencia semejante. No midieron qué ocurriría con otros tamaños de recipiente o con distintas temperaturas."
+        ]
+      },
+      "prompt": "¿Qué conclusión está mejor respaldada?",
+      "choices": [
+        {
+          "text": "En esas pruebas, el recipiente abierto perdió más agua que el tapado",
+          "explanation": "Respeta las condiciones y el resultado observado, sin extenderlos a todos los casos."
+        },
+        {
+          "text": "Cualquier tapa evita por completo toda pérdida de agua",
+          "explanation": "El texto no afirma pérdida nula ni compara cualquier tipo de tapa."
+        },
+        {
+          "text": "La temperatura no afecta la evaporación",
+          "explanation": "No se variaron temperaturas, así que no puede establecerse esa independencia."
+        }
+      ],
+      "correct": 0,
+      "hint": "Conserva los límites del ensayo en la conclusión.",
+      "solution": [
+        "Se compararon dos condiciones concretas y se repitió una vez.",
+        "La conclusión válida debe referirse a esas pruebas, sin convertir el resultado en una ley universal."
+      ],
+      "id": "textos-expositivos-20"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Integra la idea principal",
+      "body": [],
+      "passage": {
+        "title": "La huella de un registro",
+        "paragraphs": [
+          "Un mapa de un barrio puede mostrar sus calles actuales sin explicar cuándo aparecieron. Al combinarlo con planos antiguos se reconocen trazos que cambiaron y zonas que conservaron su forma. Las fotografías añaden detalles de edificios y usos del espacio que los planos no siempre registran. Ninguna de estas fuentes cuenta por sí sola toda la historia; al relacionarlas se construye una interpretación más completa de los cambios del barrio."
+        ]
+      },
+      "prompt": "¿Cuál es la idea principal?",
+      "choices": [
+        {
+          "text": "Los planos antiguos siempre son más exactos que los actuales",
+          "explanation": "No se establece una superioridad universal de exactitud."
+        },
+        {
+          "text": "Las fotografías sustituyen por completo a los mapas",
+          "explanation": "El texto destaca aportes complementarios, no reemplazos."
+        },
+        {
+          "text": "Relacionar fuentes distintas permite comprender mejor los cambios del barrio",
+          "explanation": "Integra las contribuciones y los límites de mapas, planos y fotografías."
+        }
+      ],
+      "correct": 2,
+      "hint": "Busca una afirmación que conserve tanto la complementariedad como el tema.",
+      "solution": [
+        "Cada fuente aporta una parte y deja otras sin registrar.",
+        "La relación entre ellas permite una interpretación más completa del cambio barrial."
+      ],
+      "id": "textos-expositivos-21"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Detecta una inferencia añadida",
+      "body": [],
+      "passage": {
+        "title": "Etiquetas visibles",
+        "paragraphs": [
+          "En un almacén escolar, los materiales de uso frecuente se ubicaron en cajas con etiquetas grandes. Durante la semana siguiente, quienes conocían el sistema encontraron esos materiales con menos preguntas al encargado. El informe aclara que no se midió el tiempo exacto de búsqueda y que algunas personas nuevas todavía necesitaron orientación para comprender las categorías."
+        ]
+      },
+      "prompt": "¿Qué afirmación NO está respaldada?",
+      "choices": [
+        {
+          "text": "Algunas personas nuevas necesitaron ayuda",
+          "explanation": "La última oración lo afirma expresamente."
+        },
+        {
+          "text": "El sistema eliminó las consultas de todos los usuarios",
+          "explanation": "Se dice menos preguntas entre quienes lo conocían y se reconoce que otros necesitaron orientación."
+        },
+        {
+          "text": "No se midió el tiempo exacto de búsqueda",
+          "explanation": "El informe delimita explícitamente esa medición ausente."
+        }
+      ],
+      "correct": 1,
+      "hint": "Distingue menos de ninguna, y un grupo de todos.",
+      "solution": [
+        "La reducción descrita corresponde a personas familiarizadas con el sistema.",
+        "Eliminar todas las consultas añade una universalidad que el texto contradice."
+      ],
+      "id": "textos-expositivos-22"
+    },
+    {
+      "level": 3,
+      "type": "question",
+      "title": "Elige un resumen fiel",
+      "body": [],
+      "passage": {
+        "title": "Dos modos de conservar relatos",
+        "paragraphs": [
+          "Una grabación conserva la voz, las pausas y parte del ambiente de una conversación. Sin embargo, localizar un fragmento puede exigir escuchar varios minutos. Una transcripción permite buscar palabras y recorrer el contenido con rapidez, aunque no reproduce por completo la entonación. Por eso, en un archivo de historias orales, ambos registros pueden cumplir funciones complementarias si se vinculan con datos que permitan reconocer a qué conversación pertenecen."
+        ]
+      },
+      "prompt": "¿Cuál es el resumen más fiel?",
+      "choices": [
+        {
+          "text": "Las transcripciones son inútiles porque no guardan la voz",
+          "explanation": "El texto reconoce su utilidad para localizar palabras y recorrer contenido."
+        },
+        {
+          "text": "Toda conversación debe grabarse para ser verdadera",
+          "explanation": "No se afirma una obligación ni se discute si una conversación es verdadera."
+        },
+        {
+          "text": "Grabación y transcripción conservan aspectos distintos y pueden complementarse en un archivo",
+          "explanation": "Mantiene los criterios de comparación y la conclusión, sin inventar una obligación."
+        }
+      ],
+      "correct": 2,
+      "hint": "Conserva ventajas, límites y relación final, sin enumerar todos los detalles.",
+      "solution": [
+        "La comparación presenta lo que conserva cada registro y sus limitaciones.",
+        "La conclusión los integra como complementarios; ese vínculo debe permanecer en el resumen."
+      ],
+      "id": "textos-expositivos-23"
+    },
+    {
+      "level": 3,
+      "type": "review",
+      "title": "Controla el alcance de lo leído",
+      "body": [
+        "Antes de responder una inferencia, subraya mentalmente las condiciones: quiénes, cuándo, cuántos y en qué situación. Comprueba que la alternativa no los borre.",
+        "Si confundiste un resumen con un detalle, verifica que la opción explique la función de todas las partes. Si confundiste una inferencia con una opinión propia, busca las pistas concretas que la sostienen.",
+        "Puedes releer sin penalización: vuelve al párrafo relevante, formula la relación principal con tus palabras y recién después compara las alternativas."
+      ],
+      "id": "textos-expositivos-24"
+    }
+  ]
+}
